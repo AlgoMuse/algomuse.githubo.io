@@ -17,9 +17,25 @@ We give solutions to the exam's past problems that are more insightful than the 
 
 ---
 
+
 ## Getting started
 
 ### Dependencies
+
+
+$$x^2+y^2 = \int_5^6 f(x) dx$$
+
+\\[ x^2+y^2 = \int_5^6 f(x) dx \\]
+
+
+\[ x^2+y^2 = \int_5^6 f(x) dx \]
+
+
+This is meant to be inline text \( x^2+y^2 = \int_5^6 f(x) dx \).
+
+This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
+
+
 
 Just the Docs is built for [Jekyll](https://jekyllrb.com), a static site generator. View the [quick start guide](https://jekyllrb.com/docs/) for more information. Just the Docs requires no special plugins and can run on GitHub Pages' standard Jekyll compiler. The [Jekyll SEO Tag plugin](https://github.com/jekyll/jekyll-seo-tag) is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the [Jekyll SEO Tag usage guide](https://jekyll.github.io/jekyll-seo-tag/usage/).
 

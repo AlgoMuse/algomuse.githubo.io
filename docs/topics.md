@@ -35,6 +35,21 @@ Can we include  $$x^2$$  like this or like this:
 $$ x^2 + y^2 = 5 $$
 
 
+$$x^2+y^2 = \int_5^6 f(x) dx$$
+
+\\[ x^2+y^2 = \int_5^6 f(x) dx \\]
+
+
+\[ x^2+y^2 = \int_5^6 f(x) dx \]
+
+
+This is meant to be inline text \( x^2+y^2 = \int_5^6 f(x) dx \).
+
+
+
+
+
+
 ## Search
 
 ```yaml

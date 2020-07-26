@@ -98,6 +98,7 @@ ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (t
 
 
 markdown: kramdown
+# mathjax: true
 
 plugins:
   - jekyll-seo-tag
