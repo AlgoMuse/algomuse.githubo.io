@@ -36,8 +36,7 @@ This is meant to be inline text \( x^2+y^2 = \int_5^6 f(x) dx \).
 This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
 
 
-\begin{align}
-  & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+\begin{align}   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\\\\\\\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
       \phi(e_1, e_1) & \cdots & \phi(e_1, e_n) \\\\\\\\
@@ -50,8 +49,6 @@ This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
       y_n
     \end{array} \right)
 \end{align}
-
-
 
 
 
@@ -87,6 +84,45 @@ This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
 \\]
 
 
+
+
+\begin{equation}
+EF = \frac{\sqrt{5}}{2}EX'
+\label{eq:triangle}\tag{1}
+\end{equation}
+
+
+From \eqref{eq:triangle}, we conclude \\( EF = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) = (5-2\sqrt{5}) \\) cm.
+
+
+\\[  \tan \theta = \frac{\vert EX' \vert}{1 - \vert EX' \vert/2}  \\]
+
+
+\begin{align}
+\tan \theta & = \frac{EX'}{BX'} \\\\\\\\
+ & = \frac{\vert EX' \vert}{1 - \vert EX' \vert/2} \hskip{1cm} \text{ since } ABC \cong EFC
+\end{align}
+
+
+
+From \eqref{eq:triangle}, we conclude
+
+$$ EX = \frac{\sqrt{5}}{2} $$
+
+$$(2\sqrt{5}-4) = (5-2\sqrt{5}) $$ cm.
+
+
+This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
+
+
+
+\\[ \tan 2\theta = \frac{AX}{BX} = \frac{2\tan \theta}{1-\tan^2\theta} \\]
+
+
+\\[ \frac{AX}{BX}=2 \therefore  \tan \theta = \frac{-1+\sqrt{5}}{2} \\]
+
+
+ <img style="float:right;" src="assets/images/cmi2010_bisector.svg">
 
 
 
