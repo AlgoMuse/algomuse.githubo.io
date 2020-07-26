@@ -7,14 +7,13 @@ permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
-# CMI Entrance Exam
-{: .fs-9 }
+## Want to study at Chennai Mathematical Institute?
 
-Are you among the minority of students who wants to purse a B.Sc in mathematics? Then this website is for you.
-We give detailed solutions to CMI's past problems and provide topic-specific tips.
-{: .fs-6 .fw-300 }
+The B.Sc. program at CMI is the best of its kind in India. Cracking their entrance exam requires strong problem-solving skills in math.
+We give solutions to the exam's past problems that are more insightful than the official solutions.
+{: .fs-5 .fw-300 }
 
-[Get started now](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/pmarsceill/just-the-docs){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Topics](/docs/configuration){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
