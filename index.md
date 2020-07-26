@@ -13,7 +13,7 @@ The B.Sc. program at CMI is the best of its kind in India. Cracking their entran
 We give solutions to the exam's past problems that are more insightful than the official solutions.
 {: .fs-5 .fw-300 }
 
-[Topics](/docs/configuration){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Topics](/docs/configuration){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
