@@ -9,7 +9,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 
 ## Want to study at Chennai Mathematical Institute?
 
-The B.Sc. program at CMI is the best of its kind in India. Cracking their entrance exam requires strong problem-solving skills in math.
+The B.Sc. program at CMI is the best of its kind in India. Cracking its entrance exam requires strong problem-solving skills in math.
 We give solutions to the exam's past problems that are more insightful than the official solutions.
 {: .fs-5 .fw-300 }
 
