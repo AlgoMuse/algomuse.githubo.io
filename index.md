@@ -36,7 +36,7 @@ This is meant to be inline text \( x^2+y^2 = \int_5^6 f(x) dx \).
 This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
 
 
-\\[ \begin{align*}
+\begin{align*}
   & \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i y_j \phi(e_i, e_j) = \\
   & (x_1, \ldots, x_n) \left( \begin{array}{ccc}
@@ -49,7 +49,22 @@ This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
       \vdots \\
       y_n
     \end{array} \right)
-\end{align*}\\]
+\end{align*}
+
+
+\begin{align}
+    \Phi(0,x) = \max_{u \in \mathcal{D}} \bigg[
+        \mathbb{E} & \Phi\left(1,
+        x + \int_0^1 \sigma^2(s) \, \zeta(s) \, u_s \, ds
+        + \int_0^1 \sigma(s) \, dW_s
+    \right) \\\\\\\\
+        &- \frac{1}{2} \int_0^1 \sigma^2(s) \, \zeta(s) \,
+        \mathbb{E} u_s^2  \, ds
+    \bigg].
+\end{align}
+
+
+
 
 
 
