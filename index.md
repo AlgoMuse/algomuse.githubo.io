@@ -7,7 +7,7 @@ permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
-## Want to study at Chennai Mathematical Institute?
+# Want to study at Chennai Mathematical Institute?
 
 The B.Sc. program at CMI is the best of its kind in India. Cracking its entrance exam requires strong problem-solving skills in math.
 We give solutions to the exam's past problems that are more insightful than the official solutions.
@@ -86,22 +86,32 @@ This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
 
 
 
+We want to find the side length of the rhombus \\(BDEF\\).  We will find the length of \\(EF\\). Let \\( AX \\) and \\( EX' \\) be the perpendiculars of triangles \\(ABC\\) and \\(EFC\\).
+
+
+We know that \\( FX'= EX'/2 \\)  since \\( ABC \cong EFC \\).
+
 \begin{equation}
-EF = \frac{\sqrt{5}}{2}EX'
+EF = \frac{\sqrt{5}}{2}EX' \hskip{3pt} \text{since }EX'F\text{ is a right angled triangle}
 \label{eq:triangle}\tag{1}
 \end{equation}
+
+<img style="float:right;" src="assets/images/cmi2010_bisector.svg">
+
+All we have to do is find the length of \\( EX' \\).
+
+\begin{align}
+\tan \theta & = \frac{EX'}{BX'} \\\\\\\\
+ & = \frac{\vert EX' \vert}{1 - \vert EX' \vert/2} \hskip{5pt} \text{ since } ABX \cong EFX'
+ EX' & = \frac{2\tan \theta}{2+\tan \theta} \hskip{5pt} \text{ by rearranging }
+\end{align}
 
 
 From \eqref{eq:triangle}, we conclude \\( EF = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) = (5-2\sqrt{5}) \\) cm.
 
 
-\\[  \tan \theta = \frac{\vert EX' \vert}{1 - \vert EX' \vert/2}  \\]
 
 
-\begin{align}
-\tan \theta & = \frac{EX'}{BX'} \\\\\\\\
- & = \frac{\vert EX' \vert}{1 - \vert EX' \vert/2} \hskip{1cm} \text{ since } ABC \cong EFC
-\end{align}
 
 
 
@@ -122,7 +132,6 @@ This is meant to be inline text \\( x^2+y^2 = \int_5^6 f(x) dx \\).
 \\[ \frac{AX}{BX}=2 \therefore  \tan \theta = \frac{-1+\sqrt{5}}{2} \\]
 
 
- <img style="float:right;" src="assets/images/cmi2010_bisector.svg">
 
 
 
