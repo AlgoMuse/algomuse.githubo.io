@@ -2,6 +2,7 @@
 layout: default
 title: Configuration
 nav_order: 2
+nav_exclude: true
 ---
 
 # Configuration
@@ -86,7 +87,7 @@ heading_anchors: true
 ## Footer content
 
 ```yaml
-# Footer content 
+# Footer content
 # appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
 

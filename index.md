@@ -5,6 +5,10 @@ nav_order: 1
 description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
+
+ga_tracking: UA-174043892-1
+ga_tracking_anonymize_ip: true
+
 ---
 
 # Want to study at Chennai Mathematical Institute?
@@ -13,7 +17,7 @@ The B.Sc. program at CMI is the best of its kind in India. Cracking its entrance
 We give solutions to the exam's past problems that are more insightful than the official solutions.
 {: .fs-5 .fw-300 }
 
-[View Topics](/docs/configuration){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View Topics](/docs/topics){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
@@ -42,15 +46,30 @@ S&= \frac{ 10^{2k+3} - 99k - 109}{99\times 9}
 ### Is a square? [2019]
 For what values of \\( n \\) is \\( n^6 + n^4 + 1 \\) a square of a natural number?
 
+
+
 #### Solution
 
-Every odd square is \\(1\mod 8\\), so \\(n\\) cannot be odd.
+We will handle odd and even cases separately.
+
+*Lemma.* Every odd square is \\(1 \bmod 8\\).
+
+\\[ (2k+1)^2=4k^2+4k+1=4(k^2+k)+1 \\]
+
+Since \\( 4(k^2+k) \\) is divisible by 8, the lemma follows. \\(\square\\)
+
+*Case 1.* If \\(n\\) is odd, then the given expression \\(S:=n^6+n^4+1\\) cannot be a square since \\(S\equiv 3\pmod 8\\). Hence \\(n\\) is not odd.
+
+*Case 2.* If \\(n=2\\), we have \\(S=81\\), so we have one solution. If \\(n>2\\) and is even we have:
+
+\\[ \left(n^3+\frac{n}{2}\right)^2=n^6+n^4+\frac{n^2}{4}> S > n^6+n^4-2n^3+\frac{n^2}{4}-n+1=\left(n^3+\frac{n}{2}-1\right)^2 \\]
+
+\\( S \\) is a number strictly inbetween two consecutive squares, so there are no solutions for \\(n>2\\).
 
 
+*Official solution*
 
-\\[ \left(n^3+\frac{n}{2}\right)^2=n^6+n^4+\frac{n^2}{4}> {n^6+n^4+1}> n^6+n^4-2n^3+\frac{n^2}{4}-n+1=\left(n^3+\frac{n}{2}-1\right)^2 \\]
-
-
+![](./assets/images/cmi_solution_2019.png)
 
 
 
