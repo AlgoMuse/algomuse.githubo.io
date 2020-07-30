@@ -6,9 +6,6 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 last_modified_date: 2020-04-27T17:54:08+0000
 
-ga_tracking: UA-174043892-1
-ga_tracking_anonymize_ip: true
-
 ---
 
 # Want to study at Chennai Mathematical Institute?
