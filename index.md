@@ -14,7 +14,9 @@ The B.Sc. program at CMI is the best of its kind in India. Cracking its entrance
 We give solutions to the exam's past problems that are more insightful than the official solutions.
 {: .fs-5 .fw-300 }
 
+<!--
 [View Topics](/docs/topics){: .btn .fs-5 .mb-4 .mb-md-0 }
+-->
 
 ---
 
@@ -110,7 +112,8 @@ EF & = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) \hskip{5pt} \text{From \eqref{eq:triangle
 
 
 
-Hence the side length of the rhombus is  \\( (5-2\sqrt{5}) \\) cm  \\(\hskip{1pt} \square \\)
+Hence the side length of the rhombus is  \\( (5-2\sqrt{5}) \\) cm.
+
 
 
 
