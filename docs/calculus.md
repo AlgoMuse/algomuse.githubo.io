@@ -8,6 +8,30 @@ nav_order: 4
 # Calculus
 
 
+
+### Vanilla application of L'Hospital
+{: .d-inline-block }
+
+A3, 2011
+{: label .label-blue}
+
+Evaluation the limit:
+
+\\[ \lim_{x \rightarrow 1}\left(\frac{n- \displaystyle \sum_{k=1}^n x^{k}}{1-x}\right) \\]
+
+
+#### Solution
+
+We apply the L'Hospital's rule and differentiate both the numerator and the denominator.
+
+\begin{array}{rl}
+ \lim_{x\rightarrow 1}&\displaystyle \frac{-n x^{n-1}-(n-1) x^{n-2}-\cdots-x-1}{-1}  \\\\\\\\
+ \lim_{x\rightarrow 1}&\displaystyle \frac{n(n-1)}{2}
+\end{array}
+
+
+
+
 ### Only one real root
 {: .d-inline-block }
 
@@ -19,7 +43,7 @@ Suppose \\(f(x) = x^3 + x^2 + cx + d\\), where \\(c\\) and \\(d\\) are real numb
 then \\(f\\) has exactly one real root.
 
 
-*Requires calculus*.
+*Requires algebra too*.
 
 #### Solution
 
@@ -34,7 +58,12 @@ The discriminant of the above quadratic, \\(2^2-4\cdot3\cdot c\\), is negative w
 Hence, \\(f'(x)\\) is always positive in \\(\mathbb{R}\\).
 
 
-### Rolle's theorem [A9,2011]
+### Rolle's theorem
+{: .d-inline-block }
+
+A9, 2011
+{: label .label-blue}
+
 A real-valued function \\(f(x)\\) defined on a closed interval \\([a,b]\\) has the property
 that \\(f(a)=f(b)=0\\) and \\(f(x)=f'(x)+f^{\prime\prime}(x)\\) for all \\(x\\) in \\([a,b]\\). Show that \\(f(x)=0\\) for
 all \\(x\\) in \\([a,b]\\).
@@ -56,8 +85,30 @@ If \\(f(c)\\) is the local maxima, then \\(f(c)>0\\), \\(f'(c)=0\\) and
 
 
 
+---
 
 
+2019
+--
+
+Let \\(f\\) be a real valued continuous function defined on \\(\mathbb{R}\\) satisfying
+\\(f^{\prime}\left(\tan ^{2} \theta\right)=\cos 2 \theta+\tan \theta \sin 2 \theta,\\) for all real numbers \\(\theta\\)
+If \\(f^{(0)}=-\cos \frac{\pi}{12}\\) then find \\(f(1)\\)
+
+#### Solution
+
+Note there was a typo in the exam; it was printed \\(f^{\prime}(0)\\) instead of \\(f(0)\\). Answer: \\(\mathrm{P}\\) ut \\(y=\tan ^{2} \theta .\\) Then we have
+\\[
+f^{\prime}(y)=1
+\\]
+Hence the answer is \\(1-\cos \frac{\pi}{12}\\).
+
+
+
+
+
+
+<!--
 
 <table>
 <tr>
@@ -84,4 +135,5 @@ If \\(f(c)\\) is the local maxima, then \\(f(c)>0\\), \\(f'(c)=0\\) and
 
 
 
+-->
 
