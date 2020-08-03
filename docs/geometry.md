@@ -105,9 +105,9 @@ A2, 2011
 In a rectangle ABCD, the length BC is twice the width AB. Pick a point P on side BC
 such that the lengths of AP and BC are equal. The measure of angle CPD is
 
-- [ ] 75◦
-- [ ] 60◦
-- [ ] 45◦
+- [ ] \\(75^{\circ}\\)
+- [ ] \\(60^{\circ}\\)
+- [ ] \\(45^{\circ}\\)
 - [ ] none of the above
 
 
@@ -124,7 +124,7 @@ AX &= \sqrt{3} \\\\\\\\
 
 Hence, the length of CP is \\( 2-\sqrt{3} \\). The angle CPD is \\( \arctan \frac{1}{CP}  = \arctan \frac{1}{2 - \sqrt{3}} \\) .
 
-We can verify that the answer is \\( 75^\arc \\).
+We can verify that the answer is \\( 75^{\circ} \\).
 
 
 
