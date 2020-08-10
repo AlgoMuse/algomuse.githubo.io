@@ -16,9 +16,28 @@ We give solutions to the exam's past problems that are more insightful than the 
 
 <!--
 [View Topics](/docs/topics){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+
+
+CMI Question | Similar problem in Problem solving strategies
+|---|--|
+2019 Problem 6 |  Problem 76, Ch. 6. Number theory
+2011 Problem 5, Part B    |  Problem 34, Ch. 5, Enumerative Combinatorics
+
+
+
+
+https://amzn.to/30EkFAk
+
+
 -->
 
----
+
+
+
+
+
+
 
 
 ## Sample questions

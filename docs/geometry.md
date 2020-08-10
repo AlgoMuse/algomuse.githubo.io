@@ -170,8 +170,13 @@ The rhombus ACBD is made up of two equilateral triangles so its area is \\( 2\ti
 
 
 
+### An old russian problem
+{: .d-inline-block}
+
+B6, 2011
+{: .label}
 
 
-
+https://www.cut-the-knot.org/Curriculum/Geometry/GeoGebra/ProjectionsInInscribedQuadrilateral.shtml#solution
 
 

@@ -88,19 +88,31 @@ If \\(f(c)\\) is the local maxima, then \\(f(c)>0\\), \\(f'(c)=0\\) and
 ---
 
 
-2019
---
+### A simple substitution
+{: .d-inline-block }
+
+A2, 2011
+{: label .label-blue}
+
+
 
 Let \\(f\\) be a real valued continuous function defined on \\(\mathbb{R}\\) satisfying
 \\(f^{\prime}\left(\tan ^{2} \theta\right)=\cos 2 \theta+\tan \theta \sin 2 \theta,\\) for all real numbers \\(\theta\\)
-If \\(f^{(0)}=-\cos \frac{\pi}{12}\\) then find \\(f(1)\\)
+If \\(f(0)=-\cos \frac{\pi}{12}\\) then find \\(f(1)\\)
 
 #### Solution
 
-Note there was a typo in the exam; it was printed \\(f^{\prime}(0)\\) instead of \\(f(0)\\). Answer: \\(\mathrm{P}\\) ut \\(y=\tan ^{2} \theta .\\) Then we have
-\\[
-f^{\prime}(y)=1
-\\]
+Substitute \\(t=\tan^{2} \theta \\). Then we have
+\begin{align}
+f'(\tan^2\theta) & = \cos 2\theta(1+\tan \theta \tan 2\theta ) \\\\\\\\
+f'(\tan^2\theta) & = \frac{1-\tan^2\theta}{1+\tan^2\theta} \left( 1 + \frac{2\tan^2\theta}{1-\tan^2\theta} \right) \\\\\\\\
+f'(t) & = \frac{1-t}{1+t} \left( 1 + \frac{2t}{1-t} \right) \quad\text{ where } t=\tan^2 \theta \\\\\\\\
+f'(t) & = 1 \\\\\\\
+f(t) & = t + constant
+\end{align}
+
+
+
 Hence the answer is \\(1-\cos \frac{\pi}{12}\\).
 
 

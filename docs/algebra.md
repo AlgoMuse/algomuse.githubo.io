@@ -79,7 +79,8 @@ what can you say about their sum \\( S = a_1 + a_2 + · · · + a_{2011} \\)?
 - [x] \\( 2011 \leq  S \text{ and }  S\;\\) is unbounded above.
 - [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is bounded above.
 
-*Explanation*. The first inequality follows from AM-GM inequality. To see why \\(S\\) is unbounded, set
+#### Solution
+The first inequality follows from AM-GM inequality. To see why \\(S\\) is unbounded, set
 \\( a_1=n \\), \\(a_2=1/n\\) and the rest of \\( a_is\\) to 1. The sum \\(S>n\\) for any \\(n\\).
 
 
@@ -91,8 +92,15 @@ what can you say about their sum \\( S = a_1 + a_2 + · · · + a_{2011} \\)?
 A6, 2011
 {: label .label-blue}
 
+The equation \\(x^{2}+b x+c=0\\) has nonzero real coefficients satisfying \\(b^{2}>4 c\\). Moreover, exactly one of \\(b\\) and \\(c\\) is irrational. Consider the solutions \\(p\\) and \\(q\\) of this equation.
+- [ ] Both \\(\; p\; \\) and \\(\; q\; \\) must be rational.
+- [ ] Both \\( \;p\; \\) and \\( \;q\; \\) must be irrational.
+- [ ] One of \\(\; p\; \\) and \\(\; q\; \\) is rational and the other irrational.
+- [ ] We cannot conclude anything about rationality of \\(\; p\; \\) and \\(\; q\; \\) unless we know \\(\; b\; \\) and \\(\; c\; \\).
 
-*Explanation*. (B) Let \\(p\\) and \\(q\\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \\(p+q=-b\\) and \\(pq=c\\).
+#### Solution
+
+(B) Let \\(p\\) and \\(q\\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \\(p+q=-b\\) and \\(pq=c\\).
 If one root is rational and the other is irrational, then both \\(b\\) and \\(c\\) must be irrational. If both the roots are rational, then both \\(b\\) and \\(c\\) must be rational. Hence, both \\(p\\) and \\(q\\) must be irrational.
 
 
@@ -152,5 +160,36 @@ Hence, \\(f'(x)\\) is always positive in \\(\mathbb{R}\\).
 
 
 ---
+
+
+### Monotonic again
+{: .d-inline-block}
+
+B1, 2017
+{: label .label-blue}
+
+
+Find the number of solutions to \\(e^{x}=\frac{x}{2017}+1\\)
+
+#### Solution
+
+This problem is similar to the last one. We need to show that the function is monotonic in some interval.
+Consider the function:
+\begin{align}
+f(x)&=  e^x -\frac{x}{2017} - 1 \\\\\\\\
+f'(x)&=  e^x -\frac{1}{2017}
+\end{align}
+
+
+The derivative is positive when \\(x>x_0=-\log 2017\\).
+
+-  We have \\(f(x_0)<0\\) and \\( f(-\infty)>0 \\) so there is one solution in the interval \\( (-\infty,x_0)\\).
+-  \\( x = 0 \\) is another solution.
+
+Hence, there are two solutions to the equation.
+
+
+
+
 
 

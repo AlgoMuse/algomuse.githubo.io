@@ -94,6 +94,52 @@ We can factorize 105 as \\( 1\cdot 3\cdot 5\cdot 7\\). Every subset of these fou
 
 ---
 
+### Number of divisors: plain application
+{: .d-inline-block}
+
+A1, 2019
+{: label .label-blue}
+
+
+For a natural number \\(m,\\) define \\(\Phi_{1}(m)\\) to be the number of divisors of \\(m\\) and for \\(k \geq 2\\) define \\(\Phi_{k}(m):=\Phi_{1}\left(\Phi_{k-1}(m)\right) .\\) For example, \\(\Phi_{2}(12)=\Phi_{1}(6)=4 .\\) Find the minimum \\(k\\) such that
+
+\\[
+\Phi_{k}\left(2019^{2019}\right)=2
+\\]
+
+
+#### Solution
+
+
+A number \\(n\\) that has prime factorizaton \\( p_1^{k_1} p_2^{k_2}\ldots p_t^{k_t} \\) has \\( (k_1+1)(k_2+1)\ldots(k_t+1) \\) divisors.
+
+
+Iteration | Number | Factorization | Result
+----------|--------|---------------|-------
+1 | \\(2019^{2019}\\) | \\(3^{2019}\cdot 673^{2019}\\)  |  \\(2020^2 \\)
+2 | \\(2020^2     \\) | \\(2^4\cdot 5^2\cdot 101^2 \\)  |  \\(45 \\)
+3 | \\(45         \\) | \\(3^2\cdot 5              \\)  |  \\(6 \\)
+4 | \\(6          \\) | \\(3\cdot 2                \\)  |  \\(4 \\)
+5 | \\(4          \\) | \\(2^2                     \\)  |  \\(3 \\)
+6 | \\(3          \\) | \\(3                       \\)  |  \\(2 \\)
+
+
+*Comment. A bit tedious task for a first problem. Is there a simpler way?*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Proving irrationality
 {: .d-inline-block}
 
@@ -182,6 +228,12 @@ The power of 3 is given by:
 The numerator is of the form: \\( 2^{47}3^{22}\cdot k \\). If \\(n=16\\), the denominator has \\(2^{48}\\) as a factor which is sufficient to make the number a non-integer.
 
 
+
+
+
+
+
+
 <!--
 
 
@@ -253,21 +305,6 @@ The numerator is of the form: \\( 2^{47}3^{22}\cdot k \\). If \\(n=16\\), the de
 ![](/assets/images/number_theory/2018_a1.png)
 
 ---
-
-2019_q1.png
-![](/assets/images/number_theory/2019_q1.png)
-
-2019_a1.png
-![](/assets/images/number_theory/2019_a1.png)
-
----
-
-2019_q2.png
-![](/assets/images/number_theory/2019_q2.png)
-
-2019_a2.png
-![](/assets/images/number_theory/2019_a2.png)
-
 
 -->
 
