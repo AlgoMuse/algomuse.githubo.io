@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-nav_order: 91
+nav_exclude: true
 ---
 
 # About the author

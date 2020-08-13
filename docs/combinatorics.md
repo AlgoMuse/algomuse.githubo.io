@@ -34,6 +34,24 @@ The total sum is therefore:
 
 ---
 
+
+### Sum of a finite series [2019]
+
+The sum \\( S = 1 + 111 + 11111 + \cdots + \underbrace{11 \cdots 1}_{2k+1} \\)
+
+
+#### Solution
+
+
+\begin{align}
+9S &= 9 + 999 + 99999 + \cdots + \underbrace{99 \cdots 9}_{2k+1} \\\\\\\\
+ &= (10-1) + (1000-1) + \cdots + (100^{2k+1}-1) \\\\\\\\
+ &= \frac{10(100^{k+1} - 1)}{99} - (k+1) \\\\\\\\
+S&= \frac{ 10^{2k+3} - 99k - 109}{99\times 9}
+\end{align}
+
+---
+
 ### Impossible solid
 {: .d-inline-block}
 

@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Cut-off marks
-nav_order: 901
+nav_exclude: true
 ---
+
 
 
 
@@ -36,6 +37,7 @@ http://services.artofproblemsolving.com/download.php?id=YXR0YWNobWVudHMvMS8yLzgw
 - [2015 Interview experience](/assets/images/sanjay_interview.pdf) by Sanjay M who posted this on AoPS.
 - [Why I joined CMI](https://vipulnaik.com/undergraduate-institution-selection/) by Vipul Naik who joined CMI in 2004 despite getting JEE AIR-154.
 - [How to prepare for CMI](https://www.cmi.ac.in/~saikrishnac/files/how-to-prepare-for-cmi.pdf) by Sai Krishna who joined CMI in 2013.
+- [How did I prepare of CMI entrance exam](https://www.quora.com/How-did-Ankita-Sarkar-prepare-for-CMI-Entrance-exam-What-books-did-she-use) by Ankita Sarkar who joined CMI in 2015.
 
 
 Starting from 2016, admissions are based only on the written test and there is no interview.

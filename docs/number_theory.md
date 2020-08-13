@@ -70,6 +70,39 @@ The above expression simplifies to \\(3(2n+7)\\). This number is a perfect squar
 \\[ 81 = 11+12+\cdots+16 \\]
 
 
+### Is a square?
+{: .d-inline-block}
+
+A6, 2019
+{: label .label-blue}
+
+For what values of \\( n \\) is \\( n^6 + n^4 + 1 \\) a square of a natural number?
+
+
+#### Solution
+
+We will handle odd and even cases separately.
+
+*Lemma.* Every odd square is \\(1 \bmod 8\\).
+
+\\[ (2k+1)^2=4k^2+4k+1=4(k^2+k)+1 \\]
+
+Since \\( 4(k^2+k) \\) is divisible by 8, the lemma follows. \\(\square\\)
+
+*Case 1.* If \\(n\\) is odd, then the given expression \\(S:=n^6+n^4+1\\) cannot be a square since \\(S\equiv 3\pmod 8\\). Hence \\(n\\) is not odd.
+
+*Case 2.* If \\(n=2\\), we have \\(S=81\\), so we have one solution. If \\(n>2\\) and is even we have:
+
+\\[ \left(n^3+\frac{n}{2}\right)^2=n^6+n^4+\frac{n^2}{4}> S > n^6+n^4-2n^3+\frac{n^2}{4}-n+1=\left(n^3+\frac{n}{2}-1\right)^2 \\]
+
+\\( S \\) is a number strictly inbetween two consecutive squares, so there are no solutions for \\(n>2\\).
+
+
+*Official solution*
+
+![](./assets/images/cmi_solution_2019.png)
+
+
 ### Two variables one equation
 {: .d-inline-block}
 
