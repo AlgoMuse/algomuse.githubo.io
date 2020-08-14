@@ -11,7 +11,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 
 # Want to study at Chennai Mathematical Institute?
 
-The B.Sc. program at CMI is the best of its kind in India. This website is exclusively devoted to helping students prepare for its entrance exam.
+The B.Sc. program at CMI is the best of its kind in India. This website is exclusively devoted to helping students prepare for CMI's entrance exam.
 {: .fs-5 .fw-300 }
 
 ---
@@ -64,21 +64,20 @@ Manjul Bhargava<br>Fields Medalist
 
 
 
-## CMI entrance exam cut-offs
+## CMI entrance exam cutoffs
 
-CMI does not reveal the entrance exam cut-off marks. The below given scores are estimates based on inputs from former students.
-A thumb rule to use: It is generally 40% for the objective section and 40-50% overall.
-The objective section is used for screening.
+The cutoff has been around 35% for the objective section and 40-50% overall. The objective section is used for screening.<br>
 
-
+CMI does not publish the cutoff marks on their website but they have responded to individual requests in the past. The below-given scores are estimates based on inputs from former students.
 <br>
+
 <!--
 [Subhayan Saha](https://www.quora.com/profile/Subhayan-Saha)
 -->
 
 | Year | Objective | Overall | Vetted by
 |---|--|--|
-2016 | 14/44 | 62/124 | [Sayantani Bhattacharya](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
+2016 | 14/40 | 62/124 | [Sayantani Bhattacharya](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
 2017 | 15/40 | 60/125 | Abhiroop Sanyal
 2018 | 15/40 | 50/125 | [Sutirtha Datta](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
 
@@ -100,28 +99,44 @@ http://services.artofproblemsolving.com/download.php?id=YXR0YWNobWVudHMvMS8yLzgw
 Starting from 2016, admissions are based only on the written test and there is no interview.
 
 
-## How many aspirants give the exam?
+## Acceptance rate
 
-Acceptance letters are sent to around 80 candidates and about half of them end up taking admissions.
-This is the reason why the number varies from year to year.
+Acceptance letters are sent to around 90 candidates and about half of them enroll. This is the reason why the number varies from year to year. Approximate numbers are given below.
 
-| Year | Approx. number of aspirants | Number of students admitted
-|-----|----|
-2016 | 3500 | 36
-2017 | 4000 | *
-2018 | 7000 | 24
-2019 | 8000 | 57
+| Year | # Test-takers | # Offers | # Students enrolled
+|-----|----|--|
+2015 | 4000 | 70 | 40
+2016 | 5500 | 90 | 44
+2017 | 6000 | 90 | 48
+2018 | 8000 | 95 | 50
+2019 | 10000 | 100 | 55
+
+---
+<!--
+
+## Paperback
+
+<img src="/assets/images/cmi_book.png" style="float:left;margin-right:20px;margin-top:20px;"/>
+
+This book is to CMI just as TOMATO is to ISI. The content of this website is included. Additionally, you will get many RMO-type
+practice problems, mock question papers, and a few exam-preparation strategies.
+{: .fs-4 .fw-300 }
+
+<a href="https://amzn.to/30EkFAk" rel="nofollow">Buy the book from Amazon</a>
+
+
+<br><br>
+<br><br>
 
 
 
 
 
-
-
+-->
 
 #### About the author
 
-This website is maintained by Mallesh Balasundar, a teacher who has more than 15 years of experience in industry and academia. If you have an alternate solution to any of the problems, feel free to email at: <code>mallesh</code> followed by the first four odd numbers <code>@gmail.com</code>
+This website is maintained by Mallesh Balasundar, a teacher who has more than 15 years of experience in industry and academia. If you have an alternate solution to any of the problems, feel free to email at <code>mallesh</code> followed by the first four odd numbers <code>@gmail.com</code>
 {: .fs-3 .fw-300 }
 
 
