@@ -11,10 +11,16 @@ last_modified_date: 2020-04-27T17:54:08+0000
 
 # Want to study at Chennai Mathematical Institute?
 
-The B.Sc. program at CMI is the best of its kind in India. This website is exclusively devoted to helping students prepare for CMI's entrance exam.
+This website is exclusively devoted to students preparing for CMI entrance exam.
 {: .fs-5 .fw-300 }
 
 ---
+
+<details>
+  <summary>Work in progress!</summary>
+</details>
+
+
 
 <!--
 [View Topics](/docs/topics){: .btn .fs-5 .mb-4 .mb-md-0 }
@@ -136,12 +142,9 @@ practice problems, mock question papers, and a few exam-preparation strategies.
 
 #### About the author
 
-This website is maintained by Mallesh Balasundar, a teacher who has more than 15 years of experience in industry and academia. If you have an alternate solution to any of the problems, feel free to email at <code>mallesh</code> followed by the first four odd numbers <code>@gmail.com</code>
+This website is maintained by Mallesh Balasundar, a teacher who has more than 15 years of experience in industry and academia. If you have
+an alternate solution to any of the problems, feel free to email at <code>malleshm</code> followed by the first four odd numbers <code>@gmail.com</code>
 {: .fs-3 .fw-300 }
-
-
-
-
 
 
 
