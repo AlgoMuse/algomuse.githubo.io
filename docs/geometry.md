@@ -19,13 +19,14 @@ B2, 2010
 In an isoceles triangle ABC  with A at the apex, the height and the base are both equal to
 1cm. Points D, E and F are chosen from each side such that BDEF is a rhombus.  Find the length of the side of this rhombus.
 
-#### Solution
-
-We want to find the side length of the rhombus \\(BDEF\\).  We will find the length of \\(EF\\). Let \\( AX \\) and \\( EX' \\) be the perpendiculars of triangles \\(ABC\\) and \\(EFC\\), respectively.
+<details>
+<summary>Solution</summary>
+<p>
+We want to find the side length of the rhombus \(BDEF\).  We will find the length of \(EF\). Let \( AX \) and \( EX' \) be the perpendiculars of triangles \(ABC\) and \(EFC\), respectively.
 
 <p style="text-align:center;"><img src="/assets/images/cmi2010_bisector.svg"></p>
 
-We know that \\( FX'= EX'/2 \\)  since \\( ABC \cong EFC \\).
+We know that \( FX'= EX'/2 \)  since \( ABC \cong EFC \).
 
 \begin{align}
 EF &= \frac{\sqrt{5}}{2}EX' \hskip{3pt} \text{since }EX'F\text{ is a right angled triangle}
@@ -33,28 +34,32 @@ EF &= \frac{\sqrt{5}}{2}EX' \hskip{3pt} \text{since }EX'F\text{ is a right angle
 \end{align}
 
 
-All we have to do is find the length of \\( EX' \\).
+All we have to do is find the length of \( EX' \).
 
 \begin{align}
-\tan \theta & = \frac{EX'}{BX'} \\\\\\\\
-\tan \theta & = \frac{EX'}{BC-X'C} \\\\\\\\
-& = \frac{EX'}{1 - EX'/2} \hskip{5pt} \text{ since } ABX \cong EFX' \\\\\\\\
-EX' & = \frac{2\tan \theta}{2+\tan \theta} \hskip{5pt} \text{ by rearranging } \label{eq:ex}\tag{2} \\\\\\\\
-\\\\\\\\
-\\\\\\\\
-\tan 2\theta & = \frac{AX}{BX} = \frac{2\tan \theta}{1-\tan^2\theta} \\\\\\\\
-2 & = \frac{2\tan \theta}{1-\tan^2\theta} \\\\\\\\
-\tan \theta & = \frac{-1+\sqrt{5}}{2} \\\\\\\\
+\tan \theta & = \frac{EX'}{BX'} \\
+\tan \theta & = \frac{EX'}{BC-X'C} \\
+& = \frac{EX'}{1 - EX'/2} \hskip{5pt} \text{ since } ABX \cong EFX' \\
+EX' & = \frac{2\tan \theta}{2+\tan \theta} \hskip{5pt} \text{ by rearranging } \label{eq:ex}\tag{2} \\
+\\
+\\
+\tan 2\theta & = \frac{AX}{BX} = \frac{2\tan \theta}{1-\tan^2\theta} \\
+2 & = \frac{2\tan \theta}{1-\tan^2\theta} \\
+\tan \theta & = \frac{-1+\sqrt{5}}{2} \\
 EX' & = (2\sqrt{5}-4) \hskip{5pt} \text{by substituting the value of }\tan \theta\text{ in \eqref{eq:ex}}
-\\\\\\\\
-\\\\\\\\
-EF & = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) \hskip{5pt} \text{From \eqref{eq:triangle}} \\\\\\\\
+\\
+\\
+EF & = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) \hskip{5pt} \text{From \eqref{eq:triangle}} \\
  & = (5-2\sqrt{5})
 \end{align}
 
 
 
-Hence the side length of the rhombus is  \\( (5-2\sqrt{5}) \\) cm.
+Hence the side length of the rhombus is  \( (5-2\sqrt{5}) \) cm.
+</p>
+
+</details>
+
 
 ### Rational triangle
 {: .d-inline-block}
@@ -176,7 +181,27 @@ The rhombus ACBD is made up of two equilateral triangles so its area is \\( 2\ti
 B6, 2011
 {: .label}
 
+In a quadrilateral ABCD, angles at vertices B and D are right angles. AM and CN are respectively altitudes of the triangles ABD and CBD.
+See the figure below. Show that BN=DM.
 
-https://www.cut-the-knot.org/Curriculum/Geometry/GeoGebra/ProjectionsInInscribedQuadrilateral.shtml#solution
+<p style="text-align:center;"><img src="/assets/images/cyclic_quad_ques.svg"></p>
+
+<details>
+<summary>Solution</summary>
+
+The four points form the vertices of a cyclic quadrilateral with center as O. Drop a perpendicular from O to
+DB with P as the base. P must bisect DB, so DP=BP.
+
+<p style="text-align:center;"><img src="/assets/images/cyclic_quad_sol.svg"></p>
+
+Here is the key.  Since AO = CO, their projections on BD are equal, so MP = NP. Subtracting gives DM = DP - MP = BP - NP = BN.
+
+
+<p><i>Solution is due to Alexander Bogomolny who discussed this problem on <a href="https://www.cut-the-knot.org/Curriculum/Geometry/GeoGebra/ProjectionsInInscribedQuadrilateral.shtml">cut-the-knot</a> before it appeared in the CMI paper.</i></p>
+
+
+</details>
+
+
 
 
