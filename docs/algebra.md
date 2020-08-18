@@ -8,6 +8,11 @@ nav_order: 3
 # Algebra
 
 
+[](http://yufeizhao.com/olympiad/intpoly.pdf)
+[](https://sites.math.northwestern.edu/~mlerma/problem_solving/putnam/training-poly.pdf)
+
+
+
 
 ### Parity of a polynomial
 {: .d-inline-block}
@@ -197,8 +202,8 @@ Hence, there are two solutions to the equation.
 
 
 
-2012q1a
----
+### Find a rational polynomial with a given a root
+{: .d-inline-block }
 
 B1, 2012
 {: .label}
@@ -209,82 +214,35 @@ a) Find a polynomial \(p(x)\) with real coefficients such that \(p(\sqrt{2}+i)=0
 </p>
 
 <p>
-b) Find a polynomial \(q(x)\) with rational coefficients and having the smallest possible degree such that \(q(\sqrt{2}+i)=0 .\) Show that any other polynomial with rational coefficients and having \(\sqrt{2}+i\) as a root has \(q(x)\) as a factor.
+b) Find a polynomial \(q(x)\) with rational coefficients and having the smallest possible degree such that \(q(\sqrt{2}+i)=0 .\)
+</p>
+
+<p>
+c) Show that any other polynomial with rational coefficients and having \(\sqrt{2}+i\) as a root has \(q(x)\) as a factor.
 </p>
 
 
-2012a1a
----
+
+Sol.
+
 
 <p>
 (a) Non-real roots of a polynomial with real coefficients occur in conjugate pairs. \(p(x)=\) \((x-(\sqrt{2}+i))(x-(\sqrt{2}-i))=x^{2}-2 \sqrt{2} x+3\) works.
 </p>
-
 <p>
 (b)\(\sqrt{2}+i\) satisfies \(x^{2}-2 \sqrt{2} x+3=0,\) i.e., \(x^{2}+3=2 \sqrt{2} x\) and so satisfies \(\left(x^{2}+3\right)^{2}=\) \(8 x^{2} .\) So \(q(x)=\left(x^{2}+3\right)^{2}-8 x^{2}\) works. A cubic with rational coefficients will not work because, after dividing by the necessarily rational leading coefficient, it must be of the form \(\left(x^{2}-2 \sqrt{2} x+3\right)(x-r) .\) This forces the coefficients \(-3 r\) and \(-2 \sqrt{2}-r\) to be both rational, which is impossible.
-Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0 .\) Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
-</p>
-
-
-B5, 2012
-{: .label }
-
-<p>
-Using the steps below, find the value of \(x^{2012}+x^{-2012},\) where \(x+x^{-1}=\frac{\sqrt{5}+1}{2}\)
+Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0 .\)
 </p>
 
 <p>
-(a) For any real \(r,\) show that \(\left|r+r^{-1}\right| \geq 2 .\) What does this tell you about the given \(x ?\)
-</p>
-
-<p>
-(b) Show that \(\cos \left(\frac{\pi}{5}\right)=\frac{\sqrt{5}+1}{4}\).
-Compare \(\sin \left(\frac{2 \pi}{5}\right)\) and \(\sin \left(\frac{3 \pi}{5}\right)\)
-
-</p>
-
-<p>
-(c) Combine conclusions of parts a and b to express \(x\) and therefore the desired quantity in a suitable form.
+(c)
+Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
 </p>
 
 
-<details>
-<summary>Solution</summary>
-
-<p>
-(a) Because of the absolute value we may assume that \(r > 0\) by replacing \(r\) with \(-r\) if necessary. Now use AM-GM inequality or the fact that \((\sqrt{r}-\sqrt{1 / r})^{2} \geq 0 .\) since \(x+x^{-1}=\frac{\sqrt{5}+1}{2}<2\) given \(x\) must be a non-real (complex) number.
-
-<br>
-
-(b) Let \(\theta=\frac{\pi}{5} .\) Then \(\sin (2 \theta)=\sin (\pi-2 \theta)=\sin (3 \theta) .\) Using the formulas for \(\sin (2 \theta)\) and
-\(\sin (3 \theta),\) canceling \(\sin \theta\left(\text { it is nonzero) and substituting } \sin^{2} \theta=1-\cos ^{2} \theta,\right.\) gives the
-quadratic equation \(4 \cos ^{2} \theta-2 \cos \theta-1=0 .\) since \(\cos \theta > 0\), we get \(\cos \theta=\frac{\sqrt{5}+1}{4}\)
 
 
-<br>
-
-(c) Let \(x=d e^{i \alpha}=d(\cos \alpha+i \sin \alpha) .\) Then \(x^{-1}=d^{-1} e^{-i \alpha}=d^{-1}(\cos \alpha-i \sin \alpha) .\) Adding
-and using that \(x+x^{-1}=\frac{\sqrt{5}+1}{2}=2 \cos \left(\frac{\pi}{5}\right),\) we get \(d=1\) and \(\alpha=\pm \theta .\)
-
-So \(x=e^{\pm \frac{1 \pi}{5}}\).
-
-<br>
-
-\begin{align}
-x^{2012}+x^{-2012} &= 2 \cos \left(\frac{2012 \pi}{5}\right)\\
- &=2 \cos \left(402 \pi+\frac{2 \pi}{5}\right)\\
- &=2 \cos \left(\frac{2 \pi}{5}\right)\\
- &=2 \cos ^{2}\left(\frac{\pi}{5}\right)-1 \\
- &=\frac{\sqrt{5}-1}{2}\\
-\end{align}
-
-</p>
-
-</details>
-
-
-
-### Parity of a polynomial again
+### Polynomial that gives only prime powers
 {: .d-inline-block }
 
 
@@ -292,7 +250,7 @@ B8, 2012
 {: .label }
 
 <p>
-Let \(f(x)\) be a polynomial with integer coefficients such that for each nonnegative integer \(n, f(n)=\) a perfect power of a prime number, i.e., of the form \(p^{k},\) where \(p\) is prime and \(k\) a positive integer. \((p \text { and } k \text { can vary with } n .)\) Show that \(f\) must be a constant polynomial using the following steps or otherwise.
+Let \(f(x)\) be a polynomial with integer coefficients \(f(n)\) evaluates to a <i>prime power</i> for every integer \(n\). A prime power is a number of the form \(p^{k}\), where \(p\) is prime and \(k\) a positive integer. Prove that \(f(x)\) is a constant.
 <br>
 a) If such a polynomial \(f(x)\) exists, then there is a polynomial \(g(x)\) with integer coefficients such that for each nonnegative integer \(n, g(n)=\) a perfect power of a fixed prime number.
 </p>
@@ -302,13 +260,11 @@ b) Show that a polynomial \(g(x)\) as in part a must be constant.
 </p>
 
 
-
-
 Sol.
 
 <p>(a)
 Write \(f(x)=a_{n} x^{n}+a_{n-1} x^{n-1}+\cdots+a_{1} x+a_{0} .\) Then \(a_{0}=f(0)=p^{k}\) for some prime
-\(p\) and integer \(k > 0\). Define \(g(x)=f(p x) .\) Then \(g(x)\) is a polynomial such that for each nonnegative integer \(n, g(n)=f(p n)=\) a perfect power of a prime number. This prime number has to be \(p,\) because by evaluating we see that \(g(n)=f(p n)\) is divisible by \(p\)
+\(p\) and integer \(k > 0\). Define \(g(x)=f(p x) .\) Then \(g(x)\) is a polynomial such that for each nonnegative integer \(n, g(n)=f(p n)=\) a perfect power of a prime number. This prime number has to be \(p,\) because by evaluating we see that \(g(n)=f(p n)\) is divisible by \(p\).
 </p>
 
 
@@ -319,156 +275,205 @@ Let \(g(x)=b_{n} x^{n}+b_{n-1} x^{n-1}+\cdots+b_{1} x+b_{0} .\) Then \(b_{0}=g(0
 </p>
 
 
-
 ---
 
 
 
 
-2013-q1
----
+### Sum of squares polynomial
+{: .d-inline-block}
 
 A4, 2013
 {: .label}
 
 <p>
+A polynomial \(f(x)\) with real coefficients is said to be a sum of squares (SoS) if we can write \(f(x)=p_{1}(x)^{2}+\cdots+p_{k}(x)^{2},\) where \(p_{1}(x), \ldots, p_{k}(x)\) are polynomials with real coefficients. <br>
 
-A polynomial \(f(x)\) with real coefficients is said to be a sum of squares if we can write \(f(x)=p_{1}(x)^{2}+\cdots+p_{k}(x)^{2},\) where \(p_{1}(x), \ldots, p_{k}(x)\) are polynomials with real coefficients. For each statement below, write whether it is TRUE or FALSE.
+Which statements given below are true?
 
-a) If a polynomial \(f(x)\) is a sum of squares, then the coefficient of every odd power of \(x\) in \(f(x)\) must be 0.
+</p>
 
+<p>
+a) If a polynomial \(f(x)\) is a SoS, then the coefficient of every odd power of \(x\) in \(f(x)\) must be 0.
+</p>
+
+<p>
 b) If \(f(x)=x^{2}+p x+q\) has a non-real root, then \(f(x)\) is a sum of squares.
+</p>
 
+<p>
 c) If \(f(x)=x^{3}+p x^{2}+q x+r\) has a non-real root, then \(f(x)\) is a sum of squares.
+</p>
 
+<p>
 d) If a polynomial \(f(x) > 0\) for all real values of \(x,\) then \(f(x)\) is a sum of squares.
+</p>
+
+
+
+<p><em> <b>Aside.</b> This kind of polynomial shows up in a research area called algebraic complexity theory. A few former CMI students and faculty
+work in this area. For example, take a look at this <a href="https://www.cse.iitk.ac.in/users/nitin/theses/sanyal-2020.pdf">master's thesis [pdf]</a> by Abhiroop Sanyal, if you're curious.
+</em>
 </p>
 
 
 Sol.
 
+<p> FTFT </p>
+
+<p> (a) Counterexample: \( (x+1)^2 = x^2+2x+1 \)  </p>
+
 <p>
+(b) Complete the square to get \(f(x)=x^{2}+p x+q=\left(x+\frac{p}{2}\right)^{2}+\left(\frac{4 q-p^{2}}{4}\right)\). Since the roots are non-real the discriminant is negative, which implies \(4 q-p^{2} > 0\).
+</p>
 
-FTFT
 
-(b) Complete the square to get \(f(x)=x^{2}+p x+q=\left(x+\frac{p}{2}\right)^{2}+\left(\frac{4 q-p^{2}}{4}\right),\) which is a sum of squares since \(4 q-p^{2} > 0\) due to the roots being non-real.
-Since \(p\) need not be \(0,\) this disproves part a.
-For part \(d\) since all roots of \(f\) are non-real and occur in conjugate pairs, \(f(x)=\) a product of quadratic polynomials each of which is a sum of squares by part b.
-
+<p>
 (c) Note that \(f(x) \rightarrow-\infty\) as \(x \rightarrow-\infty,\) so in particular \(f(x)\) takes negative values and hence can never be a sum of squares. This applies to any odd degree polynomial.
 </p>
 
+<p>
+(d) Since all roots of \(f\) are non-real and occur in conjugate pairs, \(f(x)\) is a product of quadratic polynomials each of which is a sum of squares as shown in part (b).
+</p>
+
+
+
+<p><i><b>Further reading.</b> A generalization of part (d) is connected to <a href="http://www.math.ens.fr/~benoist/articles/CarresEMS.pdf">Hilbert's 17th problem [pdf]</a>.</i></p>
+
+
 ---
 
-2013-q2
----
+### Polynomials that exponentiate
+{: .d-inline-block }
 
 B4, 2013
 {: .label}
 
 <p>
 Suppose  \(f(x)\) is a function from \(\mathbb{R}\) to \(\mathbb{R}\) such that \(f(f(x))=f(x)^{2013}\).
-Show that there are infinitely many such functions, of which exactly four are polynomials.
-(Here \(\mathbb{R}=\) the set of real numbers.)
 </p>
+
+<p>
+(a) Show that there are infinitely many such functions.
+</p>
+
+<p>
+(b) Exactly four of those functions are polynomials.
+</p>
+
 
 Sol.
 
 <p>
-If \(f\) is a polynomial, then we make two cases.
+(a) Define \(f(0)=0, f(1)=1\) and \(f(-1)=-1\). For every other real number \(x,\) arbitrarily equate \(f(x)\) to 0,-1 or 1. Any such function
+satisfies the given condition.
+</p>
+
+
+
+<p>
+If \(f\) is a polynomial, then we make two cases.<br>
+</p>
+
+<p>
 (i) If \(f(x)=\) a constant \(c,\) then the given condition is equivalent to \(c=c^{2013},\) which happens precisely for three values of \(c,\) namely \(c=0,1,-1\) (since we have \(c\left(c^{2012}-1\right)=0,\) so \(c=0\) or \(c^{2012}=1\) ). Thus there are three constant functions with the given property.
-(ii) If \(f(x)\) is a non-constant polynomial, then consider its range set \(A=\{f(x) \mid x \in \mathbb{R}\} .\) Now for all \(a \in A,\) we have by the given property \(f(a)=a^{2013}\). So the polynomial \(f(x)-x^{2013}\) has all elements of \(A\) as its roots. since there are infinitely many values in \(A\) (e.g. applying the intermediate value theorem because \(f\) is continuous), the polynomial \(f(x)-x^{2013}\) has infinitely many roots and thus must be the zero polynomial, i.e., \(f(x)=x^{2013}\) for all real number \(x\)
-
-Note: One can also deduce that the degree of \(f\) must be 0 or 2013 by equating the degrees of \(f(f(x))\) and \(f(x)^{2013} .\) Then, in the non-constant case, it is possible to argue first that the leading coefficient is 1 and then that all other coefficients must be \(0 .\)
-
-To find infinitely many function with the given property, define \(f(0)=0, f(1)=1\) and \(f(-1)=-1 .\) For every other real number \(x,\) arbitrarily define \(f(x)\) to be 0,1 or \(-1 .\) It is easy to see that any such function satisfies the given property. (Other answers are possible,
-e.g., more systematically, observe that \(f(a)=a^{2013}\) for at least one real number \(a\) (e.g., any number in the range of \(f\) ) and then this forces \(f(x)=x^{2013}\) for all \(x \in S=\left\{a^{2013^{4}} \mid i=\right.\) \(0,1,2, \ldots\} .\) We use this as follows.
-Fix a real number a.
-Then define \(f(x)=x^{2013}\) for all \(x \in S=\left\{a^{2013^{4}} \mid i=0,1,2, \ldots\right\} .\) For all \(x \notin S,\) simply define \(f(x)=\) any element of the set \(S, \text { e.g., } a \text { itself will do. })\)
 </p>
-
-
----
-
-
-2014-q1
----
-
-A7, 2014
-{: .label}
 
 <p>
-Let \(f(x)=(x-a)(x-b)^{3}(x-c)^{5}(x-d)^{7},\) where \(a, b, c, d\) are real numbers with \( a < b < c < d \).
-Thus \(f(x)\) has 16 real roots counting multiplicities and among them 4 are distinct from each other.
-Consider \(f^{\prime}(x),\) i.e. the derivative of \(f(x)\). Find the following quantities:<br>
-
-(i) the number of real roots of \(f^{\prime}(x),\) counting multiplicities.  <br>
-
-(ii) the number of distinct real roots of \(f^{\prime}(x)\).<br>
-</p>
-
-Sol.
-
-<p>
-15,6
+(ii) If \(f(x)\) is a non-constant polynomial, then consider its range set \(A=\{f(x) \mid x \in \mathbb{R}\}\).
+Now for all \(a \in A,\) we have by the given property \(f(a)=a^{2013}\).
+So the polynomial \(f(x)-x^{2013}\) has all elements of \(A\) as its roots.
+Since there are infinitely many values in \(A\) (e.g. applying the intermediate value theorem because \(f\) is continuous), the polynomial \(f(x)-x^{2013}\) has infinitely many roots and thus must be the zero polynomial, i.e., \(f(x)=x^{2013}\) for all real number \(x\).
 </p>
 
 ---
 
-
-2014-q2
----
+### Polynomial division
+{: .d-inline-block }
 
 A8, 2014
 {: .label}
 
-
-Let \(f(x)=7 x^{32}+5 x^{22}+3 x^{12}+x^{2}\)
-(i) Find the remainder when \(f(x)\) is divided by \(x^{2}+1\)
-(ii) Find the remainder when \(x f(x)\) is divided by \(x^{2}+1 .\) In each case your answer should be a polynomial of the form \(a x+b,\) where \(a\) and \(b\) are constants.
-
-Sol. \(0 x+4,4 x+0\)
+<p>
+(i) What is the remainder when \(f(x)=7 x^{32}+5 x^{22}+3 x^{12}+x^{2}\) is divided by \((x^{2}+1)\)?  <br><br>
+(ii) What is the remainder when \(x f(x)\) is divided by \((x^{2}+1)\)?
+</p>
 
 
+Sol.
 
-2014-q3
----
+<p>
+(i) \(4\)<br>
+(ii) \(4x\)<br>
+</p>
+
+
+
+
+### Difference equations
+{: .d-inline-block }
+
 
 B5, 2014
 {: .label}
 
 
 <p>
-(i) Let \(f(x)=a_{n} x^{n}+\cdots+a_{1} x+a_{0}\) be a polynomial, where \(a_{0}, \ldots, a_{n}\) are real numbers with \(a_{n} \neq 0 .\) Define the "discrete derivative of \(f ",\) denoted \(\Delta f,\) to be the function given by \(\Delta f(x)=f(x)-f(x-1) .\) Show that \(\Delta f\) is also a polynomial and find its leading term.
+(i) Let \(f(x)=a_{n} x^{n}+\cdots+a_{1} x+a_{0}\) be a polynomial with real non-zero coefficients. What is the leading term of the polynomial \( \Delta f(x):=f(x)-f(x-1) \)?
 </p>
 
 <p>
-(ii) For integers \(n \geq 0\), define polynomials \(p_{n}\) of degree \(n\) as follows: \(p_{0}(x)=1\) and for \(n>0\) let \(p_{n}(x)=\frac{1}{n !} x(x-1)(x-2) \cdots(x-n+1) .\) So we have
-\[ p_{0}(x)=1 \quad, \quad p_{1}(x)=x \quad, \quad p_{2}(x)=\frac{x(x-1)}{2} \quad, \quad p_{3}(x)=\frac{x(x-1)(x-2)}{3 !} \cdots \]
+(ii) Define polynomials \(p_{n}\) of degree \(n\) as follows:
+
+<br>
+
+\begin{align}
+p_{0}(x) & =1 \\
+p_{1}(x) &=x \\
+p_{2}(x) &=\frac{x(x-1)}{2} \\
+p_{3}(x) &=\frac{x(x-1)(x-2)}{3!} \cdots \\
+&\vdots \\
+p_{n}(x)&=\frac{1}{n!} x(x-1)(x-2) \cdots(x-n+1) \\
+\end{align}
+
+
+
+<br>
 Show that for any polynomial \(f\) of degree \(n,\) there exist unique real numbers \(b_{0}, b_{1}, \ldots, b_{n}\) such that \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)\)
 </p>
 
+
+
 <p>
-(iii) Now suppose that \(f(x)\) is a polynomial such that for each integer \(m, f(m)\) is also an integer. Using the above parts (or otherwise), show that for such \(f,\) the \(b_{i}\) obtained in part (ii) are integers.
+(iii) A polynomial \(f(x)\) is called  <em>integer-valued</em> if \(f(n)\) is an integer for every integer \(n\). Show that if an integer-valued polynomial is
+expressed in terms of \(p_n\)s as above, the coefficients \(b_{i}\)s obtained in part (ii) are integers.
 </p>
+
 
 
 Sol.
 
 <p>
-(i) It is obvious that \(f(x-1)\) is a polynomial in \(x\) (use binomial expansion of powers of \((x-1)\) ) and therefore so is \(\Delta f(x)=f(x)-f(x-1)\), being the difference of polynomials. The point of the question is to find the leading term of \(\Delta f(x) .\) It is easy to see that after expanding the powers of \((x-1),\) the degree \(n\) terms of \(f(x)\) and \(f(x-1)\) cancel out, as does the degree \(n-1\) term from \(f(x)\) with the leading term of \(a_{n-1}(x-1)^{n-1}\). The only remaining term of degree \(n-1\) comes from \(a_{n}(x-1)^{n} .\) So \(\Delta f(x)=n a_{n} x^{n-1}+\) lower degree terms. Compare with the usual derivative. <br><br>
+(i) After expanding the powers of \((x-1),\) the degree \(n\) terms of \(f(x)\) and \(f(x-1)\) cancel out.  The degree \(n-1\) term from \(f(x)\)
+cancels with the leading term of \(a_{n-1}(x-1)^{n-1}\). The only remaining term of degree \(n-1\) has to come from \(a_{n}(x-1)^{n}\).
+So \(\Delta f(x)=n a_{n} x^{n-1}+\) lower degree \(x\) terms. This is similar to the derivative. <br><br>
 
-(ii) Induction on the degree of \(f .\) If \(f(x)=a_{0}\) is constant, \(b_{0}=a_{0}\) works uniquely. Assuming the result for polynomials of degree \(< n,\) let \(f\) be of degree \(n,\) so \(a_{n} \neq 0 .\) We are forced to take \(b_{n}=n ! a_{n}\) by comparing leading coefficients of \(f(x)\) and \(\sum_{i=0}^{n} b_{i} p_{i}(x) .\)
+
+(ii)  We use induction on the degree of \(f .\) If \(f(x)=a_{0}\) is constant, \(b_{0}=a_{0}\) works uniquely (base case).
+<br>
+<i> Inductive hypothesis. </i> Assume the result for polynomials of degree strictly less than \(n\) and let \(f\) be of degree \(n,\) so \(a_{n} \neq 0 .\) We are forced to take \(b_{n}=n ! a_{n}\) by comparing leading coefficients of \(f(x)\) and \(\sum_{i=0}^{n} b_{i} p_{i}(x) .\)
+<br>
 Now \(f(x)-b_{n} p_{n}(x)\) is a polynomial of degree \(d < n\) and hence by induction equals \(\sum_{i=0}^{d} b_{i} p_{i}(x)\) for unique \(b_{0}, \ldots, b_{d}\) Therefore \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x),\) where \(b_{d+1}, \ldots, b_{n-1}\) are all \(0 .\) To see uniqueness of \(b_{i}^{\prime} s,\) let \(\sum_{i=0}^{n} b_{i} p_{i}(x)=\sum_{i=0}^{n} c_{i} p_{i}(x) .\) Subtract all terms with \(b_{i}=c_{i} .\) If any terms are remaining, compare the leading coefficients on each side to get a contradiction.
+<br>
+<br>
+
+
+<i><b>Alternate solution</b>. If we are allowed to use linear algebra, it is a one-line proof.</i>
+The \( p_i \)s form a basis for polynomial functions, so any polynomial has a unique representation.
 <br><br>
 
-
-(iii) Substitute \(x=0,1,2, \ldots\) one by one in the equation \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)\) and solve for \(b_{0}, b_{1}, b_{2}, \ldots\) successively. \(x=0\) gives \(b_{0}=f(0) .\) Using \(x=1\) and 2 gives \(b_{1}=f(1)-b_{0}\) \(b_{2}=f(2)-b_{0}-2 b_{1} .\) In general, for all integers \(t, p_{i}(t)=\left(\begin{array}{c}t \\ i\end{array}\right)\) is an integer. Further, \(p_{i}(t)=0\) if \(0 \leq t < i\) and 1 if \(t=i .\) So \(b_{t}=f(t)-\sum_{i=0}^{t-1} b_{i}\left(\begin{array}{c}t \\ i\end{array}\right),\) which is an integer by induction. (Note:
-
-We can also argue from the other end as follows. By repeated use of part (i), \(\Delta^{n} f\), the \(n\) -th discrete derivative of \(f,\) is the constant \(n ! a_{n},\) which must be an integer since the integrality assumption on \(f\) passes easily to all its discrete derivatives. But by part (ii), \(b_{n}=n ! a_{n},\) so \(b_{n}\) is an integer. Now induction along with integrality of \(\left(\begin{array}{l}m \\ n\end{array}\right)\)  finishes the proof.
+(iii) Substitute \(x=0,1,2, \ldots\) one by one in the equation \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)\) and solve for \(b_{0}, b_{1}, b_{2}, \ldots\) successively. \(x=0\) gives \(b_{0}=f(0) .\) Using \(x=1\) and 2 gives \(b_{1}=f(1)-b_{0}\) \(b_{2}=f(2)-b_{0}-2 b_{1} .\) In general, for all integers \(t, p_{i}(t)=\left(\begin{array}{c}t \\ i\end{array}\right)\) is an integer. Further, \(p_{i}(t)=0\) if \(0 \leq t < i\) and 1 if \(t=i .\) So \(b_{t}=f(t)-\sum_{i=0}^{t-1} b_{i}\left(\begin{array}{c}t \\ i\end{array}\right),\) which is an integer by induction.
 </p>
-
-
 
 ---
 
@@ -501,7 +506,7 @@ All are true.
 </p>
 
 <p>
-(ii) The roots of \(p(x)\) are \(-a_{i}\) By positivity of coefficients of \(p(x),\) no nonnegative number is a root of \(p(x) .\) Thus all \(\left.-a_{i} \text { are negative, so all } a_{i}>0 .
+(ii) The roots of \(p(x)\) are \(-a_{i}\) By positivity of coefficients of \(p(x),\) no nonnegative number is a root of \(p(x) .\) Thus all \(a_i\)s are positive.
 </p>
 
 <p>
