@@ -57,22 +57,27 @@ Since \( f(r) \) is an odd number \(r\) cannot be a root of the polynomial.
 B2, 2011
 {: label .label-blue}
 
-Show that the power of \\(x\\) with the largest coefficient in the polynomial \\(\displaystyle (1 + 2x/3)^{20}\\) is 8. In other words, if
-we write the given polynomial as \\( \sum_i a_ix^i\\) then the largest coefficient \\(a_i\\) is \\(a_8\\).
+<p>
+Show that the power of \(x\) with the largest coefficient in the polynomial \(\displaystyle (1 + 2x/3)^{20}\) is 8. In other words, if
+we write the given polynomial as \( \sum_i a_ix^i\) then the largest coefficient \(a_i\) is \(a_8\).
+</p>
 
 
 #### Solution
 
-The co-efficient \\( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \\). Consider the ratio of two consecutive terms: \\( a_{i+1}/a_i \\).
+<p>
+The coefficient \( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \). Consider the ratio of two consecutive terms: \( a_{i+1}/a_i \).
 
 \begin{align}
-\text{ratio } &= \frac{2}{3} \times \left(  \frac{20!}{20-i-1!i+1!}/\frac{20!}{20-i!i!} \right) \\\\\\\\
-&\\\\\\\\
+\text{ratio } &= \frac{2}{3} \times \left(  \frac{20!}{20-i-1!i+1!}/\frac{20!}{20-i!i!} \right) \\
+&\\
   &= \frac{2}{3} \cdot \frac{20-i!i!}{20-i-1!i+1!} = \frac{2(20-i)}{3(i+1)}
 \end{align}
 
 
-The ratio \\( a_{i+1}/a_i > 1\\) upto \\(i\leq 7\\) and strictly less than 1 for \\(i>7\\). Hence, the sequence of co-efficients is bitonic with the peak occuring at \\(a_8\\).
+The ratio \( a_{i+1}/a_i > 1\) up to \(i\leq 7\) and strictly less than 1 for \(i>7\). Hence, the sequence of coefficients is <a href="https://en.wiktionary.org/wiki/bitonic">bitonic</a> with the peak occurring at \(a_8\).
+</p>
+
 
 ---
 
@@ -82,17 +87,28 @@ The ratio \\( a_{i+1}/a_i > 1\\) upto \\(i\leq 7\\) and strictly less than 1 for
 A4, 2011
 {: label .label-blue}
 
-Given positive real numbers \\( a_1, a_2, \ldots , a_{2011} \\) whose product \\(a_1 a_2 \cdots a_{2011}=1\\),
-what can you say about their sum \\( S = a_1 + a_2 + · · · + a_{2011} \\)?
+
+<p>
+Given positive real numbers \( a_1, a_2, \ldots , a_{2011} \) whose product \(a_1 a_2 \cdots a_{2011}=1\),
+what can you say about their sum \( S = a_1 + a_2 + · · · + a_{2011} \)?
+</p>
 
 - [ ] \\( S\; \\) can be any positive number.
 - [ ] \\( 1 \leq S \leq 2011\\).
-- [x] \\( 2011 \leq  S \text{ and }  S\;\\) is unbounded above.
+- [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is unbounded above.
 - [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is bounded above.
 
+
 #### Solution
-The first inequality follows from AM-GM inequality. To see why \\(S\\) is unbounded, set
-\\( a_1=n \\), \\(a_2=1/n\\) and the rest of \\( a_is\\) to 1. The sum \\(S>n\\) for any \\(n\\).
+
+<p>
+\( 2011 \leq  S \text{ and }  S\;\) is unbounded above.
+</p>
+
+<p>
+The first inequality follows from AM-GM inequality. To see why \(S\) is unbounded, set
+\( a_1=n \), \(a_2=1/n\) and the rest of \( a_is\) to 1. The sum \(S>n\) for any \(n\).
+</p>
 
 
 ---
@@ -103,7 +119,10 @@ The first inequality follows from AM-GM inequality. To see why \\(S\\) is unboun
 A6, 2011
 {: label .label-blue}
 
-The equation \\(x^{2}+b x+c=0\\) has nonzero real coefficients satisfying \\(b^{2}>4 c\\). Moreover, exactly one of \\(b\\) and \\(c\\) is irrational. Consider the solutions \\(p\\) and \\(q\\) of this equation.
+<p>
+The equation \(x^{2}+b x+c=0\) has nonzero real coefficients satisfying \(b^{2}>4 c\). Moreover, exactly one of \(b\) and \(c\) is irrational. Consider the solutions \(p\) and \(q\) of this equation.
+</p>
+
 - [ ] Both \\(\; p\; \\) and \\(\; q\; \\) must be rational.
 - [ ] Both \\( \;p\; \\) and \\( \;q\; \\) must be irrational.
 - [ ] One of \\(\; p\; \\) and \\(\; q\; \\) is rational and the other irrational.
@@ -111,33 +130,44 @@ The equation \\(x^{2}+b x+c=0\\) has nonzero real coefficients satisfying \\(b^{
 
 #### Solution
 
-(B) Let \\(p\\) and \\(q\\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \\(p+q=-b\\) and \\(pq=c\\).
-If one root is rational and the other is irrational, then both \\(b\\) and \\(c\\) must be irrational. If both the roots are rational, then both \\(b\\) and \\(c\\) must be rational. Hence, both \\(p\\) and \\(q\\) must be irrational.
+
+<p>
+(b) Both \( \;p\; \) and \( \;q\; \) must be irrational. <br>
+
+Let \(p\) and \(q\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \(p+q=-b\) and \(pq=c\).
+If one root is rational and the other is irrational, then both \(b\) and \(c\) must be irrational. If both the roots are rational, then both \(b\) and \(c\) must be rational. Hence, both \(p\) and \(q\) must be irrational.
+
+</p>
+
+---
 
 
-
-
-### Polynomial factorization
+### Degree constraint on the polynomial
 {: .d-inline-block}
 
 B5, 2011
 {: label .label-blue}
 
-It is given that the complex number \\(i−3\\) is a root of the polynomial \\(3x^4+10x^3+Ax^2+Bx−30\\),
-where \\(A\\) and \\(B\\) are unknown real numbers.  Find the other roots.
+<p>
+It is given that the complex number \(i−3\) is a root of the polynomial \(3x^4+10x^3+Ax^2+Bx−30\),
+where \(A\) and \(B\) are unknown real numbers.  Find the other roots.
+</p>
 
 #### Solution
 
-Complex roots come in conjugates, so \\(-i-3\\) must also be a root. So \\( (x-i+3)(x+i+3) = (x^2+6x+10) \\) must be a factor. The given
-polynomial can writen as
-\\[ (x^2+6x+10)(ax^2+bx+c) \\]
+<p>
+Complex roots come in conjugates, so \(-i-3\) must also be a root. So \( (x-i+3)(x+i+3) = (x^2+6x+10) \) must be a factor. The given
+polynomial can written as
+\[ (x^2+6x+10)(ax^2+bx+c) \]
 
-By comparing the co-efficients, \\(a=3,b=-8,\text{and }c=-3\\). Hence the polynomial is:
+By comparing the coefficients, \(a=3,b=-8,\text{and }c=-3\). Hence the polynomial is:
 
-\\[ (x^2+6x+10)(3x^2-8x-3) \\]
-\\[ (x^2+6x+10)(x-3)(3x+1) \\]
+\[ (x^2+6x+10)(3x^2-8x-3) \]
+\[ (x^2+6x+10)(x-3)(3x+1) \]
 
 Hence the other roots are 3 and -1/3.
+
+</p>
 
 
 ---
@@ -150,57 +180,29 @@ B8, 2011
 {: label .label-blue}
 
 
-
-
-Suppose \\(f(x) = x^3 + x^2 + cx + d\\), where \\(c\\) and \\(d\\) are real numbers. Prove that if \\(c>1/3\\),
-then \\(f\\) has exactly one real root.
+<p>
+Suppose \(f(x) = x^3 + x^2 + cx + d\), where \(c\) and \(d\) are real numbers. Prove that if \(c>1/3\),
+then \(f\) has exactly one real root.
+</p>
 
 *Requires calculus too*.
 
 #### Solution
 
+<p>
 Since the function has odd degree as the highest power, it has at least one
 real root. To show that the function has exactly one real root
-we have to show, that it is monotonic in the whole \\(\mathbb{R}\\).
-This can be done by showing that \\(f'(x)\\) is always positive when \\(c>1/3\\).
+we have to show, that it is monotonic in the whole \(\mathbb{R}\).
+This can be done by showing that \(f'(x)\) is always positive when \(c>1/3\).
 
-\\[ f'(x) = 3x^2+2x+c \\]
+\[ f'(x) = 3x^2+2x+c \]
 
-The discriminant of the above quadratic, \\(2^2-4\cdot3\cdot c\\), is negative when \\(c>1/3\\).
-Hence, \\(f'(x)\\) is always positive in \\(\mathbb{R}\\).
+The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\).
+Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
 
+</p>
 
 ---
-
-
-### Monotonic again
-{: .d-inline-block}
-
-B1, 2017
-{: label .label-blue}
-
-
-Find the number of solutions to \\(e^{x}=\frac{x}{2017}+1\\)
-
-#### Solution
-
-This problem is similar to the last one. We need to show that the function is monotonic in some interval.
-Consider the function:
-\begin{align}
-f(x)&=  e^x -\frac{x}{2017} - 1 \\\\\\\\
-f'(x)&=  e^x -\frac{1}{2017}
-\end{align}
-
-
-The derivative is positive when \\(x>x_0=-\log 2017\\).
-
--  We have \\(f(x_0)<0\\) and \\( f(-\infty)>0 \\) so there is one solution in the interval \\( (-\infty,x_0)\\).
--  \\( x = 0 \\) is another solution.
-
-Hence, there are two solutions to the equation.
-
-
-
 
 ### Find a rational polynomial with a given a root
 {: .d-inline-block }
@@ -251,7 +253,9 @@ B8, 2012
 
 <p>
 Let \(f(x)\) be a polynomial with integer coefficients \(f(n)\) evaluates to a <i>prime power</i> for every integer \(n\). A prime power is a number of the form \(p^{k}\), where \(p\) is prime and \(k\) a positive integer. Prove that \(f(x)\) is a constant.
-<br>
+</p>
+
+<p>
 a) If such a polynomial \(f(x)\) exists, then there is a polynomial \(g(x)\) with integer coefficients such that for each nonnegative integer \(n, g(n)=\) a perfect power of a fixed prime number.
 </p>
 
@@ -361,7 +365,6 @@ Suppose  \(f(x)\) is a function from \(\mathbb{R}\) to \(\mathbb{R}\) such that 
 (b) Exactly four of those functions are polynomials.
 </p>
 
-
 Sol.
 
 <p>
@@ -372,7 +375,7 @@ satisfies the given condition.
 
 
 <p>
-If \(f\) is a polynomial, then we make two cases.<br>
+(b) If \(f\) is a polynomial, then we make two cases.<br>
 </p>
 
 <p>
@@ -380,7 +383,7 @@ If \(f\) is a polynomial, then we make two cases.<br>
 </p>
 
 <p>
-(ii) If \(f(x)\) is a non-constant polynomial, then consider its range set \(A=\{f(x) \mid x \in \mathbb{R}\}\).
+(ii) If \(\mathrm{deg}(f)\geq 1\), then consider its range set \(A=\{f(x) \mid x \in \mathbb{R}\}\).
 Now for all \(a \in A,\) we have by the given property \(f(a)=a^{2013}\).
 So the polynomial \(f(x)-x^{2013}\) has all elements of \(A\) as its roots.
 Since there are infinitely many values in \(A\) (e.g. applying the intermediate value theorem because \(f\) is continuous), the polynomial \(f(x)-x^{2013}\) has infinitely many roots and thus must be the zero polynomial, i.e., \(f(x)=x^{2013}\) for all real number \(x\).
@@ -400,13 +403,33 @@ A8, 2014
 </p>
 
 
+
 Sol.
 
 <p>
-(i) \(4\)<br>
-(ii) \(4x\)<br>
+(i) The function has only even powers. Let us put \(z=x^{2}\). We want to know the
+remainder of \(7z^{16}+5z^{11}+3z^{6}+z\) when divided by \((z+1)\). By remainder theorem,
+
+\[ 7(-1)^{16}+5(-1)^{11}+3(-1)^{6}+(-1)=4 \]
+
 </p>
 
+<p>
+So we have \(f(x)=q(x)\left(x^{2}+1\right)+4\), where \(q(x)\) is some polynomial.
+
+<br>
+<br>
+(ii) \(x f(x)=x q(x)\left(x^{2}+1\right)+4x\), so the second remainder is \(4x\).
+</p>
+
+
+
+
+
+
+
+
+---
 
 
 
@@ -456,36 +479,57 @@ Sol.
 <p>
 (i) After expanding the powers of \((x-1),\) the degree \(n\) terms of \(f(x)\) and \(f(x-1)\) cancel out.  The degree \(n-1\) term from \(f(x)\)
 cancels with the leading term of \(a_{n-1}(x-1)^{n-1}\). The only remaining term of degree \(n-1\) has to come from \(a_{n}(x-1)^{n}\).
-So \(\Delta f(x)=n a_{n} x^{n-1}+\) lower degree \(x\) terms. This is similar to the derivative. <br><br>
+So \(\Delta f(x)=n a_{n} x^{n-1}+\mathrm{lower\; degree\; terms}\). This is similar to the derivative. <br><br>
+</p>
 
 
+<p>
 (ii)  We use induction on the degree of \(f .\) If \(f(x)=a_{0}\) is constant, \(b_{0}=a_{0}\) works uniquely (base case).
 <br>
 <i> Inductive hypothesis. </i> Assume the result for polynomials of degree strictly less than \(n\) and let \(f\) be of degree \(n,\) so \(a_{n} \neq 0 .\) We are forced to take \(b_{n}=n ! a_{n}\) by comparing leading coefficients of \(f(x)\) and \(\sum_{i=0}^{n} b_{i} p_{i}(x) .\)
 <br>
 Now \(f(x)-b_{n} p_{n}(x)\) is a polynomial of degree \(d < n\) and hence by induction equals \(\sum_{i=0}^{d} b_{i} p_{i}(x)\) for unique \(b_{0}, \ldots, b_{d}\) Therefore \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x),\) where \(b_{d+1}, \ldots, b_{n-1}\) are all \(0 .\) To see uniqueness of \(b_{i}^{\prime} s,\) let \(\sum_{i=0}^{n} b_{i} p_{i}(x)=\sum_{i=0}^{n} c_{i} p_{i}(x) .\) Subtract all terms with \(b_{i}=c_{i} .\) If any terms are remaining, compare the leading coefficients on each side to get a contradiction.
-<br>
-<br>
+</p>
 
 
+<p>
 <i><b>Alternate solution</b>. If we are allowed to use linear algebra, it is a one-line proof.</i>
 The \( p_i \)s form a basis for polynomial functions, so any polynomial has a unique representation.
-<br><br>
+</p>
 
+<p>
 (iii) Substitute \(x=0,1,2, \ldots\) one by one in the equation \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)\) and solve for \(b_{0}, b_{1}, b_{2}, \ldots\) successively. \(x=0\) gives \(b_{0}=f(0) .\) Using \(x=1\) and 2 gives \(b_{1}=f(1)-b_{0}\) \(b_{2}=f(2)-b_{0}-2 b_{1} .\) In general, for all integers \(t, p_{i}(t)=\left(\begin{array}{c}t \\ i\end{array}\right)\) is an integer. Further, \(p_{i}(t)=0\) if \(0 \leq t < i\) and 1 if \(t=i .\) So \(b_{t}=f(t)-\sum_{i=0}^{t-1} b_{i}\left(\begin{array}{c}t \\ i\end{array}\right),\) which is an integer by induction.
 </p>
 
 ---
 
+#### Problem credits
 
-2015-q1
+<img src="/assets/images/brook_taylor.jpg" style="float:left;margin-right:20px;margin-top:10px;"/>
+
+<p>
+This problem is based an advanced topic called method of finite differences. The topic was initiated by Brook Taylor (of Taylor series fame)
+in 1715 and further developed by Isaac Newton. The similarity to differentiation is not an accident. Read more about it on <a href="https://en.wikipedia.org/wiki/Finite_difference">Wikipedia</a>.
+
+</p>
+{: .fs-4 .fw-300 }
+
+Brook Taylor (1685-1731)
+
 ---
+
+
+
+### Polynomial with positive coefficients
+{: .d-inline-block}
 
 A4, 2015
 {: .label}
 
 <p>
-Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10 .\) Suppose all of the eleven coefficients of \(p(x)\) are positive. For each of the following statements, decide if it is true or false. Write your answers as a sequence of four letters \((\mathrm{T} / \mathrm{F})\) in correct order.<br>
+Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10 .\) Suppose all of the eleven coefficients of \(p(x)\) are positive.
+
+Which of these statements are true?
 
 <ul>
 <li>(i) The polynomial \(p(x)\) must have a global minimum. </li>
@@ -499,14 +543,19 @@ Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\l
 
 Sol.
 
-All are true.
 
 <p>
-(i) The degree is even, so \(p(x)\) goes to \(+\infty\) as \(x \rightarrow \pm \infty .\) So \(p(x)\) must attain a global minimum somewhere by continuity.
+All of them are true.
 </p>
 
 <p>
-(ii) The roots of \(p(x)\) are \(-a_{i}\) By positivity of coefficients of \(p(x),\) no nonnegative number is a root of \(p(x) .\) Thus all \(a_i\)s are positive.
+(i) Since the degree is even, \(p(x)\) goes to \(+\infty\) as \(x \rightarrow \pm \infty .\) So \(p(x)\) must have a global minimum somewhere.
+</p>
+
+
+<p>
+(ii) The roots of \(p(x)\) are \(-a_{i}\). Since the coefficients of \(p(x)\) are positive, no nonnegative number is a root of \(p(x)\).
+Thus all the \(a_i\)s are positive.
 </p>
 
 <p>
@@ -516,8 +565,8 @@ All are true.
 
 ---
 
-2015-q2
----
+### Binomial coefficients ratios
+{: .d-inline-block}
 
 A7, 2015
 {: .label}
@@ -535,8 +584,16 @@ A7, 2015
 Sol.
 
 <p>
-(i) \(i=6 .\) One way: simplify the ratio \(\frac{C_{i+1}(\sqrt{2})^{t+1}}{C_{i}(\sqrt{2})^{4}}\) and see that this ratio is \(>1\) till \(i=5\) and \(<1\) from \(i=6\) onwards.
+(i) \(i=6\). Consider the ratio:
+<br>
+
+\[\frac{C_{i+1}(\sqrt{2})^{t+1}}{C_{i}(\sqrt{2})^{4}}\]
+
+<br>
+
+This ratio is \(>1\) till \(i=5\) and \(<1\) from \(i=6\) onwards. Similar to problem B2, 2011.
 </p>
+
 
 <p>
 (ii) 32.
@@ -546,70 +603,16 @@ Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{
 ---
 
 
-2015-q3
----
-
-B3, 2015
-{: .label }
-
-<p>
-(a) Show that there are exactly 2 numbers \(a\) in \(\{2,3, \ldots, 9999\}\) for which \(a^{2}-a\) is divisible by \(10000 .\) Find these values of \(a\).
-</p>
-
-<p>
-(b) Let \(n\) be a positive integer. For how many numbers \(a\) in \(\left\{2,3, \ldots, n^{2}-1\right\}\) is \(a^{2}-a\) divisible by \(n^{2} ?\) State your answer suitably in terms of \(n\) and justify.
-</p>
-
-Sol.
-
-<p>
-(a) We have \(10000=16 \times 625\) as product of prime powers. Recall the notation \(a \mid b,\) meaning \(b\) is divisible by a. We have \(10000 \mid a^{2}-a\) if and only if \((625 \mid a(a-1)\) and \(16 \mid a(a-1)) .\) Because \(a\) and \(a-1\) cannot share a factor, in turn this is equivalent to having both the conditions \((1) 625 \mid a\) or \(625 \mid a-1\) AND
-(2) \(16 \mid a\) or \(16 \mid a-1 .\) Now if the coprime integers 16 and 625 both divide the same natural number (in our case \(a\) or \(a-1),\) their product 10000 will also divide this number. In our case this would force \(a=0,1,\) or \(\geq 10000,\) all of which are not allowed. Thus the given requirement on \(a\) is equivalent to having either (1) \(16 \mid a\) and \(625 \mid a-1\) OR
-(2) \(16 \mid a-1\) and \(625 \mid\) a. Each case has a unique solution, respectively \(a=9376\) and \(a=625\) (e.g. use modular arithmetic:
-in case \(1,\) we have \(a=625 k+1,\) which is \(k+1\) mod \(16,\) forcing \(k=15\) because \(16 \mid a\) and \(a \in\{2,3, \ldots, 9999\})\)
-</p>
-
-<p>
-(b) Let \(n=p_{1}{ }^{e_{1}} \ldots p_{k}{ }^{e_{k}}\) be the factorization of \(n\) into powers of distinct primes. The analysis in part (a) tells that required values of \(a\) are obtained as follows: write \(n^{2}=x y\) as a product of two coprime integers and find values of \(a\) in \(\left\{2,3, \ldots, n^{2}-1\right\}\) that are simultaneously 0 mod \(x\) and 1 mod \(y\). These are precisely the values of \(a\) that we want. This is because each \(p_{i}^{2 e_{i}}\) must divide \(a\) or \(a-1,\) as \(a\) and \(a-1\) are coprime.
-
-
-Now the Chinese remainder theorem tells you that there is always an \(a\) that is 0 mod \(x\) and 1 mod \(y\). Moreover it is unique modulo \(x y=n^{2}\) because difference between any two solutions would be divisible by \(x y\).
-
-The total number of ways to write \(n^{2}=x y\) as a product of coprime integers is exactly \(2^{k}\) as it amounts to choosing which of the \(k\) distinct primes to include in \(x\) and then the rest go into \(y\). (Notice that \(x\) and \(y\) are not interchangeable.) However, we have to delete the two cases \(x=1, y=n^{2}\) and \(y=1, x=n^{2},\) as these will respectively lead to solutions \(a=1\) and \(a=0\) or \(n^{2},\) which are not in \(\left\{2,3, \ldots, n^{2}-1\right\} .\) Finally it is easy to see that different choices of \(x\) lead to different values of \(a\). This is because, of the primes \(p_{1}, \ldots, p_{k}\) in the factorization of \(n,\) precisely the ones dividing \(x\) will divide \(a\) and the remaining primes will not, because they divide \(a-1\).
-
-Thus the final answer is \(2^{k}-2 .\) Note that this matches with the special case in part (a). Finally, note that there was nothing special about taking a square: instead of \(n^{2}\) it could be any positive integer \(m\) and we would proceed the same way to find requisite integers \(a\) in \(\{2,3 \ldots, m-1\}\) based on prime factorization of \(m\)
-</p>
-
----
-
-
-
-2015-q4
----
-
-B5, 2015
-{: .label}
-
-
-<p>For an arbitrary integer \(n,\) let \(g(n)\) be the \(G C D\) of \(2 n+9\) and \(6 n^{2}+11 n-2 .\) What is the largest positive integer that can be obtained as the value of \(g(n) ?\) If \(g(n)\) can be arbitrarily large, state so explicitly and prove it.
-</p>
-
-Sol.
-<p>
-Long division gives \(6 n^{2}+11 n-2=(2 n+9)(3 n-8)+70 .\) By Euclidean algorithm, \(G C D\left(6 n^{2}+11 n-2,2 n+9\right)=G C D(2 n+9,70) .\) Thus \(g(n)\) divides \(70 .\) But since \(g(n)\) divides \(2 n+9,\) which is odd, \(g(n)\) divides \(35 .\) When \(n=13,2 n+9=35\) and hence \(g(13)=35 .\) Thus the maximum value of \(g(n)\) is \(35 .\)
-</p>
-
----
-
-2016-q1
----
+### GDP vs Per-capita GDP
+{: .d-inline-block}
 
 A2, 2016
 {: .label}
 
 
 <p>
-A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP (= ratio of GDP to the total population) increased by 10\%. During this period, the total population of the country increased/decreased by correct option and fill in the blank if possible.)
+A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP defined as the ratio of GDP to the total population, increased by 10\%.
+By what percentage did the total population change during this period?
 </p>
 
 Sol.
@@ -621,15 +624,18 @@ Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\). Letting \(G\) 
 ---
 
 
-2016-q2
----
+### Polynomial factorization
+{: .d-inline-block}
 
 A8, 2016
 {: .label}
 
 
 <p>
-A function \(g\) satisfies the property that \(g(k)=3 k+5\) for each of the 15 integer values of \(k \operatorname{in}[1,15]\)
+A function \(g\) has the property that \(g(n)=3n+5\) for each of the 15 integers in the range \([1,15]\).
+
+Which of the statements are true?<br>
+
 <ul>
 <li>(i) If \(g(x)\) is a linear polynomial, then \(g(x)=3 x+5\)</li>
 <li>(ii) \(g\) cannot be a polynomial of degree 10.</li>
@@ -644,150 +650,201 @@ Sol.
 <p>
 TTFF<br>
 
-If \(g(x)\) is linear, it is \(3 x+5\) because the values at 1 and 2 are 8 and 11 respectively. If \(g(x)\) is a polynomial then it is \(3 x+5\) plus a multiple of \((x-1)(x-2) \cdots(x-15) .\) So \(g(x)\) cannot be a polynomial of degree \(10 .\) But it can be a polynomial of degree 15 or more. \(g\) being differentiable does not mean that it is a polynomial. You can fit any number of differentiable functions to the given data.
+<p>
+(i) If \(g(x)\) is linear, it is uniquely determined by any two values.<br>
+</p>
+
+<p>
+(ii) If \(g(x)\) is a polynomial then it is of the form \(q(x)(x-1)(x-2) \cdots(x-15) + 3x+5\), where \(q(x)\) is some polynomial.
+So \(g(x)\) cannot be a polynomial of degree 10.
+</p>
+
+<p>
+<i>The official solution states this fact without a proof. Why should the polynomial have a \(3x+5\) term? It is not clear.  Where is the consecutive property of integers getting used? </i>
+</p>
+
+<i>This problem is related to difference equations on integer-valued functions. See this <a href=" https://web.math.rochester.edu/people/faculty/doug/otherpapers/Cahen-Chabert.pdf">paper</a> and in particular Proposition 1 on page 313.</i>
+
+
+<p>
+(iii) \(g(x)\) can have any degree more than 15. To get 20, pick \(q(x)\) to be \(x^5\) in the expression in (ii).
+</p>
+
+<p>
+(iv) Pick \(q(x)=\sin x\), for a counterexample.
+</p>
+
 </p>
 
 ---
 
 
-2016-q3
----
+### Given the remainders, find the polynomials
+{: .d-inline-block}
 
 B5, 2016
 {: .label}
 
 
-<p>Find a polynomial \(p(x)\) that simultaneously has both the following properties.
-(i) When \(p(x)\) is divided by \(x^{100}\) the remainder is the constant polynomial 1.<br>
-(ii) When \(p(x)\) is divided by \((x-2)^{3}\) the remainder is the constant polynomial 2.<br>
+<p>Find a single polynomial \(p(x)\) that has these two properties:<br>
+
+(i) If \(p(x)\) is divided by \(x^{100}\), the remainder is the constant polynomial 1.<br>
+
+(ii) If \(p(x)\) is divided by \((x-2)^{3}\), the remainder is the constant polynomial 2.<br>
 </p>
 
 
 Sol.
 
 <p>
-Suppose a polynomial \(f(x)\) leaves a constant remainder \(r\) when divided by the polynomial \((x-c)^{k}\).
-Then \(f^{\prime}(x)\) is divisible by \((x-c)^{k-1}\).
-The converse is also true: suppose for a polynomial \(f(x),\) the derivative \(f^{\prime}(x)\) is divisible by \((x-c)^{k-1},\) say \(f^{\prime}(x)=q(x)(x-c)^{k-1}\).
-Then \(f(x)\) leaves a constant remainder when divided by \((x-c)^{k}\). One can see this, for example, by substituting \(u=(x-c)\) in \(q(x)(x-c)^{k-1}\) and integrating.
+<b>Background</b>. In general, if a polynomial \(f(x)\) leaves a constant remainder \(r\) when divided by the polynomial \((x-c)^{k}\).
+Then \(f^{\prime}(x)\) is divisible by \((x-c)^{k-1}\).<br>
+
+The converse also holds. If \(f^{\prime}(x)=q(x)(x-c)^{k-1}\), then \(f(x)\) leaves a constant remainder when divided by \((x-c)^{k}\).
+To see this, substitute \(u=(x-c)\) in \(q(x)(x-c)^{k-1}\) and integrate.
 </p>
 
+
+
+
 <p>
-In the given problem \(p^{\prime}(x)\) must be divisible by \(x^{99}\) as well as by \((x-2)^{2} .\) Moreover any polynomial whose derivative is divisible by \(x^{99}(x-2)^{2}\) will leave constant remainders when divided by either of \(x^{100}\) and \((x-2)^{3}\). The simplest way to find one such \(p(x)\) is to integrate \(A x^{99}(x-2)^{2}=A\left(x^{101}-4 x^{100}+4 x^{99}\right)\) to get
+In the given problem \(p^{\prime}(x)\) is divisible by \(x^{99}\) as well as by \((x-2)^{2} .\) Moreover any polynomial whose derivative is divisible by \(x^{99}(x-2)^{2}\) will leave constant remainders when divided by either of \(x^{100}\) and \((x-2)^{3}\). The simplest way to find one such \(p(x)\) is to integrate \(A x^{99}(x-2)^{2}=A\left(x^{101}-4 x^{100}+4 x^{99}\right)\) to get
 
 \[ p(x)=A\left(\frac{x^{102}}{102}-\frac{4 x^{101}}{101}+\frac{4 x^{100}}{100}\right)+B \]
 
-and solve for constants \(A\) and \(B\) to ensure desired values of the constant remainders. We have \(p(0)=B=1\) and \(p(2)=A\left(\frac{2^{102}}{102}-\frac{4 \times 2^{101}}{101}+\frac{4 \times 2^{100}}{100}\right)+1=2,\) which gives \(A\)
+
+Let us calculate \(A\) and \(B\).
+
+\begin{align}
+p(0)&=B=1 \\
+p(2)&=A\left(\frac{2^{102}}{102}-\frac{4 \times 2^{101}}{101}+\frac{4 \times 2^{100}}{100}\right)+1=2
+\end{align}
+
+So \(A=2\) and \(B=1\).
+
+
 </p>
 
 <br>
-<br>
 
-
-<p>
-(ii) Theoretical approach. Working through the following reasoning will be very useful for your understanding of basic arithmetic/algebra.
-It explains how to implememt the Chinese remainder theorem using the Euclidean algorithm for finding GCD. This theorem states the following. One can always find an integer that leaves desired remainders when divided by two coprime integers a and b.
-Suppose we are required to find an integer that leaves remainder \(r\) when divided by a and remainder \(s\) when divided by \(b\). A way to achieve this systematically is to use the Euclidean algorithm, which finds GCD of two numbers by repeated division with remainder. This algorithm also enables one to write the GCD in the form \(x a+y b,\) where the integers \(x, y\) can be found explicitly by backward substitution in the steps used to calculate the GCD. If \(a\) and \(b\) are coprime, i.e. if their GCD is \(1,\) then we can write \(1=x a+y b . \quad\) This tells you that \(x a\) is 1 modulo \(b\) and \(y b\) is 1 modulo a. Therefore,
-s.xa \(+r y b\) is \(r\) modulo \(a\) and \(s\) modulo \(b\)
-The relevance for this problem is that the same reasoning applies for polynomials in one variable, because in this setting too one has division with remainder. Because \(x^{100}\) and \((x-2)^{3}\) do not share a common factor, you know without any work that a polynomial with given properties must exist. The same algorithm as the previous paragraph (but now with polynomials) gives a systematic way to find it. In the given problem we could use a different trick because the specified remainders here were rather simple (constants). But there is a conceptual way as well by implementing the Chinese remainder theorem.
-</p>
 
 ---
 
 
-2017-q1
----
+### Solutions to simultaneous equations
+{: .d-inline-block}
 
 A8, 2017
 {: .label}
 
 
 <p>
-For this question write your answers as a series of four letters (Y for Yes and N for No) in order. Is it possible to find a \(2 \times 2\) matrix \(M\) for which the equation \(M \vec{x}=\vec{p}\) has:
-<li>(a) no solutions for some but not all \(\vec{p}\); exactly one solution for all other \(\vec{p} ?\)</li>
-<li>(b) exactly one solution for some but not all \(\vec{p} ;\) more than one solution for all other \(\vec{p} ?\)</li>
-<li>(c) no solutions for some but not all \(\vec{p}\); more than one solution for all other \(\vec{p} ?\)</li>
-<li>(d) no solutions for some \(\vec{p},\) exactly one solution for some \(\vec{p}\) and more than one solution for some \(\vec{p} ?\)</li>
+State Yes or No for each of these questions.<br>
+Is it possible to find a \(2 \times 2\) matrix \(A\) for which the equation \(A \vec{x}=\vec{b}\) has:
+
+<ul>
+<li>(a) no solutions for some but not all \(\vec{b}\); exactly one solution for all other \(\vec{b} ?\)</li>
+
+<li>(b) exactly one solution for some but not all \(\vec{b} ;\) more than one solution for all other \(\vec{b} ?\)</li>
+
+<li>(c) no solutions for some but not all \(\vec{b}\); more than one solution for all other \(\vec{b} ?\)</li>
+
+<li>(d) no solutions for some \(\vec{b},\) exactly one solution for some \(\vec{b}\) and more than one solution for some \(\vec{b} ?\)</li>
+
+</ul>
+
 </p>
 
 
 Sol.
 
 
-<p>If \(M\) has nonzero determinant, then for any \(\vec{p},\) we see that \(M \vec{x}=\vec{p}\) has the unique solution \(\vec{x}=M^{-1} \vec{p} .\) If determinant of \(M\) is zero then we can make two cases. (i) If \(M\) is the zero matrix, then \(M \vec{x}=\vec{p}\) has infinitely many solutions for \(\vec{p}=\overrightarrow{0}\) and no solutions otherwise. (ii) If \(M\) is nonzero then it is easy to see that we are solving two equations in two variables whose left hand sides are proportional. So if the two right hand constants that make up \(\vec{p}\) are in the same proportion, then we will have infinitely many solutions (because one of the variables can be arbitrary). If the constants are not in the same proportion, then the two equations will be inconsistent and we will have no solutions. Thus the answer is NNYN. It is also possible to think geometrically in terms of (at most) two lines, each moving in a parallel family. If the lines have the same slope they either coincide or don't intersect. Otherwise they have a unique point of intersection.
-Note: In general linear algebra gives the right tools to analyze matrix equations, e.g. in this problem we can say the following. If \(M=0\) then the space of solutions is either empty or two-dimensional. If \(M \neq 0\) then either there is a unique solution (precisely when determinant \(\neq 0\) ) or, when determinant is \(0,\) the space of solutions is either empty or one-dimensional. For larger matrices the possibilities are more complicated, but they can be described precisely using the language provided by linear algebra.
+<p>
+
+No-No-Yes-No.<br>
+
+Suppose \(A\) has nonzero determinant. Then for any \(\vec{b},\) we see that \(A \vec{x}=\vec{b}\) has the unique solution \(\vec{x}=A^{-1} \vec{b}\).
+
+If determinant of \(A\) is zero then we can make two cases:<br>
+
+(i) If \(A\) is the zero matrix, then \(A \vec{x}=\vec{b}\) has infinitely many solutions for \(\vec{b}=\overrightarrow{0}\) and no solutions otherwise.<br><br>
+
+(ii) If \(A\) is nonzero then it is easy to see that we are solving two equations in two variables whose left hand sides are proportional.
+
+So if the two right hand constants that make up \(\vec{b}\) are in the same proportion, then we will have infinitely many solutions (because one of the variables can be arbitrary).
+If the constants are not in the same proportion, then the two equations will be inconsistent and we will have no solutions.
 </p>
 
 ---
 
+#### Problem credits
 
-
-2017-q2
----
-
-A9, 2017
-{: .label}
+<img src="/assets/images/LADRcover.png" style="float:left;margin-right:20px;margin-top:10px;"/>
 
 <p>
-Let \(f\) be a continuous function from \(\mathbb{R}\) to \(\mathbb{R}\) (where \(\mathbb{R}\) is the set of all real numbers) that satisfies the following property: For every natural number \(n\)
-\(f(n)=\) the smallest prime factor of \(n\)
-For example, \(f(12)=2, f(105)=3 .\) Calculate the following.
-(a) \(\lim_{x \rightarrow \infty} f(x)\)
-(b) The number of solutions to the equation \(f(x)=2016\)
+The statements in the problem are basic facts in linear algebra (LA).
+It is a good idea to be familiar with LA although the syllabus does not mention it.
+Read the first three chapters of the book by Sheldon Axler.
+Another LA problem from CMI exam: B5 part(b) from 2014.
 </p>
+{: .fs-4 .fw-300 }
 
-Sol.
+<br><br>
+<br><br>
+[View on Amazon](https://amzn.to/3hbctgO)
 
+---
+
+
+<!--
+#### Request to CMI faculty
 <p>
-\(f(x)\) will take value 2 for all even \(x\). At the same time, primes provide an increasing infinite sequence of positive integers for which \(f(x)=x .\) Thus \(\lim_{x \rightarrow \infty} f(x)\) does not exist. By intermediate value theorem, for each prime \(p>2016\) there is an \(x\) between \(p\) and \(p+1\) such that \(f(x)=2016\)
+Please do not pose elementary facts from advanced topics as high-school questions. Linear algebra is not part of XII mathematics.
 </p>
+-->
 
 
----
 
 
-
-2018-q1
----
+### Solving a cubic root equation
+{: .d-inline-block}
 
 A3, 2018
 {: .label }
 
-<p>List every solution of the following equation.
-\[ \sqrt[3]{x+4}-\sqrt[3]{x}=1 \]
+<p>List all solutions of the following equation. Need not simplify the solutions.
+
+\[ \large \sqrt[3]{x+4}-\sqrt[3]{x}=1 \]
 </p>
 
 Sol.
 
 <p>
-Put \(t=\sqrt[3]{x},\) to get \(\left(t^{3}+4\right)=(1+t)^{3}\). This leads to the quadratic \(t^{2}+t-1=0\) Solve it a nd then take the cube root of the solutions, The answer s a re \(-2 \pm \sqrt{5}\).
+Put \(t=\sqrt[3]{x}\) to get:
+
+\begin{align}
+\left(t^{3}+4\right)&=(1+t)^{3} \\
+4&=t^{3}+3t^2+3t+1 \\
+t^{2}+t-1&=0\\
+\end{align}
+
+Solving for \(t\) and then \(x\) we get:
+
+\[ x = \left( \frac{-1\pm\sqrt{5}}{2} \right)^{1/3} \]
+
+
+<i><b>Comment</b>. The official CMI paper glibly says: <q>Solve it and then take the cube root of the solutions. The two solutions are \(-2 \pm \sqrt{5}\)</q>.
+ No explanation is given on why it is easy to take cube roots of \(t\).</i>
+
+
 </p>
 
 ---
 
 
 
-2018-q2
----
-
-A5, 2018
-{: .label}
-
-<p>List in increasing order all positive integers \(n \leq 40\) such that \(n\) cannot be written in the form \(a^{2}-b^{2},\) where \(a\) and \(b\) are positive integers.
-</p>
-
-
-Sol.
-
-<p> 1,4 and all even number s of the form \(4 k+2\).</p>
-
----
-
-
-
-2018-q2a
----
-
+### Solve: \\(p(x)^{q(x)} = 1\\)
+{: .d-inline-block}
 
 B2a, 2018
 {: .label}
@@ -798,21 +855,28 @@ Find all real solutions of the equation:
 
 \[ \left(x^{2}-2 x\right)^{x^{2}+x-6}=1 \]
 
-Explain why your solutions are the only solutions.
 </p>
 
 
 Sol.
 
 <p>
-\(x=-3,1,1 \pm \sqrt{2}\) are the only solutions. First, we want either \(x^{2}+x-6=0\) or \(x^{2}-2 x=1\). However, when \(x=2\) the base as well as the expo ne nt are 0 g in ing us an indeter minate for \(\mathrm{m}\). He noe \(x=2\) w ill not work Moreover, when \(x=-3\) the base is positive. Second, observe that wher \(x=1\) we get \((-1)^{-4}\) which equals 1
+The equation is of the form \(a^b=1\). This can happen only in three cases:
+<br>
+
+(i) Either \(a=1\), which means \(x^2-2x=1\). So \(x=1\pm\sqrt{2}\).<br>
+(ii) or \(a=-1\) and \(b\) is an even integer. So \(x=1\) works.<br>
+(iii) or \(b=0\) and \(a\neq 0\). Which happens when \(x=-3\) or \(1\). The value \(x=2\) makes \(a=b=0\) <br>
+
+So \(x=-3,1,1 \pm \sqrt{2}\) are the only solutions.
 </p>
 
+
 ---
 
 
-2018-q2b
----
+### Solve: \\(\sqrt[3]{a}-\sqrt[3]{b} = 1\\)
+{: .d-inline-block}
 
 B2b, 2018
 {: .label}
@@ -828,33 +892,32 @@ The following expression is an integer. Find its value.
 Sol.
 
 <p>
-The expression evaluates to 2.  Let the numbers be \(a, b\) respectively.  Note \(a^{3}-b^{3}=20\) and \(a b=2 .\) Putting it in \((a-b)^{3}\) we get \((a-b)^{3}=20-6(a-b)\).
-This cubic has one real solution \(a-b=2\) and two complex solutions.
+Let \(a=\sqrt{3}+10\) and \(b=\sqrt{3}-10\).  We have \(a^{3}-b^{3}=20\) and \(a b=2 .\) Putting it in \((a-b)^{3}\) we get \((a-b)^{3}=20-6(a-b)\).
+This cubic has one real root \(a-b=2\) and two complex roots.
 </p>
 
 
+<i>A similar problem was discussed on [Quora](https://www.quora.com/How-do-I-prove-that-sqrt-3-5-sqrt-2-+7-sqrt-3-5-sqrt-2-7-is-an-integer) in 2017.</i>
+
 ---
 
 
 
-2018-q3
----
+### Recursive polynomial
+{: .d-inline-block}
 
 A9, 2018
 {: .label}
 
 
 <p>
-Consider a sequence of polynomials with real coefficients defined by
-\[
-\begin{array}{c}
-p_{0}(x)=\left(x^{2}+1\right)\left(x^{2}+2\right) \cdots\left(x^{2}+1009\right) \\
-2
-\end{array}
-\]
+Consider a sequence of polynomials with real coefficients defined recursively as follows:
+\begin{align}
+p_{0}(x)&:=\left(x^{2}+1\right)\left(x^{2}+2\right) \cdots\left(x^{2}+1009\right) \\
+p_{k+1}(x)&:=p_{k}(x+1)-p_{k}(x)
+\end{align}
 
-with subsequent polynomials defined by \(p_{k+1}(x):=p_{k}(x+1)-p_{k}(x)\) for \(k \geq 0 .\) Find the least \(n\) such that
-\[ p_{n}(1)=p_{n}(2)=\cdots=p_{n}(5000) \]
+with subsequent polynomials defined by  for \(k \geq 0 .\) Find the least number \(n\) for which \[ p_{n}(1)=p_{n}(2)=\cdots=p_{n}(5000) \]
 
 </p>
 
@@ -862,56 +925,8 @@ Sol.
 
 <p>
 \(n=2018\). Note that \(\operatorname{deg} p_{0}(x)=2018\) and \(\operatorname{deg} p_{k}(x)=2018-k\).
-Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots \(s\).
+Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots.
 </p>
-
----
-
-
-
-
-
-2019-q1
----
-
-
-B5, 2019
-{: .label}
-
-
-<p>
-Three positive real numbers \(x, y, z\) satisfy
-\[
-\begin{array}{r}
-x^{2}+y^{2}=3^{2} \\
-y^{2}+y z+z^{2}=4^{2} \\
-x^{2}+\sqrt{3} x z+z^{2}=5^{2}
-\end{array}
-\]
-Find the value of \(2 x y+x z+\sqrt{3} y z .\)
-</p>
-
-
-Sol.
-
-<p>
-
-Consider the right ang led triangle \(A B C\) with sides 3,4,5 and an interior point \(O\) such that \(A O=x, \angle A O B=90\) and \(C O=z, \angle C O A=150\) and \(B O=\) \(y, \angle B O C=120\). Then the three given equations are in fact cosine rule for ea ch of the triangle prescribed above. For example, in \(\Delta B O C\) we have
-
-\[
-\begin{aligned}
-4^{2} &=y^{2}+z^{2}-2 y z \cos (120) \\
-&=y^{2}+z^{2}+y z
-\end{aligned}
-\]
-
-The area of \(\delta ABC\) (which is 6) calculated using the sine formula (for each of the smaller triangle)
-gives us \[ 6=\frac{1}{2} x y+\frac{1}{2} y z \sin 60+\frac{1}{2} \sin 30 \]. So the answer is 24.
-
-
-</p>
-
-
 
 
 

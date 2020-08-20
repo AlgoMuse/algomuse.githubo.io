@@ -9,9 +9,9 @@ last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
 
-# Want to study at Chennai Mathematical Institute?
+# Math @ CMI
 
-This website is exclusively devoted to students preparing for CMI entrance exam.
+This website is for class XII students who wish to pursue B.Sc. at CMI.
 {: .fs-5 .fw-300 }
 
 ---
@@ -55,11 +55,15 @@ https://amzn.to/30EkFAk
 ---
 <img src="/assets/images/manjul.jpg" style="float:left;margin-right:20px;"/>
 
-When universities in the United States are looking to recruit mathematics students
-from India, one of the first places they look for applications is from CMI, if not the first place. Universities that are able to get CMI students are always very proud.
+<q>When universities in the United States are looking to recruit mathematics students
+from India, one of the first places they look for applications is from CMI, if not the first place. Universities that are able to get CMI students are always very proud.</q>
 {: .fs-4 .fw-300 }
 
-Manjul Bhargava<br>Fields Medalist
+
+
+
+
+Manjul Bhargava
 {: .fs-4 .fw-300 }
 
 [Source](https://www.youtube.com/watch?v=FsdZLme1fj0&t=2870s)
@@ -107,7 +111,7 @@ Starting from 2016, admissions are based only on the written test and there is n
 
 ## Acceptance rate
 
-Acceptance letters are sent to around 90 candidates and about half of them enroll. This is the reason why the number varies from year to year. Approximate numbers are given below.
+Acceptance offers are sent to around 90 candidates and about half of them enroll. This is the reason why the number varies from year to year. Approximate numbers are given below.
 
 | Year | # Test-takers | # Offers | # Students enrolled
 |-----|----|--|

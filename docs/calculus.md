@@ -115,6 +115,86 @@ f(t) & = t + constant
 
 Hence the answer is \\(1-\cos \frac{\pi}{12}\\).
 
+### Application of Rolle's theorem
+
+A7, 2014
+{: .label}
+
+<p>
+Let \(f(x)=(x-a)(x-b)^{3}(x-c)^{5}(x-d)^{7},\) where \(a, b, c, d\) are real numbers with \( a < b < c < d \).
+Thus \(f(x)\) has 16 real roots counting multiplicities and among them 4 are distinct from each other.
+Consider \(f^{\prime}(x),\) i.e. the derivative of \(f(x)\). Find the following quantities:<br>
+
+(i) the number of real roots of \(f^{\prime}(x),\) counting multiplicities.  <br>
+
+(ii) the number of distinct real roots of \(f^{\prime}(x)\).<br>
+</p>
+
+Sol.
+
+<p>
+15,6
+</p>
+
+
+
+2017-q2
+---
+
+A9, 2017
+{: .label}
+
+<p>
+Let \(f\) be a continuous function from \(\mathbb{R}\) to \(\mathbb{R}\) (where \(\mathbb{R}\) is the set of all real numbers) that satisfies the following property: For every natural number \(n\)
+\(f(n)=\) the smallest prime factor of \(n\)
+For example, \(f(12)=2, f(105)=3 .\) Calculate the following.
+(a) \(\lim_{x \rightarrow \infty} f(x)\)
+(b) The number of solutions to the equation \(f(x)=2016\)
+</p>
+
+Sol.
+
+<p>
+\(f(x)\) will take value 2 for all even \(x\). At the same time, primes provide an increasing infinite sequence of positive integers for which \(f(x)=x .\) Thus \(\lim_{x \rightarrow \infty} f(x)\) does not exist. By intermediate value theorem, for each prime \(p>2016\) there is an \(x\) between \(p\) and \(p+1\) such that \(f(x)=2016\)
+</p>
+
+
+### Monotonic again
+{: .d-inline-block}
+
+B1, 2017
+{: label .label-blue}
+
+
+<p>
+Find the number of solutions to \(e^{x}=\frac{x}{2017}+1\)
+</p>
+
+#### Solution
+
+<p>
+This problem is similar to the last one. We need to show that the function is monotonic in some interval.
+Consider the function:
+\begin{align}
+f(x)&=  e^x -\frac{x}{2017} - 1 \\
+f'(x)&=  e^x -\frac{1}{2017}
+\end{align}
+
+
+The derivative is positive when \(x>x_0=-\log 2017\).
+
+-  We have \(f(x_0)<0\) and \( f(-\infty)>0 \) so there is one solution in the interval \( (-\infty,x_0)\).
+-  \( x = 0 \) is another solution.
+
+Hence, there are two solutions to the equation.
+
+</p>
+
+---
+
+
+
+
 
 
 
