@@ -99,9 +99,11 @@ ga_tracking: UA-174043892-1
 ga_tracking_anonymize_ip: true #
 
 
-markdown: kramdown
-kramdown:
-  parse_html_block: true
+# markdown: kramdown
+markdown: CommonMarkGhPages
+
+#kramdown: parse_html_block: true
+
 # mathjax: true
 
 
