@@ -12,7 +12,7 @@ nav_order: 4
 ### Vanilla application of L'Hospital
 {: .d-inline-block }
 
-A3, 2011
+A3, 2010
 {: label .label-blue}
 
 Evaluation the limit:
@@ -116,6 +116,8 @@ f(t) & = t + constant
 Hence the answer is \\(1-\cos \frac{\pi}{12}\\).
 
 ### Application of Rolle's theorem
+{: .d-inline-block }
+
 
 A7, 2014
 {: .label}
@@ -138,24 +140,45 @@ Sol.
 
 
 
-2017-q2
----
+### Smallest prime factor function
+{: .d-inline-block }
 
 A9, 2017
 {: .label}
 
 <p>
-Let \(f\) be a continuous function from \(\mathbb{R}\) to \(\mathbb{R}\) (where \(\mathbb{R}\) is the set of all real numbers) that satisfies the following property: For every natural number \(n\)
-\(f(n)=\) the smallest prime factor of \(n\)
+Let \(f\) be a continuous function from \(\mathbb{R}\) to \(\mathbb{R}\) (where \(\mathbb{R}\) is the set of all real numbers) that satisfies the following property: <br>
+</p>
+
+<p>
+For every natural number \(n\)
+</p>
+
+<p>
+\[ f(n)= \text{the smallest prime factor of }n \]
+</p>
+
+
+<p>
 For example, \(f(12)=2, f(105)=3 .\) Calculate the following.
+</p>
+
+<p>
 (a) \(\lim_{x \rightarrow \infty} f(x)\)
+</p>
+
+<p>
 (b) The number of solutions to the equation \(f(x)=2016\)
 </p>
 
 Sol.
 
 <p>
-\(f(x)\) will take value 2 for all even \(x\). At the same time, primes provide an increasing infinite sequence of positive integers for which \(f(x)=x .\) Thus \(\lim_{x \rightarrow \infty} f(x)\) does not exist. By intermediate value theorem, for each prime \(p>2016\) there is an \(x\) between \(p\) and \(p+1\) such that \(f(x)=2016\)
+(a) \(f(x)\) will take value 2 for all even \(x\). At the same time, primes provide an increasing infinite sequence of positive integers for which \(f(x)=x .\) Thus \(\lim_{x \rightarrow \infty} f(x)\) does not exist.
+</p>
+
+<p>
+(b) By intermediate value theorem, for each prime \(p> 2016\) there is an \(x\) between \(p\) and \(p+1\) such that \(f(x)=2016\)
 </p>
 
 
@@ -181,19 +204,18 @@ f'(x)&=  e^x -\frac{1}{2017}
 \end{align}
 
 
-The derivative is positive when \(x>x_0=-\log 2017\).
+The derivative is positive when \(x> x_0=-\log 2017\).
 
--  We have \(f(x_0)<0\) and \( f(-\infty)>0 \) so there is one solution in the interval \( (-\infty,x_0)\).
--  \( x = 0 \) is another solution.
+<ul>
+<li>We have \(f(x_0)< 0\) and \( f(-\infty)>0 \) so there is one solution in the interval \((-\infty,x_0)\).</li>
+<li>\( x = 0 \) is another solution.</li>
+</ul>
 
 Hence, there are two solutions to the equation.
 
 </p>
 
 ---
-
-
-
 
 
 

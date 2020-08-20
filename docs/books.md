@@ -22,7 +22,13 @@ nav_order: 90
 
 
 
+<br><br><br>
+
+---
 
 
+#### Legal information
+{: .fs-2 .fw-300 }
 
-
+M. Balasundar is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.in.
+{: .fs-2 .fw-300 }

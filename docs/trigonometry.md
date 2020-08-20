@@ -188,6 +188,61 @@ S &=\sum_{n=0}^{8} \cos n A-\sum_{n=1}^{2} \cos (3 n A) \\\\\\\\
 
 
 
+### Geometric interpretation of algebraic expressions
+
+B5, 2019
+{: .label}
+
+
+<p>
+Three positive real numbers \(x, y, z\) satisfy
+\[
+\begin{array}{r}
+x^{2}+y^{2}=3^{2} \\
+y^{2}+y z+z^{2}=4^{2} \\
+x^{2}+\sqrt{3} x z+z^{2}=5^{2}
+\end{array}
+\]
+Find the value of \(R = 2 x y+x z+\sqrt{3} y z .\)
+</p>
+
+
+Sol.
+
+<p> <i>The RHS of equations hints that a right angle triangle in involved. The LHS expressions resemble the cosine formulas. All we have to do is find an interpretation for \(x,y\) and \(z\). This is an artificial problem.
+Students are expected to play guess-the-pattern game with the examiners. </i>
+</p>
+
+
+
+
+<p>
+Consider the right angled triangle \(ABC\) with sides 3,4,5 and an interior point \(O\) such that \(A O=x, \angle A O B=90\) and \(C O=z, \angle C O A=150\) and \(B O=\) \(y, \angle B O C=120\).
+Then the three given equations are in fact cosine rule for each of the triangle prescribed above.
+</p>
+
+<p>
+For example, in \(\Delta BOC\) we have:
+</p>
+
+\begin{align}
+4^{2} &=y^{2}+z^{2}-2 y z \cos (120) \\
+&=y^{2}+z^{2}+y z
+\end{align}
+
+<p>If we divide the expression \(R\) by 4, we get:
+\[ \frac{1}{2}xy\sin 90+\frac{1}{2}xz\sin 60 + \frac{1}{2}yz\sin 60 \]
+
+The three terms are the areas of the interior triangles which should be equal to the area of triangle \(ABC\).
+
+\[ 6=\frac{1}{2} x y+\frac{1}{2} y z \sin 60+\frac{1}{2} \sin 30 \]
+
+So the answer is 24.
+</p>
+
+
+
+
 
 
 

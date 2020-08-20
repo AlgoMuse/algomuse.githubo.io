@@ -928,5 +928,64 @@ Sol.
 Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots.
 </p>
 
+---
+
+
+### Charity
+{:b .d-inline-block}
+
+A1, 2015
+{: .label}
+
+<p>
+Ten people sitting around a circular table decide to donate some money for charity. You are told that the amount donated by each person was the average of the money donated by the two persons sitting adjacent to him/her.
+One person donated Rs. \(500\).
+</p>
+
+<p>
+Choose the correct option for the following two questions.
+</p>
+
+<p>
+<b>Q1.</b> What is the total amount donated by the 10 people?
+</p>
+
+<p>
+(a) exactly Rs. 5000
+(b) less than Rs. 5000
+(c) more than Rs. 5000
+(d) cannot decide.
+</p>
+
+<p>
+<b>Q2.</b> What is the maximum amount donated by an individual?
+</p>
+
+<p>
+(a) exactly Rs. 500
+(b) less than Rs. 500
+(c) more than Rs. 500
+(d) cannot decide.
+</p>
+
+Sol.
+
+<p>
+<b>A1.</b>  Exactly Rs. \(5000\).
+</p>
+
+<p>
+<b>A2.</b>  Exactly Rs. \(500\).
+</p>
+
+<p>
+Consider the person who donated Rs. 500.  Suppose the neighbor to the left donates \(500+x\).
+Then the one on the right donates \(500-x\).  But continuing leftward, the amounts donated are \(500+2 x, 500+3 x, \ldots,\)
+forcing \(x\) to be \(0,\) since you come around to the neighbor to the right.
+</p>
+
+
+---
+
 
 
