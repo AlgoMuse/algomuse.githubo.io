@@ -7,6 +7,30 @@ nav_order: 8
 
 # Number theory
 
+### Fermat's little theorem
+{:b .d-inline-block}
+
+A5, 2010
+{: .label .label-blue}
+
+<p>
+Find the remainder given by \(3^{89} \times 7^{86}\) when divided by 17.
+</p>
+
+Sol.
+
+<p>
+The usual trick is to try to get numbers that are 1,-1 modulo the divisor. In this case, \(16\equiv -1 \mod 17\). We cannot get 16 directly but notice
+that \( 21 \equiv 4 \mod 17 \), which we can get.
+</p>
+
+<p>
+\(3^{89} 7^{86} \equiv 3^{3}(3 \cdot 7)^{86} \equiv 27 \cdot 4^{86} \equiv 10\left(4^{2}\right)^{43} \equiv 10(-1)^{43} \equiv-10 \equiv 7\)
+</p>
+
+
+---
+
 
 ### Rationality preserving operations
 {:b .d-inline-block}
@@ -69,6 +93,7 @@ The above expression simplifies to \\(3(2n+7)\\). This number is a perfect squar
 
 \\[ 81 = 11+12+\cdots+16 \\]
 
+---
 
 ### Is a square?
 {: .d-inline-block}
@@ -97,11 +122,7 @@ Since \\( 4(k^2+k) \\) is divisible by 8, the lemma follows. \\(\square\\)
 
 \\( S \\) is a number strictly inbetween two consecutive squares, so there are no solutions for \\(n>2\\).
 
-
-*Official solution*
-
-![](./assets/images/cmi_solution_2019.png)
-
+---
 
 ### Two variables one equation
 {: .d-inline-block}
@@ -127,7 +148,7 @@ We can factorize 105 as \\( 1\cdot 3\cdot 5\cdot 7\\). Every subset of these fou
 
 ---
 
-### Number of divisors: plain application
+### Number of divisors
 {: .d-inline-block}
 
 A1, 2019
@@ -141,8 +162,7 @@ For a natural number \\(m,\\) define \\(\Phi_{1}(m)\\) to be the number of divis
 \\]
 
 
-#### Solution
-
+<details open>
 
 A number \\(n\\) that has prime factorizaton \\( p_1^{k_1} p_2^{k_2}\ldots p_t^{k_t} \\) has \\( (k_1+1)(k_2+1)\ldots(k_t+1) \\) divisors.
 
@@ -157,8 +177,12 @@ Iteration | Number | Factorization | Result
 6 | \\(3          \\) | \\(3                       \\)  |  \\(2 \\)
 
 
+
 *Comment. A bit tedious task for a first problem. Is there a simpler way?*
 
+
+
+</details>
 
 
 
@@ -245,6 +269,7 @@ Find the smallest \\(n\\) for which \\(\displaystyle \frac{50!}{24^n} \\) is *no
 
 #### Solution
 
+
 The expression will not be an integer if and only if the numerator has a prime power lesser
 than the corresponding power in the denominator.
 
@@ -261,87 +286,338 @@ The power of 3 is given by:
 The numerator is of the form: \\( 2^{47}3^{22}\cdot k \\). If \\(n=16\\), the denominator has \\(2^{48}\\) as a factor which is sufficient to make the number a non-integer.
 
 
+---
+
+### Prime factorization
+
+B3, 2015
+{: .label }
+
+<p>
+(a) Show that there are exactly 2 numbers \(a\) in \(\{2,3, \ldots, 9999\}\) for which \(a^{2}-a\) is divisible by \(10000 .\) Find these values of \(a\).
+</p>
+
+<p>
+(b) Let \(n\) be a positive integer. For how many numbers \(a\) in \(\left\{2,3, \ldots, n^{2}-1\right\}\) is \(a^{2}-a\) divisible by \(n^{2} ?\) State your answer suitably in terms of \(n\) and justify.
+</p>
+
+Sol.
+
+<p>
+(a) We have \(10000=16 \times 625\) as product of prime powers. Recall the notation \(a \mid b,\) meaning \(b\) is divisible by a. We have \(10000 \mid a^{2}-a\) if and only if \((625 \mid a(a-1)\) and \(16 \mid a(a-1)) .\) Because \(a\) and \(a-1\) cannot share a factor, in turn this is equivalent to having both the conditions \((1) 625 \mid a\) or \(625 \mid a-1\) AND
+(2) \(16 \mid a\) or \(16 \mid a-1 .\) Now if the coprime integers 16 and 625 both divide the same natural number (in our case \(a\) or \(a-1),\) their product 10000 will also divide this number. In our case this would force \(a=0,1,\) or \(\geq 10000,\) all of which are not allowed. Thus the given requirement on \(a\) is equivalent to having either (1) \(16 \mid a\) and \(625 \mid a-1\) OR
+(2) \(16 \mid a-1\) and \(625 \mid\) a. Each case has a unique solution, respectively \(a=9376\) and \(a=625\) (e.g. use modular arithmetic:
+in case \(1,\) we have \(a=625 k+1,\) which is \(k+1\) mod \(16,\) forcing \(k=15\) because \(16 \mid a\) and \(a \in\{2,3, \ldots, 9999\})\)
+</p>
+
+<p>
+(b) Let \(n=p_{1}{ }^{e_{1}} \ldots p_{k}{ }^{e_{k}}\) be the factorization of \(n\) into powers of distinct primes. The analysis in part (a) tells that required values of \(a\) are obtained as follows: write \(n^{2}=x y\) as a product of two coprime integers and find values of \(a\) in \(\left\{2,3, \ldots, n^{2}-1\right\}\) that are simultaneously 0 mod \(x\) and 1 mod \(y\). These are precisely the values of \(a\) that we want. This is because each \(p_{i}^{2 e_{i}}\) must divide \(a\) or \(a-1,\) as \(a\) and \(a-1\) are coprime.
 
 
+Now the Chinese remainder theorem tells you that there is always an \(a\) that is 0 mod \(x\) and 1 mod \(y\). Moreover it is unique modulo \(x y=n^{2}\) because difference between any two solutions would be divisible by \(x y\).
+
+The total number of ways to write \(n^{2}=x y\) as a product of coprime integers is exactly \(2^{k}\) as it amounts to choosing which of the \(k\) distinct primes to include in \(x\) and then the rest go into \(y\). (Notice that \(x\) and \(y\) are not interchangeable.) However, we have to delete the two cases \(x=1, y=n^{2}\) and \(y=1, x=n^{2},\) as these will respectively lead to solutions \(a=1\) and \(a=0\) or \(n^{2},\) which are not in \(\left\{2,3, \ldots, n^{2}-1\right\} .\) Finally it is easy to see that different choices of \(x\) lead to different values of \(a\). This is because, of the primes \(p_{1}, \ldots, p_{k}\) in the factorization of \(n,\) precisely the ones dividing \(x\) will divide \(a\) and the remaining primes will not, because they divide \(a-1\).
+
+Thus the final answer is \(2^{k}-2 .\) Note that this matches with the special case in part (a). Finally, note that there was nothing special about taking a square: instead of \(n^{2}\) it could be any positive integer \(m\) and we would proceed the same way to find requisite integers \(a\) in \(\{2,3 \ldots, m-1\}\) based on prime factorization of \(m\)
+</p>
+
+---
+
+### GCD
+{: .d-inline-block}
+
+B5, 2015
+{: .label}
 
 
+<p>For an arbitrary integer \(n,\) let \(g(n)\) be the \(G C D\) of \(2 n+9\) and \(6 n^{2}+11 n-2 .\) What is the largest positive integer that can be obtained as the value of \(g(n) ?\) If \(g(n)\) can be arbitrarily large, state so explicitly and prove it.
+</p>
 
+Sol.
+<p>
+Long division gives \(6 n^{2}+11 n-2=(2 n+9)(3 n-8)+70 .\) By Euclidean algorithm, \(G C D\left(6 n^{2}+11 n-2,2 n+9\right)=G C D(2 n+9,70) .\) Thus \(g(n)\) divides \(70 .\) But since \(g(n)\) divides \(2 n+9,\) which is odd, \(g(n)\) divides \(35 .\) When \(n=13,2 n+9=35\) and hence \(g(13)=35 .\) Thus the maximum value of \(g(n)\) is \(35 .\)
+</p>
 
-<!--
-
-
-2014_q1.png
-![](/assets/images/number_theory/2014_q1.png)
-2014_a1.png
-![](/assets/images/number_theory/2014_a1.png)
 
 ---
 
 
-2014_q3.png
-![](/assets/images/number_theory/2014_q3.png)
-2014_a3.png
-![](/assets/images/number_theory/2014_a3.png)
+### Numbers of the form \\(a^2-b^2\\)
+{: .d-inline-block}
 
+
+A5, 2018
+{: .label}
+
+<p>List in increasing order all positive integers \(n \leq 40\) such that \(n\) cannot be written in the form \(a^{2}-b^{2},\) where \(a\) and \(b\) are positive integers.
+</p>
+
+
+Sol.
+
+<p> 1,4 and all even number s of the form \(4 k+2\).</p>
+
+---
+
+### Irrationality
+{: .d-inline-block}
+
+A1, 2014
+{: .label}
+
+<p>
+Let \(\alpha, \beta\) and \(c\) be positive numbers less than \(1,\) with \(c\) rational and \(\alpha, \beta\) irrational.
+</p>
+
+<p>
+(a) The number \(\alpha+\beta\) must be irrational.
+</p>
+
+<p>
+(b) The infinite sum \(\sum_{i=0}^{\infty} \alpha c^{i}=\alpha+\alpha c+\alpha c^{2}+\cdots\) must be irrational.
+</p>
+
+<p>
+(c) The value of the integral \(\int_{0}^{\pi}(\beta \cos x+c) d x\) must be irrational.
+</p>
+
+Sol.
+
+<p>
+False-True-True
+</p>
+
+---
+
+### Proving rationality
+
+B2, 2014
+
+<p>
+Let \(x\) be a real number such that \(x^{2014}-x^{2004}\) and \(x^{2009}-x^{2004}\) are both integers. Show that \(x\) is an integer. <br>
+
+Hint: it may be useful to first prove that \(x\) is rational.
+</p>
+
+
+Sol.
+
+<p>
+Here is one of several possible ways. \(x^{2014}-x^{2009}=x^{2009}\left(x^{5}-1\right)\) and \(x^{2004}\left(x^{5}-1\right)\) are integers, which we may assume to be nonzero (else \(x=0\) or 1 and we are done). Dividing, we get that \(x^{5}\) is rational. Now dividing the integer \(x^{2004}\left(x^{5}-1\right)\) by the rational number \(x^{5}-1,\) we see that \(x^{2004}\) is rational. since 2004 and 5 are coprime, \(x\) is rational as well. (E.g., \(x^{5}\) is rational, so \(\left(x^{5}\right)^{401}=x^{2005}\) is rational. Now divide by the rational number \(x^{2004}\).)
+Let \(x=\frac{a}{b}\) with \(a, b\) coprime integers. Consider the integer \(\frac{a^{2000}}{b^{2009}}-\frac{a^{2004}}{b^{2004}}=\frac{a^{2009}-b^{5} a^{2004}}{b^{2000}}\). If a prime \(p\) divides the denominator, it must divide the numerator as well. Now \(p \mid b,\) so \(p \mid b^{5} a^{2004},\) so \(p \mid a^{2009}\) and finally \(p \mid a,\) a contradiction. Thus \(b=1,\) i.e., \(x\) is an integer.
+</p>
+
+
+
+---
+
+### Points on a sphere
+
+2015
+
+<p>
+Let \(p, q\) and \(r\) be real numbers with \(p^{2}+q^{2}+r^{2}=1\)
+</p>
+
+<p>
+(a) Prove the inequality \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} \leq 2\)
+</p>
+
+<p>
+(b) Also find the smallest possible value of \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} \).
+</p>
+
+<p>
+Specify exactly when the smallest and the largest possible value is achieved.
+</p>
+
+Sol.
+
+<p> We have
+
+\begin{align}
+3p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}&=(q+r)\left(3 p^{2}+2 q^{2}+2 r^{2}-2 q r\right)\\
+&=((q+r)\left(3\left(p^{2}+q^{2}+r^{2}\right)-\left(q^{2}+r^{2}+2 q r\right)\right)\\
+&=(q+r)\left(3-(q+r)^{2}\right)\\
+&=x\left(3-x^{2}\right)=3 x-x^{3}
+\end{align}
+
+where \(x=q+r.\)
+</p>
+
+<p>
+Let us examine possible values of \(x\) in view of the constraint \(p^{2}+q^{2}+r^{2}=1\).
+</p>
+
+<p>
+We have \(2 q r \leq q^{2}+r^{2}\) e.g. because \((q-r)^{2} \geq 0 .\)
+</p>
+
+<p>
+Adding \(q^{2}+r^{2},\) we get \(q^{2}+r^{2}+2 q r \leq \) \(2 q^{2}+2 r^{2} \leq 2,\) because \(q^{2}+r^{2} \leq p^{2}+q^{2}+r^{2}=1\).
+Thus \((q+r)^{2} \leq 2\). So \(-\sqrt{2} \leq q+r \leq \sqrt{2}\)
+</p>
+
+<p>
+Note that equalities are achieved precisely when \(p=0\) and \(q=r=\pm 1 / \sqrt{2}\).
+</p>
+
+<p>
+Thus altogether we have to find extrema of the odd function \(f(x)=3 x-x^{3}\) over the interval \([-\sqrt{2}, \sqrt{2}] .\) The critical points are when \(f^{\prime}(x)=3-3 x^{2}=0,\) i.e. \(x=\pm 1 .\) Thus we need to see only \(f(\pm \sqrt{2})=\pm \sqrt{2}\) and \(f(\pm 1)=\pm 2 .\) Therefore \(-2 \leq 3 p^{2} q+3 p^{2} r+\) \(2 q^{3}+2 r^{3} \leq 2 .\) Moreover, \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}=\pm 2\) precisely when \(x=q+r=\pm 1\)
+</p>
+
+<p>
+In each case, this gives a line segment in the \(q r\) -plane joining (±1,0) and \((0,\pm 1) .\) Note that both these segments lie within the circle \(q^{2}+r^{2}=1,\) so each point on them leads to two valid points \((p, q, r)\) on the unit sphere.
+</p>
+
+---
+
+
+### Totient function
+
+2016
+
+<p>
+Let \(\phi(n)\) denote the number of positive integers less than \(n\) that are relatively prime to \(n\).
+In other words, \(\phi(n)\) counts all \(m\) such that
+\(\operatorname{gcd}(m, n)=1\).
+
+
+</p>
+
+
+<p>
+The number \(n=110179\) is a product of two primes \(p\) and \(q\).
+We also know that \(\phi(n) = 109480.\)
+</p>
+
+<p>
+Find the values of \(p\) and \(q\).
+</p>
+
+Sol.
+
+<p>
+Given \(n=p q=110179\). The number of integers relatively prime to \(n\) and smaller than \(n\) is \((p-1)(q-1) .\) So we have \(p q-p-q+1=109480 .\) We get \(p+q=700 .\) Now \(p, q\) are solutions to the quadratic \(x^{2}-700 x+110179\).
+</p>
+
+<p>
+The discriminant of this quadratic is \(\sqrt{490000-440716}=\sqrt{49284}=22 .\) So we get \(p=\frac{700+222}{2}=461\) and \(q=\frac{700-222}{2}=239\).
+</p>
+
+---
+
+
+### GCD application
+
+<p>
+We want to construct a nonempty and proper subset \(S\) of the set of non-negative integers. This set must have the following properties. For any \(m\) and any \(n\)
+if \(m \in S\) and \(n \in S\) then \(m+n \in S \quad\) and if \(m \in S\) and \(m+n \in S\) then \(n \in S\)
+</p>
+
+<p>(i) 0 must be in \(S\).</p>
+<p>(ii) 1 cannot be in \(S\).</p>
+<p>(iii) There are only finitely many ways to construct such a subset \(S\).</p>
+<p>(iv) There is such a subset \(S\) that contains both \(2015^{2016}\) and \(2016^{2015}\).</p>
+
+
+Sol.
+
+<p>TTFF</p>
+
+
+<p>
+Since the set \(S\) is nonempty, there is an element \(m \in S\).
+But then \(m=m+0\) and so \(0 \in S\). <br>
+1 cannot be in \(S,\) otherwise it will contain all non-negative integers. <br>
+</p>
+
+TODO
+
+<p>
+By the division algorithm that if \(m, n\) are in \(S\) then so is their GCD. Therefore two coprime numbers cannot be in \(S .\) Otherwise their GCD, which is \(1,\) will be in \(S,\) a contradiction. It follows that such sets \(S\) are precisely those of the form \(n \mathbb{Z} \geq 0,\) the set of all non-negative multiples of a fixed non-negative integer \(n .\) So there are infinitely many such possible sets.
+</p>
 
 ---
 
 
 
-2015_q1.png
-![](/assets/images/number_theory/2015_q1.png)
+### Primes in an algebraic equation
 
-2015_a1.png
-![](/assets/images/number_theory/2015_a1.png)
+2016
 
----
+<p>
+Find all pairs \((p, n)\) of positive integers where \(p\) is a prime number and \(p^{3}-p=n^{7}-n^{3}\)
+</p>
+
+Sol.
 
 
-2016_q1.png
-![](/assets/images/number_theory/2016_q1.png)
+<p>
+The given equation is \(p(p-1)(p+1)=n^{3}\left(n^{2}+1\right)(n+1)(n-1) .\) As the factor \(p\) on the LHS is a prime, it must divide one of the factors \(n-1, n, n+1, n^{2}+1\) on the RHS.
+</p>
 
-2016_a1.png
-![](/assets/images/number_theory/2016_a1.png)
+<p>
+A key point to deduce is that \(p>n^{2}\). One way to do this is as follows. The LHS \(=p^{3}-p\) is an increasing function of \(p\) for \(p \geq 1,\) e.g. because the derivative \(3 p^{2}-1\) is positive. So for any given \(n \geq 1\), there is exactly one real value of \(p\) for which \(\mathrm{LHS}=\) RHS. Trying \(p=n^{2}\) gives \(\mathrm{LHS}=n^{6}-n^{2}<n^{7}-n^{3}=\mathrm{RHS},\) e.g. because \(n^{7}-n^{3}-\left(n^{6}-n^{2}\right)=\left(n^{6}-n^{2}\right)(n-1)>0\)
+</p>
 
----
-
-2016_q2.png
-![](/assets/images/number_theory/2016_q2.png)
-
-2016_a2.png
-![](/assets/images/number_theory/2016_a2.png)
-
----
-
-2016_q3.png
-![](/assets/images/number_theory/2016_q3.png)
-
-2016_a3.png
-![](/assets/images/number_theory/2016_a3.png)
+<p>
+As the prime \(p\) is greater than \(n^{2},\) it cannot divide any of \(n-1, n, n+1 .\) So \(p\) must divide \(n^{2}+1\) and therefore we must have \(p=n^{2}+1,\) again because \(p>n^{2} .\) Substituting this in the given equation, we get \(\left(n^{2}+1\right) n^{2}\left(n^{2}+2\right)=n^{3}\left(n^{2}+1\right)(n+1)(n-1)\). Canceling common factors gives \(n^{2}+2=n^{3}-n,\) i.e. \(2=n^{3}-n^{2}-n .\) This has a unique integer solution \(n=2,\) e.g. because the factor \(n\) on the RHS must divide 2 and now one checks that \(n=2\) works. So \(n=2\) and the prime \(p=n^{2}+1=5\) give a unique solution to the given equation.
+</p>
 
 
 ---
 
-2017_q1.png
-![](/assets/images/number_theory/2017_q1.png)
+### GCD II
 
-2017_a1.png
-![](/assets/images/number_theory/2017_a1.png)
+2017
+
+<p>
+Positive integers \(a\) and \(b,\) possibly equal, are chosen randomly from among the divisors of \(400 .\) The numbers \(a, b\) are chosen independently, each divisor being equally likely to be chosen. Find the probability that \(\operatorname{gcd}(a, b)=1\) and \(\operatorname{lcm}(a, b)=400\)
+</p>
+
+Sol.
+
+<p>
+\(400=5^{2} \times 2^{4}\) has \((2+1) \times(4+1)=15\) factors, so total number of pairs \((a, b)\) is \(225 .\) For \(a, b\) to be coprime, they should have no prime factor in common and then their lcm is just their product, which is required to be \(400 .\) So there are only four allowed pairs:<br>
+(1,400),(400,1),(25,16) and (16,25).
+</p>
+
+<p>
+The probability is \(\frac{4}{225}\).
+</p>
 
 ---
 
+### Integers in a function range
 
-2018_q1.png
-![](/assets/images/number_theory/2018_q1.png)
+2018
 
-2018_a1.png
-![](/assets/images/number_theory/2018_a1.png)
+<p>
+Consider the following function defined for all real numbers \(x\)
 
----
+\[ f(x)=\frac{2018}{10+e^{x}} \]
 
--->
+How many integers are there in the range of \(f\)?
+</p>
 
 
+Sol.
+
+
+<p>
+There are 201 integers.
+</p>
+
+<p>
+Note that the for all values of \(x\) the function is strictly decrea sing a nd the graph lies above \(x\) axis.
+As \(x\) goes far left the denominator approaches 10
+and the function value approaches 2018.
+</p>
+
+<p>
+On the other hand, as TODO goes far right the denominator blows up and the function value approaches \(0\), since this is a continuous function by the intermediate value theorem all values in the interval (0,2018)  are assumed.
+</p>
 
 
 
