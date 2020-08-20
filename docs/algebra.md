@@ -985,7 +985,32 @@ forcing \(x\) to be \(0,\) since you come around to the neighbor to the right.
 </p>
 
 
----
+### Integers in a function range
+{: .d-inline-block}
+
+A2, 2018
+{: .label}
+
+<p>
+Consider the following function defined for all real numbers \(x\)
+
+\[ f(x)=\frac{2018}{10+e^{x}} \]
+
+How many integers are there in the range of \(f\)?
+</p>
+
+
+Sol.
+
+
+<p>
+There are 201 integers.
+</p>
+
+<p>
+The function is strictly decreasing as \(x\) goes from \(-\infty\) to \(\infty\). The range of the function is \((0,201.8)\).
+By continuity, all the integers in range appear as values of \(f(x)\).
+</p>
 
 
 
