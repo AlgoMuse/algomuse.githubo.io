@@ -157,18 +157,18 @@ A1, 2019
 
 For a natural number \\(m,\\) define \\(\Phi_{1}(m)\\) to be the number of divisors of \\(m\\) and for \\(k \geq 2\\) define \\(\Phi_{k}(m):=\Phi_{1}\left(\Phi_{k-1}(m)\right) .\\) For example, \\(\Phi_{2}(12)=\Phi_{1}(6)=4 .\\) Find the minimum \\(k\\) such that
 
-\\[
-\Phi_{k}\left(2019^{2019}\right)=2
-\\]
+\\[ \Phi_{k}\left(2019^{2019}\right)=2 \\]
 
 
-<details open>
+<details markdown="1">
+
+<summary>Solution</summary>
 
 A number \\(n\\) that has prime factorizaton \\( p_1^{k_1} p_2^{k_2}\ldots p_t^{k_t} \\) has \\( (k_1+1)(k_2+1)\ldots(k_t+1) \\) divisors.
 
 
-Iteration | Number | Factorization | Result
-----------|--------|---------------|-------
+|Iteration | Number | Factorization | Result
+|:------|:------|:----------|:------
 1 | \\(2019^{2019}\\) | \\(3^{2019}\cdot 673^{2019}\\)  |  \\(2020^2 \\)
 2 | \\(2020^2     \\) | \\(2^4\cdot 5^2\cdot 101^2 \\)  |  \\(45 \\)
 3 | \\(45         \\) | \\(3^2\cdot 5              \\)  |  \\(6 \\)
@@ -180,20 +180,7 @@ Iteration | Number | Factorization | Result
 
 *Comment. A bit tedious task for a first problem. Is there a simpler way?*
 
-
-
 </details>
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -587,37 +574,7 @@ Sol.
 The probability is \(\frac{4}{225}\).
 </p>
 
----
 
-### Integers in a function range
-
-2018
-
-<p>
-Consider the following function defined for all real numbers \(x\)
-
-\[ f(x)=\frac{2018}{10+e^{x}} \]
-
-How many integers are there in the range of \(f\)?
-</p>
-
-
-Sol.
-
-
-<p>
-There are 201 integers.
-</p>
-
-<p>
-Note that the for all values of \(x\) the function is strictly decrea sing a nd the graph lies above \(x\) axis.
-As \(x\) goes far left the denominator approaches 10
-and the function value approaches 2018.
-</p>
-
-<p>
-On the other hand, as TODO goes far right the denominator blows up and the function value approaches \(0\), since this is a continuous function by the intermediate value theorem all values in the interval (0,2018)  are assumed.
-</p>
 
 
 
