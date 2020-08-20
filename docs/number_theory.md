@@ -489,7 +489,7 @@ Given \(n=p q=110179\). The number of integers relatively prime to \(n\) and sma
 </p>
 
 <p>
-The discriminant of this quadratic is \(\sqrt{490000-440716}=\sqrt{49284}=22 .\) So we get \(p=\frac{700+222}{2}=461\) and \(q=\frac{700-222}{2}=239\).
+The discriminant of this quadratic is \(\sqrt{490000-440716}=\sqrt{49284}=222\). So we get \(p=\frac{700+222}{2}=461\) and \(q=\frac{700-222}{2}=239\).
 </p>
 
 ---
