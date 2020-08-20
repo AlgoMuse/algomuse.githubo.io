@@ -101,7 +101,7 @@ ga_tracking_anonymize_ip: true #
 
 markdown: kramdown
 
-kramdown: parse_html_block: true
+#kramdown: parse_html_block: true
 
 # mathjax: true
 
