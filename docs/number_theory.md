@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Number theory
-nav_order: 8
+nav_order: 5
 ---
 
 
@@ -239,7 +239,7 @@ Thus the whole sequence \\(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\\) becomes 
 
 
 
-### Primes in an algebraic equation
+### Primes in an algebraic equation &#65290;
 {: .d-inline-block}
 
 B6, 2016
