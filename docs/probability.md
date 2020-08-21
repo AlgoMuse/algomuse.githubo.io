@@ -10,8 +10,10 @@ nav_order: 7
 
 
 ### Tinku's chocolate
+{: .d-inline-block}
 
 A5, 2012
+{: .label}
 
 <p>
 a) \(n\) identical chocolates are to be distributed among the \(k\) students in Tinku's class. Find the probability that Tinku gets at least one chocolate, assuming that the \(n\) chocolates are handed out one by one in \(n\) independent steps. At each step, one chocolate is given to a randomly chosen student, with each student having equal chance to receive it.
@@ -26,8 +28,7 @@ The chocolates are considered interchangeable but students are considered differ
 </p>
 
 
-Sol.
-
+<details><summary>Solution</summary>
 <p>
 (a) The probability of Tinku not getting a chocolate in one step is \(1-\frac{1}{k}\).
 </p>
@@ -50,12 +51,15 @@ Sol 1. (b) There are \(\left(\begin{array}{c}(n-1)+k-1 \\ k-1\end{array}\right)\
 Sol 2. (b) The number of distributions in which Tinku gets no chocolate \(=\) number of distributions of \(n\) chocolates among the remaining \(k-1\) students \(=\left(\begin{array}{c}n+k-2 \\ k-2\end{array}\right) .\) So the desired probability is \(1-\left(\begin{array}{c}n+k-2 \\ k-2\end{array}\right) /\left(\begin{array}{c}n+k-1 \\ k-1\end{array}\right)=\frac{n}{n+k-1}\)
 </p>
 
+</details>
 ---
 
 
 ### Sampling a quadratic
+{: .d-inline-block}
 
 A8, 2013
+{: .label}
 
 <p>
 Consider the quadratic equation \(x^{2}+b x+c=0\), where \(b\) and \(c\) are chosen randomly from the interval [0,1] with the
@@ -86,8 +90,7 @@ Complete the sentences below.
 (d) As \(b\) and \(c\) both vary, what is the probability that \(x^{2}+b x+c=0\) has a real solution?
 </p>
 
-Sol.
-
+<details><summary>Solution</summary>
 <p>
 (a) The equation \(x^{2}+b x+c=0\) has a real solution if and only if \(b^{2}-4 c\) is \(\geq 0\)
 </p>
@@ -109,28 +112,37 @@ So \(p(b)=\frac{b^{2}}{4},\) which is increasing for \(0 \leq b \leq 1\)
 (d) This is the fraction of the area of the unit square \([0,1] \times[0,1]\) that is occupied by the region \(b^{2}-4 c \geq 0,\) i.e., it is the area under the parabola \(c=\frac{b^{2}}{4}\) from \(b=0\) to \(b=1\) which is \(\int_{0}^{1} \frac{b^{2}}{4} d b=\frac{1}{12}\)
 </p>
 
+</details>
+
 ---
 
 ### Vertex in a polygon
+{: .d-inline-block}
 
 A5, 2014
+{: .label}
 
 <p>
 A regular 100-sided polygon is inscribed in a circle. Suppose three of the 100 vertices are chosen at random, all such combinations being equally likely. Find the probability that the three chosen points form vertices of a right angled triangle.
 </p>
 
-Sol.
+
+<details><summary>Solution</summary>
 
 <p>
 \(1/33\)
 </p>
 
+</details>
+
 ---
 
 
 ### Magic number
+{: .d-inline-block}
 
-Ax, 2015
+A3, 2015
+{: .label}
 
 
 <p>
@@ -143,7 +155,7 @@ A positive integer \(n\) is called a magic number if it has the following proper
 
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Only 128 and 127 are magic numbers. See that \(n\) is a magic number if and only if \(n\) is a power of a prime.
@@ -153,13 +165,18 @@ Only 128 and 127 are magic numbers. See that \(n\) is a magic number if and only
 Otherwise, write \(n=a b\) with \(a, b\) coprime.
 </p>
 
+</details>
 
 ---
 
 
 ### Test preparation
+{: .d-inline-block}
 
-Ax, 2016
+B1, 2016
+{: .label}
+
+
 
 <p>
 Out of the 14 students taking a test, 5 are well prepared, 6 are adequately prepared and 3 are poorly prepared. There are 10 questions on the test paper. A well prepared student can answer 9 questions correctly, an adequately prepared student can answer 6 questions correctly and a poorly prepared student can answer only 3 questions correctly.
@@ -177,7 +194,10 @@ Out of the 14 students taking a test, 5 are well prepared, 6 are adequately prep
 Express your answers as irreducible fractions.
 </p>
 
-Sol.
+
+<details>
+
+<summary>Solution</summary>
 
 <p>
 (a) The probability that a randomly chosen student is well prepared is \(5 / 14\) The probability of a well prepared student answering two randomly chosen questions correctly is \(\left(\begin{array}{l}9 \\ 2\end{array}\right) /\left(\begin{array}{l}10 \\ 2\end{array}\right) .\) So the probability that a randomly chosen student is well prepared AND answers two randomly chosen questions correctly is \(\frac{5}{14} \times \frac{\left(\frac{9}{20}\right)}{(10)}=\frac{2}{7} .\) A student belongs to exactly one of the three preparedness categories, so the desired probability is obtained by adding \(\frac{2}{7}\) with the results of parallel calculations for the other two categories. We get
@@ -230,22 +250,27 @@ P(\text { well prepared both correct })&=\frac{P(\text { well prepared and both 
 \end{align}
 </p>
 
+</details>
 
 ---
 
 ### Squares on a chessboard
+{: .d-inline-block}
 
-Ax, 2019
+A5, 2019
+{: .label}
 
 <p>
 You are given an \(8 \times 8\) chessboard. If two distinct squares are chosen uniformly at random find the probability that two rooks placed on these squares attack each other. Recall that a rook can move either horizontally or vertically, in a straight line.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 \(2/9\)
 </p>
+
+</details>
 
 
 
