@@ -6,10 +6,24 @@ nav_order: 3
 
 
 # Algebra
+{: .no_toc}
 
 
 [](http://yufeizhao.com/olympiad/intpoly.pdf)
 [](https://sites.math.northwestern.edu/~mlerma/problem_solving/putnam/training-poly.pdf)
+
+#### Topics
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+---
+
+
+## Nature of polynomial roots [6]
+
+<!-- {: .fw-300 .text-grey-dk-000 } -->
 
 
 
@@ -51,67 +65,99 @@ Since \( f(r) \) is an odd number \(r\) cannot be a root of the polynomial.
 
 ---
 
-### Binomial expansion
+### Polynomial with positive coefficients
 {: .d-inline-block}
 
-B2, 2011
-{: label .label-blue}
+A4, 2015
+{: .label}
 
 <p>
-Show that the power of \(x\) with the largest coefficient in the polynomial \(\displaystyle (1 + 2x/3)^{20}\) is 8. In other words, if
-we write the given polynomial as \( \sum_i a_ix^i\) then the largest coefficient \(a_i\) is \(a_8\).
+Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10 .\) Suppose all of the eleven coefficients of \(p(x)\) are positive.
+
+Which of these statements are true?
+
+<ul>
+<li>(i) The polynomial \(p(x)\) must have a global minimum. </li>
+<li>(ii) Each \(a_{i}\) must be positive.</li>
+<li>(iii) All real roots of \(p^{\prime}(x)\) must be negative.</li>
+<li>(iv) All roots of \(p^{\prime}(x)\) must be real.</li>
+</ul>
+
+
+</p>
+
+Sol.
+
+
+<p>
+All of them are true.
+</p>
+
+<p>
+(i) Since the degree is even, \(p(x)\) goes to \(+\infty\) as \(x \rightarrow \pm \infty .\) So \(p(x)\) must have a global minimum somewhere.
 </p>
 
 
-#### Solution
+<p>
+(ii) The roots of \(p(x)\) are \(-a_{i}\). Since the coefficients of \(p(x)\) are positive, no nonnegative number is a root of \(p(x)\).
+Thus all the \(a_i\)s are positive.
+</p>
 
 <p>
-The coefficient \( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \). Consider the ratio of two consecutive terms: \( a_{i+1}/a_i \).
-
-\begin{align}
-\text{ratio } &= \frac{2}{3} \times \left(  \frac{20!}{20-i-1!i+1!}/\frac{20!}{20-i!i!} \right) \\
-&\\
-  &= \frac{2}{3} \cdot \frac{20-i!i!}{20-i-1!i+1!} = \frac{2(20-i)}{3(i+1)}
-\end{align}
-
-
-The ratio \( a_{i+1}/a_i > 1\) up to \(i\leq 7\) and strictly less than 1 for \(i>7\). Hence, the sequence of coefficients is <a href="https://en.wiktionary.org/wiki/bitonic">bitonic</a> with the peak occurring at \(a_8\).
+(iii) and (iv)  All 10 roots of \(p(x)\) are real and negative. There is a root of \(p^{\prime}(x)\) between consecutive roots of \(p(x)\) (this is valid even in case of multiple roots). So all 9 roots of \(p^{\prime}(x)\) are real and negative as well. For negativity, one can also note that all coefficients of \(p^{\prime}(x)\) are positive and apply the logic in (ii) to \(p^{\prime}(x)\).
 </p>
 
 
 ---
 
-### AM-GM inequality
-{: .d-inline-block}
 
-A4, 2011
-{: label .label-blue}
+
+
+
+### Find a rational polynomial with a given a root
+{: .d-inline-block }
+
+B1, 2012
+{: .label}
 
 
 <p>
-Given positive real numbers \( a_1, a_2, \ldots , a_{2011} \) whose product \(a_1 a_2 \cdots a_{2011}=1\),
-what can you say about their sum \( S = a_1 + a_2 + · · · + a_{2011} \)?
-</p>
-
-- [ ] \\( S\; \\) can be any positive number.
-- [ ] \\( 1 \leq S \leq 2011\\).
-- [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is unbounded above.
-- [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is bounded above.
-
-
-#### Solution
-
-<p>
-\( 2011 \leq  S \text{ and }  S\;\) is unbounded above.
+a) Find a polynomial \(p(x)\) with real coefficients such that \(p(\sqrt{2}+i)=0\).
 </p>
 
 <p>
-The first inequality follows from AM-GM inequality. To see why \(S\) is unbounded, set
-\( a_1=n \), \(a_2=1/n\) and the rest of \( a_is\) to 1. The sum \(S>n\) for any \(n\).
+b) Find a polynomial \(q(x)\) with rational coefficients and having the smallest possible degree such that \(q(\sqrt{2}+i)=0 .\)
 </p>
 
+<p>
+c) Show that any other polynomial with rational coefficients and having \(\sqrt{2}+i\) as a root has \(q(x)\) as a factor.
+</p>
+
+
+
+Sol.
+
+
+<p>
+(a) Non-real roots of a polynomial with real coefficients occur in conjugate pairs. \(p(x)=\) \((x-(\sqrt{2}+i))(x-(\sqrt{2}-i))=x^{2}-2 \sqrt{2} x+3\) works.
+</p>
+<p>
+(b)\(\sqrt{2}+i\) satisfies \(x^{2}-2 \sqrt{2} x+3=0,\) i.e., \(x^{2}+3=2 \sqrt{2} x\) and so satisfies \(\left(x^{2}+3\right)^{2}=\) \(8 x^{2} .\) So \(q(x)=\left(x^{2}+3\right)^{2}-8 x^{2}\) works. A cubic with rational coefficients will not work because, after dividing by the necessarily rational leading coefficient, it must be of the form \(\left(x^{2}-2 \sqrt{2} x+3\right)(x-r) .\) This forces the coefficients \(-3 r\) and \(-2 \sqrt{2}-r\) to be both rational, which is impossible.
+Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0 .\)
+</p>
+
+<p>
+(c)
+Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
+</p>
 
 ---
+
+
+
+
+
+
 
 ### Roots of a quadratic
 {: .d-inline-block}
@@ -204,44 +250,8 @@ Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
 
 ---
 
-### Find a rational polynomial with a given a root
-{: .d-inline-block }
 
-B1, 2012
-{: .label}
-
-
-<p>
-a) Find a polynomial \(p(x)\) with real coefficients such that \(p(\sqrt{2}+i)=0\).
-</p>
-
-<p>
-b) Find a polynomial \(q(x)\) with rational coefficients and having the smallest possible degree such that \(q(\sqrt{2}+i)=0 .\)
-</p>
-
-<p>
-c) Show that any other polynomial with rational coefficients and having \(\sqrt{2}+i\) as a root has \(q(x)\) as a factor.
-</p>
-
-
-
-Sol.
-
-
-<p>
-(a) Non-real roots of a polynomial with real coefficients occur in conjugate pairs. \(p(x)=\) \((x-(\sqrt{2}+i))(x-(\sqrt{2}-i))=x^{2}-2 \sqrt{2} x+3\) works.
-</p>
-<p>
-(b)\(\sqrt{2}+i\) satisfies \(x^{2}-2 \sqrt{2} x+3=0,\) i.e., \(x^{2}+3=2 \sqrt{2} x\) and so satisfies \(\left(x^{2}+3\right)^{2}=\) \(8 x^{2} .\) So \(q(x)=\left(x^{2}+3\right)^{2}-8 x^{2}\) works. A cubic with rational coefficients will not work because, after dividing by the necessarily rational leading coefficient, it must be of the form \(\left(x^{2}-2 \sqrt{2} x+3\right)(x-r) .\) This forces the coefficients \(-3 r\) and \(-2 \sqrt{2}-r\) to be both rational, which is impossible.
-Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0 .\)
-</p>
-
-<p>
-(c)
-Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
-</p>
-
-
+## Polynomial functions [5]
 
 
 ### Polynomial that gives only prime powers
@@ -391,46 +401,33 @@ Since there are infinitely many values in \(A\) (e.g. applying the intermediate 
 
 ---
 
-### Polynomial division
-{: .d-inline-block }
 
-A8, 2014
+### Recursive polynomial
+{: .d-inline-block}
+
+A9, 2018
 {: .label}
 
+
 <p>
-(i) What is the remainder when \(f(x)=7 x^{32}+5 x^{22}+3 x^{12}+x^{2}\) is divided by \((x^{2}+1)\)?  <br><br>
-(ii) What is the remainder when \(x f(x)\) is divided by \((x^{2}+1)\)?
+Consider a sequence of polynomials with real coefficients defined recursively as follows:
+\begin{align}
+p_{0}(x)&:=\left(x^{2}+1\right)\left(x^{2}+2\right) \cdots\left(x^{2}+1009\right) \\
+p_{k+1}(x)&:=p_{k}(x+1)-p_{k}(x)
+\end{align}
+
+with subsequent polynomials defined by  for \(k \geq 0 .\) Find the least number \(n\) for which \[ p_{n}(1)=p_{n}(2)=\cdots=p_{n}(5000) \]
+
 </p>
-
-
 
 Sol.
 
 <p>
-(i) The function has only even powers. Let us put \(z=x^{2}\). We want to know the
-remainder of \(7z^{16}+5z^{11}+3z^{6}+z\) when divided by \((z+1)\). By remainder theorem,
-
-\[ 7(-1)^{16}+5(-1)^{11}+3(-1)^{6}+(-1)=4 \]
-
+\(n=2018\). Note that \(\operatorname{deg} p_{0}(x)=2018\) and \(\operatorname{deg} p_{k}(x)=2018-k\).
+Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots.
 </p>
-
-<p>
-So we have \(f(x)=q(x)\left(x^{2}+1\right)+4\), where \(q(x)\) is some polynomial.
-
-<br>
-<br>
-(ii) \(x f(x)=x q(x)\left(x^{2}+1\right)+4x\), so the second remainder is \(4x\).
-</p>
-
-
-
-
-
-
-
 
 ---
-
 
 
 ### Difference equations
@@ -503,14 +500,15 @@ The \( p_i \)s form a basis for polynomial functions, so any polynomial has a un
 
 ---
 
+
+
 #### Problem credits
 
 <img src="/assets/images/brook_taylor.jpg" style="float:left;margin-right:20px;margin-top:10px;"/>
 
 <p>
-This problem is based an advanced topic called method of finite differences. The topic was initiated by Brook Taylor (of Taylor series fame)
+The previous two problems are based an a topic  called method of finite differences. It was introduced by Brook Taylor (of Taylor series fame)
 in 1715 and further developed by Isaac Newton. The similarity to differentiation is not an accident. Read more about it on <a href="https://en.wikipedia.org/wiki/Finite_difference">Wikipedia</a>.
-
 </p>
 {: .fs-4 .fw-300 }
 
@@ -520,116 +518,47 @@ Brook Taylor (1685-1731)
 
 
 
-### Polynomial with positive coefficients
-{: .d-inline-block}
 
-A4, 2015
+
+## Polynomial division [3]
+
+### Find the remainders
+{: .d-inline-block }
+
+A8, 2014
 {: .label}
 
 <p>
-Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10 .\) Suppose all of the eleven coefficients of \(p(x)\) are positive.
-
-Which of these statements are true?
-
-<ul>
-<li>(i) The polynomial \(p(x)\) must have a global minimum. </li>
-<li>(ii) Each \(a_{i}\) must be positive.</li>
-<li>(iii) All real roots of \(p^{\prime}(x)\) must be negative.</li>
-<li>(iv) All roots of \(p^{\prime}(x)\) must be real.</li>
-</ul>
-
-
-</p>
-
-Sol.
-
-
-<p>
-All of them are true.
-</p>
-
-<p>
-(i) Since the degree is even, \(p(x)\) goes to \(+\infty\) as \(x \rightarrow \pm \infty .\) So \(p(x)\) must have a global minimum somewhere.
-</p>
-
-
-<p>
-(ii) The roots of \(p(x)\) are \(-a_{i}\). Since the coefficients of \(p(x)\) are positive, no nonnegative number is a root of \(p(x)\).
-Thus all the \(a_i\)s are positive.
-</p>
-
-<p>
-(iii) and (iv)  All 10 roots of \(p(x)\) are real and negative. There is a root of \(p^{\prime}(x)\) between consecutive roots of \(p(x)\) (this is valid even in case of multiple roots). So all 9 roots of \(p^{\prime}(x)\) are real and negative as well. For negativity, one can also note that all coefficients of \(p^{\prime}(x)\) are positive and apply the logic in (ii) to \(p^{\prime}(x)\).
-</p>
-
-
----
-
-### Binomial coefficients ratios
-{: .d-inline-block}
-
-A7, 2015
-{: .label}
-
-
-<p>
-(i) By the binomial theorem \((\sqrt{2}+1)^{10}=\sum_{i=0}^{10} C_{i}(\sqrt{2})^{i},\) where \(C_{i}\) are appropriate constants. Write the value of \(i\) for which \(C_{i}(\sqrt{2})^{i}\) is the largest among the 11 terms in this sum.
-</p>
-
-<p>
-(ii) For every natural number \(n,\) let \((\sqrt{2}+1)^{n}=p_{n}+\sqrt{2} q_{n},\) where \(p_{n}\) and \(q_{n}\) are integers. Calculate \(\lim _{n \rightarrow \infty}\left(\frac{p_{n}}{q_{n}}\right)^{10}\).
+(i) What is the remainder when \(f(x)=7 x^{32}+5 x^{22}+3 x^{12}+x^{2}\) is divided by \((x^{2}+1)\)?  <br><br>
+(ii) What is the remainder when \(x f(x)\) is divided by \((x^{2}+1)\)?
 </p>
 
 
 Sol.
 
 <p>
-(i) \(i=6\). Consider the ratio:
-<br>
+(i) The function has only even powers. Let us put \(z=x^{2}\). We want to know the
+remainder of \(7z^{16}+5z^{11}+3z^{6}+z\) when divided by \((z+1)\). By remainder theorem,
 
-\[\frac{C_{i+1}(\sqrt{2})^{t+1}}{C_{i}(\sqrt{2})^{4}}\]
+\[ 7(-1)^{16}+5(-1)^{11}+3(-1)^{6}+(-1)=4 \]
+
+</p>
+
+<p>
+So we have \(f(x)=q(x)\left(x^{2}+1\right)+4\), where \(q(x)\) is some polynomial.
 
 <br>
-
-This ratio is \(>1\) till \(i=5\) and \(<1\) from \(i=6\) onwards. Similar to problem B2, 2011.
-</p>
-
-
-<p>
-(ii) 32.
-Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{n}\right),\) where the sign depends on the parity of \(n .\) As \(n \rightarrow \infty,(\sqrt{2}-1)^{n} \rightarrow 0\) since \((\sqrt{2}-1)<1 .\) Thus \(\left(p_{n}-\sqrt{2} q_{n}\right) \rightarrow 0\) and so \(\frac{p_{n}}{q_{n}} \rightarrow \sqrt{2}\)<br>
+<br>
+(ii) \(x f(x)=x q(x)\left(x^{2}+1\right)+4x\), so the second remainder is \(4x\).
 </p>
 
 ---
 
-
-### GDP vs Per-capita GDP
-{: .d-inline-block}
-
-A2, 2016
-{: .label}
-
-
-<p>
-A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP defined as the ratio of GDP to the total population, increased by 10\%.
-By what percentage did the total population change during this period?
-</p>
-
-Sol.
-
-<p>
-Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\). Letting \(G\) and \(P\) denote the old GDP and population respectively, the new per-capita GDP is \(\frac{1.078 G}{(1+x) P}\) where \(x\) is the unknown percent change in population we wish to calculate. The percent increase in per-capita GDP is \(10 \%=0.1\) So we have \(\frac{1.078}{1+x}=1.1 .\) Solving for \(x\) we get \(1+x=\frac{1.078}{1.1}=\frac{98 \times 11}{100 \times 11}=0.98 .\) So \(x\) is -0.02 So population decreased by \(2 \%\)
-</p>
-
----
-
-
-### Polynomial factorization
+### Integer-valued polynomials
 {: .d-inline-block}
 
 A8, 2016
 {: .label}
-
 
 <p>
 A function \(g\) has the property that \(g(n)=3n+5\) for each of the 15 integers in the range \([1,15]\).
@@ -678,7 +607,6 @@ So \(g(x)\) cannot be a polynomial of degree 10.
 
 ---
 
-
 ### Given the remainders, find the polynomials
 {: .d-inline-block}
 
@@ -725,34 +653,78 @@ So \(A=2\) and \(B=1\).
 
 </p>
 
-<br>
+---
 
+## Solvability of equations [7]
+
+
+### Charity
+{:b .d-inline-block}
+
+A1, 2015
+{: .label}
+
+<p>
+Ten people sitting around a circular table decide to donate some money for charity. You are told that the amount donated by each person was the average of the money donated by the two persons sitting adjacent to him/her.
+One person donated Rs. \(500\).
+</p>
+
+<p>
+Choose the correct option for the following two questions.
+</p>
+
+<p>
+<b>Q1.</b> What is the total amount donated by the 10 people?
+</p>
+
+<p>
+(a) exactly Rs. 5000
+(b) less than Rs. 5000
+(c) more than Rs. 5000
+(d) cannot decide.
+</p>
+
+<p>
+<b>Q2.</b> What is the maximum amount donated by an individual?
+</p>
+
+<p>
+(a) exactly Rs. 500
+(b) less than Rs. 500
+(c) more than Rs. 500
+(d) cannot decide.
+</p>
+
+Sol.
+
+<p>
+<b>A1.</b>  Exactly Rs. \(5000\).
+</p>
+
+<p>
+<b>A2.</b>  Exactly Rs. \(500\).
+</p>
+
+<p>
+Consider the person who donated Rs. 500.  Suppose the neighbor to the left donates \(500+x\).
+Then the one on the right donates \(500-x\).  But continuing leftward, the amounts donated are \(500+2 x, 500+3 x, \ldots,\)
+forcing \(x\) to be \(0,\) since you come around to the neighbor to the right.
+</p>
 
 ---
 
-
-### Solutions to simultaneous equations
+### Integers in a function range
 {: .d-inline-block}
 
-A8, 2017
+A2, 2018
 {: .label}
 
-
 <p>
-State Yes or No for each of these questions.<br>
-Is it possible to find a \(2 \times 2\) matrix \(A\) for which the equation \(A \vec{x}=\vec{b}\) has:
+Consider the following function defined for all real numbers \(x\)
 
-<ul>
-<li>(a) no solutions for some but not all \(\vec{b}\); exactly one solution for all other \(\vec{b} ?\)</li>
+\[ f(x)=\frac{2018}{10+e^{x}} \]
 
-<li>(b) exactly one solution for some but not all \(\vec{b} ;\) more than one solution for all other \(\vec{b} ?\)</li>
-
-<li>(c) no solutions for some but not all \(\vec{b}\); more than one solution for all other \(\vec{b} ?\)</li>
-
-<li>(d) no solutions for some \(\vec{b},\) exactly one solution for some \(\vec{b}\) and more than one solution for some \(\vec{b} ?\)</li>
-
-</ul>
-
+How many integers are there in the range of \(f\)?
 </p>
 
 
@@ -760,48 +732,38 @@ Sol.
 
 
 <p>
+There are 201 integers.
+</p>
 
-No-No-Yes-No.<br>
-
-Suppose \(A\) has nonzero determinant. Then for any \(\vec{b},\) we see that \(A \vec{x}=\vec{b}\) has the unique solution \(\vec{x}=A^{-1} \vec{b}\).
-
-If determinant of \(A\) is zero then we can make two cases:<br>
-
-(i) If \(A\) is the zero matrix, then \(A \vec{x}=\vec{b}\) has infinitely many solutions for \(\vec{b}=\overrightarrow{0}\) and no solutions otherwise.<br><br>
-
-(ii) If \(A\) is nonzero then it is easy to see that we are solving two equations in two variables whose left hand sides are proportional.
-
-So if the two right hand constants that make up \(\vec{b}\) are in the same proportion, then we will have infinitely many solutions (because one of the variables can be arbitrary).
-If the constants are not in the same proportion, then the two equations will be inconsistent and we will have no solutions.
+<p>
+The function is strictly decreasing as \(x\) goes from \(-\infty\) to \(\infty\). The range of the function is \((0,201.8)\).
+By continuity, all the integers in range appear as values of \(f(x)\).
 </p>
 
 ---
 
-#### Problem credits
+### GDP vs Per-capita GDP
+{: .d-inline-block}
 
-<img src="/assets/images/LADRcover.png" style="float:left;margin-right:20px;margin-top:10px;"/>
+A2, 2016
+{: .label}
+
 
 <p>
-The statements in the problem are basic facts in linear algebra (LA).
-It is a good idea to be familiar with LA although the syllabus does not mention it.
-Read the first three chapters of the book by Sheldon Axler.
-Another LA problem from CMI exam: B5 part(b) from 2014.
+A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP defined as the ratio of GDP to the total population, increased by 10\%.
+By what percentage did the total population change during this period?
 </p>
-{: .fs-4 .fw-300 }
 
-<br><br>
-<br><br>
-[View on Amazon](https://amzn.to/3hbctgO)
+Sol.
+
+<p>
+Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\). Letting \(G\) and \(P\) denote the old GDP and population respectively, the new per-capita GDP is \(\frac{1.078 G}{(1+x) P}\) where \(x\) is the unknown percent change in population we wish to calculate. The percent increase in per-capita GDP is \(10 \%=0.1\) So we have \(\frac{1.078}{1+x}=1.1 .\) Solving for \(x\) we get \(1+x=\frac{1.078}{1.1}=\frac{98 \times 11}{100 \times 11}=0.98 .\) So \(x\) is -0.02 So population decreased by \(2 \%\)
+</p>
 
 ---
 
 
-<!--
-#### Request to CMI faculty
-<p>
-Please do not pose elementary facts from advanced topics as high-school questions. Linear algebra is not part of XII mathematics.
-</p>
--->
+
 
 
 
@@ -901,116 +863,218 @@ This cubic has one real root \(a-b=2\) and two complex roots.
 
 ---
 
-
-
-### Recursive polynomial
+### Solutions to simultaneous equations
 {: .d-inline-block}
 
-A9, 2018
+A8, 2017
 {: .label}
 
 
 <p>
-Consider a sequence of polynomials with real coefficients defined recursively as follows:
-\begin{align}
-p_{0}(x)&:=\left(x^{2}+1\right)\left(x^{2}+2\right) \cdots\left(x^{2}+1009\right) \\
-p_{k+1}(x)&:=p_{k}(x+1)-p_{k}(x)
-\end{align}
+State Yes or No for each of these questions.<br>
+Is it possible to find a \(2 \times 2\) matrix \(A\) for which the equation \(A \vec{x}=\vec{b}\) has:
 
-with subsequent polynomials defined by  for \(k \geq 0 .\) Find the least number \(n\) for which \[ p_{n}(1)=p_{n}(2)=\cdots=p_{n}(5000) \]
+<ul>
+<li>(a) no solutions for some but not all \(\vec{b}\); exactly one solution for all other \(\vec{b} ?\)</li>
+
+<li>(b) exactly one solution for some but not all \(\vec{b} ;\) more than one solution for all other \(\vec{b} ?\)</li>
+
+<li>(c) no solutions for some but not all \(\vec{b}\); more than one solution for all other \(\vec{b} ?\)</li>
+
+<li>(d) no solutions for some \(\vec{b},\) exactly one solution for some \(\vec{b}\) and more than one solution for some \(\vec{b} ?\)</li>
+
+</ul>
 
 </p>
+
+
+Sol.
+
+
+<p>
+
+No-No-Yes-No.<br>
+
+Suppose \(A\) has nonzero determinant. Then for any \(\vec{b},\) we see that \(A \vec{x}=\vec{b}\) has the unique solution \(\vec{x}=A^{-1} \vec{b}\).
+
+If determinant of \(A\) is zero then we can make two cases:<br>
+
+(i) If \(A\) is the zero matrix, then \(A \vec{x}=\vec{b}\) has infinitely many solutions for \(\vec{b}=\overrightarrow{0}\) and no solutions otherwise.<br><br>
+
+(ii) If \(A\) is nonzero then it is easy to see that we are solving two equations in two variables whose left hand sides are proportional.
+
+So if the two right hand constants that make up \(\vec{b}\) are in the same proportion, then we will have infinitely many solutions (because one of the variables can be arbitrary).
+If the constants are not in the same proportion, then the two equations will be inconsistent and we will have no solutions.
+</p>
+
+---
+
+#### Problem credits
+
+<img src="/assets/images/LADRcover.png" style="float:left;margin-right:20px;margin-top:10px;"/>
+
+<p>
+The statements in the problem are basic facts in linear algebra (LA).
+It is a good idea to be familiar with LA although the syllabus does not mention it.
+Read the first three chapters of the book by Sheldon Axler.
+Another LA problem from CMI exam: B5 part(b) from 2014.
+</p>
+{: .fs-4 .fw-300 }
+
+<br><br>
+<br><br>
+[View on Amazon](https://amzn.to/3hbctgO)
+
+---
+
+
+<!--
+#### Request to CMI faculty
+<p>
+Please do not pose elementary facts from advanced topics as high-school questions. Linear algebra is not part of XII mathematics.
+</p>
+-->
+
+
+
+## Binomial expansion [2]
+
+### Largest coefficient
+{: .d-inline-block}
+
+B2, 2011
+{: label .label-blue}
+
+<p>
+Show that the power of \(x\) with the largest coefficient in the polynomial \(\displaystyle (1 + 2x/3)^{20}\) is 8. In other words, if
+we write the given polynomial as \( \sum_i a_ix^i\) then the largest coefficient \(a_i\) is \(a_8\).
+</p>
+
+
+#### Solution
+
+<p>
+The coefficient \( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \). Consider the ratio of two consecutive terms: \( a_{i+1}/a_i \).
+
+\begin{align}
+\text{ratio } &= \frac{2}{3} \times \left(  \frac{20!}{20-i-1!i+1!}/\frac{20!}{20-i!i!} \right) \\
+&\\
+  &= \frac{2}{3} \cdot \frac{20-i!i!}{20-i-1!i+1!} = \frac{2(20-i)}{3(i+1)}
+\end{align}
+
+
+The ratio \( a_{i+1}/a_i > 1\) up to \(i\leq 7\) and strictly less than 1 for \(i>7\). Hence, the sequence of coefficients is <a href="https://en.wiktionary.org/wiki/bitonic">bitonic</a> with the peak occurring at \(a_8\).
+</p>
+
+
+---
+
+
+### Coefficient ratio
+{: .d-inline-block}
+
+A7, 2015
+{: .label}
+
+
+<p>
+(i) By the binomial theorem \((\sqrt{2}+1)^{10}=\sum_{i=0}^{10} C_{i}(\sqrt{2})^{i},\) where \(C_{i}\) are appropriate constants. Write the value of \(i\) for which \(C_{i}(\sqrt{2})^{i}\) is the largest among the 11 terms in this sum.
+</p>
+
+<p>
+(ii) For every natural number \(n,\) let \((\sqrt{2}+1)^{n}=p_{n}+\sqrt{2} q_{n},\) where \(p_{n}\) and \(q_{n}\) are integers. Calculate \(\lim _{n \rightarrow \infty}\left(\frac{p_{n}}{q_{n}}\right)^{10}\).
+</p>
+
 
 Sol.
 
 <p>
-\(n=2018\). Note that \(\operatorname{deg} p_{0}(x)=2018\) and \(\operatorname{deg} p_{k}(x)=2018-k\).
-Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots.
+(i) \(i=6\). Consider the ratio:
+<br>
+
+\[\frac{C_{i+1}(\sqrt{2})^{t+1}}{C_{i}(\sqrt{2})^{4}}\]
+
+<br>
+
+This ratio is \(>1\) till \(i=5\) and \(<1\) from \(i=6\) onwards. Similar to problem B2, 2011.
+</p>
+
+
+<p>
+(ii) 32.
+Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{n}\right),\) where the sign depends on the parity of \(n .\) As \(n \rightarrow \infty,(\sqrt{2}-1)^{n} \rightarrow 0\) since \((\sqrt{2}-1)<1 .\) Thus \(\left(p_{n}-\sqrt{2} q_{n}\right) \rightarrow 0\) and so \(\frac{p_{n}}{q_{n}} \rightarrow \sqrt{2}\)<br>
 </p>
 
 ---
 
 
-### Charity
-{:b .d-inline-block}
 
-A1, 2015
-{: .label}
-
-<p>
-Ten people sitting around a circular table decide to donate some money for charity. You are told that the amount donated by each person was the average of the money donated by the two persons sitting adjacent to him/her.
-One person donated Rs. \(500\).
-</p>
-
-<p>
-Choose the correct option for the following two questions.
-</p>
-
-<p>
-<b>Q1.</b> What is the total amount donated by the 10 people?
-</p>
-
-<p>
-(a) exactly Rs. 5000
-(b) less than Rs. 5000
-(c) more than Rs. 5000
-(d) cannot decide.
-</p>
-
-<p>
-<b>Q2.</b> What is the maximum amount donated by an individual?
-</p>
-
-<p>
-(a) exactly Rs. 500
-(b) less than Rs. 500
-(c) more than Rs. 500
-(d) cannot decide.
-</p>
-
-Sol.
-
-<p>
-<b>A1.</b>  Exactly Rs. \(5000\).
-</p>
-
-<p>
-<b>A2.</b>  Exactly Rs. \(500\).
-</p>
-
-<p>
-Consider the person who donated Rs. 500.  Suppose the neighbor to the left donates \(500+x\).
-Then the one on the right donates \(500-x\).  But continuing leftward, the amounts donated are \(500+2 x, 500+3 x, \ldots,\)
-forcing \(x\) to be \(0,\) since you come around to the neighbor to the right.
-</p>
+## Inequalities [2]
 
 
-### Integers in a function range
+### AM-GM inequality
 {: .d-inline-block}
 
-A2, 2018
-{: .label}
-
-<p>
-Consider the following function defined for all real numbers \(x\)
-
-\[ f(x)=\frac{2018}{10+e^{x}} \]
-
-How many integers are there in the range of \(f\)?
-</p>
-
-
-Sol.
+A4, 2011
+{: label .label-blue}
 
 
 <p>
-There are 201 integers.
+Given positive real numbers \( a_1, a_2, \ldots , a_{2011} \) whose product \(a_1 a_2 \cdots a_{2011}=1\),
+what can you say about their sum \( S = a_1 + a_2 + · · · + a_{2011} \)?
+</p>
+
+- [ ] \\( S\; \\) can be any positive number.
+- [ ] \\( 1 \leq S \leq 2011\\).
+- [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is unbounded above.
+- [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is bounded above.
+
+
+#### Solution
+
+<p>
+\( 2011 \leq  S \text{ and }  S\;\) is unbounded above.
 </p>
 
 <p>
-The function is strictly decreasing as \(x\) goes from \(-\infty\) to \(\infty\). The range of the function is \((0,201.8)\).
-By continuity, all the integers in range appear as values of \(f(x)\).
+The first inequality follows from AM-GM inequality. To see why \(S\) is unbounded, set
+\( a_1=n \), \(a_2=1/n\) and the rest of \( a_is\) to 1. The sum \(S>n\) for any \(n\).
 </p>
+
+
+---
+
+### AM-GM inequality II
+{: .d-inline-block}
+
+B5, 2012
+{: .label }
+
+<p>
+Suppose  \(x+x^{-1}=\frac{\sqrt{5}+1}{2}\).
+</p>
+
+<p>
+(a) For any real \(r,\) show that \(\left|r+r^{-1}\right| \geq 2 .\) What kind of a number is \(x\)?
+</p>
+
+<details>
+<summary>Solution</summary>
+
+<p>
+Without loss of generality, we may assume that \(r > 0\). Now use the AM-GM inequality:<br>
+
+\[ \frac{ r+\frac{1}{r}  }{2} \geq \sqrt{ r \cdot \frac{1}{r} }  \]
+
+
+since \(x+x^{-1}=\frac{\sqrt{5}+1}{2}<2\), the number \(x\) must be a non-real complex number.
+</p>
+
+
+</details>
+
+
+
 
 
 
