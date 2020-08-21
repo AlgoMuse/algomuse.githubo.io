@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Calculus
-nav_order: 4
+nav_order: 9
 ---
 
 
@@ -215,7 +215,6 @@ Hence, there are two solutions to the equation.
 
 </p>
 
----
 
 
 
