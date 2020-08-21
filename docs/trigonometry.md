@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trigonometry
-nav_order: 9
+nav_order: 95
 ---
 
 
@@ -189,6 +189,7 @@ S &=\sum_{n=0}^{8} \cos n A-\sum_{n=1}^{2} \cos (3 n A) \\\\\\\\
 
 
 ### Geometric interpretation of algebraic expressions
+{: .d-inline-block}
 
 B5, 2019
 {: .label}
