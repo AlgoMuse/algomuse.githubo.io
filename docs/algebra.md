@@ -507,7 +507,7 @@ The \( p_i \)s form a basis for polynomial functions, so any polynomial has a un
 <img src="/assets/images/brook_taylor.jpg" style="float:left;margin-right:20px;margin-top:10px;"/>
 
 <p>
-The previous two problems are based an a topic  called method of finite differences. It was introduced by Brook Taylor (of Taylor series fame)
+The previous two problems are based on a topic  called method of finite differences. It was introduced by Brook Taylor (of Taylor series fame)
 in 1715 and further developed by Isaac Newton. The similarity to differentiation is not an accident. Read more about it on <a href="https://en.wikipedia.org/wiki/Finite_difference">Wikipedia</a>.
 </p>
 {: .fs-4 .fw-300 }
