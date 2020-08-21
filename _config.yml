@@ -101,6 +101,9 @@ ga_tracking_anonymize_ip: true #
 
 markdown: kramdown
 
+kramdown:
+  toc_levels: "2"
+
 #kramdown: parse_html_block: true
 
 # mathjax: true
