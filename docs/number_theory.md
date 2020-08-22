@@ -16,6 +16,8 @@ nav_order: 5
 ## (Ir)rationality
 
 
+
+
 ### Rationality preserving operations
 {:b .d-inline-block}
 
@@ -24,7 +26,8 @@ A11, 2010
 
 Using the fact that \\(\sqrt{n}\\) is an irrational number whenever \\(n\\) is not a perfect square, show that \\(S=\sqrt{3}+\sqrt{7}+\sqrt{21}\\) is irrational.
 
-#### Solution
+<details markdown="1">
+<summary>Solution</summary>
 
 Our proof works by showing a series of "If x is rational so is y". Suppose the given number is rational. The the following sequence of numbers must be rational too.
 
@@ -37,6 +40,8 @@ Our proof works by showing a series of "If x is rational so is y". Suppose the g
 
 But we know that \\(\sqrt{21}\\) is not rational and hence a contradiction.
 
+</details>
+
 ---
 
 ### Irrational fraction
@@ -48,10 +53,15 @@ A3, 2012
 Prove that \\(\frac{\ln (12)}{\ln (18)}\\) is irrational.
 
 
-#### Solution
+<details>
+<summary>Solution</summary>
 
-We know that \\(\frac{\ln (12)}{\ln (18)}=\log_{18}(12) .\\) Suppose this is rational, say \\(=\frac{a}{b}\\) where \\(a, b\\) are integers with \\(b \neq 0\\).
-Then \\(18^{\frac{a}{b}}=12,\\) so \\(18^{a}=12^{b} .\\) By factoring into primes this gives \\(3^{2 a} 2^{a}=3^{b} 2^{2 b},\\) which by unique factorization can happen only if \\(2 a=b\\) and \\(a=2 b\\). But this gives \\(a=b=0\\), a contradiction.
+<p>
+We know that \(\frac{\ln (12)}{\ln (18)}=\log_{18}(12) .\) Suppose this is rational, say \(=\frac{a}{b}\) where \(a, b\) are integers with \(b \neq 0\).
+Then \(18^{\frac{a}{b}}=12,\) so \(18^{a}=12^{b} .\) By factoring into primes this gives \(3^{2 a} 2^{a}=3^{b} 2^{2 b},\) which by unique factorization can happen only if \(2 a=b\) and \(a=2 b\). But this gives \(a=b=0\), a contradiction.
+</p>
+
+</details>
 
 
 ---
@@ -78,11 +88,13 @@ Let \(\alpha, \beta\) and \(c\) be positive numbers less than \(1,\) with \(c\) 
 (c) The value of the integral \(\int_{0}^{\pi}(\beta \cos x+c) d x\) must be irrational.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 False-True-True
 </p>
+
+</details>
 
 ---
 
@@ -99,7 +111,7 @@ Hint: it may be useful to first prove that \(x\) is rational.
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Here is one of several possible ways. \(x^{2014}-x^{2009}=x^{2009}\left(x^{5}-1\right)\) and \(x^{2004}\left(x^{5}-1\right)\) are integers, which we may assume to be nonzero (else \(x=0\) or 1 and we are done). Dividing, we get that \(x^{5}\) is rational. Now dividing the integer \(x^{2004}\left(x^{5}-1\right)\) by the rational number \(x^{5}-1,\) we see that \(x^{2004}\) is rational. since 2004 and 5 are coprime, \(x\) is rational as well. (E.g., \(x^{5}\) is rational, so \(\left(x^{5}\right)^{401}=x^{2005}\) is rational. Now divide by the rational number \(x^{2004}\).)
@@ -117,6 +129,8 @@ Now \(p \mid b,\) so \(p \mid b^{5} a^{2004},\) so \(p \mid a^{2009}\) and final
 
 
 
+</details>
+
 ---
 
 
@@ -133,9 +147,11 @@ A5, 2018
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p> 1,4 and all even number s of the form \(4 k+2\).</p>
+
+</details>
 
 ---
 
@@ -149,7 +165,7 @@ A5, 2010
 Find the remainder given by \(3^{89} \times 7^{86}\) when divided by 17.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 The usual trick is to try to get numbers that are 1,-1 modulo the divisor. In this case, \(16\equiv -1 \mod 17\). We cannot get 16 directly but notice
@@ -160,6 +176,8 @@ that \( 21 \equiv 4 \mod 17 \), which we can get.
 \(3^{89} 7^{86} \equiv 3^{3}(3 \cdot 7)^{86} \equiv 27 \cdot 4^{86} \equiv 10\left(4^{2}\right)^{43} \equiv 10(-1)^{43} \equiv-10 \equiv 7\)
 </p>
 
+
+</details>
 
 ---
 
@@ -172,23 +190,40 @@ A6, 2019
 For what values of \\( n \\) is \\( n^6 + n^4 + 1 \\) a square of a natural number?
 
 
-#### Solution
+<details><summary>Solution</summary>
 
+<p>
 We will handle odd and even cases separately.
+</p>
 
-*Lemma.* Every odd square is \\(1 \bmod 8\\).
+<p>
+*Lemma.* Every odd square is \(1 \bmod 8\).
+</p>
 
-\\[ (2k+1)^2=4k^2+4k+1=4(k^2+k)+1 \\]
+\[ (2k+1)^2=4k^2+4k+1=4(k^2+k)+1 \]
 
-Since \\( 4(k^2+k) \\) is divisible by 8, the lemma follows. \\(\square\\)
+Since \( 4(k^2+k) \) is divisible by 8, the lemma follows. \(\square\)
 
-*Case 1.* If \\(n\\) is odd, then the given expression \\(S:=n^6+n^4+1\\) cannot be a square since \\(S\equiv 3\pmod 8\\). Hence \\(n\\) is not odd.
+<p></p>
 
-*Case 2.* If \\(n=2\\), we have \\(S=81\\), so we have one solution. If \\(n>2\\) and is even we have:
+<p>
+*Case 1.* If \(n\) is odd, then the given expression \(S:=n^6+n^4+1\) cannot be a square since \(S\equiv 3\pmod 8\). Hence \(n\) is not odd.
+</p>
 
-\\[ \left(n^3+\frac{n}{2}\right)^2=n^6+n^4+\frac{n^2}{4}> S > n^6+n^4-2n^3+\frac{n^2}{4}-n+1=\left(n^3+\frac{n}{2}-1\right)^2 \\]
+<p>
+*Case 2.* If \(n=2\), we have \(S=81\), so we have one solution. If \(n>2\) and is even we have:
+</p>
 
-\\( S \\) is a number strictly inbetween two consecutive squares, so there are no solutions for \\(n>2\\).
+<p>
+\[ \left(n^3+\frac{n}{2}\right)^2=n^6+n^4+\frac{n^2}{4}> S > n^6+n^4-2n^3+\frac{n^2}{4}-n+1=\left(n^3+\frac{n}{2}-1\right)^2 \]
+</p>
+
+<p>
+\( S \) is a number strictly inbetween two consecutive squares, so there are no solutions for \(n>2\).
+</p>
+
+
+</details>
 
 ---
 
@@ -200,15 +235,26 @@ Since \\( 4(k^2+k) \\) is divisible by 8, the lemma follows. \\(\square\\)
 B1, 2010
 {: .label }
 
-Let \\(a_{1}, a_{2}, \ldots, a_{100}\\) be 100 positive integers. Show that for some \\(m, n\\) with \\(1 \leq m \leq n \leq\\) \\(100, \sum_{i=m}^{n} a_{i}\\) is divisible by 100.
+<p>
+Let \(a_{1}, a_{2}, \ldots, a_{100}\) be 100 positive integers. Show that for some \(m, n\) with \(1 \leq m \leq n \leq\) \(100, \sum_{i=m}^{n} a_{i}\) is divisible by 100.
+</p>
 
-#### Solution
+<details><summary>Solution</summary>
 
-Consider the remainders of the sequence when divided by 100. If some \\(a_k\bmod100=0\\), then \\(m=n=k\\) will work. Otherwise, the reminders are between 1 and 99 for every number.
-Since there are 100 numbers, there must be two indices \\(i\\) and \\(j\\) such that \\(a_i\bmod 100=a_j\bmod 100\\). Pick \\(m=i\\) and \\(n=j\\), if \\( i < j \\).
+<p>
+Consider the remainders of the sequence when divided by 100. If some \(a_k\bmod100=0\), then \(m=n=k\) will work. Otherwise, the reminders are between 1 and 99 for every number.
+</p>
+<p>
+Since there are 100 numbers, there must be two indices \(i\) and \(j\) such that \(a_i\bmod 100=a_j\bmod 100\). Pick \(m=i\) and \(n=j\), if \( i < j \).
+</p>
 
 
-**Try this**. Prove that there exists a number consisting of only 1s and 0s that is divisible by 3.
+
+</details>
+
+<p>
+<i>Similar problem</i>. Prove that there exists a number consisting of only 1s and 0s that is divisible by 3.
+</p>
 
 ---
 
@@ -218,22 +264,46 @@ Since there are 100 numbers, there must be two indices \\(i\\) and \\(j\\) such 
 A7, 2012
 {: .label }
 
-A sequence of integers \\(c_{n}\\) starts with \\(c_{0}=0\\) and satisfies \\(c_{n+2}=a c_{n+1}+b c_{n}\\) for \\(n \geq 0,\\) where \\(a\\) and \\(b\\) are integers. For any positive integer \\(k\\) with \\(g c d(k, b)=1,\\) show that \\(c_{n}\\) is divisible by \\(k\\) for infinitely many \\(n\\)
+<p>
+A sequence of integers \(c_{n}\) starts with \(c_{0}=0\) and satisfies \(c_{n+2}=a c_{n+1}+b c_{n}\) for \(n \geq 0,\) where \(a\) and \(b\) are integers. For any positive integer \(k\) with \(g c d(k, b)=1,\) show that \(c_{n}\) is divisible by \(k\) for infinitely many \(n\)
+</p>
 
 
-#### Solution
+<details><summary>Solution</summary>
 
 
-Consider pairs of consecutive entries of the sequence modulo \\(k,\\) i.e., \\(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\\), where \\(\bar{a}\\) denotes \\(a\\) modulo \\(k\\). Since there are only finitely many possibilities (namely \\(k^{2}\\) ), some pair of consecutive residues will repeat. Suppose \\(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\\) for some \\(i\\).
-We will show that in fact the previous equation holds for all \\(i,\\) i.e., whole sequence of consecutive pairs is periodic.  This will prove in
-particular that \\(\left(\bar{c}\_{0}, \bar{c}\_{1}\right)=\left(\bar{c}\_{p}, \bar{c}\_{p+1}\right)=\left(\bar{c}\_{2 p}, \bar{c}\_{2 p+1}\right)=\cdots\\)
-since \\(c_{0}=0\\) is divisible by \\(k,\\) so is \\(c_{i p}\\) for all \\(i\\)
-The equation \\(c_{n+2}=a c_{n+1}+b c_{n}\\) shows that \\(\bar{b} \bar{c}\_{n}=\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\\).
+<p>
+Consider pairs of consecutive entries of the sequence modulo \(k,\) i.e., \(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\), where \(\bar{a}\) denotes \(a\) modulo \(k\). Since there are only finitely many possibilities (namely \(k^{2}\) ), some pair of consecutive residues will repeat. Suppose \(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\) for some \(i\).
+</p>
 
-Now \\(gcd(k, b)=1\\) means \\(b\\) is invertible modulo \\(k,\\) i.e., there is a \\(b^{\prime}\\) with \\(\overline{b b^{\prime}}=\overline{1} .\\)
-Therefore \\(\bar{c}\_{n}=\bar{b}^{\prime}\left(\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\right)\\)
-Thus knowing a pair of consecutive residues uniquely determines the previous residue (this is why we considered pairs of residues). Therefore \\(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\\) implies \\(\left(\bar{c}\_{i-1}, \bar{c}\_{i}\right)=\left(\bar{c}\_{i+p-1}, \bar{c}\_{i+p}\right)\\) and (by the given recurrence) \\(\left(\bar{c}\_{i+1}, \bar{c}\_{i+2}\right)=\left(\bar{c}\_{i+p+1}, \bar{c}\_{i+p+2}\right)\\)
-Thus the whole sequence \\(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\\) becomes periodic as soon as a single such pair repeats.
+<p>
+We will show that in fact the previous equation holds for all \(i,\) i.e., whole sequence of consecutive pairs is periodic.  This will prove in
+particular that \(\left(\bar{c}\_{0}, \bar{c}\_{1}\right)=\left(\bar{c}\_{p}, \bar{c}\_{p+1}\right)=\left(\bar{c}\_{2 p}, \bar{c}\_{2 p+1}\right)=\cdots\)
+since \(c_{0}=0\) is divisible by \(k,\) so is \(c_{i p}\) for all \(i\)
+</p>
+
+<p>
+The equation \(c_{n+2}=a c_{n+1}+b c_{n}\) shows that \(\bar{b} \bar{c}\_{n}=\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\).
+</p>
+
+<p>
+Now \(gcd(k, b)=1\) means \(b\) is invertible modulo \(k,\) i.e., there is a \(b^{\prime}\) with \(\overline{b b^{\prime}}=\overline{1} .\)
+</p>
+
+<p>
+Therefore \(\bar{c}\_{n}=\bar{b}^{\prime}\left(\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\right)\)
+</p>
+
+<p>
+Thus knowing a pair of consecutive residues uniquely determines the previous residue (this is why we considered pairs of residues). Therefore \(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\) implies \(\left(\bar{c}\_{i-1}, \bar{c}\_{i}\right)=\left(\bar{c}\_{i+p-1}, \bar{c}\_{i+p}\right)\) and (by the given recurrence) \(\left(\bar{c}\_{i+1}, \bar{c}\_{i+2}\right)=\left(\bar{c}\_{i+p+1}, \bar{c}\_{i+p+2}\right)\)
+</p>
+
+
+<p>
+Thus the whole sequence \(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\) becomes periodic as soon as a single such pair repeats.
+</p>
+
+</details>
 
 ---
 
@@ -249,7 +319,7 @@ B6, 2016
 Find all pairs \((p, n)\) of positive integers where \(p\) is a prime number and \(p^{3}-p=n^{7}-n^{3}\)
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -273,6 +343,8 @@ As the prime \(p\) is greater than \(n^{2},\) it cannot divide any of \(n-1, n, 
 </p>
 
 
+</details>
+
 ---
 
 
@@ -287,16 +359,22 @@ B3, 2011
 
 Prove that there are infinitely many perfect squares that can be written as a sum of six consecutive natural numbers. Find the smallest such square.
 
-#### Solution
+<details><summary>Solution</summary>
 
+<p>
 The sum of six consecutive numbers is of the form:
+</p>
 
-\\[ \frac{(n+6)(n+7)}{2} - \frac{n(n+1)}{2} \text{ for some } n\\]
+\[ \frac{(n+6)(n+7)}{2} - \frac{n(n+1)}{2} \text{ for some } n\]
 
 
-The above expression simplifies to \\(3(2n+7)\\). This number is a perfect square whenever \\(2n+7=3k^2\\). Any odd number greater than one can be substituted for \\(k\\). The smallest value of \\(k\\) is 3, so the smallest such square is 81.
+<p>
+The above expression simplifies to \(3(2n+7)\). This number is a perfect square whenever \(2n+7=3k^2\). Any odd number greater than one can be substituted for \(k\). The smallest value of \(k\) is 3, so the smallest such square is 81.
+</p>
 
-\\[ 81 = 11+12+\cdots+16 \\]
+\[ 81 = 11+12+\cdots+16 \]
+
+</details>
 
 ---
 
@@ -309,18 +387,20 @@ C1, 2011
 Show that there are exactly 16 pairs of integers \\((x,y)\\) such that
 \\(11x+8y+17=xy\\).
 
-#### Solution
+<details><summary>Solution</summary>
 
 
-An equation of the form \\(xy=ax+by+c\\) can be written as:
-\\[  (x-a)(y-b) = c+ab  \\]
+An equation of the form \(xy=ax+by+c\) can be written as:
+\[  (x-a)(y-b) = c+ab  \]
 
 So the given equation is:
 
-\\[  (x-8)(y-13) = 105  \\]
+\[  (x-8)(y-13) = 105  \]
 
 The number of solutions to the above equation is the number of divisors of 105.
-We can factorize 105 as \\( 1\cdot 3\cdot 5\cdot 7\\). Every subset of these four numbers corresponds to a divisor, so there are \\(2^4=16\\) solutions.
+We can factorize 105 as \( 1\cdot 3\cdot 5\cdot 7\). Every subset of these four numbers corresponds to a divisor, so there are \(2^4=16\) solutions.
+
+</details>
 
 ---
 
@@ -370,14 +450,16 @@ B3, 2013
 A positive integer \\(N\\) has its first, third and fifth digits equal and its second, fourth and sixth digits equal. In other words, when written in the usual decimal system it has the form \\(x y x y x y,\\) where \\(x\\) and \\(y\\) are the digits.
  Show that \\(N\\) cannot be a perfect power, i.e., \\(N\\) cannot equal \\(a^{b},\\) where \\(a\\) and \\(b\\) are positive integers with \\(b>1\\).
 
-#### Solution
+<details><summary>Solution</summary>
 
 We have:
-\\[N=\left(10^{5}+10^{3}+10\right) x+\left(10^{4}+10^{2}+1\right) y=10101(10 x+y)= 3 \times 7 \times 13 \times 37 \times(10 x+y)\\]
+\[N=\left(10^{5}+10^{3}+10\right) x+\left(10^{4}+10^{2}+1\right) y=10101(10 x+y)= 3 \times 7 \times 13 \times 37 \times(10 x+y)\]
 
-Therefore for \\(N\\) to be a perfect power, the primes 3,7,13,37 must all occur (and in fact with equal power) as factors in the prime factorization of \\(10 x+y .\\)
-In particular \\(10 x+y \geq 10101\\).  But since \\(x\\) and \\(y\\\) are digits, each is between 0 and \\(9,\\) so \\(10 x+y \leq 99\\).
-So \\(N\\) cannot be a perfect power.
+Therefore for \(N\) to be a perfect power, the primes 3,7,13,37 must all occur (and in fact with equal power) as factors in the prime factorization of \(10 x+y .\)
+In particular \(10 x+y \geq 10101\).  But since \(x\) and \(y\\) are digits, each is between 0 and \(9,\) so \(10 x+y \leq 99\).
+So \(N\) cannot be a perfect power.
+
+</details>
 
 ---
 
@@ -389,24 +471,37 @@ A6, 2014
 
 Find the smallest \\(n\\) for which \\(\displaystyle \frac{50!}{24^n} \\) is *not* an integer.
 
-#### Solution
+<details><summary>Solution</summary>
 
 
-The expression will not be an integer if and only if the numerator has a prime power lesser
+<p>The expression will not be an integer if and only if the numerator has a prime power lesser
 than the corresponding power in the denominator.
+</p>
 
-We have \\( 24=2^3\cdot 3\\). Let us find the the powers of 2 and 3 in \\(50!\\).
+<p>
+We have \( 24=2^3\cdot 3\). Let us find the the powers of 2 and 3 in \(50!\).
+</p>
 
 
+<p>
 The power of 2 is given by:
-\\[  \lfloor 50/2 \rfloor + \lfloor 50/4 \rfloor + \lfloor 50/8 \rfloor + \lfloor 50/16 \rfloor + \lfloor 50/32 \rfloor = 47 \\]
+\[  \lfloor 50/2 \rfloor + \lfloor 50/4 \rfloor + \lfloor 50/8 \rfloor + \lfloor 50/16 \rfloor + \lfloor 50/32 \rfloor = 47 \]
+</p>
 
+<p>
 The power of 3 is given by:
-\\[  \lfloor 50/3 \rfloor + \lfloor 50/9 \rfloor + \lfloor 50/27 \rfloor = 22 \\]
+</p>
+
+\[  \lfloor 50/3 \rfloor + \lfloor 50/9 \rfloor + \lfloor 50/27 \rfloor = 22 \]
 
 
-The numerator is of the form: \\( 2^{47}3^{22}\cdot k \\). If \\(n=16\\), the denominator has \\(2^{48}\\) as a factor which is sufficient to make the number a non-integer.
+<p>
+The numerator is of the form: \( 2^{47}3^{22}\cdot k \).
+If \(n=16\), the denominator has \(2^{48}\) as a factor which is sufficient to make the number a non-integer.
+</p>
 
+
+</details>
 
 ---
 
@@ -424,7 +519,7 @@ B3, 2015
 (b) Let \(n\) be a positive integer. For how many numbers \(a\) in \(\left\{2,3, \ldots, n^{2}-1\right\}\) is \(a^{2}-a\) divisible by \(n^{2} ?\) State your answer suitably in terms of \(n\) and justify.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (a) We have \(10000=16 \times 625\) as product of prime powers. Recall the notation \(a \mid b,\) meaning \(b\) is divisible by a. We have \(10000 \mid a^{2}-a\) if and only if \((625 \mid a(a-1)\) and \(16 \mid a(a-1)) .\) Because \(a\) and \(a-1\) cannot share a factor, in turn this is equivalent to having both the conditions \((1) 625 \mid a\) or \(625 \mid a-1\) AND
@@ -443,6 +538,8 @@ The total number of ways to write \(n^{2}=x y\) as a product of coprime integers
 
 Thus the final answer is \(2^{k}-2 .\) Note that this matches with the special case in part (a). Finally, note that there was nothing special about taking a square: instead of \(n^{2}\) it could be any positive integer \(m\) and we would proceed the same way to find requisite integers \(a\) in \(\{2,3 \ldots, m-1\}\) based on prime factorization of \(m\)
 </p>
+
+</details>
 
 ---
 
@@ -463,11 +560,13 @@ What is the largest positive integer that can be obtained as the value of \(g(n)
 state so explicitly and prove it.
 </p>
 
-Sol.
-<p>
+<details><summary>Solution</summary><p>
+
 Long division gives \(6 n^{2}+11 n-2=(2 n+9)(3 n-8)+70 .\) By Euclidean algorithm, \(G C D\left(6 n^{2}+11 n-2,2 n+9\right)=G C D(2 n+9,70) .\) Thus \(g(n)\) divides \(70 .\) But since \(g(n)\) divides \(2 n+9,\) which is odd, \(g(n)\) divides \(35 .\) When \(n=13,2 n+9=35\) and hence \(g(13)=35 .\) Thus the maximum value of \(g(n)\) is \(35 .\)
 </p>
 
+
+</details>
 
 ---
 
@@ -497,7 +596,7 @@ We also know that \(\phi(n) = 109480.\)
 Find the values of \(p\) and \(q\).
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Given \(n=p q=110179\). The number of integers relatively prime to \(n\) and smaller than \(n\) is \((p-1)(q-1) .\) So we have \(p q-p-q+1=109480 .\) We get \(p+q=700 .\) Now \(p, q\) are solutions to the quadratic \(x^{2}-700 x+110179\).
@@ -506,6 +605,8 @@ Given \(n=p q=110179\). The number of integers relatively prime to \(n\) and sma
 <p>
 The discriminant of this quadratic is \(\sqrt{490000-440716}=\sqrt{49284}=222\). So we get \(p=\frac{700+222}{2}=461\) and \(q=\frac{700-222}{2}=239\).
 </p>
+
+</details>
 
 ---
 
@@ -528,7 +629,7 @@ if \(m \in S\) and \(n \in S\) then \(m+n \in S \quad\) and if \(m \in S\) and \
 <p>(iv) There is such a subset \(S\) that contains both \(2015^{2016}\) and \(2016^{2015}\).</p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>TTFF</p>
 
@@ -539,11 +640,14 @@ But then \(m=m+0\) and so \(0 \in S\). <br>
 1 cannot be in \(S,\) otherwise it will contain all non-negative integers. <br>
 </p>
 
+
 <!-- TODO -->
 
 <p>
 By the division algorithm that if \(m, n\) are in \(S\) then so is their GCD. Therefore two coprime numbers cannot be in \(S .\) Otherwise their GCD, which is \(1,\) will be in \(S,\) a contradiction. It follows that such sets \(S\) are precisely those of the form \(n \mathbb{Z} \geq 0,\) the set of all non-negative multiples of a fixed non-negative integer \(n .\) So there are infinitely many such possible sets.
 </p>
+
+</details>
 
 ---
 
@@ -560,7 +664,7 @@ A4, 2017
 Positive integers \(a\) and \(b,\) possibly equal, are chosen randomly from among the divisors of \(400 .\) The numbers \(a, b\) are chosen independently, each divisor being equally likely to be chosen. Find the probability that \(\operatorname{gcd}(a, b)=1\) and \(\operatorname{lcm}(a, b)=400\)
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 \(400=5^{2} \times 2^{4}\) has \((2+1) \times(4+1)=15\) factors, so total number of pairs \((a, b)\) is \(225 .\) For \(a, b\) to be coprime, they should have no prime factor in common and then their lcm is just their product, which is required to be \(400 .\) So there are only four allowed pairs:<br>
@@ -572,6 +676,7 @@ The probability is \(\frac{4}{225}\).
 </p>
 
 
+</details>
 
 
 
