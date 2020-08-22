@@ -20,16 +20,19 @@ Evaluation the limit:
 \\[ \lim_{x \rightarrow 1}\left(\frac{n- \displaystyle \sum_{k=1}^n x^{k}}{1-x}\right) \\]
 
 
-#### Solution
+<details><summary>Solution</summary>
 
 We apply the L'Hospital's rule and differentiate both the numerator and the denominator.
 
 \begin{array}{rl}
- \lim_{x\rightarrow 1}&\displaystyle \frac{-n x^{n-1}-(n-1) x^{n-2}-\cdots-x-1}{-1}  \\\\\\\\
+ \lim_{x\rightarrow 1}&\displaystyle \frac{-n x^{n-1}-(n-1) x^{n-2}-\cdots-x-1}{-1}  \\
  \lim_{x\rightarrow 1}&\displaystyle \frac{n(n-1)}{2}
 \end{array}
 
 
+</details>
+
+---
 
 
 ### Only one real root
@@ -39,24 +42,35 @@ A8, 2011
 {: label .label-blue}
 
 
-Suppose \\(f(x) = x^3 + x^2 + cx + d\\), where \\(c\\) and \\(d\\) are real numbers. Prove that if \\(c>1/3\\),
-then \\(f\\) has exactly one real root.
+<p>
+Suppose \(f(x) = x^3 + x^2 + cx + d\), where \(c\) and \(d\) are real numbers. Prove that if \(c>1/3\),
+then \(f\) has exactly one real root.
+</p>
 
 
 *Requires algebra too*.
 
-#### Solution
+<details><summary>Solution</summary>
 
+<p>
 Since the function has odd degree as the highest power, it has at least one
 real root. To show that the function has exactly one real root
-we have to show, that it is monotonic in the whole \\(\mathbb{R}\\).
-This can be done by showing that \\(f'(x)\\) is always positive when \\(c>1/3\\).
+we have to show, that it is monotonic in the whole \(\mathbb{R}\).
+This can be done by showing that \(f'(x)\) is always positive when \(c>1/3\).
+</p>
 
-\\[ f'(x) = 3x^2+2x+c \\]
+<p>
+\[ f'(x) = 3x^2+2x+c \]
+</p>
 
-The discriminant of the above quadratic, \\(2^2-4\cdot3\cdot c\\), is negative when \\(c>1/3\\).
-Hence, \\(f'(x)\\) is always positive in \\(\mathbb{R}\\).
+<p>
+The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\).
+Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
+</p>
 
+</details>
+
+---
 
 ### Rolle's theorem
 {: .d-inline-block }
@@ -64,26 +78,39 @@ Hence, \\(f'(x)\\) is always positive in \\(\mathbb{R}\\).
 A9, 2011
 {: label .label-blue}
 
-A real-valued function \\(f(x)\\) defined on a closed interval \\([a,b]\\) has the property
-that \\(f(a)=f(b)=0\\) and \\(f(x)=f'(x)+f^{\prime\prime}(x)\\) for all \\(x\\) in \\([a,b]\\). Show that \\(f(x)=0\\) for
-all \\(x\\) in \\([a,b]\\).
+<p>
+A real-valued function \(f(x)\) defined on a closed interval \([a,b]\) has the property
+that \(f(a)=f(b)=0\) and \(f(x)=f'(x)+f^{\prime\prime}(x)\) for all \(x\) in \([a,b]\). Show that \(f(x)=0\) for
+all \(x\) in \([a,b]\).
+</p>
 
-#### Solution
+<details><summary>Solution</summary>
 
-If \\(f(x)\\) is not constant, then it must attain a local maxima or minima at some value \\(c\in[a,b]\\).
+<p>
+If \(f(x)\) is not constant, then it must attain a local maxima or minima at some value \(c\in[a,b]\).
+</p>
+
+<p>
 From the condition specified:
+</p>
+
+<p>
 \begin{equation}
 f(c)=f'(c)+f^{\prime\prime}(c)
 \label{eq:rolle}
 \tag{1}
 \end{equation}
+</p>
+
+
+<p>
+If \(f(c)\) is the local maxima, then \(f(c)>0\), \(f'(c)=0\) and
+\(f^{\prime\prime}(c)<0\). But Eq.\(\eqref{eq:rolle}\) does not hold in that case. A similar argument holds for local minima. Hence, \(f(x)\) is zero in the interval \([a,b]\).
+</p>
 
 
 
-If \\(f(c)\\) is the local maxima, then \\(f(c)>0\\), \\(f'(c)=0\\) and
-\\(f^{\prime\prime}(c)<0\\). But Eq.\\(\eqref{eq:rolle}\\) does not hold in that case. A similar argument holds for local minima. Hence, \\(f(x)\\) is zero in the interval \\([a,b]\\).
-
-
+</details>
 
 ---
 
@@ -95,25 +122,36 @@ A2, 2011
 {: label .label-blue}
 
 
+<p>
+Let \(f\) be a real valued continuous function defined on \(\mathbb{R}\) satisfying
+\(f^{\prime}\left(\tan ^{2} \theta\right)=\cos 2 \theta+\tan \theta \sin 2 \theta,\) for all real numbers \(\theta\)
+If \(f(0)=-\cos \frac{\pi}{12}\) then find \(f(1)\)
+</p>
 
-Let \\(f\\) be a real valued continuous function defined on \\(\mathbb{R}\\) satisfying
-\\(f^{\prime}\left(\tan ^{2} \theta\right)=\cos 2 \theta+\tan \theta \sin 2 \theta,\\) for all real numbers \\(\theta\\)
-If \\(f(0)=-\cos \frac{\pi}{12}\\) then find \\(f(1)\\)
+<details><summary>Solution</summary>
 
-#### Solution
+<p>
+Substitute \(t=\tan^{2} \theta \). Then we have
+</p>
 
-Substitute \\(t=\tan^{2} \theta \\). Then we have
+<p>
 \begin{align}
-f'(\tan^2\theta) & = \cos 2\theta(1+\tan \theta \tan 2\theta ) \\\\\\\\
-f'(\tan^2\theta) & = \frac{1-\tan^2\theta}{1+\tan^2\theta} \left( 1 + \frac{2\tan^2\theta}{1-\tan^2\theta} \right) \\\\\\\\
-f'(t) & = \frac{1-t}{1+t} \left( 1 + \frac{2t}{1-t} \right) \quad\text{ where } t=\tan^2 \theta \\\\\\\\
-f'(t) & = 1 \\\\\\\
+f'(\tan^2\theta) & = \cos 2\theta(1+\tan \theta \tan 2\theta ) \\
+f'(\tan^2\theta) & = \frac{1-\tan^2\theta}{1+\tan^2\theta} \left( 1 + \frac{2\tan^2\theta}{1-\tan^2\theta} \right) \\
+f'(t) & = \frac{1-t}{1+t} \left( 1 + \frac{2t}{1-t} \right) \quad\text{ where } t=\tan^2 \theta \\
+f'(t) & = 1 \\
 f(t) & = t + constant
 \end{align}
+</p>
 
 
+<p>
+Hence the answer is \(1-\cos \frac{\pi}{12}\).
+</p>
 
-Hence the answer is \\(1-\cos \frac{\pi}{12}\\).
+</details>
+
+---
 
 ### Application of Rolle's theorem
 {: .d-inline-block }
@@ -132,13 +170,16 @@ Consider \(f^{\prime}(x),\) i.e. the derivative of \(f(x)\). Find the following 
 (ii) the number of distinct real roots of \(f^{\prime}(x)\).<br>
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 15,6
 </p>
 
 
+</details>
+
+---
 
 ### Smallest prime factor function
 {: .d-inline-block }
@@ -171,7 +212,7 @@ For example, \(f(12)=2, f(105)=3 .\) Calculate the following.
 (b) The number of solutions to the equation \(f(x)=2016\)
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (a) \(f(x)\) will take value 2 for all even \(x\). At the same time, primes provide an increasing infinite sequence of positive integers for which \(f(x)=x .\) Thus \(\lim_{x \rightarrow \infty} f(x)\) does not exist.
@@ -181,6 +222,9 @@ Sol.
 (b) By intermediate value theorem, for each prime \(p> 2016\) there is an \(x\) between \(p\) and \(p+1\) such that \(f(x)=2016\)
 </p>
 
+</details>
+
+---
 
 ### Monotonic again
 {: .d-inline-block}
@@ -193,7 +237,7 @@ B1, 2017
 Find the number of solutions to \(e^{x}=\frac{x}{2017}+1\)
 </p>
 
-#### Solution
+<details><summary>Solution</summary>
 
 <p>
 This problem is similar to the last one. We need to show that the function is monotonic in some interval.
@@ -215,6 +259,8 @@ Hence, there are two solutions to the equation.
 
 </p>
 
+
+</details>
 
 
 
@@ -245,7 +291,6 @@ Hence, there are two solutions to the equation.
 </td>
 </tr>
 </table>
-
 
 
 -->

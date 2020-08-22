@@ -9,8 +9,36 @@ nav_order: 7
 # Probability
 
 
+### Squares on a chessboard
+{: .d-inline-block}
+
+A5, 2019
+{: .label}
+
+<p>
+You are given an \(8 \times 8\) chessboard. If two distinct squares are chosen uniformly at random find the probability that two rooks placed on these squares attack each other. Recall that a rook can move either horizontally or vertically, in a straight line.
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+\(2/9\)
+</p>
+
+</details>
+
+
+---
+
+
+
+
+
+
 ### Tinku's chocolate
 {: .d-inline-block}
+
+
 
 A5, 2012
 {: .label}
@@ -251,30 +279,4 @@ P(\text { well prepared both correct })&=\frac{P(\text { well prepared and both 
 </p>
 
 </details>
-
----
-
-### Squares on a chessboard
-{: .d-inline-block}
-
-A5, 2019
-{: .label}
-
-<p>
-You are given an \(8 \times 8\) chessboard. If two distinct squares are chosen uniformly at random find the probability that two rooks placed on these squares attack each other. Recall that a rook can move either horizontally or vertically, in a straight line.
-</p>
-
-<details><summary>Solution</summary>
-
-<p>
-\(2/9\)
-</p>
-
-</details>
-
-
-
-
-
-
 
