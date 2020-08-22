@@ -28,6 +28,39 @@ nav_order: 3
 
 
 
+
+
+
+### Roots of a quadratic
+{: .d-inline-block}
+
+A6, 2011
+{: label .label-blue}
+
+<p>
+The equation \(x^{2}+b x+c=0\) has nonzero real coefficients satisfying \(b^{2}>4 c\). Moreover, exactly one of \(b\) and \(c\) is irrational. Consider the solutions \(p\) and \(q\) of this equation.
+</p>
+
+- [ ] Both \\(\; p\; \\) and \\(\; q\; \\) must be rational.
+- [ ] Both \\( \;p\; \\) and \\( \;q\; \\) must be irrational.
+- [ ] One of \\(\; p\; \\) and \\(\; q\; \\) is rational and the other irrational.
+- [ ] We cannot conclude anything about rationality of \\(\; p\; \\) and \\(\; q\; \\) unless we know \\(\; b\; \\) and \\(\; c\; \\).
+
+<details><summary>Solution</summary>
+
+
+<p>
+(b) Both \( \;p\; \) and \( \;q\; \) must be irrational. <br>
+
+Let \(p\) and \(q\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \(p+q=-b\) and \(pq=c\).
+If one root is rational and the other is irrational, then both \(b\) and \(c\) must be irrational. If both the roots are rational, then both \(b\) and \(c\) must be rational. Hence, both \(p\) and \(q\) must be irrational.
+
+</p>
+
+</details>
+
+---
+
 ### Parity of a polynomial
 {: .d-inline-block}
 
@@ -65,6 +98,73 @@ Since \( f(r) \) is an odd number \(r\) cannot be a root of the polynomial.
 
 ---
 
+
+### Degree constraint on the polynomial
+{: .d-inline-block}
+
+B5, 2011
+{: label .label-blue}
+
+<p>
+It is given that the complex number \(i−3\) is a root of the polynomial \(3x^4+10x^3+Ax^2+Bx−30\),
+where \(A\) and \(B\) are unknown real numbers.  Find the other roots.
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+Complex roots come in conjugates, so \(-i-3\) must also be a root. So \( (x-i+3)(x+i+3) = (x^2+6x+10) \) must be a factor. The given
+polynomial can written as
+\[ (x^2+6x+10)(ax^2+bx+c) \]
+
+By comparing the coefficients, \(a=3,b=-8,\text{and }c=-3\). Hence the polynomial is:
+
+\[ (x^2+6x+10)(3x^2-8x-3) \]
+\[ (x^2+6x+10)(x-3)(3x+1) \]
+
+Hence the other roots are 3 and -1/3.
+
+</p>
+
+
+</details>
+
+---
+
+
+### Only one real root
+{: .d-inline-block}
+
+B8, 2011
+{: label .label-blue}
+
+
+<p>
+Suppose \(f(x) = x^3 + x^2 + cx + d\), where \(c\) and \(d\) are real numbers. Prove that if \(c>1/3\),
+then \(f\) has exactly one real root.
+</p>
+
+*Requires calculus too*.
+
+<details><summary>Solution</summary>
+
+<p>
+Since the function has odd degree as the highest power, it has at least one
+real root. To show that the function has exactly one real root
+we have to show, that it is monotonic in the whole \(\mathbb{R}\).
+This can be done by showing that \(f'(x)\) is always positive when \(c>1/3\).
+
+\[ f'(x) = 3x^2+2x+c \]
+
+The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\).
+Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
+
+</p>
+
+</details>
+
+---
+
 ### Polynomial with positive coefficients
 {: .d-inline-block}
 
@@ -86,7 +186,7 @@ Which of these statements are true?
 
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -107,6 +207,8 @@ Thus all the \(a_i\)s are positive.
 (iii) and (iv)  All 10 roots of \(p(x)\) are real and negative. There is a root of \(p^{\prime}(x)\) between consecutive roots of \(p(x)\) (this is valid even in case of multiple roots). So all 9 roots of \(p^{\prime}(x)\) are real and negative as well. For negativity, one can also note that all coefficients of \(p^{\prime}(x)\) are positive and apply the logic in (ii) to \(p^{\prime}(x)\).
 </p>
 
+
+</details>
 
 ---
 
@@ -135,7 +237,7 @@ c) Show that any other polynomial with rational coefficients and having \(\sqrt{
 
 
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -151,104 +253,15 @@ Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i
 Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
 </p>
 
----
-
-
-
-
-
-
-
-### Roots of a quadratic
-{: .d-inline-block}
-
-A6, 2011
-{: label .label-blue}
-
-<p>
-The equation \(x^{2}+b x+c=0\) has nonzero real coefficients satisfying \(b^{2}>4 c\). Moreover, exactly one of \(b\) and \(c\) is irrational. Consider the solutions \(p\) and \(q\) of this equation.
-</p>
-
-- [ ] Both \\(\; p\; \\) and \\(\; q\; \\) must be rational.
-- [ ] Both \\( \;p\; \\) and \\( \;q\; \\) must be irrational.
-- [ ] One of \\(\; p\; \\) and \\(\; q\; \\) is rational and the other irrational.
-- [ ] We cannot conclude anything about rationality of \\(\; p\; \\) and \\(\; q\; \\) unless we know \\(\; b\; \\) and \\(\; c\; \\).
-
-#### Solution
-
-
-<p>
-(b) Both \( \;p\; \) and \( \;q\; \) must be irrational. <br>
-
-Let \(p\) and \(q\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \(p+q=-b\) and \(pq=c\).
-If one root is rational and the other is irrational, then both \(b\) and \(c\) must be irrational. If both the roots are rational, then both \(b\) and \(c\) must be rational. Hence, both \(p\) and \(q\) must be irrational.
-
-</p>
+</details>
 
 ---
 
 
-### Degree constraint on the polynomial
-{: .d-inline-block}
-
-B5, 2011
-{: label .label-blue}
-
-<p>
-It is given that the complex number \(i−3\) is a root of the polynomial \(3x^4+10x^3+Ax^2+Bx−30\),
-where \(A\) and \(B\) are unknown real numbers.  Find the other roots.
-</p>
-
-#### Solution
-
-<p>
-Complex roots come in conjugates, so \(-i-3\) must also be a root. So \( (x-i+3)(x+i+3) = (x^2+6x+10) \) must be a factor. The given
-polynomial can written as
-\[ (x^2+6x+10)(ax^2+bx+c) \]
-
-By comparing the coefficients, \(a=3,b=-8,\text{and }c=-3\). Hence the polynomial is:
-
-\[ (x^2+6x+10)(3x^2-8x-3) \]
-\[ (x^2+6x+10)(x-3)(3x+1) \]
-
-Hence the other roots are 3 and -1/3.
-
-</p>
 
 
----
 
 
-### Only one real root
-{: .d-inline-block}
-
-B8, 2011
-{: label .label-blue}
-
-
-<p>
-Suppose \(f(x) = x^3 + x^2 + cx + d\), where \(c\) and \(d\) are real numbers. Prove that if \(c>1/3\),
-then \(f\) has exactly one real root.
-</p>
-
-*Requires calculus too*.
-
-#### Solution
-
-<p>
-Since the function has odd degree as the highest power, it has at least one
-real root. To show that the function has exactly one real root
-we have to show, that it is monotonic in the whole \(\mathbb{R}\).
-This can be done by showing that \(f'(x)\) is always positive when \(c>1/3\).
-
-\[ f'(x) = 3x^2+2x+c \]
-
-The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\).
-Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
-
-</p>
-
----
 
 
 ## Polynomial functions [5]
@@ -274,7 +287,7 @@ b) Show that a polynomial \(g(x)\) as in part a must be constant.
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>(a)
 Write \(f(x)=a_{n} x^{n}+a_{n-1} x^{n-1}+\cdots+a_{1} x+a_{0} .\) Then \(a_{0}=f(0)=p^{k}\) for some prime
@@ -288,6 +301,8 @@ Let \(g(x)=b_{n} x^{n}+b_{n-1} x^{n-1}+\cdots+b_{1} x+b_{0} .\) Then \(b_{0}=g(0
 \(m,\) this expression is divisible by \(p^{k},\) but not by \(p^{k+1}\) (since it is \(p^{k}\) modulo \(p^{k+1}\) ). This forces \(g\left(m p^{k+1}\right)=p^{k}\) for all \(m,\) since it must be a perfect power of \(p .\) Thus the polynomial \(g\) takes the value \(p^{k}\) infinitely often, so it must be identically equal to \(p^{k}\). (Otherwise the polynomial \(g(x)-p^{k}\) would have infinitely many roots.) To finish the problem, note that since \(g(x)=f(p x)\) is constant, \(f(x)\) must be constant by the same logic.
 </p>
 
+
+</details>
 
 ---
 
@@ -331,7 +346,7 @@ work in this area. For example, take a look at this <a href="https://www.cse.iit
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p> FTFT </p>
 
@@ -355,6 +370,8 @@ Sol.
 <p><i><b>Further reading.</b> A generalization of part (d) is connected to <a href="http://www.math.ens.fr/~benoist/articles/CarresEMS.pdf">Hilbert's 17th problem [pdf]</a>.</i></p>
 
 
+</details>
+
 ---
 
 ### Polynomials that exponentiate
@@ -375,7 +392,7 @@ Suppose  \(f(x)\) is a function from \(\mathbb{R}\) to \(\mathbb{R}\) such that 
 (b) Exactly four of those functions are polynomials.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (a) Define \(f(0)=0, f(1)=1\) and \(f(-1)=-1\). For every other real number \(x,\) arbitrarily equate \(f(x)\) to 0,-1 or 1. Any such function
@@ -399,6 +416,8 @@ So the polynomial \(f(x)-x^{2013}\) has all elements of \(A\) as its roots.
 Since there are infinitely many values in \(A\) (e.g. applying the intermediate value theorem because \(f\) is continuous), the polynomial \(f(x)-x^{2013}\) has infinitely many roots and thus must be the zero polynomial, i.e., \(f(x)=x^{2013}\) for all real number \(x\).
 </p>
 
+</details>
+
 ---
 
 
@@ -420,12 +439,14 @@ with subsequent polynomials defined by  for \(k \geq 0 .\) Find the least number
 
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 \(n=2018\). Note that \(\operatorname{deg} p_{0}(x)=2018\) and \(\operatorname{deg} p_{k}(x)=2018-k\).
 Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) and 5000 roots.
 </p>
+
+</details>
 
 ---
 
@@ -471,7 +492,7 @@ expressed in terms of \(p_n\)s as above, the coefficients \(b_{i}\)s obtained in
 
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) After expanding the powers of \((x-1),\) the degree \(n\) terms of \(f(x)\) and \(f(x-1)\) cancel out.  The degree \(n-1\) term from \(f(x)\)
@@ -497,6 +518,8 @@ The \( p_i \)s form a basis for polynomial functions, so any polynomial has a un
 <p>
 (iii) Substitute \(x=0,1,2, \ldots\) one by one in the equation \(f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)\) and solve for \(b_{0}, b_{1}, b_{2}, \ldots\) successively. \(x=0\) gives \(b_{0}=f(0) .\) Using \(x=1\) and 2 gives \(b_{1}=f(1)-b_{0}\) \(b_{2}=f(2)-b_{0}-2 b_{1} .\) In general, for all integers \(t, p_{i}(t)=\left(\begin{array}{c}t \\ i\end{array}\right)\) is an integer. Further, \(p_{i}(t)=0\) if \(0 \leq t < i\) and 1 if \(t=i .\) So \(b_{t}=f(t)-\sum_{i=0}^{t-1} b_{i}\left(\begin{array}{c}t \\ i\end{array}\right),\) which is an integer by induction.
 </p>
+
+</details>
 
 ---
 
@@ -534,7 +557,7 @@ A8, 2014
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) The function has only even powers. Let us put \(z=x^{2}\). We want to know the
@@ -551,6 +574,8 @@ So we have \(f(x)=q(x)\left(x^{2}+1\right)+4\), where \(q(x)\) is some polynomia
 <br>
 (ii) \(x f(x)=x q(x)\left(x^{2}+1\right)+4x\), so the second remainder is \(4x\).
 </p>
+
+</details>
 
 ---
 
@@ -574,7 +599,7 @@ Which of the statements are true?<br>
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 TTFF<br>
@@ -605,6 +630,8 @@ So \(g(x)\) cannot be a polynomial of degree 10.
 
 </p>
 
+</details>
+
 ---
 
 ### Given the remainders, find the polynomials
@@ -622,7 +649,7 @@ B5, 2016
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 <b>Background</b>. In general, if a polynomial \(f(x)\) leaves a constant remainder \(r\) when divided by the polynomial \((x-c)^{k}\).
@@ -652,6 +679,8 @@ So \(A=2\) and \(B=1\).
 
 
 </p>
+
+</details>
 
 ---
 
@@ -695,7 +724,7 @@ Choose the correct option for the following two questions.
 (d) cannot decide.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 <b>A1.</b>  Exactly Rs. \(5000\).
@@ -710,6 +739,8 @@ Consider the person who donated Rs. 500.  Suppose the neighbor to the left donat
 Then the one on the right donates \(500-x\).  But continuing leftward, the amounts donated are \(500+2 x, 500+3 x, \ldots,\)
 forcing \(x\) to be \(0,\) since you come around to the neighbor to the right.
 </p>
+
+</details>
 
 ---
 
@@ -728,7 +759,7 @@ How many integers are there in the range of \(f\)?
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -739,6 +770,8 @@ There are 201 integers.
 The function is strictly decreasing as \(x\) goes from \(-\infty\) to \(\infty\). The range of the function is \((0,201.8)\).
 By continuity, all the integers in range appear as values of \(f(x)\).
 </p>
+
+</details>
 
 ---
 
@@ -754,11 +787,13 @@ A country's GDP grew by \(7.8 \%\) within a period. During the same period the c
 By what percentage did the total population change during this period?
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\). Letting \(G\) and \(P\) denote the old GDP and population respectively, the new per-capita GDP is \(\frac{1.078 G}{(1+x) P}\) where \(x\) is the unknown percent change in population we wish to calculate. The percent increase in per-capita GDP is \(10 \%=0.1\) So we have \(\frac{1.078}{1+x}=1.1 .\) Solving for \(x\) we get \(1+x=\frac{1.078}{1.1}=\frac{98 \times 11}{100 \times 11}=0.98 .\) So \(x\) is -0.02 So population decreased by \(2 \%\)
 </p>
+
+</details>
 
 ---
 
@@ -779,7 +814,7 @@ A3, 2018
 \[ \large \sqrt[3]{x+4}-\sqrt[3]{x}=1 \]
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Put \(t=\sqrt[3]{x}\) to get:
@@ -801,6 +836,8 @@ Solving for \(t\) and then \(x\) we get:
 
 </p>
 
+</details>
+
 ---
 
 
@@ -820,7 +857,7 @@ Find all real solutions of the equation:
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 The equation is of the form \(a^b=1\). This can happen only in three cases:
@@ -833,6 +870,8 @@ The equation is of the form \(a^b=1\). This can happen only in three cases:
 So \(x=-3,1,1 \pm \sqrt{2}\) are the only solutions.
 </p>
 
+
+</details>
 
 ---
 
@@ -851,7 +890,7 @@ The following expression is an integer. Find its value.
 
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Let \(a=\sqrt{3}+10\) and \(b=\sqrt{3}-10\).  We have \(a^{3}-b^{3}=20\) and \(a b=2 .\) Putting it in \((a-b)^{3}\) we get \((a-b)^{3}=20-6(a-b)\).
@@ -860,6 +899,8 @@ This cubic has one real root \(a-b=2\) and two complex roots.
 
 
 <i>A similar problem was discussed on [Quora](https://www.quora.com/How-do-I-prove-that-sqrt-3-5-sqrt-2-+7-sqrt-3-5-sqrt-2-7-is-an-integer) in 2017.</i>
+
+</details>
 
 ---
 
@@ -888,7 +929,7 @@ Is it possible to find a \(2 \times 2\) matrix \(A\) for which the equation \(A 
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -906,6 +947,8 @@ If determinant of \(A\) is zero then we can make two cases:<br>
 So if the two right hand constants that make up \(\vec{b}\) are in the same proportion, then we will have infinitely many solutions (because one of the variables can be arbitrary).
 If the constants are not in the same proportion, then the two equations will be inconsistent and we will have no solutions.
 </p>
+
+</details>
 
 ---
 
@@ -951,7 +994,7 @@ we write the given polynomial as \( \sum_i a_ix^i\) then the largest coefficient
 </p>
 
 
-#### Solution
+<details><summary>Solution</summary>
 
 <p>
 The coefficient \( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \). Consider the ratio of two consecutive terms: \( a_{i+1}/a_i \).
@@ -966,6 +1009,8 @@ The coefficient \( a_i = \binom{20}{i} \left(\frac{2}{3}\right)^i \). Consider t
 The ratio \( a_{i+1}/a_i > 1\) up to \(i\leq 7\) and strictly less than 1 for \(i>7\). Hence, the sequence of coefficients is <a href="https://en.wiktionary.org/wiki/bitonic">bitonic</a> with the peak occurring at \(a_8\).
 </p>
 
+
+</details>
 
 ---
 
@@ -986,7 +1031,7 @@ A7, 2015
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) \(i=6\). Consider the ratio:
@@ -1004,6 +1049,8 @@ This ratio is \(>1\) till \(i=5\) and \(<1\) from \(i=6\) onwards. Similar to pr
 (ii) 32.
 Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{n}\right),\) where the sign depends on the parity of \(n .\) As \(n \rightarrow \infty,(\sqrt{2}-1)^{n} \rightarrow 0\) since \((\sqrt{2}-1)<1 .\) Thus \(\left(p_{n}-\sqrt{2} q_{n}\right) \rightarrow 0\) and so \(\frac{p_{n}}{q_{n}} \rightarrow \sqrt{2}\)<br>
 </p>
+
+</details>
 
 ---
 
@@ -1030,7 +1077,7 @@ what can you say about their sum \( S = a_1 + a_2 + · · · + a_{2011} \)?
 - [ ] \\( 2011 \leq  S \text{ and }  S\;\\) is bounded above.
 
 
-#### Solution
+<details><summary>Solution</summary>
 
 <p>
 \( 2011 \leq  S \text{ and }  S\;\) is unbounded above.
@@ -1041,6 +1088,8 @@ The first inequality follows from AM-GM inequality. To see why \(S\) is unbounde
 \( a_1=n \), \(a_2=1/n\) and the rest of \( a_is\) to 1. The sum \(S>n\) for any \(n\).
 </p>
 
+
+</details>
 
 ---
 
@@ -1070,6 +1119,75 @@ Without loss of generality, we may assume that \(r > 0\). Now use the AM-GM ineq
 since \(x+x^{-1}=\frac{\sqrt{5}+1}{2}<2\), the number \(x\) must be a non-real complex number.
 </p>
 
+
+</details>
+
+
+---
+
+### Points on a sphere
+{: .d-inline-block}
+
+B5, 2015
+{: .label}
+
+
+<p>
+Let \(p, q\) and \(r\) be real numbers with \(p^{2}+q^{2}+r^{2}=1\)
+</p>
+
+<p>
+(a) Prove the inequality \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} \leq 2\)
+</p>
+
+<p>
+(b) Also find the smallest possible value of \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} \).
+</p>
+
+<p>
+Specify exactly when the smallest and the largest possible value is achieved.
+</p>
+
+<details>
+
+<summary>Solution</summary>
+
+<p> We have
+
+\begin{align}
+3p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}&=(q+r)\left(3 p^{2}+2 q^{2}+2 r^{2}-2 q r\right)\\
+&=((q+r)\left(3\left(p^{2}+q^{2}+r^{2}\right)-\left(q^{2}+r^{2}+2 q r\right)\right)\\
+&=(q+r)\left(3-(q+r)^{2}\right)\\
+&=x\left(3-x^{2}\right)=3 x-x^{3}
+\end{align}
+
+where \(x=q+r.\)
+</p>
+
+<p>
+Let us examine possible values of \(x\) in view of the constraint \(p^{2}+q^{2}+r^{2}=1\).
+</p>
+
+<p>
+We have \(2 q r \leq q^{2}+r^{2}\) e.g. because \((q-r)^{2} \geq 0 .\)
+</p>
+
+<p>
+Adding \(q^{2}+r^{2},\) we get \(q^{2}+r^{2}+2 q r \leq \) \(2 q^{2}+2 r^{2} \leq 2,\) because \(q^{2}+r^{2} \leq p^{2}+q^{2}+r^{2}=1\).
+Thus \((q+r)^{2} \leq 2\). So \(-\sqrt{2} \leq q+r \leq \sqrt{2}\)
+</p>
+
+<p>
+Note that equalities are achieved precisely when \(p=0\) and \(q=r=\pm 1 / \sqrt{2}\).
+</p>
+
+<p>
+Thus altogether we have to find extrema of the odd function \(f(x)=3 x-x^{3}\) over the interval \([-\sqrt{2}, \sqrt{2}] .\) The critical points are when \(f^{\prime}(x)=3-3 x^{2}=0,\) i.e. \(x=\pm 1 .\) Thus we need to see only \(f(\pm \sqrt{2})=\pm \sqrt{2}\) and \(f(\pm 1)=\pm 2 .\) Therefore \(-2 \leq 3 p^{2} q+3 p^{2} r+\) \(2 q^{3}+2 r^{3} \leq 2 .\) Moreover, \(3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}=\pm 2\) precisely when \(x=q+r=\pm 1\)
+</p>
+
+<p>
+In each case, this gives a line segment in the \(q r\) -plane joining (±1,0) and \((0,\pm 1) .\) Note that both these segments lie within the circle \(q^{2}+r^{2}=1,\) so each point on them leads to two valid points \((p, q, r)\) on the unit sphere.
+</p>
 
 </details>
 

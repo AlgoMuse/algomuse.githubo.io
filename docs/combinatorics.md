@@ -20,7 +20,7 @@ Show that the sum of all elements of S is divisible by 11111. Find this sum.
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Each number appears in the \(i\)th place exactly \(4!\) times for
@@ -39,6 +39,8 @@ The total sum is therefore:
 
 </p>
 
+</details>
+
 ---
 
 
@@ -54,7 +56,7 @@ A4, 2019
 The sum \( S = 1 + 111 + 11111 + \cdots + \underbrace{11 \cdots 1}_{2k+1} \)
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 
 <p>
@@ -67,6 +69,8 @@ S&= \frac{ 10^{2k+3} - 99k - 109}{99\times 9}
 \end{align}
 
 </p>
+
+</details>
 
 ---
 
@@ -82,10 +86,12 @@ having an odd number of sides.
 
 ![](/assets/images/dodecahedron.png)
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>Let us add up the number of sides from each face and call this number T.  It is given that there are 11 faces and each face has odd sides, so T is odd. However,
 in any solid each side is counted twice since two faces intersect to form a side. So T must be even, which is a contradiction. Hence such a solid cannot exist.</p>
+
+</details>
 
 ---
 
@@ -98,7 +104,7 @@ A4, 2010
 Show that there is no infinite arithmetic progression consisting of distinct integers all
 of which are squares.
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Suppose the infinite A.P. is given by
@@ -118,6 +124,8 @@ The difference between any two consecutive squares in the A.P. is unbounded, hen
 </p>
 
 
+</details>
+
 ---
 
 
@@ -136,10 +144,12 @@ The word MATHEMATICS consists of 11 letters. The number of distinct ways to rear
 - [ ] 11!/8
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>11!/8</p>
 
+
+</details>
 
 ---
 
@@ -197,17 +207,24 @@ B3, 2012
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
-(a) If a set \(A\) is in such a collection \(\mathcal{C},\) then the complement of \(A\) cannot be in \(\mathcal{C}\). Therefore \(|\mathcal{C}| \leq \frac{1}{2}(\) total number of subsets of \(\{1,2, \ldots, n\})=\frac{1}{2} 2^{n}=2^{n-1}\)
+(a) If a set \(A\) is in such a collection \(\mathcal{C},\) then the complement of \(A\) cannot be in \(\mathcal{C}\). <br>
+Therefore \(|\mathcal{C}| \leq \frac{1}{2}(\) total number of subsets of \(\{1,2, \ldots, n\})=\frac{1}{2} 2^{n}=2^{n-1}\)
 </p>
 
 <p>
-(b) There are many ways to build such a collection, e.g., take all \(2^{n-1}\) subsets of \(\{1,2, \ldots, n\}\) containing \(1,\) remove the singleton set \{1\} and instead include its complement. \(-\mathrm{OR}-\) Note that for \(n=3,\) the four sets \{1,2\},\{2,3\},\{1,3\},\{1,2,3\} give a (unique) solution. For \(n>3\) take the union of each of these 4 sets with all \(2^{n-3}\) subsets of \(\{4, \ldots, n\} .-\mathrm{OR}-\) For \(n=2 k+1,\) take all subsets of \(\{1,2, \ldots, n\}\) of size \(>k .\) Any two of these will intersect. Now use \(\left(\begin{array}{l}n \\ i\end{array}\right)=\left(\begin{array}{c}n \\ n-i\end{array}\right) .\) For \(n=2 k,\) take all subsets of size \(>k\) along with half the subsets of size \(k,\) namely those containing a fixed number. (Check the details.)
+(b) <i>Solution 1.</i> Take all \(2^{n-1}\) subsets of \(\{1,2, \ldots, n\}\) containing \(1\), remove the singleton set \(\{1\}\) and instead include its complement.
+</p>
+
+<p>
+(b) <i>Solution 2.</i> For \(n=3,\) the four sets \(\{1,2\},\{2,3\},\{1,3\},\{1,2,3\}\) give a unique solution.
+For \(n>3\) take the union of each of these 4 sets with all \(2^{n-3}\) subsets of \(\{4, \ldots, n\}\).
 </p>
 
 
+</details>
 
 ---
 
@@ -241,7 +258,7 @@ There are 8 boys and 7 girls in a group. For each of the tasks specified below, 
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
  \(2 \times 8 ! \times 7 !\) (The factor of 2 arises because the two blocks of boys and girls can switch positions.)
@@ -260,6 +277,8 @@ Sol.
 </p>
 
 
+
+</details>
 
 ---
 
@@ -363,7 +382,7 @@ The function \(f\) given by \(\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \righ
 But the function \(g\) given by \(\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \rightarrow 4,\{1,2\} \rightarrow 5\) does not, because \(g(\{1\} \cup\{2\})=g(\{1,2\})=5 \neq\) the larger of \(g(\{1\})\) and \(g(\{2\})=\max (3,4)=4\)
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) As there are \(n\) choices each for the values of \(f(1), \ldots, f(k)\) and as all these choices are independent of each other, the number of functions is \(n^{k}\).
@@ -373,6 +392,8 @@ Sol.
 (ii) Note that \(f(A)=\max \{f(\{j\}) \mid j \in A\}\), so the function \(f\) is completely decided by its values on the empty set \(\phi\) and on the one element subsets \(\{1\},\{2\}, \ldots,\{k\} .\) If \(f(\phi)=i,\) then each of \(f(\{1\}), f(\{2\}), \ldots, f(\{k\})\) can be chosen to be any of the numbers \(i, i+1, \ldots, n\) Thus there are \(k\) independent choices for each of which there are \(n-i+1\) options. So the number of desired functions for which \(f(\phi)=i\) is \((n-i+1)^{k} .\) Now we sum over all values of \(i=1,2, \ldots, n\) to get the total number to be \(1^{k}+2^{k}+\cdots+n^{k} .\) (When \(k=3\) and \(n=4\) we get \(1^{3}+2^{3}+3^{3}+4^{3}=100,\) as mentioned in the problem.)
 </p>
 
+
+</details>
 
 ---
 
@@ -407,11 +428,13 @@ for each positive integer \(i\)
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>True.  Append A to \(w\). </p>
 <p>True.  B, AB, AAB, AAAB, ... </p>
 <p>False. There are infinitely many such strings e.g. A, AA, AAA, AAAA, </p>
+
+</details>
 
 ---
 
@@ -429,12 +452,14 @@ e.g. \(04\) IOU. A license plate is called "confusing" if the digit 0 (zero) and
 (ii) How many of these are not confusing?
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) \(10^{2} \times 5^{3}=12500\)
 (ii) \(10^{2} \times 4^{3}\) plates without vowel \(\mathrm{O}+9^{2} \times\left(5^{3}-4^{3}\right)\) plates with vowel O but without 0. This gives \(6400+4941=11341\).
 </p>
+
+</details>
 
 ---
 
@@ -450,7 +475,7 @@ There are four distinct balls labelled 1,2,3,4 and four distinct bins labelled \
 Notation: \(\operatorname{Pr}[X]=\) the probability of event \(X\) taking place. \(\operatorname{Pr}[X \mid Y]=\) the probability of event \(X\) taking place, given that event \(Y\) has taken place.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) \(\operatorname{Pr}\left[E_{4}\right]=\frac{4 !}{4^{4}}=\frac{3}{32}\)
@@ -459,6 +484,8 @@ Sol.
 (iv) \(\operatorname{Pr}\left[E_{3} \mid E_{4}\right]=1\)
 </p>
 
+
+</details>
 
 ---
 
@@ -477,11 +504,13 @@ M says: L will be last. R will be second.
 After the race, it turns out that each person has made exactly one correct and one incorrect prediction. Write the result of the race in the order from first to the last.
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 If K comes second, then L was third (one correct answer for R). But then R would also need to be second (one correct answer for M, a contradiction. So K cannot be second. So M must have won, etc. The order is M R L K.
 </p>
+
+</details>
 
 ---
 
@@ -509,7 +538,7 @@ i.e., the set of all pairwise sums of numbers from \(A\). E.g., for \(A=\{1,4\},
 
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (a) The following \(2 n-1\) numbers in \(A+A\) are distinct: \(a_{1}+a_{1}< a_{1}+a_{2}<\cdots< a_{1}+a_{n}< a_{2}+a_{n}< \ldots< a_{n}+a_{n}\).
@@ -532,6 +561,8 @@ A way to visualize is to write \(a_{i}+a_{j}\) at point \((i, j)\) in the XY-pla
 
 
 
+</details>
+
 ---
 
 
@@ -545,12 +576,14 @@ A3, 2017
 10 oranges are to be placed in 5 distinct boxes labeled \(\mathrm{U}, \mathrm{V}, \mathrm{W}, \mathrm{X}, \mathrm{Y} .\) A box may contain any number of oranges including no oranges or all the oranges. What is the number of ways to distribute the oranges so that exactly two of the boxes contain exactly two oranges each?
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 From the five distinct boxes, there are 10 ways to pick the two boxes that will have 2 oranges each. We need to distribute the remaining 6 oranges in the remaining three boxes such that none of the three boxes gets exactly 2 oranges. The possible distributions are \(6+0+0\) (which can be done in 3 ways) or \(5+1+0\) (6 ways) or \(4+1+1\) (3 ways) or \(3+3+0(3\) ways \() .\) Thus the required answer is \(10 \times(3+6+3+3)=150\)
 </p>
 
+
+</details>
 
 ---
 
@@ -671,10 +704,12 @@ A7, 2019
 
 <p> If 1 is on the display what is the least number of key strokes needed to get 260 on the display?  </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>\(9,\) there are exactly two sequences, for example, \(BBBBBBABB\).</p>
 
+
+</details>
 
 ---
 
@@ -697,13 +732,11 @@ For example when \(n=4\) the permutation 2134 of has its first ascent at positio
 The number of permutations which have their first ascent at position \(k\) is ...
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 \(\left(\begin{array}{l}n \\ k\end{array}\right)(n-k) !-\left(\begin{array}{c}n \\ k+1\end{array}\right)(n-k-1) !\)
 </p>
 
 
-
-
-
+</details>
