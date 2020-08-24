@@ -8,6 +8,32 @@ nav_order: 7
 # Combinatorics
 
 
+### Letter arrangement
+{: .d-inline-block}
+
+A1, 2011
+{: .label }
+
+
+The word MATHEMATICS consists of 11 letters. The number of distinct ways to rearrange these letters is.
+
+- [ ] 11!
+- [ ] 11!/3
+- [ ] 11!/6
+- [ ] 11!/8
+
+
+<details><summary>Solution</summary>
+
+<p>11!/8</p>
+
+
+</details>
+
+---
+
+
+
 ### Serendipitous sum
 {:b .d-inline-block}
 
@@ -40,6 +66,35 @@ The total sum is therefore:
 </p>
 
 </details>
+
+---
+
+### Handshake party
+{:b .d-inline-block}
+
+B1, 2011
+{: .label}
+
+<p>
+In a business meeting, each person shakes hands with each other person once, with the exception of Mr. L.<br>
+Since Mr. L arrives after some people have left, he shakes hands only with those present. If the total number of handshakes is exactly \(100,\) how many people left the meeting before Mr. L arrived?
+</p>
+
+
+<details><summary>Solution</summary>
+<p>
+Let the initial number of people in the party be \(n\). Suppose \(k\) people left the party before Mr. L arrived. The total number of handshakes is then given by:<br>
+
+\[ \binom{n}{2} + (n-k) = 100 \]
+\[ \binom{n}{2} < 100 < \binom{n+1}{2} \]
+
+
+So \(n=14\) and \(k=5\).
+
+
+</p>
+</details>
+
 
 ---
 
@@ -129,29 +184,6 @@ The difference between any two consecutive squares in the A.P. is unbounded, hen
 ---
 
 
-### Letter arrangement
-{: .d-inline-block}
-
-A1, 2011
-{: .label }
-
-
-The word MATHEMATICS consists of 11 letters. The number of distinct ways to rearrange these letters is.
-
-- [ ] 11!
-- [ ] 11!/3
-- [ ] 11!/6
-- [ ] 11!/8
-
-
-<details><summary>Solution</summary>
-
-<p>11!/8</p>
-
-
-</details>
-
----
 
 ### Pigeon-hole principle
 {:b .d-inline-block}
@@ -163,7 +195,15 @@ A8, 2010
 If 8 points in a plane are chosen to lie on or inside a circle of diameter \(2 \mathrm{cm}\) then show that the distance between some two points will be less than \(1 \mathrm{cm}\).
 </p>
 
+<details><summary>Solution</summary>
 
+Divide the disk into six sectors. In each sector only the three corners are mutally at a distance of one from each other. The center of disk is common
+to all the sectors. Hence, at most 7 points can be kept on the disk that are mutually at a distance 1 from each other.
+
+<p style="text-align:center"><img src="/assets/images/php_2010.svg"/></p>
+
+
+</details>
 
 ---
 
@@ -174,59 +214,46 @@ B3, 2010
 {: .label }
 
 <p>
-(a) A computer program prints out all integers from 0 to ten thousand in base 6 using the numerals 0,1,2,3,4 and \(5 .\) How many numerals it would have printed?
+(a) A computer program prints out all integers from 0 to ten thousand in base 6 using the numerals 0,1,2,3,4 and 5. How many numerals it would have printed?
+</p>
+
+<p>
 (b) A 3-digt number \(abc\) in base 6 is equal to the 3-digit number \(cba\) in base 9. Find the digits.
 </p>
-
-
-
----
-
-### Handshake party
-{:b .d-inline-block}
-
-<p>
-In a business meeting, each person shakes hands with each other person, with the exception of Mr. L. since Mr. L arrives after some people have left, he shakes hands only with those present. If the total number of handshakes is exactly \(100,\) how many people left the meeting before Mr. L arrived? (Nobody shakes hands with the same person more than once.)
-</p>
-
----
-
-### Intersection family
-{:b .d-inline-block}
-
-B3, 2012
-{: .label}
-
-
-<p>
-(a) We want to choose subsets \(A_{1}, A_{2}, \ldots, A_{k}\) of \(\{1,2, \ldots, n\}\) such that any two of the chosen subsets have nonempty intersection. Show that the size \(k\) of any such collection of subsets is at most \(2^{n-1}\)
-</p>
-
-<p>
-(b) For \(n>2\) show that we can always find a collection of \(2^{n-1}\) subsets \(A_{1}, A_{2}, \ldots\) of \(\{1,2, \ldots, n\}\) such that any two of the \(A_{i}\) intersect, but the intersection of all \(A_{i}\) is empty.
-</p>
-
 
 <details><summary>Solution</summary>
 
 <p>
-(a) If a set \(A\) is in such a collection \(\mathcal{C},\) then the complement of \(A\) cannot be in \(\mathcal{C}\). <br>
-Therefore \(|\mathcal{C}| \leq \frac{1}{2}(\) total number of subsets of \(\{1,2, \ldots, n\})=\frac{1}{2} 2^{n}=2^{n-1}\)
+(a) There are 6 numbers with one digit, \(6^2\) numbers with two digits and so on. We have \(6^5 < 10000 < 6^6\). So there are only \(10000-6^5=2332\) numbers of six digits.
 </p>
+
+<p>The total numerals the program would have printed is:<br>
+\[ 1\times 6 + 2\times 6^2 + 3\times 6^3 + 4\times 6^4 + 5\times 6^5 + 6\times 2332 = 58782  \]
+</p>
+
 
 <p>
-(b) <i>Solution 1.</i> Take all \(2^{n-1}\) subsets of \(\{1,2, \ldots, n\}\) containing \(1\), remove the singleton set \(\{1\}\) and instead include its complement.
-</p>
+(b) The given condition translates to :
 
-<p>
-(b) <i>Solution 2.</i> For \(n=3,\) the four sets \(\{1,2\},\{2,3\},\{1,3\},\{1,2,3\}\) give a unique solution.
-For \(n>3\) take the union of each of these 4 sets with all \(2^{n-3}\) subsets of \(\{4, \ldots, n\}\).
-</p>
+\[ c + 6b + 6^2a = a + 9b + 9^2 c \]
 
+which means:<br>
+
+\[ 35a - 3b - 80c = 0 \]
+
+Since \(a\) is a digit between 1 and 9, \(35a-80c\) is a multiple of 5, so \(b=5\). This means:
+
+\[ 35a - 15 = 80c  \]
+
+The only digits that satisfy are \(a=5\)  and \(b=2\). Hence the number is \(552\).
+</p>
 
 </details>
 
+
 ---
+
+
 
 ### Seating boys and girls
 {:b .d-inline-block}
@@ -261,19 +288,19 @@ There are 8 boys and 7 girls in a group. For each of the tasks specified below, 
 <details><summary>Solution</summary>
 
 <p>
- \(2 \times 8 ! \times 7 !\) (The factor of 2 arises because the two blocks of boys and girls can switch positions.)
+ (a) \(2 \times 8 ! \times 7 !\) (The factor of 2 arises because the two blocks of boys and girls can switch positions.)
 </p>
 
 <p>
- \(8 ! \times 7 !\) (There is no factor of 2 because there must be a boy at each end.)
+(b)  \(8 ! \times 7 !\) (There is no factor of 2 because there must be a boy at each end.)
 </p>
 
 <p>
- \(\left(\begin{array}{c}15 \\ 6\end{array}\right)\)
+(c) \(\left(\begin{array}{c}15 \\ 6\end{array}\right)\)
 </p>
 
 <p>
- \(\left(\begin{array}{c}15 \\ 6\end{array}\right)-\left(\begin{array}{l}8 \\ 3\end{array}\right)\left(\begin{array}{l}7 \\ 3\end{array}\right)=\left(\begin{array}{l}8 \\ 6\end{array}\right)+\left(\begin{array}{l}8 \\ 5\end{array}\right)\left(\begin{array}{l}7 \\ 1\end{array}\right)+\left(\begin{array}{l}8 \\ 4\end{array}\right)\left(\begin{array}{l}7 \\ 2\end{array}\right)+\left(\begin{array}{l}8 \\ 2\end{array}\right)\left(\begin{array}{l}7 \\ 4\end{array}\right)+\left(\begin{array}{l}8 \\ 1\end{array}\right)\left(\begin{array}{l}7 \\ 5\end{array}\right)+\left(\begin{array}{l}7 \\ 6\end{array}\right)\)
+(d) \(\left(\begin{array}{c}15 \\ 6\end{array}\right)-\left(\begin{array}{l}8 \\ 3\end{array}\right)\left(\begin{array}{l}7 \\ 3\end{array}\right)=\left(\begin{array}{l}8 \\ 6\end{array}\right)+\left(\begin{array}{l}8 \\ 5\end{array}\right)\left(\begin{array}{l}7 \\ 1\end{array}\right)+\left(\begin{array}{l}8 \\ 4\end{array}\right)\left(\begin{array}{l}7 \\ 2\end{array}\right)+\left(\begin{array}{l}8 \\ 2\end{array}\right)\left(\begin{array}{l}7 \\ 4\end{array}\right)+\left(\begin{array}{l}8 \\ 1\end{array}\right)\left(\begin{array}{l}7 \\ 5\end{array}\right)+\left(\begin{array}{l}7 \\ 6\end{array}\right)\)
 </p>
 
 
@@ -285,74 +312,6 @@ There are 8 boys and 7 girls in a group. For each of the tasks specified below, 
 
 
 
-
-### Difference equations III
-{:b .d-inline-block}
-
-B6, 2013
-{: .label}
-
-
-<p>
-Define \(f_{k}(n)\) to be the sum of all possible products of \(k\) distinct integers chosen from the set \(\{1,2, \ldots, n\},\) i.e.,
-<br>
-
-\[ f_{k}(n)=\sum_{1 \leq i_{1}<i_{2}<\ldots<i_{k} \leq n} i_{1} i_{2} \ldots i_{k} \]
-
-</p>
-
-<p>
-(a) For \(k>1,\) write a recursive formula for the function \(f_{k},\) i.e., a formula for \(f_{k}(n)\) in terms of \(f_{\ell}(m),\) where \(\ell<k\) or \((\ell=k\) and \(m<n)\)
-</p>
-
-<p>
-(b) Show that \(f_{k}(n),\) as a function of \(n,\) is a polynomial of degree \(2k\).
-</p>
-
-<p>
-(c) Express \(f_{2}(n)\) as a polynomial in variable \(n\).
-</p>
-
-<details>
-<summary>Solution (a)</summary>
-
-<p>
-(a) Break up the terms in the definition of \(f_{k}(n)\) into two groups: the terms in which \(i_{k}=n\) add up to \(n f_{k-1}(n-1)\) and the remaining terms, i.e., the ones in which \(i_{k} \leq n-1,\) add up to \(f_{k}(n-1) .\) So we get \(f_{k}(n)=n f_{k-1}(n-1)+f_{k}(n-1)\)
-c) By part a we have \(f_{2}(n)-f_{2}(n-1)=n f_{1}(n-1)=n \times \frac{n(n-1)}{2}=\frac{1}{2}\left(n^{3}-n^{2}\right)\). Similarly
-\(f_{2}(n-1)-f_{2}(n-2)=\frac{1}{2}\left((n-1)^{3}-(n-1)^{2}\right)\) and so on up to \(f_{2}(2)-f_{2}(1)=\frac{1}{2}\left(2^{3}-2^{2}\right)\)
-Note that \(f_{2}(1)=0,\) which we may also write as \(\frac{1}{2}\left(1^{3}-1^{2}\right) .\) Adding up, we get for any \(n \geq 1, f_{2}(n)=\sum_{j=1}^{j=n} \frac{1}{2}\left(j^{3}-j^{2}\right)=\frac{1}{2}\left(\frac{n^{2}(n+1)^{2}}{4}-\frac{n(n+1)(2 n+1)}{6}\right),\) where we have used
-standard formulas for the sum of first \(n\) cubes and of first \(n\) squares.
-</p>
-</details>
-
-<p></p>
-
-<details>
-<summary>Solution (b)</summary>
-<p>
-(b) We prove the statement by induction on \(k .\) First \(f_{1}(n)=\sum_{i=1}^{n} i=\frac{n(n+1)}{2},\) a polynomial of degree 2 as desired. For \(k>1,\) we have by part a the equation \(f_{k}(n)-f_{k}(n-1)=\) \(n f_{k-1}(n-1) .\) The right hand side is a polynomial of degree \(1+2(k-1)=2 k-1,\) where \(2(k-1)\) is the degree of \(f_{k-1}(n-1)\) by induction and the added 1 comes from the factor
-n. since successive differences in the values of \(f_{k}\) are given by a polynomial of degree \(2 k-1,\) the function \(f_{k}\) on positive integers is given by a polynomial of degree 1 more, i.e., of degree \(2 k\)
-Note: The previous statement is a standard fact, which can be explained as follows. If we assume that \(f_{k}(n)\) is a polynomial, then its degree is easily found, because for any polynomial \(f\) of degree \(m,\) its "successive difference" function \(f(x)-f(x-1)\) is a polynomial of degree \(m-1 .\) (Reason: If the leading term of \(f(x)\) is \(a x^{m},\) then the leading term in \(f(x)-f(x-1)\) is \(a m x^{m-1},\) as seen by expanding the power of \(x-1\) in \(a x^{m}-a(x-1)^{m}\) The remaining terms in \(f(x)-f(x-1)\) do not matter because by expanding powers of \(x-1\) in them and simplifying, we only get monomials of degree \(< m-1 .)\)
-(2) In fact, based on the difference equation, \(f_{k}(n)\) must be a polynomial in the variable \(n .\) This is a consequence of the following well-known fact.
-</p>
-</details>
-
-<p></p>
-
-<details>
-<summary>Solution (c)</summary>
-<p>
-(c) <i>Claim</i>. Given a polynomial \(h(x)\) of degree \(d\), there is a polynomial \(g(x)\) of degree \(d+1\) such that \(g(x)-g(x-1)=h(x)\).
-
-<i>Proof:</i> Induction on \(d,\) the degree of \(h .\) If \(h(x)=c\) a constant, then \(g(x)=c x\) works.
-Now for \(d>1,\) it is enough to find a polynomial \(g(x)\) such that \(g(x)-g(x-1)=x^{d}\) (because if \(h(x)=c x^{d}+\tilde{h}(x),\) where \(\tilde{h}\) has degree \(< d\), by induction we find \(\tilde{g}\) for \(h\) and then \(c g(x)+\tilde{g}(x)\) works for \(h(x)) .\) To find such \(g(x)\), notice that for \(g_{1}(x)=x^{d+1},\) we have \(h_{1}(x)=g_{1}(x)-g_{1}(x-1)=(d+1) x^{d}+h_{2}(x),\) where \(h_{2}(x)\)
-is a polynomial of degree \(d-1 .\) By induction \(h_{2}(x)=g_{2}(x)-g_{2}(x-1)\) for a polynomial \(g_{2}(x)\) of degree \(d .\) Now \(g(x)=\frac{1}{d+1}\left(g_{1}(x)-g_{2}(x)\right)\) works. \(\:\square\).
-</p>
-</details>
-
-
-
----
 
 ### Count the number of functions
 {:b .d-inline-block}
@@ -455,7 +414,7 @@ e.g. \(04\) IOU. A license plate is called "confusing" if the digit 0 (zero) and
 <details><summary>Solution</summary>
 
 <p>
-(i) \(10^{2} \times 5^{3}=12500\)
+(i) \(10^{2} \times 5^{3}=12500\). <br>
 (ii) \(10^{2} \times 4^{3}\) plates without vowel \(\mathrm{O}+9^{2} \times\left(5^{3}-4^{3}\right)\) plates with vowel O but without 0. This gives \(6400+4941=11341\).
 </p>
 
@@ -545,13 +504,28 @@ i.e., the set of all pairwise sums of numbers from \(A\). E.g., for \(A=\{1,4\},
 </p>
 
 <p>
-A way to visualize is to write \(a_{i}+a_{j}\) at point \((i, j)\) in the XY-plane. Any step to the right or up increases the number. To reach from \(2 a_{1}\) to \(2 a_{n}\) needs \(2 n-1\) such steps. The given example is the path along bottom row and then rightmost column.
+A way to visualize is to write \(a_{i}+a_{j}\) at point \((i, j)\) in the XY-plane.
+Any step to the right or up increases the number.
+To reach from \(2 a_{1}\) to \(2 a_{n}\) needs \(2 n-1\) such steps.
+The given example is the path along bottom row and then rightmost column.
 </p>
 
+
+<br>
+<p>
+(b) Suppose the \(a_{i}\) form an arithmetic progression.
+Then for a fixed \(k\), the value of \(a_{i}+a_{k-i}\) is constant for all possible \(i,\) where \(2 \leq k \leq 2 n\).
+For the converse, we use induction.<br>
+There is nothing to prove for \(n=1,2\).<br>
+For \(n>2,\) remove \(a_{n}\) from \(A\) to get a set \(B .\) Now \(|A+A|-|B+B| \geq 2,\) because the two distinct numbers \(a_{n-1}+a_{n}\) and \(2 a_{n}\) in \(A+A\) are greater than all numbers in \(B+B\).
+</p>
 
 <p>
-(b) Suppose the \(a_{i}\) form an arithmetic progression. Then for a fixed \(k\), the value of \(a_{i}+a_{k-i}\) is constant for all possible \(i,\) where \(2 \leq k \leq 2 n .\) For the converse use induction. There is nothing to prove for \(n=1,2 .\) For \(n>2,\) remove \(a_{n}\) from \(A\) to get a set \(B .\) Now \(|A+A|-|B+B| \geq 2,\) because the two distinct numbers \(a_{n-1}+a_{n}\) and \(2 a_{n}\) in \(A+A\) are greater than all numbers in \(B+B .\) So for \(|A+A|=2 n-1\) to happen, one must have \(|B+B|=2 n-3,\) which by induction forces \(a_{1}, \ldots, a_{n-1}\) to be in an arithmetic progression. Moreover \(a_{n-2}+a_{n}\) must be in \(B+B\) and it can only be the largest number \(2 a_{n-1}\) (because all others are smaller than \(a_{n-2}+a_{n}\) ). This shows that \(a_{n}\) is the next term of the same arithmetic progression.
+So for \(|A+A|=2 n-1\) to happen, one must have \(|B+B|=2 n-3,\) which by induction forces \(a_{1}, \ldots, a_{n-1}\) to be in an arithmetic progression. Moreover \(a_{n-2}+a_{n}\) must be in \(B+B\) and it can only be the largest number \(2 a_{n-1}\) (because all others are smaller than \(a_{n-2}+a_{n}\) ). This shows that \(a_{n}\) is the next term of the same arithmetic progression.
 </p>
+
+
+<br>
 
 <p>
 (c) \(0,1,2,3,4,5,6,7,8,10.\)
@@ -586,6 +560,96 @@ From the five distinct boxes, there are 10 ways to pick the two boxes that will 
 </details>
 
 ---
+
+
+
+
+
+### Broken calculator
+{:b .d-inline-block}
+
+A7, 2019
+{: .label}
+
+<p> A broken calculator has all its 10 digit keys and two operation keys intact. Let us call these operation keys A and B. When the calculator displays a number \(n\) pressing A changes the display to \(n+1\). When the calculator displays a number \(n\) pressing \(B\) changes the display to \(2 n .\) For example, if the number 3 is displayed then the key strokes ABBA changes the display in the following steps \(3 \rightarrow 4 \rightarrow 8 \rightarrow 16 \rightarrow 17\).  </p>
+
+<p> If 1 is on the display what is the least number of key strokes needed to get 260 on the display?  </p>
+
+<details><summary>Solution</summary>
+
+<p>\(9,\) there are exactly two sequences, for example, \(BBBBBBABB\).</p>
+
+
+</details>
+
+---
+
+### First ascent
+{:b .d-inline-block}
+
+
+A8, 2019
+{: .label}
+
+
+<p>
+Let \(\pi=\pi_{1} \pi_{2} \ldots \ldots \pi_{n}\) be a permutation of the numbers \(1,2,3, \ldots, n\).<br>
+We say \(\pi\) has its first ascent at position \(k<n\) if \(\pi_{1}>\pi_{2} \ldots>\pi_{k}\) and \(\pi_{k}<\pi_{k+1}\).<br>
+If \(\pi_{1}>\pi_{2}>\ldots>\) \(\pi_{n-1}>\pi_{n}\) we say \(\pi\) has its first ascent in position \(n\).<br>
+</p>
+
+<p>
+For example when \(n=4\) the permutation 2134 of has its first ascent at position 2
+The number of permutations which have their first ascent at position \(k\) is ...
+</p>
+
+<details><summary>Solution</summary>
+<p>
+\(\left(\begin{array}{l}n \\ k\end{array}\right)(n-k) !-\left(\begin{array}{c}n \\ k+1\end{array}\right)(n-k-1) !\)
+</p>
+
+
+</details>
+
+---
+
+### Intersection family
+{:b .d-inline-block}
+
+B3, 2012
+{: .label}
+
+
+<p>
+(a) We want to choose subsets \(A_{1}, A_{2}, \ldots, A_{k}\) of \(\{1,2, \ldots, n\}\) such that any two of the chosen subsets have nonempty intersection. Show that the size \(k\) of any such collection of subsets is at most \(2^{n-1}\)
+</p>
+
+<p>
+(b) For \(n>2\) show that we can always find a collection of \(2^{n-1}\) subsets \(A_{1}, A_{2}, \ldots\) of \(\{1,2, \ldots, n\}\) such that any two of the \(A_{i}\) intersect, but the intersection of all \(A_{i}\) is empty.
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+(a) If a set \(A\) is in such a collection \(\mathcal{C},\) then the complement of \(A\) cannot be in \(\mathcal{C}\). <br>
+Therefore \(|\mathcal{C}| \leq \frac{1}{2}(\) total number of subsets of \(\{1,2, \ldots, n\})=\frac{1}{2} 2^{n}=2^{n-1}\)
+</p>
+
+<p>
+(b) <i>Solution 1.</i> Take all \(2^{n-1}\) subsets of \(\{1,2, \ldots, n\}\) containing \(1\), remove the singleton set \(\{1\}\) and instead include its complement.
+</p>
+
+<p>
+(b) <i>Solution 2.</i> For \(n=3,\) the four sets \(\{1,2\},\{2,3\},\{1,3\},\{1,2,3\}\) give a unique solution.
+For \(n>3\) take the union of each of these 4 sets with all \(2^{n-3}\) subsets of \(\{4, \ldots, n\}\).
+</p>
+
+
+</details>
+
+---
+
 
 
 
@@ -693,50 +757,75 @@ is not a multiple of \(n\). On the other hand, suppose \(m\) is colored black. T
 
 ---
 
-
-### Broken calculator
+### Difference equations III
 {:b .d-inline-block}
 
-A7, 2019
+B6, 2013
 {: .label}
 
-<p> A broken calculator has all its 10 digit keys and two operation keys intact. Let us call these operation keys A and B. When the calculator displays a number \(n\) pressing A changes the display to \(n+1\). When the calculator displays a number \(n\) pressing \(B\) changes the display to \(2 n .\) For example, if the number 3 is displayed then the key strokes ABBA changes the display in the following steps \(3 \rightarrow 4 \rightarrow 8 \rightarrow 16 \rightarrow 17\).  </p>
 
-<p> If 1 is on the display what is the least number of key strokes needed to get 260 on the display?  </p>
+<p>
+Define \(f_{k}(n)\) to be the sum of all possible products of \(k\) distinct integers chosen from the set \(\{1,2, \ldots, n\},\) i.e.,
+<br>
 
-<details><summary>Solution</summary>
+\[ f_{k}(n)=\sum_{1 \leq i_{1}<i_{2}<\ldots<i_{k} \leq n} i_{1} i_{2} \ldots i_{k} \]
 
-<p>\(9,\) there are exactly two sequences, for example, \(BBBBBBABB\).</p>
+</p>
 
+<p>
+(a) For \(k>1,\) write a recursive formula for the function \(f_{k},\) i.e., a formula for \(f_{k}(n)\) in terms of \(f_{\ell}(m),\) where \(\ell<k\) or \((\ell=k\) and \(m<n)\)
+</p>
 
+<p>
+(b) Show that \(f_{k}(n),\) as a function of \(n,\) is a polynomial of degree \(2k\).
+</p>
+
+<p>
+(c) Express \(f_{2}(n)\) as a polynomial in variable \(n\).
+</p>
+
+<details>
+<summary>Solution (a)</summary>
+
+<p>
+(a) Break up the terms in the definition of \(f_{k}(n)\) into two groups: the terms in which \(i_{k}=n\) add up to \(n f_{k-1}(n-1)\) and the remaining terms, i.e., the ones in which \(i_{k} \leq n-1,\) add up to \(f_{k}(n-1) .\) So we get \(f_{k}(n)=n f_{k-1}(n-1)+f_{k}(n-1)\)
+c) By part a we have \(f_{2}(n)-f_{2}(n-1)=n f_{1}(n-1)=n \times \frac{n(n-1)}{2}=\frac{1}{2}\left(n^{3}-n^{2}\right)\). Similarly
+\(f_{2}(n-1)-f_{2}(n-2)=\frac{1}{2}\left((n-1)^{3}-(n-1)^{2}\right)\) and so on up to \(f_{2}(2)-f_{2}(1)=\frac{1}{2}\left(2^{3}-2^{2}\right)\)
+Note that \(f_{2}(1)=0,\) which we may also write as \(\frac{1}{2}\left(1^{3}-1^{2}\right) .\) Adding up, we get for any \(n \geq 1, f_{2}(n)=\sum_{j=1}^{j=n} \frac{1}{2}\left(j^{3}-j^{2}\right)=\frac{1}{2}\left(\frac{n^{2}(n+1)^{2}}{4}-\frac{n(n+1)(2 n+1)}{6}\right),\) where we have used
+standard formulas for the sum of first \(n\) cubes and of first \(n\) squares.
+</p>
 </details>
+
+<p></p>
+
+<details>
+<summary>Solution (b)</summary>
+<p>
+(b) We prove the statement by induction on \(k .\) First \(f_{1}(n)=\sum_{i=1}^{n} i=\frac{n(n+1)}{2},\) a polynomial of degree 2 as desired. For \(k>1,\) we have by part a the equation \(f_{k}(n)-f_{k}(n-1)=\) \(n f_{k-1}(n-1) .\) The right hand side is a polynomial of degree \(1+2(k-1)=2 k-1,\) where \(2(k-1)\) is the degree of \(f_{k-1}(n-1)\) by induction and the added 1 comes from the factor
+n. since successive differences in the values of \(f_{k}\) are given by a polynomial of degree \(2 k-1,\) the function \(f_{k}\) on positive integers is given by a polynomial of degree 1 more, i.e., of degree \(2 k\)
+Note: The previous statement is a standard fact, which can be explained as follows. If we assume that \(f_{k}(n)\) is a polynomial, then its degree is easily found, because for any polynomial \(f\) of degree \(m,\) its "successive difference" function \(f(x)-f(x-1)\) is a polynomial of degree \(m-1 .\) (Reason: If the leading term of \(f(x)\) is \(a x^{m},\) then the leading term in \(f(x)-f(x-1)\) is \(a m x^{m-1},\) as seen by expanding the power of \(x-1\) in \(a x^{m}-a(x-1)^{m}\) The remaining terms in \(f(x)-f(x-1)\) do not matter because by expanding powers of \(x-1\) in them and simplifying, we only get monomials of degree \(< m-1 .)\)
+(2) In fact, based on the difference equation, \(f_{k}(n)\) must be a polynomial in the variable \(n .\) This is a consequence of the following well-known fact.
+</p>
+</details>
+
+<p></p>
+
+<details>
+<summary>Solution (c)</summary>
+<p>
+(c) <i>Claim</i>. Given a polynomial \(h(x)\) of degree \(d\), there is a polynomial \(g(x)\) of degree \(d+1\) such that \(g(x)-g(x-1)=h(x)\).
+
+<i>Proof:</i> Induction on \(d,\) the degree of \(h .\) If \(h(x)=c\) a constant, then \(g(x)=c x\) works.
+Now for \(d>1,\) it is enough to find a polynomial \(g(x)\) such that \(g(x)-g(x-1)=x^{d}\) (because if \(h(x)=c x^{d}+\tilde{h}(x),\) where \(\tilde{h}\) has degree \(< d\), by induction we find \(\tilde{g}\) for \(h\) and then \(c g(x)+\tilde{g}(x)\) works for \(h(x)) .\) To find such \(g(x)\), notice that for \(g_{1}(x)=x^{d+1},\) we have \(h_{1}(x)=g_{1}(x)-g_{1}(x-1)=(d+1) x^{d}+h_{2}(x),\) where \(h_{2}(x)\)
+is a polynomial of degree \(d-1 .\) By induction \(h_{2}(x)=g_{2}(x)-g_{2}(x-1)\) for a polynomial \(g_{2}(x)\) of degree \(d .\) Now \(g(x)=\frac{1}{d+1}\left(g_{1}(x)-g_{2}(x)\right)\) works. \(\:\square\).
+</p>
+</details>
+
+
 
 ---
 
-### First ascent
-{:b .d-inline-block}
 
 
-A8, 2019
-{: .label}
 
 
-<p>
-Let \(\pi=\pi_{1} \pi_{2} \ldots \ldots \pi_{n}\) be a permutation of the numbers \(1,2,3, \ldots, n\).<br>
-We say \(\pi\) has its first ascent at position \(k<n\) if \(\pi_{1}>\pi_{2} \ldots>\pi_{k}\) and \(\pi_{k}<\pi_{k+1}\).<br>
-If \(\pi_{1}>\pi_{2}>\ldots>\) \(\pi_{n-1}>\pi_{n}\) we say \(\pi\) has its first ascent in position \(n\).<br>
-</p>
-
-<p>
-For example when \(n=4\) the permutation 2134 of has its first ascent at position 2
-The number of permutations which have their first ascent at position \(k\) is ...
-</p>
-
-<details><summary>Solution</summary>
-
-<p>
-\(\left(\begin{array}{l}n \\ k\end{array}\right)(n-k) !-\left(\begin{array}{c}n \\ k+1\end{array}\right)(n-k-1) !\)
-</p>
-
-
-</details>
