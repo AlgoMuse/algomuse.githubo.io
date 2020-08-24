@@ -9,9 +9,9 @@ last_modified_date: 2020-04-27T17:54:08+0000
 ---
 
 
-# Math @ CMI
+# CMI Tomato
 
-This website is for class XII students who wish to pursue B.Sc. at CMI.
+This website is for class XII students who wish to pursue B.Sc. at Chennai Mathematical Institute.
 {: .fs-5 .fw-300 }
 
 ---
@@ -53,7 +53,7 @@ https://amzn.to/30EkFAk
 
 
 ---
-<img src="/assets/images/manjul.jpg" style="float:left;margin-right:20px;"/>
+<img src="/assets/images/manjul_potrait.png" style="float:left;margin-right:20px;width=50px"/>
 
 <q>When universities in the United States are looking to recruit mathematics students
 from India, one of the first places they look for applications is from CMI, if not the first place. Universities that are able to get CMI students are always very proud.</q>
@@ -139,7 +139,7 @@ practice problems, mock question papers, and a few exam-preparation strategies.
 <br><br>
 
 
-
+https://promys-india.org/resources/reading-list/
 
 
 -->
@@ -150,6 +150,16 @@ This website is maintained by Mallesh Balasundar, a teacher who has more than 15
 an alternate solution to any of the problems, feel free to email at <code>malleshm</code> followed by the first four odd numbers <code>@gmail.com</code>
 {: .fs-3 .fw-300 }
 
+---
+
+#### Legal information
+
+The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fls/fl102.html), for the purpose of intellutual stimulation, critique, commentary, scholarship and teaching.
+By downloading the contents of the website, you agree to bring to my notic any possible violation of copyright law before taking legal action.
+{: .fs-3 .fw-300 }
+
+M. Balasundar is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.in.
+{: .fs-3 .fw-300 }
 
 
 
