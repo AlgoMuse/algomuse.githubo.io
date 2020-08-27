@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Calculus
-nav_order: 92
+nav_order: 7
 has_children: true
 ---
 
@@ -70,6 +70,62 @@ Further, \(\ln (x)< x\) for \(x> 0\). So the given ratio must lie between 0 and 
 ---
 
 
+### Convergence of \\(e^{\text{quadratic}}\\)
+{: .d-inline-block}
+
+
+A2, 2014
+{: .label}
+
+
+<p>
+Consider the intergal \(I=\int_{1}^{\infty} e^{a x^{2}+b x+c} d x,\) where \(a, b, c\) are constants. Some combinations of values for these constants are given below and you have to decide in each case whether the integral \(I\) converges.
+</p>
+
+<p>(A) \(I\) converges for \(a=-1 \quad b=10 \quad c=100\)</p>
+<p>(B) \(I\) converges for \(a=1 \quad b=-10 \quad c=-100\)</p>
+<p>(C) \(I\) converges for \(a=0 \quad b=-1 \quad c=100\)</p>
+<p>(D) \(I\) converges for \(a=0 \quad b=0 \quad c=-100\)</p>
+
+<details><summary>Solution</summary>
+TFTF
+</details>
+
+---
+
+
+### Differentiability I
+{: .d-inline-block}
+
+A3, 2014
+{: .label}
+
+<p>Given a real number \(x,\) define \(g(x)=x^{2} e^{x}\) if \(x \geq 0\) and \(g(x)=x e^{-x}\) if \(x<0\)</p>
+<p>(A) The function \(g\) is continuous everywhere.</p>
+<p>(B) The function \(g\) is differentiable everywhere.</p>
+<p>(C) The function \(g\) is one-to-one.</p>
+<p>(D) The range of \(g\) is the set of all real numbers.</p>
+
+<details><summary>Solution</summary>
+TFTT
+</details>
+
+---
+
+### Longest diagonal in a box
+{: .d-inline-block}
+
+A12, 2014
+{: .label}
+
+<p>The total length of all 12 sides of a rectangular box is \(60 .\) (i) Write the possible values of the volume of the box. Your answer should be an interval. Now suppose in addition that the surface area of the box is given to be \(56 .\) Find, if you can, (ii) the length of the longest diagonal of the box (iii) the volume of the box.</p>
+
+<details><summary>Solution</summary>
+\((0,125], 13,\) not possible to decide
+</details>
+
+
+---
 
 
 ### Differentiable piece function
@@ -341,22 +397,30 @@ Find the number of solutions to \(e^{x}=\frac{x}{2017}+1\)
 
 <p>
 This problem is similar to the last one. We need to show that the function is monotonic in some interval.
+</p>
+
+<p>
 Consider the function:
 \begin{align}
 f(x)&=  e^x -\frac{x}{2017} - 1 \\
 f'(x)&=  e^x -\frac{1}{2017}
 \end{align}
+</p>
 
 
+<p>
 The derivative is positive when \(x> x_0=-\log 2017\).
+</p>
 
+<p>
 <ul>
 <li>We have \(f(x_0)< 0\) and \( f(-\infty)>0 \) so there is one solution in the interval \((-\infty,x_0)\).</li>
 <li>\( x = 0 \) is another solution.</li>
 </ul>
+</p>
 
+<p>
 Hence, there are two solutions to the equation.
-
 </p>
 
 
@@ -544,8 +608,8 @@ The notation \([x]\) denotes the integer part of \(x\).
 </ul>
 </p>
 
-Sol.
 
+<details><summary>Solution</summary>
 
 <p>
 a) \(\int_{1}^{4} x^{2} d x=\frac{x^{3}}{3}\rvert_{1} ^{4}=21\) using the fundamental theorem of calculus.
@@ -565,7 +629,7 @@ d) \(\int_{-1}^{1} \frac{1}{x^{2}} d x=2 \lim_{t \rightarrow 0^{+}} \int_{t}^{1}
 does not apply over the interval [-1,1] because \(\frac{1}{x^{2}}\) goes to \(\infty\) in the interval. So the integral does not exist.
 </p>
 
-
+</details>
 
 ---
 
@@ -624,7 +688,7 @@ where the denominator is a product of \(n\) factors, \(n\) being a positive inte
 (It is better to sketch than calculate).
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) \(n\) at \(x=1,2, \ldots, n\).
@@ -650,6 +714,7 @@ Therefore, as one traces the graph from from the origin to the left, it must bec
 once and eventually concave up again so as to approach the X-axis from above.
 </p>
 
+</details>
 
 ---
 
@@ -691,7 +756,7 @@ What happens to the sign of \(f^{\prime}(x)\)? We do a case by case analysis.
 
 <p> </p>
 <p>
-<b>Case 3.</b> Suppose \(1 / 4 \leq a \leq 1 .\) Now \(f^{\prime}(x)=0\) at \(\tilde{x}=\frac{1}{\sqrt{a}}-1 .\) For this range of \(a, \tilde{x} \in[0,1]\) In the interval \([0, \tilde{x}], f^{\prime}(x) \leq 0\) and in the interval \([\tilde{x}, 1], f^{\prime}(x) \geq 0 .\) Now we make two sub-cases depending on at which endpoint the maximum occurs.
+<b>Case 3.</b> Suppose \(1 / 4 \leq a \leq 1 .\) Now \(f^{\prime}(x)=0\) at \(\tilde{x}=\frac{1}{\sqrt{a}}-1 .\) For this range of \(a, \tilde{x} \in[0,1]\) In the interval \([0, \tilde{x}], f^{\prime}(x) \leq 0\) and in the interval \([\tilde{x}, 1], f^{\prime}(x) \geq 0 .\) Now we make two sub-cases depending on the endpoint at which the maximum occurs.
 </p>
 
 <p> </p>
@@ -711,6 +776,292 @@ similar to the above it is bigger than \(1 / 12\).
 </details>
 
 
+---
+
+
+### Differentiability Challenge
+{: .d-inline-block}
+
+B4, 2014
+{: .label}
+
+<p>(i) Let \(f\) be continuous on [-1,1] and differentiable at \(0 .\) For \(x \neq 0,\) define a function \(g\) by \(g(x)=\frac{f(x)-f(0)}{x} .\) Can \(g(0)\) be defined so that the extended function \(g\) is continuous at \(0 ?\)</p>
+
+<p>(ii) For \(f\) as in part (i), show that the following limit exists.</p>
+
+<p>\[ \lim_{r \rightarrow 0^{+}}\left(\int_{-1}^{-r} \frac{f(x)}{x} d x+\int_{r}^{1} \frac{f(x)}{x} d x\right) \]</p>
+
+<p>(iii) Give an example showing that without the hypothesis of \(f\) being differentiable at \(0,\) the conclusion in (ii) need not hold.</p>
+
+<details><summary>Solution (i)</summary>
+
+
+<p>(i) Yes. We must define \(g(0)=\lim_{x \rightarrow 0} g(x)=f^{\prime}(0),\) which exists by hypothesis.</p>
+
+</details>
+
+<p></p>
+
+<details><summary>Solution (ii)</summary>
+<p>(ii) Consider \(\int_{-1}^{-r} g(x) d x=\int_{-1}^{-r} \frac{f(x)}{x} d x-\int_{-1}^{-r} \frac{f(0)}{x} d x=\int_{-1}^{-r} \frac{f(x)}{x} d x-f(0) \ln r . \quad\) Similarly</p>
+
+<p>\[\int_{r}^{1} g(x) d x=\int_{r}^{1} \frac{f(x)}{x} d x-\int_{r}^{1} \frac{f(0)}{x} d x=\int_{r}^{1} \frac{f(x)}{x} d x+f(0) \ln r\]</p>
+
+<p>Thus the expression inside the given limit is equal to \(\int_{-1}^{-r} g(x) d x+\int_{r}^{1} g(x) d x,\) as \(\pm f(0) \ln r\) cancels out.</p>
+
+<p>Applying the fundamental theorem of calculus to the continuous function \(g,\) we get an antiderivative \(G\) of \(g,\) where \(G\) is defined on [-1,1] by \(G(t)=\int_{-1}^{t} g(x) d x .\) So the given</p>
+
+<p>
+
+\begin{align}
+\text { limit }&=\lim_{r \rightarrow 0^{+}}\left(\int_{-1}^{-r} g(x) d x+\int_{r}^{1} g(x) d x\right) \\
+&=\lim_{r \rightarrow 0^{+}}(G(-r)-G(-1)+G(1)-G(r)) \\
+&=G(0)-0+G(1)-G(0)\\
+&=G(1)
+\end{align}
+
+<br>
+We have used the fundamental theorem to evaluate the integrals and the fact that \(G\) is differentiable.
+</p>
+
+</details>
+
+<p></p>
+
+<details><summary>Solution (iii)</summary>
+<p>(iii) Define \(f(x)=\frac{1}{-\ln \frac{x}{2}}\) for \(x \in(0,1], f(x)=\frac{1}{\ln \left|\frac{1}{2}\right|}\) for \(x \in[-1,0),\) and \(f(0)=0 .\) Verify that this works: \(f\) is continuous at 0 and so on \([-1,1] .\) It is not differentiable at 0 as the relevant limit is \(+\infty .\) The two integrals in the desired limit are equal (because \(f\) is an odd function, so \(\frac{f(x)}{x}\) is even \()\) and each integral is \(+\infty\) as it amounts to \(\lim_{t \rightarrow 0^{+}} \ln |\ln t| .\) Can you see how one might think of such \(f ?\) E.g., check that choices like \(|x|\) or even \(x^{\frac{1}{3}}\) do not work. Compare the behaviour of these functions at \(x=0\) with that of chosen \(f .\)</p>
+
+</details>
+
+---
+
+
+
+### Double derivatives
+{: .d-inline-block}
+
+A4, 2015
+{: .label}
+
+<p>Let \(A, B\) and \(C\) be unknown constants. Consider the function \(f(x)\) defined by</p>
+
+<p>
+\begin{align}
+f(x) &=A x^{2}+B x+C \text { when } x \leq 0 \\
+&=\ln (5 x+1) \text { when } x>0
+\end{align}
+</p>
+
+<p>Write the values of the constants \(A, B\) and \(C\) such that \(f^{\prime \prime}(x),\) i.e., the double derivative of \(f,\) exists for all real \(x .\) If this is not possible, write "not possible". If some of the constants cannot be uniquely determined, write "not unique" for each such constant.</p>
+
+
+<details><summary>Solution</summary>
+
+<p>The only problem is at \(x=0 .\) For continuity, \(\ln (0+1)=C\).</p>
+
+<p>For \(f^{\prime}(0)\) to exist, \(f\) must be continuous and the left and right derivatives of \(f\) at \(x=0\) (which are easily seen to exist) must match, that is \(5=B\).</p>
+
+<p>For \(f^{\prime \prime}(0)\) to exist, \(f^{\prime}(0)\) must exist and left and right derivatives of \(f^{\prime}\) at \(x=0\) must match, i.e. \(2 A=-5^{2} .\) So \(A=-\frac{25}{2}, B=5, C=0\).</p>
+
+</details>
+
+---
+
+###  Polynomial and limits
+{: .d-inline-block}
+
+B1, 2015
+{: .label}
+
+<p>1. Carefully solve the following series of questions. If you cannot solve an earlier part, you may still assume the result in it to solve a later part.</p>
+<p>(a) For any polynomial \(p(t),\) the limit \(\lim_{t \rightarrow \infty} \frac{p(t)}{e^{t}}\) is independent of the polynomial \(p .\) Justify this statement and find the value of the limit.</p>
+<p>(b) Consider the function defined by</p>
+
+<p>
+\begin{align}
+q(x) &=e^{-1 / x} \text { when } x>0 \\
+&=0 \text { when } x=0 \\
+&=e^{1 / x} \text { when } x<0
+\end{align}
+</p>
+
+<p>Show that \(q^{\prime}(0)\) exists and find its value. Why is it enough to calculate the relevant limit from only one side?</p>
+<p>(c) Now for any positive integer \(n,\) show that \(q^{(n)}(0)\) exists and find its value. Here \(q(x)\) is the function in part (b) and \(q^{(n)}(0)\) denotes its \(n\) -th derivative at \(x=0\). Answer: (a) If \(p(t)\) is constant, then the limit \(=0 .\) Otherwise we get a form \(\frac{\pm \infty}{\infty} .\) Using L'Hospital's rule, we get \(\lim_{t \rightarrow \infty} \frac{p(t)}{e^{t}}=\lim_{t \rightarrow \infty} \frac{p^{\prime}(t)}{e^{t}}=0\) by induction on the degree of \(t\) (or apply
+L'Hospital's rule repeatedly).</p>
+
+<details><summary>Solution</summary>
+
+ <p>(a) If \(p(t)\) is constant, then the limit \(=0 .\) Otherwise we get a form \(\frac{\pm \infty}{\infty}\). Using L'Hospital's rule, we get \(\lim_{t \rightarrow \infty} \frac{p(t)}{e^{t}}=\lim_{t \rightarrow \infty} \frac{p^{\prime}(t)}{e^{t}}=0\) by induction on the degree of \(t\) (or apply
+L'Hospital's rule repeatedly).</p>
+
+
+<p>(b) The right side derivative \(=\lim_{h \rightarrow 0^{+}} \frac{q(h)-q(0)}{h}=\lim_{h \rightarrow 0^{+}} \frac{e^{-1 / h}}{h}=\lim_{h \rightarrow 0^{+}} \frac{1 / h}{e^{1 / h}}=\lim_{t \rightarrow+\infty} \frac{t}{e^{t}} \cdot\) (Let \(t=1 / h .\) As \(\left.h \rightarrow 0^{+}, t \rightarrow+\infty .\right)\) This limit is \(0,\) e.g. by part \((\mathrm{a})\) Now \(q\) is an even function, so letting \(k=-h,\) the left side derivative \(=\lim_{h \rightarrow 0^{-}} \frac{q(h)-q(0)}{h}=\) \(\lim_{k \rightarrow 0^{+}} \frac{q(-k)}{-k}=\lim_{k \rightarrow 0^{+}} \frac{q(k)}{-k} .\) Using the earlier calculation this also equals \(-0=0\) Note: It is wrong to argue that \(q^{\prime}(0)=\lim_{x \rightarrow 0} q^{\prime}(x)\) because to do so, we first need to know that \(q^{\prime}\) is continuous at \(0,\) but we have not even shown that \(q^{\prime}(0)\) exists! For the same reason it is wrong to argue below that \(q^{(n)}(0)=\lim_{x \rightarrow 0} q^{(n)}(x)\)</p>
+
+<p>
+(c) We will show by induction on \(n\) that \(q^{(n)}(0)=0 .\) The case \(n=1\) is done. (We can even start the induction at \(n=0\) by interpreting \(q^{(0)}(x)=q(x) .\) ) Assuming that we are done up to \(n\) and to prove the statement for \(n+1,\) we need to calculate \(\lim_{h \rightarrow 0} \frac{q^{(n)}(h)-q^{(n)}(0)}{h}=\) \(\lim_{h \rightarrow 0} \frac{q^{(n)}(h)}{h},\) because \(q^{(n)}(0)=0\) by induction. Therefore it is good to examine \(q^{(n)}(h)\) for \(h \neq 0 .\) This is easy to calculate by the usual rules, but the formulas will be different for positive and negative \(h .\) For \(h \neq 0,\) as \(q\) is even, \(q^{\prime}\) is odd, so \(q^{\prime \prime}\) is even, etc. and in general \(q^{(n)}(h)=(-1)^{n} q^{(n)}(-h) .\) Therefore, just as for part (b), it suffices to show that \(\lim_{h \rightarrow 0^{+}} \frac{q^{(n)}(h)}{h}=0 .\) By another induction, we see easily that for \(h>0, q^{(n)}(h)=p(1 / h) e^{-1 / h}\)
+for some polynomial \(p .\left[\right.\) Proof: \(q^{\prime}(h)=\left(\frac{1}{h^{2}}\right) e^{-1 / h} .\) Assuming the result for \(n,\) we have \(q^{(n+1)}(h)=\left[p(1 / h) e^{-1 / h}\right]^{\prime}=-\frac{1}{h^{2}}\left(-p(1 / h)+p^{\prime}(1 / h)\right) e^{-1 / h},\) which has the desired form.
+</p>
+
+<p>
+So we have \(\lim_{h \rightarrow 0^{+}} \frac{q^{(n)}(h)}{h}=\lim_{h \rightarrow 0^{+}} \frac{p(1 / h) e^{-1 / h}}{h}=\lim_{t \rightarrow \infty} t p(t) e^{-t}=\lim_{t \rightarrow \infty} \frac{t p(t)}{e^{t}}=0\) by part (a). Here we have again substituted \(t=1 / h\)
+</p>
+
+</details>
+
+---
+
+### Slowing slope changing function
+{: .d-inline-block}
+
+B4, 2015
+{: .label}
+
+<p>Let \(f: \mathbb{R} \rightarrow \mathbb{R}\) be a twice differentiable function, where \(\mathbb{R}\) denotes the set of real numbers. Suppose that for all real numbers \(x\) and \(y,\) the function \(f\) satisfies</p>
+
+<p>\[ f^{\prime}(x)-f^{\prime}(y) \leq 3|x-y| \]</p>
+
+
+<p>(a) Show that for all \(x\) and \(y,\) we must have \(\left|f(x)-f(y)-f^{\prime}(y)(x-y)\right| \leq 1.5(x-y)^{2}\)</p>
+
+<p>(b) Find the largest and smallest possible values for \(f^{\prime \prime}(x)\) under the given conditions.</p>
+
+
+<details><summary>Solution</summary>
+
+<p>(a) Note that the given inequality stays valid if we take absolute value of the LHS, because we may interchange \(x\) and \(y\) without affecting RHS.</p>
+
+<p>
+Fix \(x, y\) and let \(t=x-y .\) For now let \(x \geq y,\) i.e. \(t \geq 0 .\) For \(h \in[0, t],\) the value of \(y+h\) varies between \(y\) and \(x .\) We are given that \(\left|f^{\prime}(y+h)-f^{\prime}(y)\right| \leq 3|h|\). Integrate with respect to \(h\) over the interval \([0, t]\) to get:
+
+\[\int_{0}^{t}\left|f^{\prime}(y+h)-f^{\prime}(y)\right| d h \leq \int_{0}^{t} 3|h| d h=1.5 t^{2}\]
+
+<br>
+
+The following inequality follows from Lemma 1 (proved below).
+
+</p>
+
+<p>
+\[\left|\int_{0}^{t} f^{\prime}(y+h)-f^{\prime}(y) d h\right| \leq \int_{0}^{t}\left|f^{\prime}(y+h)-f^{\prime}(y)\right| d h .\]
+</p>
+
+<p>
+Combining with the previous inequality we have:
+\[\left|\int_{0}^{t} f^{\prime}(y+h)-f^{\prime}(y) d h\right| \leq 1.5 t^{2}\]
+</p>
+
+<p>
+Finally we calculate the LHS.
+<br>
+
+\[\left|\int_{0}^{t} f^{\prime}(y+h) d h-\int_{0}^{t} f^{\prime}(y) d h\right|=\left|f(y+t)-f(y)-f^{\prime}(y) t\right|\]
+
+<br>
+where the first integral is calculated using the fundamental theorem of calculus and the second one is just the integral of the constant \(f^{\prime}(y) .\) Substituting \(x-y\) for \(t\) gives the desired result.
+</p>
+
+<p>The case when \(x\leq y\) is analogous.</p>
+
+
+<p> (b) We have, for \(x \neq y,\left|\frac{f^{\prime}(x)-f^{\prime}(y)}{x-y}\right| \leq 3,\) so \(-3 \leq \frac{f^{\prime}(x)-f^{\prime}(y)}{x-y} \leq 3 .\) Taking limit as \(y \rightarrow x\)
+we get \(-3 \leq f^{\prime \prime}(x) \leq 3 .\) It is easy to provide examples where \(f^{\prime \prime}\) attains the extreme values \(\pm 3,\) e.g. \(f(x)=\pm 1.5 x^{2} .\) These satisfy the hypothesis and have constant \(f^{\prime \prime}=\pm 3\)
+</p>
+
+
+
+<p><b>Lemma 1.</b>
+
+<p> \[ \left|\int_{a}^{b} f(x) d x\right| \leq \int_{a}^{b}|f(x)| d x \] </p>
+
+
+<p> <i>Proof.</i><br> </p>
+
+<p> \[ -|f(x)| \leq f(x) \leq|f(x)| \] </p>
+
+
+<p> for all \(x\); hence </p>
+
+<p>
+\[
+-\int_{a}^{b}|f(x)| d x \leq \int_{a}^{b} f(x) d x \leq \int_{a}^{b}|f(x)| d x
+\]
+</p>
+
+<p>
+The lemma follows since \(-a \leq x \leq a \implies  |x|\leq a  \) if \(a \geq 0\). \(\quad \square\)
+</p>
+
+
+</p>
+
+
+</details>
+
+
+
+---
+
+### Definite integral
+{: .d-inline-block}
+
+B3, 2016
+{: .label}
+
+
+<p>Consider the function \(f(x)=x^{\cos (x)+\sin (x)}\) defined for \(x \geq 0\).</p>
+<p>(a) Prove that</p>
+
+<p>\[ 0.4 \leq \int_{0}^{1} f(x) d x \leq 0.5 \]</p>
+
+<p>(b) Suppose the graph of \(f(x)\) is being traced on a computer screen with the uniform speed of \(1 \mathrm{cm}\) per second (i.e., this is how fast the length of the curve is increasing). Show that at the moment the point corresponding to \(x=1\) is being drawn, the \(x\) coordinate is increasing at the rate of</p>
+
+<p>\[ \frac{1}{\sqrt{2+\sin (2)}} \mathrm{cm} \text { per second } \]</p>
+
+
+
+<details><summary>Solution</summary>
+
+<p>(a) It is easy to see that for \(0 \leq x \leq 1,\) we have \(1 \leq \cos (x)+\sin (x) \leq \sqrt{2},\) and so</p>
+
+<p>\[ x^{1} \geq x^{\cos (x)+\sin (x)} \geq x^{\sqrt{2}} \]</p>
+
+<p>As all three functions are non-negative in \([0,1],\) we can integrate the inequalities over that interval to get</p>
+
+<p>\[ \frac{1}{2} \geq \int_{0}^{1} f(x) d x \geq \frac{1}{\sqrt{2}+1}>\frac{1}{1.5+1}=0.4 \]</p>
+
+<p>(b) Length of the curve from \(x=0\) to any given \(x\) is \(l(x)=\int_{0}^{x} \sqrt{1+f^{\prime}(u)^{2}} d u\) It is given that \(\frac{d l}{d t}=1 \mathrm{cm} /\) second at all times. One needs to find \(\frac{d x}{d t}\) when \(x=1\)</p>
+
+<p>By chain rule \( \displaystyle \frac{d l}{d t}=\frac{d l}{d x} \frac{d x}{d t} .\)</p>
+
+<p> By the fundamental theorem of calculus:</p>
+
+<p>
+\[\frac{d l}{d x}=\sqrt{1+f^{\prime}(x)^{2}}\]
+</p>
+
+<p>From Lemma 1, we have \(f^{\prime}(1)=\cos (1)+\sin (1)\).</p>
+
+<p>So at \(x=1\) we have<br></p>
+
+<p>
+\[ \frac{d l}{d x}=\sqrt{1+(\cos (1)+\sin (1))^{2}}=\sqrt{2+\sin 2}\]
+
+
+The statement follows by substituting in the first equation.
+
+</p>
+
+
+<p><b>Lemma 1:</b> \(f^{\prime}(1) = \sin(1) + \cos(1)\)</p>
+
+<p>\[f^{\prime}(x) = x^{(\cos (x)+\sin (x))-1}(-x \log (x) \sin (x)+x \log (x) \cos (x)+(\cos (x)+\sin (x))) \]
+</p>
+
+<p>Substitute \(x=1\) and \(\log (1) = 0\) in the above equation.
+</p>
+
+
+</details>
 
 
 

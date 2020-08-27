@@ -157,6 +157,76 @@ For part d, note that \(g(x),\) now being a polynomial vanishing at 1,2,3 and \(
 
 
 
+---
+
+### Continuity on tangents and secants
+{: .d-inline-block}
+
+A9, 2016
+{: .label}
+
+
+<p>Given a continuous function \(f\), define the following subsets of the set \(\mathbb{R}\) of real numbers.</p>
+
+<p>\(T=\) set of slopes of all possible tangents to the graph of \(f\)</p>
+
+<p>\(S=\) set of slopes of all possible secants, i.e. lines joining two points on the graph of \(f\)</p>
+
+<p>(i) If \(f\) is differentiable, then \(S \subset T\).</p>
+<p>(ii) If \(f\) is differentiable, then \(T \subset S\).</p>
+<p>(iii) If \(T=S=\mathbb{R},\) then \(f\) must be differentiable everywhere.</p>
+<p>(iv) Suppose 0 and 1 are in \(S\). Then every number between 0 and 1 must also be in \(S\).</p>
+
+Sol.
+
+<p>TFFT</p>
+<p>i The mean value theorem tells us \(S \subset T\).</p>
+<p>ii \(T \subset S\) is false, example \(f(x)=\sin (x) .\) Here \(f^{\prime}(0)=1\) is in \(T\) but not in \(S\).</p>
+<p>iii \(T=S=\mathbb{R}\) can happen at points where \(f\) is not differentiable.</p>
+<p>iv \(S\) has mean value property, because of continuity. (TODO)</p>
+
+
+
+
+
+
+
+
+---
+### Irrationality and continuity
+{: .d-inline-block }
+
+A6, 2016
+{: .label}
+
+
+<p>
+A function \(f(x)\) is defined by the following formulas
+\[
+f(x)=\left\{\begin{array}{ll}
+x^{2}+1 & \text { when } x \text { is irrational } \\
+\tan (x) & \text { when } x \text { is rational. }
+\end{array}\right.
+\]
+</p>
+
+<p>
+At how many \(x\) in the interval \([0,4 \pi]\) is \(f(x)\) continuous?
+</p>
+
+Sol.
+
+<p>
+The given function is defined using the two functions \(x^{2}+1\) and \(\tan (x)\).
+<p>
+
+<p>
+Both these functions are continuous wherever they are defined. As every irrational number \(z\) has a non terminating, non repeating decimal expansion we see that given any \(\epsilon>0\) there is a rational number \(p\) such that the distance between \(z\) and \(p\) is less than \(\epsilon .\)
+</p>
+
+<p>
+Using these facts one can see that the given function will be continuous precisely at those \(x\) in the interval \([0,4 \pi]\) where \(x^{2}+1=\tan (x) .\) since \(x^{2}+1\) is positive, it will intersect \(\tan (x)\) exactly once in the intervals \(\left[0, \frac{\pi}{2}\right],\left[\pi, \frac{3 \pi}{2}\right],\left[2 \pi, \frac{5 \pi}{2}\right],\left[3 \pi, \frac{7 \pi}{2}\right],\) as \(\tan (x)\) increases from 0 to \(\infty\) in each of these intervals. \(\tan (x)\) is negative elsewhere in the given domain. So we have 4 points of continuity.
+</p>
 
 
 

@@ -195,7 +195,7 @@ A8, 2010
 If 8 points in a plane are chosen to lie on or inside a circle of diameter \(2 \mathrm{cm}\) then show that the distance between some two points will be less than \(1 \mathrm{cm}\).
 </p>
 
-<details><summary>Solution</summary>
+<details open><summary>Solution</summary>
 
 Divide the disk into six sectors. In each sector only the three corners are mutally at a distance of one from each other. The center of disk is common
 to all the sectors. Hence, at most 7 points can be kept on the disk that are mutually at a distance 1 from each other.
@@ -414,7 +414,7 @@ e.g. \(04\) IOU. A license plate is called "confusing" if the digit 0 (zero) and
 <details><summary>Solution</summary>
 
 <p>
-(i) \(10^{2} \times 5^{3}=12500\). <br>
+(i) \(10^{2} \times 5^{3}=12500\). <br><br>
 (ii) \(10^{2} \times 4^{3}\) plates without vowel \(\mathrm{O}+9^{2} \times\left(5^{3}-4^{3}\right)\) plates with vowel O but without 0. This gives \(6400+4941=11341\).
 </p>
 
@@ -422,32 +422,35 @@ e.g. \(04\) IOU. A license plate is called "confusing" if the digit 0 (zero) and
 
 ---
 
+### Count the steps
+{: .d-inline-block}
 
-### Conditional probability
-{:b .d-inline-block}
-
-A11, 2015
+A4, 2016
 {: .label}
 
+
 <p>
-There are four distinct balls labelled 1,2,3,4 and four distinct bins labelled \(\mathrm{A}, \mathrm{B}, \mathrm{C}, \mathrm{D} .\) The balls are picked up in order and placed into one of the four bins at random. Let \(E_{i}\) denote the event that the first \(i\) balls go into distinct bins. Calculate the following probabilities.
-Notation: \(\operatorname{Pr}[X]=\) the probability of event \(X\) taking place. \(\operatorname{Pr}[X \mid Y]=\) the probability of event \(X\) taking place, given that event \(Y\) has taken place.
+A step starting at a point \(P\) in the \(X Y\) -plane consists of moving by one unit from \(P\) in one of three directions: directly to the right or in the direction of one of the two rays that make the angle of \(\pm 120^{\circ}\) with positive \(X\) -axis.</p>
+<p>
+A path consists of a number of such steps, each new step starting where the previous step ended. Points and steps in a path may repeat.
 </p>
+
+<p>Find the number of paths starting at (1,0) and ending at (2,0) that consist of</p>
+
+<p>(i) exactly 6 steps</p>
+<p>(ii) exactly 7 steps.</p>
 
 <details><summary>Solution</summary>
 
-<p>
-(i) \(\operatorname{Pr}\left[E_{4}\right]=\frac{4 !}{4^{4}}=\frac{3}{32}\)
-(ii) \(\operatorname{Pr}\left[E_{4} \mid E_{3}\right]=\frac{1}{4}\)
-(iii) \(\operatorname{Pr}\left[E_{4} \mid E_{2}\right]=\frac{24}{4^{2}}=\frac{1}{8}\)
-(iv) \(\operatorname{Pr}\left[E_{3} \mid E_{4}\right]=1\)
-</p>
+<p>(i) Let there be \(a\) steps to the right (east), b steps north-west and c steps southwest. The total number of steps is \(a+b+c .\) The key idea is to think of the northwest step as a move in the complex plane along \(\omega,\) the complex cube root of unity, the southwest step as a move in the complex plane along \(\omega^{2}\) and the step to the right as a move along \(\omega^{3}=1\) From the hypothesis we then have \(a+b \omega+c \omega^{2}=1 .\) Using \(1+\omega+\omega^{2}=0\) we see that \(a-1=b=c .\) This then rules out \(a+b+c=6,\) so the number of 6 step paths is zero.</p>
+
+<p>(ii) A 7 step path is possible only with \(a=3, b=2, c=2\). The number of such paths is the multinomial coefficient \(\left(\begin{array}{c}7 \\ 3,2,2\end{array}\right)=210\).</p>
 
 
 </details>
 
----
 
+---
 
 ### Logical puzzle
 {:b .d-inline-block}
@@ -543,7 +546,7 @@ So for \(|A+A|=2 n-1\) to happen, one must have \(|B+B|=2 n-3,\) which by induct
 ### Distribute oranges in boxes
 {:b .d-inline-block}
 
-A3, 2017
+A2, 2017
 {: .label}
 
 <p>
@@ -824,6 +827,146 @@ is a polynomial of degree \(d-1 .\) By induction \(h_{2}(x)=g_{2}(x)-g_{2}(x-1)\
 
 
 ---
+
+### Easy induction
+{: .d-inline-block}
+
+A6, 2010
+{: .label}
+
+<p>
+Prove that
+\[ \frac{2}{0 !+1 !+2 !}+\frac{3}{1 !+2 !+3 !}+\cdots+\frac{n}{(n-2) !+(n-1) !+n !}=1-\frac{1}{n !} \]
+</p>
+
+
+<details><summary>Solution 1</summary>
+
+<p>
+Let \(P(n)\) denote LHS.
+</p>
+
+<p>
+Base case \(n=2\).
+</p>
+
+<p>
+\(\frac{2}{0 !+1 !+2 !}=1-\frac{1}{2 !} \quad\) hence \(P(2)\) is true.
+</p>
+
+<p>
+Inductive step: Assume \(P(n)\) to be true.
+</p>
+
+
+<p>
+\begin{align}
+P(n+1) &=P(n)+\frac{n+1 !}{n-1 !+n !+n+1 !} \\
+&=1+\left(\frac{n+1}{n-1 !+n !+n+1 !}-\frac{1}{n !}\right) \\
+&=1+\frac{1}{(n+1) !}\left[\frac{(n+1)}{\left[\frac{1}{n(n+1)}+\frac{1}{n+1}+1\right]}-(n+1)\right]\\
+&= 1+\frac{1}{(n+1) !}\left[\frac{(n+1) \cdot n \cdot(n+1)}{1+n+n(n+1)}-(n+1)\right] \\
+&= 1+\frac{1}{(n+1) !}[n-(n+1)] \\
+&=1-\frac{1}{(n+1)!}
+\end{align}
+</p>
+
+
+<p>
+Hence \(P(n+1) \quad\) holds.
+</p>
+
+
+</details>
+
+<p></p>
+
+<details><summary>Solution 2</summary>
+
+<p>
+Note that
+\[
+\begin{aligned}
+\frac{k+2}{k !+(k+1) !+(k+2) !} &=\frac{k+2}{k ![1+k+1+(k+1)(k+2)]} \\
+&=\frac{1}{k !(k+2)} \\
+&=\frac{k+1}{(k+2) !} \\
+&=\frac{(k+2)-1}{(k+2) !} \\
+&=\frac{1}{(k+1) !}-\frac{1}{(k+2) !}
+\end{aligned}
+\]
+</p>
+
+<p>
+Telescoping the sum gives the desired value.
+</p>
+
+</details>
+
+
+<i>Reference: Problem 13. 101 Problems in Algebra. Titu Andreescu and Zuming Feng.</i>
+
+
+
+---
+
+### Function composition
+{: .d-inline-block}
+
+B9, 2012
+{: .label}
+
+<p>
+Let \(N\) be the set of non-negative integers. Suppose \(f: N \rightarrow N\) is a function such that \(f(f(f(n)))<f(n+1)\) for every \(n \in N .\) Prove that \(f(n)=n\) for all \(n\) using the following steps.
+</p>
+
+
+<p>
+a) If \(f(n)=0,\) then \(n=0\)
+</p>
+
+<details><summary>Solution (a)</summary>
+<p>
+Let \(f(n)=0 .\) If \(n>0,\) then \(n-1\) is in the domain of \(f\) and \(f(f(f(n-1)))< f(n)=0\) which is a contradiction, since 0 is the smallest possible value of \(f .\)
+</p>
+</details>
+
+<p>
+b) If \(f(x)< n\), then \(x< n\).
+</p>
+
+<details><summary>Solution (b)</summary>
+<p>
+We use induction on \(n\).
+</p>
+
+<p>
+If \(n=1,\) then this is just part a. Assuming the statement up to \(n\) we need to prove that if \(f(x)<n+1,\) then \(x<n+1 .\) If \(f(x)<n,\) then by induction \(x<n,\) so \(x<n+1 .\) So let \(f(x)=n .\) If \(x=0,\) we are done. Otherwise \(f(f(f(x-1)))<f(x)=n\) and by using induction thrice we get in succession \(f(f(x-1))<n,\) then \(f(x-1)<n\) and then \(x-1<n,\) i.e., \(x<n+1\) as desired.
+</p>
+</details>
+
+<p>
+c) \(f(n)< f(n+1)\) and \(n< f(n+1)\) for all \(n\)
+</p>
+
+
+<details><summary>Solution (c)</summary>
+<p>
+Apply part b to \(f(f(f(m)))< f(m+1)\) (with \(x=f(f(m))\) and \(n=f(m+1))\) to get
+</p>
+
+<p>
+\(f(f(m))< f(m+1) .\) Apply part \(b\) to this with \(x=f(m)\) and \(n=f(m+1)\) to get \(f(m)< f(m+1) .\) Again apply part b to get \(m< f(m+1)\)
+</p>
+</details>
+
+<p>
+d) \(f(n)=n\) for all \(n\)
+</p>
+
+<details><summary>Solution (d)</summary>
+<p>
+By part c, \(f\) is increasing and \(f(n) \geq n .\) If \(f(n)>n,\) then \(f(f(n))>f(n)\) (since \(f\) is increasing) and so \(f(f(n))>n,\) i.e., \(f(f(n)) \geq n+1 .\) Again, since \(f\) is increasing, \(f(f(f(n))) \geq f(n+1),\) a contradiction.
+</p>
+</details>
 
 
 
