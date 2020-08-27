@@ -63,6 +63,43 @@ If one root is rational and the other is irrational, then both \(b\) and \(c\) m
 
 ---
 
+### 0,1-polynomial
+{: .d-inline-block}
+
+A7, 2011
+{: label .label-blue}
+
+
+<p>
+When does the polynomial \(1+x+\cdots+x^{n}\) have \(x-a\) as a factor? Here \(n\) is a pos integer greater than 1000 and \(a\) is a real number.
+</p>
+
+- [ ] if and only if \\(\;a=-1\\).
+- [ ] if and only if \\(\;a=-1\;\\) and \\(\;n\;\\) is odd.
+- [ ] if and only if \\(\;a=-1\;\\) and \\(\;n\;\\) is even.
+- [ ] We cannot decide unless \\(\;n\;\\) is known.
+
+
+<details><summary>Solution</summary>
+
+<p>(B) None of the roots are real, when \(n\) is even. Since \(f(1)=n\), 1 cannot be the root.
+
+We have:<br>
+
+\[f(x)=\frac{1-x^{n+1}}{1-x}\]
+
+if \(r\) is a root of \(f\), then \(r^{n+1}=1\). The only real value that satisfies this is 1.
+</p>
+
+</details>
+
+
+
+
+
+
+---
+
 ### Parity of a polynomial
 {: .d-inline-block}
 
@@ -170,7 +207,7 @@ Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
 ### Polynomial with positive coefficients
 {: .d-inline-block}
 
-A4, 2015
+A5, 2015
 {: .label}
 
 <p>
@@ -226,16 +263,17 @@ B1, 2012
 
 
 <p>
-a) Find a polynomial \(p(x)\) with real coefficients such that \(p(\sqrt{2}+i)=0\).
+a) Find a polynomial \(p(x)\) with \(\sqrt{2}+i\) as a root and \(p(x)\) having real coefficients.
 </p>
 
 <p>
-b) Find a polynomial \(q(x)\) with rational coefficients and having the smallest possible degree such that \(q(\sqrt{2}+i)=0 .\)
+b) Find a polynomial \(q(x)\) with integer coefficients and having the least degree such that \(\sqrt{2}+i\) is a root.
 </p>
 
 <p>
-c) Show that any other polynomial with rational coefficients and having \(\sqrt{2}+i\) as a root has \(q(x)\) as a factor.
+c) Show that any other polynomial with integer coefficients and \(p(\sqrt{2}+i)=0\) has \(q(x)\) as a factor.
 </p>
+
 
 
 
@@ -259,11 +297,52 @@ Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and rem
 
 ---
 
+### Repeated roots
+{: .d-inline-block}
+
+A9, 2010
+{: .label}
+
+<p>
+Suppose \(\displaystyle f(x)=\frac{x^{n}}{n!}+\frac{x^{n-1}}{(n-1)!}+\cdots+x+1\).
+</p>
+
+<p>
+Show that \(f(x)=0\) has no repeated roots.
+</p>
+
+<details><summary>Solution</summary>
+
+
+<p>
+Since zero cannot be a root of \(f(x)\), we focus only on non-zero roots. Let us assume, for a contradiction, that \(f\) has a repeated root \(r\neq 0\).</p>
+
+<p>
+<b>Fact.</b> If \(r\) is a repeated root both \(f(r)\) and \(f^{\prime}(r)\) must be zero.
+</p>
+
+
+<p>
+On differentiating \(f(x)\), we get:<br>
+\[ f^{\prime}(x)=\frac{x^{n-1}}{(n-1) !}+\frac{x^{n-2}}{(n-2) !}+\cdots+x+1 \]
+</p>
+
+
+<p>
+\[ f(x)-f^{\prime}(x)=\frac{x^{n}}{n!} \]
+</p>
+
+<p>
+Therefore, \(r\) cannot be a repeated root since RHS \(\displaystyle = \frac{r^{n}}{n!} \neq 0 \).
+</p>
+
+</details>
 
 
 
 
 
+---
 
 
 ## Polynomial functions [5]

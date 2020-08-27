@@ -227,6 +227,54 @@ This cubic has one real root \(a-b=2\) and two complex roots.
 
 ---
 
+### Symmetric log reciprocals
+{: .d-inline-block}
+
+A7, 2010
+{: .label}
+
+
+<p>
+If \(a, b, c\) are real numbers \(> 1\), then show that:<br>
+</p>
+
+<p>
+
+\[ \frac{1}{1+\log_{a^{2} b} \frac{c}{a}}+\frac{1}{1+\log_{b^{2} c} \frac{a}{b}}+\frac{1}{1+\log_{c^{2} a} \frac{b}{c}}=3 \]
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+We will make use of the identity: \(\log_{x} a+\log_{x} b=\log_{x} a b\).
+</p>
+
+
+<p>
+\begin{align}
+\frac{1}{1+\log_{a^{2} b}\left(\frac{c}{a}\right)}&=\frac{1}{\log_{a^{2} b}\left(a^{2} b\right)+\log_{a^{2} b}\left(\frac{c}{a}\right)} \\
+&=\frac{1}{\log_{a^{2} b}\left(\frac{c}{a} \cdot a^{2} b\right)} \\
+&=\frac{1}{\log_{a^{2} b}(a b c)}\\
+&\\
+&=\log_{a b c}\left(a^{2} b\right)
+\end{align}
+</p>
+
+
+<p>
+Hence the given expression is:
+</p>
+
+<p>
+\(\log_{a b c}\left(a^{2} b\right)+\log_{a b c}\left(b^{2} c\right)+\log_{a b c}\left(c^{2} a\right)\)
+\(=\log_{a b c}(a b c)^{3}\)
+\(=3\)
+</p>
+
+</details>
+
+---
+
 ### Solutions to simultaneous equations
 {: .d-inline-block}
 

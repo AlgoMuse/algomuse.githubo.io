@@ -154,7 +154,7 @@ since \(x+x^{-1}=\frac{\sqrt{5}+1}{2}<2\), the number \(x\) must be a non-real c
 ### Points on a sphere
 {: .d-inline-block}
 
-B5, 2015
+B2, 2015
 {: .label}
 
 
