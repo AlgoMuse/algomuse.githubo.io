@@ -186,5 +186,66 @@ Thus the whole sequence \(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\) becomes pe
 
 </details>
 
+---
+
+### Perfect square in a sequence
+{: .d-inline-block}
+
+B4, 2017
+{: .label}
+
+
+<p>The domain of a function \(f\) is the set of natural numbers. The function is defined as follows:</p>
+
+<p>\[ f(n)=n+\lfloor\sqrt{n}\rfloor \]</p>
+
+<p>where \(\lfloor k\rfloor\) denotes the smallest integer less than or equal to \(k .\) For example, \(\lfloor\pi\rfloor=\) \(3,\lfloor 4\rfloor=4 .\) Prove that for every natural number \(m\) the following sequence contains at least one perfect square</p>
+
+<p>\[ m, f(m), f^{2}(m), f^{3}(m), \ldots \]</p>
+
+
+<p>The notation \(f^{k}\) denotes the function obtained by composing \(f\) with itself \(k\) times, e.g., \(f^{2}=f \circ f\)</p>
+
+<details><summary>Solution</summary>
+
+<p>
+If \(m\) is itself a square then we are done. So assume that \(m=k^{2}+j\) for \(1 \leq j \leq 2 k\). Hence we have \(f(m)=k^{2}+j+k\). Consider the following two sets:
+</p>
+
+
+<br>
+
+
+<p>\(A=\left\{m \text{ a natural number} \mid m=k^{2}+j \text { and } 0 \leq j \leq 2 k\right\} \)</p>
+
+<p>\(B=\left\{m \text{ a natural number} \mid m=k^{2}+j \text { and } k+1 \leq j \leq 2 k\right\} \)</p>
+
+<p>Suppose \(m\) is in the set \(B\). Then</p>
+
+<p>
+\[
+\begin{align}
+f(m) &=k^{2}+j+k \\
+&=(k+1)^{2}+(j-k-1)
+\end{align}
+\]
+</p>
+
+<p>Hence \(f(m)\) is eit her a square or is in \(A .\) Thus it is enough to assume that \(m \in A\) In that case \(k^{2}< f(m)< (k+1)^{2},\) so \(\lfloor f(m)\rfloor=k\). Therefore</p>
+
+<p>\[ f^{2}(m)=(k+1)^{2}+(j-1) \]</p>
+
+<p>This clearly implies that \(f^{2 j}(m)=(k+j)^{2}\)</p>
+
+
+</details>
+
+
+
+
+
+
+
+
 
 

@@ -69,6 +69,165 @@ Further, \(\ln (x)< x\) for \(x> 0\). So the given ratio must lie between 0 and 
 
 ---
 
+### Limit of \\(x^{x^{x}}\\)
+{: .d-inline-block }
+
+B1a, 2017
+{: .label }
+
+<p>
+(a) Evaluate \( \lim_{x \rightarrow 0^{+}}\left(x^{x^{x}}-x^{x}\right) \)
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+First consider the limit
+\[
+\begin{align}
+\lim_{x \rightarrow 0^{+}} x^{x}  \\
+&=\lim_{x \rightarrow 0^{+}}\left(e^{x\log x}\right) \\
+&=\lim_{x \rightarrow 0^{+}}\left(e^{\frac{\log x}{1 / x}}\right)
+\end{align}
+\]
+</p>
+
+
+<p>Now consider just the exponent:
+\[
+\begin{align}
+\lim_{x \rightarrow 0^{+}} \frac{\log x}{1 / x} \\
+&=\lim_{x \rightarrow 0} \frac{1 / x}{-1 / x^{2}} \\
+&=0
+\end{align}
+\]
+substituting the value 0 from (2) in equation (1) we get that the limit is 1.
+</p>
+
+
+<p>
+Now
+\[
+\begin{align}
+\lim_{x \rightarrow 0^{+}}\left(x^{x^{x}}-x^{x}\right) \\
+&=\lim_{x \rightarrow 0^{+}} x^{x^{x}}-\lim_{x \rightarrow 0^{+}} x^{x} \\
+&=\lim_{x \rightarrow 0^{+}} x^{\lim_{x \rightarrow 0^{+}} x^{x}}-\lim_{x \rightarrow 0^{+}} x^{x} \\
+&=0-1 \\
+&=-1
+\end{align}
+\]
+</p>
+
+</details>
+
+
+---
+
+### Strange question
+{: .d-inline-block}
+
+
+B3, 2017
+{: .label }
+
+<p>
+Suppose \(p(x)\) be a polynomial of degree strictly less than hundred and such that  \(x^{3}-x\) is not one of its factors. If
+\[ \frac{d^{100}}{d x^{100}}\left(\frac{p(x)}{x^{3}-x}\right)=\frac{f(x)}{g(x)} \]
+for some polynomials \(f(x)\) and \(g(x)\) then find the smallest possible degree of \(f(x)\).
+</p>
+
+<details><summary>Solution</summary>
+<p>
+Put \(p(x)=x^2-1\), then
+
+\begin{align}
+\frac{d^{100}}{d x^{100}}\left(\frac{p(x)}{x^{3}-x}\right)=\frac{d^{100}}{d x^{100}}\left(\frac{1}{x}\right) = \frac{-100!}{x^{100}}
+\end{align}
+
+Hence, \(f(x)\) can have degree 0.
+</p>
+
+<p>
+<i><b>Comment.</b> The official solution has something elaborate which I could not make sense of</i>.
+</p>
+
+</details>
+
+
+
+
+---
+
+### Inflection point
+{: .d-inline-block}
+
+A6, 2017
+{: .label}
+
+
+<p>Let \(g\) be a function such that all its derivatives exist. <br>
+
+We say \(g\) has an inflection point at \(x_{0}\) if the second derivative \(g^{\prime \prime}\) changes sign at \(x_{0}\) i.e., if \(g^{\prime \prime}\left(x_{0}-\epsilon\right) \times g^{\prime \prime}\left(x_{0}+\epsilon\right)<0\) for all small enough positive \(\epsilon\).</p>
+
+<p>(a) Find all values \(x_{0}\) at which \(g(x) = x^{4}(x-10)\) has an inflection point.</p>
+
+<p>(b) If \(g^{\prime \prime}\left(x_{0}\right)=0\) then \(g\) has an inflection point at \(x_{0}\). Is this true? </p>
+
+<p>(c) If \(g\) has an inflection point at \(x_{0}\) then \(g^{\prime \prime}\left(x_{0}\right)=0.\). Is this true? </p>
+
+
+<details><summary>Solution</summary>
+
+<p>(a) \(g^{\prime \prime}(x)=20 x^{3}-120 x^{2}=20 x^{2}(x-6)\) and this changes sign only at \(x=6 .\) </p>
+
+<p>(b) is false. Consider the function above: \(g^{\prime \prime}(0)=0\) but \(g^{\prime \prime}\) does not change sign at \(x=0\). </p>
+
+<p>(c) is true due to continuity. The function \(g\) is continous since it is differentiable.</p>
+
+</details>
+
+---
+
+### Absolute integrals
+{: .d-inline-block}
+
+A7, 2017
+{: .label}
+
+<p>Evaluate: </p>
+
+<p>(a) \(\int_{-3}^{3}\left|3 x^{2}-3\right| d x\)</p>
+
+<p>(b) \(f^{\prime}(1)\) where \(f(t)=\int_{0}^{t}\left|3 x^{2}-3\right| d x\)</p>
+
+<details><summary>Solution</summary>
+
+ <p>(a) Due to symmetry, we can double the integral from 0 to 3. So the value is \(2I\), where:</p>
+
+<p>
+\begin{align}
+I &=\int_{0}^{1} (3-3x^{2}) \text{d}x  +  \int_{1}^{3} (3 x^{2}-3) \text{d}x  \\
+  &=\left. 3x-x^3 \right\rvert_{0}^1  +  \left. (x^{3}-3x)\right\rvert_{1}^3  \\
+  &=2 + 20 \\
+  &=22\\
+\end{align}
+
+
+Hence, \(\int_{-3}^{3}\left|3 x^{2}-3\right| d x = 44 \).
+
+</p>
+
+<p></p>
+
+<p>(b) \(\left|3 x^{2}-3\right|\) is a continuous function so by the fundamental theorem of calculus, \(f^{\prime}(1)=\) \(\left|3 \times 1^{2}-3\right|=0\)</p>
+
+
+</details>
+
+
+---
+
 
 ### Convergence of \\(e^{\text{quadratic}}\\)
 {: .d-inline-block}
@@ -385,7 +544,7 @@ For example, \(f(12)=2, f(105)=3 .\) Calculate the following.
 ### Monotonic again
 {: .d-inline-block}
 
-B1, 2017
+B1c, 2017
 {: label .label-blue}
 
 
@@ -997,6 +1156,47 @@ The lemma follows since \(-a \leq x \leq a \implies  |x|\leq a  \) if \(a \geq 0
 
 </details>
 
+---
+
+
+### Sweep volume
+{: .d-inline-block}
+
+A3, 2017
+{: .label}
+
+<p>
+Find the volume of the solid obtained when the region bounded by \(y=\sqrt{x}, y=-x\) and the line \(x=4\) is revolved around the \(x\) -axis.
+</p>
+
+<p style="text-align:center;"><img src="/assets/images/2017_sweep_volume.svg" width="250px"></p>
+
+<details><summary>Solution</summary>
+
+<p>
+From \(x=0\) to \(x=1\) we have \(\sqrt{x} \geq|-x|,\) so from \(x=0\) to \(x=1\) the volume swept out by the curve determines the volume. From \(x=1\) to \(x=4\), the volume swept by the line determines the volume. Hence, we need two integrals.
+</p>
+
+<p>
+From \(x=0\) and \(x=1\) we calculate volume obtained by revolving the area below \(y=\sqrt{x}\).
+
+\[ \int_{0}^{1} \pi (\sqrt{x})^2 \text{d}x = \left.\frac{\pi x^2}{2} \right\rvert_{0}^{1} = \frac{\pi\cdot 1^2}{2} - \frac{\pi\cdot 0^2}{2} = \frac{\pi}{2} \]
+
+
+Similarly, from \(x=1\) to \(x=4\) we have \(|-x| \geq \sqrt{x},\) so here we just have to take the volume obtained by the revolving the area below \(y=x\).
+
+\[ \int_{1}^{4} \pi x^2 \text{d}x = \left.\frac{\pi x^3}{3} \right\rvert_{1}^{4} = \frac{64\pi}{3} - \frac{\pi}{3} =  21\pi \]
+
+Thus total volume of the resulting solid: \( 21.5 \pi \).
+
+</p>
+
+
+
+</details>
+
+
+
 
 
 ---
@@ -1063,6 +1263,47 @@ The statement follows by substituting in the first equation.
 
 </details>
 
+
+---
+
+### Continuity of two functions
+{: .d-inline-block}
+
+A10, 2017
+{: .label}
+
+
+<p>
+Consider the following function:
+\[
+f(x)=\left\{\begin{array}{ll}
+x^{2} \cos \left(\frac{1}{x}\right), & x \neq 0 \\
+a, & x=0
+\end{array}\right.
+\]
+</p>
+
+<p>(a) Find the value of \(a\) for which \(f\) is continuous.</p>
+
+<p></p>
+
+<p>(b) \(f^{\prime}(0)\)</p>
+
+<p></p>
+
+<p>(c) \(\lim_{x \rightarrow 0} f^{\prime}(x)\)</p>
+
+<details><summary>Solution</summary>
+
+<p>(a) \(\cos \left(\frac{1}{x}\right)\) is sandwiched between -1 and \(1,\) so \(\lim_{x \rightarrow 0} f(x)=0=a\) makes \(f\) continuous.</p>
+
+<p>(b) Now \(f^{\prime}(0)=\lim_{h \rightarrow 0} \frac{h^{2} \cos \left(\frac{1}{h}\right)-0}{h}=\lim_{h \rightarrow 0} h \cos \left(\frac{1}{h}\right)\) which is similarly 0.</p>
+
+<p>(c) For nonzero \(x,\) calculate \(f^{\prime}(x)=2 x \cos \left(\frac{1}{x}\right)+\sin \left(\frac{1}{x}\right),\) so \(\lim_{x \rightarrow 0} f^{\prime}(x)\) does not exist
+\(\operatorname{as} \lim_{x \rightarrow 0} 2 x \cos \left(\frac{1}{x}\right)=0\) and \(\lim_{x \rightarrow 0} \sin \left(\frac{1}{x}\right)\) does not exist.
+</p>
+
+</details>
 
 
 

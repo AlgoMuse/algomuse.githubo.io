@@ -29,8 +29,28 @@ nav_order: 1
 
 
 
+### Roots of a quartic polynomial
+{: .d-inline-block}
+
+A5, 2017
+{: .label}
+
+<p>
+Find all the roots of the polynomial:
+\[ x^{4}+x^{3}+2 x^{2}+x+1=0 \]
+</p>
+
+<details><summary>Solution</summary>
+<p> We can factor the polynomial as follows: \(x^{4}+x^{3}+2 x^{2}+x+1=\left(x^{2}+1\right)\left(x^{2}+x+1\right)\)
+</p>
+
+<p>
+So the roots are \(i,-i,\omega\) and \(\omega^2\).
+</p>
+</details>
 
 
+---
 
 
 ### Roots of a quadratic

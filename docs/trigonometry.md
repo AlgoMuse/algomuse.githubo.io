@@ -50,26 +50,64 @@ Therefore, there are six solutions to the given equation.
 ---
 
 
-### Intersection of a line and periodic function
+### Intersection of a line and periodic function I
 {: .d-inline-block}
 
 A1, 2012
 {: .label}
 
+<p>
 Find the number of real solutions to the equation \(x=99 \sin (\pi x)\).
+</p>
 
 <details><summary>Solution</summary>
 
+<p>
 Since the equation is symmetric, if \(r\) is a solution then \(-r\) is also a solution. Hence, we restrict to finding the positive roots.
 Note that \(x=0\) is also a root.
+</p>
 
-
+<p>
 The function \(99 \sin \pi x\) is positive when \(2k < x < 2k+1 \). It equals x when \(x\leq 99\). The positive cycle of \(\sin\pi x\) meets \(y=x\) twice, so there are 198 positive solutions.
 Counting the zero gives 199 solutions.
+</p>
 
 </details>
 
 ---
+
+
+### Intersection of a line and periodic function II
+{: .d-inline-block}
+
+A3, 2011
+{: .label}
+
+<p>
+Find the number of solutions to the equation \(4 \sin (3x+2)=1\) in the domain \(x\in[0,2\pi]\).
+</p>
+
+<details open><summary>Solution</summary>
+
+<p>
+We want the number of intersection points between the line \(y=1\) and the periodic function \(f(x) = 4\sin (3x+2) \). The function \(f\) has period \(2\pi/3\). Between every maxima and a minima, there is exactly one solution.
+</p>
+<p>
+At \(x=0\) and \(x=2\pi\), \(f\) is close to maxima. So all we need to do is find the number of minimas of \(f\) is the given domain and multiply it by 2.
+</p>
+
+<p style="text-align:center;"><img src="/assets/images/A3_2011.svg"></p>
+
+<p>
+The minimas occur at \(\displaystyle x=\left( \frac{\pi}{2}-\frac{2}{3} + \frac{2\pi k}{3}   \right)\) for \( k\in\{0,1,2\} \). Hence, there are six solutions to the given equation.
+</p>
+
+
+
+</details>
+
+---
+
 
 ### A Saw-tooth function
 {: .d-inline-block}
@@ -78,12 +116,12 @@ A9, 2015
 {: .label}
 
 
-Let \(f(x)=\sin ^{-1}(\sin (\pi x))\). Write the values of the following.
+Let \\(f(x)=\\sin ^{-1}(\\sin (\\pi x))\\). Write the values of the following.
 
-1. \(f(2.7)\)
-1. \(f^{\prime}(2.7)\)
-1. \(\int_{0}^{2.5} f(x) d x\)
-1. The smallest positive \(x\) at which \(f^{\prime}(x)\) does not exist.
+1. \\(f(2.7)\\)
+1. \\(f^{\\prime}(2.7)\\)
+1. \\(\\int_{0}^{2.5} f(x) d x\\)
+1. The smallest positive \\(x\\) at which \\(f^{\\prime}(x)\\) does not exist.
 
 <details><summary>Solution</summary>
 
@@ -139,7 +177,9 @@ Recall that arcsin \(\left.(t) \text { (also known as } \sin ^{-1}(t)\right)\) i
 
 <details><summary>Solution</summary>
 
-The problem is nearly the same as the previous problem from 2015 paper. From the graph, we see that only the last statement is false.
+<i>The problem is nearly the same as the previous problem from 2015 paper. </i>
+
+<p>From the graph, we see that only the last statement is false.</p>
 
 </details>
 
@@ -153,13 +193,17 @@ A5, 2015
 {: .label}
 
 <p>
-Find the value of the following sum of 100 terms. (Possible hint: also consider the same sum with \(\sin ^{2}\) instead of \(\cos ^{2}\).)
+Find the value of the following sum of 100 terms.
 </p>
 
 <p>
 \[
 \cos ^{2}\left(\frac{\pi}{101}\right)+\cos ^{2}\left(\frac{2 \pi}{101}\right)+\cos ^{2}\left(\frac{3 \pi}{101}\right)+\cdots+\cos ^{2}\left(\frac{99 \pi}{101}\right)+\cos ^{2}\left(\frac{100 \pi}{101}\right)
 \]
+</p>
+
+<p>
+You may use this hint: also consider the same sum with \(\sin ^{2}\) instead of \(\cos ^{2}\).)
 </p>
 
 
@@ -215,6 +259,63 @@ S&=\frac{n}{2} + \frac{1}{2} \frac{\sin(100\pi/101) \cos \pi}{\sin \pi/101}  \\
 </details>
 
 ---
+
+### Trignometric triangle inequality
+{: .d-inline-block}
+
+A10, 2010
+{: .label}
+
+
+<p>
+Consider the following equations:
+</p>
+
+<p>
+\[\cos x+\cos y+\cos z=\frac{3 \sqrt{3}}{2}\]
+</p>
+<p>
+\[\sin x+\sin y+\sin z=\frac{3}{2}\]
+</p>
+
+<p>
+Show that \(\displaystyle x=\frac{\pi}{6}+2 k \pi, y=\frac{\pi}{6}+2 \ell \pi, z=\frac{\pi}{6}+2 m \pi\) for some \(k, \ell, m \in \mathbf{Z}\).
+</p>
+
+
+
+<details><summary>Solution</summary>
+
+<p>
+Squaring both the equations and adding gives:
+</p>
+
+\[(\cos x+\cos y+\cos z)^{2}+(\sin x+\sin y+\sin z)^{2}=9\]
+
+\[\Rightarrow \cos (x-y)+\cos (y-z)+\cos (z-x)=3\]
+
+<p>The maximum value of \(\cos \theta\) is 1. So, the above equation can be satisfied with equality only when each of the terms is 1. This implies
+that the only solutions are those that are given in the problem.</p>
+
+<p><i>Altenatively, we can use complex numbers and triangle inequality to prove the statement</i></p>
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
 
 ### Roots of unity to rescue
 {: .d-inline-block}

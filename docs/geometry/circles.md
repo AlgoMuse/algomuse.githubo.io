@@ -212,6 +212,10 @@ B6a, 2014
 Two circles \(G_{1}, G_{2}\) intersect at points \(X, Y\). Choose two other points \(A, B\) on \(G_{1}\) as shown in the figure. The line segment from \(A\) to \(X\) is extended to intersect \(G_{2}\) at point \(L\). The line segment from \(L\) to \(Y\) is extended to meet \(G_{1}\) at point \(C\). Likewise the line segment from \(B\) to \(Y\) is extended to meet \(G_{2}\) at point \(M\) and the segment from \(M\) to \(X\) is extended to meet \(G_{1}\) at point \(D .\) Show that \(A B\) is parallel to \(C D\)
 </p>
 
+
+<p style="text-align:center;"><img src="/assets/images/cmi2014_b6_cyclic.svg"></p>
+
+
 <details><summary>Solution</summary>
 
 <p>
@@ -233,10 +237,13 @@ B6b, 2014
 A triangle \(C D E\) is given. A point \(A\) is chosen between \(D\) and \(E\) A point \(B\) is chosen between \(C\) and \(E\) so that \(A B\) is parallel to \(C D .\) Let \(F\) denote the point of intersection of segments \(A C\) and \(B D .\) Show that the line joining \(E\) and \(F\) bisects both segments \(A B\) and segment \(C D .\) (Hint: You may use Ceva's theorem. Alternatively, you may additionally assume that the trapezium \(A B C D\) is a cyclic quadrilateral and proceed.)
 </p>
 
+<p style="text-align:center;"><img src="/assets/images/cmi2014_b6_triangle.svg"></p>
+
+
 <details><summary>Solution</summary>
 
 <p>
-Let line \(E F\) meet segment \(C D\) in point \(H\) and segment \(A B\) in point \(I .\) By Ceva's theorem in \(\triangle C D E,\) we have \(\frac{D A}{A E} \frac{E B}{B C} \frac{C H}{H D}=1 .\) As \(A B\) and \(C D\) are parallel, \(\frac{D A}{A E}=\frac{B C}{E B}\) so \(C H=D H .\) Also by the basic proportionality theorem, \(\frac{A I}{D H}=\frac{A E}{D E}=\frac{B E}{C E}=\frac{B I}{C H}\) and since \(C H=D H, A I=B I .\) (If you assume additionally that \(A B C D\) is cyclic, it is easy to see using equality of angles in the same arc and of alternate angles made by a transversal that the triangles \(D E C\) and \(D F C\) are isosceles and in fact line \(E F\) is the perpendicular bisector of segments \(C D\) and \(A B .)\)
+By Ceva's theorem in \(\triangle C D E,\) we have \(\frac{D A}{A E} \frac{E B}{B C} \frac{C H}{H D}=1 .\) As \(A B\) and \(C D\) are parallel, \(\frac{D A}{A E}=\frac{B C}{E B}\) so \(C H=D H .\) Also by the basic proportionality theorem, \(\frac{A I}{D H}=\frac{A E}{D E}=\frac{B E}{C E}=\frac{B I}{C H}\) and since \(C H=D H, A I=B I\).
 </p>
 
 

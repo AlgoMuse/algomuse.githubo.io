@@ -2,7 +2,6 @@
 layout: default
 title: Complex numbers
 nav_order: 91
-nav_exclude: true
 ---
 
 
@@ -63,6 +62,99 @@ x^{2012}+x^{-2012} &= 2 \cos \left(\frac{2012 \pi}{5}\right)\\
 </p>
 
 </details>
+
+
+## Power of a complex number
+{: .d-inline-block}
+
+A13, 2010
+{: .label}
+
+
+<p>
+If \(b\) is a real number satisfying \(b^{4}+\frac{1}{b^{4}}=6,\) find the value of \(\left(b+\frac{i}{b}\right)^{16}\) where \(i=\sqrt{-1}\)
+</p>
+
+<details><summary>Solution</summary>
+<p>
+\begin{align}
+\left(b^{2}\right)^{2}+\left(\frac{i^{2}}{b^{2}}\right)^{2}&=6\\
+\left(b^{2}+\frac{i^{2}}{b^{2}}\right)^{2}&=4\\
+b^{2}+\frac{i^{2}}{b^{2}}&=\pm 2
+\end{align}
+</p>
+
+<p>Let us know look at the quantity we want to compute:</p>
+
+
+<p>
+\begin{align}
+\left(b+\frac{i}{b}\right)^{16}&=\left(b^{2}+\frac{i^{2}}{b^{2}}+2 i\right)^{8}\\
+&=(\pm 2+2i)^{8}\\
+&=2^{8}\left(\sqrt{2} e^{\frac{i \pi}{4}}\right)^{8} \text{ or } 2^{8}\left(\sqrt{2} e^{\frac{3i \pi}{4}}\right)^{8} \\
+&=2^{12}\\
+&=4096
+\end{align}
+</p>
+</details>
+
+
+---
+
+
+### Complex triangle
+{: .d-inline-block}
+
+A7, 2013
+{: .label}
+
+
+<p>
+Let \(A, B, C\) be angles such that \(e^{i A}, e^{i B}, e^{i C}\) form an equilateral triangle in the complex plane. Find values of the given expressions.
+</p>
+
+<p>
+a) \(e^{i A}+e^{i B}+e^{i C}\)
+</p>
+
+<p>
+b) \(\cos A+\cos B+\cos C\)
+</p>
+
+<p>
+c) \(\cos 2 A+\cos 2 B+\cos 2 C\)
+</p>
+
+<p>
+d) \(\cos ^{2} A+\cos ^{2} B+\cos ^{2} C\)
+</p>
+
+Sol.
+
+
+<p>
+a) \(e^{i A}+e^{i B}+e^{i C}=0\) by taking the vector sum of the three points on the unit circle.
+</p>
+
+<p>
+b) \(\cos A+\cos B+\cos C=0=\) real part of \(e^{i A}+e^{i B}+e^{i C},\) which is 0 by part a.
+</p>
+
+<p>
+c) \(\cos 2 A+\cos 2 B+\cos 2 C=0\) because the points \(e^{2 i A}, e^{2 i B}, e^{2 i C}\) on the unit circle also form an equilateral triangle in the complex plane, since taking \(B=A+(2 \pi / 3), C=A+(4 \pi / 3)\), we get \(2 B=2 A+(4 \pi / 3)\) and \(2 C=2 A+(8 \pi / 3)=2 A+(2 \pi / 3)+2 \pi\) and the last term \(2 \pi\) does not change the position of the point.
+</p>
+
+<p>
+d) \(\cos ^{2} A+\cos ^{2} B+\cos ^{2} C=\frac{3}{2}\) because, using the formula for \(\cos 2 \theta\) in part \(c,\) we get
+\(\cos ^{2} A+\cos ^{2} B+\cos ^{2} C=\sin ^{2} A+\sin ^{2} B+\sin ^{2} C\) and the sum of the LHS and the RHS
+in this equation is \(3 .\)
+</p>
+
+
+
+
+
+
 
 
 

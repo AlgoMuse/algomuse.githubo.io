@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Probability
-nav_order: 7
+nav_order: 9
 ---
 
 
@@ -144,6 +144,33 @@ So \(p(b)=\frac{b^{2}}{4},\) which is increasing for \(0 \leq b \leq 1\)
 
 ---
 
+### Conditional probability
+{:b .d-inline-block}
+
+A11, 2015
+{: .label}
+
+<p>
+There are four distinct balls labelled 1,2,3,4 and four distinct bins labelled \(\mathrm{A}, \mathrm{B}, \mathrm{C}, \mathrm{D} .\) The balls are picked up in order and placed into one of the four bins at random. Let \(E_{i}\) denote the event that the first \(i\) balls go into distinct bins. Calculate the following probabilities.
+Notation: \(\operatorname{Pr}[X]=\) the probability of event \(X\) taking place. \(\operatorname{Pr}[X \mid Y]=\) the probability of event \(X\) taking place, given that event \(Y\) has taken place.
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+(i) \(\operatorname{Pr}\left[E_{4}\right]=\frac{4 !}{4^{4}}=\frac{3}{32}\)
+(ii) \(\operatorname{Pr}\left[E_{4} \mid E_{3}\right]=\frac{1}{4}\)
+(iii) \(\operatorname{Pr}\left[E_{4} \mid E_{2}\right]=\frac{24}{4^{2}}=\frac{1}{8}\)
+(iv) \(\operatorname{Pr}\left[E_{3} \mid E_{4}\right]=1\)
+</p>
+
+
+</details>
+
+---
+
+
+
 ### Vertex in a polygon
 {: .d-inline-block}
 
@@ -166,36 +193,6 @@ A regular 100-sided polygon is inscribed in a circle. Suppose three of the 100 v
 ---
 
 
-### Magic number
-{: .d-inline-block}
-
-A3, 2015
-{: .label}
-
-
-<p>
-A positive integer \(n\) is called a magic number if it has the following property: if \(a\) and \(b\) are two positive numbers that are not coprime to \(n\) then \(a+b\) is also not coprime to \(n\) For example, 2 is a magic number, because sum of any two even numbers is also even. Which of the following are magic numbers?
-
-(i) 129<br>
-(ii) 128<br>
-(iii) 127<br>
-(iv) 100<br>
-
-</p>
-
-<details><summary>Solution</summary>
-
-<p>
-Only 128 and 127 are magic numbers. See that \(n\) is a magic number if and only if \(n\) is a power of a prime.
-</p>
-
-<p>
-Otherwise, write \(n=a b\) with \(a, b\) coprime.
-</p>
-
-</details>
-
----
 
 
 ### Test preparation
