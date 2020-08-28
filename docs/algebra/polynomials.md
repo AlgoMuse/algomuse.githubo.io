@@ -83,6 +83,48 @@ If one root is rational and the other is irrational, then both \(b\) and \(c\) m
 
 ---
 
+### Find the possible coefficients given the roots
+{: .d-inline-block}
+
+A7, 2018
+{: .label }
+
+
+<p>Suppose \(x^{3}+a x^{2}+b x+8=0\) be a cubic equation with integer coefficients.
+Suppose both \(r\) and \(-r\) are two roots, where \(r>0\) is a real number.
+List all possible pairs of values \((a, b)\).
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+Let the third root be \(s\).
+By Vieta's formulas we have<br>
+
+\begin{align}
+-r+r+s &= -a \\
+-rs + rs -r^2 &= b \\
+-r^2s &= -8
+\end{align}
+
+which impies that \(b=-r^2\) must be negative and  \(ab=8\).
+</p>
+
+
+<p>
+So the possible pairs of values of \((a, b)\) are \(\{ (-1,-8), (-2,-4), (-4,-2), (-8,-1) \} \).
+</p>
+
+<br>
+<p>
+<i><b>Comment</b>. The official solution has a typo: It says the polynomial with roots \(r,-r\) and \(s\) as its roots must be \( (x+r)(x-r)(x+s) \). It must read \( (x+r)(x-r)(x\mathbf{-}s) \).</i>
+</p>
+
+
+</details>
+
+
+---
 ### 0,1-polynomial
 {: .d-inline-block}
 

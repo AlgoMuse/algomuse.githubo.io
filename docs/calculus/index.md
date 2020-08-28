@@ -1307,6 +1307,37 @@ a, & x=0
 
 
 
+---
+
+
+### Function with a maximum
+{: .d-inline-block}
+
+B1b, 2018
+{: .label}
+
+
+<p>
+Suppose \(f\) is a differentiable function defined on a subset \(S\) of \(\mathbb{R}\). Define
+\[
+f^{\ast}(y):=\max_{x \in S}\{y x-f(x)\}
+\]
+whenever the above maximum is finite. For the function \(f(x)=-\ln (x),\) determine the set of points for which \(f^{\ast}\) is defined and find an expression for \(f^{\ast}(y)\) involving only \(y\) and constants.
+</p>
+
+<details><summary>Solution</summary>
+First, note that the function \(f(x)\) is defined only for the positive values of \(x\).
+
+Now if \(y \geq 0\) then the first derivative of \(x y+\ln (x)\) is \(y+\frac{1}{x}\) which is strictly positive for \(x>0 .\) Hence \(x y+\ln (x)\) is an increasing function and consequent ly \(f^{\ast}(y)\)
+is not defined. Now if \(y<0\) then \(x=-\frac{1}{y}\) is the only critical point of \(x y+\ln (x)\). Either of the derivative test tells us that it is in fact the maxima. Hence, the domain of \(f^{\ast}(y)\) is \(y<0\) and
+
+\[
+f^{\ast}(y)=\ln \left(\frac{-1}{y}\right)-1
+\]
+
+
+</details>
+
 
 
 

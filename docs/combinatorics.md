@@ -908,6 +908,91 @@ Telescoping the sum gives the desired value.
 
 ---
 
+### Smart Induction
+{: .d-inline-block}
+
+B1a, 2018
+{: .label}
+
+<p>
+A natural number \(k\) is called stable if there exist \(k\) distinct natural numbers \(a_{1}, \ldots, a_{k},\) each \(a_{i}>1,\) such that
+\[
+\frac{1}{a_{1}}+\cdots+\frac{1}{a_{k}}=1
+\]
+</p>
+
+<p>
+Show that if \(k\) is stable then \(k+1\) is also stable. find all the stable numbers.
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+Verify that 1 and 2 are not stable. Number 3 is stable since:
+</p>
+
+<p>
+\[ \frac{1}{2} + \frac{1}{3} + \frac{1}{6} = 1 \]
+</p>
+
+Number 4 is also stable since:
+
+<p>
+\[ \frac{1}{2} + \frac{1}{2}\left( \frac{1}{2} + \frac{1}{3} + \frac{1}{6} \right) = 1 \]
+</p>
+
+
+
+<p>
+This gives the general idea. If \(k \geq 3\) is stable,  then there are \(a_{1}, \ldots, a_{k}\) all distinct and \(\sum \frac{1}{a_{i}}=1 .\) This implies that \(\frac{1}{2}+\sum \frac{1}{2 a_{i}}=1 .\) Hence all numbers except 1 and 2 are stable.
+</p>
+
+
+</details>
+
+
+
+---
+
+
+### Function on integers
+{: .d-inline-block}
+
+B3, 2018
+{: .label}
+
+
+<p>Let \(f\) be a function on the nonnegative integers defined as:</p>
+
+<p>\[ f(2 n)=f(f(n)) \quad \text { and } \quad f(2 n+1)=f(2 n)+1 \]</p>
+<p>(a) If \(f(0)=0,\) find \(f(n)\) for every \(n\).</p>
+<p>(b) Show that \(f(0)\) cannot equal 1. </p>
+<p>(c) For what nonnegative integers \(k\) (if any) can \(f(0)\) equal \(2^{k}\)?</p>
+
+<details><summary>Solution</summary>
+
+<p>(a) Suppose \(f(0)=0\) then \(f(1)=1\) and \(f(2)=f(f(1))=f(1)=1\). It implies that \(f(3)=1+1=2\) and \(f(4)=f(1)=1\). The pattern continues and we get that if \(2 k+1 \geq 3\) then \(f(2 k+1)=2 .\) On the other hand if \(2 k \geq 4\) then \(f(2 k)=1\)</p>
+<p></p>
+<p>(b) Suppose \(f(0)=1 .\) We have \(f(0)=f(2 \cdot 0)=f(f(0))=f(1)\). But we also have \(f(1)=f(0)+1,\) a contradiction.</p>
+
+<p></p>
+<p>
+(c) Suppose \(f(0)=2^{k} .\) Then, \(2^{k}=f(2 \cdot 0)=f(f(0))=f\left(2^{k}\right),\) and \(f\left(2^{k}+1\right)=f\left(2^{k}\right)+\)
+\(1=2^{k}+1 .\) Notice that \(f(1)=f(0)+1=2^{k}+1,\) and \(f(2)=f(f(1))=2^{k}+1\)
+</p>
+
+<p>In this way, we see that for any \(n, f\left(2^{n}\right)=2^{k}+1 .\) This contradicts the fact that \(f\left(2^{k}\right)=2^{k}\)</p>
+
+</details>
+
+---
+
+
+
+
+
+
 ### Function composition
 {: .d-inline-block}
 
@@ -967,6 +1052,71 @@ d) \(f(n)=n\) for all \(n\)
 By part c, \(f\) is increasing and \(f(n) \geq n .\) If \(f(n)>n,\) then \(f(f(n))>f(n)\) (since \(f\) is increasing) and so \(f(f(n))>n,\) i.e., \(f(f(n)) \geq n+1 .\) Again, since \(f\) is increasing, \(f(f(f(n))) \geq f(n+1),\) a contradiction.
 </p>
 </details>
+
+
+---
+
+
+### Combinations with gaps
+{: .d-inline-block}
+
+B5, 2018
+{: .label}
+
+
+<p>
+An ancient alphabet has \(n\) letters \(b_{1}, \ldots, b_{n} .\) For some \(k< n / 2\) assume that all words formed by any of the \(k\) letters
+, written from left to right, are present in the vocabulary. These words are called \(k\)-words. Such a \(k\)-word is considered sacred if:
+</p>
+
+<p>i) no letter appears twice and,</p>
+<p>ii) if a letter \(b_{i}\) appears in the word then the letters \(b_{i-1}\) and \(b_{i+1}\) do not appear. (Here \(b_{n+1}=b_{1}\) and \(\left.b_{0}=b_{n} .\right)\)</p>
+<p>For example, if \(n=7\) and \(k=3\) then \(b_{1} b_{3} b_{6}, b_{3} b_{1} b_{6}, b_{2} b_{4} b_{6}\) are sacred 3-words. On the other hand, the words \(b_{1} b_{7} b_{4}, b_{2} b_{2} b_{6}\) are not sacred.</p>
+
+<p>(a) How many sacred \(k\)-words are there?</p>
+<p></p>
+<p>(b) Calculate the number of 4-words for \(n=10\).</p>
+
+
+<details><summary>Solution</summary>
+
+<p>(a) We will count the sacred words starting with \(b_{1}\). since \(b_{1}\) is chosen \(b_{n}\) and \(b_{2}\) are out of the picture. In order to fill the remaining \(k-1\) positions we have to choose non-consecutive \(b_{i}\)s. Note that, specifying these \(b_{i}\)s is
+same as specifying the gaps between them. For example, let \(n=7, k=3\) and we would like to choose \(b_{1}, b_{3}, b_{6}\).</p>
+
+<p>Then the triple (1,2,1) specifies that leave one alphabet after \(b_{1},\) drop two aft er \(b_{3}\) and drop one aft er \(b_{6}\).</p>
+
+<p>Hence, in general let \(x_{1}, x_{2}, \ldots, x_{k}\) be these gaps.</p>
+
+<p>It is clear that each of this gap is at least 1 and they add up to \(n-k\).</p>
+
+<p>So our counting problem can be reformulated as: "In how many different ways can we choose \(k\) natural numbers, each of which is at least \(1,\) that add up to \(n-k\)?"</p>
+
+<p>The answer is \(\left(\begin{array}{c}n-k-1 \\ k-1\end{array}\right)\).</p>
+
+
+<p>However, we have not assigned positions to these letters yet. This can be done in \((k-1) !\) ways. Hence the number of ways is</p>
+
+<p>
+\[
+(k-1) !\left(\begin{array}{c}
+n-k-1 \\
+k-1
+\end{array}\right)
+\]
+</p>
+
+<p>In order to count the total number of sacred words we just need to multiply the above number by \(n .\) The final answer is</p>
+
+
+
+<p>\[n(k-1) !\left(\begin{array}{c}n-k-1 \\ k-1\end{array}\right)\]</p>
+
+
+<p>(b) For \(n=10\) and \(k=4\) the above count is \(\displaystyle 10\times 3! \times \binom{5}{3} = 600 \).</p>
+
+
+
+
 
 
 

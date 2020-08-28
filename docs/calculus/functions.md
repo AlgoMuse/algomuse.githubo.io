@@ -8,6 +8,43 @@ nav_order: 1
 
 # Functions
 
+
+
+### A routine substitution
+{: .d-inline-block }
+
+A4, 2018
+{: .label}
+
+<p>Evaluate:</p>
+
+<p>
+\[I = \int_{0}^{\frac{\pi}{2}} \frac{d x}{(\sqrt{\sin x}+\sqrt{\cos x})^{4}}\]
+</p>
+
+
+Sol.
+
+<p>
+Multiply both the numerator and denominator by \(\sec^2 x\).
+</p>
+
+<p>
+\begin{align}
+& I =\int_{0}^{\pi / 2} \frac{\mathrm{sec}^{2} x \mathrm{d} x}{(\sqrt{\tan x}+1)^{4}} \\\\
+\mathrm{let} \tan x=t^{2} & \Rightarrow \sec^2 x \mathrm{d} x=2 t\mathrm{d}t \\\\
+\Rightarrow \quad & I =\int_{0}^{\infty} \frac{2t \mathrm{d}t}{(t+1)^{4}} \Rightarrow I =\int_{0}^{\infty}\left[\frac{2}{(t+1)^{3}}-\frac{2}{(t+1)^{4}}\right] \mathrm{d}t \\
+\Rightarrow \quad & \mathrm{I}=\left.\frac{-1}{(\mathrm{t}+1)^{2}}+\frac{2}{3(\mathrm{t}+1)^{3}}\right\rvert_{0}^{\infty} \\
+\Rightarrow \quad & \mathrm{I}=\frac{1}{3}
+\end{align}
+</p>
+
+
+
+
+
+---
+
 ### One-to-one I
 {: .d-inline-block }
 
