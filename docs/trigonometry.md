@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Trigonometry
-nav_order: 95
+nav_order: 92
 ---
 
 
