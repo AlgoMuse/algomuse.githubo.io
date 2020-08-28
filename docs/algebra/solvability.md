@@ -7,7 +7,7 @@ nav_order: 2
 
 
 
-## Solvability of equations [7]
+## Solvability of equations [9]
 
 
 ### Charity
@@ -340,6 +340,49 @@ Another LA problem from CMI exam: B5 part(b) from 2014.
 [View on Amazon](https://amzn.to/3hbctgO)
 
 ---
+
+### Reduce to a quadratic
+{: .d-inline-block}
+
+B2B, 2019
+{: .label}
+
+<p>
+Find real numbers \(x\) that satisfy:
+
+\[\frac{8^{x}+27^{x}}{12^{x}+18^{x}}=\frac{7}{6}\]
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+\[\frac{\left(2^{x}\right)^{3}+\left(3^{x}\right)^{3}}{\left(2^{x}\right)^{2} \cdot 3^{x}+\left(3^{x}\right)^{2} \cdot 2^{x}}=\frac{7}{6}\]
+</p>
+
+<p>Putting \(a=2^x\) and \(b=3^x\) in the above equation, we get:</p>
+
+
+<p>\[ \frac{a^3 + b^3}{a^2b+ab^2} = \frac{7}{6} \]</p>
+
+<p>\[ \frac{ (a+b)(a^2+b^2-ab) }{ab(a+b)} = \frac{7}{6} \]</p>
+
+<p>\[ \frac{ (a+b)(a^2+b^2-ab) }{ab(a+b)} = \frac{7}{6} \]</p>
+
+<p>\[ 6a^2 - 13ab + 6b^2 = 0 \]</p>
+
+<p>\[ 6t^{2}-13t+6=0 \text{ where } t=a/b \]</p>
+
+<p>The above quadratic has \(t = 3/2\)  and \(t=2/3\) as the roots. So \(x=\pm 1\) satisfies the original equation.</p>
+
+
+
+</details>
+
+
+
+
+
+
 
 
 <!--

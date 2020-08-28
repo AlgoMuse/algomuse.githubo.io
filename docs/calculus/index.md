@@ -1011,7 +1011,7 @@ f(x) &=A x^{2}+B x+C \text { when } x \leq 0 \\
 \end{align}
 </p>
 
-<p>Write the values of the constants \(A, B\) and \(C\) such that \(f^{\prime \prime}(x),\) i.e., the double derivative of \(f,\) exists for all real \(x .\) If this is not possible, write "not possible". If some of the constants cannot be uniquely determined, write "not unique" for each such constant.</p>
+<p>Write the values of the constants \(A, B\) and \(C\) such that \(f^{\prime \prime}(x),\) i.e., the double derivative of \(f,\) exists for all real \(x \). </p>
 
 
 <details><summary>Solution</summary>
@@ -1032,7 +1032,7 @@ f(x) &=A x^{2}+B x+C \text { when } x \leq 0 \\
 B1, 2015
 {: .label}
 
-<p>1. Carefully solve the following series of questions. If you cannot solve an earlier part, you may still assume the result in it to solve a later part.</p>
+
 <p>(a) For any polynomial \(p(t),\) the limit \(\lim_{t \rightarrow \infty} \frac{p(t)}{e^{t}}\) is independent of the polynomial \(p .\) Justify this statement and find the value of the limit.</p>
 <p>(b) Consider the function defined by</p>
 
@@ -1053,8 +1053,11 @@ L'Hospital's rule repeatedly).</p>
  <p>(a) If \(p(t)\) is constant, then the limit \(=0 .\) Otherwise we get a form \(\frac{\pm \infty}{\infty}\). Using L'Hospital's rule, we get \(\lim_{t \rightarrow \infty} \frac{p(t)}{e^{t}}=\lim_{t \rightarrow \infty} \frac{p^{\prime}(t)}{e^{t}}=0\) by induction on the degree of \(t\) (or apply
 L'Hospital's rule repeatedly).</p>
 
+<br>
 
 <p>(b) The right side derivative \(=\lim_{h \rightarrow 0^{+}} \frac{q(h)-q(0)}{h}=\lim_{h \rightarrow 0^{+}} \frac{e^{-1 / h}}{h}=\lim_{h \rightarrow 0^{+}} \frac{1 / h}{e^{1 / h}}=\lim_{t \rightarrow+\infty} \frac{t}{e^{t}} \cdot\) (Let \(t=1 / h .\) As \(\left.h \rightarrow 0^{+}, t \rightarrow+\infty .\right)\) This limit is \(0,\) e.g. by part \((\mathrm{a})\) Now \(q\) is an even function, so letting \(k=-h,\) the left side derivative \(=\lim_{h \rightarrow 0^{-}} \frac{q(h)-q(0)}{h}=\) \(\lim_{k \rightarrow 0^{+}} \frac{q(-k)}{-k}=\lim_{k \rightarrow 0^{+}} \frac{q(k)}{-k} .\) Using the earlier calculation this also equals \(-0=0\) Note: It is wrong to argue that \(q^{\prime}(0)=\lim_{x \rightarrow 0} q^{\prime}(x)\) because to do so, we first need to know that \(q^{\prime}\) is continuous at \(0,\) but we have not even shown that \(q^{\prime}(0)\) exists! For the same reason it is wrong to argue below that \(q^{(n)}(0)=\lim_{x \rightarrow 0} q^{(n)}(x)\)</p>
+
+<br>
 
 <p>
 (c) We will show by induction on \(n\) that \(q^{(n)}(0)=0 .\) The case \(n=1\) is done. (We can even start the induction at \(n=0\) by interpreting \(q^{(0)}(x)=q(x) .\) ) Assuming that we are done up to \(n\) and to prove the statement for \(n+1,\) we need to calculate \(\lim_{h \rightarrow 0} \frac{q^{(n)}(h)-q^{(n)}(0)}{h}=\) \(\lim_{h \rightarrow 0} \frac{q^{(n)}(h)}{h},\) because \(q^{(n)}(0)=0\) by induction. Therefore it is good to examine \(q^{(n)}(h)\) for \(h \neq 0 .\) This is easy to calculate by the usual rules, but the formulas will be different for positive and negative \(h .\) For \(h \neq 0,\) as \(q\) is even, \(q^{\prime}\) is odd, so \(q^{\prime \prime}\) is even, etc. and in general \(q^{(n)}(h)=(-1)^{n} q^{(n)}(-h) .\) Therefore, just as for part (b), it suffices to show that \(\lim_{h \rightarrow 0^{+}} \frac{q^{(n)}(h)}{h}=0 .\) By another induction, we see easily that for \(h>0, q^{(n)}(h)=p(1 / h) e^{-1 / h}\)
@@ -1069,6 +1072,51 @@ So we have \(\lim_{h \rightarrow 0^{+}} \frac{q^{(n)}(h)}{h}=\lim_{h \rightarrow
 
 ---
 
+### Limit of a log of an exponent
+{: .d-inline-block}
+
+A9, 2019
+{: .label}
+
+<p>Consider \(f: \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}\) defined as follows:</p>
+
+<p>\[ f(a, b):=\lim_{n \rightarrow \infty} \frac{1}{n} \log_{e}\left[e^{n a}+e^{n b}\right] \]</p>
+
+<p>(a) \(f\) is not onto i.e. the range of \(f\) is not all of \(\mathbb{R}\).</p>
+<p>(b) For every \(a\) the function \(x \mapsto f(a, x)\) is continuous everywhere.</p>
+<p>(c) For every \(b\) the function \(x \mapsto f(x, b)\) is differentiable everywhere.</p>
+<p>(d) We have \(f(0, x)=x\) for all \(x \geq 0\)</p>
+
+
+<details><summary>Solution</summary>
+
+<p>False-True-False-True</p>
+
+</details>
+
+---
+
+### Continuity based on integral conditions
+{: .d-inline-block}
+
+A10, 2019
+{: .label}
+
+<p>Let \(f: \mathbb{R} \rightarrow \mathbb{R}\)</p>
+<p>(a) There is no continuous function \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x<\frac{1}{4}\)</p>
+<p>(b) There is only one continuous function \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}\)</p>
+<p>(c) There are infinitely many continuous functions \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}\)</p>
+
+<details><summary>Solution</summary>
+
+<p>False-False-True</p>
+
+</details>
+
+
+
+
+---
 ### Slowing slope changing function
 {: .d-inline-block}
 
@@ -1257,7 +1305,7 @@ The statement follows by substituting in the first equation.
 <p>\[f^{\prime}(x) = x^{(\cos (x)+\sin (x))-1}(-x \log (x) \sin (x)+x \log (x) \cos (x)+(\cos (x)+\sin (x))) \]
 </p>
 
-<p>Substitute \(x=1\) and \(\log (1) = 0\) in the above equation.
+<p>Substitute \(x=1\) and \(\log (1) = 0\) in the above equation.\(\;\square\)
 </p>
 
 
