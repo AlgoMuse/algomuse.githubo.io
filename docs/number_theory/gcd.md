@@ -184,6 +184,39 @@ The probability is \(\frac{4}{225}\).
 
 
 
+---
+
+
+### Carrom board math
+{: .d-inline-block}
+
+B6, 2018
+{: .label}
+
+
+<p>Imagine the unit square in the plane to be a carrom board. Assume the striker is just a point, moving with no friction (so it goes forever), and that when it hits an edge, the angle of reflection is equal to the angle of incidence, as in real life. When it hits another edge it bounces again similarly and so on. If the striker ever hits a corner it falls into the pocket and disappears. The trajectory of the striker is completely determined by its starting point \((x, y)\) and its initial velocity \(\overline{(p, q)}\)</p>
+
+<p>If the striker eventually returns to its initial state (i.e. initial position and initial velocity), we define its bounce number to be the number of edges it hits before returning to its initial state for the first time. For example, the trajectory with initial state \([(.5, .5) ;(1,0)]\) has bounce number 2 and it returns to its initial state for the first time in 2 time units. And the trajectory with initial state \([(.25, .75) ;(1,1)]\) has bounce number 4</p>
+
+
+<p>(a) Suppose the striker has initial state \([(.5, .5) ;(p, q)] .\) If \(p>q \geq 0\) then what is the velocity after it hits an edge for the first time? What if \(q> p \geq 0 ?\)?</p>
+<p>(b) Draw a trajectory with bounce number 5 or justify why it is impossible.</p>
+<p>(c) Consider the trajectory with initial state \([(x, y) ; \overline{(p, 0)}]\) where \(p\) is a positive integer. In how much time will the striker first return to its initial state?</p>
+<p>(d) What is the bounce number for the initial state \([(x, y) ; \overline{(p, q)}]\) where \(p, q\) are relatively prime positive integers, assuming the striker never hits a corner?</p>
+
+
+<details><summary>Solution</summary>
+
+<p>(a) If \(p> q\) then the striker will hit the vertical edge first, and its new velocity will be \((-p, q) .\) If \(p< q\) then the striker will hit the horizont al edge first, and its new velocity will be \(\overline{(p,-q)}\)</p>
+<p></p>
+<p>(b) No, it is not possible. If the striker has bounce number \(5,\) then it must have an odd number of vert ical edge bounces or horizontal edge bounces. In the former case, when the striker returns to its initial state, the \(x\) -component of its velocity will be wrong, by the formula in part \((a)\). In the latter case the \(y\) component will be wrong.</p>
+<p></p>
+<p>(c) It will take \(\frac{2}{p}\) time to return to its initial state.</p>
+<p></p>
+<p>(d) The bounce number is \(2 p+2 q\). At time \(2,\) the striker will have completed \(p\) horizontal round-t rips and \(q\) vert ical round trips, and will have returned to its init ial state. To see this, recall from part (c) that it will take time \(\frac{2}{p}\) for each horizontal round trip and time \(\frac{2}{q}\) for each vertical round trip. since \(p\) and \(q\) are relatively prime, it will only be at time 2 that an int eger number of vertical and horizontal round trips have been completed.</p>
+
+</details>
+
 
 
 
