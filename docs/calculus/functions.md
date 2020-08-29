@@ -23,7 +23,7 @@ A4, 2018
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 Multiply both the numerator and denominator by \(\sec^2 x\).
@@ -34,14 +34,15 @@ Multiply both the numerator and denominator by \(\sec^2 x\).
 & I =\int_{0}^{\pi / 2} \frac{\mathrm{sec}^{2} x \mathrm{d} x}{(\sqrt{\tan x}+1)^{4}} \\\\
 \mathrm{let} \tan x=t^{2} & \Rightarrow \sec^2 x \mathrm{d} x=2 t\mathrm{d}t \\\\
 \Rightarrow \quad & I =\int_{0}^{\infty} \frac{2t \mathrm{d}t}{(t+1)^{4}} \Rightarrow I =\int_{0}^{\infty}\left[\frac{2}{(t+1)^{3}}-\frac{2}{(t+1)^{4}}\right] \mathrm{d}t \\
-\Rightarrow \quad & \mathrm{I}=\left.\frac{-1}{(\mathrm{t}+1)^{2}}+\frac{2}{3(\mathrm{t}+1)^{3}}\right\rvert_{0}^{\infty} \\
-\Rightarrow \quad & \mathrm{I}=\frac{1}{3}
+\Rightarrow \quad & I=\left.\frac{-1}{(\mathrm{t}+1)^{2}}+\frac{2}{3(\mathrm{t}+1)^{3}}\right\rvert_{0}^{\infty} \\
+\Rightarrow \quad & I=\frac{1}{3}
 \end{align}
 </p>
 
 
 
 
+</details>
 
 ---
 
@@ -67,7 +68,7 @@ For sets \(S\) and \(T,\) let \(f: S \rightarrow T\) and \(g: T \rightarrow S\) 
 </p>
 
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 False-True-True-False.
@@ -76,6 +77,8 @@ False-True-True-False.
 <p>
 If \(g\left(x_{1}\right)=g\left(x_{2}\right),\) then \(x_{1}=f\left(g\left(x_{1}\right)\right)=f\left(g\left(x_{2}\right)\right)=x_{2},\) so \(g\) is one-to-one. Also \(f\) is onto because each \(x \in T\) is in the image of \(f,\) namely \(x=f(g(x)) .\) The other two statements are false, for example by constructing an \(S\) that is a larger finite set than \(T\).
 </p>
+
+</details>
 
 ---
 
@@ -96,7 +99,7 @@ Let \(f: \mathbb{R} \rightarrow \mathbb{R}\) be a function, where \(\mathbb{R}\)
 <li>d) If \(|f(x)-f(y)| \leq 39|x-y|^{2}\) for all \(x, y\) then \(f\) must be constant.</li>
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 True-False-True-True
@@ -109,6 +112,8 @@ In parts a and b, we have \(|f(x)-f(a)|\) lying between \(\pm 39|x-a| .\) As \(x
 <p>
 In parts c and d, we have \(\left|\frac{f(x)-f(a)}{x-a}\right| \leq 39|x-a|,\) so by reasoning as for part a, we have \(\lim_{x \rightarrow a} \frac{f(x)-f(a)}{x-a}=0,\) i.e., \(f^{\prime}(a)=0\) for all \(a,\) so \(f\) is a constant function.
 </p>
+
+</details>
 
 ---
 
@@ -157,7 +162,7 @@ Let \(\mathbb{R}=\) the set of real numbers. A continuous function \(f: \mathbb{
 (a) 3 (b) 4 (c) both (c) neither
 </p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>
 (i) \(5\).  By the intermediate value theorem over the interval \([2,3]\). Also \(f(x)\) may not take the value \(25,\). For a counterexample,
@@ -193,6 +198,7 @@ For part d, note that \(g(x),\) now being a polynomial vanishing at 1,2,3 and \(
 </p>
 
 
+</details>
 
 ---
 
@@ -214,22 +220,20 @@ A9, 2016
 <p>(iii) If \(T=S=\mathbb{R},\) then \(f\) must be differentiable everywhere.</p>
 <p>(iv) Suppose 0 and 1 are in \(S\). Then every number between 0 and 1 must also be in \(S\).</p>
 
-Sol.
+<details><summary>Solution</summary>
 
 <p>TFFT</p>
+
 <p>i The mean value theorem tells us \(S \subset T\).</p>
+
 <p>ii \(T \subset S\) is false, example \(f(x)=\sin (x) .\) Here \(f^{\prime}(0)=1\) is in \(T\) but not in \(S\).</p>
+
 <p>iii \(T=S=\mathbb{R}\) can happen at points where \(f\) is not differentiable.</p>
+
 <p>iv \(S\) has mean value property, because of continuity. (TODO)</p>
 
+</details>
 
-
-
-
-
-
-
----
 ### Irrationality and continuity
 {: .d-inline-block }
 
@@ -251,22 +255,19 @@ x^{2}+1 & \text { when } x \text { is irrational } \\
 At how many \(x\) in the interval \([0,4 \pi]\) is \(f(x)\) continuous?
 </p>
 
-Sol.
+
+<details><summary>Solution</summary>
+<p> The given function is defined using the two functions \(x^{2}+1\) and \(\tan (x)\).</p>
 
 <p>
-The given function is defined using the two functions \(x^{2}+1\) and \(\tan (x)\).
-<p>
-
-<p>
-Both these functions are continuous wherever they are defined. As every irrational number \(z\) has a non terminating, non repeating decimal expansion we see that given any \(\epsilon>0\) there is a rational number \(p\) such that the distance between \(z\) and \(p\) is less than \(\epsilon .\)
-</p>
-
-<p>
-Using these facts one can see that the given function will be continuous precisely at those \(x\) in the interval \([0,4 \pi]\) where \(x^{2}+1=\tan (x) .\) since \(x^{2}+1\) is positive, it will intersect \(\tan (x)\) exactly once in the intervals \(\left[0, \frac{\pi}{2}\right],\left[\pi, \frac{3 \pi}{2}\right],\left[2 \pi, \frac{5 \pi}{2}\right],\left[3 \pi, \frac{7 \pi}{2}\right],\) as \(\tan (x)\) increases from 0 to \(\infty\) in each of these intervals. \(\tan (x)\) is negative elsewhere in the given domain. So we have 4 points of continuity.
+Both these functions are continuous wherever they are defined. As every irrational number \(z\) has a non terminating,
+non repeating decimal expansion we see that given any \(\epsilon>0\) there is a rational number \(p\) such that the distance between \(z\) and \(p\) is less than \(\epsilon\).
 </p>
 
 
+<p>
+Using these facts we see that the given function is continuous precisely at those \(x\) in the interval \([0,4 \pi]\) where \(x^{2}+1=\tan (x)\), since \(x^{2}+1\) is positive, it will intersect \(\tan (x)\) exactly once in the intervals \(\left[0, \frac{\pi}{2}\right],\left[\pi, \frac{3 \pi}{2}\right],\left[2 \pi, \frac{5 \pi}{2}\right],\left[3 \pi, \frac{7 \pi}{2}\right],\) as \(\tan (x)\) increases from 0 to \(\infty\) in each of these intervals. \(\tan (x)\) is negative elsewhere in the given domain.
+So we have 4 points of continuity.  </p>
 
 
-
-
+</details>
