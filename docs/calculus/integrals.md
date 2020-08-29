@@ -105,7 +105,7 @@ A2, 2014
 
 
 <p>
-Consider the intergal \(I=\int_{1}^{\infty} e^{a x^{2}+b x+c} d x,\) where \(a, b, c\) are constants. Some combinations of values for these constants are given below and you have to decide in each case whether the integral \(I\) converges.
+Consider the integral \(I=\int_{1}^{\infty} e^{a x^{2}+b x+c} d x,\) where \(a, b, c\) are constants. Some combinations of values for these constants are given below and you have to decide in each case whether the integral \(I\) converges.
 </p>
 
 <p>(A) \(I\) converges for \(a=-1 \quad b=10 \quad c=100\)</p>
@@ -317,7 +317,7 @@ B4, 2014
 
 <p>Thus the expression inside the given limit is equal to \(\int_{-1}^{-r} g(x) d x+\int_{r}^{1} g(x) d x,\) as \(\pm f(0) \ln r\) cancels out.</p>
 
-<p>Applying the fundamental theorem of calculus to the continuous function \(g,\) we get an antiderivative \(G\) of \(g,\) where \(G\) is defined on [-1,1] by \(G(t)=\int_{-1}^{t} g(x) d x .\) So the given</p>
+<p>Applying the fundamental theorem of calculus to the continuous function \(g,\) we get an anti-derivative \(G\) of \(g,\) where \(G\) is defined on [-1,1] by \(G(t)=\int_{-1}^{t} g(x) d x .\) So the given</p>
 
 <p>
 
@@ -337,7 +337,7 @@ We have used the fundamental theorem to evaluate the integrals and the fact that
 <p></p>
 
 <details><summary>Solution (iii)</summary>
-<p>(iii) Define \(f(x)=\frac{1}{-\ln \frac{x}{2}}\) for \(x \in(0,1], f(x)=\frac{1}{\ln \left|\frac{1}{2}\right|}\) for \(x \in[-1,0),\) and \(f(0)=0 .\) Verify that this works: \(f\) is continuous at 0 and so on \([-1,1] .\) It is not differentiable at 0 as the relevant limit is \(+\infty .\) The two integrals in the desired limit are equal (because \(f\) is an odd function, so \(\frac{f(x)}{x}\) is even \()\) and each integral is \(+\infty\) as it amounts to \(\lim_{t \rightarrow 0^{+}} \ln |\ln t| .\) Can you see how one might think of such \(f ?\) E.g., check that choices like \(|x|\) or even \(x^{\frac{1}{3}}\) do not work. Compare the behaviour of these functions at \(x=0\) with that of chosen \(f .\)</p>
+<p>(iii) Define \(f(x)=\frac{1}{-\ln \frac{x}{2}}\) for \(x \in(0,1], f(x)=\frac{1}{\ln \left|\frac{1}{2}\right|}\) for \(x \in[-1,0),\) and \(f(0)=0 .\) Verify that this works: \(f\) is continuous at 0 and so on \([-1,1] .\) It is not differentiable at 0 as the relevant limit is \(+\infty .\) The two integrals in the desired limit are equal (because \(f\) is an odd function, so \(\frac{f(x)}{x}\) is even \()\) and each integral is \(+\infty\) as it amounts to \(\lim_{t \rightarrow 0^{+}} \ln |\ln t| .\) Can you see how one might think of such \(f ?\) E.g., check that choices like \(|x|\) or even \(x^{\frac{1}{3}}\) do not work. Compare the behavior of these functions at \(x=0\) with that of chosen \(f .\)</p>
 
 </details>
 

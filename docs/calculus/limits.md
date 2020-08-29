@@ -16,7 +16,7 @@ parent: Calculus
 A3, 2010
 {: label .label-blue}
 
-Evaluation the limit:
+Evaluate the limit:
 
 \\[ \lim_{x \rightarrow 1}\left(\frac{n- \displaystyle \sum_{k=1}^n x^{k}}{1-x}\right) \\]
 

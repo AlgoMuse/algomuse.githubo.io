@@ -2,11 +2,11 @@
 layout: default
 title: Derivatives
 parent: Calculus
-nav_order: 1
+nav_order: 2
 ---
 
 
-# Derivatives
+# Continuity and differentiability of functions
 
 
 
@@ -308,7 +308,7 @@ We say \(g\) has an inflection point at \(x_{0}\) if the second derivative \(g^{
 
 <p>(b) is false. Consider the function above: \(g^{\prime \prime}(0)=0\) but \(g^{\prime \prime}\) does not change sign at \(x=0\). </p>
 
-<p>(c) is true due to continuity. The function \(g\) is continous since it is differentiable.</p>
+<p>(c) is true due to continuity. The function \(g\) is continuous since it is differentiable.</p>
 
 </details>
 
@@ -794,7 +794,7 @@ whenever the above maximum is finite. For the function \(f(x)=-\ln (x),\) determ
 <details><summary>Solution</summary>
 First, note that the function \(f(x)\) is defined only for the positive values of \(x\).
 
-Now if \(y \geq 0\) then the first derivative of \(x y+\ln (x)\) is \(y+\frac{1}{x}\) which is strictly positive for \(x>0 .\) Hence \(x y+\ln (x)\) is an increasing function and consequent ly \(f^{\ast}(y)\)
+Now if \(y \geq 0\) then the first derivative of \(x y+\ln (x)\) is \(y+\frac{1}{x}\) which is strictly positive for \(x>0 .\) Hence \(x y+\ln (x)\) is an increasing function and consequently \(f^{\ast}(y)\)
 is not defined. Now if \(y<0\) then \(x=-\frac{1}{y}\) is the only critical point of \(x y+\ln (x)\). Either of the derivative test tells us that it is in fact the maxima. Hence, the domain of \(f^{\ast}(y)\) is \(y<0\) and
 
 \[
