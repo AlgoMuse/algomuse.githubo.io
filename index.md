@@ -71,6 +71,8 @@ Manjul Bhargava
 
 ---
 
+<!--
+
 #### Problem Palette
 
 
@@ -87,7 +89,10 @@ Manjul Bhargava
     <div style="min-height:250px" id="thetext"> </div>
 </p>
 
+-->
+
 ---
+
 
 ## CMI entrance exam cutoffs
 
