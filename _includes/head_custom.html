@@ -13,6 +13,49 @@ MathJax.Hub.Config({
 </script>
 
 
+<script type="text/javascript">
+function display (selected) {
+  if (selected == 'firstbox') {
+        texttoshow = "<a href=\"https://cmientranceexam.in/docs/algebra/solvability/#integers-in-a-function-range\"> <img src=\"\/assets/images/A1_2010.png\" /></a>";
+  }
+  else if (selected == 'secondbox') {
+        texttoshow = "<a href=\"https://cmientranceexam.in/docs/algebra/solvability/#integers-in-a-function-range\"> <img src=\"\/assets/images/A2_2010.png\" /></a>";
+
+  }
+  document.getElementById("thetext").innerHTML = texttoshow;
+  }
+</script>
+
+
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border-radius: 2pt;
+  border: none;
+  color: white;
+  padding: 4px 10px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 6px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.palette {
+    width: 100px;
+}
+
+.palette-keys {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.button2 {background-color: #008CBA;} /* Blue */
+.button3 {background-color: #f44336;} /* Red */
+.button4 {background-color: #e7e7e7; color: black;} /* Gray */
+.button5 {background-color: #555555;} /* Black */
+</style>
+
 
 
 

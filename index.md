@@ -71,8 +71,23 @@ Manjul Bhargava
 
 ---
 
+#### Problem Palette
 
 
+  <div class="palette">
+      <div class="palette-keys">
+
+      <button class="button button2" onclick="location.href='https://cmientranceexam.in/docs/algebra/solvability/#integers-in-a-function-range';" onmouseover = "display('firstbox')"></button>
+      <button class="button button3" onmouseover = "display('secondbox')"></button>
+
+      </div>
+  </div>
+
+<p>
+    <div style="min-height:250px" id="thetext"> </div>
+</p>
+
+---
 
 ## CMI entrance exam cutoffs
 
