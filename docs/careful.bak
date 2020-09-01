@@ -1,0 +1,153 @@
+
+### Irrationality
+
+
+A1, 2014
+{: .label}
+
+
+<p>
+Let $\alpha, \beta$ and $c$ be positive numbers less than $1,$ with $c$ rational and $\alpha, \beta$ irrational.
+</p>
+
+<p>
+
+(a) The number $\alpha+\beta$ must be irrational.
+
+(b) The infinite sum $\sum_{i=0}^{\infty} \alpha c^{i}=\alpha+\alpha c+\alpha c^{2}+\cdots$ must be irrational.
+
+$2014_{-} \mathrm{q} 1 . \mathrm{png}$
+(c) The value of the integral $\int_{0}^{\pi}(\beta \cos x+c) d x$ must be irrational.
+</p>
+
+Sol.
+
+<p>
+False-True-True
+</p>
+
+
+---
+
+### Forced integrality
+
+B2, 2014
+
+<p>
+Let $x$ be a real number such that $x^{2014}-x^{2004}$ and $x^{2009}-x^{2004}$ are both integers. Show that $x$ is an integer. (Hint: it may be useful to first prove that $x$ is rational.)
+</p>
+
+<p>
+Here is one of several possible ways. $x^{2014}-x^{2009}=x^{2009}\left(x^{5}-1\right)$ and $x^{2004}\left(x^{5}-1\right)$ are integers, which we may assume to be nonzero (else $x=0$ or 1 and we are done). Dividing, we get that $x^{5}$ is rational. Now dividing the integer $x^{2004}\left(x^{5}-1\right)$ by the rational number $x^{5}-1,$ we see that $x^{2004}$ is rational. since 2004 and 5 are coprime, $x$ is rational as well. (E.g., $x^{5}$ is rational, so $\left(x^{5}\right)^{401}=x^{2005}$ is rational. Now divide by the rational number $x^{2004}$.)
+Let $x=\frac{a}{b}$ with $a, b$ coprime integers. Consider the integer $\frac{a^{2000}}{b^{2009}}-\frac{a^{2004}}{b^{2004}}=\frac{a^{2009}-b^{5} a^{2004}}{b^{2000}}$. If a prime $p$ divides the denominator, it must divide the numerator as well. Now $p \mid b,$ so $p \mid b^{5} a^{2004},$ so $p \mid a^{2009}$ and finally $p \mid a,$ a contradiction. Thus $b=1,$ i.e., $x$ is an integer.
+</p>
+
+
+
+---
+
+### Points on a sphere
+
+2015
+
+<p>
+Let $p, q$ and $r$ be real numbers with $p^{2}+q^{2}+r^{2}=1$
+(a) Prove the inequality $3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} \leq 2$
+(b) Also find the smallest possible value of $3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3} .$ Specify exactly
+$2015_{-} \mathrm{q} 1 . \mathrm{png}$
+when the smallest and the largest possible value is achieved.
+</p>
+
+Sol.
+
+<p> We have $3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}=(q+r)\left(3 p^{2}+2 q^{2}+2 r^{2}-2 q r\right)=$
+$(q+r)\left(3\left(p^{2}+q^{2}+r^{2}\right)-\left(q^{2}+r^{2}+2 q r\right)\right)=(q+r)\left(3-(q+r)^{2}\right)=x\left(3-x^{2}\right)=3 x-x^{3},$ where
+$x=q+r .$ Let us examine possible values of $x$ in view of the constraint $p^{2}+q^{2}+r^{2}=1$
+We have $2 q r \leq q^{2}+r^{2}$ e.g. because $(q-r)^{2} \geq 0 .$ Adding $q^{2}+r^{2},$ we get $\underline{q}^{2}+r^{2}+2 q r \leqq$ $2 q^{2}+2 r^{2} \leq 2,$ because $q^{2}+r^{2} \leq p^{2}+q^{2}+r^{2}=1 .$ Thus $(q+r)^{2} \leq 2 .$ So $-\sqrt{2} \leq q+r \leq \sqrt{2}$
+Note that equalities are achieved precisely when $p=0$ and $q=r=\pm 1 / \sqrt{2}$
+Thus altogether we have to find extrema of the odd function $f(x)=3 x-x^{3}$ over the interval $[-\sqrt{2}, \sqrt{2}] .$ The critical points are when $f^{\prime}(x)=3-3 x^{2}=0,$ i.e. $x=\pm 1 .$ Thus we need to see only $f(\pm \sqrt{2})=\pm \sqrt{2}$ and $f(\pm 1)=\pm 2 .$ Therefore $-2 \leq 3 p^{2} q+3 p^{2} r+$ $2 q^{3}+2 r^{3} \leq 2 .$ Moreover, $3 p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}=\pm 2$ precisely when $x=q+r=\pm 1$
+In each case, this gives a line segment in the $q r$ -plane joining (±1,0) and $(0,\pm 1) .$ Note that both these segments lie within the circle $q^{2}+r^{2}=1,$ so each point on them leads to two valid points $(p, q, r)$ on the unit sphere.
+</p>
+
+---
+
+
+### Connecting co-primes to a quadratic
+
+2016
+
+<p>
+You are told that $n=110179$ is the product of two primes $p$ and $q$. The number of positive integers less than $n$ that are relatively prime to $n$ (i.e. those $m$ such that $g \operatorname{cd}(m, n)=1)$ is $109480 .$ Write the value of $p+q .$ Then write the values of $p$ and $q$
+</p>
+
+Sol.
+
+<p>
+Given $n=p q=110179$. The number of integers relatively prime to $n$ and smaller than $n$ is $(p-1)(q-1) .$ So we have $p q-p-q+1=109480 .$ We get $p+q=700 .$ Now $p, q$ are solutions to the quadratic $x^{2}-700 x+110179$. The discriminant of this quadratic is $\sqrt{490000-440716}=\sqrt{49284}=22 .$ So we get $p=\frac{700+222}{2}=461$ and $q=\frac{700-222}{2}=239$
+</p>
+
+
+--
+
+### GCD application
+
+We want to construct a nonempty and proper subset $S$ of the set of non-negative integers. This set must have the following properties. For any $m$ and any $n$
+if $m \in S$ and $n \in S$ then $m+n \in S \quad$ and $\quad$ if $m \in S$ and $m+n \in S$ then $n \in S$
+(i) 0 must be in $S$
+(ii) 1 cannot be in $S$
+(iii) There are only finitely many ways to construct such a subset $S$.
+(iv) There is such a subset $S$ that contains both $2015^{2016}$ and $2016^{2015}$
+
+TTFF
+since the set $S$ is nonempty, there is an element $m \in S .$ But then $m=m+0$ and so $0 \in S .$ l cannot be in $S,$ otherwise it will contain all non-negative integers. It is not difficult to see by the division algorithm that if $m, n$ are in $S$ then so is their GCD. Therefore two coprime numbers cannot be in $S .$ Otherwise their GCD, which is $1,$ will be in $S,$ a contradiction. It follows that such sets $S$ are precisely those of the form $n \mathbb{Z} \geq 0,$ the set of all non-negative multiples of a fixed non-negative integer $n .$ So there are infinitely many such possible sets.
+
+--
+
+### Primes in an algebraic equation
+
+2016
+
+Find all pairs $(p, n)$ of positive integers where $p$ is a prime number and $p^{3}-p=n^{7}-n^{3}$
+
+Solution. The given equation is $p(p-1)(p+1)=n^{3}\left(n^{2}+1\right)(n+1)(n-1) .$ As the factor $p$ on the LHS is a prime, it must divide one of the factors $n-1, n, n+1, n^{2}+1$ on the RHS.
+
+A key point to deduce is that $p>n^{2}$. One way to do this is as follows. The LHS $=p^{3}-p$ is an increasing function of $p$ for $p \geq 1,$ e.g. because the derivative $3 p^{2}-1$ is positive. So for any given $n \geq 1$, there is exactly one real value of $p$ for which $\mathrm{LHS}=$ RHS. Trying $p=n^{2}$ gives $\mathrm{LHS}=n^{6}-n^{2}<n^{7}-n^{3}=\mathrm{RHS},$ e.g. because $n^{7}-n^{3}-\left(n^{6}-n^{2}\right)=\left(n^{6}-n^{2}\right)(n-1)>0$
+As the prime $p$ is greater than $n^{2},$ it cannot divide any of $n-1, n, n+1 .$ So $p$ must divide $n^{2}+1$ and therefore we must have $p=n^{2}+1,$ again because $p>n^{2} .$ Substituting this in the given equation, we get $\left(n^{2}+1\right) n^{2}\left(n^{2}+2\right)=n^{3}\left(n^{2}+1\right)(n+1)(n-1)$. Canceling common factors gives $n^{2}+2=n^{3}-n,$ i.e. $2=n^{3}-n^{2}-n .$ This has a unique integer solution $n=2,$ e.g. because the factor $n$ on the RHS must divide 2 and now one checks that $n=2$ works. So $n=2$ and the prime $p=n^{2}+1=5$ give a unique solution to the given equation.
+
+---
+
+### GCD II
+
+2017
+
+<p>
+Positive integers $a$ and $b,$ possibly equal, are chosen randomly from among the divisors of $400 .$ The numbers $a, b$ are chosen independently, each divisor being equally likely to be chosen. Find the probability that $\operatorname{gcd}(a, b)=1$ and $\operatorname{lcm}(a, b)=400$
+</p>
+
+<p>
+Solution. $400=5^{2} \times 2^{4}$ has $(2+1) \times(4+1)=15$ factors, so total number of pairs $(a, b)$ is $225 .$ For $a, b$ to be coprime, they should have no prime factor in common and then their lcm is just their product, which is required to be $400 .$ So there are only four allowed pairs: (1,400),(400,1),(25,16) and $(16,25) .$ The probability is $\frac{4}{225}$
+</p>
+
+---
+
+### Integers in a function range
+
+2018
+
+<p>
+Consider the following function defined for all real numbers $x$
+
+$$ f(x)=\frac{2018}{10+e^{x}} $$
+
+How many integers are there in the range of $f$?
+</p>
+
+
+
+<p>
+Answer: 201 . Note that the for all values of $x$ the function is strictly decrea sing a nd the graph lies above $x$ axis. As $x$ goes far left the de nominator approa ches 10 and the funct ion value approaches 201.8 . On the ot her hand, a s goes far right the de nominator blow s up and the function value approaches $0 .$ since this is a co ntinuous funct ion by the inter me diate value theore $\mathrm{m}$ a ll values in the inter val (0,201.8) are a ssumed.
+</p>
+
+
+
+

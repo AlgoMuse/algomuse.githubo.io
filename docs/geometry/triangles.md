@@ -20,7 +20,7 @@ nav_order: 1
 ### Midpoint of a median
 {: .d-inline-block}
 
-B2, 2011
+B2, 2010
 {: .label}
 
 <p>
@@ -214,6 +214,8 @@ B4, 2018
 Let \(A B C\) be an equilateral triangle with side length \(2 .\) Point \(A^{\prime}\) is chosen on side \(B C\) such that the length of \(A^{\prime} B\) is \(k<1\). Likewise points \(B^{\prime}\) and \(C^{\prime}\) are chosen on sides \(C A\) and \(A B\) with \(A C^{\prime}=C B^{\prime}=k\). Line segments are drawn from points \(A^{\prime}, B^{\prime}, C^{\prime}\) to their corresponding opposite vertices. The intersections of these line segments form a triangle, labeled \(P Q R\) in the interior.
 Show that the triangle \(P Q R\) is an equilateral triangle with side length \(\frac{4(1-k)}{\sqrt{k^{2}-2 k+4}}\).
 </p>
+
+<p style="text-align:center;"><img src="/assets/images/2018_b4.png"></p>
 
 <details><summary>Solution</summary>
 

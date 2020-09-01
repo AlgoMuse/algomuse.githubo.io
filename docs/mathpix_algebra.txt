@@ -1,0 +1,189 @@
+
+
+2012a1a
+---
+
+Non-real roots of a polynomial with real coefficients occur in conjugate pairs. $p(x)=$ $(x-(\sqrt{2}+i))(x-(\sqrt{2}-i))=x^{2}-2 \sqrt{2} x+3$ works.
+
+2012a1b
+---
+$\sqrt{2}+i$ satisfies $x^{2}-2 \sqrt{2} x+3=0,$ i.e., $x^{2}+3=2 \sqrt{2} x$ and so satisfies $\left(x^{2}+3\right)^{2}=$ $8 x^{2} .$ So $q(x)=\left(x^{2}+3\right)^{2}-8 x^{2}$ works. A cubic with rational coefficients will not work because, after dividing by the necessarily rational leading coefficient, it must be of the form $\left(x^{2}-2 \sqrt{2} x+3\right)(x-r) .$ This forces the coefficients $-3 r$ and $-2 \sqrt{2}-r$ to be both rational, which is impossible.
+
+Let $f(x)$ be a polynomial with rational coefficients such that $f(\sqrt{2}+i)=0 .$ Divide $f(x)$ by $q(x)$ using long division to get quotient $a(x)$ and remainder $b(x),$ both polynomials with rational coefficients. Using $f(\sqrt{2}+i)=0$ and $q(\sqrt{2}+i)=0$ in the equation $f(x)=$ $q(x) a(x)+b(x)$ gives $b(\sqrt{2}+i)=0 .$ Now if the remainder $b(x)$ is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and $\sqrt{2}+i$ as a root. But we just proved that this is impossible. Hence $b(x)=0,$ i.e., $f(x)$ is a multiple of $q(x)$
+
+2012a2a
+---
+Because of the absolute value we may assume that $r>0$ by replacing $r$ with $-r$ if necessary. Now use AM-GM inequality or the fact that $(\sqrt{r}-\sqrt{1 / r})^{2} \geq 0 .$ since $x+x^{-1}=\frac{\sqrt{5}+1}{2}<2$ given $x$ must be a non-real (complex) number.
+
+2012a2b
+---
+Let $\theta=\frac{\pi}{5} .$ Then $\sin (2 \theta)=\sin (\pi-2 \theta)=\sin (3 \theta) .$ Using the formulas for $\sin (2 \theta)$ and
+$\sin (3 \theta),$ canceling $\sin \theta\left(\text { it is nonzero) and substituting } \sin ^{2} \theta=1-\cos ^{2} \theta,\right.$ gives the
+quadratic equation $4 \cos ^{2} \theta-2 \cos \theta-1=0 .$ since $\cos \theta>0,$ we get $\cos \theta=\frac{\sqrt{5}+1}{4}$
+
+2012a2c
+---
+Let $x=d e^{i \alpha}=d(\cos \alpha+i \sin \alpha) .$ Then $x^{-1}=d^{-1} e^{-i \alpha}=d^{-1}(\cos \alpha-i \sin \alpha) .$ Adding
+and using that $x+x^{-1}=\frac{\sqrt{5}+1}{2}=2 \cos \left(\frac{\pi}{5}\right),$ we get $d=1$ and $\alpha=\pm \theta .$ So $x=e^{\pm \frac{1 \pi}{5}}$ and
+$x^{2012}+x^{-2012}=2 \cos \left(\frac{2012 \pi}{5}\right)=2 \cos \left(402 \pi+\frac{2 \pi}{5}\right)=2 \cos \left(\frac{2 \pi}{5}\right)=2 \cos ^{2}\left(\frac{\pi}{5}\right)-1=\frac{\sqrt{5}-1}{2}$
+
+2012q1a
+---
+
+B1. a) Find a polynomial $p(x)$ with real coefficients such that $p(\sqrt{2}+i)=0$.
+
+2012q1b
+---
+
+b) Find a polynomial $q(x)$ with rational coefficients and having the smallest possible degree such that $q(\sqrt{2}+i)=0 .$ Show that any other polynomial with rational coefficients and having $\sqrt{2}+i$ as a root has $q(x)$ as a factor.
+
+2012q2a
+---
+B5. Using the steps below, find the value of $x^{2012}+x^{-2012},$ where $x+x^{-1}=\frac{\sqrt{5}+1}{2}$
+a) For any real $r,$ show that $\left|r+r^{-1}\right| \geq 2 .$ What does this tell you about the given $x ?$
+
+2012q2b
+---
+$$
+\text { b) Show that } \cos \left(\frac{\pi}{5}\right)=\frac{\sqrt{5}+1}{4}, \text { e.g. compare } \sin \left(\frac{2 \pi}{5}\right) \text { and } \sin \left(\frac{3 \pi}{5}\right)
+$$
+
+2012q2c
+---
+c) Combine conclusions of parts a and b to express $x$ and therefore the desired quantity in a suitable form.
+
+2012q3ab
+---
+
+B8. Let $f(x)$ be a polynomial with integer coefficients such that for each nonnegative integer $n, f(n)=$ a perfect power of a prime number, i.e., of the form $p^{k},$ where $p$ is prime and $k$ a positive integer. $(p \text { and } k \text { can vary with } n .)$ Show that $f$ must be a constant polynomial using the following steps or otherwise.
+a) If such a polynomial $f(x)$ exists, then there is a polynomial $g(x)$ with integer coefficients such that for each nonnegative integer $n, g(n)=$ a perfect power of a fixed prime number.
+Write $f(x)=a_{n} x^{n}+a_{n-1} x^{n-1}+\cdots+a_{1} x+a_{0} .$ Then $a_{0}=f(0)=p^{k}$ for some prime
+$p$ and integer $k>0 .$ Define $g(x)=f(p x) .$ Then $g(x)$ is a polynomial such that for each nonnegative integer $n, g(n)=f(p n)=$ a perfect power of a prime number. This prime number has to be $p,$ because by evaluating we see that $g(n)=f(p n)$ is divisible by $p$
+b) Show that a polynomial $g(x)$ as in part a must be constant.
+Let $g(x)=b_{n} x^{n}+b_{n-1} x^{n-1}+\cdots+b_{1} x+b_{0} .$ Then $b_{0}=g(0)=p^{k} .$ Consider $g\left(m p^{k+1}\right)=$
+$b_{n}\left(m p^{k+1}\right)^{n}+b_{n-1}\left(m p^{k+1}\right)^{n-1}+\cdots+b_{1}\left(m p^{k+1}\right)+p^{k} .$ Clearly for each non-negative integer
+$m,$ this expression is divisible by $p^{k},$ but not by $p^{k+1}$ (since it is $p^{k}$ modulo $p^{k+1}$ ). This forces $g\left(m p^{k+1}\right)=p^{k}$ for all $m,$ since it must be a perfect power of $p .$ Thus the polynomial $g$ takes the value $p^{k}$ infinitely often, so it must be identically equal to $p^{k}$. (Otherwise the polynomial $g(x)-p^{k}$ would have infinitely many roots.) To finish the problem, note that since $g(x)=f(p x)$ is constant, $f(x)$ must be constant by the same logic.
+
+2013-a1
+---
+Answer: FTFT
+For part b, complete the square to get $f(x)=x^{2}+p x+q=\left(x+\frac{p}{2}\right)^{2}+\left(\frac{4 q-p^{2}}{4}\right),$ which is a sum of squares since $4 q-p^{2}>0$ due to the roots being non-real. since $p$ need not be $0,$ this disproves part a. For part $d,$ since all roots of $f$ are non-real and occur in conjugate pairs, $f(x)=$ a product of quadratic polynomials each of which is a sum of squares by part b. For part $c,$ note that $f(x) \rightarrow-\infty$ as $x \rightarrow-\infty,$ so in particular $f(x)$ takes negative values and hence can never be a sum of squares. (This applies to any odd degree polynomial.)
+
+2013-a2
+---
+Answer: If $f$ is a polynomial, then we make two cases.
+(i) If $f(x)=$ a constant $c,$ then the given condition is equivalent to $c=c^{2013},$ which happens precisely for three values of $c,$ namely $c=0,1,-1$ (since we have $c\left(c^{2012}-1\right)=0,$ so $c=0$ or $c^{2012}=1$ ). Thus there are three constant functions with the given property.
+(ii) If $f(x)$ is a non-constant polynomial, then consider its range set $A=\{f(x) \mid x \in \mathbb{R}\} .$ Now for all $a \in A,$ we have by the given property $f(a)=a^{2013}$. So the polynomial $f(x)-x^{2013}$ has all elements of $A$ as its roots. since there are infinitely many values in $A$ (e.g. applying the intermediate value theorem because $f$ is continuous), the polynomial $f(x)-x^{2013}$ has infinitely many roots and thus must be the zero polynomial, i.e., $f(x)=x^{2013}$ for all real number $x$
+
+Note: One can also deduce that the degree of $f$ must be 0 or 2013 by equating the degrees of $f(f(x))$ and $f(x)^{2013} .$ Then, in the non-constant case, it is possible to argue first that the leading coefficient is 1 and then that all other coefficients must be $0 .$
+
+To find infinitely many function with the given property, define $f(0)=0, f(1)=1$ and $f(-1)=-1 .$ For every other real number $x,$ arbitrarily define $f(x)$ to be 0,1 or $-1 .$ It is easy to see that any such function satisfies the given property. (Other answers are possible,
+e.g., more systematically, observe that $f(a)=a^{2013}$ for at least one real number $a$ (e.g., any number in the range of $f$ ) and then this forces $f(x)=x^{2013}$ for all $x \in S=\left\{a^{2013^{4}} \mid i=\right.$ $0,1,2, \ldots\} .$ We use this as follows. Fix a real number a. Then define $f(x)=x^{2013}$ for all $x \in S=\left\{a^{2013^{4}} \mid i=0,1,2, \ldots\right\} .$ For all $x \notin S,$ simply define $f(x)=$ any element of the set $S, \text { e.g., } a \text { itself will do. })$
+
+2013-q1
+---
+4. A polynomial $f(x)$ with real coefficients is said to be a sum of squares if we can write $f(x)=p_{1}(x)^{2}+\cdots+p_{k}(x)^{2},$ where $p_{1}(x), \ldots, p_{k}(x)$ are polynomials with real coefficients. For each statement below, write whether it is TRUE or FALSE.
+a) If a polynomial $f(x)$ is a sum of squares, then the coefficient of every odd power of $x$ in $f(x)$ must be 0
+b) If $f(x)=x^{2}+p x+q$ has a non-real root, then $f(x)$ is a sum of squares.
+c) If $f(x)=x^{3}+p x^{2}+q x+r$ has a non-real root, then $f(x)$ is a sum of squares.
+d) If a polynomial $f(x)>0$ for all real values of $x,$ then $f(x)$ is a sum of squares.
+
+2013-q2
+---
+are infinitely many such functions, of which exactly four are polynomials. (Here $\mathbb{R}=$ the set of real numbers.)
+
+2014-a1
+---
+Answers: 15,6
+2014-a2
+---
+Answers: $0 x+4,4 x+0$
+
+2014-a3
+---
+Answer:
+(i) It is obvious that $f(x-1)$ is a polynomial in $x$ (use binomial expansion of powers of $(x-1)$ ) and therefore so is $\Delta f(x)=f(x)-f(x-1)$, being the difference of polynomials. The point of the question is to find the leading term of $\Delta f(x) .$ It is easy to see that after expanding the powers of $(x-1),$ the degree $n$ terms of $f(x)$ and $f(x-1)$ cancel out, as does the degree $n-1$ term from $f(x)$ with the leading term of $a_{n-1}(x-1)^{n-1}$. The only remaining term of degree $n-1$ comes from $a_{n}(x-1)^{n} .$ So $\Delta f(x)=n a_{n} x^{n-1}+$ lower degree terms. Compare with the usual derivative.
+(ii) Induction on the degree of $f .$ If $f(x)=a_{0}$ is constant, $b_{0}=a_{0}$ works uniquely. Assuming the result for polynomials of degree $<n,$ let $f$ be of degree $n,$ so $a_{n} \neq 0 .$ We are forced to take $b_{n}=n ! a_{n}$ by comparing leading coefficients of $f(x)$ and $\sum_{i=0}^{n} b_{i} p_{i}(x) .$ Now $f(x)-b_{n} p_{n}(x)$ is a polynomial of degree $d<n$ and hence by induction equals $\sum_{i=0}^{d} b_{i} p_{i}(x)$ for unique $b_{0}, \ldots, b_{d}$ Therefore $f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x),$ where $b_{d+1}, \ldots, b_{n-1}$ are all $0 .$ To see uniqueness of $b_{i}^{\prime} s,$ let $\sum_{i=0}^{n} b_{i} p_{i}(x)=\sum_{i=0}^{n} c_{i} p_{i}(x) .$ Subtract all terms with $b_{i}=c_{i} .$ If any terms are remaining, compare the leading coefficients on each side to get a contradiction.
+(iii) Substitute $x=0,1,2, \ldots$ one by one in the equation $f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)$ and solve for $b_{0}, b_{1}, b_{2}, \ldots$ successively. $x=0$ gives $b_{0}=f(0) .$ Using $x=1$ and 2 gives $b_{1}=f(1)-b_{0}$ $b_{2}=f(2)-b_{0}-2 b_{1} .$ In general, for all integers $t, p_{i}(t)=\left(\begin{array}{c}t \\ i\end{array}\right)$ is an integer. Further, $p_{i}(t)=0$ if $0 \leq t<i$ and 1 if $t=i .$ So $b_{t}=f(t)-\sum_{i=0}^{t-1} b_{i}\left(\begin{array}{c}t \\ i\end{array}\right),$ which is an integer by induction. (Note:
+We can also argue from the other end as follows. By repeated use of part (i), $\Delta^{n} f$, the $n$ -th discrete derivative of $f,$ is the constant $n ! a_{n},$ which must be an integer since the integrality assumption on $f$ passes easily to all its discrete derivatives. But by part (ii), $b_{n}=n ! a_{n},$ so $\left.b_{n} \text { is an integer. Now induction along with integrality of }\left(\begin{array}{l}m \\ n\end{array}\right) \text { finishes the proof. }\right)$
+
+2014-q1
+---
+A7. Let $f(x)=(x-a)(x-b)^{3}(x-c)^{5}(x-d)^{7},$ where $a, b, c, d$ are real numbers with $a<b<c<d .$ Thus $f(x)$ has 16 real roots counting multiplicities and among them 4 are distinct from each other. Consider $f^{\prime}(x),$ i.e. the derivative of $f(x) .$ Find the following, if
+you can:
+(i) the number of real roots of $f^{\prime}(x),$ counting multiplicities,
+(ii) the number of distinct real roots of $f^{\prime}(x)$
+
+2014-q2
+---
+A8. Let $f(x)=7 x^{32}+5 x^{22}+3 x^{12}+x^{2}$
+(i) Find the remainder when $f(x)$ is divided by $x^{2}+1$
+(ii) Find the remainder when $x f(x)$ is divided by $x^{2}+1 .$ In each case your answer should be a polynomial of the form $a x+b,$ where $a$ and $b$ are constants.
+
+2014-q3
+---
+B5. (i) Let $f(x)=a_{n} x^{n}+\cdots+a_{1} x+a_{0}$ be a polynomial, where $a_{0}, \ldots, a_{n}$ are real numbers with $a_{n} \neq 0 .$ Define the "discrete derivative of $f ",$ denoted $\Delta f,$ to be the function given by $\Delta f(x)=f(x)-f(x-1) .$ Show that $\Delta f$ is also a polynomial and find its leading term.
+(ii) For integers $n \geq 0$, define polynomials $p_{n}$ of degree $n$ as follows: $p_{0}(x)=1$ and for $n>0$ let $p_{n}(x)=\frac{1}{n !} x(x-1)(x-2) \cdots(x-n+1) .$ So we have
+\[
+p_{0}(x)=1 \quad, \quad p_{1}(x)=x \quad, \quad p_{2}(x)=\frac{x(x-1)}{2} \quad, \quad p_{3}(x)=\frac{x(x-1)(x-2)}{3 !} \cdots
+\]
+Show that for any polynomial $f$ of degree $n,$ there exist unique real numbers $b_{0}, b_{1}, \ldots, b_{n}$ such that $f(x)=\sum_{i=0}^{n} b_{i} p_{i}(x)$
+Page 4
+(iii) Now suppose that $f(x)$ is a polynomial such that for each integer $m, f(m)$ is also an integer. Using the above parts (or otherwise), show that for such $f,$ the $b_{i}$ obtained in part
+(ii) are integers.
+
+2015-a1
+---
+Answer: All are true. (i) The degree is even, so $p(x)$ goes to $+\infty$ as $x \rightarrow \pm \infty .$ So $p(x)$ must attain a global minimum somewhere by continuity.
+(ii) The roots of $p(x)$ are $-a_{i}$ By positivity of coefficients of $p(x),$ no nonnegative number is a root of $p(x) .$ Thus all $\left.-a_{i} \text { are negative, so all } a_{i}>0 . \text { (iii }+\text { iv }\right)$ All 10 roots of $p(x)$ are real and negative. There is a root of $p^{\prime}(x)$ between consecutive roots of $p(x)$ (this is valid even in case of multiple roots). So all 9 roots of $p^{\prime}(x)$ are real and negative as well. For negativity, one can also note that all coefficients of $p^{\prime}(x)$ are positive and apply the logic in (ii) to $p^{\prime}(x)$.
+
+2015-a2i
+---
+Answer: $i=6 .$ One way: simplify the ratio $\frac{C_{i+1}(\sqrt{2})^{t+1}}{C_{i}(\sqrt{2})^{4}}$ and see that this ratio is $>1$ till $i=5$ and $<1$ from $i=6$ onwards.
+
+2015-a2ii
+---
+Answer: $32 .$ Using binomial expansion see that $(\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{n}\right),$ where the sign depends on the parity of $n .$ As $n \rightarrow \infty,(\sqrt{2}-1)^{n} \rightarrow 0$ since $(\sqrt{2}-1)<1 .$ Thus $\left(p_{n}-\sqrt{2} q_{n}\right) \rightarrow 0$ and so $\frac{p_{n}}{q_{n}} \rightarrow \sqrt{2}$
+
+2015-a3
+---
+Answer: (a) We have $10000=16 \times 625$ as product of prime powers. Recall the notation $a \mid b,$ meaning $b$ is divisible by a. We have $10000 \mid a^{2}-a$ if and only if $(625 \mid a(a-1)$ and $16 \mid a(a-1)) .$ Because $a$ and $a-1$ cannot share a factor, in turn this is equivalent to having both the conditions $(1) 625 \mid a$ or $625 \mid a-1$ AND
+(2) $16 \mid a$ or $16 \mid a-1 .$ Now if the coprime integers 16 and 625 both divide the same natural number (in our case $a$ or $a-1),$ their product 10000 will also divide this number. In our case this would force $a=0,1,$ or $\geq 10000,$ all of which are not allowed. Thus the given requirement on $a$ is equivalent to having either (1) $16 \mid a$ and $625 \mid a-1$ OR
+(2) $16 \mid a-1$ and $625 \mid$ a. Each case has a unique solution, respectively $a=9376$ and $a=625$ (e.g. use modular arithmetic:
+in case $1,$ we have $a=625 k+1,$ which is $k+1$ mod $16,$ forcing $k=15$ because $16 \mid a$ and $a \in\{2,3, \ldots, 9999\})$
+(b) Let $n=p_{1}{ }^{e_{1}} \ldots p_{k}{ }^{e_{k}}$ be the factorization of $n$ into powers of distinct primes. The analysis in part (a) tells that required values of $a$ are obtained as follows: write $n^{2}=x y$ as a product of two coprime integers and find values of $a$ in $\left\{2,3, \ldots, n^{2}-1\right\}$ that are simultaneously 0 mod $x$ and 1 mod $y$. These are precisely the values of $a$ that we want. This is because each $p_{i}^{2 e_{i}}$ must divide $a$ or $a-1,$ as $a$ and $a-1$ are coprime.
+
+Now the Chinese remainder theorem tells you that there is always an $a$ that is 0 mod $x$ and 1 mod $y$. Moreover it is unique modulo $x y=n^{2}$ because difference between any two solutions would be divisible by $x y$.
+
+The total number of ways to write $n^{2}=x y$ as a product of coprime integers is exactly $2^{k}$ as it amounts to choosing which of the $k$ distinct primes to include in $x$ and then the rest go into $y$. (Notice that $x$ and $y$ are not interchangeable.) However, we have to delete the two cases $x=1, y=n^{2}$ and $y=1, x=n^{2},$ as these will respectively lead to solutions $a=1$ and $a=0$ or $n^{2},$ which are not in $\left\{2,3, \ldots, n^{2}-1\right\} .$ Finally it is easy to see that different choices of $x$ lead to different values of $a$. This is because, of the primes $p_{1}, \ldots, p_{k}$ in the factorization of $n,$ precisely the ones dividing $x$ will divide $a$ and the remaining primes will not, because they divide $a-1$.
+
+Thus the final answer is $2^{k}-2 .$ Note that this matches with the special case in part (a). Finally, note that there was nothing special about taking a square: instead of $n^{2}$ it could be any positive integer $m$ and we would proceed the same way to find requisite integers $a$ in $\{2,3 \ldots, m-1\}$ based on prime factorization of $m$
+
+2015-a4
+---
+Answer: Long division gives $6 n^{2}+11 n-2=(2 n+9)(3 n-8)+70 .$ By Euclidean algorithm, $G C D\left(6 n^{2}+11 n-2,2 n+9\right)=G C D(2 n+9,70) .$ Thus $g(n)$ divides $70 .$ But since $g(n)$ divides $2 n+9,$ which is odd, $g(n)$ divides $35 .$ When $n=13,2 n+9=35$ and hence $g(13)=35 .$ Thus the maximum value of $g(n)$ is $35 .$ (Precisely for which $n$ do we have $g(n)=35 \text { (or, if you wish, } 1 \text { or } 5 \text { or } 7) ?$ A bit more work will tell you. Try it.)
+
+2015-q1
+---
+Consider the polynomial $p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)$ where $a_{i}$ is a real number for each $i=1, \ldots, 10 .$ Suppose all of the eleven coefficients of $p(x)$ are positive. For each of the following statements, decide if it is true or false. Write your answers as a sequence of four letters $(\mathrm{T} / \mathrm{F})$ in correct order.
+(i) The polynomial $p(x)$ must have a global minimum.
+(ii) Each $a_{i}$ must be positive.
+(iii) All real roots of $p^{\prime}(x)$ must be negative.
+(iv) All roots of $p^{\prime}(x)$ must be real.
+
+2015-q2i
+---
+(i) By the binomial theorem $(\sqrt{2}+1)^{10}=\sum_{i=0}^{10} C_{i}(\sqrt{2})^{i},$ where $C_{i}$ are appropriate constants. Write the value of $i$ for which $C_{i}(\sqrt{2})^{i}$ is the largest among the 11 terms in this sum.
+
+2015-q2ii
+---
+(ii) For every natural number $n,$ let $(\sqrt{2}+1)^{n}=p_{n}+\sqrt{2} q_{n},$ where $p_{n}$ and $q_{n}$ are integers. Calculate $\lim _{n \rightarrow \infty}\left(\frac{p_{n}}{q_{n}}\right)^{10}$
+
+2015-q3
+---
+(a) Show that there are exactly 2 numbers $a$ in $\{2,3, \ldots, 9999\}$ for which $a^{2}-a$ is divisible by $10000 .$ Find these values of $a$.
+(b) Let $n$ be a positive integer. For how many numbers $a$ in $\left\{2,3, \ldots, n^{2}-1\right\}$ is $a^{2}-a$ divisible by $n^{2} ?$ State your answer suitably in terms of $n$ and justify.
+
+2015-q4
+---
+

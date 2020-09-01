@@ -189,7 +189,7 @@ Recall that arcsin \(\left.(t) \text { (also known as } \sin ^{-1}(t)\right)\) i
 ### Use of telescoping
 {: .d-inline-block}
 
-A5, 2015
+A5, 2016
 {: .label}
 
 <p>

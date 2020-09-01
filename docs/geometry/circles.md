@@ -57,10 +57,30 @@ is drawn such that it is tangent to the inscribed circle and the sides \(A B, A 
 Find the sum of the areas of all these circles.
 </p>
 
+<p style="text-align:center;"><img src="/assets/images/2018_a1.png"></p>
+
+
 <details><summary>Solution</summary>
 
 <p>
-The radius of the (first) inscribed circle is \(1 .\) Its not hard to see that that a s you go on inscribing the circles the corresponding radii decrease by \(1 / 3\). Let \(A\) denote the total area of these circles then
+Let us calculate the radius of the largest inscribed circle.
+
+<p style="text-align:center;"><img src="/assets/images/cmi2018_a1_sol.svg"></p>
+
+\begin{align}
+BD &= \frac{AD}{\tan 60^{\circ}} = \frac{3}{\sqrt{3}} = \sqrt{3} \\
+OD &= BD\times \tan 30^{\circ} = 1 \text{cm}
+\end{align}
+
+</p>
+
+<p>
+Hence, the size of the largest circle is 1 cm. The next triangle's base passes through point P. We know that AP=1 cm, which is 1/3rd the size of the altitude of the original triangle. Hence, the next circle that is inscribed is 1/3rd the size of the largest circle. The radii follow a geometric progression.
+</p>
+
+<p>
+
+Let \(A\) denote the total area of these circles then:
 
 \[
 \begin{aligned}
@@ -343,7 +363,7 @@ nor on the tangent at \(\mathrm{B}\) (so line \(\mathrm{XB}\) meets the circle i
 ### An old Russian problem
 {: .d-inline-block}
 
-B6, 2011
+B12, 2011
 {: .label}
 
 <p>In the quadrilateral ABCD shown below, AM and CN are the altitudes of the triangles ABD and CBD, respectively. Show that BN=DM.</p>

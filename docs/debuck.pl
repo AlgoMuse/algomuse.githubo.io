@@ -45,8 +45,8 @@ my $nl  = chr(10);
 
 my @divided;
 
-my @sgl = ($bk . $bk . $lb,  $bk . $bk . $rb);
-my @dbl = ($bk . $bk . $lsb, $bk . $bk . $rsb);
+my @sgl = ($bk . $lb,  $bk . $rb);
+my @dbl = ($bk . $lsb, $bk . $rsb);
 
 # Were we given any arguments?  If so, the filename is the first
 

@@ -7,6 +7,10 @@ nav_order: 61
 
 # Combinatorics
 
+1. TOC
+{:toc}
+
+
 
 ### Letter arrangement
 {: .d-inline-block}
@@ -950,6 +954,9 @@ This gives the general idea. If \(k \geq 3\) is stable,  then there are \(a_{1},
 
 
 </details>
+
+
+**Reference.** [Egyptian fractions](https://en.wikipedia.org/wiki/Egyptian_fraction).
 
 
 

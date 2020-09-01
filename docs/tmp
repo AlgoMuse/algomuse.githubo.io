@@ -1,0 +1,10 @@
+2012-a1a
+---
+Consider the diagonals AC and BD. By the basic proportionality theorem in triangle ABC, we get that $\mathrm{EF}$ and $\mathrm{AC}$ are parallel and $\mathrm{AC}=2 \mathrm{EF} .$ Moreover, ABC and EBF are similar. Using triangles ADC and HDG, we similarly get that AC is parallel to HG, AC $=2 \mathrm{HG}$. Thus EF and HG are parallel. Likewise FG and EH are parallel (both parallel to BD), so EFGH is a parallelogram. Also by similarity, Area(ABC) $=4$ Area $(\mathrm{EBF}),$ Area $(\mathrm{ADC})=$ 4 Area $(\mathrm{HDG}),$ Area $(\mathrm{BAD})=4$ Area $(\mathrm{EAH})$ and $\mathrm{Area}(\mathrm{BCD})=4$ Area $(\mathrm{FCG}) .$ ( Note. $\mathrm{So}$
+far convexity of $\mathrm{ABCD}$ is unnecessary. But the next steps need it, draw pictures and see. $)$
+$\operatorname{Area}(\mathrm{EFGH})=\operatorname{Area}(\mathrm{ABCD})-[\operatorname{Area}(\mathrm{EBF})+\operatorname{Area}(\mathrm{FCG})+\operatorname{Area}(\mathrm{GDH})+\operatorname{Area}(\mathrm{HAE})]$
+$=\operatorname{Area}(\mathrm{ABCD})-\frac{1}{4}[\operatorname{Area}(\mathrm{ABC})+\operatorname{Area}(\mathrm{BCD})+\operatorname{Area}(\mathrm{CDA})+\operatorname{Area}(\mathrm{DAB})]$
+$=\operatorname{Area}(\mathrm{ABCD})-\frac{1}{2} \operatorname{Area}(\mathrm{ABCD})=\frac{1}{2} \operatorname{Area}(\mathrm{ABCD})$
+
+2012-a1b
+---

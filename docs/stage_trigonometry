@@ -1,0 +1,108 @@
+2012-q1
+---
+Find the number of real solutions to the equation $x=99 \sin (\pi x)$.
+
+2012-a1
+---
+The number of solutions is the number of times the line $y=\frac{x}{99}$ meets the graph of $y=\sin (\pi x)$. This can occur only for $x \in[-99,99]$ because $\sin (\pi x)$ has range $[-1,1] .$ Also $\sin (\pi x)$ is periodic with period $2 .$ For $x \geq 0,$ the two graphs meet twice in each cycle of $\sin (\pi x),$ both intersections occurring in the first half of the cycle. There are 50 such half-cycles from $x=0$ to $x=99,$ over intervals $[0,1],[2,3], \ldots,[98,99] .$ So there are 100 non-negative solutions. Similarly there are 100 solutions $\leq 0$ because both graphs are odd. since $x=0$ is counted twice, the total number of solutions is $100+100-1=199 .$
+
+
+2015-q1
+---
+
+
+
+Recall that $\sin ^{-1}$ is the inverse function of sin, as defined in the standard fashion. (Sometimes $\sin ^{-1}$ is called arcsin. ) Let $f(x)=\sin ^{-1}(\sin (\pi x))$. Write the values of the following. (Some answers may involve the irrational number $\pi . \text { Write such answers in terms of } \pi .)$
+(i) $f(2.7)$
+(ii) $f^{\prime}(2.7)$
+(iii) $\int_{0}^{2.5} f(x) d x$
+(iv) the smallest positive $x$ at which $f^{\prime}(x)$ does not exist.
+
+2015-a1
+---
+
+Answer: The graph of $f$ is periodic with period 2 . From $x=-0.5$ to $x=0.5$ it is the line $y=\pi x$ of slope $\pi$ passing through the origin and from $x=0.5$ to $x=1.5$ it is the line with slope $-\pi,$ which crosses the $\mathrm{X}$ axis at $x=1 .$ Using this we see that
+(i) $f(2.7)=$ $\sin ^{-1}(\sin (2.7 \pi))=\sin ^{-1}(\sin (0.7 \pi))=\sin ^{-1}(\sin (0.5 \pi+0.2 \pi))=0.5 \pi-0.2 \pi=0.3 \pi$
+(ii) $f^{\prime}(2.7)=-\pi$
+(iii) $\int_{0}^{2.5} f(x) d x=\int_{2}^{2.5} f(x) d x=\pi / 8$ and
+(iv) the smallest positive $x$ at which $f^{\prime}(x)$ does not exist is $x=1 / 2$
+
+
+
+
+2016-q1
+---
+
+Find the value of the following sum of 100 terms. (Possible hint: also consider the same sum with $\sin ^{2}$ instead of $\cos ^{2}$.)
+$$
+\cos ^{2}\left(\frac{\pi}{101}\right)+\cos ^{2}\left(\frac{2 \pi}{101}\right)+\cos ^{2}\left(\frac{3 \pi}{101}\right)+\cdots+\cos ^{2}\left(\frac{99 \pi}{101}\right)+\cos ^{2}\left(\frac{100 \pi}{101}\right)
+$$
+
+2016-a1
+---
+
+
+Let $\theta=\frac{\pi}{101} .$ Let $A=\cos ^{2}(\theta)+\cos ^{2}(2 \theta)+\cdots+\cos ^{2}(100 \theta) .$ Let $B=\sin ^{2}(\theta)+\sin ^{2}(2 \theta)+$
+$\cdots+\sin ^{2}(100 \theta) .$ We have $A+B=100,$ and $A-B=\cos (2 \theta)+\cos (4 \theta)+\cdots+\cos (200 \theta)$
+since $\theta=\frac{\pi}{101},$ we see that $\cos (2 \theta)=\cos \left(\frac{2 \pi}{101}\right)$ is the real part of $e \frac{2 \pi i}{101}, i$ being the complex square root of $-1 .$ Interpreting the other terms in $A-B$ similarly we see that $A-B$ is the real part of the sum of the $101^{\text {th }}$ roots of unity except $1 .$ So $A-B=-1$. This gives $A=\frac{99}{2}, B=\frac{101}{2}$
+
+2017-q1
+---
+Let $A=\frac{2 \pi}{9},$ i.e., $A=40$ degrees. Calculate the following
+$$
+1+\cos A+\cos 2 A+\cos 4 A+\cos 5 A+\cos 7 A+\cos 8 A
+$$
+
+2017-a1
+---
+There are many ways to arr ive at the answer $1 .$ Here are two approaches. Let $S$ be the above sum. Then
+$$
+\begin{aligned}
+S &=1+\cos A+\cos 2 A+\cos 4 A \cos (2 \pi-4 A)+\cos (2 \pi-2 A)+\cos (2 \pi-A) \\
+&=1+2(\cos A+\cos 2 A+\cos 4 A) \\
+&=1+2\left(2 \cos \left(\frac{3 A}{2}\right) \cos \left(\frac{A}{2}\right)+\cos \left(\pi-\frac{A}{2}\right)\right) \\
+&=1+2\left(2 \cos \left(\frac{\pi}{3}\right) \cos \left(\frac{A}{2}\right)-\cos \left(\frac{A}{2}\right)\right) \\
+&=1+2\left(2 \times \frac{1}{2} \cos \left(\frac{A}{2}\right)-\cos \left(\frac{A}{2}\right)\right) \\
+&=1
+\end{aligned}
+$$
+Recall that $\cos n A$ is the real part of $e^{i n A}$. Then
+$$
+\begin{aligned}
+S &=\sum_{n=0}^{8} \cos n A-\sum_{n=1}^{2} \cos (3 n A) \\
+&=\operatorname{Re}\left(\sum_{n=0}^{8} e^{i n A}-\sum_{n=1}^{2} e^{i n \frac{2 \pi}{3}}\right) \\
+&=\operatorname{Re}\left(0-\omega-\omega^{2}\right) \\
+&=1
+\end{aligned}
+$$
+Here $\omega$ is a complex cube root of unity.
+
+2018-q1
+---
+Recall that arcsin $\left.(t) \text { (also known as } \sin ^{-1}(t)\right)$ is a function with domain [-1,1] and range $\left[-\frac{\pi}{2}, \frac{\pi}{2}\right] .$ Consider the function $f(x):=\arcsin (\sin (x))$ and answer the following questions as a series of four letters ( $T$ for True and $F$ for False) in order.
+(a) The function $f(x)$ is well defined for all real numbers $x$. TRUE
+(b) The function $f(x)$ is continuous wherever it is defined. TRUE
+(c) The function $f(x)$ is differentiable wherever it is continuous. FALSE
+
+2018-a1
+---
+
+This is a periodic function with period $2 \pi .$ On $[-\pi / 2, \pi / 2]$ it is identity and on $[\pi / 2,3 \pi / 2]$ it is negative identity. Hence the function is well-defined and continuous everyw here. However, it is not differentiable at no nzero multiples of $\pi / 2$
+
+2019-q1
+---
+Let $f$ be a real valued continuous function defined on $\mathbb{R}$ satisfying
+$f^{\prime}\left(\tan ^{2} \theta\right)=\cos 2 \theta+\tan \theta \sin 2 \theta,$ for all real numbers $\theta$
+If $f^{(0)}=-\cos \frac{\pi}{12}$ then find $f(1)$
+
+2019-a1
+---
+Note there was a typo in the exam; it was printed $f^{\prime}(0)$ instead of $f(0)$. Answer: $\mathrm{P}$ ut $y=\tan ^{2} \theta .$ Then we have
+$$
+f^{\prime}(y)=1
+$$
+Hence the answer is $1-\cos \frac{\pi}{12}$.
+
+
+
+

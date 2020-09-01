@@ -1,0 +1,33 @@
+### Limit of a log of an exponent
+{: .d-inline-block}
+
+A9, 2019
+{: .label}
+
+<p>Consider \(f: \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}\) defined as follows:</p>
+
+<p>\[ f(a, b):=\lim_{n \rightarrow \infty} \frac{1}{n} \log_{e}\left[e^{n a}+e^{n b}\right] \]</p>
+
+<p>(a) \(f\) is not onto i.e. the range of \(f\) is not all of \(\mathbb{R}\).</p>
+<p>(b) For every \(a\) the function \(x \mapsto f(a, x)\) is continuous everywhere.</p>
+<p>(c) For every \(b\) the function \(x \mapsto f(x, b)\) is differentiable everywhere.</p>
+<p>(d) We have \(f(0, x)=x\) for all \(x \geq 0\)</p>
+
+<p>False-True-False-True</p>
+
+---
+
+### Continuity based on integral conditions
+{: .d-inline-block}
+
+A10, 2019
+{: .label}
+
+<p>Let \(f: \mathbb{R} \rightarrow \mathbb{R}\)</p>
+<p>(a) There is no continuous function \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x<\frac{1}{4}\)</p>
+<p>(b) There is only one continuous function \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}\)</p>
+<p>(c) There are infinitely many continuous functions \(f\) for which \(\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}\)</p>
+
+<p>False-False-True</p>
+
+

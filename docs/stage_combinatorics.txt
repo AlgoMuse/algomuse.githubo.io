@@ -1,0 +1,478 @@
+### Pigeon-hole principle
+
+A8, 2010
+{: .label }
+
+<p>
+If 8 points in a plane are chosen to lie on or inside a circle of diameter $2 \mathrm{cm}$ then show that the distance between some two points will be less than $1 \mathrm{cm}$.
+</p>
+
+
+
+---
+
+### Just count
+
+B3, 2010
+{: .label }
+
+<p>
+(a) A computer program prints out all integers from 0 to ten thousand in base 6 using the numerals 0,1,2,3,4 and $5 .$ How many numerals it would have printed?
+(b) A 3-digt number $abc$ in base 6 is equal to the 3-digit number $cba$ in base 9. Find the digits.
+</p>
+
+
+
+---
+
+### Handshake party
+
+<p>
+In a business meeting, each person shakes hands with each other person, with the exception of Mr. L. since Mr. L arrives after some people have left, he shakes hands only with those present. If the total number of handshakes is exactly $100,$ how many people left the meeting before Mr. L arrived? (Nobody shakes hands with the same person more than once.)
+</p>
+
+---
+
+### Intersection family
+
+B3, 2012
+{: .label}
+
+
+<p>
+(a) We want to choose subsets $A_{1}, A_{2}, \ldots, A_{k}$ of $\{1,2, \ldots, n\}$ such that any two of the chosen subsets have nonempty intersection. Show that the size $k$ of any such collection of subsets is at most $2^{n-1}$
+</p>
+
+<p>
+(b) For $n>2$ show that we can always find a collection of $2^{n-1}$ subsets $A_{1}, A_{2}, \ldots$ of $\{1,2, \ldots, n\}$ such that any two of the $A_{i}$ intersect, but the intersection of all $A_{i}$ is empty.
+</p>
+
+
+Sol.
+
+<p>
+(a) If a set $A$ is in such a collection $\mathcal{C},$ then the complement of $A$ cannot be in $\mathcal{C}$. Therefore $|\mathcal{C}| \leq \frac{1}{2}($ total number of subsets of $\{1,2, \ldots, n\})=\frac{1}{2} 2^{n}=2^{n-1}$
+</p>
+
+<p>
+(b) There are many ways to build such a collection, e.g., take all $2^{n-1}$ subsets of $\{1,2, \ldots, n\}$ containing $1,$ remove the singleton set \{1\} and instead include its complement. $-\mathrm{OR}-$ Note that for $n=3,$ the four sets \{1,2\},\{2,3\},\{1,3\},\{1,2,3\} give a (unique) solution. For $n>3$ take the union of each of these 4 sets with all $2^{n-3}$ subsets of $\{4, \ldots, n\} .-\mathrm{OR}-$ For $n=2 k+1,$ take all subsets of $\{1,2, \ldots, n\}$ of size $>k .$ Any two of these will intersect. Now use $\left(\begin{array}{l}n \\ i\end{array}\right)=\left(\begin{array}{c}n \\ n-i\end{array}\right) .$ For $n=2 k,$ take all subsets of size $>k$ along with half the subsets of size $k,$ namely those containing a fixed number. (Check the details.)
+</p>
+
+
+
+---
+
+### Seating boys and girls
+
+A5, 2013
+{: .label}
+
+
+<p>
+There are 8 boys and 7 girls in a group. For each of the tasks specified below, write an expression (without simplifying) for the number of ways of doing it.
+</p>
+
+
+<p>
+(a) Sitting in a row so that all boys sit contiguously and all girls sit contiguously, i.e., no girl sits between any two boys and no boy sits between any two girls.
+</p>
+
+<p>
+(b) Sitting in a row so that between any two boys there is a girl and between any two girls there is a boy
+</p>
+
+<p>
+(c) Choosing a team of six people from the group
+</p>
+
+
+<p>
+(d) Choosing a team of six people consisting of unequal number of boys and girls
+</p>
+
+
+Sol.
+
+<p>
+ $2 \times 8 ! \times 7 !$ (The factor of 2 arises because the two blocks of boys and girls can switch positions.)
+</p>
+
+<p>
+ $8 ! \times 7 !$ (There is no factor of 2 because there must be a boy at each end.)
+</p>
+
+<p>
+ $\left(\begin{array}{c}15 \\ 6\end{array}\right)$
+</p>
+
+<p>
+ $\left(\begin{array}{c}15 \\ 6\end{array}\right)-\left(\begin{array}{l}8 \\ 3\end{array}\right)\left(\begin{array}{l}7 \\ 3\end{array}\right)=\left(\begin{array}{l}8 \\ 6\end{array}\right)+\left(\begin{array}{l}8 \\ 5\end{array}\right)\left(\begin{array}{l}7 \\ 1\end{array}\right)+\left(\begin{array}{l}8 \\ 4\end{array}\right)\left(\begin{array}{l}7 \\ 2\end{array}\right)+\left(\begin{array}{l}8 \\ 2\end{array}\right)\left(\begin{array}{l}7 \\ 4\end{array}\right)+\left(\begin{array}{l}8 \\ 1\end{array}\right)\left(\begin{array}{l}7 \\ 5\end{array}\right)+\left(\begin{array}{l}7 \\ 6\end{array}\right)$
+</p>
+
+
+
+---
+
+
+
+
+
+### Difference equations III
+
+B6, 2013
+{: .label}
+
+
+<p>
+Define $f_{k}(n)$ to be the sum of all possible products of $k$ distinct integers chosen from the set $\{1,2, \ldots, n\},$ i.e.,
+<br>
+
+\[ f_{k}(n)=\sum_{1 \leq i_{1}<i_{2}<\ldots<i_{k} \leq n} i_{1} i_{2} \ldots i_{k} \]
+
+</p>
+
+<p>
+(a) For $k>1,$ write a recursive formula for the function $f_{k},$ i.e., a formula for $f_{k}(n)$ in terms of $f_{\ell}(m),$ where $\ell<k$ or $(\ell=k$ and $m<n)$
+</p>
+
+<p>
+(b) Show that $f_{k}(n),$ as a function of $n,$ is a polynomial of degree $2k$.
+</p>
+
+<p>
+(c) Express $f_{2}(n)$ as a polynomial in variable $n$.
+</p>
+
+Sol.
+
+<p>
+(a) Break up the terms in the definition of $f_{k}(n)$ into two groups: the terms in which $i_{k}=n$ add up to $n f_{k-1}(n-1)$ and the remaining terms, i.e., the ones in which $i_{k} \leq n-1,$ add up to $f_{k}(n-1) .$ So we get $f_{k}(n)=n f_{k-1}(n-1)+f_{k}(n-1)$
+c) By part a we have $f_{2}(n)-f_{2}(n-1)=n f_{1}(n-1)=n \times \frac{n(n-1)}{2}=\frac{1}{2}\left(n^{3}-n^{2}\right)$. Similarly
+$f_{2}(n-1)-f_{2}(n-2)=\frac{1}{2}\left((n-1)^{3}-(n-1)^{2}\right)$ and so on up to $f_{2}(2)-f_{2}(1)=\frac{1}{2}\left(2^{3}-2^{2}\right)$
+Note that $f_{2}(1)=0,$ which we may also write as $\frac{1}{2}\left(1^{3}-1^{2}\right) .$ Adding up, we get for any $n \geq 1, f_{2}(n)=\sum_{j=1}^{j=n} \frac{1}{2}\left(j^{3}-j^{2}\right)=\frac{1}{2}\left(\frac{n^{2}(n+1)^{2}}{4}-\frac{n(n+1)(2 n+1)}{6}\right),$ where we have used
+standard formulas for the sum of first $n$ cubes and of first $n$ squares.
+</p>
+
+<p>
+(b) We prove the statement by induction on $k .$ First $f_{1}(n)=\sum_{i=1}^{n} i=\frac{n(n+1)}{2},$ a polynomial of degree 2 as desired. For $k>1,$ we have by part a the equation $f_{k}(n)-f_{k}(n-1)=$ $n f_{k-1}(n-1) .$ The right hand side is a polynomial of degree $1+2(k-1)=2 k-1,$ where $2(k-1)$ is the degree of $f_{k-1}(n-1)$ by induction and the added 1 comes from the factor
+n. since successive differences in the values of $f_{k}$ are given by a polynomial of degree $2 k-1,$ the function $f_{k}$ on positive integers is given by a polynomial of degree 1 more, i.e., of degree $2 k$
+Note: The previous statement is a standard fact, which can be explained as follows. If we assume that $f_{k}(n)$ is a polynomial, then its degree is easily found, because for any polynomial $f$ of degree $m,$ its "successive difference" function $f(x)-f(x-1)$ is a polynomial of degree $m-1 .$ (Reason: If the leading term of $f(x)$ is $a x^{m},$ then the leading term in $f(x)-f(x-1)$ is $a m x^{m-1},$ as seen by expanding the power of $x-1$ in $a x^{m}-a(x-1)^{m}$ The remaining terms in $f(x)-f(x-1)$ do not matter because by expanding powers of $x-1$ in them and simplifying, we only get monomials of degree $<m-1 .)$
+(2) In fact, based on the difference equation, $f_{k}(n)$ must be a polynomial in the variable $n .$ This is a consequence of the following well-known fact.
+</p>
+
+<p>
+(c) Claim: given a polynomial $h(x)$ of degree $d$, there is a polynomial $g(x)$ of degree $d+1$ such that $g(x)-g(x-1)=h(x)$. Proof: Induction on $d,$ the degree of
+$h .$ If $h(x)=c$ a constant, then $g(x)=c x$ works. Now for $d>1,$ it is enough to find a polynomial $g(x)$ such that $g(x)-g(x-1)=x^{d}$ (because if $h(x)=c x^{d}+\tilde{h}(x),$ where $\tilde{h}$ has degree $<d,$ by induction we find $\tilde{g}$ for $h$ and then $c g(x)+\tilde{g}(x)$ works for $h(x)) .$ To find such $g(x),$ notice that for $g_{1}(x)=x^{d+1},$ we have $h_{1}(x)=g_{1}(x)-g_{1}(x-1)=(d+1) x^{d}+h_{2}(x),$ where $h_{2}(x)$
+is a polynomial of degree $d-1 .$ By induction $h_{2}(x)=g_{2}(x)-g_{2}(x-1)$ for a polynomial $g_{2}(x)$ of degree $d .$ Now $g(x)=\frac{1}{d+1}\left(g_{1}(x)-g_{2}(x)\right)$ works.
+</p>
+
+
+
+---
+
+### Count the number of functions
+
+B3, 2014
+{: .label}
+
+<p>
+(i) How many functions are there from the set $\{1, \ldots, k\}$ to the set $\{1, \ldots, n\} ?$
+</p>
+
+
+<p>
+(ii) Let $P_{k}$ denote the set of all subsets of $\{1, \ldots, k\} .$ Find a formula for the number of functions $f$ from $P_{k}$ to $\{1, \ldots, n\}$ such that $f(A \cup B)=$ the larger of the two integers $f(A)$ and $f(B)$. Your answer need not be a closed formula but it should be simple enough to use for given values of $n$ and $k,$ e.g., to see that for $k=3$ and $n=4$ there are 100 such functions.
+Example: When $k=2,$ the set $P_{2}$ contains 4 elements: the empty set $\phi,\{1\},\{2\}$ and $\{1,2\} .$ The function $f$ given by $\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \rightarrow 4,\{1,2\} \rightarrow 4$ satisfies the given condition. But the function $g$ given by $\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \rightarrow 4,\{1,2\} \rightarrow 5$ does not, because $g(\{1\} \cup\{2\})=g(\{1,2\})=5 \neq$ the larger of $g(\{1\})$ and $g(\{2\})=\max (3,4)=4$
+</p>
+
+Sol.
+
+<p>
+(i) How many functions are there from the set $\{1, \ldots, k\}$ to the set $\{1, \ldots, n\} ?$
+</p>
+
+<p>
+(ii) Let $P_{k}$ denote the set of all subsets of $\{1, \ldots, k\} .$ Find a formula for the number of functions $f$ from $P_{k}$ to $\{1, \ldots, n\}$ such that $f(A \cup B)=$ the larger of the two integers $f(A)$ and $f(B)$. Your answer need not be a closed formula but it should be simple enough to use for given values of $n$ and $k$, e.g., to see that for $k=3$ and $n=4$ there are 100 such functions. Example: When $k=2$, the set $P_{2}$ contains 4 elements: the empty set $\phi,\{1\},\{2\}$ and $\{1,2\} .$ The function $f$ given by $\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \rightarrow 4,\{1,2\} \rightarrow 4$ satisfies the given condition. But the function $g$ given by $\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \rightarrow 4,\{1,2\} \rightarrow 5$ does not, because $g(\{1\} \cup\{2\})=g(\{1,2\})=5 \neq$ the larger of $g(\{1\})$ and $g(\{2\})=\max (3,4)=4$
+</p>
+
+---
+
+
+
+
+### Charity
+
+A1, 2015
+{: .label}
+
+<p>
+Ten people sitting around a circular table decide to donate some money for charity. You are told that the amount donated by each person was the average of the money donated by the two persons sitting adjacent to him/her. One person donated Rs. $500 .$ Choose the correct option for each of the following two questions. Write your answers as a sequence of two letters $(\mathrm{a} / \mathrm{b} / \mathrm{c} / \mathrm{d})$
+</p>
+
+<p>
+What is the total amount donated by the 10 people?
+</p>
+
+<p>
+(a) exactly Rs. 5000
+</p>
+
+<p>
+(b) less than Rs. 5000
+</p>
+
+<p>
+(c) more than Rs. 5000
+</p>
+
+<p>
+(d) not possible to decide among the above three options.
+</p>
+
+<p>
+(a) exactly Rs. $5000$.
+</p>
+
+<p>
+What is the maximum amount donated by an individual?
+</p>
+
+<p>
+(a) exactly Rs. 500
+</p>
+
+<p>
+(b) less than Rs. 500
+</p>
+
+<p>
+(c) more than Rs. 500
+</p>
+
+<p>
+(d) not possible to decide among the above three options.
+</p>
+
+
+<p>
+(a) exactly Rs. $500$.
+</p>
+
+<p>
+Consider the person who donated Rs. 500.  Suppose the neighbor to the left donates $500+x$.
+Then the one on the right donates $500-x$.  But continuing leftward, the amounts donated are $500+2 x, 500+3 x, \ldots,$
+forcing $x$ to be $0,$ since you come around to the neighbor to the right.
+</p>
+
+
+
+
+### Ordered binary strings
+
+A2, 2015
+{: .label}
+
+<p> Consider all finite letter-strings formed by using only two letters A and B. We consider the usual dictionary order on these strings.
+For example, \(ABAA < ABB \) and \( AB < ABAA \).  </p>
+
+<p>
+For each of the statements below, state if it is true or false.
+</p>
+
+<p>
+(a) Let $w$ be an arbitrary string. There exists a unique string $y$ satisfying both the following properties:<br>
+(i) $w<y$ and<br>
+(ii) there is no string $x$ with $w<x<y$
+</p>
+
+<p>
+(b) It is possible to give an infinite decreasing sequence of strings, i.e. a sequence $w_{1}, w_{2}, \ldots,$ such that $w_{i+1}<w_{i}$ for each positive integer $i$
+</p>
+
+<p>
+(c) Fewer than 50 strings are smaller than ABBABABB
+</p>
+
+
+Sol.
+
+<p>True.  Append A to $w$. </p>
+<p>True.  B, AB, AAB, AAAB, ... </p>
+<p>False. There are infinitely many such strings e.g. A, AA, AAA, AAAA, </p>
+
+---
+
+
+### Number plates
+
+A8, 2015
+{: .label}
+
+<p>
+The format for car license plates in a small country is two digits followed by three vowels,
+e.g. $04$ IOU. A license plate is called "confusing" if the digit 0 (zero) and the vowel O are both present on it. For example $04 ~ I O U$ is confusing but $20 \mathrm{AEI}$ is not.
+(i) How many distinct number plates are possible in all?
+(ii) How many of these are not confusing?
+</p>
+
+Sol.
+
+<p>
+(i) $10^{2} \times 5^{3}=12500$
+(ii) $10^{2} \times 4^{3}$ plates without vowel $\mathrm{O}+9^{2} \times\left(5^{3}-4^{3}\right)$ plates with vowel O but without 0. This gives $6400+4941=11341$.
+</p>
+
+---
+
+
+### Conditional probability
+
+A11, 2015
+{: .label}
+
+There are four distinct balls labelled 1,2,3,4 and four distinct bins labelled $\mathrm{A}, \mathrm{B}, \mathrm{C}, \mathrm{D} .$ The balls are picked up in order and placed into one of the four bins at random. Let $E_{i}$ denote the event that the first $i$ balls go into distinct bins. Calculate the following probabilities.
+Notation: $\operatorname{Pr}[X]=$ the probability of event $X$ taking place. $\operatorname{Pr}[X \mid Y]=$ the probability of event $X$ taking place, given that event $Y$ has taken place.
+
+Sol.
+
+(i) $\operatorname{Pr}\left[E_{4}\right]=\frac{4 !}{4^{4}}=\frac{3}{32}$
+(ii) $\operatorname{Pr}\left[E_{4} \mid E_{3}\right]=\frac{1}{4}$
+(iii) $\operatorname{Pr}\left[E_{4} \mid E_{2}\right]=\frac{24}{4^{2}}=\frac{1}{8}$
+(iv) $\operatorname{Pr}\left[E_{3} \mid E_{4}\right]=1$
+
+---
+
+
+### Logical puzzle
+
+A1, 2016
+{: .label}
+
+Four children K, L, M and R are about to run a race. They make some predictions as follows.
+K says: M will win. Myself will come second.
+R says: M will come second. L will be third.
+M says: L will be last. R will be second.
+After the race, it turns out that each person has made exactly one correct and one incorrect prediction. Write the result of the race in the order from first to the last.
+
+Sol.
+
+If K comes second, then L was third (one correct answer for R). But then R would also need to be second (one correct answer for $\mathrm{M}$ ), a contradiction. So K cannot be second. So M must have won, etc. The order is M R L K.
+
+---
+
+
+### Pairwise sums of a set
+
+B4, 2016
+{: .label}
+
+<p>
+Let $A$ be a non-empty finite sequence of $n$ distinct integers $a_{1}<a_{2}<\cdots<a_{n} .$ Define
+
+\[ A+A=\left\{a_{i}+a_{j} \mid 1 \leq i, j \leq n\right\} \]
+
+i.e., the set of all pairwise sums of numbers from $A$. E.g., for $A=\{1,4\}, A+A=\{2,5,8\}$.
+
+(a) Show that $|A+A| \geq 2 n-1 .$ Here $|A+A|$ means the number of elements in $A+A$.<br>
+
+(b) Prove that $|A+A|=2 n-1$ if and only if the sequence $A$ is an arithmetic progression.<br>
+
+(c) Find a sequence $A$ of the form $0<1<a_{3}<\cdots<a_{10}$ such that $|A+A|=20$.<br>
+
+</p>
+
+Sol.
+
+<p>
+(a) Easy induction, see answer to (b). Or explicitly, one has the $2 n-1$ distinct numbers $a_{1}+a_{1}<a_{1}+a_{2}<\cdots<a_{1}+a_{n}<a_{2}+a_{n}<\ldots<a_{n}+a_{n}$ in $A+A .$ (A way
+to visualize is to write $a_{i}+a_{j}$ at point $(i, j)$ in the XY-plane. Any step to the right or up increases the number. To reach from $2 a_{1}$ to $2 a_{n}$ needs $2 n-1$ such steps. The given example is the path along bottom row and then rightmost column.)
+(b) Suppose the $a_{i}$ form an arithmetic progression. Then for a fixed $k$, the value of $a_{i}+a_{k-i}$ is constant for all possible $i,$ where $2 \leq k \leq 2 n .$ For the converse use induction. There is nothing to prove for $n=1,2 .$ For $n>2,$ remove $a_{n}$ from $A$ to get a set $B .$ Now $|A+A|-|B+B| \geq 2,$ because the two distinct numbers $a_{n-1}+a_{n}$ and $2 a_{n}$ in $A+A$ are greater than all numbers in $B+B .$ So for $|A+A|=2 n-1$ to happen, one must have $|B+B|=2 n-3,$ which by induction forces $a_{1}, \ldots, a_{n-1}$ to be in an arithmetic progression. Moreover $a_{n-2}+a_{n}$ must be in $B+B$ and it can only be the largest number $2 a_{n-1}$ (because all others are smaller than $a_{n-2}+a_{n}$ ). This shows that $a_{n}$ is the next term of the same arithmetic progression.
+(c) $0,1,2,3,4,5,6,7,8,10 .$ This answer is unique. (Why?)
+</p>
+
+
+---
+
+
+2017-q1
+---
+10 oranges are to be placed in 5 distinct boxes labeled $\mathrm{U}, \mathrm{V}, \mathrm{W}, \mathrm{X}, \mathrm{Y} .$ A box may contain any number of oranges including no oranges or all the oranges. What is the number of ways to distribute the oranges so that exactly two of the boxes contain exactly two oranges each?
+
+2017-a1
+---
+Solution. From the five distinct boxes, there are 10 ways to pick the two boxes that will have 2 oranges each. We need to distribute the remaining 6 oranges in the remaining three boxes such that none of the three boxes gets exactly 2 oranges. The possible distributions are $6+0+0$ (which can be done in 3 ways) or $5+1+0$ (6 ways) or $4+1+1$ (3 ways) or $3+3+0(3$ ways $) .$ Thus the required answer is $10 \times(3+6+3+3)=150$
+
+
+---
+
+### Coloring integers
+
+B5, 2017
+{: .label}
+
+<p>
+Each integer is colored with exactly one of three possible colors - black, red or white satisfying the following two rules: the negative of a black number must be colored white, and the sum of two white numbers (not necessarily distinct) must be colored black.<br>
+
+(a) Show that the negative of a white number must be colored black and the sum of two black numbers must be colored white.<br>
+
+(b) Determine all possible colorings of the integers that satisfy these rules.<br>
+
+</p>
+
+Sol.
+
+<p>
+Suppose an integer $n$ is colored white. Then $(n+n)=2 n$ is black, so $-2 n$ is white, so $-2 n+n=-n$ is black. Thus, the negative of a white number must be colored black. Now suppose the integers $n$ and $m$ are both colored black. Then $-n$ and $-m$ are both white, so $-n-m$ is back, so $n+m$ is white. Thus, the sum of two black numbers must be colored white.
+One possible coloring has all the integers colored red, since there are no condit ions on red number s.
+If that is not the case, let $n$ be the smallest positive integer that is not colored red. Suppose the number $n$ is colored black. Then we claim the remaining colors are all fully determined. Namely, the numbers of the form $(3 k+1) n$ will be black, the numbers of the for $m(3 k+2) n$ will be white, and the numbers of the form $(3 k) n$ will be red, for all integers k. And all remaining colors will be red. On the other hand, if the number $n$ is colored white to begin with, then the rema ining numbers will be determined by the same rules, but with bla ck and white sw it che d. Thus we have listed all possible colorings.
+In or der to prove the above claim, we first prove one more rule the colors must obey. Namely, that $(*)$ The sum of a black number and a white number must be colored red. Suppose $n$ is black and $m$ is white, and that $n+m$ is black. But then $(n+m)+(-m)$ is the sum of two black numbers, and must be colored white, which is a contradiction. Similarly, the sum of $n$ and $m$ cannot be white. Therefore it must be red.
+U sing this rule, it is easy to see that the numbers of the for $\mathrm{m}(3 k+1) n$ will be black, the numbers of the for $m(3 k+2) n$ will be white, and the numbers of the for $\mathrm{m}(3 k) n$ will be red, for a ll integers k. It remains to show that all number s that are not multiples of $n$ are colored red.
+We can prove this by contradict ion. As before $n$ is the smallest posit ive integer that is not red, and it is colored bla ck. Suppose $m$ is the smallest posit ive integer that is neither red nor a mult iple of $n$. Then $m=q n+r,$ where $0<r<n$ is the rema inder when $m$ is divided by $n$. We know this remainder is nonzero, since $m$ is not a multiple of $n .$ We also know that $q>0,$ since $m>n .$ Suppose $m$ is white. Then, because $-n$ is white, we know $m-n=(q-1) n+r$ is black, which gives us a smaller non-red positive integer that's not a multiple of $n$. On the other hand, suppose $m$ is colored black. Then $-2 n$ is black, so $m-2 n=(q-2) n+r$ is white. If $q<1,$ this gives us a smaller positive non-red integer that $^{\prime}$ s not a multiple of $n_{1}$ which is a contradiction, provided $q>1 .$ But if $q=1,$ and $m-2 n=-n+r$ is white, that means that $n-r$ is black, a not her contradiction.
+</p>
+
+---
+
+
+### Broken calculator
+
+A7, 2019
+{: .label}
+
+<p> A broken calculator has all its 10 digit keys and two operation keys intact. Let us call these operation keys A and B. When the calculator displays a number $n$ pressing A changes the display to $n+1$. When the calculator displays a number $n$ pressing $B$ changes the display to $2 n .$ For example, if the number 3 is displayed then the key strokes ABBA changes the display in the following steps $3 \rightarrow 4 \rightarrow 8 \rightarrow 16 \rightarrow 17$.  </p>
+
+<p> If 1 is on the display what is the least number of key strokes needed to get 260 on the display?  </p>
+
+Sol.
+
+<p>$9,$ there are exactly two sequences, for example, $BBBBBBABB$.</p>
+
+
+---
+
+### First ascent
+
+
+A8, 2019
+{: .label}
+
+
+<p>
+Let $\pi=\pi_{1} \pi_{2} \ldots \ldots \pi_{n}$ be a permutation of the numbers $1,2,3, \ldots, n$.<br>
+We say $\pi$ has its first ascent at position $k<n$ if $\pi_{1}>\pi_{2} \ldots>\pi_{k}$ and $\pi_{k}<\pi_{k+1}$.<br>
+If $\pi_{1}>\pi_{2}>\ldots>$ $\pi_{n-1}>\pi_{n}$ we say $\pi$ has its first ascent in position $n$.<br>
+</p>
+
+<p>
+For example when $n=4$ the permutation 2134 of has its first ascent at position 2
+The number of permutations which have their first ascent at position $k$ is ...
+</p>
+
+Sol.
+
+<p>
+$\left(\begin{array}{l}n \\ k\end{array}\right)(n-k) !-\left(\begin{array}{c}n \\ k+1\end{array}\right)(n-k-1) !$
+</p>
+
+
+
+

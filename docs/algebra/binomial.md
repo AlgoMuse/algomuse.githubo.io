@@ -82,7 +82,7 @@ Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{
 
 
 
-## Inequalities [2]
+## Inequalities [3]
 
 
 ### AM-GM inequality

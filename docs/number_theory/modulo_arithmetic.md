@@ -17,9 +17,8 @@ nav_order: 3
 
 ---
 
-### Numbers of the form \\(a^2-b^2\\)
+### Difference of squares
 {: .d-inline-block}
-
 
 A5, 2018
 {: .label}

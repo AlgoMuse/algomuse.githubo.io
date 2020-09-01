@@ -1,0 +1,14 @@
+9. Consider $f: \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{R}$ defined as follows:
+$$
+f(a, b):=\lim _{n \rightarrow \infty} \frac{1}{n} \log _{e}\left[e^{n a}+e^{n b}\right]
+$$
+(a) $f$ is not onto i.e. the range of $f$ is not all of $\mathbb{R}$.
+(b) For every $a$ the function $x \mapsto f(a, x)$ is continuous everywhere.
+(c) For every $b$ the function $x \mapsto f(x, b)$ is differentiable everywhere.
+(d) We have $f(0, x)=x$ for all $x \geq 0$
+Answer: FTFT
+$10 .$ Let $f: \mathbb{R} \rightarrow \mathbb{R}$
+(a) There is no continuous function $f$ for which $\int_{0}^{1} f(x)(1-f(x)) d x<\frac{1}{4}$
+(b) There is only one continuous function $f$ for which $\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}$
+(c) There are infinitely many continuous functions $f$ for which $\int_{0}^{1} f(x)(1-f(x)) d x=\frac{1}{4}$
+Answer: FFT

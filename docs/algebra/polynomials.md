@@ -133,7 +133,7 @@ A7, 2011
 
 
 <p>
-When does the polynomial \(1+x+\cdots+x^{n}\) have \(x-a\) as a factor? Here \(n\) is a pos integer greater than 1000 and \(a\) is a real number.
+When does the polynomial \(1+x+\cdots+x^{n}\) have \(x-a\) as a factor? Here \(n\) is a positive integer greater than 1000 and \(a\) is a real number.
 </p>
 
 - [ ] if and only if \\(\;a=-1\\).
@@ -413,7 +413,6 @@ Therefore, \(r\) cannot be a repeated root since RHS \(\displaystyle = \frac{r^{
 ### Polynomial that gives only prime powers
 {: .d-inline-block }
 
-
 B8, 2012
 {: .label }
 
@@ -596,7 +595,6 @@ Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) 
 
 ### Difference equations
 {: .d-inline-block }
-
 
 B5, 2014
 {: .label}

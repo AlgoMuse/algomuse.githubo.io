@@ -1,10 +1,128 @@
-Recall that $\cos n A$ is the real part of $e^{i n A}$. Then
-\[
-\begin{aligned}
-S &=\sum_{n=0}^{8} \cos n A-\sum_{n=1}^{2} \cos (3 n A) \\
-&=\operatorname{Re}\left(\sum_{n=0}^{8} e^{i n A}-\sum_{n=1}^{2} e^{i n \frac{2 \pi}{3}}\right) \\
-&=\operatorname{Re}\left(0-\omega-\omega^{2}\right) \\
-&=1
-\end{aligned}
-\]
-Here $\omega$ is a complex cube root of unity.
+
+2014-q3
+---
+A9, 2014
+
+<p>Let $\theta_{1}, \theta_{2}, \ldots, \theta_{13}$ be real numbers and let $A$ be the average of the complex numbers $e^{i \theta_{1}}, e^{i \theta_{2}} \ldots, e^{i \theta_{13}},$ where $i=\sqrt{-1}$. As the values of $\theta$ 's vary over all 13 -tuples of real numbers, find</p>
+<p>(i) the maximum value attained by $|A|$</p>
+<p>(ii) the minimum value attained by $|A|$.</p>
+
+Sol.
+
+<p>Answers: 1,0</p>
+
+
+2015-q1
+---
+
+<p>Answer the three questions below. To answer (i) and (ii), replace? with exactly one of the following four options: $<,=,>,$ not enough information to compare.</p>
+<p></p>
+<p>(i) Suppose $z_{1}, z_{2}$ are complex numbers. One of them is in the second quadrant and the other is in the third quadrant. Then ||$z_{1}|-| z_{2}|| \quad ? \quad\left|z_{1}+z_{2}\right|$</p>
+<p>(ii) Complex numbers $z_{1}, z_{2}$ and 0 form an equilateral triangle. Then $\left|z_{1}^{2}+z_{2}^{2}\right| ?\left|z_{1} z_{2}\right|$.</p>
+<p>(iii) Let $1, z_{1}, z_{2}, z_{3}, z_{4}, z_{5}, z_{6}, z_{7}$ be the complex 8 -th roots of unity. Find the value of $\prod_{i=1, \ldots, 7}^{\Pi}\left(1-z_{i}\right),$ where the symbol $\Pi$ denotes product.</p>
+
+2015-a1
+---
+
+<p>(i) ||$z_{1}|-| z_{2}||<\left|z_{1}+z_{2}\right| .$ One way: using triangle inequality for $z_{1}+z_{2}$ and $-z_{2}$ we get $\left|z_{1}\right| \leq\left|z_{1}+z_{2}\right|+\left|-z_{2}\right|$ and so $\left|z_{1}\right|-\left|z_{2}\right| \leq\left|z_{1}+z_{2}\right| .$ Now we may take absolute value on the LHS because switching $z_{1}$ and $z_{2}$ keeps RHS the same. For equality, $z_{1}+z_{2}$ and $-z_{2}$ must point in the same direction, so $z_{1}$ and $z_{2}$ must be along the same line. But they are in quadrants 2 and $3,$ so this cannot happen.</p>
+<p>(ii) $z_{2}$ must be obtained by rotating $z_{1}$ by angle $\pi / 3,$ say in the counterclockwise direction (otherwise interchange the two). Then $z_{2}=z_{1} e^{\frac{\pi i}{3}}$. Then $z_{1}^{2}+z_{2}^{2}=z_{1}^{2}\left(1+e^{\frac{2 \pi i}{3}}\right)$ and $z_{1} z_{2}=z_{1}^{2} e^{\frac{\pi i}{3}} . \quad$ Now $1+e^{\frac{2 \pi i}{3}}=e^{\frac{\pi i}{3}}$ (see by calculation or picture), so we have in fact $z_{1}^{2}+z_{2}^{2}=z_{1} z_{2}$</p>
+<p>(iii) We have $\prod_{i=1, \ldots, 7}\left(x-z_{i}\right)=\frac{x^{8}-1}{x-1}=1+x+\ldots+x^{7}$. Putting $x=1$ gives $\prod_{1=1, \ldots, 7}\left(1-z_{i}\right)=8$</p>
+
+
+
+2016-q1
+---
+<p>A step starting at a point $P$ in the $X Y$ -plane consists of moving by one unit from $P$ in one of three directions: directly to the right or in the direction of one of the two rays that make the angle of $\pm 120^{\circ}$ with positive $X$ -axis. (An opposite move, i.e. to the left/southeast/northeast, is not allowed.) A path consists of a number of such steps, each new step starting where the previous step ended. Points and steps in a path may repeat.</p>
+<p>Find the number of paths starting at (1,0) and ending at (2,0) that consist of</p>
+<p>(i) exactly 6 steps</p>
+<p>(ii) exactly 7 steps.</p>
+
+Sol.
+
+<p>Let there be $a$ steps to the right (east), b steps north-west and c steps southwest. The total number of steps is $a+b+c .$ The key idea is to think of the northwest step as a move in the complex plane along $\omega$, the complex cube root of unity, the southwest step as a move in the complex plane along $\omega^{2}$ and the step to the right as a move along $\omega^{3}=1$. From the hypothesis we then have $a+b \omega+c \omega^{2}=1 .$ Using $1+\omega+\omega^{2}=0$ we see that $a-1=b=c .$ This then rules out $a+b+c=6,$ so the number of 6 step paths is zero. A 7 step path is possible only with $a=3, b=2, c=2$. The number of such paths is the multinomial coefficient $\left(\begin{array}{c}7 \\ 3,2,2\end{array}\right)=210 .$ (Instead of complex numbers one can also think in terms of vector addition in the plane.)</p>
+
+
+2017-q1
+---
+<p>Find all complex solutions to the equation:</p>
+
+<p>$$ x^{4}+x^{3}+2 x^{2}+x+1=0 $$</p>
+
+
+Sol.
+
+<p>It is easy to see that $x^{4}+x^{3}+2 x^{2}+x+1=\left(x^{2}+1\right)\left(x^{2}+x+1\right)$.</p>
+
+
+2018-q1
+---
+<p>Consider the equation</p>
+
+<p>$$ z^{2018}=2018^{2018}+i $$</p>
+
+<p>where $i=\sqrt{-1}$</p>
+<p>(a) How many complex solutions does this equation have?</p>
+<p>(b) How many solutions lie in the first quadrant?</p>
+<p>(c) How many solutions lie in the second quadrant?</p>
+
+Sol.
+
+<p>The equation has 2018 complex solutions. In the polar for $m$ the right hand side of the equation can be expressed as $r e^{i \theta}$, where $\theta$ is a very small positive a ng le. Note that 2018 is 2 mod 4 . Of the 2018 solutions of $x^{2} 018=r$, one each is on positive a nd negative $X$ -axis. The remaining 2016 are divided equally in the four quadrants, 504 each. Now rotating the se by the very tiny a ngle $\theta / 2018$ gives 505 each in the first and third quadrant but still 504 in second and fourt h.</p>
+
+
+2019-q1a
+---
+<p>(a) Count the number of roots $w$ of the equation $z^{2019}-1=0$ over complex numbers that satisfy $|w+1| \geq \sqrt{2+\sqrt{2}}$</p>
+
+Sol.
+
+<p>Such roots can be expressed as follows</p>
+
+<p>$$ w=\frac{\cos (2 \pi k)}{2019}+i \frac{\sin (2 \pi k)}{2019} \quad \text { for } k=0,\pm 1, \ldots,\pm 1009 $$</p>
+
+<p>Therefore,</p>
+
+<p>$$ |w+1|^{2}=2+2 \frac{\cos (2 \pi k)}{2019} $$</p>
+
+<p>Hence we want to ident if $\mathrm{y} k$ such $\mathrm{that}$</p>
+
+<p>$$ \frac{\cos (2 \pi k)}{2019} \geq \frac{1}{\sqrt{2}} $$</p>
+
+<p>Which is equivalent to</p>
+
+<p>
+$$
+\begin{array}{l}
+\quad\left|\frac{2 \pi k}{2019}\right| \leq \frac{\pi}{4} \\
+\text { i.e. }|k| \leq 252
+\end{array}
+$$
+</p>
+
+<p>So there are 505 solutions satisfying the given inequality.</p>
+
+
+
+2019-q1b
+---
+<p>(b) Find all real numbers $x$ that satisfy following equation: $\quad 5$ marks</p>
+
+<p>$$ \frac{8^{x}+27^{x}}{12^{x}+18^{x}}=\frac{7}{6} $$</p>
+
+
+Sol.
+
+<p>
+Put $a=2^{x}$ and $b=3^{x}$. This reduces the given equation to the fo llow ing quadratic:
+
+
+$$ 6 a^{2}-13 a b+6 b^{2}=0 $$
+
+Solving the above equation a nd re-subst it uting we get $x=\pm 1$.
+
+</p>
+
+
+
+
+

@@ -1,0 +1,12 @@
+
+Find the number of solutions to \\(e^{x}=\frac{x}{2017}+1\\)
+
+First, note that \\(x=0\\) is clearly a solution. Let \\(f(x)=e^{x}-\frac{x}{2017}-1 \\).
+Then \\(x_{0}=-\log 2017\\) is the only critical point of \\(f(x)\\). For all \\(x<x_{0}\\) we have \\(f^{\prime}(x)<0 \\),
+since \\(f(x) \rightarrow \infty\\) as \\(x \rightarrow-\infty\\) there is only one solution in the int erval \\(\left(-\infty, x_{0}\right)\\). For all \\(x>x_{0}\\) we have \\(f^{\prime}(x)>0\\) (i.e., \\(e^{x}>\frac{1}{2017}\\) ).
+Hence there is only one solution in the interval \\(\left(x_{0}, \infty\right)\\). In total there are exactly two solutions.
+
+
+
+
+

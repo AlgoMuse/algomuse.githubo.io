@@ -258,7 +258,7 @@ If we rotate the solutions to \(x^{2018}=r\) by a tiny angle in the counter-cloc
 ### Counting the roots outside a disk
 {: .d-inline-block}
 
-B2A, 2018
+B2A, 2019
 {: .label}
 
 
