@@ -77,8 +77,9 @@ Manjul Bhargava
 -->
 
 
-## Browse previous year's problems
+## Browse previous years' problems
 
+<br>
 
   <div class="palette">
       <div class="palette-keys">
