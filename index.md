@@ -119,7 +119,7 @@ Manjul Bhargava
 <button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#roots-of-a-quadratic';" onmouseover = "display('A6_2011')"></button>
 <button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#01-polynomial';" onmouseover = "display('A7_2011')"></button>
 <button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#only-one-real-root';" onmouseover = "display('A8_2011')"></button>
-<button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#rolles-theorem-ii';" onmouseover = "display('A9_2011')"></button>
+<button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
@@ -133,7 +133,7 @@ Manjul Bhargava
 <button class="button combinatorics" onclick="location.href='/docs/combinatorics/#impossible-solid';" onmouseover = "display('B6_2011')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#only-one-real-root';" onmouseover = "display('B8_2011')"></button>
-<button class="button blank" onmouseover = "display('none')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#rolles-theorem-ii';" onmouseover = "display('B9_2011')"></button>
 <button class="button numbers" onclick="location.href='/docs/number_theory/prime_factorization/#two-variables-one-equation';" onmouseover = "display('B10_2011')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button geometry" onclick="location.href='/docs/geometry/circles/#an-old-russian-problem';" onmouseover = "display('B12_2011')"></button>
