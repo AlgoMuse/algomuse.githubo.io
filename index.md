@@ -321,7 +321,7 @@ Manjul Bhargava
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button numbers" onclick="location.href='/docs/number_theory/prime_factorization/#number-of-divisors';" onmouseover = "display('A1_2019')"></button>
 <button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#a-simple-substitution';" onmouseover = "display('A2_2019')"></button>
-<button class="button blank" onmouseover = "display('none')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#maximize-area-of-a-rectangle';" onmouseover = "display('A3_2019')"></button>
 <button class="button combinatorics" onclick="location.href='/docs/combinatorics/#sum-of-a-finite-series';" onmouseover = "display('A4_2019')"></button>
 <button class="button probability" onclick="location.href='/docs/probability/#squares-on-a-chessboard';" onmouseover = "display('A5_2019')"></button>
 <button class="button numbers" onclick="location.href='/docs/number_theory/modulo_arithmetic/#is-a-square';" onmouseover = "display('A6_2019')"></button>
@@ -333,18 +333,19 @@ Manjul Bhargava
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
-<button class="button blank" onmouseover = "display('none')"></button>
+<button class="button combinatorics" onclick="location.href='/docs/combinatorics/#count-the-number-of-functions-ii';" onmouseover = "display('B1_2019')"></button>
 <button class="button complex" onclick="location.href='/docs/complex_numbers/#counting-the-roots-outside-a-disk';" onmouseover = "display('B2_2019')"></button>
-<button class="button blank" onmouseover = "display('none')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/integrals/#routine-definite-integral-in-disguise';" onmouseover = "display('B3_2019')"></button>
 <button class="button geometry" onclick="location.href='/docs/geometry/circles/#interior-point-in-a-parallelogram';" onmouseover = "display('B4_2019')"></button>
 <button class="button trigonometry" onclick="location.href='/docs/trigonometry/#geometric-interpretation-of-algebraic-expressions';" onmouseover = "display('B5_2019')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/integrals/#leibniz-rule';" onmouseover = "display('B6_2019')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
 <button class="button blank" onmouseover = "display('none')"></button>
-<button class="button blank" onmouseover = "display('none')"></button>
+
 
 
       </div>
