@@ -360,6 +360,42 @@ But the function \(g\) given by \(\phi \rightarrow 2,\{1\} \rightarrow 3,\{2\} \
 
 ---
 
+### Count the number of functions II
+{:b .d-inline-block}
+
+B1, 2019
+{: .label}
+
+<p>
+Let \(\operatorname{Map}(n)\) be the set of all functions \(f:\{1,2, \ldots, n\} \rightarrow\) \(\{1,2, \ldots, n\}\).
+For \(f, g \in \operatorname{Map}(n), f \circ g\) denotes the function in \(\operatorname{Map}(n)\) that sends \(x\) to \(f(g(x))\)
+</p>
+
+<p>(a) Let \(f \in \operatorname{Map}(n) .\) If for all \(x \in\{1, \ldots, n\}\), \(f(x) \neq x\), show that \(f \circ f \neq f\)</p>
+<p>(b) Count the number of functions \(f \in \operatorname{Map}(n)\) such that \(f \circ f=f\)</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+(a) Let \(f(f(x))=f(x)\) and substitute \(y=f(x)\). Then we get \(f(y)=y\), a contradiction.
+</p>
+
+<p></p>
+
+<p>
+(b) The above implies that each \(x\) has to map to a fixed point of \(f\), that is, a \(y\) such that \(f(y)=y\).
+So in order to count the number of such functions we first need to decide the number of fixed points.
+The number functions that have exactly \(k\) fixed points is \(\left(\begin{array}{l}n \\ k\end{array}\right) k^{n-k}\).
+In order to get the total number, sum the previous quantity over \(1 \leq k \leq n\).
+</p>
+
+
+</details>
+
+
+
+---
 
 ### Ordered binary strings
 {:b .d-inline-block}
@@ -796,10 +832,6 @@ Define \(f_{k}(n)\) to be the sum of all possible products of \(k\) distinct int
 
 <p>
 (a) Break up the terms in the definition of \(f_{k}(n)\) into two groups: the terms in which \(i_{k}=n\) add up to \(n f_{k-1}(n-1)\) and the remaining terms, i.e., the ones in which \(i_{k} \leq n-1,\) add up to \(f_{k}(n-1) .\) So we get \(f_{k}(n)=n f_{k-1}(n-1)+f_{k}(n-1)\)
-c) By part a we have \(f_{2}(n)-f_{2}(n-1)=n f_{1}(n-1)=n \times \frac{n(n-1)}{2}=\frac{1}{2}\left(n^{3}-n^{2}\right)\). Similarly
-\(f_{2}(n-1)-f_{2}(n-2)=\frac{1}{2}\left((n-1)^{3}-(n-1)^{2}\right)\) and so on up to \(f_{2}(2)-f_{2}(1)=\frac{1}{2}\left(2^{3}-2^{2}\right)\)
-Note that \(f_{2}(1)=0,\) which we may also write as \(\frac{1}{2}\left(1^{3}-1^{2}\right) .\) Adding up, we get for any \(n \geq 1, f_{2}(n)=\sum_{j=1}^{j=n} \frac{1}{2}\left(j^{3}-j^{2}\right)=\frac{1}{2}\left(\frac{n^{2}(n+1)^{2}}{4}-\frac{n(n+1)(2 n+1)}{6}\right),\) where we have used
-standard formulas for the sum of first \(n\) cubes and of first \(n\) squares.
 </p>
 </details>
 
@@ -819,9 +851,22 @@ Note: The previous statement is a standard fact, which can be explained as follo
 
 <details>
 <summary>Solution (c)</summary>
-<p>
-(c) <i>Claim</i>. Given a polynomial \(h(x)\) of degree \(d\), there is a polynomial \(g(x)\) of degree \(d+1\) such that \(g(x)-g(x-1)=h(x)\).
 
+<p>
+c) By part a we have \(f_{2}(n)-f_{2}(n-1)=n f_{1}(n-1)=n \times \frac{n(n-1)}{2}=\frac{1}{2}\left(n^{3}-n^{2}\right)\). Similarly
+\(f_{2}(n-1)-f_{2}(n-2)=\frac{1}{2}\left((n-1)^{3}-(n-1)^{2}\right)\) and so on up to \(f_{2}(2)-f_{2}(1)=\frac{1}{2}\left(2^{3}-2^{2}\right)\)
+Note that \(f_{2}(1)=0,\) which we may also write as \(\frac{1}{2}\left(1^{3}-1^{2}\right) .\) Adding up, we get for any \(n \geq 1, f_{2}(n)=\sum_{j=1}^{j=n} \frac{1}{2}\left(j^{3}-j^{2}\right)=\frac{1}{2}\left(\frac{n^{2}(n+1)^{2}}{4}-\frac{n(n+1)(2 n+1)}{6}\right),\) where we have used
+standard formulas for the sum of first \(n\) cubes and of first \(n\) squares.
+</p>
+
+
+<p></p>
+
+<p>
+<i>Claim</i>. Given a polynomial \(h(x)\) of degree \(d\), there is a polynomial \(g(x)\) of degree \(d+1\) such that \(g(x)-g(x-1)=h(x)\).
+</p>
+
+<p>
 <i>Proof:</i> Induction on \(d,\) the degree of \(h .\) If \(h(x)=c\) a constant, then \(g(x)=c x\) works.
 Now for \(d>1,\) it is enough to find a polynomial \(g(x)\) such that \(g(x)-g(x-1)=x^{d}\) (because if \(h(x)=c x^{d}+\tilde{h}(x),\) where \(\tilde{h}\) has degree \(< d\), by induction we find \(\tilde{g}\) for \(h\) and then \(c g(x)+\tilde{g}(x)\) works for \(h(x)) .\) To find such \(g(x)\), notice that for \(g_{1}(x)=x^{d+1},\) we have \(h_{1}(x)=g_{1}(x)-g_{1}(x-1)=(d+1) x^{d}+h_{2}(x),\) where \(h_{2}(x)\)
 is a polynomial of degree \(d-1 .\) By induction \(h_{2}(x)=g_{2}(x)-g_{2}(x-1)\) for a polynomial \(g_{2}(x)\) of degree \(d .\) Now \(g(x)=\frac{1}{d+1}\left(g_{1}(x)-g_{2}(x)\right)\) works. \(\:\square\).

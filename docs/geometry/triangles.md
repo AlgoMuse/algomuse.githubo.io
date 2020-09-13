@@ -220,9 +220,9 @@ Show that the triangle \(P Q R\) is an equilateral triangle with side length \(\
 <details><summary>Solution</summary>
 
 <p>
-Note that triangles \(A B A^{\prime}, C A C^{\prime}\) and \(B C B^{\prime}\) are congr ue nt by the SAS test. Triang les \(B A^{\prime} Q, C B^{\prime} R\) and \(A C^{\prime} P\) are a lso co ngr ue nt. By using the property of opposite a ng les we get that all the three angles of the triangle \(P Q R\) are the same. Hence it is an equila teral triangle.
+Note that triangles \(A B A^{\prime}, C A C^{\prime}\) and \(B C B^{\prime}\) are congruent by the SAS test. Triangles \(B A^{\prime} Q, C B^{\prime} R\) and \(A C^{\prime} P\) are a lso co ngr ue nt. By using the property of opposite angles we get that all the three angles of the triangle \(P Q R\) are the same. Hence it is an equila teral triangle.
 
-Dropping the perpendicular bisector \(A O\) on the side \(B C\) we get the follow ing :
+Dropping the perpendicular bisector \(A O\) on the side \(B C\) we get the following :
 \[
 \begin{aligned}
 A A^{\prime 2} &=A O^{2}+A^{\prime} A^{2} \\
@@ -557,7 +557,7 @@ B2b, 2012
 
 
 <p>
-b) Let \(\mathrm{E}=(0,0), \mathrm{F}=(0,-1), \mathrm{G}=(1,-1), \mathrm{H}=(1,0) .\) Find all points \(\mathrm{A}=(p, q)\) in the
+Let \(\mathrm{E}=(0,0), \mathrm{F}=(0,-1), \mathrm{G}=(1,-1), \mathrm{H}=(1,0) .\) Find all points \(\mathrm{A}=(p, q)\) in the
 first quadrant such that \(\mathrm{E}, \mathrm{F}, \mathrm{G}\) and \(\mathrm{H}\) respectively are the midpoints of the sides \(\mathrm{AB}\), \(\mathrm{BC}, \mathrm{CD}\) and \(\mathrm{DA}\) of a convex quadrilateral \(\mathrm{ABCD}\).
 </p>
 

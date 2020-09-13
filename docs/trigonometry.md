@@ -24,7 +24,7 @@ Find all \(x\in[-\pi,\pi]\) such that \(\cos 3x + \cos x=0\).
 \begin{array}%
 \cos 3x+\cos x=4 \cos ^{3} x-3 \cos x + \cos x \\
 \therefore 4 \cos ^{3} x-2 \cos x=0 \\
-2 \cos x\left(\cos ^{2} x-\frac{1}{2}\right)=0
+\cos x\left(\cos ^{2} x-\frac{1}{2}\right)=0
 \end{array}
 </p>
 
@@ -68,7 +68,7 @@ Note that \(x=0\) is also a root.
 </p>
 
 <p>
-The function \(99 \sin \pi x\) is positive when \(2k < x < 2k+1 \). It equals x when \(x\leq 99\). The positive cycle of \(\sin\pi x\) meets \(y=x\) twice, so there are 198 positive solutions.
+The function \(99 \sin \pi x\) is positive when \(2k < x < 2k+1 \). It equals \(x\) when \(x\leq 99\). The positive cycle of \(\sin\pi x\) meets \(y=x\) twice, so there are 198 positive solutions.
 Counting the zero gives 199 solutions.
 </p>
 

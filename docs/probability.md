@@ -270,7 +270,7 @@ which equals
 
 <p>
 \begin{align}
-P(\text { well prepared both correct })&=\frac{P(\text { well prepared and both correct })}{P(\text { both correct })}\\
+P(\text { well prepared | both correct })&=\frac{P(\text { well prepared and both correct })}{P(\text { both correct })}\\
 &=\frac{2 / 7}{31 / 70}=\frac{20}{31}
 \end{align}
 </p>

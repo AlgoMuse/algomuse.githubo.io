@@ -141,7 +141,7 @@ A11, 2014
 {: .label}
 
 <p>
-A11. Let \(A_{n}=\) the area of a regular \(n\) -sided polygon inscribed in a circle of radius 1 (i.e., vertices of this regular \(n\) -sided polygon lie on a circle of radius 1 ).
+ Let \(A_{n}=\) the area of a regular \(n\) -sided polygon inscribed in a circle of radius 1 (i.e., vertices of this regular \(n\) -sided polygon lie on a circle of radius 1 ).
 (i) Find \(A_{12}\).
 (ii) Find \(\left\lfloor A_{2014}\right\rfloor,\) i.e., the greatest integer \(\leq A_{2014}\)
 </p>

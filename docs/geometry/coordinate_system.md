@@ -77,7 +77,7 @@ Find the slope of a line \(L\) that satisfies both of the following properties:
 
 ---
 
-### Circles with pythagoras
+### Circles with Pythagoras
 {: .d-inline-block}
 
 A6, 2015
@@ -94,9 +94,11 @@ The locus of all points \(P\) such that \(\ell_{1}(P)=3 \ell_{2}(P)\) is a circl
 <details><summary>Solution</summary>
 
 <p>
-Center \(=(10,0),\) radius \(=6\). Use the distance formula and the Pythagorean theorem to get \(y^{2}+(x+8)^{2}-6^{2}=9\left(y^{2}+(x-8)^{2}-4\right)\). Simplifying gives \(y^{2}+(x-10)^{2}=6^{2}\) Another way, assuming the locus to be a circle: note that the ratio of the radii of \(C_{1}, C_{2}\) and that of the tangents is the same (namely 3 ). Now use similar triangles to see that
-2 the desired circle intersects the X-axis at coordinates 4 and 16, giving a diameter of the desired circle (why?)
+Center \(=(10,0),\) radius \(=6\). Using the distance formula and the Pythagorean theorem we get:
+\[y^{2}+(x+8)^{2}-6^{2}=9\left(y^{2}+(x-8)^{2}-4\right)\]
+Simplifying gives \(y^{2}+(x-10)^{2}=6^{2}\).
 </p>
+
 
 
 </details>
@@ -134,7 +136,7 @@ A bubble at the point \(P=\left(a, a^{2}\right)\) must be tangential to the para
 </p>
 
 <p>
-(b) For any nonzero \(a,\) the radius of the bubble satisfies \(O P^{2}=\left(\frac{1}{2}\right)^{2}+a^{2},\) so \(O P>\frac{1}{2}\) The smallest bubble is at the origin and its radius is \(\frac{1}{2}\). (One cannot just directly take \(a=0\) in the above calculations. Argue by continuity or do a separate calculation at the origin. \()\)
+(b) For any nonzero \(a,\) the radius of the bubble satisfies \(O P^{2}=\left(\frac{1}{2}\right)^{2}+a^{2},\) so \(O P>\frac{1}{2}\) The smallest bubble is at the origin and its radius is \(\frac{1}{2}\).
 </p>
 
 
@@ -253,7 +255,8 @@ Let \(L\) be the line of intersection of the planes \(x+y=0\) and \(y+z=0\)
 <details><summary>Solution</summary>
 
 <p>
-Clearly the line \(L\) passes through the origin. Moreover \(L\) is in the direction perpendicular to the normals to the both the planes. The direction vector can be obtained by comp ut ing follow ing cross product
+Clearly the line \(L\) passes through the origin. Moreover \(L\) is in the direction perpendicular to the normals to the both the planes.
+The direction vector can be obtained by computing the following cross product:
 \[
 (i+j) \times(j+\hat{k})=i-j+\hat{k}
 \]
@@ -263,7 +266,8 @@ First, note that the equation of a ny plane that contains the line \(L\) is give
 \[
 x+(1+\lambda) y+\lambda z=0
 \]
-Second, note that one can rotate the plane \(x+y=0\) in either clockw ise or in a nticlo ckwise dire ction. Conseque nt ly there are two such planes. The normal of one of the planes makes an angle of \(45^{\circ}\) with the normal of \(x+y=0\) and the ot her normal makes an a ng le of \(135^{\circ}\).
+Second, note that one can rotate the plane \(x+y=0\) in either clockwise or in anticlockwise direction.
+Consequently there are two such planes. The normal of one of the planes makes an angle of \(45^{\circ}\) with the normal of \(x+y=0\) and the other normal makes an angle of \(135^{\circ}\).
 \[
 \begin{array}{c}
 (i+j) \cdot(i+(1+\lambda) j+\lambda \hat{k})=\pm|i+j \| i+(1+\lambda) j+\lambda \hat{k}| \cos \left(\frac{\pi}{4}\right) \\
