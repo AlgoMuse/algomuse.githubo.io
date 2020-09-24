@@ -96,6 +96,94 @@ Hence, \(\int_{-3}^{3}\left|3 x^{2}-3\right| d x = 44 \).
 ---
 
 
+### Volume of a cave
+{: .d-inline-block}
+
+B7, 2011
+{: .label}
+
+
+<p>
+In this problem we want to find the volume of a cave described by equations. The base of the cave is in the XY-plane and
+the vertical direction is parallel to the Z-axis. The base of the cave lies in the XY-plane bounded by the parabola \(y^{2}=1-x\)
+and the Y-axis. Each cross-section of the cave perpendicular to the X-axis is a square.
+</p>
+
+<p>(a) Show how to write a definite integral that will calculate the volume of this cave.</p>
+
+<p></p>
+
+<p>(b) Evaluate this definite integral. Can you find the volume without using indefinite integrals?</p>
+
+
+<details><summary>Solution</summary>
+
+<p>(a) The volume of the cave is given by the following triple integral:</p>
+
+<p>
+\[ \int_{x=0}^{1} \int_{y=-\sqrt{1-x}}^{\sqrt{1-x}} \int_{z=0}^{2\sqrt{1-x}} \mathrm{d}x \mathrm{d}y \mathrm{d}z \]
+
+(b)
+
+\[ \int_{x=0}^{1} \int_{y=-\sqrt{1-x}}^{\sqrt{1-x}}  2\sqrt{1-x}\; \mathrm{d}x \mathrm{d}y  \]
+
+\[ \int_{x=0}^{1} 4(1-x) \mathrm{d}x = 2 \text{m}^3 \]
+
+</p>
+
+<p>Here is an alternate way to find the volume: The area of the cross-section of the cave goes from 4 sq.m to 0 sq.m linearly as \(x\) goes from 0 to 1. So volume is \(\frac{1}{2} \times 1 \times 4 = 2 \text{m}^3\).</p>
+
+
+</details>
+
+---
+
+### Routine definite integral in disguise
+{: .d-inline-block}
+
+B3, 2019
+{: .label}
+
+<p>Evaluate \(\int_{0}^{\infty}\left(1+x^{2}\right)^{-(m+1)} d x,\) where \(m\) is a natural number.</p>
+
+<details><summary>Solution</summary>
+
+<p>
+
+Put \(x=\tan u\). This changes the integral to
+
+\[ I= \int_{0}^{\pi/2}\cos^{2m}(u) du \]
+
+\[ I=\frac{1}{4} \int_{0}^{2 \pi}\cos^{2m}(u) du \]
+
+
+\[\begin{aligned}
+\cos ^{n} \theta &=2^{-n}\left(\mathrm{e}^{\mathrm{i} \theta}+\mathrm{e}^{-\mathrm{i} \theta}\right)^{n} \\
+&=2^{-n} \sum_{k=0}^{n}\left(\begin{array}{l}n \\ k\end{array}\right) \mathrm{e}^{\mathrm{i} k \theta} \mathrm{e}^{-\mathrm{i}(n-k) \theta} \\
+&=2^{-n} \sum_{k=0}^{n}\left(\begin{array}{l}n \\ k\end{array}\right) \mathrm{e}^{\mathrm{i}(2 k-n) \theta} \\
+\cos^{2m}\theta &=2^{-2m} \sum_{k=0}^{2m} \binom{2m}{k}  \mathrm{e}^{\mathrm{i}(2k-2m) \theta \quad\quad\quad (1) }
+\end{aligned}\]
+
+
+\[\text{ Since } \int_{0}^{2 \pi} e^{i \ell x} d x=\left\{\begin{array}{ll}2 \pi & (\ell=0) \\ 0 & (\ell \neq 0)\end{array}\right.\]
+
+only one term in \((1)\) is non-zero, when \(k=m\).
+
+\[\int_{0}^{2 \pi} \cos ^{2m} x d x=\frac{2 \pi}{2^{2m}} \binom{2m}{m} \]
+
+
+\[I = \frac{1}{4} \cdot \frac{2\pi}{2^{2m}} \cdot \binom{2m}{m}\]
+
+</p>
+
+</details>
+
+
+
+
+---
+
+
 ### Convergence of \\(e^{\text{quadratic}}\\)
 {: .d-inline-block}
 
@@ -356,7 +444,19 @@ A10, 2019
 
 <details><summary>Solution</summary>
 
-<p>False-False-True</p>
+
+<p>(a) False. \( f(x) = 0 \) is a counterexample. </p>
+
+<p>(b) True. The maximum value of \( f(x)(1-f(x)) \) in the domain \( x \in (0,1) \) is 1/4. This happens only when \( f(x) = 1/2 \).</p>
+
+<p>(c) False.  If there exists a point \(p\) for which \(f(p) < 1/2\), the function becomes discontinous.
+
+<br>
+<i>Remark.</i> It is possible to get discontinous functions such that satisfy the condition.
+For example, \(f\) that is 1/2 at every irrational point and 0 at every rational point.
+</p>
+
+<p><i>The offical answer in CMI paper says False-False-True, which is wrong.</i></p>
 
 </details>
 
@@ -364,7 +464,7 @@ A10, 2019
 
 
 ---
-### Slowing slope changing function
+### Slowly slope changing function
 {: .d-inline-block}
 
 B4, 2015
@@ -452,6 +552,57 @@ The lemma follows since \(-a \leq x \leq a \implies  |x|\leq a  \) if \(a \geq 0
 </details>
 
 ---
+
+
+### Leibniz rule
+{: .d-inline-block}
+
+B6, 2019
+{: .label}
+
+
+<p>(a) Compute \(\frac{d}{dx}\left[\int_{0}^{e^{x}} \log (t) \cos ^{4}(t) dt\right]\)</p>
+
+<p></p>
+
+<p>(b) For \(x>0\) define \(F(x)=\int_{1}^{x} t \log (t) d t\)</p>
+
+<p>i. Determine the open interval(s) (if any) where \(F(x)\) is decreasing and the open interval(s) (if any) where \(F(x)\) is increasing.</p>
+
+<p>ii. Determine all the local minima of \(F(x)\) (if any) and the local maxima of \(F(x)\) (if any)</p>
+
+
+<details><summary>Solution</summary>
+
+
+<p>
+(a) The general form of Leibniz rule is:<br>
+
+\[\frac{\mathrm{d}}{\mathrm{d} x} \int_{a(x)}^{b(x)} f(x, t) \mathrm{d} t=f(x, b(x)) \cdot b^{\prime}(x)-f(x, a(x)) \cdot a^{\prime}(x)+\int_{a(x)}^{b(x)} \frac{\partial}{\partial x} f(x, t) \mathrm{d} t\]
+</p>
+
+<p>Applying the rule above gives the following answer: \(e^{x} x \cos^{4}(e^{x})\)</p>
+
+
+<p>(b)
+</p>
+
+<p>
+\begin{aligned}
+F^{\prime}(x) &=\frac{d}{d x} \int_{1}^{x} t \log t \mathrm{d} t \\
+&=x \log x
+\end{aligned}
+</p>
+
+
+<p>Therefore \(F^{\prime}(1)=0 .\) Moreover, \(F^{\prime \prime}(x)=1+\log x .\) Hence one concludes that \(F\) is decreasing on \((0,1),\) increasing on \((1, \infty)\) and has a local minima at \(x=1\)</p>
+
+</details>
+
+
+
+---
+
 
 
 ### Sweep volume
@@ -560,4 +711,8 @@ The statement follows by substituting in the first equation.
 
 
 ---
+
+
+
+
 
