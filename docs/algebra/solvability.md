@@ -91,7 +91,7 @@ There are 201 integers.
 
 <p>
 The function is strictly decreasing as \(x\) goes from \(-\infty\) to \(\infty\). The range of the function is \((0,201.8)\).
-By continuity, all the integers in range appear as values of \(f(x)\).
+By continuity, all the integers in the range appear as values of \(f(x)\).
 </p>
 
 </details>
@@ -106,14 +106,32 @@ A2, 2016
 
 
 <p>
-A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP defined as the ratio of GDP to the total population, increased by 10\%.
+A country's GDP grew by \(7.8 \%\) within a period. During the same period the country's per-capita-GDP defined as the ratio of GDP to the total population, increased by \(10\%\).
 By what percentage did the total population change during this period?
 </p>
 
 <details><summary>Solution</summary>
 
 <p>
-Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\). Letting \(G\) and \(P\) denote the old GDP and population respectively, the new per-capita GDP is \(\frac{1.078 G}{(1+x) P}\) where \(x\) is the unknown percent change in population we wish to calculate. The percent increase in per-capita GDP is \(10 \%=0.1\) So we have \(\frac{1.078}{1+x}=1.1 .\) Solving for \(x\) we get \(1+x=\frac{1.078}{1.1}=\frac{98 \times 11}{100 \times 11}=0.98 .\) So \(x\) is -0.02 So population decreased by \(2 \%\)
+<i>Notation.</i>Let \(G\) and \(P\) denote the  GDP and the population at the start of the period, respectively. Let \(x\) be the percentage change
+of the population.
+</p>
+
+<p>
+The new per-capita GDP is then given by \(\frac{1.078 G}{(1+x) P}\). The percent increase in per-capita GDP is \(10 \%=0.1\).
+So we have \(\frac{1.078}{1+x}=1.1 .\) Solving for \(x\) we get:
+</p>
+
+<p>
+Per-capita GDP is \(\frac{\text { GDP }}{\text { population }}\).
+</p>
+
+
+
+<p>
+\[1+x=\frac{1.078}{1.1}=0.98\]
+
+So population decreased by \(2 \%\)
 </p>
 
 </details>
@@ -216,14 +234,32 @@ The following expression is an integer. Find its value.
 <details><summary>Solution</summary>
 
 <p>
-Let \(a=\sqrt{3}+10\) and \(b=\sqrt{3}-10\).  We have \(a^{3}-b^{3}=20\) and \(a b=2 .\) Putting it in \((a-b)^{3}\) we get \((a-b)^{3}=20-6(a-b)\).
-This cubic has one real root \(a-b=2\) and two complex roots.
+
+
+Let \(a=\sqrt[3]{6\sqrt{3}+10}\) and \(b=\sqrt[3]{6\sqrt{3}-10}\). We want to find the value of \(a-b\).  We have the following:
+
+\begin{align}
+a^3 - b^3 &= 20 \\
+ab &= \sqrt[3]{ (6\sqrt{3})^2-10^2  } = \sqrt[3]{108-100} = 2
+\end{align}
+
+Substituting the values above in \( (a-b)^3 \) gives a cubic in \( (a-b) \).
+
+\begin{align}
+(a-b)^3 &= a^3 - b^3 - 3ab(a-b) \\
+(a-b)^{3}&=20-6(a-b)
+\end{align}
+
+This cubic has one real root \(a-b=2\) and two complex roots. Hence, the value of the given expression is 2.
+
+
 </p>
 
 
-<i>A similar problem was discussed on [Quora](https://www.quora.com/How-do-I-prove-that-sqrt-3-5-sqrt-2-+7-sqrt-3-5-sqrt-2-7-is-an-integer) in 2017.</i>
 
 </details>
+
+_A similar problem was discussed on [Quora](https://www.quora.com/How-do-I-prove-that-sqrt-3-5-sqrt-2-+7-sqrt-3-5-sqrt-2-7-is-an-integer) in 2017_.
 
 ---
 
@@ -337,7 +373,10 @@ Another LA problem from CMI exam: B5 part(b) from 2014.
 
 <br><br>
 <br><br>
+
+<!--
 [View on Amazon](https://amzn.to/3hbctgO)
+-->
 
 ---
 
