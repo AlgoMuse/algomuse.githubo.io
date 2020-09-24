@@ -456,7 +456,7 @@ A10, 2019
 For example, \(f\) that is 1/2 at every irrational point and 0 at every rational point.
 </p>
 
-<p><i>The offical answer in CMI paper says False-False-True, which is wrong.</i></p>
+<p><i>The official answer in the CMI paper says False-False-True, which is wrong.</i></p>
 
 </details>
 

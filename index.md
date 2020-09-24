@@ -48,7 +48,9 @@ https://amzn.to/30EkFAk
 
 - Topic-wise classification of all problems ordered by increasing difficulty. This helps you to specialize in a topic.
 
+<!--
 - Practice questions that are in a similar vein as the entrance exam questions.
+-->
 {: .fs-4 .fw-300 }
 
 
