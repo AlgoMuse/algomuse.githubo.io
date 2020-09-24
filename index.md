@@ -46,7 +46,7 @@ https://amzn.to/30EkFAk
 
 - In-depth solutions to previous CMI entrance exam questions. This includes questions from 2010 and 2011 for which official solutions are not given.
 
-- Topic-wise classification of all problems according to increasing difficulty. This helps you to specialize in a topic.
+- Topic-wise classification of all problems ordered by increasing difficulty. This helps you to specialize in a topic.
 
 - Practice questions that are in a similar vein as the entrance exam questions.
 {: .fs-4 .fw-300 }
@@ -458,8 +458,10 @@ The contents of this website are hosted in accordance with principles of [fair u
 By downloading the contents of the website, you agree to bring to my notice any possible infringement of copyright law before taking legal action.
 {: .fs-3 .fw-300 }
 
+<!--
 M. Balasundar is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to amazon.in.
 {: .fs-3 .fw-300 }
+-->
 
 
 
