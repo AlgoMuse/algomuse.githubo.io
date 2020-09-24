@@ -138,7 +138,7 @@ Manjul Bhargava
 <button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#only-one-real-root';" onmouseover = "display('B8_2011')"></button>
 <button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#rolles-theorem-ii';" onmouseover = "display('B9_2011')"></button>
 <button class="button numbers" onclick="location.href='/docs/number_theory/prime_factorization/#two-variables-one-equation';" onmouseover = "display('B10_2011')"></button>
-<button class="button blank"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/limits/#surjective-if-and-only-if-injective';" onmouseover = "display('B11_2011')"></button>
 <button class="button geometry" onclick="location.href='/docs/geometry/circles/#an-old-russian-problem';" onmouseover = "display('B12_2011')"></button>
 <button class="button trigonometry" onclick="location.href='/docs/trigonometry/#intersection-of-a-line-and-periodic-function-i';" onmouseover = "display('A1_2012')"></button>
 <button class="button calculus" onclick="location.href='/docs/calculus/derivatives/#rolles-theorem-i';" onmouseover = "display('A2_2012')"></button>
