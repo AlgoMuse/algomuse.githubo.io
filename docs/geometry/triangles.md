@@ -171,7 +171,9 @@ How many non-congruent triangles are there with integer lengths \(a \leq b \leq 
 <details><summary>Solution</summary>
 
 <p>
-It is clear that \(1< a \leq b \leq c<10\). Now, \(c< a+b\) a nd \(c=20-a-b\) implies \(10< a+b ;\) this also means that \(b \geq a\) and \(b \geq 11-a\). Moreover, we a lso have \(b \leq 20-a-b .\) One can furt her conclude that \(a \leq 6,\) ot herw ise \(7 \leq b \leq 6 .\) So a s \(a\) ranges from 2 to 6 we have that \(b\) takes the follow ing values \(a=2, b=9 ; a=3, b=\) \(8 ; a=4, b \in\{7,8\} ; a=5, b \in\{6,7\} ; a=6, b \in\{6,7\} .\) The total number of possible
+It is clear that \(1< a \leq b \leq c<10\). Now, \(c< a+b\) a nd \(c=20-a-b\) implies \(10< a+b ;\) this also means that \(b \geq a\) and \(b \geq 11-a\). Moreover, we also have \(b \leq 20-a-b .\) One can further conclude that \(a \leq 6,\) otherwise
+\(7 \leq b \leq 6 .\) So as \(a\) ranges from 2 to 6 we have that \(b\) takes the following values
+\(a=2, b=9 ; a=3, b=\) \(8 ; a=4, b \in\{7,8\} ; a=5, b \in\{6,7\} ; a=6, b \in\{6,7\} .\) The total number of possible
 triangles is 8.
 </p>
 
@@ -220,7 +222,7 @@ Show that the triangle \(P Q R\) is an equilateral triangle with side length \(\
 <details><summary>Solution</summary>
 
 <p>
-Note that triangles \(A B A^{\prime}, C A C^{\prime}\) and \(B C B^{\prime}\) are congruent by the SAS test. Triangles \(B A^{\prime} Q, C B^{\prime} R\) and \(A C^{\prime} P\) are a lso co ngr ue nt. By using the property of opposite angles we get that all the three angles of the triangle \(P Q R\) are the same. Hence it is an equila teral triangle.
+Note that triangles \(A B A^{\prime}, C A C^{\prime}\) and \(B C B^{\prime}\) are congruent by the SAS test. Triangles \(B A^{\prime} Q, C B^{\prime} R\) and \(A C^{\prime} P\) are a lso congruent. By using the property of opposite angles we get that all the three angles of the triangle \(P Q R\) are the same. Hence it is an equilateral triangle.
 
 Dropping the perpendicular bisector \(A O\) on the side \(B C\) we get the following :
 \[
@@ -476,7 +478,7 @@ You are given a regular hexagon. We say that a square is inscribed in the hexago
 (a) Suppose a seg ment \(A C\) meets with opposite sides \(P Q\) and \(T S\) of a hexagon and \(O\) is the midpoint of \(A C .\) We show that
 \(\frac{P A}{A Q}=\frac{T C}{C S} \Longleftrightarrow O\) is the center of the hexagon.
 
-If \(O\) is the center of the hexagon, consider triangles \(O A Q\) and \(O C S .\) By the \(S A S\) test these are congruent. Similarly, triangles \(O A P\) and \(O C T\) are congr ue nt. Conver sely, suppose \(\frac{P A}{A Q}=\frac{T C}{C S}=k(\) say \(),\) then
+If \(O\) is the center of the hexagon, consider triangles \(O A Q\) and \(O C S .\) By the \(S A S\) test these are congruent. Similarly, triangles \(O A P\) and \(O C T\) are congruent. Conversely, suppose \(\frac{P A}{A Q}=\frac{T C}{C S}=k(\) say \(),\) then
 
 \[
 P Q=T S \Longrightarrow P A+A Q=T C+C S \Longrightarrow A Q(k+1)=C S(k+1) \Longrightarrow A Q=C S
@@ -491,7 +493,7 @@ So \(\triangle A Q O \cong \triangle C T O,\) so that \(O Q=O T .\) Also, \(\ang
 
 <p>
 (b) Next suppose we have inscribed a square \(A B C D\) in a hexagon \(P Q R S T U\), with \(A\) on \(P Q, B\) on \(Q R, C\) on \(S T\) and \(D\) on \(T U\). We claim that \(\triangle A Q B\) is
-congruent to \(\triangle C T D .\) This will prove that both diagonals pass thro ugh the center of the hexagon (using the criterion proved above). Proof: We know that \(P A \| S T\) and \(A C\) is a transver sal. So \(\angle Q A C=\angle T C A\), also \(\angle B A C=\angle D C A=45^{\circ} .\) So \(\angle Q A B=\angle D C T\)
+congruent to \(\triangle C T D .\) This will prove that both diagonals pass through the center of the hexagon (using the criterion proved above). Proof: We know that \(P A \| S T\) and \(A C\) is a transversal. So \(\angle Q A C=\angle T C A\), also \(\angle B A C=\angle D C A=45^{\circ} .\) So \(\angle Q A B=\angle D C T\)
 Similar ly, \(\angle Q B A=\angle C D T\). Also, \(\angle A Q B=\angle C T D,\) since they are angles in a regular hexagon. Moreover, \(A B=C D\). As a result we get that \(\triangle Q B A \cong\) \(\triangle T D C\)
 
 So we have \(Q B=T D\) and \(Q A=T C\). This in turn implies that \(B R=D U\) and \(P A=C S\) Thus,
@@ -511,7 +513,7 @@ Hence \(A C\) and \(B D\) pass through the center of the hexagon.
 <br>
 
 <p>
-(d) Finally we want to show that there is a unique way of inscribing a square in a reg ular hexagon. Proof: It \(w\) ill be enough to show that the ratios \(\frac{Q B}{B R}\) and \(\frac{Q A}{A P}\) are equal. Suppose on the contrary that the se rat ios aren't equal. Let \(\angle Q A B=\alpha\) and \(\angle Q B A=\beta\). Note that then \(\angle O A Q=45^{\circ}+\alpha\) and \(\angle O B Q=45^{\circ}+\beta .\) Also, \(\alpha+\beta=60^{\circ},\) since \(\angle A Q B=120^{\circ}\)
+(d) Finally we want to show that there is a unique way of inscribing a square in a regular hexagon. Proof: It \(w\) ill be enough to show that the ratios \(\frac{Q B}{B R}\) and \(\frac{Q A}{A P}\) are equal. Suppose on the contrary that these ratios aren't equal. Let \(\angle Q A B=\alpha\) and \(\angle Q B A=\beta\). Note that then \(\angle O A Q=45^{\circ}+\alpha\) and \(\angle O B Q=45^{\circ}+\beta .\) Also, \(\alpha+\beta=60^{\circ},\) since \(\angle A Q B=120^{\circ}\)
 Let \(A^{\prime}\) be a point on \(Q R\) such that \(\frac{Q A^{\prime}}{A^{\prime} R}=\frac{Q A}{A P}\). Since \(\triangle B O A^{\prime}\) is isosceles, \(\angle O B A^{\prime}\) equals \(\angle O A^{\prime} B,\) so that
 \(180^{\circ}=\angle O B A^{\prime}+\angle O B Q=\angle O B Q+\angle O A^{\prime} B=\angle O B Q+\angle O A Q=45^{\circ}+\beta+45^{\circ}+\alpha\)
 so \(\alpha+\beta=0^{\circ},\) a contradiction since \(\alpha+\beta=60^{\circ}\)
@@ -531,19 +533,68 @@ B2a, 2012
 
 
 <p>
-Consider a convex quadrilateral \(\mathrm{ABCD}\). Let \(\mathrm{E}, \mathrm{F}, \mathrm{G}\) and \(\mathrm{H}\) be the midpoints of the sides \(\mathrm{AB}, \mathrm{BC}, \mathrm{CD}\) and \(\mathrm{DA}\), respectively. Show that \(\mathrm{EFGH}\) is a parallelogram whose area is half that of \(\mathrm{ABCD}\).
+Consider a convex quadrilateral \({ABCD}\). Let \({E}, {F}, {G}\) and \({H}\) be the midpoints of the sides \({AB}, {BC}, {CD}\) and \({DA}\), respectively. Show that \({EFGH}\) is a parallelogram whose area is half that of \({ABCD}\).
 </p>
 
+<p style="text-align:center;"><img src="/assets/images/B2a_2012.svg"></p>
 
 <details><summary>Solution</summary>
 
 <p>
-Consider the diagonals AC and BD. By the basic proportionality theorem in triangle ABC, we get that \(\mathrm{EF}\) and \(\mathrm{AC}\) are parallel and \(\mathrm{AC}=2 \mathrm{EF} .\) Moreover, ABC and EBF are similar. Using triangles ADC and HDG, we similarly get that AC is parallel to HG, AC \(=2 \mathrm{HG}\). Thus EF and HG are parallel. Likewise FG and EH are parallel (both parallel to BD), so EFGH is a parallelogram. Also by similarity, Area(ABC) \(=4\) Area \((\mathrm{EBF}),\) Area \((\mathrm{ADC})=\) 4 Area \((\mathrm{HDG}),\) Area \((\mathrm{BAD})=4\) Area \((\mathrm{EAH})\) and \(\mathrm{Area}(\mathrm{BCD})=4\) Area \((\mathrm{FCG}) .\) ( Note. \(\mathrm{So}\)
-far convexity of \(\mathrm{ABCD}\) is unnecessary. But the next steps need it, draw pictures and see. \()\)
-\(\operatorname{Area}(\mathrm{EFGH})=\operatorname{Area}(\mathrm{ABCD})-[\operatorname{Area}(\mathrm{EBF})+\operatorname{Area}(\mathrm{FCG})+\operatorname{Area}(\mathrm{GDH})+\operatorname{Area}(\mathrm{HAE})]\)
-\(=\operatorname{Area}(\mathrm{ABCD})-\frac{1}{4}[\operatorname{Area}(\mathrm{ABC})+\operatorname{Area}(\mathrm{BCD})+\operatorname{Area}(\mathrm{CDA})+\operatorname{Area}(\mathrm{DAB})]\)
-\(=\operatorname{Area}(\mathrm{ABCD})-\frac{1}{2} \operatorname{Area}(\mathrm{ABCD})=\frac{1}{2} \operatorname{Area}(\mathrm{ABCD})\)
+<b>Lemma.</b> \(EFGH\) is a parallelogram.
 </p>
+
+<p>
+<i>Proof.</i> Consider the diagonal \(AC\). By the basic proportionality theorem:
+
+<ul>
+<li> \({EF}\) and \({AC}\) are parallel.</li>
+<li> \({AC}=2 {EF} \)</li>
+<li> \(\Delta ABC \sim \Delta EBF\). </li>
+</ul>
+</p>
+
+
+<p>
+A similar argument to diagonal \(BD\) implies the lemma. \(\quad\square\)
+</p>
+
+
+<p>
+Let \((X)\) denote the area of shape \(X\).
+</p>
+
+
+<p>
+\begin{align}
+(ABCD) = (ABC) + (ACD) \\
+1/2 \cdot (ABCD) = (EFB) + (HGD)
+\end{align}
+</p>
+
+<p>
+By applying the above argument to the diagonal \(BD\) and triangles \(CFG\) and \(AEH\), we get the following:
+</p>
+
+<p>
+\begin{align}
+(ABCD) = (ABD) + (BCD) \\
+1/2\cdot (ABCD) = (CFG) + (AEH)
+\end{align}
+</p>
+
+<p>
+Together we get:
+</p>
+
+<p>
+\begin{align}
+1/2\cdot (ABCD) &= (CFG) + (AEH) + (EFB) + (HGD) \\
+(EFGH) &= \frac{1}{2} (ABCD)
+\end{align}
+</p>
+
+
 
 </details>
 
@@ -557,19 +608,88 @@ B2b, 2012
 
 
 <p>
-Let \(\mathrm{E}=(0,0), \mathrm{F}=(0,-1), \mathrm{G}=(1,-1), \mathrm{H}=(1,0) .\) Find all points \(\mathrm{A}=(p, q)\) in the
-first quadrant such that \(\mathrm{E}, \mathrm{F}, \mathrm{G}\) and \(\mathrm{H}\) respectively are the midpoints of the sides \(\mathrm{AB}\), \(\mathrm{BC}, \mathrm{CD}\) and \(\mathrm{DA}\) of a convex quadrilateral \(\mathrm{ABCD}\).
+Let \(E=(0,0)\), \(F=(0,-1)\), \(G=(1,-1)\) and \(H=(1,0)\). Find all points \({A}=(p, q)\) in the
+first quadrant such that \({E}, {F}, {G}\) and \({H}\) respectively are the midpoints of the sides \({AB}\), \({BC}, {CD}\) and \({DA}\) of a convex quadrilateral \({ABCD}\).
 </p>
-
-
 
 
 
 <details><summary>Solution</summary>
 
+
 <p>
-If \(\mathrm{A}=(p, q)\) is such a point, then \(\mathrm{E}=(0,0)\) being the midpoint of \(\mathrm{AB}\) is equivalent to having \(\mathrm{B}=(-p,-q) .\) Similarly we get \(\mathrm{C}=(p, q-2), \mathrm{D}=(2-p,-q) .\) In particular \(\mathrm{AC}=\) \(\mathrm{BD}=2, \mathrm{AC}\) is vertical and \(\mathrm{BD}\) horizontal. By the reasoning in part a \(),\) these facts imply that the quadrilateral constructed from the midpoints of the sides of \(\mathrm{ABCD}\) is a square of side \(1 .\) So we just need to ensure that the listed coordinates make \(\mathrm{ABCD}\) into a convex quadrilateral. This happens if and only if \(p, q\) are both positive (which is given) and \(<1\). It is easy to see that these conditions are sufficient to make ABCD a convex quadrilateral. For necessity see the following (pictures will help). If \(p>1\) then \(A\) will be to the right of \(\mathrm{H}\) and so \(\mathrm{D}\) to the left of \(\mathrm{H.}\) If \(q>1,\) then \(\mathrm{B}\) will be below \(\mathrm{F}\) and so \(\mathrm{C}\) will be above \(\mathrm{F} .\) If \(p\) or \(q=1,\) then three of the points \(\mathrm{A}, \mathrm{B}, \mathrm{C}, \mathrm{D}\) become collinear. In all cases \(\mathrm{ABCD}\) will not be a convex quadrilateral. If both \(p, q>1,\) ABCD will even be self-intersecting.
+Let us draw the square \(EFGH\) on the coordinate plane (see the figure below). From the previous problem we know
+that the diagonals of \(ABCD\) must be parallel to the axes. Suppose the two diagonals lie on the lines \(x=p\) and \(y=-q\),
+respectively. Since the diagonals pass through \(EFGH\), we must have \( p\in (0,1) \) and \( q\in(0,1) \).
 </p>
+
+
+<p>
+<figure>
+<p style="text-align:center;"><img src="/assets/images/B2b_2012.svg"></p>
+<figcaption>In the figure, we are contemplating how the quadrilateral \(ABCD\) could be positioned if the diagonals lie on \(x=p\) and \(y=-q\). It turns out that fixing the diagonals determines the quadrilateral \(ABCD\) uniquely.</figcaption>
+</figure>
+</p>
+
+<p></p>
+
+
+
+<p><i>Notation.</i> Let \(\mbox{proj}_x PQ\) (resp. \(\mbox{proj}_y PQ\)) denote the length of the
+projection of segment \(PQ\) on the \(x\)-axis (resp. \(y\)-axis).
+</p>
+
+
+
+<p>
+<b>Lemma 1. </b> The coordinates of vertices \(A\) and \(B\) are \( (p,q) \) and \( (-p,-q) \), respectively.
+</p>
+
+<p>
+Since \(E\) is the mid-point of \(AB\), we have \(|AE|=|BE|\).
+</p>
+
+
+
+<p>
+\begin{align*}
+    \mbox{proj}_y BE &= q = \mbox{proj}_y AE \implies  A=(p,q) \\
+    \mbox{proj}_x AE &= p = \mbox{proj}_x BE \implies  B=(-p,-q) \quad\square
+\end{align*}
+</p>
+
+
+<p>
+<b>Lemma 2.</b> The coordinates of vertices \(C\) and \(D\) are \( (p,2-q) \) and \( (2-p,-q) \), respectively.
+</p>
+
+<p>
+Let us calculate the \(y\)-coordinate of \(C\) first. Since \(F\) is the mid-point of \(BC\) we have \(|BF|=|CF|\).
+</p>
+
+<p>
+\begin{align*}
+\mbox{proj}_y BF &= 1-q = \mbox{proj}_y CF \implies  C=(p,2-q) \\
+\end{align*}
+</p>
+
+<p>
+Now we calculate the \(x\)-coordinate of \(D\). Since \(G\) is the mid-point of \(CD\) we have \(|CG|=|GD|\).
+</p>
+
+<p>
+\begin{align*}
+\mbox{proj}_x CG &= 1-p = \mbox{proj}_x GD \implies  D=(2-p,-q)  \quad\square
+\end{align*}
+</p>
+
+<p>
+From the above lemmas we infer that once the diagonals are fixed, the quadrilateral \(ABCD\) also gets fixed.
+There is a one-to-one correspondence between the pair of numbers \( (p,-q) \) and the quadrilateral \(ABCD\).
+The vertex \(A\) can take a value \((p,q)\) with \(p\in(0,1) \) and \(q \in (0,1) \). The set of all possible points for vertex \(A\)
+is shaded in the above figure.
+</p>
+
 
 
 </details>
