@@ -151,37 +151,33 @@ A sequence of integers \(c_{n}\) starts with \(c_{0}=0\) and satisfies \(c_{n+2}
 
 <details><summary>Solution</summary>
 
-
 <p>
-Consider pairs of consecutive entries of the sequence modulo \(k,\) i.e., \(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\), where \(\bar{a}\) denotes \(a\) modulo \(k\). Since there are only finitely many possibilities (namely \(k^{2}\) ), some pair of consecutive residues will repeat. Suppose \(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\) for some \(i\).
+Let \( r_i = c_i \mod k \). We want to prove that the sequence of \(r_i\)s has infinitely many zeroes.
+</p>
+
+<p><b>Lemma.</b> For all  \(i> 0\),  \(r_i\) and \(r_{i+1}\) uniquely determine \(r_{i-1}\). </p>
+
+
+<p><i>Proof</i>.  Since \(k\) and \(b\) are co-prime, \(b\) has an inverse modulo \(k\). That is, there is a unique number \(b^{-1}\) such that \( bb^{-1} = 1\).
 </p>
 
 <p>
-We will show that in fact the previous equation holds for all \(i,\) i.e., whole sequence of consecutive pairs is periodic.  This will prove in
-particular that \(\left(\bar{c}\_{0}, \bar{c}\_{1}\right)=\left(\bar{c}\_{p}, \bar{c}\_{p+1}\right)=\left(\bar{c}\_{2 p}, \bar{c}\_{2 p+1}\right)=\cdots\)
-since \(c_{0}=0\) is divisible by \(k,\) so is \(c_{i p}\) for all \(i\)
-</p>
-
-<p>
-The equation \(c_{n+2}=a c_{n+1}+b c_{n}\) shows that \(\bar{b} \bar{c}\_{n}=\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\).
-</p>
-
-<p>
-Now \(gcd(k, b)=1\) means \(b\) is invertible modulo \(k,\) i.e., there is a \(b^{\prime}\) with \(\overline{b b^{\prime}}=\overline{1} .\)
-</p>
-
-<p>
-Therefore \(\bar{c}\_{n}=\bar{b}^{\prime}\left(\bar{c}\_{n+2}-\bar{a} \bar{c}\_{n+1}\right)\)
-</p>
-
-<p>
-Thus knowing a pair of consecutive residues uniquely determines the previous residue (this is why we considered pairs of residues). Therefore \(\left(\bar{c}\_{i}, \bar{c}\_{i+1}\right)=\left(\bar{c}\_{i+p}, \bar{c}\_{i+p+1}\right)\) implies \(\left(\bar{c}\_{i-1}, \bar{c}\_{i}\right)=\left(\bar{c}\_{i+p-1}, \bar{c}\_{i+p}\right)\) and (by the given recurrence) \(\left(\bar{c}\_{i+1}, \bar{c}\_{i+2}\right)=\left(\bar{c}\_{i+p+1}, \bar{c}\_{i+p+2}\right)\)
+\begin{align}
+    b^{-1}r_{n+2}&=b^{-1}ar_{n+1}+bb^{-1}r_{n} \\
+    r_{n} &=   b^{-1}(ar_{n+1} - r_{n+2}) \quad\quad\square
+\end{align}
 </p>
 
 
 <p>
-Thus the whole sequence \(\left(\bar{c}\_{n}, \bar{c}\_{n+1}\right)\) becomes periodic as soon as a single such pair repeats.
+The lemma implies that there are infinite number of zeros in the sequence of \(r_i\)s. If not, we can find the last zero. Look at the infinite sequence
+starting from the last zero. Since there are only \(k^2\) distinct pairs, some pair must repeat by pigeon-hole principle. Let \(ab\) be the <i>first</i>
+pair of consecutive numbers that repeats. Let \(x\) and \(y\) be the numbers that come before the first and the second instance of the pair.
+Due to the above lemma, given the pair \(ab\), the previous number is unique. So \(x=y\).  But this violates our assumption that \(ab\) is the first pair that repeats.
 </p>
+
+<p style="text-align:center;"><img src="/assets/images/B7_2012.svg"></p>
+
 
 </details>
 
