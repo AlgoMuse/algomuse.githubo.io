@@ -16,30 +16,6 @@ This website is for class XII students who wish to pursue B.Sc. at Chennai Mathe
 
 ---
 
-<details>
-  <summary>Work in progress!</summary>
-</details>
-
-
-
-<!--
-[View Topics](/docs/topics){: .btn .fs-5 .mb-4 .mb-md-0 }
-
-
-
-CMI Question | Similar problem in Problem solving strategies
-|---|--|
-2019 Problem 6 |  Problem 76, Ch. 6. Number theory
-2011 Problem 5, Part B    |  Problem 34, Ch. 5, Enumerative Combinatorics
-
-
-
-
-https://amzn.to/30EkFAk
-
-
--->
-
 
 #### What you get on this site
 {: .fs-4}
@@ -389,9 +365,10 @@ CMI does not publish the cutoff marks on their website but they have responded t
 
 | Year | Objective | Overall | Vetted by
 |---|--|--|
-2016 | 14/40 | 62/124 | [Sayantani Bhattacharya](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
+2016 | 14/40 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
 2017 | 15/40 | 60/125 | Abhiroop Sanyal
-2018 | 15/40 | 50/125 | [Sutirtha Datta](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
+2018 | 15/40 | 50/125 | Sutirtha Datta [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
+
 
 
 
@@ -402,14 +379,15 @@ CMI does not publish the cutoff marks on their website but they have responded t
 http://services.artofproblemsolving.com/download.php?id=YXR0YWNobWVudHMvMS8yLzgwZWIwOGVmNzE5YjU1ZjRkMjE5MzI4NTgwMDRmNjZmNTVmYzdlLnBkZg==&rn=TXkgaW50ZXJ2aWV3IGV4cGVyaWVuY2UucGRm
 -->
 
-- [2015 Interview experience](/assets/images/sanjay_interview.pdf) by Sanjay M who posted this on AoPS.
-- [Why I joined CMI](https://vipulnaik.com/undergraduate-institution-selection/) by Vipul Naik who joined CMI in 2004 despite getting JEE AIR-154.
-- [How to prepare for CMI](https://www.cmi.ac.in/~saikrishnac/files/how-to-prepare-for-cmi.pdf) by Sai Krishna who joined CMI in 2013.
-- [CMI entrance exam preparation experience](https://www.quora.com/How-did-Ankita-Sarkar-prepare-for-CMI-Entrance-exam-What-books-did-she-use) by Ankita Sarkar who joined CMI in 2015.
+- _2015 Interview experience_ by Sanjay M who posted this on AoPS. [[pdf]](/assets/images/sanjay_interview.pdf)
+- _Why I joined CMI_  by Vipul Naik who joined CMI despite getting JEE AIR-154. [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://vipulnaik.com/undergraduate-institution-selection/)
+- _How to prepare for CMI_ by Sai Krishna who joined CMI in 2013. [[pdf]](https://www.cmi.ac.in/~saikrishnac/files/how-to-prepare-for-cmi.pdf)
+- _CMI entrance exam preparation experience_  by Ankita Sarkar who joined CMI in 2015. [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/How-did-Ankita-Sarkar-prepare-for-CMI-Entrance-exam-What-books-did-she-use)
 
 
 Starting from 2016, admissions are based only on the written test and there is no interview.
 
+---
 
 ## Acceptance rate
 
@@ -424,32 +402,41 @@ Acceptance offers are sent to around 90 candidates and about half of them enroll
 2019 | 10000 | 100 | 55
 
 ---
-<!--
 
-## Paperback
 
-<img src="/assets/images/cmi_book.png" style="float:left;margin-right:20px;margin-top:20px;"/>
+## All-in-one book
+<br>
 
-This book is to CMI just as TOMATO is to ISI. The content of this website is included. Additionally, you will get many RMO-type
-practice problems, mock question papers, and a few exam-preparation strategies.
+<img src="/assets/images/tomato_cover.svg" style="float:left;margin-right:20px;margin-top:0px;border-radius:1%"/>
+
+The content of this website is available as an e-book in PDF format. You will have a permanent copy of the solutions which may be handy just in case the site
+goes down.
 {: .fs-4 .fw-300 }
 
-<a href="https://amzn.to/30EkFAk" rel="nofollow">Buy the book from Amazon</a>
+
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/kBekW" target="_blank">Buy the book on Gumroad</a>
 
 
 <br><br>
 <br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
+<!--
 https://promys-india.org/resources/reading-list/
-
-
 -->
+
+---
+
 
 #### About the author
 
-This website is maintained by Mallesh Balasundar, a teacher who has more than 15 years of experience in industry and academia. If you have
-an alternate solution to any of the problems, feel free to email at <code>malleshm</code> followed by the first four odd numbers <code>@gmail.com</code>
+This website is maintained by  Balasundar Mallesh, a teacher who has more than 15 years of experience in industry and academia.
+He is a control-theorist by profession but a mathematician at heart.  If you have
+an alternate solution to any problem, feel free to email at <code>malleshm</code> followed by the first four odd numbers <code>@gmail.com</code>
 {: .fs-3 .fw-300 }
 
 ---
