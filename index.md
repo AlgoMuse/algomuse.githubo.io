@@ -407,15 +407,14 @@ Acceptance offers are sent to around 90 candidates and about half of them enroll
 ## All-in-one book
 <br>
 
-<img src="/assets/images/tomato_cover.svg" style="float:left;margin-right:20px;margin-top:0px;border-radius:1%"/>
+<img src="/assets/images/cmi_tomato_cover.jpg" style="float:left;margin-right:20px;margin-top:0px;border-radius:1%"/>
 
 The content of this website is available as an e-book in PDF format. You will have a permanent copy of the solutions which may be handy just in case the site
 goes down.
 {: .fs-4 .fw-300 }
 
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/kBekW" target="_blank">Buy the book</a>
+<a href="https://gum.co/kBekW">Buy the book on Gumroad</a>
 
 
 <br><br>
@@ -423,7 +422,9 @@ goes down.
 <br><br>
 <br><br>
 <br><br>
+<br><br>
 
+_I dedicate this book to the late Prof. C. S. Sheshadri, the man who went through blood, sweat and tears to establish CMI._
 
 <!--
 https://promys-india.org/resources/reading-list/
