@@ -415,7 +415,7 @@ goes down.
 
 
 <script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/kBekW" target="_blank">Buy the book on Gumroad</a>
+<a class="gumroad-button" href="https://gum.co/kBekW" target="_blank">Buy the book</a>
 
 
 <br><br>
