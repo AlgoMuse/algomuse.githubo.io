@@ -424,7 +424,9 @@ goes down.
 <br><br>
 <br><br>
 
+<!--
 _I dedicate this book to the late Prof. C. S. Sheshadri, the man who went through blood, sweat and tears to establish CMI._
+-->
 
 <!--
 https://promys-india.org/resources/reading-list/
