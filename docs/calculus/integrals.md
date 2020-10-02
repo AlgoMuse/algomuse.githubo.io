@@ -447,16 +447,14 @@ A10, 2019
 
 <p>(a) False. \( f(x) = 0 \) is a counterexample. </p>
 
-<p>(b) True. The maximum value of \( f(x)(1-f(x)) \) in the domain \( x \in (0,1) \) is 1/4. This happens only when \( f(x) = 1/2 \).</p>
 
-<p>(c) False.  If there exists a point \(p\) for which \(f(p) < 1/2\), the function becomes discontinous.
+<p>(b) False. There are infinitely many candidates for \(f\). The maximum value of \( f(x)(1-f(x)) \) in the interval \(x \in (0,1)\) is \(1/4\).
+This value is attained only when \(f(x)=1/2\). So \(f\) is unique in the interval \( (0,1) \). But \(f\) is defined on \(\mathbb{R}\), so outside the interval \((0,1)\),
+\(f\) can be any continuous function.</p>
 
-<br>
-<i>Remark.</i> It is possible to get discontinous functions such that satisfy the condition.
-For example, \(f\) that is 1/2 at every irrational point and 0 at every rational point.
-</p>
 
-<p><i>The official answer in the CMI paper says False-False-True, which is wrong.</i></p>
+<p>(c) True. See part (b). </p>
+
 
 </details>
 
