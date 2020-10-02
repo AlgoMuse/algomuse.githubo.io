@@ -16,11 +16,15 @@ nav_order: 3
 A4, 2018
 {: .label}
 
+<!--
+There is a delay is rendering the equation. Hence, a pic.
+I = \int_{0}^{\frac{\pi}{2}} \frac{d x}{(\sqrt{\sin x}+\sqrt{\cos x})^{4}}\]
+-->
+
 <p>Evaluate:</p>
 
-<p>
-\[I = \int_{0}^{\frac{\pi}{2}} \frac{d x}{(\sqrt{\sin x}+\sqrt{\cos x})^{4}}\]
-</p>
+
+<img src="/assets/images/a4_2018_top.png" style="float:left;margin-right:40px;"/>
 
 
 <details><summary>Solution</summary>
@@ -447,11 +451,13 @@ A10, 2019
 
 <p>(a) False. \( f(x) = 0 \) is a counterexample. </p>
 
+<p></p>
 
 <p>(b) False. There are infinitely many candidates for \(f\). The maximum value of \( f(x)(1-f(x)) \) in the interval \(x \in (0,1)\) is \(1/4\).
-This value is attained only when \(f(x)=1/2\). So \(f\) is unique in the interval \( (0,1) \). But \(f\) is defined on \(\mathbb{R}\), so outside the interval \((0,1)\),
-\(f\) can be any continuous function.</p>
+This value is attained only when \(f(x)=1/2\). So \(f\) is unique in the interval \( (0,1) \). But \(f\) is defined on \(\mathbb{R}\), so outside
+the interval \((0,1)\), it can be any continuous function.</p>
 
+<p></p>
 
 <p>(c) True. See part (b). </p>
 
