@@ -41,7 +41,7 @@ Find all the roots of the polynomial:
 </p>
 
 <details><summary>Solution</summary>
-<p> We can factor the polynomial as follows: \(x^{4}+x^{3}+2 x^{2}+x+1=\left(x^{2}+1\right)\left(x^{2}+x+1\right)\)
+<p> We factor the polynomial as follows: \(x^{4}+x^{3}+2 x^{2}+x+1=\left(x^{2}+1\right)\left(x^{2}+x+1\right)\).
 </p>
 
 <p>
@@ -60,8 +60,11 @@ A6, 2011
 {: label .label-blue}
 
 <p>
-The equation \(x^{2}+b x+c=0\) has nonzero real coefficients satisfying \(b^{2}>4 c\). Moreover, exactly one of \(b\) and \(c\) is irrational. Consider the solutions \(p\) and \(q\) of this equation.
+The equation \(x^{2}+b x+c=0\) has non-zero real coefficients satisfying \(b^{2}>4 c\). Moreover, exactly one of \(b\) and \(c\) is irrational. Consider the solutions \(p\) and \(q\) of this equation.
 </p>
+
+<p>Which of these statements are correct?</p>
+
 
 - [ ] Both \\(\; p\; \\) and \\(\; q\; \\) must be rational.
 - [ ] Both \\( \;p\; \\) and \\( \;q\; \\) must be irrational.
@@ -74,8 +77,11 @@ The equation \(x^{2}+b x+c=0\) has nonzero real coefficients satisfying \(b^{2}>
 <p>
 (b) Both \( \;p\; \) and \( \;q\; \) must be irrational. <br>
 
-Let \(p\) and \(q\) be the roots of the equation. The condition in the problem implies that both are real and non-zero. We know that \(p+q=-b\) and \(pq=c\).
+
+Since the discriminant is positive, both the roots must be real. Since \(c\neq 0\), the roots must be non-zero. We know that \(p+q=-b\) and \(pq=c\).
 If one root is rational and the other is irrational, then both \(b\) and \(c\) must be irrational. If both the roots are rational, then both \(b\) and \(c\) must be rational. Hence, both \(p\) and \(q\) must be irrational.
+
+
 
 </p>
 
@@ -90,8 +96,8 @@ A7, 2018
 {: .label }
 
 
-<p>Suppose \(x^{3}+a x^{2}+b x+8=0\) be a cubic equation with integer coefficients.
-Suppose both \(r\) and \(-r\) are two roots, where \(r>0\) is a real number.
+<p>Suppose \(x^{3}+a x^{2}+b x+8=0\) is a cubic equation with integer coefficients.
+Both \(r\) and \(-r\) are the roots of the equation, where \(r>0\) is a real number.
 List all possible pairs of values \((a, b)\).
 </p>
 
@@ -107,17 +113,12 @@ By Vieta's formulas we have<br>
 -r^2s &= -8
 \end{align}
 
-which impies that \(b=-r^2\) must be negative and  \(ab=8\).
+which implies that \(b=-r^2\) must be negative and  \(ab=8\).
 </p>
 
 
 <p>
 So the possible pairs of values of \((a, b)\) are \(\{ (-1,-8), (-2,-4), (-4,-2), (-8,-1) \} \).
-</p>
-
-<br>
-<p>
-<i><b>Comment</b>. The official solution has a typo: It says the polynomial with roots \(r,-r\) and \(s\) as its roots must be \( (x+r)(x-r)(x+s) \). It must read \( (x+r)(x-r)(x\mathbf{-}s) \).</i>
 </p>
 
 
@@ -144,13 +145,17 @@ When does the polynomial \(1+x+\cdots+x^{n}\) have \(x-a\) as a factor? Here \(n
 
 <details><summary>Solution</summary>
 
-<p>(B) None of the roots are real, when \(n\) is even. Since \(f(1)=n\), 1 cannot be the root.
+<p>
 
-We have:<br>
+(b) We have:
 
-\[f(x)=\frac{1-x^{n+1}}{1-x}\]
+\[f(x)=\frac{1-x^{n+1}}{1-x} \mbox{ for } x\neq 1\]
 
-if \(r\) is a root of \(f\), then \(r^{n+1}=1\). The only real value that satisfies this is 1.
+If \(a\) is a root of \(f\), then \(a^{n+1}=1\).
+
+Since \(f(1)=n\), 1 cannot be a root of \(f\). So \(a\neq 1\). The only other possibility is \(a=-1\) with \(n\) being odd.
+
+
 </p>
 
 </details>
@@ -186,12 +191,14 @@ Since \( f(0) \) and \( f(1) \) are odd numbers, \(c_0\) is odd and
 
 Suppose \(f(x)\) has an integer root \(r\). Let us see what happens to the parity of \( f(r) \).
 
+For \(n\geq 1\), the parity of \(r^n\) is the same as that of \(r\). So:
+
 \begin{align}
 \text{Parity of }f(r) &= \text{Parity of }r \times \text{Parity of} \sum_{i=1}^n c_i  + \text{Parity of }c_0 \\
 \text{Parity of }f(r) &= \text{odd}
 \end{align}
 
-Since \( f(r) \) is an odd number \(r\) cannot be a root of the polynomial.
+Since \( f(r) \) is an odd number, \(r\) cannot be a root of the polynomial.
 
 </p>
 
@@ -207,23 +214,23 @@ B5, 2011
 {: label .label-blue}
 
 <p>
-It is given that the complex number \(i−3\) is a root of the polynomial \(3x^4+10x^3+Ax^2+Bx−30\),
+It is given that the complex number \(i−3\) is a root of the polynomial \(p(x) = 3x^4+10x^3+Ax^2+Bx−30\),
 where \(A\) and \(B\) are unknown real numbers.  Find the other roots.
 </p>
 
 <details><summary>Solution</summary>
 
 <p>
-Complex roots come in conjugates, so \(-i-3\) must also be a root. So \( (x-i+3)(x+i+3) = (x^2+6x+10) \) must be a factor. The given
-polynomial can written as
-\[ (x^2+6x+10)(ax^2+bx+c) \]
+Complex roots come in conjugates, so \(-i-3\) must also be a root. So \( (x-i+3)(x+i+3) = (x^2+6x+10) \) must be a factor of \(p(x)\):
+
+\[ p(x) = (x^2+6x+10)(ax^2+bx+c) \]
 
 By comparing the coefficients, \(a=3,b=-8,\text{and }c=-3\). Hence the polynomial is:
 
 \[ (x^2+6x+10)(3x^2-8x-3) \]
-\[ (x^2+6x+10)(x-3)(3x+1) \]
+\[ = (x^2+6x+10)(x-3)(3x+1) \]
 
-Hence the other roots are 3 and -1/3.
+Hence, the other roots are 3 and -1/3.
 
 </p>
 
@@ -250,17 +257,33 @@ then \(f\) has exactly one real root.
 <details><summary>Solution</summary>
 
 <p>
-Since the function has odd degree as the highest power, it has at least one
-real root. To show that the function has exactly one real root
-we have to show, that it is monotonic in the whole \(\mathbb{R}\).
-This can be done by showing that \(f'(x)\) is always positive when \(c>1/3\).
+Since the function has an odd degree as the highest power, it has at least one
+real root. The function has exactly one real root since it is monotonic in \(\mathbb{R}\), as proved below.
+</p>
+
+
+<p>
+<b>Lemma.</b> \(f(x)\) is a monotonic function in \( \mathbb{R} \).<br>
+
+<b>Proof.</b> Consider the derivative of \(f\).
 
 \[ f'(x) = 3x^2+2x+c \]
 
-The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\).
-Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
+
+The discriminant of the above quadratic, \(2^2-4\cdot3\cdot c\), is negative when \(c>1/3\). Hence, \(f'(x)\) is always positive in \(\mathbb{R}\).
+
+
+To see why \(f(x)\) is a strictly increasing function, consider any two points \(a\) and \(b\) in \(\mathbb{R}\) with \(b > a\). By mean value theorem,
+there exists an \(\alpha \in (a,b)\) such that:
+
+\begin{align}
+f^{\prime}(\alpha) &= \frac{f(b) - f(a)}{b-a} \\
+f(b) - f(a) &= f^{\prime}(\alpha) (b-a) > 0 \\\\
+& \Rightarrow\;  f(b) > f(a) \quad\quad\square
+\end{align}
 
 </p>
+
 
 </details>
 
@@ -273,7 +296,8 @@ A5, 2015
 {: .label}
 
 <p>
-Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10 .\) Suppose all of the eleven coefficients of \(p(x)\) are positive.
+Consider the polynomial \(p(x)=\left(x+a_{1}\right)\left(x+a_{2}\right) \cdots\left(x+a_{10}\right)\) where \(a_{i}\) is a real number for each \(i=1, \ldots, 10\).
+Suppose all the eleven coefficients of \(p(x)\) are positive.
 
 Which of these statements are true?
 
@@ -300,7 +324,7 @@ All of them are true.
 
 
 <p>
-(ii) The roots of \(p(x)\) are \(-a_{i}\). Since the coefficients of \(p(x)\) are positive, no nonnegative number is a root of \(p(x)\).
+(ii) The roots of \(p(x)\) are \(-a_{i}\)s. Since the coefficients of \(p(x)\) are positive, no nonnegative number is a root of \(p(x)\).
 Thus all the \(a_i\)s are positive.
 </p>
 
@@ -317,7 +341,7 @@ Thus all the \(a_i\)s are positive.
 
 
 
-### Find a rational polynomial with a given a root
+### Find a rational polynomial with a given root
 {: .d-inline-block }
 
 B1, 2012
@@ -329,11 +353,11 @@ a) Find a polynomial \(p(x)\) with \(\sqrt{2}+i\) as a root and \(p(x)\) having 
 </p>
 
 <p>
-b) Find a polynomial \(q(x)\) with integer coefficients and having the least degree such that \(\sqrt{2}+i\) is a root.
+b) Find a polynomial \(q(x)\) with rational coefficients and having the least degree such that \(\sqrt{2}+i\) is a root.
 </p>
 
 <p>
-c) Show that any other polynomial with integer coefficients and \(p(\sqrt{2}+i)=0\) has \(q(x)\) as a factor.
+c) Show that any other polynomial \(f(x)\) with rational coefficients and \(p(\sqrt{2}+i)=0\) has \(q(x)\) as a factor.
 </p>
 
 
@@ -341,18 +365,67 @@ c) Show that any other polynomial with integer coefficients and \(p(\sqrt{2}+i)=
 
 <details><summary>Solution</summary>
 
+<p>
+(a) Non-real roots of a polynomial with real coefficients occur in conjugate pairs.
+
+\begin{align}
+\text{Let }  p(x) &= (x-(\sqrt{2}+i))(x-(\sqrt{2}-i)) \\
+&=x^{2}-2 \sqrt{2} x+3
+\end{align}
+
+Since all the coefficients are real, the above quadratic is an example.
+
+</p>
 
 <p>
-(a) Non-real roots of a polynomial with real coefficients occur in conjugate pairs. \(p(x)=\) \((x-(\sqrt{2}+i))(x-(\sqrt{2}-i))=x^{2}-2 \sqrt{2} x+3\) works.
+(b) The above polynomial \(p(x)\) has one irrational coefficient. We try squaring it as follows:
 </p>
+
 <p>
-(b)\(\sqrt{2}+i\) satisfies \(x^{2}-2 \sqrt{2} x+3=0,\) i.e., \(x^{2}+3=2 \sqrt{2} x\) and so satisfies \(\left(x^{2}+3\right)^{2}=\) \(8 x^{2} .\) So \(q(x)=\left(x^{2}+3\right)^{2}-8 x^{2}\) works. A cubic with rational coefficients will not work because, after dividing by the necessarily rational leading coefficient, it must be of the form \(\left(x^{2}-2 \sqrt{2} x+3\right)(x-r) .\) This forces the coefficients \(-3 r\) and \(-2 \sqrt{2}-r\) to be both rational, which is impossible.
-Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0 .\)
+\begin{align}
+(x-(\sqrt{2}+i))(x-(\sqrt{2}-i)) & = 0 \\
+x^{2}-2 \sqrt{2} x+3 & = 0 \\
+x^{2}+3 & = 2 \sqrt{2} x \\
+(x^{2}+3)^2 & = 8x^2
+\end{align}
+</p>
+
+<p>
+So \( q(x) = (x^2+3)^2 - 8x^2 \) is a polynomial with integer coefficients with \(\sqrt{2}+i\) as one of its roots. We
+found a polynomial with degree 4. We show that 4 is the least degree for which such a polynomial exists.
+</p>
+
+
+<p>
+<b>Lemma.</b> There is no cubic polynomial \(q(x)\) with rational coefficients with \( q(\sqrt{2} + i) = 0 \).
+</p>
+
+<p>
+<b>Proof.</b> Let \( \sqrt{2}+i \), \(\sqrt{2}-i\) and \(r\) be the roots of such a cubic, if it exists. We have:
+
+\begin{align}
+q(x) & = (x^{2}-2 \sqrt{2} x+3)(x-r) \\
+& = x^{3}-(2 \sqrt{2}-r)x^2 + 2\sqrt{2}r x - 3r
+\end{align}
+
+If \(q\) has only rational coefficients, both \(2\sqrt{2}-r\) and \( 3r \) must be rational (Contradiction). \(\;\;\square\)
 </p>
 
 <p>
 (c)
-Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both polynomials with rational coefficients. Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation \(f(x)=\) \(q(x) a(x)+b(x)\) gives \(b(\sqrt{2}+i)=0 .\) Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root. But we just proved that this is impossible. Hence \(b(x)=0,\) i.e., \(f(x)\) is a multiple of \(q(x)\)
+Let \(f(x)\) be a polynomial with rational coefficients such that \(f(\sqrt{2}+i)=0\).
+
+Divide \(f(x)\) by \(q(x)\) using long division to get quotient \(a(x)\) and remainder \(b(x),\) both
+polynomials with rational coefficients.
+
+\[ f(x)=q(x)a(x)+b(x) \]
+
+Using \(f(\sqrt{2}+i)=0\) and \(q(\sqrt{2}+i)=0\) in the equation gives \(b(\sqrt{2}+i)=0\).
+Now if the remainder \(b(x)\) is a nonzero polynomial, then it would have rational coefficients, degree less than 4 and \(\sqrt{2}+i\) as a root.
+But we have proved in part (b) that such a polynomial does not exist. Hence, \(b(x)=0\) which implies that \(f(x)\) is a multiple of \(q(x)\).
+
+
+
 </p>
 
 </details>
@@ -373,11 +446,13 @@ Suppose \(\displaystyle f(x)=\frac{x^{n}}{n!}+\frac{x^{n-1}}{(n-1)!}+\cdots+x+1\
 Show that \(f(x)=0\) has no repeated roots.
 </p>
 
+<i>Requires calculus</i><br>
+
 <details><summary>Solution</summary>
 
 
 <p>
-Since zero cannot be a root of \(f(x)\), we focus only on non-zero roots. Let us assume, for a contradiction, that \(f\) has a repeated root \(r\neq 0\).</p>
+Since zero cannot be a root of \(f(x)\), we focus only on the non-zero roots. Let us assume, for a contradiction, that \(f\) has a repeated root \(r\neq 0\).</p>
 
 <p>
 <b>Fact.</b> If \(r\) is a repeated root both \(f(r)\) and \(f^{\prime}(r)\) must be zero.
@@ -421,11 +496,16 @@ Let \(f(x)\) be a polynomial with integer coefficients \(f(n)\) evaluates to a <
 </p>
 
 <p>
-a) If such a polynomial \(f(x)\) exists, then there is a polynomial \(g(x)\) with integer coefficients such that for each nonnegative integer \(n, g(n)=\) a perfect power of a fixed prime number.
+a) If such a polynomial \(f(x)\) exists, then there is a polynomial \(g(x)\) with integer coefficients such that for each nonnegative integer \(n\),
+\(g(n)\) is a perfect power of a fixed prime number.
 </p>
 
 <p>
-b) Show that a polynomial \(g(x)\) as in part a must be constant.
+b) Show that \(g(x)\) as in part (a) must be a constant polynomial.
+</p>
+
+<p>
+c) Show that \(f(x)\) is a constant polynomial.
 </p>
 
 
@@ -438,9 +518,11 @@ Write \(f(x)=a_{n} x^{n}+a_{n-1} x^{n-1}+\cdots+a_{1} x+a_{0} .\) Then \(a_{0}=f
 
 
 <p>(b)
-Let \(g(x)=b_{n} x^{n}+b_{n-1} x^{n-1}+\cdots+b_{1} x+b_{0} .\) Then \(b_{0}=g(0)=p^{k} .\) Consider \(g\left(m p^{k+1}\right)=\)
-\(b_{n}\left(m p^{k+1}\right)^{n}+b_{n-1}\left(m p^{k+1}\right)^{n-1}+\cdots+b_{1}\left(m p^{k+1}\right)+p^{k} .\) Clearly for each non-negative integer
-\(m,\) this expression is divisible by \(p^{k},\) but not by \(p^{k+1}\) (since it is \(p^{k}\) modulo \(p^{k+1}\) ). This forces \(g\left(m p^{k+1}\right)=p^{k}\) for all \(m,\) since it must be a perfect power of \(p .\) Thus the polynomial \(g\) takes the value \(p^{k}\) infinitely often, so it must be identically equal to \(p^{k}\). (Otherwise the polynomial \(g(x)-p^{k}\) would have infinitely many roots.) To finish the problem, note that since \(g(x)=f(p x)\) is constant, \(f(x)\) must be constant by the same logic.
+Let \(g(x)=b_{n} x^{n}+b_{n-1} x^{n-1}+\cdots+b_{1} x+b_{0} .\) Then \(b_{0}=g(0)=p^{k} .\) Consider:
+
+\[ g\left(m p^{k+1}\right)=(b_{n}\left(m p^{k+1}\right)^{n}+b_{n-1}\left(m p^{k+1}\right)^{n-1}+\cdots+b_{1}\left(m p^{k+1}\right)+p^{k}\]
+
+Clearly for each non-negative integer \(m\), this expression is divisible by \(p^{k},\) but not by \(p^{k+1}\) (since it is \(p^{k}\) modulo \(p^{k+1}\) ). This forces \(g\left(m p^{k+1}\right)=p^{k}\) for all \(m,\) since it must be a perfect power of \(p .\) Thus the polynomial \(g\) takes the value \(p^{k}\) infinitely often, so it must be identically equal to \(p^{k}\). (Otherwise the polynomial \(g(x)-p^{k}\) would have infinitely many roots.) To finish the problem, note that since \(g(x)=f(p x)\) is constant, \(f(x)\) must be constant by the same logic.
 </p>
 
 
@@ -490,7 +572,7 @@ work in this area. For example, take a look at this <a href="https://www.cse.iit
 
 <details><summary>Solution</summary>
 
-<p> FTFT </p>
+<p> False-True-False-True </p>
 
 <p> (a) Counterexample: \( (x+1)^2 = x^2+2x+1 \)  </p>
 
@@ -743,7 +825,7 @@ Which of the statements are true?<br>
 <details><summary>Solution</summary>
 
 <p>
-TTFF<br>
+True-True-False-False<br>
 
 <p>
 (i) If \(g(x)\) is linear, it is uniquely determined by any two values.<br>
@@ -789,37 +871,77 @@ B5, 2016
 (ii) If \(p(x)\) is divided by \((x-2)^{3}\), the remainder is the constant polynomial 2.<br>
 </p>
 
+<p><i>Requires calculus.</i></p>
 
 <details><summary>Solution</summary>
 
 <p>
-<b>Background</b>. In general, if a polynomial \(f(x)\) leaves a constant remainder \(r\) when divided by the polynomial \((x-c)^{k}\).
-Then \(f^{\prime}(x)\) is divisible by \((x-c)^{k-1}\).<br>
+Conditions (i) and (ii) imply that for some polynomials \(q(x)\) and \( r(x) \), we should be able to express \(p(x)\) as:
+</p>
 
-The converse also holds. If \(f^{\prime}(x)=q(x)(x-c)^{k-1}\), then \(f(x)\) leaves a constant remainder when divided by \((x-c)^{k}\).
-To see this, substitute \(u=(x-c)\) in \(q(x)(x-c)^{k-1}\) and integrate.
+<p>
+\begin{align}
+p(x) &= q(x)x^{100} + 1 \\
+p(x) &= r(x)(x-2)^{3} + 1
+\end{align}
+</p>
+
+<p>
+<b>Key observation.</b> If we did not have the plus one terms at the end, we could have simply multiplied the two RHS terms. Taking the
+derivative makes the 1s go away. So let us look at \( p^\prime{(x)} \).
+</p>
+
+<p>
+\begin{align}
+p^\prime(x) &= 100q(x)x^{99} + q^\prime(x) x^{100} \\
+&= x^{99}\times (100q(x) + q^\prime(x) x^{100})
+\end{align}
 </p>
 
 
+\begin{align}
+p^\prime(x) &= 3r(x)(x-2)^{2} + r^\prime(x) (x-2)^{3} \\
+&= (x-2)^2 \times ( 3r(x) + r^\prime(x)(x-2) )
+\end{align}
+
+
+
+<p>So \(p(x)\) has \(x^{99}\)  and  \( (x-2)^{2} \) as factors. We may assume</p>
+
+<p>
+\[ p^\prime(x) =  Ax^{99}(x-2)^2 \]
+</p>
+
+<p>
+for some constant \(A\). The assumption is justified since any polynomial whose derivative is divisible by \(x^{99}(x-2)^{2}\) will leave constant remainders when divided by either of \(x^{100}\) and \((x-2)^{3}\).
+</p>
+
+<p>
+So let us find \( p(x) \) by integrating \( p^\prime (x) \):
+</p>
+
+<p>
+\[ p(x)=A\left(\frac{x^{102}}{102}-\frac{4 x^{101}}{101}+\frac{4 x^{100}}{100}\right)+B \]
+</p>
 
 
 <p>
-In the given problem \(p^{\prime}(x)\) is divisible by \(x^{99}\) as well as by \((x-2)^{2} .\) Moreover any polynomial whose derivative is divisible by \(x^{99}(x-2)^{2}\) will leave constant remainders when divided by either of \(x^{100}\) and \((x-2)^{3}\). The simplest way to find one such \(p(x)\) is to integrate \(A x^{99}(x-2)^{2}=A\left(x^{101}-4 x^{100}+4 x^{99}\right)\) to get
+We use properties (i) and (ii) to calculate \(A\) and \(B\).
+</p>
 
-\[ p(x)=A\left(\frac{x^{102}}{102}-\frac{4 x^{101}}{101}+\frac{4 x^{100}}{100}\right)+B \]
 
-
-Let us calculate \(A\) and \(B\).
-
+<p>
 \begin{align}
 p(0)&=B=1 \\
 p(2)&=A\left(\frac{2^{102}}{102}-\frac{4 \times 2^{101}}{101}+\frac{4 \times 2^{100}}{100}\right)+1=2
 \end{align}
-
-So \(A=2\) and \(B=1\).
-
-
 </p>
+
+<p>
+So \(A=2\) and \(B=1\).
+</p>
+
+
 
 </details>
 
