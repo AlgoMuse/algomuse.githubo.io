@@ -11,7 +11,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 
 # CMI Tomato
 
-This website is for class XII students who wish to pursue B.Sc. at Chennai Mathematical Institute.
+This website is for class XI and XII students who wish to pursue B.Sc. at Chennai Mathematical Institute.
 {: .fs-5 .fw-300 }
 
 ---
@@ -28,6 +28,7 @@ This website is for class XII students who wish to pursue B.Sc. at Chennai Mathe
 - Practice questions that are in a similar vein as the entrance exam questions.
 -->
 {: .fs-4 .fw-300 }
+
 
 
 ---
@@ -55,7 +56,8 @@ Manjul Bhargava
 -->
 
 
-## Browse previous years' problems
+<div id="palette1">
+<h2>Browse previous years' problems</h2>
 
 <br>
 
@@ -348,15 +350,16 @@ Manjul Bhargava
     </div>
 </p>
 
+<hr>
+  </div>
 
----
 
 
 ## CMI entrance exam cutoffs
 
 The cutoff has been around 35% for the objective section and 40-50% overall. The objective section is used for screening.<br>
 
-CMI does not publish the cutoff marks on their website but they have responded to individual requests in the past. The below-given scores are estimates based on inputs from former students.
+CMI does not publish the cutoff marks but they have responded to individual requests in the past. The scores shown below were shared by former students who were privy to this data.
 <br>
 
 <!--
@@ -437,9 +440,11 @@ https://promys-india.org/resources/reading-list/
 
 #### About the author
 
-This website is maintained by  Balasundar Mallesh, a teacher who has more than 15 years of experience in industry and academia.
-He is a control-theorist by profession but a mathematician at heart.  If you have
-an alternate solution to any problem, feel free to email at <code>malleshm</code> followed by the first four odd numbers <code>@gmail.com</code>
+This website is maintained by  Balasundar Mallesh, a teacher who has more than 15 years of experience in the industry and academia. He enjoys solving
+olympiad-type problems over coffee.
+{: .fs-3 .fw-300 }
+
+If you have a more elegant solution to any problem than the one presented, feel free to email him at <code>mbalasundar08</code> [at] <code>gmail.com.</code>
 {: .fs-3 .fw-300 }
 
 ---
