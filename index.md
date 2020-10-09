@@ -353,6 +353,116 @@ Manjul Bhargava
 <hr>
   </div>
 
+<!--
+
+## CMI Entrance Exam 2020
+
+### Part A - Short-answer type
+
+<p>
+1. A polynomial \( P(x) \) of degree \(7\) satisfies \(P(n)=2^n\) for \(n=0\) to \(7\).  Find \(P(10)\).
+</p>
+
+<p>
+2. In a school, there are \(3\) clubs. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
+</p>
+
+<p>
+3. Find positive integers \(a,b,c\leq 475\) such that:
+</p>
+
+<p>
+\begin{align}
+a\equiv 0\pmod {25} & \quad a\equiv 1\pmod {19} \\
+b\equiv 1\pmod {25} & \quad b\equiv 0\pmod {19} \\
+c\equiv 10\pmod{25} & \quad c\equiv 4\pmod {19}
+\end{align}
+</p>
+
+
+<p>
+4. Find the number of positive integers \(n\leq 60\) having \(6\) divisors.
+</p>
+
+<p>
+5. Write whether the \(3\) functions \(\frac{x^3}{(x^2-x)}, \ \frac{(x^2-x)}{x^3},\ \frac{(x^3-x)}{(x^3+x)}\) have horizontal asymptotes, vertical asymptotes and removable discontinuities.
+</p>
+
+<p>
+6. Find \(\int_1^{e^2} \ln x dx\).  Also find \(\int_{-1}^1 \frac{\ln\mid x\mid}{\mid x\mid}.\)
+</p>
+
+<p>
+7. \(P(x)=10x^{400}+ax^{399}+bx^{398}+3x+15\).
+\((x^2-1)\) is a factor of \(P(x)\). Find \(a\) and \(b\). Also find the sum of reciprocals of all roots of \(P(x)\).
+</p>
+
+<p>
+8. What is the probability that among \(100\) tosses of a fair die the first \(3\) tosses yield at least one \(4\)? Also calculate the probability that out of the last \(4\) tosses, exactly two are multiples of \(3\).
+</p>
+
+<p>
+9. Find the unit vector perpendicular to a given vector and which lies in the same plane formed by two other vectors.
+</p>
+
+
+
+### Part B - Subjective questions
+
+
+<p>
+1. In a circle we have \(4\) points \(A\), \(B\), \(C\) and \(D\). \(AC\) and \(BD\) are diameters, \(AB =12\), \(BC = 5\). \(P\) is a point on arc joining \(A\) & \(B\) which does not contain \(C\) and \(D\). \(AP = a\). \(BP = b\), \(CP = c\) and \(DP = d\).  Find \(\frac {a+b}{c+d}\) \(~\) and \(~\) \(\frac {a-b}{d-c}\).
+</p>
+
+
+<p>
+2. Let \(z=e^{\frac{2i\pi}{n}}\) where \(n\geq 2\) is a positive integer. Prove that \(\sum_{k=0}^{n-1}z^k=0.\)
+</p>
+
+<p>
+ii) Prove that \(\cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ = 0\)
+</p>
+
+<p>
+3. A Spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction with a speed of \(10\) unit per second. The spider has woven a web that connects it to the origin. The web is tense. Find the rate of increase of the length of the web when \(x=\frac{1}{2}\).
+
+</p>
+
+<p>
+4. i) A continuous function \(f(x)\) has the property that \(f(x^2)=f(x)^2.\) If the domain of \(f\) is \([0,1]\) and \(f(0)\neq 0,\) then show that \(f\) is unique and find \(f.\)
+</p>
+
+<p>
+ii) Consider the same property of \(f,\) but this time the domain being \((0,\infty).\) Show that either \(f(x)=0\ \forall x\) or \(f(x)\neq 0\) \(\forall\) \(x.\)
+</p>
+
+<p>
+iii) Show that there exist infinitely many continuous many functions \(f(x)\) with the same property and with domain \((0,\infty)\) such that \(\int_0^{\infty}f(x)dx<1.\)
+
+</p>
+
+<p>
+5. A monic polynomial is said to have property \(\tau\) if \(r\) is it's one root \(\implies\) \(r^2 -4\) is also another root.
+</p>
+
+<p>
+(i) Prove that there are exactly two such quadratic polynomials and find them.
+</p>
+
+<p>
+(ii) Consider the same property for cubic polynomials.  Given that there exist exactly two such monic cubic polynomials with property \(\tau,\) describe the process of finding them, but do not try to find the exact polynomials.
+</p>
+
+<p>
+6. (i) Find the total number of anti-symmetric relations \(R\) from \(S \times S\) where \(S=\{1,2,3\cdots k\}.\)
+</p>
+
+<p>
+Given: An anti-symmetric relation is defined as: \((a,b)\in R\implies (b,a)\notin R.\)
+</p>
+
+
+-->
 
 
 ## CMI entrance exam cutoffs
@@ -438,9 +548,10 @@ https://promys-india.org/resources/reading-list/
 ---
 
 
+
 #### About the author
 
-This website is maintained by  Balasundar Mallesh, a teacher who has more than 15 years of experience in the industry and academia. He enjoys solving
+This website is maintained by  Balasundar M, a teacher who has more than 15 years of experience in the industry and academia. He enjoys solving
 olympiad-type problems over coffee.
 {: .fs-3 .fw-300 }
 
