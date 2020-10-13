@@ -29,8 +29,8 @@ _Note: If you don't find the confirmation email in your inbox, check the `Promot
 
 
 var disqus_config = function () {
-    this.page.url = "{{site.url}}{{page.url}}"
-    this.page.identifier =  "{{page.id}}"
+    this.page.url = "{{site.url}}{{page.url}}";
+    this.page.identifier =  "{{page.id}}";
 };
 
 
