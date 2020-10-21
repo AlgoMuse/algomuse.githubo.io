@@ -321,7 +321,7 @@ You are given the following: a circle, one of its diameters \(A B\) and a point 
 Given two points, a straight-edge can be used to draw the line passing through the given points.
 
 
-<p style="text-align:center;"><img src="/assets/images/B6_2015.svg"></p>
+<p style="text-align:center;"><img src="/assets/images/b6_2015.svg"></p>
 
 <br>
 
@@ -341,7 +341,7 @@ Justify your answer.
 (b) Please refer to the figure shown below. We will do a case-by-case analysis:<br>
 
 
-<p style="text-align:center;"><img src="/assets/images/B6_2015ans.svg"></p>
+<p style="text-align:center;"><img src="/assets/images/b6_2015ans.svg"></p>
 
 
 <i>Case 1</i>: Suppose  X is not on the line AB so XAB is a triangle, nor on the  tangents to the circle at \(A\) (so line XA meets the circle in a point \(C\) different from \(A\) ),
