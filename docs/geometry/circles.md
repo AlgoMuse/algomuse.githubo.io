@@ -123,7 +123,12 @@ For each statement below, write whether it is TRUE or FALSE.
 <p>
 All the statements are true.
 
-Draw a picture and see that the bisector of \(\angle A O B\) splits this angle into two angles of \(60^{\circ}\) each and meets the circle, say in point \(C^{\prime} .\) Now the triangles \(O A C^{\prime}\) and \(O B C^{\prime}\) are both equilateral, so \(A C^{\prime}=O C^{\prime}=B C^{\prime},\) making \(C^{\prime}=C,\) the cirumcenter of triangle \(A O B\).
+Consider the figure shown below. The bisector of \(\angle A O B\) splits this angle into two angles of \(60^{\circ}\) each and meets the circle,
+at point \(C^{\prime} \).
+
+<p style="text-align:center;"><img src="/assets/images/a3_2013.svg"></p>
+
+Now the triangles \(O A C^{\prime}\) and \(O B C^{\prime}\) are both equilateral, so \(A C^{\prime}=O C^{\prime}=B C^{\prime},\) making \(C^{\prime}=C,\) the circumcenter of triangle \(A O B\).
 Similarly, letting \(C D^{\prime}\) be a diameter of the circle \(S,\) it is easy to deduce that \(\angle A O D^{\prime}=\angle B O D^{\prime}=120^{\circ}\) and that triangle \(A B D^{\prime}\) is also equilateral with \(O\) as its centroid.
 Hence \(C D^{\prime} \perp A B,\) line \(B O \perp A D^{\prime}\) and line \(A O \perp B D^{\prime},\) making \(D^{\prime}=D,\) the orthocenter of triangle \(A O B\).
 </p>
@@ -312,7 +317,11 @@ B6, 2015
 You are given the following: a circle, one of its diameters \(A B\) and a point \(X\).
 <br>
 
-(a) Using only a straight-edge, show in the given figure how to draw a line perpendicular to \(A B\) passing through \(X .\) No credit will be given without full justification. (Recall that a straight-edge is a ruler without any markings. Given two points, a straight-edge can be used to draw the line passing through the given points.)
+(a) Using only a straight-edge, show in the figure below how to draw a line perpendicular to \(A B\) passing through \(X\).
+Given two points, a straight-edge can be used to draw the line passing through the given points.
+
+
+<p style="text-align:center;"><img src="/assets/images/B6_2015.svg"></p>
 
 <br>
 
@@ -329,7 +338,11 @@ Justify your answer.
 (a) Line AX cuts the circle in C. Line BX cuts the circle in D. Lines AD and BC intersect in E. Line XE is perpendicular to line AB. Reason: Angles ADB and ACB are right angles, being angles in a semicircle. The altitudes of triangle \(\mathrm{XAB}\) are concurrent. Two of them are \(\mathrm{AD}\) and \(\mathrm{BC},\) so the third is contained in line XE.
 
 <br>
-(b) We will do a case-by-case analysis:<br>
+(b) Please refer to the figure shown below. We will do a case-by-case analysis:<br>
+
+
+<p style="text-align:center;"><img src="/assets/images/B6_2015ans.svg"></p>
+
 
 <i>Case 1</i>: Suppose  X is not on the line AB so XAB is a triangle, nor on the  tangents to the circle at \(A\) (so line XA meets the circle in a point \(C\) different from \(A\) ),
 nor on the tangent at \(\mathrm{B}\) (so line \(\mathrm{XB}\) meets the circle in a point \(\mathrm{D}\) different from \(\mathrm{B}\) ) nor on the given circle (so \(\mathrm{C}, \mathrm{D}\) and \(\mathrm{X}\) are all different). In this case the exact same procedure will work so long as we understand that the altitudes and their intersection point may lie outside triangle XAB. This is because the lines XA and XB meet the circle in two distinct points \(\mathrm{C}\) and \(\mathrm{D}\) that are different from \(\mathrm{X}, \mathrm{A}\) and \(\mathrm{B}\).
