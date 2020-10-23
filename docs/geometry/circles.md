@@ -155,7 +155,24 @@ A11, 2014
 <details><summary>Solution</summary>
 
 <p>
-3 and 3.
+The area of an \(n\)-sided regular polygon is given by
+
+\[ A = \frac{nr^2}{2} \sin \left( \frac{2\pi}{n} \right) \]
+
+</p>
+
+<p>
+(i) \( A_{12} = 6 \sin(\pi/6 ) = 3\).
+</p>
+
+<p>
+(ii) 3. \( A_{2014} = 1012 \sin(\pi/1012) \approx \pi \), since for small values of \(x\), \(\sin x \approx x\).
+</p>
+
+<p>
+Another way to reason is to observe that a polygon with many sides is approximately close to a circle.
+Since the area of the circle is \(\pi\), the polygon's area must also be close to \(\pi\).
+
 </p>
 
 </details>
