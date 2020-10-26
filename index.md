@@ -16,6 +16,16 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
+What's new?
+{: .label}
+
+<p>
+<b>Solutions to Part-A problems of CMI 2020 paper are uploaded (scroll down). The Part B solutions will be uploaded by Wednesday.</b>
+</p>
+
+
+
+
 
 #### What you get on this site
 {: .fs-4}
@@ -350,22 +360,85 @@ Manjul Bhargava
     </div>
 </p>
 
+</div>
+
+
 <hr>
-  </div>
 
-<!--
 
-## CMI Entrance Exam 2020
+
+## Solutions to CMI Entrance Exam 2020 [WIP]
 
 ### Part A - Short-answer type
 
 <p>
-1. A polynomial \( P(x) \) of degree \(7\) satisfies \(P(n)=2^n\) for \(n=0\) to \(7\).  Find \(P(10)\).
+1. A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).
 </p>
+
+<details><summary>Solution</summary>
+
+<p>
+Let us define the <i>binomial polynomial</i> \( \binom{x}{k} \) as follows:
+
+\[ \binom{x}{k} := \frac{1}{k!} \times x\times (x-1)\times\cdots(x-(k-1)) \]
+
+for \( k>0 \) and 1 for \( k=0 \). Now consider the 7-degree polynomial \( g(x) \) defined as:
+
+\[ g(x) := \binom{x}{0} + \binom{x}{1} +\cdots + \binom{x}{7} \]
+
+The value of \( g(x) \) is same as \( p(x) \) for \(x=0\) to \(7\). Recall that if two \(n\)-degree polynomials agree on \(n+1\) points they must be identical. So, \( g(x) = p(x) \).
+
+\begin{align}
+p(10) & = g(10) = \binom{10}{0} + \binom{10}{1} +\cdots + \binom{10}{7} \\
+& =\: 2^{10} - \left[ \binom{10}{8} +\binom{10}{9}+ \binom{10}{10} \right] \\
+& =\: 2^{10} - \left( 45+10+1\right) \\
+& = 968
+\end{align}
+
+</p>
+
+</details>
+
+
 
 <p>
 2. In a school, there are \(3\) clubs. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
 </p>
+
+<details><summary>Solution</summary>
+<p>
+Let us split the students into three categories:
+
+<ul>
+<li><i>A-members:</i> Students who belong to one club.</li>
+<li><i>B-members:</i> Students who belong to two clubs.</li>
+<li><i>C-members:</i> Students who belong to three clubs.</li>
+</ul>
+
+</p>
+
+<p>
+Each club has 35 slots out of which C-members take up 10 slots. The remaining 25 slots in each club
+have be to filled with either A or B-members.
+</p>
+
+<p>
+<i>Maxima. </i> In order to maximize the number of students we pick only A members. So 75 A-members fill up the remaining slots.
+The total number of students is then 85.
+</p>
+
+
+<p>
+<i>Minima. </i> There are 75 remaining slots. Each B-student fills up two slots, so there must be at least one A-member. Notice that three B-members
+can fill up 2 slots of each club. So, 36 B-members can fill up 24 of the remaining slots in each club. The remaining empty slots can be filled up by one B-member
+and one A-member. So we have 10 C-members, 37 B-members and 1 A-member in all the clubs. In total there are 48 students.
+</p>
+
+</details>
+
+
+
+
 
 <p>
 3. Find positive integers \(a,b,c\leq 475\) such that:
@@ -373,60 +446,427 @@ Manjul Bhargava
 
 <p>
 \begin{align}
-a\equiv 0\pmod {25} & \quad a\equiv 1\pmod {19} \\
-b\equiv 1\pmod {25} & \quad b\equiv 0\pmod {19} \\
+a\equiv 0\pmod {25} & \quad a\equiv 1\pmod {19} \\ \\
+b\equiv 1\pmod {25} & \quad b\equiv 0\pmod {19} \\ \\
 c\equiv 10\pmod{25} & \quad c\equiv 4\pmod {19}
 \end{align}
 </p>
+
+
+<details><summary>Solution</summary>
+
+<div style="margin-top:10px; margin-bottom: 10px; padding: 10px; border: 1px solid #cce ; border-radius: 4px;">
+
+<h3>Background: Chinese remainder theorem (CRT)</h3>
+
+<p>
+We want to find a \(p\) such that:
+
+\begin{align}
+p \equiv p_{1} &\: \left(\bmod\; n_{1}\right) \\
+p \equiv p_{2} &\: \left(\bmod\; n_{2}\right)
+\end{align}
+
+where \(n_{1}\) and \(n_{2}\) are coprime.
+
+Bezout's theorem proves the existence of two integers \(m_{1}\) and \(m_{2}\) such that:
+
+\[ m_{1} n_{1}+m_{2} n_{2}=1 \]
+
+The integers \(m_{1}\) and \(m_{2}\) can be found by the extended Euclidean algorithm.
+
+A solution is given by
+
+\[ p=p_{1} m_{2} n_{2}+p_{2} m_{1} n_{1} \]
+
+Further, the solution is unique modulo \(n_1n_2\).
+</p>
+</div>
+
+The numbers 25 and 19 are co-prime and we can apply CRT directly to our problem.
+
+\[ -3\times 25 + 4\times 19 = 1 \]
+
+So we have:
+
+\begin{align}
+n_1 &= 25 &  n_2 &= 19 \\
+m_1 &= -3 &  m_2 &= 4
+\end{align}
+
+We apply the formula to get the values of \(a,b\) and \(c\).
+
+\begin{align}
+a &= 0\times 76 + 1 \times -75 = -75 = 400 \pmod{475} \\
+b &= 1\times 76 + 0 \times -75 = 76  \\
+c &= 10\times 76 + 4 \times -75 = 460 \pmod{475}
+\end{align}
+
+</details>
 
 
 <p>
 4. Find the number of positive integers \(n\leq 60\) having \(6\) divisors.
 </p>
 
+<details><summary>Solution</summary>
+<p>
+Suppose the prime factorization of \(n\) is \(p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}\), then \(n\) has \( (a_1+1)(a_2+1)\cdots (a_k+1) \) factors. If \(n\)
+has six factors, its prime factorizaton must be of the form \(p_1p_2^{2}\). There are eight numbers less than 60 that satisfy this condition:
+</p>
+
+<p>
+\[ 2\cdot3^2, 2\cdot 5^2, 3\cdot2^2, 5\cdot 2^2, 5\cdot 3^2, 7\cdot 2^2, 11\cdot 2^2 \mbox{ and } 13\cdot 2^2 \]
+</p>
+
+</details>
+
+
+
+
+
+
+<!--
+<b>2</b> | - | - | \\(2\cdot 3^2\\) | \\(2\cdot 5^2\\) |  |   |
+<b>3</b> | \\(3\cdot 2^2\\)| - |  |  |  |
+-->
+
+
+
+
+
 <p>
 5. Write whether the \(3\) functions \(\frac{x^3}{(x^2-x)}, \ \frac{(x^2-x)}{x^3},\ \frac{(x^3-x)}{(x^3+x)}\) have horizontal asymptotes, vertical asymptotes and removable discontinuities.
 </p>
 
+
+<details><summary>Solution</summary>
+
+
+
+
+<div style="margin-top:10px; margin-bottom: 10px; padding: 10px; border: 1px solid #cce ; border-radius: 4px;">
+
+<h4>How to find a horizontal asymptote?</h4>
+
+Let us consider the case when the given function is of the form:
+
+\[ f(x) = \frac{a_1x^m+a_2x^{m-1}+\cdots+a_m}{b_1x^n+b_2x^{n-1}+\cdots+b_n} \]
+
+<ul>
+<li>If \(m> n\), then there is no horizontal asymptote. </li>
+<li>If \(m< n\), then \(y=0\) a horizontal asymptote. </li>
+<li>If \(m=n\), then \(y=a_1/b_1\) a horizontal asymptote.</li>
+</ul>
+</div>
+
+
+We can apply this directly to the given functions. The first function has no horizontal asymptotes. The second and third functions have
+\(y=0\) and \(y=1\) as their horizontal asymptotes, respectively.
+
+<div style="margin-top:10px; margin-bottom: 10px; padding: 10px; border: 1px solid #cce ; border-radius: 4px;">
+<h4>How to find a vertical asymptote?</h4>
+Vertical asymptotes occur at those points where the denominator is zero and the numerator is non-zero.
+</div>
+
 <p>
-6. Find \(\int_1^{e^2} \ln x dx\).  Also find \(\int_{-1}^1 \frac{\ln\mid x\mid}{\mid x\mid}.\)
+The first two functions have \(x=1\) and \(x=0\) as their vertical asymptotes. The denominator is always positive for the third function, so there
+are no vertical asymptotes for this function.
 </p>
+
+<h4>Removable discontinuities</h4>
+<p>
+In all the functions, the term \(x\) can be factored out from the numerator and the denominator.
+Hence, \(x=0\) is a removable discontinuity for all the functions.
+</p>
+
+
+</details>
+
+
+
+<p>
+6. (a) Evaluate \(\int_1^{e^2} \ln x dx\). <br>
+(b) Evaluate \(I = \int_{-1}^1 \frac{\ln\mid x\mid}{\mid x\mid}.\)
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+(a)
+\begin{align}
+\int_1^{e^2} \ln x \: \mbox{d}x &= x\ln x - x \rvert_{1}^{e^2}   \\
+&= [e^2\ln e - e^2] -[ 1\ln 1 - 1]  \\
+&= e^2+1
+\end{align}
+</p>
+
+<p>
+(b) Since \(|x| = |-x|\), we have:
+
+\begin{align}
+\frac{I}{2} &=  \int_{0}^1 \frac{\ln x}{x} \mbox{d}x \\
+&= \left. \frac{(\ln x)^2}{2} \right \rvert_{0}^{1} \\
+&= \frac{(\ln 1)^2}{2} - \frac{ (\ln 0)^2 }{2}  \\
+&=0-\infty \\
+\therefore I &= -\infty
+\end{align}
+
+
+
+
+</p>
+
+
+
+</details>
+
 
 <p>
 7. \(P(x)=10x^{400}+ax^{399}+bx^{398}+3x+15\).
-\((x^2-1)\) is a factor of \(P(x)\). Find \(a\) and \(b\). Also find the sum of reciprocals of all roots of \(P(x)\).
+\((x^2-1)\) is a factor of \(P(x)\).
 </p>
 
 <p>
-8. What is the probability that among \(100\) tosses of a fair die the first \(3\) tosses yield at least one \(4\)? Also calculate the probability that out of the last \(4\) tosses, exactly two are multiples of \(3\).
+(i) Find \(a\) and \(b\).
 </p>
 
 <p>
-9. Find the unit vector perpendicular to a given vector and which lies in the same plane formed by two other vectors.
+(ii) Find the sum of reciprocals of all the roots of \(P(x)\).
 </p>
 
 
+<details><summary>Solution</summary>
+
+<p>
+(i) Since \((x^2-1)\) is a factor of \(P(x)\), we must have \( P(1)=P(-1)=0\).  We get two equations:
+
+\begin{align}
+P(1) = 10 + a + b + 3 + 15 = 0 \\
+P(-1) = 10 - a + b - 3 + 15 = 0
+\end{align}
+
+By solving the above equations we get \(a=-3\) and \(b=-25\).
+</p>
+
+
+<p>
+(ii) By Vieta's formulas, only the ultimate and the penunltimate coefficents matter. The sum turns out to be \(-1/5\).
+</p>
+
+</details>
+
+
+
+
+
+
+<p>
+8. (i) What is the probability that among \(100\) rolls of a fair die the first \(3\) rolls yield at least one \(4\)?
+</p>
+
+<p>
+(ii) Calculate the probability that out of the last \(4\) rolls, exactly two are multiples of \(3\).
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+(i) The probability that none of the first three rolls have a 4 is \( (5/6)^3 \). So the required probability is \(1 - (5/6)^3\).
+</p>
+
+<p></p>
+
+<p>
+(ii) Let \(S\) be the number of ways in which four rolls can have exactly two multiples of 3. The required probability \(P\) is then \(S/6^4\).
+</p>
+
+<p> Let us calculate \(S\). Two positions can be picked in \( \binom{4}{2} \)
+ways. These two positions can have either a 3 or a 6. So the favorable positions can be filled in \( \binom{4}{2}\times 2^2 \) ways. The other two positions can have either 1, 2, 4 or 6. So they
+can be filled in \( 4^2\) ways. Hence we have:
+
+\[ P = \frac{  \binom{4}{2}\times 4 \times 4 \times 4  }{6^4} = \frac{2}{3}^3 = \frac{8}{27} \]
+
+</p>
+
+</details>
+
+
+<!--
 
 ### Part B - Subjective questions
 
 
 <p>
-1. In a circle we have \(4\) points \(A\), \(B\), \(C\) and \(D\). \(AC\) and \(BD\) are diameters, \(AB =12\), \(BC = 5\). \(P\) is a point on arc joining \(A\) & \(B\) which does not contain \(C\) and \(D\). \(AP = a\). \(BP = b\), \(CP = c\) and \(DP = d\).  Find \(\frac {a+b}{c+d}\) \(~\) and \(~\) \(\frac {a-b}{d-c}\).
+1. We have four cyclic points \(A\), \(B\), \(C\) and \(D\). \(AC\) and \(BD\) are  the diameters of the circle.
+\(AB =12 \)cm and \(BC = 5\)cm. \(P\) is a point on the arc joining \(A\) & \(B\) which does not contain \(C\) and \(D\).
+\(AP = a\), \(BP = b\), \(CP = c\) and \(DP = d\).  Find \(\frac {a+b}{c+d}\)  and  \(\frac {a-b}{d-c}\).
+</p>
+
+
+<p style="text-align:center;">
+<img src="/assets/images/ptolemy_cmi_admission_2020.svg">
+</p>
+
+<details><summary>Solution</summary>
+
+<p>Since \(AC\) and \(DB\) are diameters, \( \angle ABC \) and \( \angle DAB \) must be right angles. Hence, \(ABCD\) is a rectangle with
+a diagonal whose length is 13 cm.</p>
+
+
+
+<p>
+Applying Ptolemy's theorem to trapezoids \(APBC\) and \(APBD\), we get the following two equations, respectively.
+</p>
+
+<p>
+\begin{align}
+12c = 13b + 5a \\
+12d = 13a + 5b
+\end{align}
+</p>
+
+Adding the two equations, we get \( 12(c+d) = 18(a+b) \).
+
+\[ \boxed{  \frac{a+b}{c+d} = \frac{2}{3}  } \]
+
+Since \(DB\) is a diameter, \( \angle DPB = 90^\circ \). Similarly, since \(AC\) is a diameter, \(\angle APC=90^\circ \). Applying Pythagoras
+theorem to triangles \(DPB\) and \(APC\) we get:
+
+
+\begin{align}
+b^2 + d^2 = 13^2 \\
+a^2 + c^2 = 13^2
+\end{align}
+
+
+\begin{align}
+a^2 - b^2 &= d^2 - c^2 \\
+(a+b)(a-b) &= (d-c)(d+c) \\\\
+\frac{a-b}{d-c} &= \frac{c+d}{a+b}
+\end{align}
+
+
+
+\[ \boxed{ \frac{a-b}{d-c} = \frac{3}{2} } \]
+
+
+</details>
+
+
+
+
+<p>
+2. (i) Let \(z=e^{\frac{2i\pi}{n}}\) where \(n\geq 2\) is a positive integer. Prove that \(\sum_{k=0}^{n-1}z^k=0.\)
+</p>
+
+
+
+
+<details><summary>Solution</summary>
+
+<p>
+Since \(z^n=1\), we have \(z^n-1=0\).
+</p>
+
+<p>
+\[ z^n-1 = (z^{n-1} + z^{n-2} + \cdots + 1)(z-1) = 0 \]
+</p>
+
+<p>For \(n\geq 2 \), \(z\neq 1\). So the first factor must be zero. This proves the statement.
+</p>
+</details>
+
+
+
+<p>
+2. (ii) Prove that \(\cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ = 0\)
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+\begin{align}
+A &:= \cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ \\
+B &:= \sin 1^\circ + \sin 41^\circ + \sin 81^\circ + \cdots + \sin 321^\circ \\
+\end{align}
 </p>
 
 
 <p>
-2. Let \(z=e^{\frac{2i\pi}{n}}\) where \(n\geq 2\) is a positive integer. Prove that \(\sum_{k=0}^{n-1}z^k=0.\)
+Notice that \(40^\circ=2\pi/9\). Let \( \theta = 1^\circ = \pi/180 \). Then:
 </p>
 
 <p>
-ii) Prove that \(\cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ = 0\)
+\[ A+iB = e^{i\theta} \left( \sum_{k=0}^{8} e^{ \frac{2\pi i}{9}k } \right) \]
 </p>
 
 <p>
-3. A Spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction with a speed of \(10\) unit per second. The spider has woven a web that connects it to the origin. The web is tense. Find the rate of increase of the length of the web when \(x=\frac{1}{2}\).
-
+From problem 2(i), we know that RHS of the above equation is zero. Since \(A\) and \(B\) are real numbers, both of
+them must be individually zero. In particular, \(A=0\), which proves the statement.
 </p>
+
+
+</details>
+
+
+
+
+
+
+<p>
+3. A Spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction. It moves along the curve with a constant speed of \(10\) cm per second.
+The spider has woven a web that connects it to the origin. The strand connecting it to the origin is taut. Find the rate of increase of the length of
+the strand when \(x=\frac{1}{2}\).
+</p>
+
+<p style="text-align:center;">
+<img src="/assets/images/cubic_curve.svg">
+</p>
+
+
+<details><summary>Solution</summary>
+Let \(v_x\) and \(v_y\) define the horizontal and vertical components of the velocity of the spider. Since the speed of the spider is constant we have:
+
+\[ \sqrt{v_x^2 + v_y^2} = 10 \mbox{ cm/s} \]
+
+
+\begin{align}
+y &= x^3 \\
+\frac{dy}{dt} &= 3x^2 \frac{dx}{dt} \\
+v_y &= 3x^2 v_x
+\end{align}
+
+When the spider is at \(x=1/2\), we have \( v_y = 3v_x/4 \). Since the speed is constant:
+
+\begin{align}
+\sqrt{ v_x^2 + \frac{9v_x^2}{16}  }  &= 10\\
+\sqrt{ \frac{25v_x^2}{16} }  &= 10 \\
+\frac{5v_x}{4} &= 10 \\
+v_x &= 8 \mbox{ cm/s} \\
+v_y &= 3v_x/4  = 6 \mbox{ cm/s}
+\end{align}
+
+We know the velocity at \(x=1/2\). Let us calculate \(dl/dt\), the rate of increase of the strand length at that moment.
+
+\begin{align}
+l  &= \sqrt{ x^2 + y^2 } \\
+\frac{dl}{dt} &= \frac{1}{2\sqrt{ x^2 + y^2 }} \left(  2x\frac{dx}{dt} + 2y\frac{dy}{dt}  \right) \\\\
+&= \frac{1}{\sqrt{ (1/2)^2 + (1/8)^2 }} \left(  \frac{1}{2}\cdot 8  +  \frac{1}{8} \cdot 6  \right) \\\\
+&= \frac{4+3/4}{ \sqrt{\frac{1}{2^2}+\frac{1}{8^2}} } \\
+&= \frac{38}{\sqrt{17}}\\
+\frac{dl}{dt}&\approx 9.2 \mbox{ cm/s}
+\end{align}
+
+
+
+
+
+
+</details>
+
+
 
 <p>
 4. i) A continuous function \(f(x)\) has the property that \(f(x^2)=f(x)^2.\) If the domain of \(f\) is \([0,1]\) and \(f(0)\neq 0,\) then show that \(f\) is unique and find \(f.\)
@@ -437,16 +877,16 @@ ii) Consider the same property of \(f,\) but this time the domain being \((0,\in
 </p>
 
 <p>
-iii) Show that there exist infinitely many continuous many functions \(f(x)\) with the same property and with domain \((0,\infty)\) such that \(\int_0^{\infty}f(x)dx<1.\)
+iii) Show that there exist infinitely many continuous functions \(f(x)\) with the same property and with domain \((0,\infty)\) such that \(\int_0^{\infty}f(x)dx<1.\)
 
 </p>
 
 <p>
-5. A monic polynomial is said to have property \(\tau\) if \(r\) is it's one root \(\implies\) \(r^2 -4\) is also another root.
+5. A monic polynomial has the following property: If \(r\) is a root, then \(r^2 -4\) is also a root. Let us denote this property by \(\tau\).
 </p>
 
 <p>
-(i) Prove that there are exactly two such quadratic polynomials and find them.
+(i) Prove that there are exactly four such quadratic polynomials and find them.
 </p>
 
 <p>
@@ -462,10 +902,13 @@ Given: An anti-symmetric relation is defined as: \((a,b)\in R\implies (b,a)\noti
 </p>
 
 
+
 -->
 
 
-## CMI entrance exam cutoffs
+
+
+## CMI entrance exam cutoff
 
 The cutoff has been around 35% for the objective section and 40-50% overall. The objective section is used for screening.<br>
 
@@ -537,9 +980,8 @@ goes down.
 <br><br>
 <br><br>
 
-<!--
-_I dedicate this book to the late Prof. C. S. Sheshadri, the man who went through blood, sweat and tears to establish CMI._
--->
+
+
 
 <!--
 https://promys-india.org/resources/reading-list/
@@ -562,8 +1004,8 @@ If you have a more elegant solution to any problem than the one presented, feel 
 
 #### Legal information
 
-The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fls/fl102.html), for the purpose of intellectual stimulation, critique, commentary, scholarship and teaching.
-By downloading the contents of the website, you agree to bring to my notice any possible infringement of copyright law before taking legal action.
+The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fls/fl102.html).
+You agree to email me about any possible infringement of copyright law before taking legal action.
 {: .fs-3 .fw-300 }
 
 <!--
