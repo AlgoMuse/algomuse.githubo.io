@@ -20,7 +20,7 @@ What's new?
 {: .label}
 
 <p>
-<b>Solutions to Part-A problems of CMI 2020 paper are uploaded (scroll down). The Part B solutions will be uploaded by Wednesday.</b>
+<b>Solutions to Part-A problems of CMI 2020 paper are uploaded (scroll down). The Part B solutions will be uploaded by Friday.</b>
 </p>
 
 
@@ -858,12 +858,6 @@ l  &= \sqrt{ x^2 + y^2 } \\
 &= \frac{38}{\sqrt{17}}\\
 \frac{dl}{dt}&\approx 9.2 \mbox{ cm/s}
 \end{align}
-
-
-
-
-
-
 </details>
 
 
@@ -872,26 +866,172 @@ l  &= \sqrt{ x^2 + y^2 } \\
 4. i) A continuous function \(f(x)\) has the property that \(f(x^2)=f(x)^2.\) If the domain of \(f\) is \([0,1]\) and \(f(0)\neq 0,\) then show that \(f\) is unique and find \(f.\)
 </p>
 
+<details><summary>Solution</summary>
+
 <p>
-ii) Consider the same property of \(f,\) but this time the domain being \((0,\infty).\) Show that either \(f(x)=0\ \forall x\) or \(f(x)\neq 0\) \(\forall\) \(x.\)
+Since \(f(0)\) is non-zero, \(f(0)=f(0)^2 \implies f(0)=1\). Since \(f(x) = f(\sqrt{x})^2 \), the range of \(f\) is non-negative.
+We will show that \(f(x)=1\).
 </p>
+
+<p>
+Let \(p\in (0,1)\) be an arbitrary point and \(f(p) = q\).
+
+\begin{align}
+f(p^2) &= f(p)^2 = q^2 \\
+f(p^4) &= q^4 \\
+&\vdots \\
+f(p^{2^n}) &= q^{2^n}
+\end{align}
+
+Since \(|p|< 1\) the  sequence \({p^{2^n}}\) converges to 0 as \(n\rightarrow \infty\). Since the function is continuous:
+
+\[ f(0) = 1 = \lim_{n\rightarrow \infty} q^{2^n} \]
+
+The sequence \(q^{2^n}\)  must converge to 1. This is possible only if \(q=1\). By continuity, \(f(1)=1\) too.
+Therefore, the conditions imply that \(f\) is unique and that \(f(x)=1\).
+
+</p>
+
+</details>
+
+
+
+<p>
+ii) Consider the same property of \(f,\) but the domain of the function being \((0,\infty).\) Show that either \(f(x)=0\ \forall x\) or \(f(x)\neq 0\) \(\forall\) \(x.\)
+</p>
+
+
+
+<details><summary>Solution</summary>
+
+<p>The proof is similar to the previous proof. For \(x=1\) we have:
+
+
+
+\[f(1^2) = f(1)^2 \implies f(1)(f(1)-1) = 0\]
+
+So \(f(1)\) is either 0 or 1.
+
+</p>
+
+
+
+
+<p><b>Lemma.</b> If \(f(1)=0\), then \(f(x)=0\).<br>
+
+<i>Proof.</i>
+
+For a contradiction, let us say there exists a point \(p\) such that \(f(p)=q\), where \(q>0\).
+
+\begin{align}
+f(\sqrt{p})^2 &= f(p) = q \\
+f(\sqrt{p}) &= \sqrt{q} \\
+f(p^{ 1/2^n } ) &= q^{1/2^n} \\
+\lim_{n\rightarrow \infty} f(p^{ 1/2^n } ) &= q^{1/2^n} \\
+f(1) &= 1 \;\;\;\; \mbox{ (a contradiction) }\;\; \square
+\end{align}
+</p>
+
+
+<p><b>Lemma.</b> If \(f(1)=1\), then \(f(x) \neq 0 \;\forall x\).<br>
+
+<i>Proof.</i>
+
+For a contradiction, let us say there exists a point \(p\) such that \(f(p)=0\).
+
+\begin{align}
+f(\sqrt{p})^2 &= f(p) = 0 \\
+f(\sqrt{p}) &= 0 \\
+f(p^{ 1/2^n }) &= 0  \;\;\;\;\mbox{ (by induction)}\\
+\lim_{n\rightarrow \infty} f(p^{ 1/2^n } ) &= 0 \\
+f(1) &= 0 \;\;\;\; \mbox{ (a contradiction) }\;\; \square
+\end{align}
+</p>
+
+
+</details>
+
+
 
 <p>
 iii) Show that there exist infinitely many continuous functions \(f(x)\) with the same property and with domain \((0,\infty)\) such that \(\int_0^{\infty}f(x)dx<1.\)
+</p>
+
+
+<details><summary>Solution</summary>
+<p>
+For any \(p>4\), the following function satisfies the conditions:
+
+\[
+    f(x) = \left\{\begin{array}{lr}
+        x& \text{for } 0 < x \leq 1\\
+        x^{-p} & \text{for } 1 < x < \infty \\
+        \end{array} \right.
+  \]
 
 </p>
+
+<p>
+\begin{align}
+\int_0^{\infty}f(x)dx &= \int_0^{1}x dx + \int_1^{\infty} x^{-p} dx   \\\\
+&= \left. \frac{x^2}{2} \right \rvert_{0}^{1} \; +\;  \left. \frac{x^{-p+1}}{-p+1} \right \rvert_{1}^{\infty}   \\\\
+&= \frac{1}{2} + \frac{1}{p-1} \\\\
+&< \frac{5}{6} \;\;\;\mbox{ since }\; p>4
+\end{align}
+</p>
+
+
+
+
+
+</details>
+
 
 <p>
 5. A monic polynomial has the following property: If \(r\) is a root, then \(r^2 -4\) is also a root. Let us denote this property by \(\tau\).
 </p>
 
+
+
 <p>
-(i) Prove that there are exactly four such quadratic polynomials and find them.
+(i) Prove that there are exactly six such quadratic polynomials and find them.
 </p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+<i>Notation.</i> Let \(f(x):=x^2-4\). Let \(\alpha_1\) and \(\alpha_2\) be the roots of the equation \(f(x)=x\).
+The values of the roots are:
+
+\[ \alpha_1 = \left( \frac{1+\sqrt{17}}{2} \right) \;\;\;\alpha_2 = \left( \frac{1-\sqrt{17}}{2}  \right) \]
+
+Suppose \(p(x)\) is a quadratic polynomial that has the property \(\tau\). Let \(r_1\) and \(r_2\) be the roots of \(p(x)\). The constraint
+on the problem means that \(f(r_1) = r_1\mbox{ or } r_2\) and \(f(r_2) = r_1\mbox{ or }r_2\). We can find the candidate polynomials by enumerating all
+four cases. The polynomials obtained are are numbered from (i) to (vi) in the table below.
+</p>
+
+
+
+
+| Case   | Possible \\(p(x)\\) |
+| \\( f(r_1)=r_1 \\) and  \\( f(r_2)=r_2 \\) |  (i) \\( r_1=r_2=\alpha_1 \implies p(x) = (x-\alpha_1)^2 \\) <br><br> (ii) \\( r_1=r_2=\alpha_2 \implies p(x) = (x-\alpha_2)^2 \\) <br><br> (iii) \\( r_1=\alpha_1 \\)  and  \\(r_2=\alpha_2\\) \\(\;\implies p(x) = x^2-x-4 \\)  |
+| \\( f(r_1)=r_2 \\) and \\( f(r_2)=r_1 \\) with \\( r_1\neq r_2 \\)  | \\( r_1^2 - 4 = r_2 \;\;\;(1) \\) <br> \\(  r_2^2-4 = r_1 \;\;\;(2) \\) <br><br> Subtracting (2) from (1) we get: <br> \\( r_1^2 - r_2^2 = r_2 - r_1  \\) <br> \\( r_1+r_2 = -1 \\) <br> \\( r_2 = -r_1-1 \\) <br> \\( r_1^2-4 = -r_1-1 \\) <br> \\( r_2^2-4=-r_2-1 \\) <br> <br> (iv) The previous two equations imply that \\(r_1\\) and \\(r_2\\) are the roots of the quadratic \\(p(x)=x^2+x-3\\) |
+| \\( f(r_1)=r_1 \\) and \\( f(r_2)=r_1 \\) |  \\( r_1^2 - 4 = r_1 \;\;\;(1) \\) <br> \\(  r_2^2-4 = r_1 \;\;\;(2) \\) <br><br> Equating LHS of (1) and (2) we get: <br> \\( r_1^2 = r_2^2 \\) <br> So either \\( r_1=r_2 \\) (Case 1) or \\(r_1=-r_2\\). <br> (v) \\(r_1 = \alpha_1\\) and \\(r_2=-\alpha_1 \\)  implies \\( p(x) =  x^2-\alpha_1^2 \\)  <br> (vi) \\(r_1 = \alpha_2\\) and \\(r_2=-\alpha_2 \\)  implies \\( p(x) =  x^2-\alpha_2^2 \\)  |
+| \\( f(r_1)=r_2 \\) and \\( f(r_2)=r_2 \\) | Same as Case 3.  |
+
+
+
+</details>
 
 <p>
 (ii) Consider the same property for cubic polynomials.  Given that there exist exactly two such monic cubic polynomials with property \(\tau,\) describe the process of finding them, but do not try to find the exact polynomials.
 </p>
+
+
+<details><summary>Solution</summary>
+</details>
+
 
 <p>
 6. (i) Find the total number of anti-symmetric relations \(R\) from \(S \times S\) where \(S=\{1,2,3\cdots k\}.\)
@@ -902,11 +1042,7 @@ Given: An anti-symmetric relation is defined as: \((a,b)\in R\implies (b,a)\noti
 </p>
 
 
-
 -->
-
-
-
 
 ## CMI entrance exam cutoff
 
