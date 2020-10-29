@@ -862,7 +862,7 @@ The number of unordered pairs are \( \binom{n}{2} \). So there are \( 3^{ \binom
 
 
 <i>
-Please <a href="/disqus">leave a comment</a> if you know the description either problem A10 or B6 (ii).
+Please <a href="/docs/disqus">leave a comment</a> if you know the description either problem A10 or B6 (ii).
 </i>
 
 
