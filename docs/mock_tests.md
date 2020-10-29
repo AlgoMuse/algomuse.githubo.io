@@ -22,28 +22,3 @@ serious aspirants and will get a fair idea of your chance of getting into CMI.
 _Note: If you don't find the confirmation email in your inbox, check the `Promotions' tab._
 
 
-{% if page.comments %}
-
-<div id="disqus_thread"></div>
-<script>
-
-
-var disqus_config = function () {
-    this.page.url = "{{site.url}}{{page.url}}";
-    this.page.identifier =  "{{page.id}}";
-};
-
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://cmi-tomato.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-
-
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-{% endif %}
-
