@@ -46,9 +46,17 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ### Part A - Short-answer type
 
+<!--
 <p>
 1. A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).
 </p>
+-->
+
+<p style="text-align:left;">
+<img src="/assets/images/cmi_entrance_2020_problem_1.png">
+</p>
+
+
 
 <details><summary>Solution</summary>
 
@@ -77,9 +85,18 @@ p(10) & = g(10) = \binom{10}{0} + \binom{10}{1} +\cdots + \binom{10}{7} \\
 ---
 
 
+<!--
 <p>
 2. In a school, there are \(3\) clubs. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
 </p>
+-->
+
+
+<p style="text-align:left;">
+<img src="/assets/images/cmi_entrance_2020_problem_2.png">
+</p>
+
+
 
 <details><summary>Solution</summary>
 <p>
