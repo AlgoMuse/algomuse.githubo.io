@@ -350,7 +350,7 @@ By solving the above equations we get \(a=-3\) and \(b=-25\).
 
 
 <p>
-(ii) By Vieta's formulas, only the ultimate and the penunltimate coefficents matter. The sum turns out to be \(-1/5\).
+(ii) By Vieta's formulas, only the ultimate and the penultimate coefficients matter. The sum turns out to be \(-1/5\).
 </p>
 
 </details>
@@ -871,7 +871,7 @@ From the definition it follows that \( (a,a) \notin R \). For any unordered pair
 <li>\( (a,b) \notin R \)</li>
 </ul>
 
-The number of unordered pairs are \( \binom{n}{2} \). So there are \( 3^{ \binom{n}{2} } \) anti-symmetric relations.
+The number of unordered pairs is \( \binom{n}{2} \). So there are \( 3^{ \binom{n}{2} } \) anti-symmetric relations.
 
 </p>
 
@@ -886,7 +886,7 @@ Please <a href="/docs/disqus">leave a comment</a> if you know the description ei
 
 ---
 
-#### Acknowledgement
+#### Acknowledgment
 
 Thanks to AoPS-ers <b>X</b> for doing <b>y</b>!
 
