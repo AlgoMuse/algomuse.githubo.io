@@ -45,15 +45,15 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ### Part A - Short-answer type
 
-<!--
 <p>
 1. A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).
 </p>
--->
 
+<!--
 <p style="text-align:left;">
 <img src="/assets/images/cmi_entrance_2020_problem_1.png">
 </p>
+-->
 
 
 
@@ -88,16 +88,16 @@ See  <a href="docs/algebra/polynomials/#difference-equations">B6, 2014</a> for a
 ---
 
 
-<!--
 <p>
-2. In a school, there are \(3\) clubs. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
+2. There are \(3\) clubs in a school. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
 </p>
--->
 
 
+<!--
 <p style="text-align:left;">
 <img src="/assets/images/cmi_entrance_2020_problem_2.png">
 </p>
+-->
 
 
 
@@ -599,7 +599,7 @@ them must be individually zero. In particular, \(A=0\), which proves the stateme
 
 
 <p>
-3. A Spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction. It moves along the curve with a constant speed of \(10\) cm per second.
+3. A spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction. It moves along the curve with a constant speed of \(10\) cm per second.
 The spider has woven a web that connects it to the origin. The strand connecting it to the origin is taut. Find the rate of increase of the length of
 the strand when \(x=\frac{1}{2}\).
 </p>
