@@ -916,7 +916,7 @@ Thanks to AoPS-ers <b>X</b> for doing <b>y</b>!
 
 | X | y |
 |--|--|
-Bhutu, Rwitabrata, Aniruddha, Himanshya | Sharing the problems |
+Bhutu, Rwitabrata, Aniruddha, Himanshya, Randommathlover | Sharing the problems |
 CMI_Student | Solving many problems and writing them up. |
 Eduline | For spotting a mistake in problem B5 and confirming it with CMI. |
 
