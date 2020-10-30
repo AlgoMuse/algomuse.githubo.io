@@ -211,11 +211,11 @@ c &= 10\times 76 + 4 \times -75 = 460 \pmod{475}
 <details><summary>Solution</summary>
 <p>
 Suppose the prime factorization of \(n\) is \(p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}\), then \(n\) has \( (a_1+1)(a_2+1)\cdots (a_k+1) \) factors. If \(n\)
-has six factors, its prime factorizaton must be of the form \(p_1p_2^{2}\). There are eight numbers less than 60 that satisfy this condition:
+has six factors, its prime factorizaton must be of the form \(p_1p_2^{2}\) or \(p_1^5\). There are nine numbers less than 60 that satisfy this condition:
 </p>
 
 <p>
-\[ 2\cdot3^2, 2\cdot 5^2, 3\cdot2^2, 5\cdot 2^2, 5\cdot 3^2, 7\cdot 2^2, 11\cdot 2^2 \mbox{ and } 13\cdot 2^2 \]
+\[ 2\cdot3^2, 2\cdot 5^2, 3\cdot2^2, 5\cdot 2^2, 5\cdot 3^2, 7\cdot 2^2, 11\cdot 2^2, 13\cdot 2^2 \mbox{ and } 2^{5} \]
 </p>
 
 </details>
