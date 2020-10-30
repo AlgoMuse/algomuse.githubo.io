@@ -19,7 +19,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ## What's new?
  - Solutions to CMI 2020 paper are up!
- - Sign-ups for mock tests are open.
+ - Sign-up for mock tests is now open.
 
 
 ---
@@ -37,7 +37,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4 .fw-300 }
 
 -->
-
 
 
 
@@ -79,6 +78,10 @@ p(10) & = g(10) = \binom{10}{0} + \binom{10}{1} +\cdots + \binom{10}{7} \\
 \end{align}
 
 </p>
+
+<h4>Notes</h4>
+
+See  <a href="docs/algebra/polynomials/#difference-equations">B6, 2014</a> for another problem involving binomial polynomials.
 
 </details>
 
@@ -394,6 +397,9 @@ can be filled in \( 4^2\) ways. Hence we have:
 ---
 
 
+<i><b>Note:</b> The descriptions of Problems 9 and 10 do not match those in CMI paper exactly. They capture the spirit of the problems, though.</i>
+
+
 <p>
 9. Let vectors \(\vec{a},\vec{b}\) and \(\vec{c}\) be defined as follows:
 
@@ -406,7 +412,6 @@ can be filled in \( 4^2\) ways. Hence we have:
 Find a unit vector that lies in the plane containing \(\vec{a}\) and \(\vec{b}\) and that is perpendicular to \(\vec{c}\).
 </p>
 
-<i>Note: The values of the vectors are different from what appeared in the CMI paper.</i>
 
 
 <details><summary>Solution</summary>
@@ -426,16 +431,34 @@ So \( \vec{u}=i+k \). A unit vector along \( \vec{u} \) is \( \frac{1}{\sqrt{2}}
 
 </details>
 
+---
 
+<p>
+10. Suppose \(a=100000\) and \(b=300000\). Fill in the blank with either \(<, >\) or \(=\).
 
+\[ \tan^{-1} a + \tan^{-1} b \underline{\hspace{1cm}}  2 \tan^{-1} ( \frac{a+b}{2} ) \]
 
+Hint: Look at the second derivative.
+</p>
 
+<details><summary>Solution</summary>
+<p>
 
+Let \(f(x) := \tan^{-1}x \).
 
+\begin{align}
+f^\prime(x) &= \frac{1}{1+x^2} \\
+f^{\prime\prime}(x) &= \frac{-2x}{ (1+x^2)^2 } \\
+\end{align}
 
+In the domain \( (0,\infty) \), the second derivative is strictly negative. This means that
+\( f(x) \) is strictly concave in this domain. Therefore \( f(x) + f(y) < 2 f( (x+y)/2) \) for any \(x,y \in (0,\infty) \).
 
+</p>
 
+</details>
 
+---
 
 ### Part B - Subjective questions
 
@@ -761,6 +784,7 @@ For any \(p>4\), the following function satisfies the conditions:
 (i) Prove that there are exactly six such quadratic polynomials and find them.
 </p>
 
+<i>Note: The original problem in the CMI paper asked to find two quadratics instead of six. CMI has confirmed that this was a mistake.</i>
 
 <details><summary>Solution</summary>
 
@@ -879,7 +903,7 @@ The number of unordered pairs is \( \binom{n}{2} \). So there are \( 3^{ \binom{
 
 
 <i>
-Please <a href="/docs/disqus">leave a comment</a> if you know the description either problem A10 or B6 (ii).
+Please <a href="/docs/disqus">leave a comment</a> if you know the description of B6 (ii) or (iii).
 </i>
 
 
@@ -892,13 +916,12 @@ Thanks to AoPS-ers <b>X</b> for doing <b>y</b>!
 
 | X | y |
 |--|--|
-Bhutu, Aniruddha, Himanshya, Rwitabrata | Sharing the problems |
+Bhutu, Rwitabrata, Aniruddha, Himanshya | Sharing the problems |
 CMI_Student | Solving many problems and writing them up. |
 Eduline | For spotting a mistake in problem B5 and confirming it with CMI. |
 
 
-<i>Spreading the word about CMI Tomato on Facebook/WhatsApp/etc. would be greatly appreciated.
-This is still a new website and needs your support to grow.</i>
+<i>Spreading the word about CMI Tomato on Facebook/WhatsApp/etc. would be greatly appreciated.</i>
 
 
 ---
@@ -1265,7 +1288,7 @@ Manjul Bhargava
 ---
 
 
-## Acceptance rate
+## Admission rate
 
 Acceptance offers are sent to around 90 candidates and about half of them enroll. This is the reason why the number varies from year to year. Approximate numbers are given below.
 
@@ -1273,9 +1296,9 @@ Acceptance offers are sent to around 90 candidates and about half of them enroll
 |-----|----|--|
 2015 | 4000 | 70 | 40
 2016 | 5500 | 90 | 44
-2017 | 6000 | 90 | 48
-2018 | 8000 | 95 | 50
-2019 | 10000 | 100 | 55
+2017 | 6000 | 90 | 45
+2018 | 8000 | 95 | 48
+2019 | 10000 | 100 | 61
 
 ---
 

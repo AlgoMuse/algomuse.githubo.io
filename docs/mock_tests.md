@@ -10,8 +10,25 @@ nav_order: 991
 {: .no_toc}
 
 
-If you wish to participate in the upcoming mock tests, hop on to my mailing list. You will be ranked against other
+<p>
+If you wish to participate in the upcoming mock tests, hop on to this mailing list. You will be ranked against other
 serious aspirants and will get a fair idea of your chance of getting into CMI.
+</p>
+
+
+<p>
+Problems will be set by either ISI or CMI students. We will hold the first test once 40 students sign up.
+</p>
+
+<br>
+
+
+<h5>8/40 sign-ups completed.</h5>
+<progress id="progressBar" style="width:95%" max="40" value="8">8 out of 40 sign-ups so far</progress>
+
+
+<br>
+
 
 
 <p>
