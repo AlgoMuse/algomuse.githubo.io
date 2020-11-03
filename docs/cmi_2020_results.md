@@ -1,10 +1,7 @@
 <!--
----
 layout: default
 title: Overview of CMI 2020 results
 nav_order: 992
----
-
 -->
 
 
@@ -23,10 +20,10 @@ U-BL1-0045 |  Naman Kumar                |      - Quora profile
 U-BL1-0047 |  Sumanth N R                |      - Sadhana College/BASE. https://www.quora.com/How-is-Sadhana-PU-College-in-Bangalore
 U-BL1-0050 |  BHARATH RAJAGOPAL          |      - https://www.worldcubeassociation.org/persons/2014RAJA05
 U-BL1-0059 |  Abhinav S Menon            |      - NPS, Kormangala AISSCE School topper https://www.npskrm.com/img/school/2020/12_results/abhinav_menon.jpg
-U-BL1-0086 |  Barkur Anvesh Shetty       |      - Vijyoshi Camp 2019 . http://www.kvpy.iisc.ernet.in/vijyoshi2019/ISI.pdf (FIIT JEE Four year)
+U-BL1-0086 |  Barkur Anvesh Shetty       |      - KVPY 709
 U-BL1-0097 |  JESSICA VIPIN              |      - INMO 2019 selected https://www.isibang.ac.in/~statmath/olympiad/2018-19/ListA.pdf
 U-BL1-0106 |  APRAMEYA GIRISH HEBBAR     |      - JEE Adv. 1562, Jawahar Navodaya Vidyalaya  https://www.indiatoday.in/education-today/featurephilia/story/jnv-puducherry-students-clear-jee-advanced-2020-avanti-fellows-by-former-iit-ians-1731569-2020-10-14
-U-BL1-0116 |  Srivishnu Rajagopal        |      - KVPY Interview, http://kvpy.iisc.ernet.in/main/resources/2019/INT/BENGALURU-1.pdf  NPS, HSR Layout https://www.npshsr.com/inter_house_cyber_oct2018.html
+U-BL1-0116 |  Srivishnu Rajagopal        |      - KVPY 368, NTSE-2018  NPS, HSR Layout https://www.npshsr.com/inter_house_cyber_oct2018.html
 U-BL1-0118 |  YASHASWINI                 |
 U-BL1-0149 |  Niranjan Kumar             |
 
@@ -48,15 +45,15 @@ U-CH1-0319 |  Kavin K                    |       JEE Adv. 12802, 2019 FIIT-JEE C
 U-CH2-0049 |  NAVIN CHANDRAN K P         |       JEE main - 99.8225395  AIR~1400, FIIT-JEE Chennai http://fiitjee-chennai.blogspot.com/2020/01/jee-mains-january-2020.html
 U-CH2-0090 |  S JOEL                     |
 U-CH2-0094 |  Aditya Ravindran           |       JEE main - 99.8483267  AIR~1200  https://www.quora.com/What-are-your-marks-in-the-UGEE-2020-written-exam-and-the-January-2020-JEE-Main-percentile
-Tamil Nadu |  Aditya C                   |       JEE Adv. - 75, KVPY - AIR 19  [Photo-FIITJEE](https://www.fiitjeechennai.com/v1/ntse-results.html)
+Tamil Nadu |  Aditya C                   |       JEE Adv. - 75, KVPY 19  [Photo-FIITJEE](https://www.fiitjeechennai.com/v1/ntse-results.html)
 Chennai    |  Sudharshan K V             |       JEE Adv. - 179 ,  [APMO 2018](https://olympiads.hbcse.tifr.res.in/apmo-2018-student-list/), ISI-Direct Admit, [Photo at FIIT-JEE Chennai](http://www.iitjeetoppers.com/Testimonial2020.aspx?SID=7930)
 Chennai    | Harihar Swaminathan         |       JEE Adv. - 373 , IMOTC, APMO 2018, ISI-Direct Admit   | [Photo-FIIT JEE](http://iitjeetoppers.com/CentreResult2020.aspx?C=4&CC=61&T=Chennai)
-Chennai    | Raghuram Sundararajan       |       APMO (Silver), KVPY-84
-Chennai | Sooraj Srinivasan | JEE Adv. 158, KVPY-159 [Video](https://www.youtube.com/watch?v=gDD-7gRL9b0&ab_channel=AakashEducation)
+Chennai    | Raghuram Sundararajan       |       APMO (Silver), KVPY 84
+Chennai | Sooraj Srinivasan | JEE Adv. 158, KVPY 159 [Video](https://www.youtube.com/watch?v=gDD-7gRL9b0&ab_channel=AakashEducation)
 
 
 
-Maharashtra | Madur Agrawal | IMOTC-2020, KVPY-904, ISI-Direct Admit
+Maharashtra | Madur Agrawal | IMOTC-2020, KVPY 904, ISI-Direct Admit
 
 
 
@@ -65,20 +62,17 @@ Kharagpur | Abhinav Sen | JEE Adv. 281, IMOTC-2020 [Quora](https://www.quora.com
 
 ---
 
-
-
-
 U-CDG-0050 |  SAUHAARD BATRA             |      - FIITJEE AIITS 519 https://fiitjeesouthdelhi.co.in/wp-content/uploads/2018/09/Result-Ai%C2%B2TS-1XI.pdf
-U-CDG-0052 |  ARCHIT SOOD                |      - JEE Adv. 1266 https://www.youtube.com/watch?v=N1TnYUEYoOs
+U-CDG-0052 |  ARCHIT SOOD                |      - JEE Adv. 1266 KVPY 430 https://www.youtube.com/watch?v=N1TnYUEYoOs
 U-COC-0010 |  Niranjan K. Sabu           |      - JEE Adv. 2342, FIIT-JEE Kochi https://fr-fr.facebook.com/pg/FIITJEEkochi/posts/?ref=page_internal
 U-COC-0015 |  Maqbool Manoj              |      - Science olympaid foundation  Gold medal in Math https://vdocuments.net/science-olympiad-foundation-birla-public-olympiad-foundation-summary-result-.html
-U-COC-0088 |  ABHISHEK SARITH            |      - INMO 2018, JEE Main 99.8674674 AIR~1000, FIIT-JEE Kochi topper https://www.facebook.com/FIITJEEkochi/posts/the-harder-you-work-for-something-the-greater-you-feel-when-you-achieve-it-its-o/3244839758865033/
+U-COC-0088 |  ABHISHEK SARITH            |      - INMO 2018, JEE Main 99.8674674 (Kochi topper)  [FB](https://www.facebook.com/FIITJEEkochi/posts/the-harder-you-work-for-something-the-greater-you-feel-when-you-achieve-it-its-o/3244839758865033/)
 U-COC-0089 |  NIKHIL KRISHNA A R         |      - AISSCE (97.2%), St. Jude Public School, Thrissur. https://stjudeps.com/index.php/achievements-2/
 U-COC-0122 |  ANGELINA SHIBU             |      - JEE Advanced 5521  https://brilliantpala.org/wp-content/uploads/2020/10/ADVANCED-LIST-1.pdf  Selected in IISeR http://brilliantpala.org/wp-content/uploads/2020/10/IISER.pdf
 U-CT1-0026 |  ADARSH T
 U-CT2-0039 |  MUHAMMAD FARHAN            |      - 1200/1200 in Kerla Higher Secondary exam. Perambra Higher Secondary School. State-wise top 23. https://www.thehindu.com/news/national/kerala/kozhikode-registers-8622-pass-percentage-in-plus-two-exams/article32095687.ece
-U-DGP-0009 |  Rohit Roy                  |      - West Bengal RMO.
-U-DGP-0039 |  Agnibha Sinha              |      - JEE Advanced 663,  KVPY Fellowship http://kvpy.iisc.ernet.in/main/resources/2018/2018-SA-GN-OBC.pdf, West Bengal RMO.  http://services.artofproblemsolving.com/download.php?id=YXR0YWNobWVudHMvMi85LzdlMzc3M2IyYzFmNjk5ZTNkMDU3MWMyNTI1ZTI5NGU0MzExYWQyLnBkZg==&rn=V2VzdCBCZW5nYWwucGRm. Photo( https://twitter.com/vedantu_learn/status/1320342205022650368?lang=bg)
+U-DGP-0009 |  Rohit Roy                  |      - West Bengal RMO
+U-DGP-0039 |  Agnibha Sinha              |      - JEE Adv. 663  [Photo](https://twitter.com/vedantu_learn/status/1320342205022650368?lang=bg)
 West Bengal | Aytijhya Saha | INMO-2019, JEE. Adv. 1606, [Photo from Pathfinder](https://pathfinder.edu.in/wp-content/uploads/2020/10/WhatsApp-Image-2020-10-09-at-1.40.19-PM-1-768x768.jpeg)
 Rajastan | Om Sai | IMOTC-2020, APMO 2018
 U-DGP-0045 |  ANTARA DAS                 |      - West Bengal RMO.
@@ -114,7 +108,8 @@ U-KNP-0005 |  ALOK DHAR DUBEY             |     - JEE Adv. cleared. http://www.c
 
 U-KOL-0011 |  ISHAN PAUL                  |     - JEE Adv. 3094  Photo: https://www.dpskolkata.com/wp-content/uploads/2020/10/DPS_Adv-Result.jpg  IIT Math wizard https://www.facebook.com/pages/category/Education/IIT-Maths-Wizard-410981109391070/
 U-KOL-0012 |  SAMPRIT CHAKRABORTY
-U-KOL-0031 |  Dhrubajyoti Ghosh           |     - [INMO 2019](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/INMO-2019-Awardees-and-girls-selected-for-EGMO.pdf)
+U-KOL-0031 |  Dhrubajyoti Ghosh           |     [INMO 2019](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/INMO-2019-Awardees-and-girls-selected-for-EGMO.pdf)
+Delhi |  Yash Kunwar                 |     INMO 2019
 U-KOL-0031 |  SAI SANJAY NARAYANAN        |     - INMO 2020 JEE Main - 99.7501208  Photo https://www.facebook.com/fiitjeeadyar.net/posts/sai-sanjay-narayanan-a-student-of-four-yr-classroom-program-from-adyar-selected-/1076704749352926/
 U-KOL-0031 |  Shankhadip Bhattacharjee    |
 U-KOL-0045 |  AMITAVA GHOSH               |     - West Bengal RMO.
