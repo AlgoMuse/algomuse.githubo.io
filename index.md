@@ -397,7 +397,7 @@ can be filled in \( 4^2\) ways. Hence we have:
 ---
 
 
-<i><b>Note:</b> The descriptions of Problems 9 and 10 do not match those in CMI paper exactly. They capture the spirit of the problems, though.</i>
+<i><b>Note:</b> The descriptions of Problems 9 and 10 do not match those in the CMI entrance paper exactly. They capture the spirit of the problems, though.</i>
 
 
 <p>
@@ -903,7 +903,7 @@ The number of unordered pairs is \( \binom{n}{2} \). So there are \( 3^{ \binom{
 
 
 <i>
-Please <a href="/docs/disqus">leave a comment</a> if you know the description of B6 (ii) or (iii).
+Please email me if you know the description of B6 (ii) or (iii).
 </i>
 
 
@@ -919,9 +919,6 @@ Thanks to AoPS-ers <b>X</b> for doing <b>y</b>!
 Bhutu, Rwitabrata, Aniruddha, Himanshya, Randommathlover | Sharing the problems |
 CMI_Student | Solving many problems and writing them up. |
 Eduline | For spotting a mistake in problem B5 and confirming it with CMI. |
-
-
-<i>Spreading the word about CMI Tomato on Facebook/WhatsApp/etc. would be greatly appreciated.</i>
 
 
 ---
