@@ -1230,18 +1230,35 @@ Eduline | For spotting a mistake in problem B5 and confirming it with CMI. |
 
 The cutoff has been around 35% for the objective section and 40-50% overall. The objective section is used for screening.<br>
 
-CMI does not publish the cutoff marks but they have responded to individual requests in the past. The scores shown below were shared by former students who were privy to this data.
+CMI does not publish the cutoff marks but they have responded to individual requests in the past.
+The scores shown below were shared by former students who were privy to this data.
 <br>
 
 <!--
 [Subhayan Saha](https://www.quora.com/profile/Subhayan-Saha)
 -->
 
+
+The cutoff marks for the year 2020 are given below. The marks are out of 94 instead of 100 since one question had a mistake.
+
+Type | General |  Reserved
+-----|------|----
+With Scholarship| 54/94 | 44/94
+Admission only| 48/94 | 40/94
+Waiting list| 45/94 | 38/94
+
+
+The cutoff marks for the previous years are given below.
+
+
+
+
 | Year | Objective | Overall | Vetted by
 |---|--|--|
 2016 | 14/40 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
 2017 | 15/40 | 60/125 | Abhiroop Sanyal
 2018 | 15/40 | 50/125 | Sutirtha Datta [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
+2020 | 20/40 | 48/94  | CMI Office
 
 
 
