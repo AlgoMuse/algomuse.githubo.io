@@ -396,20 +396,17 @@ can be filled in \( 4^2\) ways. Hence we have:
 
 ---
 
-
-<i><b>Note:</b> The descriptions of Problems 9 and 10 do not match those in the CMI entrance paper exactly. They capture the spirit of the problems, though.</i>
-
-
 <p>
 9. Let vectors \(\vec{a},\vec{b}\) and \(\vec{c}\) be defined as follows:
 
 \begin{align}
-\vec{a} &= 2i+j-k \\
-\vec{b} &= i+j-2k \\
-\vec{c} &= -i+2j+k
+\vec{a} &= 6i+6j+9k \\
+\vec{b} &= 7i+8j+10k \\
+\vec{c} &= 2i-3j+4k
 \end{align}
 
-Find a unit vector that lies in the plane containing \(\vec{a}\) and \(\vec{b}\) and that is perpendicular to \(\vec{c}\).
+Let \(P\) be the plane containing vectors \(\vec{a}\) and \(\vec{b}\). Find a unit vector that lies in the plane \(P\) and
+is perpendicular to vector \(\vec{c}\).
 </p>
 
 
@@ -417,16 +414,16 @@ Find a unit vector that lies in the plane containing \(\vec{a}\) and \(\vec{b}\)
 <details><summary>Solution</summary>
 
 <p>
-We are looking for a vector \( \vec{u} \) that can be written as \( \vec{a}+t\vec{b} \) for some \(t\). Since \( \vec{u} \) is
+We are looking for a vector \( \vec{u} \) that can be written as \( t\vec{a}+\vec{b} \) for some \(t\). Since \( \vec{u} \) is
 perpendicular to \(\vec{c}\) we must have \( \vec{u}\cdot\vec{c} = 0 \).
 </p>
 
 \begin{align}
--(2+t) + 2(1+t) + (-1-2t) &= 0 \\
+2(6+7t) - 3(6+8t) + 4(9+10t) &= 0 \\
 t&=-1
 \end{align}
 
-So \( \vec{u}=i+k \). A unit vector along \( \vec{u} \) is \( \frac{1}{\sqrt{2}} (i+k) \).
+So \( \vec{u}=i+2j+k \).  A unit vector along \( \vec{u} \) is \(\frac{1}{\sqrt{6}} (i+2j+k) \).
 
 
 </details>
@@ -434,7 +431,7 @@ So \( \vec{u}=i+k \). A unit vector along \( \vec{u} \) is \( \frac{1}{\sqrt{2}}
 ---
 
 <p>
-10. Suppose \(a=100000\) and \(b=300000\). Fill in the blank with either \(<, >\) or \(=\).
+10. Suppose \(a=20202019\) and \(b=20202021\). Fill in the blank with either \(<, >\) or \(=\).
 
 \[ \tan^{-1} a + \tan^{-1} b \underline{\hspace{1cm}}  2 \tan^{-1} ( \frac{a+b}{2} ) \]
 
