@@ -898,10 +898,77 @@ The number of unordered pairs is \( \binom{n}{2} \). So there are \( 3^{ \binom{
 
 </details>
 
+---
 
-<i>
-Please email me if you know the description of B6 (ii) or (iii).
-</i>
+<p>
+6. (ii) We have a set of points on a 2D-plane. Let \(S\) be a set of \(k\) vertical points and \(T\) be a set of
+\(n\) vertical points as shown below. The \(i\)th point in \(S\) (resp. \(T\)) is denoted by \(S_i\) (resp. \(T_i\)).
+</p>
+
+<p style="text-align:center;">
+<img src="/assets/images/bipartite_graph.svg">
+</p>
+
+<p>
+An <i>edge</i> is an ordered pair \( \left(x,y\right) \) with \(x \in S\) and \(y \in T\).
+A set of edges is said to be an <i>arrangement</i> if the following holds:
+
+
+<ul>
+<li>Any pair of edges in the arrangement is <i>non-crossing</i>, that is, if \( (S_a,T_b) \) and \( (S_c,T_d) \) are edges, then \(a\geq c \Leftrightarrow b\geq d\).</li>
+<li>Every point in \(S\) and \(T\) is present in some edge in the arrangement. </li>
+</ul>
+
+The figure shown above is an arrangement since it satisfies both the conditions.<br>
+
+Let \(f(k,n)\) denote the total number of arrangements. Write a recurrence for \( f(k,n) \). The expression in the recurrence must have
+fixed number of terms.
+
+</p>
+
+<details><summary>Solution</summary>
+
+In any arrangement, \( (S_k,T_n) \) is an edge. Let us partition the arrangements into three types:
+
+<ul>
+
+<li> Type I: \( (S_{k}, T_{n-1}) \) is an edge. There are \(f(k,n-1)\) such arrangements.</li>
+
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case1.svg"/>
+</p>
+
+
+<li> Type II: Both \( (S_{k}, T_{n-1}) \) and \(S_{k-1},T_{n}\) are not edges. There are \(f(k-1,n-1)\) such arrangements.</li>
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case2.svg"/>
+</p>
+
+<li> Type III: \( (S_{k-1}, T_{n}) \) is an edge. There are \(f(k-1,n-1)\) such arrangements.</li>
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case3.svg"/>
+</p>
+
+
+</ul>
+
+<p>
+
+For the base cases, both \( f(1,n)=1 \) and \( f(k,1)=1 \). For, \(n,k>1\), recurrence is given by:
+
+\[ f(k,n) = f(k,n-1) + f(k-1,n-1) + f(k-1,n) \]
+
+</p>
+
+</details>
+
+<p>
+6. (iii)
+</p>
+
 
 
 
