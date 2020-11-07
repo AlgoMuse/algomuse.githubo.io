@@ -940,7 +940,7 @@ In any arrangement, \( (S_k,T_n) \) is an edge. Let us partition the arrangement
 </p>
 
 
-<li> Type II: Both \( (S_{k}, T_{n-1}) \) and \(S_{k-1},T_{n}\) are not edges. There are \(f(k-1,n-1)\) such arrangements.</li>
+<li> Type II: Both \( (S_{k}, T_{n-1}) \) and \( (S_{k-1},T_{n}) \) are not edges. There are \(f(k-1,n-1)\) such arrangements.</li>
 
 <p style="text-align:center;">
 <img src="/assets/images/cmi_solution_6_case2.svg"/>
