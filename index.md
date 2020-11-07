@@ -966,9 +966,40 @@ For the base cases, both \( f(1,n)=1 \) and \( f(k,1)=1 \). For, \(n,k>1\), recu
 </details>
 
 <p>
-6. (iii)
+6. (iii) Find formulas for \( f(2,n) \) and \( f(3,n) \).
 </p>
 
+<details><summary>Solution</summary>
+
+<p>
+Notice that \(f(2,2)=3\).  Using the recurrence in part (ii):
+
+\begin{align}
+f(2,n) &= f(2,n-1) + f(1,n-1) + f(1,n) \\
+ &= f(2,n-1) + 2 \\
+ &= f(2,2) + 2(n-2)  \\
+ &= 2n-1
+\end{align}
+
+
+\begin{align}
+f(3,n) &= f(3,n-1) + f(2,n-1) + f(2,n) \\
+ &= f(3,n-1) + 2n-3 + 2n-1\\
+ &= f(3,n-1) + 4(n-1) \\
+ &= f(3,n-1) + 4(n-1) \\
+ &= f(3,n-2) + 4[ (n-2)  + (n-1)] \\
+ &\;\; \vdots \\
+ &= f(3,1) + 4\cdot \frac{n(n-1)}{2}  \\
+ &= 2n^2-2n+1
+\end{align}
+
+
+
+
+</p>
+
+
+</details>
 
 
 
