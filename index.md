@@ -17,14 +17,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 ---
 
 
-## What's new?
- - Solutions to CMI 2020 paper are up!
- - Sign-up for mock tests is now open.
 
-
----
-
-<!--
 
 
 #### What you get on this site
@@ -34,11 +27,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 - Topic-wise classification of all problems ordered by increasing difficulty. This helps you to specialize in a topic.
 
+- Content as an <a href="https://gum.co/kBekW">e-book</a>.
+
 {: .fs-4 .fw-300 }
 
--->
 
-
+---
 
 
 ## Solutions to CMI Entrance Exam 2020
@@ -46,14 +40,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 ### Part A - Short-answer type
 
 <p>
-1. A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).
+1. A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).<br>
+
+Hint: Notice that the polynomial \( g(x) = 1 + x + \frac{x(x-1)}{2} \) equals \(2^x\) for \(x\in\{0,1,2\}\).
 </p>
 
-<!--
-<p style="text-align:left;">
-<img src="/assets/images/cmi_entrance_2020_problem_1.png">
-</p>
--->
+
 
 
 
@@ -1341,8 +1333,8 @@ The cutoff marks for the year 2020 are given below. The marks are out of 94 inst
 
 Type | General |  Reserved
 -----|------|----
-With Scholarship| 54/94 | 44/94
-Admission only| 48/94 | 40/94
+With scholarship| 54/94 | 44/94
+Without scholarship| 48/94 | 40/94
 Waiting list| 45/94 | 38/94
 
 
@@ -1356,6 +1348,7 @@ The cutoff marks for the previous years are given below.
 2016 | 14/40 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
 2017 | 15/40 | 60/125 | Abhiroop Sanyal
 2018 | 15/40 | 50/125 | Sutirtha Datta [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
+2019 | 20/40 | 52/100  | Ankush Agarwal
 2020 | 20/40 | 48/94  | CMI Office
 
 
