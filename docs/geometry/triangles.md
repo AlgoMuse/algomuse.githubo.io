@@ -171,7 +171,7 @@ How many non-congruent triangles are there with integer lengths \(a \leq b \leq 
 <details><summary>Solution</summary>
 
 <p>
-It is clear that \(1< a \leq b \leq c<10\). Now, \(c< a+b\) a nd \(c=20-a-b\) implies \(10< a+b ;\) this also means that \(b \geq a\) and \(b \geq 11-a\). Moreover, we also have \(b \leq 20-a-b .\) One can further conclude that \(a \leq 6,\) otherwise
+It is clear that \(1< a \leq b \leq c<10\). Now, \(c< a+b\) and \(c=20-a-b\) implies \(10< a+b ;\) this also means that \(b \geq a\) and \(b \geq 11-a\). Moreover, we also have \(b \leq 20-a-b .\) One can further conclude that \(a \leq 6,\) otherwise
 \(7 \leq b \leq 6 .\) So as \(a\) ranges from 2 to 6 we have that \(b\) takes the following values
 \(a=2, b=9 ; a=3, b=\) \(8 ; a=4, b \in\{7,8\} ; a=5, b \in\{6,7\} ; a=6, b \in\{6,7\} .\) The total number of possible
 triangles is 8.

@@ -182,7 +182,7 @@ Specify exactly when the smallest and the largest possible value is achieved.
 
 \begin{align}
 3p^{2} q+3 p^{2} r+2 q^{3}+2 r^{3}&=(q+r)\left(3 p^{2}+2 q^{2}+2 r^{2}-2 q r\right)\\
-&=((q+r)\left(3\left(p^{2}+q^{2}+r^{2}\right)-\left(q^{2}+r^{2}+2 q r\right)\right)\\
+&=(q+r)\left(3\left(p^{2}+q^{2}+r^{2}\right)-\left(q^{2}+r^{2}+2 q r\right)\right)\\
 &=(q+r)\left(3-(q+r)^{2}\right)\\
 &=x\left(3-x^{2}\right)=3 x-x^{3}
 \end{align}
@@ -212,7 +212,7 @@ Thus altogether we have to find extrema of the odd function \(f(x)=3 x-x^{3}\) o
 </p>
 
 <p>
-In each case, this gives a line segment in the \(q r\) -plane joining (±1,0) and \((0,\pm 1) .\) Note that both these segments lie within the circle \(q^{2}+r^{2}=1,\) so each point on them leads to two valid points \((p, q, r)\) on the unit sphere.
+In each case, this gives a line segment in the \(q r\)-plane joining \( (\pm 1,0) \) and \((0,\pm 1) .\) Note that both these segments lie within the circle \(q^{2}+r^{2}=1,\) so each point on them leads to two valid points \((p, q, r)\) on the unit sphere.
 </p>
 
 </details>

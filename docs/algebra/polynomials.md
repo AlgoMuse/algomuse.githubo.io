@@ -432,6 +432,122 @@ But we have proved in part (b) that such a polynomial does not exist. Hence, \(b
 
 ---
 
+
+### Dependent roots
+{: .d-inline-block}
+
+B5, 2020
+{: .label}
+
+<p>
+A monic polynomial has the following property: If \(r\) is a root, then \(r^2 -4\) is also a root. Let us denote this property by \(\tau\).
+</p>
+
+
+
+<p>
+(i) Prove that there are exactly six such quadratic polynomials and find them.
+</p>
+
+<i>Note: The original problem in the CMI paper asked to find two quadratics instead of six. CMI has confirmed that this was a mistake.</i>
+
+<details><summary>Solution</summary>
+
+<p>
+<i>Notation.</i> Let \(f(x):=x^2-4\). Let \(\alpha_1\) and \(\alpha_2\) be the roots of the equation \(f(x)=x\).
+The values of the roots are:
+
+\[ \alpha_1 = \left( \frac{1+\sqrt{17}}{2} \right) \;\;\;\alpha_2 = \left( \frac{1-\sqrt{17}}{2}  \right) \]
+
+Suppose \(p(x)\) is a quadratic polynomial that has the property \(\tau\). Let \(r_1\) and \(r_2\) be the roots of \(p(x)\).
+
+The constraint on the problem means that \(f(r_1) = r_1\mbox{ or } r_2\) and \(f(r_2) = r_1\mbox{ or }r_2\). We can find the candidate polynomials by enumerating all
+four cases. The polynomials obtained are numbered from (i) to (vi) in the table below.
+</p>
+
+<!--
+
+| Case   | Possible \\(p(x)\\) |
+| \\( f(r_1)=r_1 \\) and  \\( f(r_2)=r_2 \\) |  (i) \\( r_1=r_2=\alpha_1 \implies p(x) = (x-\alpha_1)^2 \\) <br><br> (ii) \\( r_1=r_2=\alpha_2 \implies p(x) = (x-\alpha_2)^2 \\) <br><br> (iii) \\( r_1=\alpha_1 \\)  and  \\(r_2=\alpha_2\\) \\(\;\implies p(x) = x^2-x-4 \\)  |
+| \\( f(r_1)=r_2 \\) and \\( f(r_2)=r_1 \\) with \\( r_1\neq r_2 \\)  | \\( r_1^2 - 4 = r_2 \;\;\;(1) \\) <br> \\(  r_2^2-4 = r_1 \;\;\;(2) \\) <br><br> Subtracting (2) from (1) we get: <br> \\( r_1^2 - r_2^2 = r_2 - r_1  \\) <br> \\( r_1+r_2 = -1 \\) <br> \\( r_2 = -r_1-1 \\) <br> \\( r_1^2-4 = -r_1-1 \\) <br> \\( r_2^2-4=-r_2-1 \\) <br> <br> (iv) The previous two equations imply that \\(r_1\\) and \\(r_2\\) are the roots of the quadratic \\(p(x)=x^2+x-3\\) |
+| \\( f(r_1)=r_1 \\) and \\( f(r_2)=r_1 \\) |  \\( r_1^2 - 4 = r_1 \;\;\;(1) \\) <br> \\(  r_2^2-4 = r_1 \;\;\;(2) \\) <br><br> Equating LHS of (1) and (2) we get: <br> \\( r_1^2 = r_2^2 \\) <br> So either \\( r_1=r_2 \\) (Case 1) or \\(r_1=-r_2\\). <br> (v) \\(r_1 = \alpha_1\\) and \\(r_2=-\alpha_1 \\)  implies \\( p(x) =  x^2-\alpha_1^2 \\)  <br> (vi) \\(r_1 = \alpha_2\\) and \\(r_2=-\alpha_2 \\)  implies \\( p(x) =  x^2-\alpha_2^2 \\)  |
+| \\( f(r_1)=r_2 \\) and \\( f(r_2)=r_2 \\) | Same as Case 3.  |
+
+-->
+
+<p style="text-align:center;">
+<img src="/assets/images/B5_1_cmi_exam_2020.png">
+<img src="/assets/images/B5_2_cmi_exam_2020.png">
+</p>
+
+
+
+
+</details>
+
+---
+
+<p>
+(ii) Consider the same property for cubic polynomials. Describe the process of finding them, but do not try to find the exact polynomials.
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+The procedure is similar to the one followed in part (i). Let the function \(f\) and \(\alpha\)s be as defined in the previous problem.
+Let \(g(x)\) be a cubic polynomial with \(r_1,r_2\) and \(r_3\) as its roots.
+</p>
+
+
+<p>
+The constraint on the problem means that:<br>
+
+\begin{align}
+f(r_1) &= r_1 \mbox{ or } r_2 \mbox{ or } r_3 \\
+f(r_2) &= r_1 \mbox{ or } r_2 \mbox{ or } r_3 \\
+f(r_3) &= r_1 \mbox{ or } r_2 \mbox{ or } r_3
+\end{align}
+</p>
+
+<p>
+We can find the candidate polynomials by enumerating all \(3^3=27\) cases.
+</p>
+
+
+<div style="margin-top:10px; margin-bottom: 10px; padding: 10px; border: 1px solid #cce ; border-radius: 4px;">
+
+<h3>An example of the procedure</h3>
+<p>Consider the following case:
+
+\begin{align}
+f(r_1) &= r_1 \\
+f(r_2) &= r_2 \\
+f(r_3) &= r_3
+\end{align}
+
+We get the following cubic polynomials as candidates for this case:
+
+\begin{align}
+&(x-\alpha_1)^3 \\
+&(x-\alpha_2)^3\\
+&(x-\alpha_1)^2(x-\alpha_2)\\
+&(x-\alpha_1)(x-\alpha_2)^2
+\end{align}
+</p>
+
+</div>
+
+
+
+
+
+</details>
+
+---
+
+
+
 ### Repeated roots
 {: .d-inline-block}
 
@@ -674,7 +790,51 @@ Define \(g_{n}(x)=p_{n}(x)-p_{n}(1)\), hence \(g_{n}(x)\) has degree \(2018-n\) 
 
 ---
 
+### Binomial polynomial
+{: .d-inline-block }
 
+A9, 2020
+{: .label}
+
+
+<p>
+A polynomial \( p(x) \) of degree \(7\) satisfies \(p(n)=2^n\) for \(n=0\) to \(7\).  Find \(p(10)\).<br>
+
+Hint: Notice that the polynomial \( g(x) = 1 + x + \frac{x(x-1)}{2} \) equals \(2^x\) for \(x\in\{0,1,2\}\).
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+Let us define the <i>binomial polynomial</i> \( \binom{x}{k} \) as follows:
+
+\[ \binom{x}{k} := \frac{1}{k!} \times x\times (x-1)\times\cdots(x-(k-1)) \]
+
+for \( k>0 \) and 1 for \( k=0 \). Now consider the 7-degree polynomial \( g(x) \) defined as:
+
+\[ g(x) := \binom{x}{0} + \binom{x}{1} +\cdots + \binom{x}{7} \]
+
+The value of \( g(x) \) is same as \( p(x) \) for \(x=0\) to \(7\). Recall that if two \(n\)-degree polynomials agree on \(n+1\) points they must be identical. So, \( g(x) = p(x) \).
+
+\begin{align}
+p(10) & = g(10) = \binom{10}{0} + \binom{10}{1} +\cdots + \binom{10}{7} \\
+& =\: 2^{10} - \left[ \binom{10}{8} +\binom{10}{9}+ \binom{10}{10} \right] \\
+& =\: 2^{10} - \left( 45+10+1\right) \\
+& = 968
+\end{align}
+
+</p>
+
+<h4>Notes</h4>
+
+The next problem (<a href="/docs/algebra/polynomials/#difference-equations">B5, 2014</a>) also involves binomial polynomials.
+
+</details>
+
+
+
+---
 ### Difference equations
 {: .d-inline-block }
 
@@ -767,6 +927,52 @@ Brook Taylor (1685-1731)
 
 
 ## Polynomial division [3]
+
+### Guess the polynomial
+{: .d-inline-block }
+
+A7, 2020
+{: .label}
+
+<p>
+\(P(x)=10x^{400}+ax^{399}+bx^{398}+3x+15\).
+\((x^2-1)\) is a factor of \(P(x)\).
+</p>
+
+<p>
+(i) Find \(a\) and \(b\).
+</p>
+
+<p>
+(ii) Find the sum of reciprocals of all the roots of \(P(x)\).
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+(i) Since \((x^2-1)\) is a factor of \(P(x)\), we must have \( P(1)=P(-1)=0\).  We get two equations:
+
+\begin{align}
+P(1) = 10 + a + b + 3 + 15 = 0 \\
+P(-1) = 10 - a + b - 3 + 15 = 0
+\end{align}
+
+By solving the above equations we get \(a=-3\) and \(b=-25\).
+</p>
+
+
+<p>
+(ii) By Vieta's formulas, only the ultimate and the penultimate coefficients matter. The sum turns out to be \(-1/5\).
+</p>
+
+</details>
+
+
+
+---
+
+
 
 ### Find the remainders
 {: .d-inline-block }

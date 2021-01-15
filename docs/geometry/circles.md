@@ -179,6 +179,87 @@ Since the area of the circle is \(\pi\), the polygon's area must also be close t
 
 ---
 
+### Cyclic trapezoids
+{: .d-inline-block}
+
+B1, 2020
+{: .label}
+
+<p>
+We have four cyclic points \(A\), \(B\), \(C\) and \(D\). \(AC\) and \(BD\) are  the diameters of the circle.
+\(AB =12 \)cm and \(BC = 5\)cm. \(P\) is a point on the arc joining \(A\) & \(B\) which does not contain \(C\) and \(D\).
+\(AP = a\), \(BP = b\), \(CP = c\) and \(DP = d\).  Find \(\frac {a+b}{c+d}\)  and  \(\frac {a-b}{d-c}\).
+</p>
+
+
+<p style="text-align:center;">
+<img src="/assets/images/ptolemy_cmi_admission_2020.svg">
+</p>
+
+<details><summary>Solution</summary>
+
+<p>Since \(AC\) and \(DB\) are diameters, \( \angle ABC \) and \( \angle DAB \) must be right angles. Hence, \(ABCD\) is a rectangle with
+a diagonal whose length is 13 cm.</p>
+
+
+
+<p>
+Applying Ptolemy's theorem to trapezoids \(APBC\) and \(APBD\), we get the following two equations, respectively.
+</p>
+
+<p>
+\begin{align}
+12c = 13b + 5a \\
+12d = 13a + 5b
+\end{align}
+</p>
+
+Adding the two equations, we get \( 12(c+d) = 18(a+b) \).
+
+\[ \boxed{  \frac{a+b}{c+d} = \frac{2}{3}  } \]
+
+Since \(DB\) is a diameter, \( \angle DPB = 90^\circ \). Similarly, since \(AC\) is a diameter, \(\angle APC=90^\circ \). Applying Pythagoras
+theorem to triangles \(DPB\) and \(APC\) we get:
+
+
+\begin{align}
+b^2 + d^2 = 13^2 \\
+a^2 + c^2 = 13^2
+\end{align}
+
+
+\begin{align}
+a^2 - b^2 &= d^2 - c^2 \\
+(a+b)(a-b) &= (d-c)(d+c) \\\\
+\frac{a-b}{d-c} &= \frac{c+d}{a+b}
+\end{align}
+
+
+
+\[ \boxed{ \frac{a-b}{d-c} = \frac{3}{2} } \]
+
+
+<br>
+
+
+
+<h4>Reference</h4>
+
+<img src="/assets/images/sharygin.png" style="float:left;margin-right:20px;margin-top:10px;"/>
+
+<p>
+This problem appears in the book titled <i>Problems in plane geometry</i> by I.F.Sharygin (1982). It was part of a delightful series called <i>Science for everyone</i> by MIR publishers. <br><br>
+</p>
+<p>
+See: Page 39, Section 1, Problem 183.
+</p>
+
+</details>
+
+
+
+---
+
 ### Intersecting circles
 {: .d-inline-block}
 

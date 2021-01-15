@@ -8,6 +8,7 @@ nav_order: 91
 # Complex numbers
 
 
+
 ### Trigonometric values via complex numbers
 {: .d-inline-block}
 
@@ -67,6 +68,71 @@ x^{2012}+x^{-2012} &= 2 \cos \left(\frac{2012 \pi}{5}\right)\\
 </details>
 
 ---
+
+### Complex polygon
+{: .d-inline-block}
+
+B2, 2020
+{: .label}
+
+
+<p>
+2. (i) Let \(z=e^{\frac{2i\pi}{n}}\) where \(n\geq 2\) is a positive integer. Prove that \(\sum_{k=0}^{n-1}z^k=0.\)
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+Since \(z^n=1\), we have \(z^n-1=0\).
+</p>
+
+<p>
+\[ z^n-1 = (z^{n-1} + z^{n-2} + \cdots + 1)(z-1) = 0 \]
+</p>
+
+<p>For \(n\geq 2 \), \(z\neq 1\). So the first factor must be zero. This proves the statement.
+</p>
+</details>
+
+
+---
+
+<p>
+2. (ii) Prove that \(\cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ = 0\)
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+\begin{align}
+A &:= \cos 1^\circ + \cos 41^\circ + \cos 81^\circ + \cdots + \cos 321^\circ \\
+B &:= \sin 1^\circ + \sin 41^\circ + \sin 81^\circ + \cdots + \sin 321^\circ \\
+\end{align}
+</p>
+
+
+<p>
+Notice that \(40^\circ=2\pi/9\). Let \( \theta = 1^\circ = \pi/180 \). Then:
+</p>
+
+<p>
+\[ A+iB = e^{i\theta} \left( \sum_{k=0}^{8} e^{ \frac{2\pi i}{9}k } \right) \]
+</p>
+
+<p>
+From problem 2(i), we know that RHS of the above equation is zero. Since \(A\) and \(B\) are real numbers, both of
+them must be individually zero. In particular, \(A=0\), which proves the statement.
+</p>
+
+
+</details>
+
+---
+
+
+
+
 
 ### Power of a complex number
 {: .d-inline-block}

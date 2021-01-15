@@ -30,6 +30,43 @@ You are given an \(8 \times 8\) chessboard. If two distinct squares are chosen u
 
 ---
 
+### Yet another dice roll
+{: .d-inline-block}
+
+A4, 2020
+{: .label}
+
+<p>
+(i) What is the probability that among \(100\) rolls of a fair die the first \(3\) rolls yield at least one \(4\)?
+</p>
+
+<p>
+(ii) Calculate the probability that out of the last \(4\) rolls, exactly two are multiples of \(3\).
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+(i) The probability that none of the first three rolls have a 4 is \( (5/6)^3 \). So the required probability is \(1 - (5/6)^3\).
+</p>
+
+<p></p>
+
+<p>
+(ii) Let \(S\) be the number of ways in which four rolls can have exactly two multiples of 3. The required probability \(P\) is then \(S/6^4\).
+</p>
+
+<p> Let us calculate \(S\). Two positions can be picked in \( \binom{4}{2} \)
+ways. These two positions can have either a 3 or a 6. So the favorable positions can be filled in \( \binom{4}{2}\times 2^2 \) ways. The other two positions can have either 1, 2, 4 or 6. So they
+can be filled in \( 4^2\) ways. Hence we have:
+
+\[ P = \frac{  \binom{4}{2}\times 4 \times 4 \times 4  }{6^4} = \frac{2}{3}^3 = \frac{8}{27} \]
+
+</p>
+
+</details>
+
+---
 
 
 

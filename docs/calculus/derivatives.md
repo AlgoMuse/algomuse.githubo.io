@@ -10,6 +10,41 @@ nav_order: 2
 
 
 
+### Maximize area of a rectangle
+{: .d-inline-block}
+
+A3, 2019
+{: .label}
+
+
+<p>There is a piece of land next to a straight river. You are required to cut off a rectangular portion of the land,
+with the river forming one of the sides of the rectangle. The fence will have three sides to it.
+You have 60 meters of fencing. What is the maximum area that you can enclose?
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+Let the length and width of the rectangular fence be \(x\) and \(60-2x\), respectively. The area of the enclosure is:
+</p>
+
+
+<p style="text-align:center;"><img src="/assets/images/cmi2019_a3.svg"></p>
+
+<p>
+\[ A(x) = (60-2x)x \]
+</p>
+
+<p>
+which is maximized when \(A^{\prime}=0=60-4x\). Hence, \(x\) should be \(15\) meters. Thus the maximum enclosure is 450 sq.mts.
+</p>
+
+
+</details>
+
+---
+
 ### One-to-one I
 {: .d-inline-block }
 
@@ -45,6 +80,8 @@ If \(g\left(x_{1}\right)=g\left(x_{2}\right),\) then \(x_{1}=f\left(g\left(x_{1}
 </details>
 
 ---
+
+
 
 ### Continuity
 {: .d-inline-block }
@@ -264,9 +301,6 @@ Put \(p(x)=x^2-1\), then
 Hence, \(f(x)\) can have degree 0.
 </p>
 
-<p>
-<i><b>Comment.</b> To make the problem interesting one needs to state that neither 0,-1 or 1 are the roots of \( p(x) \) as stated in the original Putnam problem(see below).</i>
-</p>
 
 
 
@@ -274,7 +308,11 @@ Hence, \(f(x)\) can have degree 0.
 
 </details>
 
-<p><i><b>Reference</b>. This problem is taken from Putnam 1992 competition. See the intended problem and the solution <a href="https://prase.cz/kalva/putnam/psoln/psol9210.html">here</a>.</i></p>
+<p><i><b>Reference</b>. This problem is taken from Putnam 1992 competition, but with a typo that trivializes the problem. See the intended problem and the solution <a href="https://prase.cz/kalva/putnam/psoln/psol9210.html">here</a>.</i></p>
+<p>
+<i>To make the problem interesting one needs to state that neither 0,-1 or 1 are the roots of \( p(x) \) as stated in the original Putnam problem.</i>
+</p>
+
 
 
 
@@ -313,6 +351,41 @@ We say \(g\) has an inflection point at \(x_{0}\) if the second derivative \(g^{
 </details>
 
 ---
+
+### Concave function
+{: .d-inline-block }
+
+A6, 2020
+{: .label}
+
+
+<p>
+Suppose \(a=20202019\) and \(b=20202021\). Fill in the blank with either \(<, >\) or \(=\).
+
+\[ \tan^{-1} a + \tan^{-1} b \underline{\hspace{1cm}}  2 \tan^{-1} ( \frac{a+b}{2} ) \]
+
+Hint: Look at the second derivative.
+</p>
+
+<details><summary>Solution</summary>
+<p>
+
+Let \(f(x) := \tan^{-1}x \).
+
+\begin{align}
+f^\prime(x) &= \frac{1}{1+x^2} \\
+f^{\prime\prime}(x) &= \frac{-2x}{ (1+x^2)^2 } \\
+\end{align}
+
+In the domain \( (0,\infty) \), the second derivative is strictly negative. This means that
+\( f(x) \) is strictly concave in this domain. Therefore \( f(x) + f(y) < 2 f( (x+y)/2) \) for any \(x,y \in (0,\infty) \).
+
+</p>
+
+</details>
+
+---
+
 
 ### Differentiability I
 {: .d-inline-block}
@@ -451,7 +524,7 @@ Rolle's theorem says that there is \(x \in(1, a)\) with \(f^{\prime}(x)=0\).
 ### Rolle's theorem II
 {: .d-inline-block }
 
-A9, 2011
+B9, 2011
 {: label .label-blue}
 
 <p>
@@ -745,6 +818,66 @@ similar to the above it is bigger than \(1 / 12\).
 
 
 ---
+
+### Spider walk
+{: .d-inline-block}
+
+B3, 2020
+{: .label}
+
+
+<p>
+A spider is moving along the curve \(y=x^3\) in the positive \(x-\)direction. It moves along the curve with a constant speed of \(10\) cm per second.
+The spider has woven a web that connects it to the origin. The strand connecting it to the origin is taut. Find the rate of increase of the length of
+the strand when \(x=\frac{1}{2}\).
+</p>
+
+<p style="text-align:center;">
+<img src="/assets/images/cubic_curve.svg">
+</p>
+
+
+<details><summary>Solution</summary>
+Let \(v_x\) and \(v_y\) define the horizontal and vertical components of the velocity of the spider. Since the speed of the spider is constant we have:
+
+\[ \sqrt{v_x^2 + v_y^2} = 10 \mbox{ cm/s} \]
+
+
+\begin{align}
+y &= x^3 \\
+\frac{dy}{dt} &= 3x^2 \frac{dx}{dt} \\
+v_y &= 3x^2 v_x
+\end{align}
+
+When the spider is at \(x=1/2\), we have \( v_y = 3v_x/4 \). Since the speed is constant:
+
+\begin{align}
+\sqrt{ v_x^2 + \frac{9v_x^2}{16}  }  &= 10\\
+\sqrt{ \frac{25v_x^2}{16} }  &= 10 \\
+\frac{5v_x}{4} &= 10 \\
+v_x &= 8 \mbox{ cm/s} \\
+v_y &= 3v_x/4  = 6 \mbox{ cm/s}
+\end{align}
+
+We know the velocity at \(x=1/2\). Let us calculate \(dl/dt\), the rate of increase of the strand length at that moment.
+
+\begin{align}
+l  &= \sqrt{ x^2 + y^2 } \\
+\frac{dl}{dt} &= \frac{1}{2\sqrt{ x^2 + y^2 }} \left(  2x\frac{dx}{dt} + 2y\frac{dy}{dt}  \right) \\\\
+&= \frac{1}{\sqrt{ (1/2)^2 + (1/8)^2 }} \left(  \frac{1}{2}\cdot 8  +  \frac{1}{8} \cdot 6  \right) \\\\
+&= \frac{4+3/4}{ \sqrt{\frac{1}{2^2}+\frac{1}{8^2}} } \\
+&= \frac{38}{\sqrt{17}}\\
+\frac{dl}{dt}&\approx 9.2 \mbox{ cm/s}
+\end{align}
+</details>
+
+
+---
+
+
+
+
+
 
 ### Double derivatives
 {: .d-inline-block}

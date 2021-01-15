@@ -99,6 +99,51 @@ Hence, \(\int_{-3}^{3}\left|3 x^{2}-3\right| d x = 44 \).
 
 ---
 
+### Absolute integrals II
+{: .d-inline-block}
+
+A3, 2020
+{: .label}
+
+<p>
+(a) Evaluate \(\int_1^{e^2} \ln x dx\). <br>
+(b) Evaluate \(I = \int_{-1}^1 \frac{\ln\mid x\mid}{\mid x\mid}.\)
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+(a)
+\begin{align}
+\int_1^{e^2} \ln x \: \mbox{d}x &= x\ln x - x \rvert_{1}^{e^2}   \\
+&= [e^2\ln e^2 - e^2] -[ 1\ln 1 - 1]  \\
+&= e^2+1
+\end{align}
+</p>
+
+<p>
+(b) Since \(|x| = |-x|\), we have:
+
+\begin{align}
+\frac{I}{2} &=  \int_{0}^1 \frac{\ln x}{x} \mbox{d}x \\
+&= \left. \frac{(\ln x)^2}{2} \right \rvert_{0}^{1} \\
+&= \frac{(\ln 1)^2}{2} - \frac{ (\ln 0)^2 }{2}  \\
+&=0-\infty \\
+\therefore I &= -\infty
+\end{align}
+
+
+
+
+</p>
+
+
+
+</details>
+
+---
+
+
 
 ### Volume of a cave
 {: .d-inline-block}

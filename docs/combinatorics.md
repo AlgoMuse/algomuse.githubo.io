@@ -102,6 +102,54 @@ So \(n=14\) and \(k=5\).
 
 ---
 
+### Counting students
+{:b .d-inline-block}
+
+A1, 2020
+{: .label}
+
+
+<p>
+There are \(3\) clubs in a school. A student is a member of at least one of them. \(10\) students are members of all \(3\) clubs. Each club has \(35\) members. Find the minimum and maximum number of students in the school.
+</p>
+
+
+
+<details><summary>Solution</summary>
+<p>
+Let us split the students into three categories:
+
+<ul>
+<li><i>A-members:</i> Students who belong to one club.</li>
+<li><i>B-members:</i> Students who belong to two clubs.</li>
+<li><i>C-members:</i> Students who belong to three clubs.</li>
+</ul>
+
+</p>
+
+<p>
+Each club has 35 slots out of which C-members take up 10 slots. The remaining 25 slots in each club
+have be to filled with either A or B-members.
+</p>
+
+<p>
+<i>Maxima. </i> In order to maximize the number of students we pick only A members. So 75 A-members fill up the remaining slots.
+The total number of students is then 85.
+</p>
+
+
+<p>
+<i>Minima. </i> There are 75 remaining slots. Each B-student fills up two slots, so there must be at least one A-member. Notice that three B-members
+can fill up 2 slots of each club. So, 36 B-members can fill up 24 of the remaining slots in each club. The remaining empty slots can be filled up by one B-member
+and one A-member. So we have 10 C-members, 37 B-members and 1 A-member in all the clubs. In total there are 48 students.
+</p>
+
+</details>
+
+---
+
+
+
 
 ### Sum of a finite series
 {: .d-inline-block}
@@ -313,7 +361,139 @@ There are 8 boys and 7 girls in a group. For each of the tasks specified below, 
 
 ---
 
+### Counting relations
+{:b .d-inline-block}
 
+B6, 2020
+{: .label}
+
+
+<p>
+6 (i) Find the total number of anti-symmetric relations \(R\) from \(S \times S\) where \(S=\{1,2,3\cdots n\}.\)
+An anti-symmetric relation is defined as: \((a,b)\in R\implies (b,a)\notin R.\)
+</p>
+
+<details><summary>Solution</summary>
+<p>
+From the definition it follows that \( (a,a) \notin R \). For any unordered pair \( \{a,b\} \) there are three possibilities:
+<ul>
+<li>\( (a,b) \in R \)</li>
+<li>\( (b,a) \in R \)</li>
+<li>\( (a,b) \notin R \)</li>
+</ul>
+
+The number of unordered pairs is \( \binom{n}{2} \). So there are \( 3^{ \binom{n}{2} } \) anti-symmetric relations.
+
+</p>
+
+</details>
+
+---
+
+<p>
+6. (ii) We have a set of points on a 2D-plane. Let \(S\) be a set of \(k\) vertical points and \(T\) be a set of
+\(n\) vertical points as shown below. The \(i\)th point in \(S\) (resp. \(T\)) is denoted by \(S_i\) (resp. \(T_i\)).
+</p>
+
+<p style="text-align:center;">
+<img src="/assets/images/bipartite_graph.svg">
+</p>
+
+<p>
+An <i>edge</i> is an ordered pair \( \left(x,y\right) \) with \(x \in S\) and \(y \in T\).
+A set of edges is said to be an <i>arrangement</i> if the following holds:
+
+
+<ul>
+<li>Any pair of edges in the arrangement is <i>non-crossing</i>, that is, if \( (S_a,T_b) \) and \( (S_c,T_d) \) are edges, then \(a\geq c \Leftrightarrow b\geq d\).</li>
+<li>Every point in \(S\) and \(T\) is present in some edge in the arrangement. </li>
+</ul>
+
+The figure shown above is an arrangement since it satisfies both the conditions.<br>
+
+Let \(f(k,n)\) denote the total number of arrangements. Write a recurrence for \( f(k,n) \). The expression in the recurrence must have
+fixed number of terms.
+
+</p>
+
+<details><summary>Solution</summary>
+
+In any arrangement, \( (S_k,T_n) \) is an edge. Let us partition the arrangements into three types:
+
+<ul>
+
+<li> Type I: \( (S_{k}, T_{n-1}) \) is an edge. There are \(f(k,n-1)\) such arrangements.</li>
+
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case1.svg"/>
+</p>
+
+
+<li> Type II: Both \( (S_{k}, T_{n-1}) \) and \( (S_{k-1},T_{n}) \) are not edges. There are \(f(k-1,n-1)\) such arrangements.</li>
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case2.svg"/>
+</p>
+
+<li> Type III: \( (S_{k-1}, T_{n}) \) is an edge. There are \(f(k-1,n-1)\) such arrangements.</li>
+
+<p style="text-align:center;">
+<img src="/assets/images/cmi_solution_6_case3.svg"/>
+</p>
+
+
+</ul>
+
+<p>
+
+For the base cases, both \( f(1,n)=1 \) and \( f(k,1)=1 \). For, \(n,k>1\), recurrence is given by:
+
+\[ f(k,n) = f(k,n-1) + f(k-1,n-1) + f(k-1,n) \]
+
+</p>
+
+</details>
+
+<p>
+6. (iii) Find formulas for \( f(2,n) \) and \( f(3,n) \).
+</p>
+
+<details><summary>Solution</summary>
+
+<p>
+Notice that \(f(2,2)=3\).  Using the recurrence in part (ii):
+
+\begin{align}
+f(2,n) &= f(2,n-1) + f(1,n-1) + f(1,n) \\
+ &= f(2,n-1) + 2 \\
+ &= f(2,2) + 2(n-2)  \\
+ &= 2n-1
+\end{align}
+
+
+\begin{align}
+f(3,n) &= f(3,n-1) + f(2,n-1) + f(2,n) \\
+ &= f(3,n-1) + 2n-3 + 2n-1\\
+ &= f(3,n-1) + 4(n-1) \\
+ &= f(3,n-1) + 4(n-1) \\
+ &= f(3,n-2) + 4[ (n-2)  + (n-1)] \\
+ &\;\; \vdots \\
+ &= f(3,1) + 4\cdot \frac{n(n-1)}{2}  \\
+ &= 2n^2-2n+1
+\end{align}
+
+
+
+
+</p>
+
+
+</details>
+
+
+
+---
 
 
 
@@ -324,11 +504,11 @@ B3, 2014
 {: .label}
 
 <p>
-(i) How many functions are there from the set \(\{1, \ldots, k\}\) to the set \(\{1, \ldots, n\} ?\)
+6 (i) How many functions are there from the set \(\{1, \ldots, k\}\) to the set \(\{1, \ldots, n\} ?\)
 </p>
 
 <p>
-(ii) Let \(P_{k}\) denote the set of all subsets of \(\{1, \ldots, k\} .\) Find a formula for the number of functions \(f\) from \(P_{k}\) to \(\{1, \ldots, n\}\) such that \(f(A \cup B)=\) the larger of the two integers \(f(A)\) and \(f(B)\).
+6 (ii) Let \(P_{k}\) denote the set of all subsets of \(\{1, \ldots, k\} .\) Find a formula for the number of functions \(f\) from \(P_{k}\) to \(\{1, \ldots, n\}\) such that \(f(A \cup B)=\) the larger of the two integers \(f(A)\) and \(f(B)\).
 </p>
 
 <p>
@@ -747,12 +927,12 @@ Each integer is colored with exactly one of three possible colors - black, red o
 <summary>Solution (c)</summary>
 
 <p>
-(c) One possible coloring has all the integers colored red, since there are no condit ions on red number s.
+(c) One possible coloring has all the integers colored red, since there are no conditions on red numbers.
 If that is not the case, let \(n\) be the smallest positive integer that is not colored red.
 Suppose the number \(n\) is colored black.
 Then we claim the remaining colors are all fully determined. Namely, the numbers of the form \((3 k+1) n\) will be black,
-the numbers of the for \(m(3k+2) n\) will be white, and the numbers of the form \((3k)n\) will be red,
-for all integers k. And all remaining colors will be red. On the other hand, if the number \(n\)
+the numbers of the form \((3k+2) n\) will be white, and the numbers of the form \((3k)n\) will be red,
+for all integers \(k\). And all remaining colors will be red. On the other hand, if the number \(n\)
 is colored white to begin with, then the remaining numbers will be determined by the same rules, but with black and white switched.
 </p>
 
@@ -771,8 +951,8 @@ In order to prove the above claim, we first prove one more rule the colors must 
 
 
 <p>
-Using this rule, it is easy to see that the numbers of the form \((3k+1)n\) will be black, the numbers of the form \((3k+2) n\) will be white,
-and the numbers of the form \((3k)n\) will be red, for all integers k.
+Using this rule, we deduce that the numbers of the form \((3k+1)n\) will be black, the numbers of the form \((3k+2) n\) will be white,
+and the numbers of the form \((3k)n\) will be red, for all integers \(k\).
 </p>
 
 
@@ -792,8 +972,12 @@ Then \(m=qn+r\), where \(0 < r< n\) is the remainder when \(m\) is divided by \(
 <p>
 We know this remainder is nonzero, since \(m\) is not a multiple of \(n .\) We also know that \(q > 0,\) since \(m > n\).
 Suppose \(m\) is white. Then, because \(-n\) is white, we know \(m-n=(q-1) n+r\) is black, which gives us a smaller non-red positive integer that
-is not a multiple of \(n\). On the other hand, suppose \(m\) is colored black. Then \(-2 n\) is black, so \(m-2 n=(q-2) n+r\) is white. If \(q<1,\) this gives us a smaller positive non-red integer that \(^{\prime}\) s not a multiple of \(n_{1}\) which is a contradiction, provided \(q>1 .\) But if \(q=1,\) and \(m-2 n=-n+r\) is white, that means that \(n-r\) is black, a contradiction. \(\:\square\)
+is not a multiple of \(n\). On the other hand, suppose \(m\) is colored black. Then \(-2 n\) is black, so \(m-2 n=(q-2) n+r\) is white.
+If \(q<1,\) this gives us a smaller positive non-red integer that \(^{\prime}\) s not a multiple of \(n_{1}\) which is a contradiction,
+provided \(q>1 .\) But if \(q=1,\) and \(m-2 n=-n+r\) is white, that means that \(n-r\) is black, a contradiction. \(\:\square\)
 </p>
+
+
 
 </details>
 
@@ -1076,7 +1260,9 @@ We use induction on \(n\).
 </p>
 
 <p>
-If \(n=1,\) then this is just part a. Assuming the statement up to \(n\) we need to prove that if \(f(x)<n+1,\) then \(x<n+1 .\) If \(f(x)<n,\) then by induction \(x<n,\) so \(x<n+1 .\) So let \(f(x)=n .\) If \(x=0,\) we are done. Otherwise \(f(f(f(x-1)))<f(x)=n\) and by using induction thrice we get in succession \(f(f(x-1))<n,\) then \(f(x-1)<n\) and then \(x-1<n,\) i.e., \(x<n+1\) as desired.
+If \(n=1,\) then this is just part a. Assuming the statement up to \(n\) we need to prove that if \(f(x)< n+1,\) then \(x< n+1 \).
+If \(f(x)< n,\) then by induction \(x< n,\) so \(x< n+1 \). So let \(f(x)=n \). If \(x=0,\) we are done. Otherwise \(f(f(f(x-1)))< f(x)=n\)
+and by using induction thrice we get in succession \(f(f(x-1))< n,\) then \(f(x-1)< n\) and then \(x-1< n,\) i.e., \(x< n+1\) as desired.
 </p>
 </details>
 

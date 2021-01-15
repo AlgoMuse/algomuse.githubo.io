@@ -93,7 +93,7 @@ Find the number of solutions to the equation \(4 \sin (3x+2)=1\) in the domain \
 We want the number of intersection points between the line \(y=1\) and the periodic function \(f(x) = 4\sin (3x+2) \). The function \(f\) has period \(2\pi/3\). Between every maxima and a minima, there is exactly one solution.
 </p>
 <p>
-At \(x=0\) and \(x=2\pi\), \(f\) is close to maxima. So all we need to do is find the number of minimas of \(f\) is the given domain and multiply it by 2.
+At \(x=0\) and \(x=2\pi\), \(f\) is close to maxima. So all we need to do is find the number of minimas of \(f\) in the given domain and multiply it by 2.
 </p>
 
 <p style="text-align:center;"><img src="/assets/images/A3_2011.svg"></p>
@@ -377,7 +377,7 @@ Find the value of \(R = 2 x y+x z+\sqrt{3} y z .\)
 
 <details><summary>Solution</summary>
 
-<p> <i>The RHS of equations hints that a right angle triangle in involved. The LHS expressions resemble the cosine formulas. All we have to do is find an interpretation for \(x,y\) and \(z\). This is an artificial problem.
+<p> <i>The RHS of equations hints that a right angle triangle is involved. The LHS expressions resemble the cosine formulas. All we have to do is find an interpretation for \(x,y\) and \(z\). This is an artificial problem.
 Students are expected to play guess-the-pattern game with the examiners. </i>
 </p>
 

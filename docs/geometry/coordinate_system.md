@@ -145,6 +145,48 @@ A bubble at the point \(P=\left(a, a^{2}\right)\) must be tangential to the para
 
 ---
 
+### Vector perpendicular to a plane
+{: .d-inline-block}
+
+A2, 2020
+{: .label }
+
+<p>
+Let vectors \(\vec{a},\vec{b}\) and \(\vec{c}\) be defined as follows:
+
+\begin{align}
+\vec{a} &= 6i+6j+9k \\
+\vec{b} &= 7i+8j+10k \\
+\vec{c} &= 2i-3j+4k
+\end{align}
+
+Let \(P\) be the plane containing vectors \(\vec{a}\) and \(\vec{b}\). Find a unit vector that lies in the plane \(P\) and
+is perpendicular to vector \(\vec{c}\).
+</p>
+
+
+
+<details><summary>Solution</summary>
+
+<p>
+We are looking for a vector \( \vec{u} \) that can be written as \( t\vec{a}+\vec{b} \) for some \(t\). Since \( \vec{u} \) is
+perpendicular to \(\vec{c}\) we must have \( \vec{u}\cdot\vec{c} = 0 \).
+</p>
+
+\begin{align}
+2(6+7t) - 3(6+8t) + 4(9+10t) &= 0 \\
+t&=-1
+\end{align}
+
+So \( \vec{u}=i+2j+k \).  A unit vector along \( \vec{u} \) is \(\frac{1}{\sqrt{6}} (i+2j+k) \).
+
+
+</details>
+
+
+
+
+---
 
 ### Find a curve given the tangent
 {: .d-inline-block}
@@ -230,6 +272,12 @@ The area of the circular region \(S=\left\{(x, y) \mid x^{2}+y^{2} \leq 144\righ
 
 </details>
 
+#### Reference
+
+_This problem appears in Chap.~2, Problem~7, 103 Problems in trigonometry Titu Andrescu._
+
+
+
 ---
 
 
@@ -241,7 +289,7 @@ B2, 2017
 
 
 <p>
-Let \(L\) be the line of intersection of the planes \(x+y=0\) and \(y+z=0\)
+Let \(L\) be the line of intersection of the planes \(x+y=0\) and \(y+z=0\).
 
 <ul>
 <li>(a) Write the vector equation of \(L\), i.e., find \((a, b, c)\) and \((p, q, r)\) such that
@@ -261,8 +309,8 @@ The direction vector can be obtained by computing the following cross product:
 (i+j) \times(j+\hat{k})=i-j+\hat{k}
 \]
 Hence \(L\) can be written as
-\(L=\{(0,0,0)+\lambda(1,-1,1) \mid \lambda\) is a real number \(\}\)
-First, note that the equation of a ny plane that contains the line \(L\) is given by
+\(L=\{(0,0,0)+\lambda(1,-1,1) \mid \lambda\) is a real number \(\}\).
+First, note that the equation of any plane that contains the line \(L\) is given by
 \[
 x+(1+\lambda) y+\lambda z=0
 \]
