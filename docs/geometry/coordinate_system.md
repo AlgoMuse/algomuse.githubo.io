@@ -69,7 +69,17 @@ Find the slope of a line \(L\) that satisfies both of the following properties:
 <details><summary>Solution</summary>
 
 <p>
-300
+
+The equation of the line is given by \(y=mx+2000\). Suppose the line touches the graph at \( (x_0,{x_0}^{3}) \). The slope of the tangent at that point is \(y^{\prime} = 3{x_0}^2 \).
+\begin{align}
+y &= mx + 2000 \\
+{x_0}^3 &= (3{x_0}^2)x_0 + 2000 \\
+x_0 &= -10 \\
+y^{\prime} &= 3{x_0}^{2} = 300
+\end{align}
+
+This implies that the slope of the line \(L\) is 300.
+
 </p>
 
 
@@ -127,18 +137,38 @@ Assume that there is a unique such circle at any given point on the parabola.
 
 <details><summary>Solution</summary>
 
+
 <p>
-A bubble at the point \(P=\left(a, a^{2}\right)\) must be tangential to the parabola at \(\left(a, a^{2}\right) .\) (Why?) It must also be symmetric with respect to Y-axis (why?) and so its center \(O\) must be on the Y-axis. The radius \(O P\) of this bubble is perpendicular to the common tangent to the parabola and to the bubble at \(P .\) The slope of this tangent = \(2 a,\) so the slope of radius \(O P=\frac{-1}{2 a}(\) for \(a \neq 0) .\) Let \(Q=\left(0, a^{2}\right) .\) Using triangle \(O P Q\) slope of \(O P=\frac{-O Q}{a}=\frac{-1}{2 a}\). Therefore \(O Q=\frac{1}{2},\) regardless of the value of \(a\)
+A bubble at the point \(P=\left(a, a^{2}\right)\) must be tangential to the parabola at \(\left(a, a^{2}\right)\), since the circle
+must lie within the region of the parabola. The circle must also be symmetric with respect to \(y\)-axis, since the parabola is symmetric.
+So its center \(O\) must be on the \(y\)-axis. See the figure below. The radius \(OP\) of this bubble is perpendicular to the common tangent to the parabola and to the bubble at \(P \). The slope of this tangent = \(2 a,\) so the slope of radius \(O P=\frac{-1}{2 a}(\) for \(a \neq 0) \).
 </p>
 
 <p>
-(a) By Pythagoras, \(O P^{2}=\left(\frac{1}{2}\right)^{2}+a^{2}=1 .\) So \(a^{2}=\frac{3}{4}\) and \(P=\left(0, \frac{3}{4}+\frac{1}{2}\right)=\left(0, \frac{5}{4}\right)\)
+Let \(Q=\left(0, a^{2}\right) \). Using the  \(\Delta O P Q\), the slope of \(O P=\frac{-O Q}{a}=\frac{-1}{2 a}\). Therefore \(O Q=\frac{1}{2},\) regardless of the value of \(a\)
 </p>
+
+
 
 <p>
-(b) For any nonzero \(a,\) the radius of the bubble satisfies \(O P^{2}=\left(\frac{1}{2}\right)^{2}+a^{2},\) so \(O P>\frac{1}{2}\) The smallest bubble is at the origin and its radius is \(\frac{1}{2}\).
+<figure>
+<p style="text-align:center;"><img src="/assets/images/B2_2016.svg"></p>
+<figcaption> The circle touches the parabola at \(P\). The distance between \(O\) and \(Q\) is independent of \(a\).</figcaption>
+</figure>
 </p>
 
+
+
+<p>
+(a) We are given that the radius of the circle \(OP=1\) cm. By Pythagoras:
+
+\[ OP^{2}=\left(\frac{1}{2}\right)^{2}+a^{2}=1 \]
+
+So \(a^{2}=\frac{3}{4}\) and \(O=\left(0, \frac{3}{4}+\frac{1}{2}\right)=\left(0, \frac{5}{4}\right)\)
+
+Hence, the center of the bubble is at \( (0,5/4) \).</p>
+
+<p>(b) For any nonzero \(a\), the radius of the bubble satisfies \(O P^{2}=\left(\frac{1}{2}\right)^{2}+a^{2},\) so \(O P>\frac{1}{2}\). The smallest bubble is at the origin and its radius is \(\frac{1}{2}\).</p>
 
 
 </details>

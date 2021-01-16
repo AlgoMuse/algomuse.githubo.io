@@ -377,17 +377,17 @@ Find the value of \(R = 2 x y+x z+\sqrt{3} y z .\)
 
 <details><summary>Solution</summary>
 
-<p> <i>The RHS of equations hints that a right angle triangle is involved. The LHS expressions resemble the cosine formulas. All we have to do is find an interpretation for \(x,y\) and \(z\). This is an artificial problem.
-Students are expected to play guess-the-pattern game with the examiners. </i>
-</p>
-
-
+<p>The RHS of equations hints that a right angle triangle is involved. The LHS expressions resemble the cosine formulas. All we have to do is find an interpretation for \(x,y\) and \(z\).</p>
 
 
 <p>
 Consider the right angled triangle \(ABC\) with sides 3,4,5 and an interior point \(O\) such that \(A O=x, \angle A O B=90\) and \(C O=z, \angle C O A=150\) and \(B O=\) \(y, \angle B O C=120\).
 Then the three given equations are in fact cosine rule for each of the triangle prescribed above.
 </p>
+
+
+<p style="text-align:center;"><img src="/assets/images/B5_2019.svg"></p>
+
 
 <p>
 For example, in \(\Delta BOC\) we have:
@@ -407,6 +407,10 @@ The three terms are the areas of the interior triangles which should be equal to
 
 So the answer is 24.
 </p>
+
+
+<i>This is an artificial problem.  Students are expected to play guess-the-pattern game with the examiners.</i>
+
 
 </details>
 
