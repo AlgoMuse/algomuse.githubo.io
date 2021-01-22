@@ -21,8 +21,8 @@ Problems will be set by either ISI or CMI students. We will hold the first test 
 <br>
 
 
-<h5>38/40 sign-ups completed.</h5>
-<progress id="progressBar" style="width:95%" max="40" value="38">38 out of 40 sign-ups so far.</progress>
+<h5>39/40 sign-ups completed.</h5>
+<progress id="progressBar" style="width:95%" max="40" value="39">39 out of 40 sign-ups so far.</progress>
 
 
 <br>
