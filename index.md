@@ -12,7 +12,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 # CMI Tomato
 
 This website is for class XI and XII students who wish to pursue B.Sc. at Chennai Mathematical Institute.
-{: .fs-6 .fw-300 }
+{: .fs-5 .fw-300 }
 
 ---
 
@@ -35,9 +35,9 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
-## What's new?
+## Announcement
 
-Solutions to problems B5-2019, A4-2014 and B2-2016 have been revised.
+<b>Mock tests</b>: The orientation session for all the registrants will be held on 30 Jan 2020.
 
 ---
 

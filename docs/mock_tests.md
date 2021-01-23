@@ -14,15 +14,17 @@ serious aspirants and will get a fair idea of your chance of getting into CMI.
 </p>
 
 
-<p>
-Problems will be set by either ISI or CMI students. We will hold the first test once 40 students sign up.
-</p>
+Problems will be set by either ISI or CMI students. ~~We will hold the first test once 40 students sign up.~~
 
+<p>
+<h3>Update</h3>
+The orientation session for all the registrants will be held on 30 Jan 2020 (Saturday) at 10:30 AM.
 <br>
 
 
-<h5>39/40 sign-ups completed.</h5>
-<progress id="progressBar" style="width:95%" max="40" value="39">39 out of 40 sign-ups so far.</progress>
+
+<h5>41 sign-ups so far. Target reached!</h5>
+<progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
 
 
 <br>
