@@ -18,7 +18,7 @@ Problems will be set by either ISI or CMI students. ~~We will hold the first tes
 
 <p>
 <h3>Update</h3>
-The orientation session for all the registrants will be held on 30th Jan 2020 (Saturday) at 10:30 AM.
+The orientation session for all the registrants will be held on 30th Jan 2020 (Saturday) at 10:00 AM.
 <br>
 
 
