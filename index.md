@@ -37,7 +37,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ## Announcement
 
-<b>Mock tests</b>: The orientation session for all the registrants will be held on 30 Jan 2020.
+<b>Mock tests</b>: The orientation session for all the registrants will be held on 31 Jan 2020.
 
 ---
 
