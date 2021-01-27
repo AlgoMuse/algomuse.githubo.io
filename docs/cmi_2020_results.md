@@ -29,44 +29,74 @@ table.inner-borders {
 
 ## Direct Admits
 
-[ISI-Direct Admit](https://www.isical.ac.in/~admission/Documents/IsiAdmission2020/INMO-Awardee-Waiver-List-Notice-2020.pdf)
-[IOITC](https://www.iarcs.org.in/inoi/2020/inoi2020/results_inoi2020.php)
+
+The royal road to CMI goes through olympiads. Most of the students have qualified either through math or informatics olympiad. Muhendar Raj is the only
+exception--he was given a direct admit based on his IChO performance. The candidates who qualify through this route usually have other good
+options, so only a fraction of them end up taking admission in CMI. For instance, 6 out of 32 students with direct-admits have joined CMI. Roughly
+an equal number of them have joined ISI. The Indian contingent won 5 medals in IMO '19 held in Bath, UK. Anubhab Ghosal secured a silver medal.
+
+
+#### Math olympiad
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
 -----|---|--
 Aatman Supkar               |        |  ISI-Direct Admit, IMOTC, KVPY - AIR 169 |  [Codechef Profile](https://www.codechef.com/users/codermath), ODM Public School
-Abhinav Sen | 281| IMOTC-2020 | [Quora profile](https://www.quora.com/profile/Abhinav-Sen-3)
-Aditya C  |  75 | KVPY 19  | [Photo-FIITJEE](https://www.fiitjeechennai.com/v1/ntse-results.html)
-Anubhab Ghosal  | |IMO - 2019 (Silver) |  [Math Stack exchange profile](https://math.stackexchange.com/users/602341/anubhab-ghosal)
-Arindam Bhattacharyya      &#65290;       | 	| ISI-Direct Admit, [INOI 2019](https://www.iarcs.org.in/inoi/2019/inoi2019/inoi2019-qualifiers.php) |  Kendriya Vidyalaya
-Aryan Agarwala	             |     | IOITC  |  Shri Ram School, Aravali
-Aryan Gupta | | INOI Qualified |
-Aytijhya Saha  | |INMO 2019 |
-Dhrubajyoti Ghosh      &#65290;      |    |  [INMO 2019](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/INMO-2019-Awardees-and-girls-selected-for-EGMO.pdf) |
-Dhruv Saraff | |IOITC 2020 |   [Codeforces profile](https://codeforces.com/profile/ds007)
-Govind Ramesh	       &#65290;                  | | INMO Junior batch 2018, IOITC , APMO 2018| Sr. DAV Public School
-Harihar Swaminathan         |       373  | ISI-Direct Admit, IMOTC, APMO 2018 |  [Photo-FIIT JEE](http://iitjeetoppers.com/CentreResult2020.aspx?C=4&CC=61&T=Chennai)
 Hrishikesh Saikia &#65290;      |  |INMO - 2019, KVPY-140 |
-Lokesh V                   |       15328 | IOITC | [Codechef profile](https://www.codechef.com/users/lokesh2002)
+Abhinav Sen | 281| IMOTC-2020 | [Quora profile](https://www.quora.com/profile/Abhinav-Sen-3)
+Anubhab Ghosal  | |IMO - 2019 (Silver) |  [Math Stack exchange profile](https://math.stackexchange.com/users/602341/anubhab-ghosal)
+Harihar Swaminathan         |       373  | ISI-Direct Admit, IMOTC, APMO 2018 |  [Photo-FIIT JEE](http://iitjeetoppers.com/CentreResult2020.aspx?C=4&CC=61&T=Chennai)
 Madur Agrawal | |  ISI-Direct Admit, IMOTC-2020, KVPY 904 |
-Muhendar Raj  |  4 | Currently at UCLA  |
+Govind Ramesh	       &#65290;                  | | INMO Junior batch 2018, IOITC , APMO 2018| Sr. DAV Public School
+Dhrubajyoti Ghosh      &#65290;      |    |  [INMO 2019](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/INMO-2019-Awardees-and-girls-selected-for-EGMO.pdf) |
+Aytijhya Saha  | |INMO 2019 |
 Nene Shantanu Hrishikesh | |IMOTC-2020, KVPY-206 |
-Nishant Dhankhar |         |IOITC|  Delhi Public School, RK Puram
 Om Sai &#65290;     | | IMOTC-2020, APMO 2018 |
 Prisha Reddy Bobbili    | |  IMOTC, EGMO 2020 |
-Raghuram Sundararajan       |   |    APMO (Silver), KVPY 84, INOI |
 Rajarshi Kanta Ghosh    &#65290;        |     |   ISI-Direct Admit, [INMO 2019](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2018/05/INMO-2019-Awardees-and-girls-selected-for-EGMO.pdf) |
-Rithvik Chatterjee          |     | IOITC | Calcutta International School, Kolkata
 Sai Sanjay Narayanan        |      |   INMO 2020 ,JEE-Main 99.7501208 | [Photo-FIIT-JEE](https://www.facebook.com/fiitjeeadyar.net/posts/sai-sanjay-narayanan-a-student-of-four-yr-classroom-program-from-adyar-selected-/1076704749352926/)
 Soham Samaddar | 184| INMO 2019  | [Video](https://www.youtube.com/watch?v=SRnCzGplg5U&ab_channel=FIITJEEKOLKATA-NORTH)
-Sooraj Srinivasan | 158| KVPY 159 | [Video](https://www.youtube.com/watch?v=gDD-7gRL9b0&ab_channel=AakashEducation)
-Soumil Aggarwal |  33| IMO-2019 [missed Bronze by 1 point](https://www.imo-official.org/participant_r.aspx?id=29104) |
 Soutrik Sarangi | |  ISI-Direct Admit, INMO,  KVPY-332  |  [Quora profile](https://www.quora.com/profile/Soutrik-Sarangi)
-Sudharshan K V             |       179  |  ISI-Direct Admit, [APMO 2018](https://olympiads.hbcse.tifr.res.in/apmo-2018-student-list/) |  [Photo at FIIT-JEE Chennai](http://www.iitjeetoppers.com/Testimonial2020.aspx?SID=7930)
-Suyash Srivastava | 905 | |
 Yash Kunwar    |             |     INMO 2019 |
-Yashaswini        |3877 | |
+Suyash Srivastava | 905 | IMOTC | FIIT-JEE Kanpur
+Soumil Aggarwal |  33| IMO-2019 [missed Bronze by 1 point](https://www.imo-official.org/participant_r.aspx?id=29104) |
+Sudharshan K V             |       179  |  ISI-Direct Admit, [APMO 2018](https://olympiads.hbcse.tifr.res.in/apmo-2018-student-list/) |  [Photo at FIIT-JEE Chennai](http://www.iitjeetoppers.com/Testimonial2020.aspx?SID=7930)
 
+
+#### Informatics olympiad
+
+The Indian informatics olympiad is organized by IARCS and CMI is in charge of the selection process. Students who qualify via this route
+are usually good at competitive programming. A few students from CMI who currently have high standing in Codeforces are  [Rajat De](https://codeforces.com/profile/rajat1603), [Surya Prakash](https://codeforces.com/profile/evilbuggy) and [Goutham R](https://codeforces.com/profile/xorfire).
+Dhruv Saraff has achieved an impressive rating while still in high-school and is somebody to look out for.
+
+
+
+
+
+Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
+-----|---|--
+Aryan Agarwala	             |     | IOITC  |  Shri Ram School, Aravali
+Raghuram Sundararajan       |   |    APMO (Silver), KVPY 84, INOI |
+Aryan Gupta | | INOI Qualified |
+Dhruv Saraff | |IOITC 2020 |   [Codeforces profile](https://codeforces.com/profile/ds007)
+Lokesh V                   |       15328 | IOITC | [Codechef profile](https://www.codechef.com/users/lokesh2002)
+Arindam Bhattacharyya      &#65290;       | 	| ISI-Direct Admit, [INOI 2019](https://www.iarcs.org.in/inoi/2019/inoi2019/inoi2019-qualifiers.php) |  Kendriya Vidyalaya
+Nishant Dhankhar |         |IOITC|  Delhi Public School, RK Puram
+Rithvik Chatterjee          |     | IOITC | Calcutta International School, Kolkata
+
+
+#### Other
+
+Sooraj Srinivasan | 158| KVPY 159 | [Video](https://www.youtube.com/watch?v=gDD-7gRL9b0&ab_channel=AakashEducation)
+Aditya C  |  75 | KVPY 19  | [Photo-FIITJEE](https://www.fiitjeechennai.com/v1/ntse-results.html)
+Yashaswini        |3877 | |
+Muhendar Raj  |  4 | IChO (Silver), Currently at UCLA  |
+
+
+
+ISI-Direct Admit [pdf](https://www.isical.ac.in/~admission/Documents/IsiAdmission2020/INMO-Awardee-Waiver-List-Notice-2020.pdf)<br>
+[IOITC](https://www.iarcs.org.in/inoi/2020/inoi2020/results_inoi2020.php)<br>
+IMOTC stands for International Math Olympiad Training Camp.
+{: .fs-3 .fw-300 }
 
 
 
@@ -192,60 +222,73 @@ Shubhendu Prasad Mandal &#65290;| | |
 
 ### Maharashtra
 
+#### Pune
 
-U-MUM-0004 |  Vaibhav Makarand Sherkar    |     - Mumbai RMO https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2017/10/mumbai-rmo-centre-allocation.pdf
-U-MUM-0015 |  Ameya Vikram Halarnkar      |     - ICSE X Topper 98.6% News article: http://idealnewsin.blogspot.com/2018/05/identical-twins-share-icse-top-marks.html
-U-MUM-0028 |  Siddharth Sandeep Panch     |
-U-MUM-0031 |  Ambaye Om Hrishikesh         |
-U-MUM-0052 |  Atharva Suresh Ghugare      |
-U-NGP-0018 |  Kedar Prashant Desai        |     - JEE Main 99.941888 https://true-education.org/index.php/2020/09/13/426-students-of-iit-home-qualify-for-jee-advanced-2020-64-result/
-U-NGP-0019 |  Tejas Unmesh Oke      &#65290;      |     - RMO 2018, KVPY - 727 Photo: https://www.nagpurtoday.in/tejas-oke-brings-laurels-for-somalwar/05061204
-U-NGP-0026 |  Arunav Bhowmick             |     - CBSE XII City topper Photo: https://www.thehitavada.com/Encyc/2020/7/14/Good-hold-on-concepts-consistency-helped-Arunav-top-in-Science.html
-U-NGP-0027 |  Aditya Dwivedi              |
-U-PN1-0002 |  Shruti Sharad Patil    &#65290;     |
-U-PN1-0008 |  Medha Sridhar Yelimeli   &#65290;   |     - JEE Adv. 14312 [Src](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf) , Mehta Fellow, PROMYS  Photo: https://promys-india.org/students/testimonials/medha-yelimeli/
-U-PN1-0013 |  Pranav Sanjay Ghorpade    &#65290;  |     - JEE Adv. 8574 Photo http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf
-U-PN1-0045 |  Riddhi Ram Sonney       &#65290;    |     - JEE Main - 99.1080498 https://www.fiitjee-distancelearning.com/pdfn/JEE-Main-2020-Jan.pdf
-U-PN1-0076 |  Rahul Rustagi               |     - JEE Main - 99.058315  https://www.fiitjee-distancelearning.com/pdfn/JEE-Main-2020-Jan.pdf
-U-PN1-0080 |  Chinmay Makarand Pimpalkhare|     - JEE Adv. 770, Photo http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf KVPY 2018 - 615 http://kvpy.iisc.ernet.in/main/resources/2018-fellowships/2018-SA-GEN.pdf
-U-PN1-0082 |  Aaditya Mahesh Rathi        |     - JEE Adv. 11458 Photo http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf KVPY 2018 - 615 http://kvpy.iisc.ernet.in/main/resources/2018-fellowships/2018-SA-GEN.pdf
+
+<p style="text-align:center;">
+<img src="/assets/images/pune_four.png"/>
+</p>
+
+
+
+
+Aaditya Mahesh Rathi                |   11458 | Joined NIT Warangal [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
+Chinmay Makarand Pimpalkhare        |   770   | [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
+Medha Sridhar Yelimeli   &#65290;   |   14312 | [Src](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf) , Mehta Fellow, PROMYS  Photo: https://promys-india.org/students/testimonials/medha-yelimeli/
+Pranav Sanjay Ghorpade    &#65290;  |   8574  | [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
+Rahul Rustagi                       |   2938  |
+Riddhi Ram Sonney       &#65290;    |   8359  |
+Shruti Sharad Patil    &#65290;     |         |
+
+#### Mumbai
+
+Vaibhav Makarand Sherkar    |
+Ameya Vikram Halarnkar      |     ICSE X Topper [News article](http://idealnewsin.blogspot.com/2018/05/identical-twins-share-icse-top-marks.html), [Photo](https://www.shaileenpatkar.com/themes/ecommerce/images/student2018/Ameya%20Halarnkar_.png)
+Siddharth Sandeep Panch   &#65290;      |
+Ambaye Om Hrishikesh        |
+Atharva Suresh Ghugare      |
+
+
+#### Nagpur
+
+Kedar Prashant Desai        |      [JEE Main 99.941888](https://true-education.org/index.php/2020/09/13/426-students-of-iit-home-qualify-for-jee-advanced-2020-64-result/)
+Tejas Unmesh Oke      &#65290;   | RMO 2018, KVPY - 727 [Photo](https://www.nagpurtoday.in/tejas-oke-brings-laurels-for-somalwar/05061204)
+Arunav Bhowmick             |      CBSE XII City topper [Photo](https://www.thehitavada.com/Encyc/2020/7/14/Good-hold-on-concepts-consistency-helped-Arunav-top-in-Science.html)
+Aditya Dwivedi              |
+
+
 
 
 ### Other places
 
-U-PTN-0029 |  Akash Deep                  |      KVPY 2017
-U-RNC-0008 |  Akhoury Shauryam        &#65290;    |      INMO 2019, [IAPT](https://www.facebook.com/ranchidipsites/photos/60-students-of-dps-ranchi-qualified-in-iapt-mta-prmo-2018-exam-slno-rollno-stude/1995694563824966/) Photo: From FIITJEE Ranchi (http://fiitjeekanpur.com/pdf/FIITJEE%20RANCHI%20RESULTS.pdf)
-U-RNC-0023 |  Bipplav Kumar Tiwari        |      JEE Main Rank 446, https://www.aakash.ac.in/result-listing?field_notification_select_stream_target_id=24&exam_list=263&sub_exam_list=All&field_class_exams_target_id=263&field_testimonial_year_value=2020&field_careers_current_city_target_id=All&custom_events_year_value=2020&_wrapper_format=html&page=3 KVPY 1675
-U-RPR-0001 |  Kush Mazumdar               |      AIITS 2041
-U-TIR-0010 |  Ruhul Ameen S               |      JEE Adv. 4488
-U-VIS-0005 |  Pudipeddi Udit Narayan Sastry &#65290;|
-U-VIS-0009 |  Lahari Jalluri |
 
-U-MD1-0013 |  K Swathik                   |     - RMO, KVPY 2019 http://kvpy.iisc.ernet.in/main/resources/2019-fellowships/2019-SX-GEN.pdf  AIR 1249
-U-MD1-0040 |  Pradeep Kumar B             |
+Vizag | Pudipeddi Udit Narayan Sastry &#65290;|
+Vizag | Lahari Jalluri |   Joined NIT Warangal
+Madurai | K Swathik                   |      KVPY-AIR 1249
+Madurai | Pradeep Kumar B             |
+Ranchi | Akhoury Shauryam        &#65290;  |       INMO 2019, [IAPT](https://www.facebook.com/ranchidipsites/photos/60-students-of-dps-ranchi-qualified-in-iapt-mta-prmo-2018-exam-slno-rollno-stude/1995694563824966/)
+Ranchi | Bipplav Kumar Tiwari        |   JEE. Adv-648,     KVPY 1675  [Photo](https://dcx0p3on5z8dw.cloudfront.net/Aakash/s3fs-public/2020-10/Bipplav-Kumar-Tiwari-jee-adv-2020.png)
+Ropar | Kush Mazumdar               |      AIITS 2041
+Tirupati |  Ruhul Ameen S               | JEE. Adv-4488
+Patna | Akash Deep                  |      KVPY 2017
+Ahmedabad | Trivedi Jatan Himanshubhai |
+Allahabad | Hrishabh Mishra            |   JEE. Adv.-11832
+Allahabad | Shruti Roy                 |
+Bhubaneswar | Sibasish Rout              |   JEE Adv.-73       [Photo/News](https://www.hindustantimes.com/education/jee-advanced-results-2020-sibasish-rout-is-odisha-topper/story-1LXNfH4IxPKupayfrCfI7N.html)
+Jaipur | Bhavya Sangwan    |
+Jaipur | Harshit Choudhary &#65290; |
+Jaipur | Kunal Kundwani              |      JEE. Adv. 63, KVPY Fellowship, Career point, Kota. [Photo](https://www.facebook.com/cpkota/posts/5299984516682177?comment_id=5302517759762186)
+Chattisgarh | Sauhaard Batra     | FIITJEE [AIITS 519](https://fiitjeesouthdelhi.co.in/wp-content/uploads/2018/09/Result-Ai%C2%B2TS-1XI.pdf)
+Chattisgarh | Archit Sood          | JEE-Advanced AIR-1266,   KVPY 430 [Youtube](https://www.youtube.com/watch?v=N1TnYUEYoOs)
+Guwahati | Utpalraj Kemprai            |      9th rank Assam HS Exam [Photo](https://haflongtimes.com/hs-exam-2020-results-announced-today-utpalraj-kemprai-secured-9th-rank-in-science/)
+Guragaon | Writika Sarkar            &#65290;       |     CBSE Xth 2nd Rank, [Youtube](https://www.youtube.com/watch?v=pGYCovfeVt0)
+Indore| K V Swetha |
+Kanpur| Alok Dhar Dubey    &#65290;        |
+Hyderabad| Vishal Reddy Parvatha Reddy &#65290;     |  JEE-Adv. 23156,   FIIT-JEE Hyd
 
 
 
-Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
----|--|---
-Trivedi Jatan Himanshubhai |                   | |
-Hrishabh Mishra            |   11832   | |
-Shruti Roy                 |           | |
-Sibasish Rout              |   73     |  [Photo/News](https://www.hindustantimes.com/education/jee-advanced-results-2020-sibasish-rout-is-odisha-topper/story-1LXNfH4IxPKupayfrCfI7N.html)
 
-
-U-CDG-0050 |  Sauhaard Batra             |      - FIITJEE AIITS 519 https://fiitjeesouthdelhi.co.in/wp-content/uploads/2018/09/Result-Ai%C2%B2TS-1XI.pdf
-U-CDG-0052 |  Archit Sood                |      - JEE Adv. 1266 KVPY 430 https://www.youtube.com/watch?v=N1TnYUEYoOs
-
-
-U-GHT-0006 |  Utpalraj Kemprai            |     - 9th rank Assam HS Exam. JEE-Adv. Qualified. Photo:  https://haflongtimes.com/hs-exam-2020-results-announced-today-utpalraj-kemprai-secured-9th-rank-in-science/
-U-GUR-0008 |  Writika Sarkar            &#65290;       |     - CBSE Xth 2nd Rank. Photo: https://www.youtube.com/watch?v=pGYCovfeVt0
-U-HYD-0001 |  Vishal Reddy Parvatha Reddy &#65290;     |     - FIITJEE Hyd. https://www.worldcubeassociation.org/persons/2017PARV01
-U-IND-0014 |  K V Swetha
-U-JPR-0004 |  Bhavya Sangwan
-U-JPR-0005 |  Harshit Choudhary &#65290;
-U-JPR-0034 |  Kunal Kundwani              |     - JEE. Adv. 63, KVPY Fellowship, Career point, Kota. Photo https://www.facebook.com/cpkota/posts/5299984516682177?comment_id=5302517759762186
-U-KNP-0005 |  Alok Dhar Dubey    &#65290;            |     - JEE Adv. cleared. http://www.cmseducation.org/news/session_2020_2021/october/6_october.html
 
 
 
