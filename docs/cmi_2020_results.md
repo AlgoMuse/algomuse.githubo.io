@@ -33,10 +33,23 @@ table.inner-borders {
 The royal road to CMI goes through olympiads. Most of the students have qualified either through math or informatics olympiad. Muhendar Raj is the only
 exception--he was given a direct admit based on his IChO performance. The candidates who qualify through this route usually have other good
 options, so only a fraction of them end up taking admission in CMI. For instance, 6 out of 32 students with direct-admits have joined CMI. Roughly
-an equal number of them have joined ISI. The Indian contingent won 5 medals in IMO '19 held in Bath, UK. Anubhab Ghosal secured a silver medal.
+an equal number of them have joined ISI.
+
 
 
 #### Math olympiad
+
+
+The INMO awardees are invited to a month long training camp, IMOTC in HBCSE. Those who successfully complete IMOTC are eligible
+for a scholarship of Rs 4000 per month from NBHM for the duration of their undergraduate studies. The list of participants for the
+INMO is also used for selecting students for EGMO and APMO, apart from IMO. The Indian contingent won 5 medals in IMO '19 held in Bath, UK. Anubhab Ghosal secured a silver medal.
+List of students selected to IMOTC 2020 is [here](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/04/List-of-students-invited-to-IMOTC-2020.pdf) (pdf).
+
+The subjective questions in CMI entrance exam are similiar to olympiad problems, so students who reach RMO
+have an edge over others in the selection process.
+
+
+
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
 -----|---|--
@@ -79,6 +92,7 @@ Raghuram Sundararajan       |   |    APMO (Silver), KVPY 84, INOI |
 Aryan Gupta | | INOI Qualified |
 Dhruv Saraff | |IOITC 2020 |   [Codeforces profile](https://codeforces.com/profile/ds007)
 Lokesh V                   |       15328 | IOITC | [Codechef profile](https://www.codechef.com/users/lokesh2002)
+Aryan Agarwala | INOI2020 | The Shri Ram School, Aravali
 Arindam Bhattacharyya      &#65290;       | 	| ISI-Direct Admit, [INOI 2019](https://www.iarcs.org.in/inoi/2019/inoi2019/inoi2019-qualifiers.php) |  Kendriya Vidyalaya
 Nishant Dhankhar |         |IOITC|  Delhi Public School, RK Puram
 Rithvik Chatterjee          |     | IOITC | Calcutta International School, Kolkata
@@ -86,6 +100,8 @@ Rithvik Chatterjee          |     | IOITC | Calcutta International School, Kolka
 
 #### Other
 
+Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
+-----|---|--
 Sooraj Srinivasan | 158| KVPY 159 | [Video](https://www.youtube.com/watch?v=gDD-7gRL9b0&ab_channel=AakashEducation)
 Aditya C  |  75 | KVPY 19  | [Photo-FIITJEE](https://www.fiitjeechennai.com/v1/ntse-results.html)
 Yashaswini        |3877 | |
@@ -102,6 +118,30 @@ IMOTC stands for International Math Olympiad Training Camp.
 
 
 ### Bangalore
+
+Surprisingly, Bangalore has more selections than Chennai this year. We would like to highlight three students from the city who have
+put out some interesting educational content on the web.
+
+
+ - Firstly, we have Vishnu Kadiri who has been active on Math Stack exchange and has
+answered many questions on the forum.
+
+ - Secondly, there is Rajatadri who has published a math article in the magazine 'At right angles'. He gives a
+new proof of the fact that medians of a triangle concur.
+
+<p style="text-align:center;">
+<img src="/assets/images/rajatadri.png"/>
+</p>
+
+ - Then there is Naman Kumar who has a fantastic Youtube channel with many expository videos. We highly recommend that you check out [his channel](https://www.youtube.com/channel/UC0-gvTKzYKQcjzKcSPfeIkA).
+
+<p style="text-align:center;">
+<img src="/assets/images/naman_kinertia.png"/>
+</p>
+
+
+
+
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
 -----|---|--
@@ -158,7 +198,7 @@ Varad Mahashabde            |     1016 | FIITJEE Delhi [Photo](http://iitjeetopp
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  |  Other selections |  Misc. info
 ---|--|--|---
-Niranjan K. Sabu     &#65290;           |      2342   | | [FIIT-JEE Kochi](https://fr-fr.facebook.com/pg/FIITJEEkochi/posts/?ref=page_internal)
+Niranjan K. Sabu               |      2342   | | [FIIT-JEE Kochi](https://fr-fr.facebook.com/pg/FIITJEEkochi/posts/?ref=page_internal)
 Maqbool Manoj    &#65290;               |             | Gold medal in SoF math olympiad  [Src](https://vdocuments.net/science-olympiad-foundation-birla-public-olympiad-foundation-summary-result-.html) |
 Abhishek Sarith                         |             | INMO 2018, JEE Main 99.8674674 (Kochi topper)  | [FIITJEE-Kochi](https://www.facebook.com/FIITJEEkochi/posts/the-harder-you-work-for-something-the-greater-you-feel-when-you-achieve-it-its-o/3244839758865033/)
 Nikhil Krishna A R                      |             | AISSCE (97.2%) | St. Jude Public School, Thrissur. [Src](https://stjudeps.com/index.php/achievements-2/)
@@ -195,11 +235,11 @@ Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 --|--|--|---
 Ishan Paul                  |      3094  | | [Photo](https://www.dpskolkata.com/wp-content/uploads/2020/10/DPS_Adv-Result.jpg)  [IIT Math wizard](https://www.facebook.com/pages/category/Education/IIT-Maths-Wizard-410981109391070/)
 Samprit Chakraborty         |      |  | [AoPS profile](https://artofproblemsolving.com/community/user/510957)
-Shankhadip Bhattacharjee    |      |  |
+Shankhadip Bhattacharjee &#65290;  |      |  |
 Amitava Ghosh    &#65290;   |  7156 |   West Bengal RMO |
 Sirsha Dey                  |   |   West Bengal RMO |
 Sounak Das                  |   |   |
-Shouvik Ghosh               | 2507  | |  DPS Ruby park, Vidya Mandir  [Photo](https://omdayalgroup.com/images/vidya-mandir/JEE%20MAINS%202020/Shouvik%20Ghosh.JPG)
+Shouvik Ghosh        &#65290;       | 2507  | |  DPS Ruby park, Vidya Mandir  [Photo](https://omdayalgroup.com/images/vidya-mandir/JEE%20MAINS%202020/Shouvik%20Ghosh.JPG)
 Sattick Das                 | | | [YouTube Live with Cheenta](https://www.youtube.com/watch?v=eJzz8IfRoTU)
 Soham Pal           &#65290;    |     3887          |  |
 Bimit Mandal         &#65290;   |               |  [INOI](https://www.iarcs.org.in/inoi/2020/zio2020/results_zio2020.php) | [Quora](https://www.quora.com/profile/Bimit-Mandal)
@@ -269,6 +309,7 @@ Madurai | Pradeep Kumar B             |
 Ranchi | Akhoury Shauryam        &#65290;  |       INMO 2019, [IAPT](https://www.facebook.com/ranchidipsites/photos/60-students-of-dps-ranchi-qualified-in-iapt-mta-prmo-2018-exam-slno-rollno-stude/1995694563824966/)
 Ranchi | Bipplav Kumar Tiwari        |   JEE. Adv-648,     KVPY 1675  [Photo](https://dcx0p3on5z8dw.cloudfront.net/Aakash/s3fs-public/2020-10/Bipplav-Kumar-Tiwari-jee-adv-2020.png)
 Ropar | Kush Mazumdar               |      AIITS 2041
+Panchkula | Abhinav Sapra | Hansraj Public School, [Photo](https://www.cmi.ac.in/people/student-profile.php?id=sapra)
 Tirupati |  Ruhul Ameen S               | JEE. Adv-4488
 Patna | Akash Deep                  |      KVPY 2017
 Ahmedabad | Trivedi Jatan Himanshubhai |
@@ -285,6 +326,7 @@ Guragaon | Writika Sarkar            &#65290;       |     CBSE Xth 2nd Rank, [Yo
 Indore| K V Swetha |
 Kanpur| Alok Dhar Dubey    &#65290;        |
 Hyderabad| Vishal Reddy Parvatha Reddy &#65290;     |  JEE-Adv. 23156,   FIIT-JEE Hyd
+UP | Hrishabh Mishra | JEE Adv-11832
 
 
 
