@@ -23,7 +23,7 @@ The orientation session for all the registrants will be held on 31th Jan 2020 (S
 
 
 
-<h5>42 sign-ups so far. Target reached!</h5>
+<h5>44 sign-ups so far. Target reached!</h5>
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
 
 
