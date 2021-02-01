@@ -4,30 +4,87 @@ title: Mock tests
 ---
 
 
-## Mock tests
+# Mock tests
 {: .no_toc}
 
 
-<p>
-If you wish to participate in the upcoming mock tests, hop on to this mailing list. You will be ranked against other
-serious aspirants and will get a fair idea of your chance of getting into CMI.
-</p>
 
 
-Problems will be set by either ISI or CMI students. ~~We will hold the first test once 40 students sign up.~~
+## Style of questions
 
-<p>
-<h3>Update</h3>
-The orientation session for all the registrants will be held on 31th Jan 2020 (Sunday) at 10:30 AM.
-<br>
+CMI Tomato mock tests will have questions modeled along the lines of previous years' questions. Emphasis will be slightly more
+on standard techniques rather than ingenuity.
+
+
+## Format
+Each test will have 10 objective questions and 6 subjective questions. Each test will carry a total of 100 marks (40+60).
 
 
 
-<h5>45 sign-ups so far. Target reached!</h5>
+## Types of tests
+
+There will be two types of tests every month: full-syllabus and topic-specific tests. Tests of the latter kind will have questions confined
+to one or two topics. For example, the first test in February will have questions only from number theory and trigonometry. The second test
+will have questions only from algebra.  A full-syllabus test is similar to a CMI entrance exam.
+
+
+
+## February schedule
+
+Date | Day | Timing | Type | Topics
+---|---|--|--
+7 Feb | Sunday | 10:30am - 1:30pm | Topic-specific | Number theory + Trigonometry
+18 Feb | Thursday | 5pm - 8pm | Topic-specific | Algebra
+28 Feb | Sunday | 10:30am-1:30pm | Full syllabus
+
+
+
+## Evaluation
+
+Similar to CMI's policy, the subjective questions will be evaluated only if you get at least three questions from the objective section correct.
+
+
+
+## What happens if you miss a test?
+
+If you miss a test, you can self-administer the test offine and send your responses within a day. For example, if the test was conducted on Sunday, you
+should submit your solutions by Monday midnight. Your submission will be considered as an offline entry and will not be included in the official rankings.
+But your solutions will be evaluated.
+
+
+
+---
+
+## Subscription options
+
+<img src="/assets/images/subscribe.png"/>
+
+**Please note: Subscription has to be renewed each month.**
+
+The beginner option is recommended for students who are in Std. XI and who are yet to fully cover the syllabus. If you
+feel inadequately prepared on a particular month's topics, you can opt out of paid subscription for that month.
+
+
+Payment has to be made to the UPI address given below. Mention your email address in the 'Remarks' field so that I can link
+your email ID with the subscription plan. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
+
+
+## UPI Address: cmi-tomato@sbi
+### (Payee's name: Jagadish Midthala)
+
+
+
+---
+
+## Sign-up form
+
+
+#### 46 members so far
+
+<!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
+-->
 
-
-<br>
 
 
 <p>
@@ -36,5 +93,11 @@ The orientation session for all the registrants will be held on 31th Jan 2020 (S
 </p>
 
 <i>Note: If you don't find the confirmation email in your inbox, check the `Promotions' tab.</i>
+
+
+
+
+
+
 
 
