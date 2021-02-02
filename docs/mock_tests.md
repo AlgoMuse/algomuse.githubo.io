@@ -65,12 +65,25 @@ The beginner option is recommended for students who are in Std. XI and who are y
 feel inadequately prepared on a particular month's topics, you can opt out of paid subscription for that month.
 
 
-Payment has to be made to the UPI address given below. Mention your email address in the 'Remarks' field so that I can link
-your email ID with the subscription plan. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
+---
+
+## Payment options
+
+You can pay either via UPI or bank transfer. Please mention your email address in the 'Remarks' field so that I can link your
+email ID with the subscription plan. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
 
 
-## UPI Address: cmi-tomato@sbi
-### (Payee's name: Jagadish Midthala)
+#### Option I: Universal Payment Interface
+
+### UPI Address: cmi-tomato@sbi
+### Payee's name: Jagadish Midthala
+
+<br>
+#### Option II: Bank transfer through NEFT/IMPS:
+
+### Name : Jagadish Midthala
+### Acc No: 00000036148605311
+### IFSC: SBIN0016873
 
 
 
