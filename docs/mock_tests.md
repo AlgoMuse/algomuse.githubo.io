@@ -70,7 +70,7 @@ feel inadequately prepared on a particular month's topics, you can opt out of pa
 ## Payment options
 
 You can pay either via UPI or bank transfer. Please mention your email address in the 'Remarks' field so that I can link your
-email ID with the subscription plan. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
+email ID with the subscription plan. You may ignore the <code>@</code> and '.' symbols. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
 
 
 #### Option I: Universal Payment Interface
