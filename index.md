@@ -17,6 +17,13 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 ---
 
 
+#### Announcement
+{: .fs-4}
+
+
+- The first mock test will be held on 7th February 2021, Sunday. Timing: 10:30am-1:30pm IST. [Details](/docs/mock_tests)
+
+---
 
 
 
@@ -28,18 +35,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 - Topic-wise classification of all problems ordered by increasing difficulty. This helps you to specialize in a topic.
 
-- Content as an <a href="https://gum.co/kBekW">e-book</a>.
-
+- Mock tests
 {: .fs-4 .fw-300 }
 
 
 ---
 
-## Announcement
-
-<b>Mock tests</b>: The orientation session for all the registrants will be held on 31 Jan 2020.
-
----
 
 
 <div id="palette1">
