@@ -25,7 +25,7 @@ Each test will have 10 objective questions and 6 subjective questions. Each test
 
 There will be two types of tests every month: full-syllabus and topic-specific tests. Tests of the latter kind will have questions confined
 to one or two topics. For example, the first test in February will have questions only from number theory and trigonometry. The second test
-will have questions only from algebra.  A full-syllabus test is similar to a CMI entrance exam.
+will have questions only from algebra.  A full-syllabus test will be at par with a CMI entrance exam.
 
 
 
@@ -69,8 +69,8 @@ feel inadequately prepared on a particular month's topics, you can opt out of pa
 
 ## Payment options
 
-You can pay either via UPI or bank transfer. Please mention your email address in the 'Remarks' field so that I can link your
-email ID with the subscription plan. You may ignore the <code>@</code> and '.' symbols. Just in case you forget to put in your email, send Rs. 1 from the same account with your email added.
+You can pay either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to
+your email ID.
 
 
 #### Option I: Universal Payment Interface
@@ -92,7 +92,7 @@ email ID with the subscription plan. You may ignore the <code>@</code> and '.' s
 ## Sign-up form
 
 
-#### 46 members so far
+#### 47 members so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
