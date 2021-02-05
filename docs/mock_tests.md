@@ -65,11 +65,16 @@ The beginner option is recommended for students who are in Std. XI and who are y
 feel inadequately prepared on a particular month's topics, you can opt out of paid subscription for that month.
 
 
+## Contact
+
+You can reach me at this number: 7975 2867 81. I'm happy to talk to both students and parents.
+
+
 ---
 
 ## Payment options
 
-You can pay either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to
+Payment can be made either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to
 your email ID.
 
 
