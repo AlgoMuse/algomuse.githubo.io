@@ -5,9 +5,6 @@ nav_exclude: true
 ---
 
 
-
-
-
 #  MT #1: Number theory & Trigonometry
 #### Timings: 10:30-13:30 Hrs &nbsp;&nbsp;  Date: 7 Feb 2021
 {: .fs-3 .text-grey-004 }
@@ -17,20 +14,43 @@ nav_exclude: true
 
 ### Instructions
 
-- You are responsible for keeping time. All your solutions must be emailed by 13:30 Hrs, IST. Solutions submitted after this time will be considered as [offline entries](/docs/mock_tests/#what-happens-if-you-miss-a-test).
-- In your Inbox, find the email from me with the subject line 'Mock test #1: Number theory and trigonometry'. Send your solutions as replies to this email.
-- Part A's answers must be written on a **single page**. Email a picture of this page. Name this file as PartA.jpg or PartA.png.
-- Each question of Part B must be answered on a page of its own. Name the files as B1.jpg, B2.jpg, etc.
+- You are responsible for keeping time. Email all your solutions by 13:30 Hrs IST.
+- Write your answers with a dark pen on white paper.
+- Find an email from me with the subject line 'Mock test #1: Number theory and trigonometry'. Send your solutions (images) as replies to this email.
 - Make sure that the handwriting is clear and no image is blurred.
 - Adjust/Reduce the resolution of the camera so that each image is less than 500 KB in size.
 - Total marks: 100 (40 for Part A + 60 for Part B)
 {: .bg-grey-lt-000 .p-6 }
 
 
+**For students who miss the live test**<br>
+Self-administer the mock test at home and email your solutions before 8 Feb, 23:59 Hrs. Your solutions will be evaluated
+but marks won't be included in the official scorecard. Solutions submitted after 8 Feb, 23:59 Hrs will not be evaluated.
+{: .bg-grey-lt-000 .p-6 }
+
+
 ---
 
 
+**Questions will appear below at the scheduled time.**
+
+
+
 ## Part A: Short-answer type questions
+
+Answers to all the ten questions must be written on a single sheet of paper. Email a picture of this answersheet. Name the file as PartA.jpg or PartA.png.
+{: .fs-3 }
+
+
+
+## Part B: Subjective questions
+
+Each question in this part must be answered on a page of its own. Name the files as B1.jpg, B2.jpg, etc. In case you have multiple files
+for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jpg, etc.
+{: .fs-3 }
+
+
+<!--
 
 <ol>
 
@@ -102,4 +122,6 @@ B4. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 
 
 
 
+
+-->
 
