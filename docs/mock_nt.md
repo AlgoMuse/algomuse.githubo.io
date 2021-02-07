@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Mock test 1: Number theory and trigonometry
+nav_exclude: true
 ---
+
 
 
 #  MT #1: Number theory & Trigonometry
@@ -10,8 +12,6 @@ title: Mock test 1: Number theory and trigonometry
 
 ---
 
-Please note: There was a typo in the last problem B6 earlier. It's 2442 not 2021.
-{: .bg-red-000 .p-6 }
 
 ### Instructions
 
@@ -206,9 +206,6 @@ Express the solutions as triplets \( (x,y,z) \).
 <p>
 <b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
 </p>
-
-Please note: There was a typo in the last problem B6 earlier. It's 2442 not 2021.
-{: .bg-red-000 .p-6 }
 
 
 

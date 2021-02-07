@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Mock test in progress! Timing: 10:30am-1:30pm IST. Please find the question paper [here](/docs/mock_nt).
+- Submission window for live mock test #1 is now closed. Offline entries are accepted till Feb 8, 23:59 Hrs for members.
 
 ---
 
