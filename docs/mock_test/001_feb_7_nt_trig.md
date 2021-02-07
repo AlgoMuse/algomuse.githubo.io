@@ -22,7 +22,7 @@ nav_exclude: true
 {: .bg-grey-lt-000 .p-6 }
 
 
-**For students who miss the live test**<br>
+**For students who missed the live test (members only)**<br>
 Self-administer the mock test and email your solutions before 8 Feb, 23:59 Hrs. Your solutions will be evaluated
 but marks won't be included in the official scorecard. Solutions submitted after 8 Feb, 23:59 Hrs will not be evaluated.
 {: .bg-grey-lt-000 .p-6 }
