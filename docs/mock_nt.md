@@ -201,8 +201,6 @@ Express the solutions as triplets \( (x,y,z) \).
 
 
 
-
-
 <p>
 <b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
 </p>
