@@ -117,8 +117,8 @@ at an angle \(\alpha\). It bounces of the edges twice and ends up at corner \(C\
 
 
 \begin{align}
-f_{1}=(\tan \theta)^{\tan \theta} & f_{2}=(\tan \theta)^{\cot \theta} \\
-f_{3}=(\cot \theta)^{\tan \theta} & f_{4}=(\cot \theta)^{\cot \theta},
+f_{1}=(\tan \theta)^{\tan \theta} & \;\; f_{2}=(\tan \theta)^{\cot \theta} \\
+f_{3}=(\cot \theta)^{\tan \theta} & \;\; f_{4}=(\cot \theta)^{\cot \theta}
 \end{align}
 
 <p>
