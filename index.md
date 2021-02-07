@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Submission window for live mock test #1 is now closed. Feedback will be emailed to the participants by Sunday (Feb 14).
+- Submission window for the online mock test #1 is now closed. Feedback will be emailed to the participants by Sunday (Feb 14).
 - Offline entries are accepted till Feb 8, 23:59 Hrs for members.
 
 ---
