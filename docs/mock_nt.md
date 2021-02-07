@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Mock test 1 Number theory and trigonometry
-nav_exclude: true
+title: Mock test #1: Number theory and trigonometry
 ---
 
 
