@@ -11,7 +11,7 @@ nav_exclude: true
 
 ---
 
-Please note: There was a typo in the last problem B6 earlier. It's 2020 not 2021.
+Please note: There was a typo in the last problem B6 earlier. It's 2442 not 2021.
 {: .bg-red-000 .p-6 }
 
 ### Instructions
@@ -205,10 +205,10 @@ Express the solutions as triplets \( (x,y,z) \).
 
 
 <p>
-<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2020^n \).
+<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
 </p>
 
-Please note: There was a typo in the last problem B6 earlier. It's 2020 not 2021.
+Please note: There was a typo in the last problem B6 earlier. It's 2442 not 2021.
 {: .bg-red-000 .p-6 }
 
 
