@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mock test #1: Number theory and trigonometry
+title: Mock test 1: Number theory and trigonometry
 ---
 
 
