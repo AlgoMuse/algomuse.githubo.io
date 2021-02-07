@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- The first mock test will be held on 7th February 2021, Sunday. Timing: 10:30am-1:30pm IST. [Details](/docs/mock_tests)
+- Mock test in progress! Timing: 10:30am-1:30pm IST. Please find the question paper [here](/docs/mock_nt).
 
 ---
 
