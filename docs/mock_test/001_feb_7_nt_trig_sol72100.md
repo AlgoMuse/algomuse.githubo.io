@@ -298,7 +298,7 @@ So the possible values of \(x\) are \( 0,1,130 \).
 ---
 
 <p>
-<b>B2</b>. Consider a coordinate grid made up of horizontal and vertical lines of the form \(x=k\) and \(y=k\), where \(k\in \mathbb{Z}\).
+<b>B2</b>. A coordinate grid is made up of horizontal and vertical lines of the form \(x=k\) and \(y=k\), where \(k\in \mathbb{Z}\).
 Consider a line segment OA where O is the origin and A is the point \(  (10,4) \). Notice that this line segment passes through the
 interior of 12 cells. In the figure below, the shaded cells are the ones through which the line passes.
 </p>
@@ -312,6 +312,19 @@ interior of 12 cells. In the figure below, the shaded cells are the ones through
 <p>
 Suppose a line segment is drawn from the origin O to the point B at \( (48,54) \). How many cells would would OB pass through?
 </p>
+
+
+<details open><summary>Sol.</summary>
+
+OB intersects the vertical grid lines 48 times and the horizontal grid lines 54 times (not counting the origin). Among these
+there are \( gcd(48,54) = 6 \) common points.
+
+Each shaded cell can be uniquely identified by the point at which OB exits the cell. Notice that there is a one-to-one correspondence between
+the shaded cells (exit points) and the intersection points.  So there are \( 48+54-6 = 96 \) shaded cells.
+
+</details>
+
+
 
 
 ---
@@ -358,10 +371,17 @@ Express the solutions as triplets \( (x,y,z) \).
 <b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
 </p>
 
+
+### Practice problems
+
+<a href="http://math.northwestern.edu/putnam/training-numth.pdf">Putnam training</a>
+
+
 <!--
 Please note: There was a typo in the last problem B6 earlier. It's 2442 not 2021.
 {: .bg-red-000 .p-6 }
 -->
+
 
 
 
