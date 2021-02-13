@@ -17,6 +17,8 @@ MathJax.Hub.Config({
 
 
 <style>
+
+
 .button {
   background-color: #000000; /* Green */
   border-radius: 2pt;
@@ -64,6 +66,53 @@ MathJax.Hub.Config({
 
 
 </style>
+
+
+
+<style>
+
+
+.markbutton {
+  background-color: #f0ffff;
+  border-radius: 2pt;
+  border: none;
+  color: black;
+  padding: 3px 3px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 3px;
+  cursor: pointer;
+}
+
+.markpalette {
+    width: 100px;
+}
+
+.markpalette-keys {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+
+.rank {background-color:white; color: grey;}
+.right {background-color: lightyellow;}
+.total {background-color: lavender;}
+.wrong {background-color: lavenderblush;}
+.blank {background-color: whitesmoke;}
+.white {background-color: white;  text-align: left; }
+
+
+
+
+#markpalette1 {display: block;}
+
+@media screen and (max-width: 768px) {
+    #markpalette1 {display: none;}
+}
+
+
+</style>
+
 
 
 
