@@ -20,7 +20,7 @@ function markdisplay (selected) {
       title = title.concat ( selected.replace("/",": ").replaceAll("_"," ").replace("/", "").replace(".jpg","").concat("</large></h4>") )
       title = title.replace("PartA","Part A")
       var texttoshow = " ";
-      texttoshow = path.concat(selected).concat("\" />");
+      texttoshow = path.concat(selected).concat(".jpg\" />");
       document.getElementById("themarktext").innerHTML = title.concat(texttoshow);
   }
 }
