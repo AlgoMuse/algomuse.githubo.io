@@ -21,7 +21,9 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Mock test #1 was conducted on Feb 7. Feedback will be emailed to the participants by Sunday (Feb 14).
+- [Mock test #1 results are up!](/docs/mock_test/001_feb_7_scorecard) Solutions have been emailed to all members.
+- Timings of the next mock test: 5pm-8pm IST, Feb 18. The test will have problems only from algebra.
+
 
 ---
 
@@ -40,7 +42,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 ---
-
 
 
 <div id="palette1">

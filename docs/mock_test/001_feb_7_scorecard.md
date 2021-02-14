@@ -20,7 +20,7 @@ nav_exclude: true
 ## Scorecard
 
 
-The following students took part in the first mock test. The table below shows their scores against anonymized names. To see any
+The following students took part in the first mock test. The table below shows their scores against anonymized names. To view any
 student's submission, click on the corresponding cell and scroll down.
 
 
