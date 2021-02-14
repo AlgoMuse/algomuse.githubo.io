@@ -51,6 +51,8 @@ Since \\(n\\) is also divisible by 7, either \\( p_1 \\) or \\(p_2\\) must be 7.
  | || \\(19 \cdot 7^2\\) | \\(931\\)
 
 
+<br>
+<i><b>Comment</b>. It was tedious to calculate these numbers. Must have chosen a smaller divisor like 3.</i>
 
 </details>
 
@@ -245,7 +247,7 @@ Identify the function whose value is greater than others in the domain \(\theta 
 <img src="/assets/images/titu.png" style="float:left;margin-right:20px;margin-top:10px;"/>
 
 <p>
-<i>This problem and the second one are from the Titu Andreescu's book <a href="https://mathematicalolympiads.files.wordpress.com/2012/08/103-trigonometry-problems-titu-andreescu-zuming-feng.pdf"> [pdf]</a>. The solution is reproduced below.
+<i>This problem and the third one are from the Andreescu & Feng <a href="https://mathematicalolympiads.files.wordpress.com/2012/08/103-trigonometry-problems-titu-andreescu-zuming-feng.pdf"> [pdf]</a>. The solution is reproduced below.
 The book is a good source of problems in trigonometry. Problem <a href="http://localhost:4000/docs/geometry/coordinate_system/#mix-a-sin-and-a-circle">B4, 2014</a> directly came from this collection.</i>
 </p>
 
@@ -331,6 +333,23 @@ the shaded cells (exit points) and the intersection points.  So there are \( 48+
 
 <p><b>B3</b>. Suppose \( f(x)=\cos^{-1}(\cos (\pi x)) \). Find the value of \( f(2.6) \).</p>
 
+
+
+<details open><summary>Sol.</summary>
+
+
+\begin{align}
+f(x)&=\cos ^{-1}(\cos (\pi x)) \\
+f(2.6)&= \cos ^{-1}(\cos (2.6 \pi)) \\
+&=\cos ^{-1}\left(\cos \left(2 \pi+\frac{3}{5} \pi\right)\right) \\
+&=\cos ^{-1}\left(\cos \left(\frac{3}{5} \pi\right)\right) \\
+&=\frac{3}{5} \pi
+\end{align}
+
+
+
+</details>
+
 ---
 
 
@@ -350,6 +369,21 @@ Let \(q\) and \(n\) be relatively prime positive integers such that \( 1 < q < n
 There exist unique integers \( k, r \) such that \( n=kq-r, 0 \leq r< q \).
 </p>
 
+<details open><summary>Sol.</summary>
+\begin{align}
+\frac{125}{76} &=\frac{76 \times 2-27}{76}  \\
+&=2-\frac{27}{76}  \\
+&=2-\frac{1}{\frac{76}{27}} \\
+&=2-\frac{1}{\frac{27 \times 3-5}{27}}  \\
+&=2-\frac{1}{3-\frac{1}{\frac{27}{5}}} \\
+&=2-\frac{1}{3-\frac{1}{6-\frac{1}{\frac{15}{3}}}} \\
+&=2-\frac{1}{3-\frac{1}{6-\frac{1}{2-\frac{1}{3}}}}
+\end{align}
+</details>
+
+
+
+
 
 ---
 
@@ -361,6 +395,26 @@ There exist unique integers \( k, r \) such that \( n=kq-r, 0 \leq r< q \).
 Express the solutions as triplets \( (x,y,z) \).
 </p>
 
+
+<details open><summary>Sol.</summary>
+
+<p>
+\begin{align*}
+xyz-xy-yz-xz+x+y+z-1&=51 \\
+(x-1)(y-1)(z-1) &= 51
+\end{align*}
+
+The LHS is a product of three numbers. It may either be \( 1 \times 1 \times 51 \) or \(1\times 3\times 17\).
+
+
+So \( (x,y,z) = (2,2,52) \mbox{ or } (2,4,18) \) or any permutation of the two triplets.
+
+
+</p>
+
+
+</details>
+
 ---
 
 
@@ -368,13 +422,39 @@ Express the solutions as triplets \( (x,y,z) \).
 
 
 <p>
-<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
+<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>1\) such that  \( x(x+1) = 2442^n \).
 </p>
 
 
-### Practice problems
+<p>
+<i>Problem source: Nick's mathematical puzzles <a href="http://www.qbyte.org/puzzles/p065s.html">link</a></i>. <br><br>
+
+The result holds for any \(y^n\) in the RHS.
+
+
+Suppose the prime factorization of \(y\) is \(p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}\).
+
+Since \(x\) and \(x+1\) are relatively prime, they do not share any common factors. So for any \(p_i\),
+either \(p_i^{a_in} | x\) or \(p_i^{a_in}| (x+1)\) but not both. This means that \(x=r^n\) for some \(r\) and \( (x+1) \) = \(s^n\) for some \(s>r\).
+
+Thus we have the relation:
+
+\[ s^n - r^n = 1  \]
+
+But the LHS is always \( \geq 3 \) for \( n> 1\). Thus we have a contradiction.
+
+
+
+
+</p>
+
+<!--
+
+### Practice problems on number theory
 
 <a href="http://math.northwestern.edu/putnam/training-numth.pdf">Putnam training</a>
+
+-->
 
 
 <!--
