@@ -291,7 +291,7 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 <hr>
 
 <div style="min-height:2px" id="themarktext">
-<h4>Click on a cell to see the submssion</h4>
+<h4>Click on a cell and scroll down to see the submssion</h4>
 </div>
 
 
