@@ -62,7 +62,6 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 
 
 
-
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Evariste Galois"/>
 <button class="markbutton blank" onclick = "markdisplay('Evariste_Galois/PartA')">32</button>
@@ -163,17 +162,6 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 <button class="markbutton right" onclick = "markdisplay('Sun_Tzu/B6')">4</button>
 <button class="markbutton total">77</button>
 <button class="markbutton rank">10. </button>
-<input type="button" class="markbutton white" value="Emmy Noether"/>
-<button class="markbutton blank" onclick = "markdisplay('Emmy_Noether/PartA')">18</button>
-<button class="button white"></button>
-<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B1')">10</button>
-<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B2')">8</button>
-<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B3')">10</button>
-<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B4')">10</button>
-<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B5')">10</button>
-<button class="button blank"></button>
-<button class="markbutton total">76</button>
-<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="John Nash"/>
 <button class="markbutton blank" onclick = "markdisplay('John_Nash/PartA')">36</button>
 <button class="button white"></button>
@@ -184,7 +172,7 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 <button class="markbutton right" onclick = "markdisplay('John_Nash/B5')">5</button>
 <button class="markbutton wrong" onclick = "markdisplay('John_Nash/B6')">0</button>
 <button class="markbutton total">71</button>
-<button class="markbutton rank">12. </button>
+<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Sophie Germain"/>
 <button class="markbutton blank" onclick = "markdisplay('Sophie_Germain/PartA')">32</button>
 <button class="button white"></button>
@@ -195,6 +183,17 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Sophie_Germain/B6')">4</button>
 <button class="markbutton total">70</button>
+<button class="markbutton rank">12. </button>
+<input type="button" class="markbutton white" value="Emmy Noether"/>
+<button class="markbutton blank" onclick = "markdisplay('Emmy_Noether/PartA')">18</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B1')">10</button>
+<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B2')">8</button>
+<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B3')">10</button>
+<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B4')">10</button>
+<button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B5')">10</button>
+<button class="button blank"></button>
+<button class="markbutton total">66</button>
 <button class="markbutton rank">13. </button>
 <input type="button" class="markbutton white" value="Srinivasa Ramanujan"/>
 <button class="markbutton blank" onclick = "markdisplay('Srinivasa_Ramanujan/PartA')">30</button>
@@ -283,6 +282,9 @@ Shayari Das, Varnana, Varun and Vishal S <br><br>
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">12</button>
+
+
+
 
     </div>
 </div>
