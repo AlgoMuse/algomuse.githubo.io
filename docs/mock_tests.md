@@ -3,16 +3,14 @@ layout: default
 title: Mock tests
 ---
 
-
 # Mock tests
 {: .no_toc}
-
 
 
 ## Sign-up form
 
 
-#### 51 members so far
+#### 51 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
