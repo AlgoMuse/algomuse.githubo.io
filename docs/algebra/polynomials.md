@@ -1088,7 +1088,7 @@ Conditions (i) and (ii) imply that for some polynomials \(q(x)\) and \( r(x) \),
 <p>
 \begin{align}
 p(x) &= q(x)x^{100} + 1 \\
-p(x) &= r(x)(x-2)^{3} + 1
+p(x) &= r(x)(x-2)^{3} + 2
 \end{align}
 </p>
 
@@ -1112,7 +1112,7 @@ p^\prime(x) &= 3r(x)(x-2)^{2} + r^\prime(x) (x-2)^{3} \\
 
 
 
-<p>So \(p(x)\) has \(x^{99}\)  and  \( (x-2)^{2} \) as factors. We may assume</p>
+<p>So \(p\prime(x)\) has \(x^{99}\)  and  \( (x-2)^{2} \) as factors. We may assume</p>
 
 <p>
 \[ p^\prime(x) =  Ax^{99}(x-2)^2 \]
