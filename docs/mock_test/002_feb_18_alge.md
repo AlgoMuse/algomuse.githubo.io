@@ -74,11 +74,52 @@ pick a polynomial with the least degree.</li>
 </p>
 
 
+<p>
+<li>
+Find two quadratic polynomials \( p(x) \) and \( g(x) \)  that satisfy
+the following conditions:
+
+<ol>
+<li>Both \(p(x)\)  and \(g(x)\)  have two distinct real roots.</li>
+<li>The sum \( p(x)+g(x) \)  has no real root.</li>
+</ol>
+
+</li>
+</p>
+
+
+<p>
+<li>
+<i>Notation.</i> \( { }^nC_{k} \) represents the binomial coefficient.<br>
+(i) Simplify \[ \sum_{j=0}^{n} \sum_{i=j}^{n}{ }^{n} C_{i}{ }^{i} C_{j}  \] <br><br>
+(ii) Calculate the value of the expression (i) when \( n=5 \). [1 mark]
+</li>
+</p>
+
+
+<p>
+<li>
+Let \( f(x) = 37 x^{4}-37 x^{3}-x^{2}+9 x-2 \). Then let the four roots of
+\( f(x) \)  be \( r_{1}, r_{2}, r_{3}\)  and \( r_{4} \). Find the value of
+
+\[ \left(r_{1}+r_{2}+r_{3}\right)\left(r_{1}+r_{2}+r_{4}\right)\left(r_{1}+r_{3}+r_{4}\right)\left(r_{2}+r_{3}+r_{4}\right) \]
+
+</li>
+</p>
+
+<p>
+
+
+</p>
+
+
+
 
 
 </ol>
 
 
+<!--
 
 https://www.madhavacompetition.in/MMC-Jan-2019.pdf
 1. Let $f(x)=a_{0} x^{n}+\cdots+a_{n}$ be a non-constant polynomial with real coefficients satisfying
@@ -138,6 +179,8 @@ $$
 
 
 
+-->
+
 
 
 
@@ -151,16 +194,65 @@ for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jp
 **Clearly explain your entire reasoning.** No credit will be given without reasoning. Partial solutions may get partial credit.
 
 
+
 <p>
-<b>B1.</b> Compute the smallest value \(p\) such that, for all \(q> p\), the polynomial  \( x^3 - 7x^2 +qx +16 = 0 \) has exactly one real root.
+<b>B1.</b> Consider the polynomial \(f(x) = a_{n}x^n +a_{n-1}x^n + \cdots + a_{1}x+a_{0}\),
+where each coefficient \(a_{i}\) is either \(0\) or \(1\). If \( f(2) = 14\),
+find the polynomial \(f(x)\).
 </p>
 
 
 
+
+
+<p>
+<b>B2.</b> Compute the smallest value \(p\) such that, for all \(q> p\), the polynomial  \( x^3 - 7x^2 +qx +16 = 0 \) has exactly one real root.
+</p>
+
+
+<p>
+<b>B3.</b> Let \(f(x)=a_{0} x^{n}+\cdots+a_{n}\) be a non-constant polynomial with real coefficients satisfying
+
+\[ f(x) f\left(x^{2}\right)=f\left(x^{3}+x\right) \]
+
+for all real numbers \(x\).
+
+Show that \(f\)  has no real root.
+</p>
+
+<p>
+<b>B4.</b> Show that \(p(x)\) does not have any real roots where:
+\[  p(x)=x^{2 n}-2 x^{2 n-1}+3 x^{2 n-2}-4 x^{2 n-3}+\cdots-2 n x+(2 n+1) \]
+
+</p>
+
+
+<!--
+
+Madhava 2011
+Solution :
+
+If $x \leq 0$ then $p(x)>0 .$ Let $x>0$ $p(x)=x^{2 n}-2 x^{2 n-1}+3 x^{2 n-2}-4 x^{2 n-3}+\cdots-2 n x+(2 n+1)$
+$x p(x)=x^{2 n+1}-2 x^{2 n}+3 x^{2 n-1}-4 x^{2 n-2}+\cdots-2 n x^{2}+(2 n+1) x$
+$$
+6
+$$
+$x p(x)+p(x)=x^{2 n+1}-x^{2 n}+x^{2 n-1}-x^{2 n-2}+\cdots+x+(2 n+1)$
+$(1+x) p(x)=x\left(\frac{1+x^{2 n+1}}{1+x}\right)+(2 n+1)$
+$\Rightarrow p(x)>0$ for $x>0 .$
+
+
+
+-->
+
+
+
+
+<!--
+
 https://sumo.stanford.edu/pdfs/smt2011/algebra-solutions.pdf
 
 
----
 
 
 10. How many polynomials $P$ of degree 4 satisfy $P\left(x^{2}\right)=P(x) P(-x) ?$
@@ -197,6 +289,8 @@ http://cs-www.cs.yale.edu/homes/spielman/TALKS/Gibbs16.pdf
 
 
 
+
+-->
 
 
 
