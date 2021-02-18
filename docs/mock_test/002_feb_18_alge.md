@@ -16,7 +16,6 @@ nav_exclude: true
 - You are responsible for keeping time. Email all your solutions by 20:00 Hrs IST.
 - Write your answers with a dark pen on white paper.
 - Find an email from me with the subject line 'Mock test #2 Algebra'. Send your solutions (images) as replies to this email.
-- Make sure that the handwriting is clear and no image is blurred.
 - Adjust/Reduce the resolution of the camera so that each image is less than 500 KB in size.
 - Total marks: 100 (10x4=40 for Part A + 6x10=60 for Part B)
 {: .bg-grey-lt-000 .p-6 }
@@ -30,7 +29,9 @@ but marks won't counted for official use in the future. Solutions submitted afte
 
 ---
 
+**Questions will appear here at the scheduled time.**
 
+<!--
 
 
 ## Part A: Short-answer type questions
@@ -184,6 +185,7 @@ Let \( f(x) = 37 x^{4}-37 x^{3}-x^{2}+9 x-2 \). Then let the four roots of
 
 </ol>
 
+-->
 
 <!--
 
@@ -245,7 +247,7 @@ $$
 
 
 
--->
+
 
 
 
@@ -292,6 +294,7 @@ Show that \(f\)  has no real root.
 
 </p>
 
+-->
 
 <!--
 
@@ -311,52 +314,6 @@ $\Rightarrow p(x)>0$ for $x>0 .$
 
 -->
 
-
-
-
-<!--
-
-https://sumo.stanford.edu/pdfs/smt2011/algebra-solutions.pdf
-
-
-
-
-10. How many polynomials $P$ of degree 4 satisfy $P\left(x^{2}\right)=P(x) P(-x) ?$
-Answer: 10 Note that if $r$ is a root of $P$ then $r^{2}$ is also a root. Therefore $r, r^{2}, r^{2^{2}}, r^{2^{3}}, \cdots,$ are all roots of $P .$ Since $P$ has a finite number of roots, two of these roots should be equal. Therefore, either $r=0$ or $r^{N}=1$ for some $N>0$.
-If all roots are equal to 0 or $1,$ then $P$ is of the form $a x^{b}(x-1)^{(4-b)}$ for $b=0, \ldots, 4$ Now suppose this is not the case. For such a polynomial, let $q$ denote the largest integer such that $r=e^{2 \pi i \cdot p / q}$ is a root for some integer $p$ coprime to $q$. We claim that the only suitable $q>1$ are $q=3$ and $q=5$ First note that if $r$ is a root then one of $\sqrt{r}$ or $-\sqrt{r}$ is also a root. So if $q$ is even, then one of $e^{2 \pi i \cdot p / 2 q}$ or $e^{2 \pi i \cdot p+q / 2 q}$ should also be root of $p,$ and both $p / q$ and $(p+q) / 2 q$ are irreducible fractions. This contradicts the assumption that $q$ is maximal. Therefore $q$ must be odd. Now, if $q>6,$ then $r^{-2}, r^{-1}, r, r^{2}, r^{4}$ should be all distinct, so $q \leq 6$. Therefore $q=5$ or 3
-
-If $q=5,$ then the value of $p$ is not important as $P$ has the complex fifth roots of unity as its roots, so $P=a\left(x^{4}+x^{3}+x^{2}+x+1\right)$. If $q=3$, then $P$ is divisible by $x^{2}+x+1$. In this case we let $P(x)=a\left(x^{2}+x+1\right) Q(x)$ and repeating the same reasoning we can show that $Q(x)=x^{2}+x+1$ or $Q(x)$ is of form $x^{b}(x-1)^{2-b}$. Finally, we can show that exactly one member of all 10 resulting families of polynomials fits the desired criteria. Let $P(x)=a(x-r)(x-s)(x-t)(x-u) .$ Then, $P(x) P(-x)=a^{2}\left(x^{2}-r^{2}\right)\left(x^{2}-s^{2}\right)\left(x^{2}-\right.$
-$\left.t^{2}\right)\left(x^{2}-u^{2}\right) .$ We now claim that $r^{2}, s^{2}, t^{2},$ and $u^{2}$ equal $r, s, t,$ and $u$ in some order. We can prove this noting that the mapping $f(x)=x^{2}$ maps 0 and 1 to themselves and maps the third and fifth roots of unity to another distinct third or fifth root of unity, respectively. Hence, for these polynomials, $P(x) P(-x)=a^{2}\left(x^{2}-r\right)\left(x^{2}-s\right)\left(x^{2}-t\right)\left(x^{2}-u\right)=a P\left(x^{2}\right),$ so there exist exactly 10 polynomials that fit the desired criteria, namely the ones from the above 10 families with $a=1$.
-
-
-
----
-
-
-7. Let $P(x)$ be a polynomial of degree 2011 such that $P(1)=0, P(2)=1, P(4)=2, \ldots,$ and $P\left(2^{2011}\right)=$
-2011. Compute the coefficient of the $x^{1}$ term in $P(x)$. Answer: $2-\frac{1}{2^{2010}}$
-We analyze $Q(x)=P(2 x)-P(x) .$ One can observe that $Q(x)-1$ has the powers of 2 starting from $1,2,4, \cdots,$ up to $2^{2010}$ as roots. Since $Q$ has degree $2011, Q(x)-1=A(x-1)(x-2) \cdots\left(x-2^{2010}\right)$ for some $A$. Meanwhile $Q(0)=P(0)-P(0)=0,$ so
-$$
-Q(0)-1=-1=A(-1)(-2) \cdots\left(-2^{2010}\right)=-2^{(2010 \cdot 2011) / 2} A
-$$
-Therefore $A=2^{-(1005 \cdot 2011)}$. Finally, note that the coefficient of $x$ is same for $P$ and $Q-1,$ so it equals $A\left(-2^{0}\right)\left(-2^{1}\right) \cdots\left(-2^{2010}\right)\left(\left(-2^{0}\right)+\left(-2^{-1}\right)+\cdots+\left(-2^{-2010}\right)\right)=\frac{A \cdot 2^{1005 \cdot 2011}\left(2^{2011}-1\right)}{2^{2010}}=2-\frac{1}{2^{2010}}$
-
-
-
-Suppose P(x) is a polynomial of degree d that has d real roots \( \alpha_1, \ldots, \alpha_d \).  Find a polynomial of degree (d-1) that has:
-d-1 real roots \(\beta_1,\ldots,\beta_d\) such that.
-
-
-http://cs-www.cs.yale.edu/homes/spielman/TALKS/Gibbs16.pdf
-
-
-
-
-
-
-
-
--->
 
 
 
