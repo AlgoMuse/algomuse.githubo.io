@@ -54,7 +54,9 @@ What is the largest possible value of \(m\)?
 For example, if it possible for \(m\) to be 4, then the polynomials
 might look like this:
 
+<p style="text-align:center">
 <br><img src="/assets/images/mt_2_polynomial.png"/>
+</p>
 
 </li>
 </p>
@@ -89,8 +91,72 @@ the following conditions:
 
 
 <p>
+<li> A grazing field has \(10\) kgs of grass. Every Sunday a herd of cows eat \(x\) kgs of grass. Over a week's time the grass grows by \( 10\% \). What
+is the maximum value of \(x\) that will allow the cows to feed indefinitely without running out of grass?
+</li>
+</p>
+
+
+
+
+<p>
+<li>
+Consider the simultaneous equations in variables \(x\) and \(y\), where \(k\) is a constant:
+
+\begin{align*}
+2x + y &= kx + 4 \\
+x + 2y &= ky + 6k
+\end{align*}
+
+For what values of \(k\) does the system not have a solution?
+
+
+</li>
+</p>
+
+
+
+<p>
 <li>
 <i>Notation.</i> \( { }^nC_{k} \) represents the binomial coefficient.<br>
+
+Consider the set of prime numbers less than 100 (listed below). Pick two numbers \(n\) and \(k\) with \(n > k \) from this set such that
+\( {}^nC_{k} \) is maximized.
+
+<p style="text-align:center">
+<img src="/assets/images/primes_100.png"/>
+</p>
+
+</li>
+</p>
+
+
+
+<p>
+<li>
+<i>Notation.</i> \( [n] \) denotes the set of numbers \( \{1,2,\ldots,n\} \). Assume \(n>100\) for this problem.<br><br>
+A function \(f:[n]\rightarrow \mathbb{R} \) is defined as follows:<br>
+
+
+\[
+f(x) = \begin{cases} 0 &\mbox{if } x = 1 \\
+ 1 & \mbox{if } x = n \\
+ \frac{1}{2} (f(x-1) + f(x+1))  & \mbox{if } 1 < x < n
+ \end{cases}
+\]
+
+What is the value of \( f(3) \) in terms of \(n\)?
+
+</li>
+</p>
+
+
+
+
+
+
+<p>
+<li>
 (i) Simplify \[ \sum_{j=0}^{n} \sum_{i=j}^{n}{ }^{n} C_{i}{ }^{i} C_{j}  \] <br><br>
 (ii) Calculate the value of the expression (i) when \( n=5 \). [1 mark]
 </li>
