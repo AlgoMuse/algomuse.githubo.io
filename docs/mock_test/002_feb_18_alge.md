@@ -272,7 +272,7 @@ for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jp
 
 
 <p>
-<b>B2.</b> Consider the polynomial \(f(x) = a_{n}x^n +a_{n-1}x^n + \cdots + a_{1}x+a_{0}\),
+<b>B2.</b> Consider the polynomial \(f(x) = a_{n}x^n +a_{n-1}x^{n-1} + \cdots + a_{1}x+a_{0}\),
 where each coefficient \(a_{i}\) is either \(0\) or \(1\). If \( f(2) = 14\),
 find the polynomial \(f(x)\).
 </p>
