@@ -13,9 +13,9 @@ function display (selected) {
 
 
 
-function markdisplay (selected) {
+function markdisplay (selected,no) {
   if(selected!='none'){
-      var path = "<img src=\"/assets/images/mock_test/";
+      var path = "<img src=\"/assets/images/mock_test_"+no+"/";
       var title = "<h2>Submission spotlight</h2><h4><large>";
       title = title.concat ( selected.replace("/",": ").replaceAll("_"," ").replace("/", "").replace(".jpg","").concat("</large></h4>") )
       title = title.replace("PartA","Part A")
