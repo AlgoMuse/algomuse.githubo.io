@@ -140,6 +140,8 @@ We have numbers \( x_1,\ldots,x_{51} \) such that each \(x_i\) is either \(+1\) 
 </p>
 
 
+<i>Problem source: </i> KVPY 2019.<br>
+
 
 
 <p>
@@ -174,7 +176,9 @@ Let \( f(x) = 37 x^{4}-37 x^{3}-x^{2}+9 x-2 \). Let the four roots of
 \[ \left(r_{1}+r_{2}+r_{3}\right)\left(r_{1}+r_{2}+r_{4}\right)\left(r_{1}+r_{3}+r_{4}\right)\left(r_{2}+r_{3}+r_{4}\right) \]
 
 </li>
+<i>Problem source: </i> Stanford Math Tournament.<br>
 </p>
+
 
 <p>
 
@@ -269,6 +273,7 @@ for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jp
 \[ \large \sqrt[2021]{a b^{2020}} \leq  \frac{ a+2020b }{2021}  \]
 </p>
 
+<i>Problem source: </i> Problem solving strategies. Prob. 4, Inequalities.<br>
 
 
 <p>
@@ -285,6 +290,7 @@ find the polynomial \(f(x)\).
 <b>B3.</b> Compute the smallest value \(p\) such that, for all \(q> p\), the polynomial  \( x^3 - 7x^2 +qx +16 = 0 \) has exactly one real root.
 </p>
 
+<i>Problem source: </i> Stanford Math Tournament.<br>
 
 <p>
 <b>B4.</b> Let \(f(x)=a_{0} x^{n}+\cdots+a_{n}\) be a non-constant polynomial with real coefficients satisfying
@@ -296,10 +302,13 @@ for all real numbers \(x\).
 Show that \(f\)  has no real root.
 </p>
 
+
+
 <p>
 <b>B5.</b> Show that \(p(x)\) does not have any real roots where:
 \[  p(x)=x^{2 n}-2 x^{2 n-1}+3 x^{2 n-2}-4 x^{2 n-3}+\cdots-2 n x+(2 n+1) \]
 
+<br><i>Problem source: </i> Problem solving strategies. Prob. 5, Polynomials.<br>
 </p>
 
 
@@ -307,6 +316,7 @@ Show that \(f\)  has no real root.
 (ii) Calculate the value of the expression (i) when \( n=5 \).
 </p>
 
+<i>Problem sources for B4 and B6: </i> Madhava Mathematics Competition 2019.<br>
 
 <!--
 
