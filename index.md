@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- The results and feedback for mock test 2 will be given by 24 Feb 2021.
+- Mock test 2's results are [up](/docs/mock_test/002_feb_18_scorecard/).
 
 
 ---
