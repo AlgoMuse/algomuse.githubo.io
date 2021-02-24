@@ -22,7 +22,9 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 - Mock test 2's results are [up](/docs/mock_test/002_feb_18_scorecard/).
-- Mock test #3 is scheduled on Sunday, Feb 28. Timings: 10:30-13:30 Hrs. This is a full-syllabus test.
+- Mock test #3 is scheduled on Sunday, Feb 28. Timings: 10:30-13:30 Hrs. This is a full-syllabus test. Problems can come from any topic listed
+in the CMI entrance exam's syllabus [pdf](https://www.cmi.ac.in/admissions/syllabus/ugmath-syllabus.pdf).
+
 
 ---
 
