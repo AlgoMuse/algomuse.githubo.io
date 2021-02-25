@@ -451,6 +451,7 @@ A monic polynomial has the following property: If \(r\) is a root, then \(r^2 -4
 
 <i>Note: The original problem in the CMI paper asked to find two quadratics instead of six. CMI has confirmed that this was a mistake.</i>
 
+
 <details><summary>Solution</summary>
 
 <p>
@@ -545,6 +546,16 @@ We get the following cubic polynomials as candidates for this case:
 </details>
 
 ---
+
+
+#### Problem credits
+
+A similar problem appeared in RMO 2007. [pdf](https://olympiads.hbcse.tifr.res.in/olympiads/wp-content/uploads/2016/09/rmo-2007.pdf)
+
+
+---
+
+
 
 
 
