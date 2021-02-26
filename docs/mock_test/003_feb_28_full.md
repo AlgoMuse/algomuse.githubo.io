@@ -90,9 +90,31 @@ Find the value of \( \left|z_{1}^3+z_{2}^3+z_{3}^3\right| \).
 
 </p>
 </li>
+
+<p>
+<li>
+
+There are \(n\) stones arranged in a circular pattern. At time \(t=0\) s, two grasshoppers are resting on a common stone. Grasshopper A starts to hop
+in clockwise direction in intervals of 3 stones. Grasshopper B jumps every 7 stones at each time step in anti-clockwise manner. The figure below
+shows the first jump. What is the earliest time step when both the grasshoppers land on the same stone again? Find this number when \(n=300\) and when \(n=301\).
+
+<p style="text-align:center">
+<img src="/assets/images/mt3_grasshopper.png"/>
+</p>
+
+</li>
+</p>
+
+
+
+
+
+
+
+
 <li>
 <p>
- Four six-faced dice are rolled simultaneously. What is the probability that the highest-valued die shows 4?
+ Four six-faced dice are rolled simultaneously. What is the probability that the highest-valued die shows 4? Write the answer as a reduced fraction.
 </p>
 </li>
 
@@ -104,6 +126,12 @@ Find the equation of the plane in \(R^3\) that passes through the following poin
 </p>
 
 
+<p>
+<li>
+\(ABC\) is a triangle with \( \angle A = 30^{\circ} \), \( \angle B = 60^{\circ} \) and \(AB=10\). Find the
+length of the shortest trisector of \( \angle C \).
+</li>
+</p>
 
 
 
@@ -163,11 +191,30 @@ How many positive solutions does the following equation have?
 </p>
 
 
+<p>
+<b>B3.</b> In the figure shown below, ABCD is a square with side length 1 unit. M is the midpoint of the side BC.
+What is the area of the shaded portion?
+
+<p style="text-align:center">
+<img src="/assets/images/mt3_shaded_quad.png"/>
+</p>
+
+</p>
+
+
 
 
 
 <p>
-<b>B3.</b> We are given a number \(P\). We want to pick \(n\) positive integers \(x_1,\ldots,x_n\) such that two conditions are met:<br>
+<b>B4 (a)</b>\[ \int_{0}^{1} x(1-x)^{2021} \,  dx \]
+<br>
+<b>B4 (b)</b>\[ \int_{0}^{\pi / 2} \frac{d x}{1+(\tan x)^{2021}} \]
+</p>
+
+
+
+<p>
+<b>B5.</b> We are given a number \(P\). We want to pick \(n\) positive integers \(x_1,\ldots,x_n\) such that two conditions are met:<br>
 
 <i>Condition 1:</i> The product of the \(x_i\)s must be \(P\). That is, \( x_1\times x_2\times\ldots x_n = P\).<br>
 <i>Condition 2:</i> The GCD of \(x_1,\ldots,x_n\) is maximized.
@@ -210,14 +257,24 @@ Thus, the answer is \(p_{1}^{\left\lfloor\frac{k_{1}}{n}\right\rfloor} \ldots p_
 </details>
 
 
+
+
+
 <p>
-<b>B4 (a)</b>\[ \int_{0}^{1} x(1-x)^{2021} \,  dx \]
-<br>
-<b>B4 (b)</b>\[ \int_{0}^{\pi / 2} \frac{d x}{1+(\tan x)^{2021}} \]
+<b>B6.</b> We have a square grid where \( (0,0) \) is the origin and \( (6,6) \) is the top-right corner. We want to move from
+the origin to \( (6,6) \) using only right steps and upward steps. It is a well known fact that there are \( {}^{12}C_6 \) ways of doing this. Consider the
+following addtional constraint: We are not allowed to step on the eight shaded coordinates shown in the figure below. How many ways are there to go from \( (0,0) \) to \( (6,6) \) obeying these constraints?
 </p>
 
 
+<p style="text-align:center">
+<img src="/assets/images/mt3_lattice.png"/>
+</p>
+
+
+
 <!--
+B6. Stanford General. Answer: 208.
 https://faculty.math.illinois.edu/~hildebr/putnam/training19/integrals1.pdf
 -->
 
