@@ -30,6 +30,9 @@ but marks won't be counted for official use in the future. Solutions submitted a
 ---
 
 
+**Questions will appear here at the scheduled time.**
+
+<!--
 
 
 ## Part A: Short-answer type questions
@@ -276,6 +279,7 @@ following addtional constraint: We are not allowed to step on the eight shaded c
 <!--
 B6. Stanford General. Answer: 208.
 https://faculty.math.illinois.edu/~hildebr/putnam/training19/integrals1.pdf
+
 -->
 
 
