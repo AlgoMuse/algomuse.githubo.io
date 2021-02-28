@@ -124,7 +124,7 @@ length of the shortest trisector of \( \angle C \).
 
 <p>
 <li>
-A non-zero polynomial \(p(x) = a_nx^n + a^{n-1}x^{n-1} + \ldots + a_0 \) is said to be a palindrome if \( a_n = a_{n-i} \) for \(i=0,\ldots,n\). It can
+A non-zero polynomial \(p(x) = a_nx^n + a^{n-1}x^{n-1} + \ldots + a_0 \) is said to be a palindrome if \( a_i = a_{n-i} \) for \(i=0,\ldots,n\). It can
 be proved that a polynomial is a palindrome if and only if \( p(x) = x^n p( \frac{1}{x} ) \). Which of these statements are true?
 
 <ol>
