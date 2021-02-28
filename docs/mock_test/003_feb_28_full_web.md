@@ -31,38 +31,12 @@ but marks won't be counted for official use in the future. Solutions submitted a
 ---
 
 
-**Questions will appear here at the scheduled time.**
-
-
-
-<!--
 
 
 ## Part A: Short-answer type questions
 
-**Submission file:** Write answers to all the ten questions on a single sheet of paper. Email a picture of your answer sheet. Name the file as PartA.jpg.
+**Submission file:** Write answers to all the ten questions on a single sheet of paper. Name the file as PartA.jpg.
 {: .fs-3 }
-
-Alternatively, you may submit the image as a Disqus comment.
-
-<div id="disqus_thread">
-
-</div>
-
-<script>
- var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
-      this.page.identifier = '{{ page.url | absolute_url }}';
-};
-
-(function() {
-var d = document, s = d.createElement('script');
-s.src = 'https://cmi-tomato.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-
 
 
 
@@ -292,8 +266,35 @@ https://faculty.math.illinois.edu/~hildebr/putnam/training19/integrals1.pdf
 
 -->
 
+---
+
+## Submit your files as comments
+
+<p>
+Instead of emailing your solutions, you may choose to submit the images
+via disqus comments. First, post a comment mentioning your Email ID and your Pseudonym.
+Then upload your images as comments. The comments will be held in moderation.
+</p>
 
 
+
+<div id="disqus_thread">
+
+</div>
+
+<script>
+ var disqus_config = function () {
+      this.page.url = '{{ page.url | absolute_url }}';
+      this.page.identifier = '{{ page.url | absolute_url }}';
+};
+
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://cmi-tomato.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
 
 
 

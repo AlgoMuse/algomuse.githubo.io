@@ -30,10 +30,6 @@ but marks won't be counted for official use in the future. Solutions submitted a
 ---
 
 
-**Questions will appear here at the scheduled time.**
-
-<!--
-
 
 ## Part A: Short-answer type questions
 
@@ -46,25 +42,14 @@ but marks won't be counted for official use in the future. Solutions submitted a
 
 <ol>
 
+
 <li>
 <p>
-
-
-Find all possible pairs of integers \((m, n)\) which satisfy \(m^{2}+2 m-35=2^{n}\).
-
-<details open><summary>Sol.</summary>
-Factoring, we have \( (m+7)(m-5)=2^{n}\). We observe that \(m+7\) and \(m-5\) are 12 apart,
-and also observe that the only powers of 2 which differ by 12 are 4 and \(16,\) so \(n=2+4=6\).
-There are two cases:<br>
-(a) \(m+7=16\) and \(m-5=4\), which gives us \(m=9\).<br>
-
-(b) \(m+7=-4\) and \(m-5=-16\), which gives us \(m=-11\).
-
-The answer is therefore (9,6) and (-11,6).
-</details>
-
+There are 8 marbles of different colors and 8 different bags of matching colors. In how many ways can we put one marble in each bag such
+that exactly 5 marbles go to the bag of the matching color?
 </p>
 </li>
+
 
 
 
@@ -98,7 +83,7 @@ Find the value of \( \left|z_{1}^3+z_{2}^3+z_{3}^3\right| \).
 <li>
 
 There are \(n\) stones arranged in a circular pattern. At time \(t=0\) s, two grasshoppers are resting on a common stone. Grasshopper A starts to hop
-in clockwise direction in intervals of 3 stones. Grasshopper B jumps every 7 stones at each time step in anti-clockwise manner. The figure below
+in clockwise direction in intervals of 3 stones at each time step. Grasshopper B jumps every 7 stones at each time step in anti-clockwise manner. The figure below
 shows the first jump. What is the earliest time step when both the grasshoppers land on the same stone again? Find this number when \(n=300\) and when \(n=301\).
 
 <p style="text-align:center">
@@ -137,6 +122,44 @@ length of the shortest trisector of \( \angle C \).
 </p>
 
 
+<p>
+<li>
+A non-zero polynomial \(p(x) = a_nx^n + a^{n-1}x^{n-1} + \ldots + a_0 \) is said to be a palindrome if \( a_n = a_{n-i} \) for \(i=0,\ldots,n\). It can
+be proved that a polynomial is a palindrome if and only if \( p(x) = x^n p( \frac{1}{x} ) \). Which of these statements are true?
+
+<ol>
+<li>If \(p(x)\) and \(q(x)\) are palindromes then \( p(x)+q(x) \) is also a palindrome. </li>
+<li>If \(p(x)\) and \(q(x)\) are palindromes then \( p(x)q(x) \) is also a palindrome. </li>
+<li>Suppose \(p(x)\) is a palindrome that can be factored as \( r(x)s(x) \) where both \(r(x)\) and \( s(x) \) are polynomials with integer coefficients.  Then both \( r(x) \) and \( s(x) \) are palindromes. </li>
+<li>Suppose \(p(x)\) is a palindrome that can be factored as \( r(x)s(x) \) where both \(r(x)\) and \( s(x) \) are polynomials with integer coefficients.  Then exactly one of \( r(x) \) or \( s(x) \) is a palindrome. </li>
+</ol>
+
+
+</li>
+</p>
+
+
+<p>
+<li>
+The value of \( {}^{50}C_0 {}^{50}C_{1} + {}^{50}C_1 {}^{50}C_{2} +  \ldots + {}^{50}C_{49} {}^{50}C_{50} \) is:
+<ol>
+<li>\( {}^{100}C_{49}  \)</li>
+<li>\( {}^{100}C_{50}  \)</li>
+<li>\( {}^{100}C_{48}  \)</li>
+<li>\( ({}^{50}C_{25})^2 \)</li>
+</ol>
+</li>
+</p>
+
+
+<li>
+<p>
+Find all possible pairs of integers \((m, n)\) which satisfy \(m^{2}+2 m-35=2^{n}\).
+</p>
+</li>
+
+
+
 
 </ol>
 
@@ -161,25 +184,13 @@ diameter of the inner circle. \(AB\) is a tangent to the inner circle with \(M\)
 
 </p>
 
-<details open><summary>Sol.</summary>
-
-Let the radius of the larger circle be \(R\).  Now \(CM=2r\)  and \( MD=2(R-r) \). From Ptolemy's theorem, we have:
-
-\begin{align*}
-& CM \cdot MD=AM \cdot MB \\
-\quad 2 r \cdot 2(R-r) &=a^{2} \\
-\quad R &=\frac{a^{2}+4 r^{2}}{4 r}
-\end{align*}
-
-
-</details>
 
 <p>
 <b>B2 (a)</b> [4 marks] Find all positive integer solutions to the equation:
 \[ 86x + 10y = 500 \]
 
 <br>
-You may find the following fact useful: \( (500,-4250) \) is a integer solution to the above equation.
+You may find the following fact useful: \( (500,-4250) \) is an integer solution to the above equation.
 <br>
 
 </p>
@@ -229,37 +240,6 @@ What is the area of the shaded portion?
 
 (b) Write the value of \(g\) for \(n=5\) and \(P=2^5 \cdot 3^6\cdot 5^{10} \cdot 7^3\).
 </p>
-
-
-
-
-<details open>
-<summary>Sol.</summary>
-
-
-<p>
-Let \(g\) be the GCD  of \(x_{1}, \ldots, x_{n}\). Since \(x_{i}\) is a multiple of \(g\), \(P\) must be a multiple of \(g^{n}\).
-But if \(P\) is a multiple of \(g^{n}\) we can make the GCD \(g\) by the following assignment:
-
-\[ x_{1}=\cdots=x_{n-1}=g, x_{n}=g \times \frac{P}{g^{n}}\]
-
-Thus, the answer is the maximum \(g\) such that \(g^{n}\) divides \(P\).
-
-Let \( P=p_{1}^{k_{1}} \ldots p_{\ell}^{k_{\ell}}\) be the prime factorization of \(P\).
-Then, \(g\) must be of the form \( g=p_{1}{ }^{k_{1}^{\prime}} \ldots p_{\ell}{ }^{k_{\ell}^{\prime}}\)
-and \(g^{n}\) divides \(P\) when \(n k_{i}^{\prime} \leq k_{i}\) for each \(i\).
-In order to maximize \(g\) we should choose \( k_{i}^{\prime}=\lfloor \frac{k_{i}}{n} \rfloor \).
-Thus, the answer is \(p_{1}^{\left\lfloor\frac{k_{1}}{n}\right\rfloor} \ldots p_{\ell}^{\left\lfloor\frac{k_{\ell}}{n}\right\rfloor}\).
-</p>
-
-<p>
-<i>Problem source</i>: Caddi 2018 Beginners <a href="https://img.atcoder.jp/caddi2018/editorial.pdf">[pdf]</a>.
-</p>
-
-
-</details>
-
-
 
 
 
