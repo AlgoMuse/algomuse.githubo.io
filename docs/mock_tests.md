@@ -10,7 +10,7 @@ title: Mock tests
 ## Sign-up form
 
 
-#### 53 sign-ups so far
+#### 55 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
@@ -49,24 +49,20 @@ Each test will have 10 objective questions and 6 subjective questions. Each test
 ## Types of tests
 
 There will be two types of tests every month: full-syllabus and topic-specific tests. Tests of the latter kind will have questions confined
-to one or two topics. For example, the first test in February will have questions only from number theory and trigonometry. The second test
-will have questions only from algebra.  A full-syllabus test will be at par with a CMI entrance exam.
+to one or two topics. For example, the [first test](/docs/mock_test/001_feb_7_nt_trig) in February had questions only from number theory and trigonometry.
+A full-syllabus test will be at par with a CMI entrance exam.
 
 
 
-## February schedule
+## March schedule
+
+The topic of the month is calculus. Basic knowledge of algebra and trigonometry will be assumed.
 
 Date | Day | Timing | Type | Topics
 ---|---|--|--
-7 Feb | Sunday | 10:30am - 1:30pm | Topic-specific | Number theory + Trigonometry
-18 Feb | Thursday | 5pm - 8pm | Topic-specific | Algebra
-28 Feb | Sunday | 10:30am-1:30pm | Full syllabus
-
-
-
-## Evaluation
-
-Similar to CMI's policy, the subjective questions will be evaluated only if you get at least three questions from the objective section correct.
+10 March '21 | Wednesday | 5pm - 8pm | Topic-specific | Limits and derivatives
+21 March '21| Sunday | 10:30am-1:30pm | Topic-specific | Integrals
+31 March '21| Wednesday | 5pm-8pm  | Full syllabus
 
 
 
