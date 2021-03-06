@@ -7,10 +7,10 @@ nav_exclude: true
 
 #  Mock Test #3: Results
 
-#### Topics: Algebra
+#### Topics: Full-syllabus
 {: .fs-3 .text-grey-004 }
 
-#### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 18 Feb 2021
+#### Timings: 10:30-13:30 Hrs &nbsp;&nbsp;  Date: 28 Feb 2021
 {: .fs-3 .text-grey-004 }
 
 ---
