@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Mock test 3's results are [up](/docs/mock_test/003_feb_28_scorecard/). Solutions will be given by tomorrow morning.
+- Mock test #3's results are [up](/docs/mock_test/003_feb_28_scorecard/). Solutions will be given by tomorrow morning.
 
 
 ---
