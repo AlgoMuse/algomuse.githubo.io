@@ -24,9 +24,9 @@ The following students took part in the second mock test. The table below shows 
 student's submission, click on the corresponding cell and scroll down.
 
 
-Aditya Prabhu, Amit Kumar Basistha, Deepta Basak, Devansh Kamra,
-Gautham, Hardik Gaur, Krishanu, Manan Roy Choudhury, Rishav, Ryan Hota,
-Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata, Soumyadeep, Varnana, Varun and Vishal S.<br><br>
+Aditya Prabhu (*), Amit Kumar Basistha, Deepta Basak, Devansh Kamra,
+Gautham (*), Hardik Gaur, Krishanu, Manan Roy Choudhury, Rishav, Ryan Hota (*),
+Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (*), Soumyadeep, Varnana, Varun and Vishal S.<br><br>
 (\*) Offline entry
 {: .bg-grey-lt-000 .p-6 }
 
