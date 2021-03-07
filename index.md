@@ -21,8 +21,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Mock test #3's results are [up](/docs/mock_test/003_feb_28_scorecard/). Solutions will be given by tomorrow morning.
 - The next test is scheduled on March 10th. Last date for paid subscription: March 9th.
+- Mock test #3's results are [here](/docs/mock_test/003_feb_28_scorecard/). Solutions are sent to all members.
 
 
 ---
