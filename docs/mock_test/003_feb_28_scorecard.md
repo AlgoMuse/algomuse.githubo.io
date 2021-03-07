@@ -63,18 +63,8 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 
 
 
+
 <button class="markbutton rank">1. </button>
-<input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
-<button class="markbutton blank" onclick = "markdisplay('Muhammad_Al_Khwarizmi/PartA',3)">28</button>
-<button class="button white"></button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B1',3)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B2',3)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B3',3)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B4',3)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B5',3)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B6',3)">10</button>
-<button class="markbutton total">88</button>
-<button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Emmy Noether"/>
 <button class="markbutton blank" onclick = "markdisplay('Emmy_Noether/PartA',3)">32</button>
 <button class="button white"></button>
@@ -85,7 +75,7 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 <button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B5',3)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B6',3)">10</button>
 <button class="markbutton total">84</button>
-<button class="markbutton rank">3. </button>
+<button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Sophie Germain"/>
 <button class="markbutton blank" onclick = "markdisplay('Sophie_Germain/PartA',3)">30</button>
 <button class="button white"></button>
@@ -96,6 +86,17 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 <button class="markbutton right" onclick = "markdisplay('Sophie_Germain/B5',3)">9</button>
 <button class="markbutton right" onclick = "markdisplay('Sophie_Germain/B6',3)">10</button>
 <button class="markbutton total">83</button>
+<button class="markbutton rank">3. </button>
+<input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
+<button class="markbutton blank" onclick = "markdisplay('Muhammad_Al_Khwarizmi/PartA',3)">28</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B1',3)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B2',3)">4</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B3',3)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B4',3)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B5',3)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B6',3)">10</button>
+<button class="markbutton total">82</button>
 <button class="markbutton rank">4. </button>
 <input type="button" class="markbutton white" value="Sofia Kovalevskaya"/>
 <button class="markbutton blank" onclick = "markdisplay('Sofia_Kovalevskaya/PartA',3)">36</button>
@@ -134,12 +135,12 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 <button class="markbutton blank" onclick = "markdisplay('Diophantus_of_Alexandria/PartA',3)">32</button>
 <button class="button white"></button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B1',3)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Diophantus_of_Alexandria/B2',3)">3</button>
+<button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B2',3)">9</button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B3',3)">5</button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B4',3)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B5',3)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Diophantus_of_Alexandria/B6',3)">0</button>
-<button class="markbutton total">70</button>
+<button class="markbutton total">76</button>
 <button class="markbutton rank">8. </button>
 <input type="button" class="markbutton white" value="Joseph Louis Lagrange"/>
 <button class="markbutton blank" onclick = "markdisplay('Joseph_Louis_Lagrange/PartA',3)">34</button>
@@ -261,7 +262,6 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">10</button>
-
 
 
 
