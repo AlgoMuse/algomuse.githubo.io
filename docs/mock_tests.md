@@ -10,7 +10,7 @@ title: Mock tests
 ## Sign-up form
 
 
-#### 55 sign-ups so far
+#### 58 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
