@@ -20,9 +20,7 @@ nav_exclude: true
 ## Scorecard
 
 
-The following students took part in the mock test. The table below shows their scores against anonymized names. To view any
-student's submission, click on the corresponding cell and scroll down.
-
+The following students took part in the mock test. The table below shows their scores against anonymized names.
 
 
 Ryan Hota, Devansh Kamra, Varun, Gautham, Soumyadeep, Snehansu (\*), Deepta Basak, Manan Roy Choudhury,
@@ -31,7 +29,17 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 {: .bg-grey-lt-000 .p-6 }
 
 
+---
 
+### How to view a submission?
+
+To see any student's answer:
+
+1. Click on the marks corresponding to the question in the scorecard below.
+2. Scoll down.
+
+
+---
 
   <div class="markpalette">
       <div class="markpalette-keys">
@@ -164,6 +172,17 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton wrong" onclick = "markdisplay('Srinivasa_Ramanujan/B6',4)">0</button>
 <button class="markbutton total">66</button>
 <button class="markbutton rank">10. </button>
+<input type="button" class="markbutton white" value="Carl Friedrich Gauss"/>
+<button class="markbutton blank" onclick = "markdisplay('Carl_Friedrich_Gauss/PartA',4)">28</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B1',4)">10</button>
+<button class="markbutton wrong" onclick = "markdisplay('Carl_Friedrich_Gauss/B2',4)">2</button>
+<button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B3',4)">7</button>
+<button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B4',4)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B5',4)">4</button>
+<button class="markbutton wrong" onclick = "markdisplay('Carl_Friedrich_Gauss/B6',4)">0</button>
+<button class="markbutton total">61</button>
+<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Sun Tzu"/>
 <button class="markbutton blank" onclick = "markdisplay('Sun_Tzu/PartA',4)">20</button>
 <button class="button white"></button>
@@ -174,7 +193,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Sun_Tzu/B5',4)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Sun_Tzu/B6',4)">0</button>
 <button class="markbutton total">56</button>
-<button class="markbutton rank">11. </button>
+<button class="markbutton rank">12. </button>
 <input type="button" class="markbutton white" value="Florence Nightingale"/>
 <button class="markbutton blank" onclick = "markdisplay('Florence_Nightingale/PartA',4)">20</button>
 <button class="button white"></button>
@@ -185,7 +204,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">46</button>
-<button class="markbutton rank">12. </button>
+<button class="markbutton rank">13. </button>
 <input type="button" class="markbutton white" value="Katherine Johnson"/>
 <button class="markbutton blank" onclick = "markdisplay('Katherine_Johnson/PartA',4)">16</button>
 <button class="button white"></button>
@@ -196,7 +215,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Katherine_Johnson/B5',4)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Katherine_Johnson/B6',4)">0</button>
 <button class="markbutton total">44</button>
-<button class="markbutton rank">13. </button>
+<button class="markbutton rank">14. </button>
 <input type="button" class="markbutton white" value="Bernhard Riemann"/>
 <button class="markbutton blank" onclick = "markdisplay('Bernhard_Riemann/PartA',4)">16</button>
 <button class="button white"></button>
@@ -207,7 +226,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Bernhard_Riemann/B5',4)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">40</button>
-<button class="markbutton rank">14. </button>
+<button class="markbutton rank">15. </button>
 <input type="button" class="markbutton white" value="Girolamo Cardano"/>
 <button class="markbutton blank" onclick = "markdisplay('Girolamo_Cardano/PartA',4)">16</button>
 <button class="button white"></button>
@@ -218,7 +237,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">36</button>
-<button class="markbutton rank">15. </button>
+<button class="markbutton rank">16. </button>
 <input type="button" class="markbutton white" value="Ada Lovelace"/>
 <button class="markbutton blank" onclick = "markdisplay('Ada_Lovelace/PartA',4)">8</button>
 <button class="button white"></button>
@@ -229,7 +248,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Ada_Lovelace/B6',4)">10</button>
 <button class="markbutton total">32</button>
-<button class="markbutton rank">16. </button>
+<button class="markbutton rank">17. </button>
 <input type="button" class="markbutton white" value="Galileo Galilei"/>
 <button class="markbutton blank" onclick = "markdisplay('Galileo_Galilei/PartA',4)">16</button>
 <button class="button white"></button>
@@ -240,7 +259,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">16</button>
-<button class="markbutton rank">17. </button>
+<button class="markbutton rank">18. </button>
 <input type="button" class="markbutton white" value="Beniot Mandelbrot"/>
 <button class="markbutton blank" onclick = "markdisplay('Beniot_Mandelbrot/PartA',4)">8</button>
 <button class="button white"></button>
@@ -251,7 +270,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">12</button>
-<button class="markbutton rank">18. </button>
+<button class="markbutton rank">19. </button>
 <input type="button" class="markbutton white" value="Giuseppe Peano"/>
 <button class="markbutton blank" onclick = "markdisplay('Giuseppe_Peano/PartA',4)">8</button>
 <button class="button white"></button>
