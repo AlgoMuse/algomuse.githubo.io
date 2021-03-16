@@ -269,7 +269,6 @@ that can be attained by any such rectangle?</li>
 <img src="/assets/images/mt4_max_rect.png"/>
 </p>
 
-<i>Problem source: SMT</i><br>
 
 </p>
 
