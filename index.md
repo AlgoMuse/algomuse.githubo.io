@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- The results of mock test 4 is [up](/docs/mock_test/004_mar_10_scorecard).
+- The results of mock test 4 are [up](/docs/mock_test/004_mar_10_scorecard).
 
 
 ---
