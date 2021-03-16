@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- The results of mock test 4 will be announced by 1 pm, 16 March, 2021.
+- The results of mock test 4 will be announced by 2 pm, 16 March, 2021.
 
 
 ---
