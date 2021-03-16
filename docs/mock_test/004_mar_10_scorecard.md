@@ -148,8 +148,8 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Srinivasa_Ramanujan/B2',4)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Srinivasa_Ramanujan/B3',4)">4</button>
 <button class="markbutton right" onclick = "markdisplay('Srinivasa_Ramanujan/B4',4)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Srinivasa_Ramanujan/B5',4)">3</button>
-<button class="markbutton wrong" onclick = "markdisplay('Srinivasa_Ramanujan/B6',4)">1</button>
+<button class="markbutton wrong" onclick = "markdisplay('Srinivasa_Ramanujan/B5',4)">4</button>
+<button class="markbutton wrong" onclick = "markdisplay('Srinivasa_Ramanujan/B6',4)">0</button>
 <button class="markbutton total">66</button>
 <button class="markbutton rank">9. </button>
 <input type="button" class="markbutton white" value="Evariste Galois"/>
