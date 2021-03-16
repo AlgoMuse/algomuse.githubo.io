@@ -276,6 +276,10 @@ Samya Mukherjee, Sanjay Sharma, Snehansu, Sougata (\*), Soumyadeep, Varnana, Var
 </div>
 
 
+<br>
+<br>
+<a href="/docs/mock_test/002_feb_18_scorecard">Results of the previous mock test.</a>
+<br>
 
 
 

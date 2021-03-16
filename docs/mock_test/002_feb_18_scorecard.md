@@ -274,6 +274,10 @@ Shayari Das (\*), Varnana, Varun, Vishal S and Yenisi Das.<br><br>
 </div>
 
 
+<br>
+<br>
+<a href="/docs/mock_test/001_feb_7_scorecard">Results of the previous mock test.</a>
+<br>
 
 
 

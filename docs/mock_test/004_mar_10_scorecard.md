@@ -277,6 +277,10 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 </div>
 
 
+<br>
+<br>
+<a href="/docs/mock_test/003_feb_28_scorecard">Results of the previous mock test.</a>
+<br>
 
 
 
