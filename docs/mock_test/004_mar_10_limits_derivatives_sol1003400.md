@@ -114,8 +114,6 @@ The limit exists exactly when the exponent of \(x\) in the numerator is at least
 
 <br>
 
-<i>Problem source: SMT 2019.</i>
-
 </details>
 
 
