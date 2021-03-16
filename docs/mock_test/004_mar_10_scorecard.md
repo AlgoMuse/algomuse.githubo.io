@@ -25,7 +25,7 @@ student's submission, click on the corresponding cell and scroll down.
 
 
 
-Ryan Hota, Devansh Kamra, Varun, Gautham, Soumyadeep, Snehansu (\*), Deepta Basak (\*), Manan Roy Choudhury,
+Ryan Hota, Devansh Kamra, Varun, Gautham, Soumyadeep, Snehansu (\*), Deepta Basak, Manan Roy Choudhury,
 Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Sharma, Karthik S, Gyanananda, Debjit Khaskel and Sougata Panda(\*).<br><br>
 (\*) Offline entry
 {: .bg-grey-lt-000 .p-6 }
