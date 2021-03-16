@@ -24,7 +24,7 @@ The following students took part in the mock test. The table below shows their s
 
 
 Ryan Hota, Devansh Kamra, Varun, Yenisi Das, Gautham, Soumyadeep, Snehansu (\*), Deepta Basak, Manan Roy Choudhury,
-Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Sharma, Karthik S, Gyanananda, Debjit Khaskel and Sougata Panda(\*).<br><br>
+Krishanu (\*), Samya Mukherjee (\*), Varnana (\*), Rishav (\*), Vishal S, Sanjay Sharma, Karthik S, Gyanananda, Debjit Khaskel and Sougata Panda(\*).<br><br>
 (\*) Offline entry
 {: .bg-grey-lt-000 .p-6 }
 
