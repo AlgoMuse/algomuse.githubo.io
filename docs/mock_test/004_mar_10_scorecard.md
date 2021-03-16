@@ -63,6 +63,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 
 
 
+
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
 <button class="markbutton blank" onclick = "markdisplay('Muhammad_Al_Khwarizmi/PartA',4)">36</button>
@@ -108,6 +109,17 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B6',4)">10</button>
 <button class="markbutton total">84</button>
 <button class="markbutton rank">5. </button>
+<input type="button" class="markbutton white" value="Evariste Galois"/>
+<button class="markbutton blank" onclick = "markdisplay('Evariste_Galois/PartA',4)">40</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B1',4)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B2',4)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B3',4)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B4',4)">10</button>
+<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B5',4)">0</button>
+<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B6',4)">0</button>
+<button class="markbutton total">80</button>
+<button class="markbutton rank">6. </button>
 <input type="button" class="markbutton white" value="Sophie Germain"/>
 <button class="markbutton blank" onclick = "markdisplay('Sophie_Germain/PartA',4)">28</button>
 <button class="button white"></button>
@@ -118,7 +130,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('Sophie_Germain/B5',4)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Sophie_Germain/B6',4)">10</button>
 <button class="markbutton total">78</button>
-<button class="markbutton rank">6. </button>
+<button class="markbutton rank">7. </button>
 <input type="button" class="markbutton white" value="George Boole"/>
 <button class="markbutton blank" onclick = "markdisplay('George_Boole/PartA',4)">24</button>
 <button class="button white"></button>
@@ -129,7 +141,7 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="markbutton right" onclick = "markdisplay('George_Boole/B5',4)">10</button>
 <button class="markbutton right" onclick = "markdisplay('George_Boole/B6',4)">10</button>
 <button class="markbutton total">74</button>
-<button class="markbutton rank">7. </button>
+<button class="markbutton rank">8. </button>
 <input type="button" class="markbutton white" value="Emmy Noether"/>
 <button class="markbutton blank" onclick = "markdisplay('Emmy_Noether/PartA',4)">28</button>
 <button class="button white"></button>
@@ -139,17 +151,6 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B5',4)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Emmy_Noether/B6',4)">10</button>
-<button class="markbutton total">72</button>
-<button class="markbutton rank">8. </button>
-<input type="button" class="markbutton white" value="Evariste Galois"/>
-<button class="markbutton blank" onclick = "markdisplay('Evariste_Galois/PartA',4)">32</button>
-<button class="button white"></button>
-<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B1',4)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B2',4)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B3',4)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B4',4)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B5',4)">0</button>
-<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B6',4)">0</button>
 <button class="markbutton total">72</button>
 <button class="markbutton rank">9. </button>
 <input type="button" class="markbutton white" value="Srinivasa Ramanujan"/>
@@ -261,7 +262,6 @@ Krishanu (\*), Samya Mukherjee (\*), Varnana, Rishav (\*), Vishal S, Sanjay Shar
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">8</button>
-
 
 
 
