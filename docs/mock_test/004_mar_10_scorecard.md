@@ -70,6 +70,7 @@ To see any student's answer:
 
 
 
+
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
 <button class="markbutton blank" onclick = "markdisplay('Muhammad_Al_Khwarizmi/PartA',4)">36</button>
@@ -263,7 +264,7 @@ To see any student's answer:
 <button class="button white"></button>
 <button class="button blank"></button>
 <button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Beniot_Mandelbrot/B3',4)">0</button>
+<button class="markbutton right" onclick = "markdisplay('Beniot_Mandelbrot/B3',4)">4</button>
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="button blank"></button>
@@ -279,7 +280,6 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">8</button>
-
 
 
 
