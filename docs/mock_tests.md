@@ -86,6 +86,9 @@ The beginner option is recommended for students who are in Std. XI and who are y
 feel inadequately prepared on a particular month's topics, you can opt out of paid subscription for that month.
 
 
+Free subscribers can also submit solutions. I will pick two random submissions among them and give full feedback.
+
+
 ## Contact
 
 You can reach me at this number: 7975 2867 81. I'm happy to talk to both students and parents.
