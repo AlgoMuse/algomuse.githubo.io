@@ -21,8 +21,8 @@ title: Mock test 5
 
 
 **For students who miss the live test (members only)**<br>
-Self-administer the mock test and email your solutions before 21 Mar, 13:30 Hrs. Your solutions will be evaluated
-but marks won't be counted for official use in the future. Solutions submitted after 21 Mar, 13:30 Hrs will not be evaluated.
+Self-administer the mock test and email your solutions before 22 Mar, 23:59 Hrs. Your solutions will be evaluated
+but marks won't be counted for official use in the future. Solutions submitted after 22 Mar, 23:59 Hrs will not be evaluated.
 {: .bg-grey-lt-000 .p-6 }
 
 
