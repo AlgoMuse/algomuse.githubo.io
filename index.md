@@ -20,8 +20,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-
-- The results of mock test 4 are [up](/docs/mock_test/004_mar_10_scorecard). The next test is on March 21st.
+- Timings for mock test 5: 10:30am-1:30pm, Sunday.
+- The results of mock test 4 are [here](/docs/mock_test/004_mar_10_scorecard).
 
 
 ---
