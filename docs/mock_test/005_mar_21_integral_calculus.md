@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Mock test 5
+nav_exclude: true
 ---
 
 
