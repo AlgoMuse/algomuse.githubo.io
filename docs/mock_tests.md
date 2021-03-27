@@ -89,6 +89,23 @@ feel inadequately prepared on a particular month's topics, you can opt out of pa
 Free subscribers can also submit solutions. I will pick two random submissions among them and give full feedback.
 
 
+
+## Previous question papers
+
+No. | Question paper | Date | Results
+--|--|--|--
+1. | [Number theory & Trigonometry](/docs/mock_test/001_feb_7_nt_trig/)  | 7 Feb '21 | [Scorecard](/docs/mock_test/001_feb_7_scorecard/)
+2. | [Algebra](/docs/mock_test/002_feb_18_alge/) | 18 Feb '21 | [Scorecard](/docs/mock_test/002_feb_18_scorecard)
+3. | [Full-syllabus](/docs/mock_test/003_feb_28_full/) | 28 Feb '21 | [Scorecard](/docs/mock_test/003_feb_28_scorecard)
+4. | [Limits & Derivatives](/docs/mock_test/004_mar_10_limits_derivatives) | 10 Mar '21 | [Scorecard](/docs/mock_test/004_mar_10_scorecard)
+5. | [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  TBA
+
+
+
+
+
+
+
 ## Contact
 
 You can reach me at this number: 7975 2867 81. I'm happy to talk to both students and parents.
