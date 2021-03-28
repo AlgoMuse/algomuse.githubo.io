@@ -20,8 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Timings for mock test 5: 10:30am-1:30pm, Sunday.
-- The results of mock test 4 are [here](/docs/mock_test/004_mar_10_scorecard).
+- The results of mock test 5 are [here](/docs/mock_test/005_mar_21_scorecard).
 
 
 ---
