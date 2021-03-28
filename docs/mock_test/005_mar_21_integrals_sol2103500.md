@@ -243,6 +243,7 @@ hence, \( \lim_{x \rightarrow \infty} f(x) \) exists and is, at most, \( 1+\frac
 
 \[ \lim_{x \rightarrow \infty} f(x)=1+\int_{1}^{\infty} f^{\prime}(t) d t<1+\int_{1}^{\infty} \frac{1}{t^{2}+1} d t=1+\frac{\pi}{4} \]
 
+<i>Problem source: Berekely problems in mathematics.</i>
 </p>
 
 </details>
@@ -303,6 +304,7 @@ Hence, the arc length is minimized when \(P\) is the one of the points
 \[ \left(\frac{1}{\sqrt{3}}, \frac{1}{3}\right),\left(-\frac{1}{\sqrt{3}}, \frac{1}{3}\right) \]
 
 
+<i>Problem source: Calculus and its applications.</i> <br>
 </details>
 
 <p>
