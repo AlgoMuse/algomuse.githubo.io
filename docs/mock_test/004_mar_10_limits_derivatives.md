@@ -24,6 +24,7 @@ nav_exclude: true
 **For students who miss the live test (members only)**<br>
 Self-administer the mock test and email your solutions before 11 Mar, 23:59 Hrs. Your solutions will be evaluated
 but marks won't be counted for official use in the future. Solutions submitted after 11 Mar, 23:59 Hrs will not be evaluated.
+As per the rules of CMI entrance exam, no calculators or log tables must be used.
 {: .bg-grey-lt-000 .p-6 }
 
 

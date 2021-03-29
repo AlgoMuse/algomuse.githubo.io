@@ -18,6 +18,7 @@ nav_exclude: true
 - Find an email from me with the subject line 'Mock test #1: Number theory and trigonometry'. Send your solutions (images) as replies to this email.
 - Make sure that the handwriting is clear and no image is blurred.
 - Adjust/Reduce the resolution of the camera so that each image is less than 500 KB in size.
+- Note that calculators and log tables are not allowed in the actual CMI entrance exam.
 - Total marks: 100 (10x4=40 for Part A + 6x10=60 for Part B)
 {: .bg-grey-lt-000 .p-6 }
 
@@ -71,7 +72,7 @@ but marks won't be included in the official scorecard. Solutions submitted after
 
 
 <p><li> Imagine a rectangular carrom board \(ABCD\) with \(AB=17 \) cm and \(BC=16 \) cm.  Assume the striker to be a point moving with no friction. The angle of reflection is equal to the angle of incidence. The striker is shot from point \(A\)
-at an angle \(\alpha\). It bounces of the edges twice and ends up at corner \(C\) as shown below. What is the value of \(\tan \alpha\)?
+at an angle \(\alpha\). It bounces off the edges twice and ends up at corner \(C\) as shown below. What is the value of \(\tan \alpha\)?
 </li></p>
 
 <p style="text-align:center">
@@ -202,7 +203,7 @@ Express the solutions as triplets \( (x,y,z) \).
 
 
 <p>
-<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>0\) such that  \( x(x+1) = 2442^n \).
+<b>B6</b>. Prove that there are no integers \(x>0\) and \(n>1\) such that  \( x(x+1) = 2442^n \).
 </p>
 
 <!--
