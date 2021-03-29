@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The next test will be held on  April 1st, Friday. Timings: 5pm-8pm. Note the change in the date!
+- The next test will be held on  April 1st, Thursday. Timings: 5pm-8pm. Note the change in the date!
 - The results of mock test 5 are [here](/docs/mock_test/005_mar_21_scorecard).
 
 
