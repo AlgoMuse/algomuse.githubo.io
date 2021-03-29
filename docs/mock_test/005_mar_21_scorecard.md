@@ -7,7 +7,7 @@ nav_exclude: true
 
 #  Mock Test #5: Results
 
-#### Topics: Limits and derivatives
+#### Topics: Integral Calculus
 {: .fs-3 .text-grey-004 }
 
 #### Timings: 10:30-13:30 Hrs &nbsp;&nbsp;  Date: 21 Mar 2021
