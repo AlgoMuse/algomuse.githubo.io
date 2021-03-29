@@ -54,7 +54,8 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 
 
-## March schedule
+<!--
+## Current schedule
 
 The topic of the month is calculus. Basic knowledge of algebra and trigonometry will be assumed.
 
@@ -62,8 +63,8 @@ Date | Day | Timing | Type | Topics
 ---|---|--|--
 10 March '21 | Wednesday | 5pm - 8pm | Topic-specific | Limits and derivatives
 21 March '21| Sunday | 10:30am-1:30pm | Topic-specific | Integrals
-31 March '21| Wednesday | 5pm-8pm  | Full syllabus
-
+1 April '21| Wednesday | 5pm-8pm  | Full syllabus
+-->
 
 
 ## What happens if you miss a test?
@@ -92,14 +93,13 @@ Free subscribers can also submit solutions. I will pick two random submissions a
 
 ## Previous question papers
 
-No. | Question paper | Date | Results
---|--|--|--
-1. | [Number theory & Trigonometry](/docs/mock_test/001_feb_7_nt_trig/)  | 7 Feb '21 | [Scorecard](/docs/mock_test/001_feb_7_scorecard/)
-2. | [Algebra](/docs/mock_test/002_feb_18_alge/) | 18 Feb '21 | [Scorecard](/docs/mock_test/002_feb_18_scorecard)
-3. | [Full-syllabus](/docs/mock_test/003_feb_28_full/) | 28 Feb '21 | [Scorecard](/docs/mock_test/003_feb_28_scorecard)
-4. | [Limits & Derivatives](/docs/mock_test/004_mar_10_limits_derivatives) | 10 Mar '21 | [Scorecard](/docs/mock_test/004_mar_10_scorecard)
-5. | [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  TBA
-
+Question paper | Date | Results
+--|--|--
+ [Number theory & Trigonometry](/docs/mock_test/001_feb_7_nt_trig/)  | 7 Feb '21 | [Scorecard](/docs/mock_test/001_feb_7_scorecard/)
+ [Algebra](/docs/mock_test/002_feb_18_alge/) | 18 Feb '21 | [Scorecard](/docs/mock_test/002_feb_18_scorecard)
+ [Full-syllabus](/docs/mock_test/003_feb_28_full/) | 28 Feb '21 | [Scorecard](/docs/mock_test/003_feb_28_scorecard)
+ [Limits & Derivatives](/docs/mock_test/004_mar_10_limits_derivatives) | 10 Mar '21 | [Scorecard](/docs/mock_test/004_mar_10_scorecard)
+ [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  [Scorecard](/docs/mock_test/005_mar_21_scorecard)
 
 
 
