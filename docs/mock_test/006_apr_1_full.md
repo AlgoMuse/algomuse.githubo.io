@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Mock test 6
+nav_exclude: true
 ---
 
-nav_exclude: true
 
 #  MT #6: Full-syllabus
 #### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 1 April 2021
