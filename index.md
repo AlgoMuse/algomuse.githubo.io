@@ -20,8 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Mock test 6 has ended. Offline submissions for members is open.
-- The results of mock test 5 are [here](/docs/mock_test/005_mar_21_scorecard).
+- Mock test 6 has ended. Results will be uploaded by 8th April.
 
 
 
