@@ -20,8 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Mock test 6 has ended. Results will be uploaded by 8th April.
-
+- Mock test 6 results are [up](/docs/mock_test/006_apr_1_scorecard).
 
 
 ---
