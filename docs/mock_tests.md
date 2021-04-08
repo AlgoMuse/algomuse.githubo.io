@@ -100,6 +100,7 @@ Question paper | Date | Results
  [Full-syllabus](/docs/mock_test/003_feb_28_full/) | 28 Feb '21 | [Scorecard](/docs/mock_test/003_feb_28_scorecard)
  [Limits & Derivatives](/docs/mock_test/004_mar_10_limits_derivatives) | 10 Mar '21 | [Scorecard](/docs/mock_test/004_mar_10_scorecard)
  [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  [Scorecard](/docs/mock_test/005_mar_21_scorecard)
+ [Full-syllabus](/docs/mock_test/006_apr_1_full/) | 1 Apr '21 | [Scorecard](/docs/mock_test/006_apr_1_scorecard)
 
 
 
