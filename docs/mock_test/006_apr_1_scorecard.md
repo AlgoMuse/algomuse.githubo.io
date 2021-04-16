@@ -162,7 +162,7 @@ To see any student's answer:
 <button class="markbutton total">64</button>
 <button class="markbutton rank">9. </button>
 <input type="button" class="markbutton white" value="Carl Friedrich Gauss"/>
-<button class="markbutton blank" onclick = "markdisplay('Carl_Friedrich_Gauss/PartA',6)">24</button>
+<button class="markbutton blank" onclick = "markdisplay('Carl_Friedrich_Gauss/PartA',6)">27</button>
 <button class="button white"></button>
 <button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B1',6)">10</button>
 <button class="button blank"></button>
@@ -170,7 +170,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B4',6)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B5',6)">4</button>
 <button class="markbutton right" onclick = "markdisplay('Carl_Friedrich_Gauss/B6',6)">10</button>
-<button class="markbutton total">58</button>
+<button class="markbutton total">61</button>
 <button class="markbutton rank">10. </button>
 <input type="button" class="markbutton white" value="Sun Tzu"/>
 <button class="markbutton blank" onclick = "markdisplay('Sun_Tzu/PartA',6)">28</button>
