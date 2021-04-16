@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Guidelines for problem-setters
+nav_exclude: true
 ---
 
 # Information for problem-setters
