@@ -26,6 +26,16 @@ table.inner-borders {
 
 
 
+# CMI-2020 selections at a glance
+{: .no_toc }
+
+1. TOC
+{:toc}
+
+---
+
+
+
 
 ## Direct Admits
 
@@ -35,6 +45,11 @@ exception--he was given a direct admit based on his IChO performance. The candid
 options, so only a fraction of them end up taking admission in CMI. For instance, 6 out of 32 students with direct-admits have joined CMI. Roughly
 an equal number of them have joined ISI.
 
+
+
+<p style="text-align:center">
+<img src="/assets/images/imo_cmi.jpg"/>
+</p>
 
 
 #### Math olympiad
@@ -112,10 +127,11 @@ Muhendar Raj  |  4 | IChO (Silver), Currently at UCLA  |
 ISI-Direct Admit [pdf](https://www.isical.ac.in/~admission/Documents/IsiAdmission2020/INMO-Awardee-Waiver-List-Notice-2020.pdf)<br>
 [IOITC](https://www.iarcs.org.in/inoi/2020/inoi2020/results_inoi2020.php)<br>
 IMOTC stands for International Math Olympiad Training Camp.
-{: .fs-3 .fw-300 }
+{: .fs-2 .fw-300 }
 
 
 
+## Region-wise selections
 
 ### Bangalore
 
@@ -123,7 +139,7 @@ Surprisingly, Bangalore has more selections than Chennai this year. We would lik
 put out some interesting educational content on the web.
 
 
- - Firstly, we have Vishnu Kadiri who has been active on Math Stack exchange and has
+ - Firstly, we have Vishnu Kadiri who has been active on [Math Stack exchange](https://math.stackexchange.com/users/818907/vishnu-kadiri) and has
 answered many questions on the forum.
 
  - Secondly, there is Rajatadri who has published a math article in the magazine 'At right angles'. He gives a
@@ -164,13 +180,21 @@ Aytijhya Saha | 1606 | INMO-2019 | [Photo from Pathfinder](https://pathfinder.ed
 
 ### Chennai
 
+Only three students from Chennai have joined CMI this year. Among the qualified students, two are from Prof.K.K. Anand's Smart Academy and one from Brilliant Pala.
+
+<p style="text-align:center;">
+<img src="/assets/images/chennai_five.png"/>
+</p>
+
+
+
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  |  Misc. info
 |------|------|
  Ankush Agarwal   &#65290;          |       ~5000 |  Prerna Classes
  R S Harish Krishnan        |       1950  |
  K.Samrat            &#65290;            |
  T Karthik Rajendran   &#65290;          |       2327  |   [Photo](https://smartedu.co.in/gallery/pdf/SmartEdu-Online-Classes-2020-21.pdf)
- Sidharth A Narayanan       |       3954 | [Photo](http://brilliantpala.org/wp-content/uploads/2020/10/20x12-new.jpg)
+ Sidharth A Narayanan       |       3954 | [Brilliant Pala](http://brilliantpala.org)
  Kavin K                    |       12802 |  FIIT-JEE Chennai
  Navin Chandran K P         |       539 | [Photo](https://www.fiitjeechennai.com/v1/ntse-results.html)
  S Joel                     |       1851 |
@@ -180,15 +204,19 @@ Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
 ### Delhi
 
+<p style="text-align:center;">
+<img src="/assets/images/delhi_three.jpg"/>
+</p>
+
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  |  Misc. info
 |------|------|
 Abhinav Roy                 |
 Aakash Yadav &#65290;       |
-Tanvi Singh                 |
+Tanvi Singh                 | 15456 | FIITJEE (Dwarka)
 Hardik Kalra &#65290;       |
 Debashis Biswal &#65290;    |
-Aryaman Das                 |     1972 | FIITJEE Delhi [Quora](https://www.quora.com/If-you-cleared-the-IIT-Advanced-recently-which-material-did-you-cover-and-how-much-did-you-complete-It-can-be-Allen-FIITJEE-Resonance-Bansal-textbooks-problem-books-Rank-Booster-etc-What-rank-did-you-get)
+Aryaman Das                 |     1972 | Currently at IIT Delhi. [Quora](https://www.quora.com/profile/Aryaman-Das-2)
 Varad Mahashabde            |     1016 | FIITJEE Delhi [Photo](http://iitjeetoppers.com/Testimonial2020.aspx?SID=8065)
 
 
@@ -219,6 +247,10 @@ Aleena M R                  |        | KEAM - 10, JEE Main 99.8125971, (First am
 ---
 
 ### West Bengal
+
+As expected, Kolkata has the maximum number of qualified students. Eleven students
+from WB have joined CMI.
+
 
 #### Durgapur
 
