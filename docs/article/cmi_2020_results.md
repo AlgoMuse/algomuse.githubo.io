@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Overview of CMI 2020 results
-nav_exclude: true
+title: Article
 ---
 
 <style>
@@ -34,15 +33,21 @@ table.inner-borders {
 
 ---
 
+**Summary**
+<br>We take a look at budding mathematicians who cleared the CMI entrance exam 2020.
+{: .bg-grey-lt-000 .p-7 }
 
+<p style="text-align:center">
+<img src="/assets/images/cmi_four.png"/>
+</p>
 
 
 ## Direct Admits
 
 
-The royal road to CMI goes through olympiads. Most of the students have qualified either through math or informatics olympiad. Muhendar Raj is the only
+The royal road to CMI goes through the olympiads. Most of the students have qualified either through math or informatics olympiad. Muhendar Raj is the only
 exception--he was given a direct admit based on his IChO performance. The candidates who qualify through this route usually have other good
-options, so only a fraction of them end up taking admission in CMI. For instance, 6 out of 32 students with direct-admits have joined CMI. Roughly
+options, so only a fraction of them end up taking admission in CMI. For instance, 6 out of 32 students with direct admits have joined CMI. Roughly
 an equal number of them have joined ISI.
 
 
@@ -55,12 +60,12 @@ an equal number of them have joined ISI.
 #### Math olympiad
 
 
-The INMO awardees are invited to a month long training camp, IMOTC in HBCSE. Those who successfully complete IMOTC are eligible
+The INMO awardees are invited to a month-long training camp, IMOTC in HBCSE. Those who complete the IMOTC are eligible
 for a scholarship of Rs 4000 per month from NBHM for the duration of their undergraduate studies. The list of participants for the
 INMO is also used for selecting students for EGMO and APMO, apart from IMO. The Indian contingent won 5 medals in IMO '19 held in Bath, UK. Anubhab Ghosal secured a silver medal.
-List of students selected to IMOTC 2020 is [here](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/04/List-of-students-invited-to-IMOTC-2020.pdf) (pdf).
+The list of students selected to IMOTC 2020 is [here](https://olympiads.hbcse.tifr.res.in/wp-content/uploads/2020/04/List-of-students-invited-to-IMOTC-2020.pdf) (pdf).
 
-The subjective questions in CMI entrance exam are similiar to olympiad problems, so students who reach RMO
+The subjective questions in CMI entrance exam are similar to olympiad problems, so students who reach RMO
 have an edge over others in the selection process.
 
 
@@ -93,8 +98,8 @@ Sudharshan K V             |       179  |  ISI-Direct Admit, [APMO 2018](https:/
 #### Informatics olympiad
 
 The Indian informatics olympiad is organized by IARCS and CMI is in charge of the selection process. Students who qualify via this route
-are usually good at competitive programming. A few students from CMI who currently have high standing in Codeforces are  [Rajat De](https://codeforces.com/profile/rajat1603), [Surya Prakash](https://codeforces.com/profile/evilbuggy) and [Goutham R](https://codeforces.com/profile/xorfire).
-Dhruv Saraff has achieved an impressive rating while still in high-school and is somebody to look out for.
+are usually good at competitive programming. A few students from CMI who currently have a high standing in Codeforces are  [Rajat De](https://codeforces.com/profile/rajat1603), [Surya Prakash](https://codeforces.com/profile/evilbuggy) and [Goutham R](https://codeforces.com/profile/xorfire).
+Dhruv Saraff has achieved an impressive rating while still in high school and is somebody to look out for.
 
 
 
@@ -107,7 +112,7 @@ Raghuram Sundararajan       |   |    APMO (Silver), KVPY 84, INOI |
 Aryan Gupta | | INOI Qualified |
 Dhruv Saraff | |IOITC 2020 |   [Codeforces profile](https://codeforces.com/profile/ds007)
 Lokesh V                   |       15328 | IOITC | [Codechef profile](https://www.codechef.com/users/lokesh2002)
-Aryan Agarwala | INOI2020 | The Shri Ram School, Aravali
+Aryan Agarwala | | INOI2020 | The Shri Ram School, Aravali
 Arindam Bhattacharyya      &#65290;       | 	| ISI-Direct Admit, [INOI 2019](https://www.iarcs.org.in/inoi/2019/inoi2019/inoi2019-qualifiers.php) |  Kendriya Vidyalaya
 Nishant Dhankhar |         |IOITC|  Delhi Public School, RK Puram
 Rithvik Chatterjee          |     | IOITC | Calcutta International School, Kolkata
@@ -304,10 +309,10 @@ Shubhendu Prasad Mandal &#65290;| | |
 
 
 
-Aaditya Mahesh Rathi                |   11458 | Joined NIT Warangal [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
-Chinmay Makarand Pimpalkhare        |   770   | [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
-Medha Sridhar Yelimeli   &#65290;   |   14312 | [Src](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf) , Mehta Fellow, PROMYS  Photo: https://promys-india.org/students/testimonials/medha-yelimeli/
-Pranav Sanjay Ghorpade    &#65290;  |   8574  | [Photo](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf)
+Aaditya Mahesh Rathi                |   11458 | [From M. Prakash Institute](http://mprakashinstitute.com/wp-content/uploads/2021/JEE-ADV-RESULT-2020-new-min.pdf), Joined NIT Warangal
+Chinmay Makarand Pimpalkhare        |   770   | M. Prakash Institute
+Medha Sridhar Yelimeli   &#65290;   |   14312 | M. Prakash Institute, Mehta Fellow, [PROMYS  Photo](https://promys-india.org/students/testimonials/medha-yelimeli/)
+Pranav Sanjay Ghorpade    &#65290;  |   8574  | M. Prakash Institute
 Rahul Rustagi                       |   2938  |
 Riddhi Ram Sonney       &#65290;    |   8359  |
 Shruti Sharad Patil    &#65290;     |         |
@@ -361,8 +366,10 @@ Hyderabad| Vishal Reddy Parvatha Reddy &#65290;     |  JEE-Adv. 23156,   FIIT-JE
 UP | Hrishabh Mishra | JEE Adv-11832
 
 
+<br>
 
-
+**Waiting list** Apart from the candidates above, there were about eight students on the waiting list. Most likely, all the students in the
+waiting list had the same marks. The admission offer was not extended to any waiting candidates this year.
 
 
 
