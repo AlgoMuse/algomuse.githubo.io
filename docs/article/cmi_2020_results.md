@@ -140,12 +140,14 @@ IMOTC stands for International Math Olympiad Training Camp.
 
 ### Bangalore
 
-Surprisingly, Bangalore has more selections than Chennai this year. We would like to highlight three students from the city who have
+Surprisingly, Bangalore has more selections than Chennai this year. We would like to highlight two students from the city who have
 put out some interesting educational content on the web.
 
 
  - Firstly, we have Vishnu Kadiri who has been active on [Math Stack exchange](https://math.stackexchange.com/users/818907/vishnu-kadiri) and has
 answered many questions on the forum.
+
+<!--
 
  - Secondly, there is Rajatadri who has published a math article in the magazine 'At right angles'. He gives a
 new proof of the fact that medians of a triangle concur.
@@ -153,6 +155,9 @@ new proof of the fact that medians of a triangle concur.
 <p style="text-align:center;">
 <img src="/assets/images/rajatadri.png"/>
 </p>
+[Photo](http://publications.azimpremjifoundation.org/2132/1/7_An%20Unusual%20Proof%20of%20the%20centroid%20theorem.pdf)[pdf]
+
+-->
 
  - Then there is Naman Kumar who has a fantastic Youtube channel with many expository videos. We highly recommend that you check out [his channel](https://www.youtube.com/channel/UC0-gvTKzYKQcjzKcSPfeIkA).
 
@@ -166,7 +171,7 @@ new proof of the fact that medians of a triangle concur.
 
 Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |  AIR in JEE Adv.  | Other selections | Misc. info
 -----|---|--
-Rajatadri Venkatasubban   &#65290;      | |                  | Shibumi School [Photo](http://publications.azimpremjifoundation.org/2132/1/7_An%20Unusual%20Proof%20of%20the%20centroid%20theorem.pdf)[pdf]
+Rajatadri Venkatasubban   &#65290;      | |                  | Shibumi School
 Srivatsa B                 | |          |
 Vishnu Kadiri       &#65290;            |2399 |  | BASE [Math. SE profile](https://math.stackexchange.com/users/818907/vishnu-kadiri)
 Srigyan Nandi              | | NTSE-Kar. Rank 20 | [Src](https://www.ntsehelpline.com/karnataka-ntse-2018-result-declared-check-the-list-of-qualified-candidates-for-final-stage/) [Cheenta](https://www.cheenta.com/superstars/)
