@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- [Latest article](/docs/article/cmi_2020_results) on CMI-2020 selections.
+- The next mock test is scheduled on 6th May, 2021. Enrollment is now open.
 
 
 ---

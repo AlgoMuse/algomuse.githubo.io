@@ -10,7 +10,7 @@ title: Mock tests
 ## Sign-up form
 
 
-#### 61 sign-ups so far
+#### 62 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
@@ -46,25 +46,31 @@ Each test will have 10 objective questions and 6 subjective questions. Each test
 
 
 
+<!--
 ## Types of tests
 
 There will be two types of tests every month: full-syllabus and topic-specific tests. Tests of the latter kind will have questions confined
 to one or two topics. For example, the [first test](/docs/mock_test/001_feb_7_nt_trig) in February had questions only from number theory and trigonometry.
 A full-syllabus test will be at par with a CMI entrance exam.
 
+-->
 
 
-<!--
+
 ## Current schedule
 
-The topic of the month is calculus. Basic knowledge of algebra and trigonometry will be assumed.
+There are two full-syllabus tests scheduled in both May and June.
 
-Date | Day | Timing | Type | Topics
+Date | Day | Timing | Type
 ---|---|--|--
-10 March '21 | Wednesday | 5pm - 8pm | Topic-specific | Limits and derivatives
-21 March '21| Sunday | 10:30am-1:30pm | Topic-specific | Integrals
-1 April '21| Wednesday | 5pm-8pm  | Full syllabus
--->
+6 May '21 | Thursday | 5pm - 8pm | Full-syllabus test
+20 May '21| Thursday | 5pm - 8pm | Full-syllabus test
+4 June '21 | Friday | 3pm - 6pm | Full-syllabus test
+17 June '21| Thursday | 3pm - 6pm | Full-syllabus test
+
+
+Note that there will be no topic-specific tests till the end of CMI entrance exam.
+You may enroll for both the months by making a single payment.
 
 
 ## What happens if you miss a test?
@@ -126,12 +132,14 @@ your email ID.
 ### Payee's name: Jagadish Midthala
 
 <br>
+
 #### Option II: Bank transfer through NEFT/IMPS:
 
 ### Name : Jagadish Midthala
 ### Acc No: 00000036148605311
 ### IFSC: SBIN0016873
 
+<br>
 
 
 
