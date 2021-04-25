@@ -59,18 +59,16 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 ## Current schedule
 
-There are two full-syllabus tests scheduled in both May and June.
+There are two mock tests scheduled in both May and June.
 
-Date | Day | Timing | Type
+Date | Day | Timing | Topics
 ---|---|--|--
-6 May '21 | Thursday | 5pm - 8pm | Full-syllabus test
+6 May '21 | Thursday | 5pm - 8pm | Combinatorics, Geometry and Complex numbers.
 20 May '21| Thursday | 5pm - 8pm | Full-syllabus test
 4 June '21 | Friday | 3pm - 6pm | Full-syllabus test
 17 June '21| Thursday | 3pm - 6pm | Full-syllabus test
 
 
-Note that there will be no topic-specific tests till the end of CMI entrance exam.
-You may enroll for both the months by making a single payment.
 
 
 ## What happens if you miss a test?
@@ -125,6 +123,8 @@ You can reach me at this number: 7975 2867 81. I'm happy to talk to both student
 Payment can be made either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to
 your email ID. Name will be shown as 'Jagadish Midthala'.
 
+<br>
+You may enroll for both the months by making a single payment.
 
 #### Option I: Universal Payment Interface
 
