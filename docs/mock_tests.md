@@ -59,12 +59,17 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 ## Current schedule
 
-There are two mock tests scheduled in both May and June.
+### May
 
 Date | Day | Timing | Topics
 ---|---|--|--
 6 May '21 | Thursday | 5pm - 8pm | Combinatorics, Geometry and Complex numbers.
 20 May '21| Thursday | 5pm - 8pm | Full-syllabus test
+
+### June
+
+Date | Day | Timing | Topics
+---|---|--|--
 4 June '21 | Friday | 3pm - 6pm | Full-syllabus test
 17 June '21| Thursday | 3pm - 6pm | Full-syllabus test
 
