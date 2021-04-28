@@ -31,6 +31,7 @@ within one week.
 The question paper must be in markdown format. A sample question paper
 will be sent to you. Any pictures must be in JPEG format.
 
+<!--
 
 ## Payment details
 
@@ -40,6 +41,7 @@ Please share your PayTM/PhonePe or bank account details.
 2. An amount Rs. 2000 will be sent after the question paper is accepted.
 
 
+-->
 
 
 
