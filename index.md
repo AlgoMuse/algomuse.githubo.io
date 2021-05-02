@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- The next mock test is scheduled on 6th May, 2021. Enrollment is now open.
+- The next mock test is scheduled on 6th May, 2021. Last date for enrollment: May 5th.
 
 
 ---
