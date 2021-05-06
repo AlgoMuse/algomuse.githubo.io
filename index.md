@@ -20,7 +20,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Mock test #7 in progress!
+- Mock test #7 in over. Members can make offline entries till tomorrow.
+- Results will be announced by next Friday.
 
 
 ---
