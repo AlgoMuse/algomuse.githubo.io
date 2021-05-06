@@ -262,6 +262,7 @@ SMT. Ans = 10\sqrt{2}. Use similar triangles.
 -->
 
 
+---
 
 <p>
 <b>B2.</b>
@@ -289,6 +290,7 @@ when \(a=2, b\) can range from 1 to 4 ; when \(a=3, b\) can range from 1
 to 3 ; and when \(a=4, b\) can equal 1 or 2 , for a total of 13 ordered pairs.
 -->
 
+---
 
 <p>
 <b>B3.</b> Let \([n]\) denote the set of numbers \( \{1,2,\ldots,n\} \). A bijection \(f:[n] \rightarrow [n]\)
@@ -305,6 +307,7 @@ a \(j< i\) such that \( |f(i)-f(j)| = 1 \).<br>
 https://prase.cz/kalva/putnam/psoln/psol655.html
 -->
 
+---
 
 
 <p>
@@ -316,6 +319,7 @@ https://prase.cz/kalva/putnam/psoln/psol655.html
 
 
 
+---
 
 
 <p><b>B5.</b> Let \( A=(0,0) \) and \( C=(1,0) \). Let \(B\) be a point
@@ -329,6 +333,8 @@ line \(y=x+1\) at point \(B\).<br>
 the angle \(ABC\) maximized? Explain. [5 marks]
 
 </p>
+
+---
 
 <p><b>B6.</b>
 
