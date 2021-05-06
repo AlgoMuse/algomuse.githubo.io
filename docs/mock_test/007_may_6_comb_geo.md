@@ -336,7 +336,9 @@ Let \(A\) be a sequence of \(n\) positive integers.
 Let us note down the sum of every sub-sequence of \(A\) into a set \(S\).
 The sequence \(A\) is called <i>k-good</i> if \(S\) contains all the values in the range \( \{1..k\}\).<br>
 
-For example, the sequence \([1, 2, 3]\) is 3-good but not 4-good. The sequence \([1, 3, 2]\) is 6-good. <br>
+For example, the sequence \([1, 2, 3]\) is 3-good but not 4-good. <br><br>
+The sequence \([1, 3, 2]\) is 6-good. The subsequences that give numbers upto 6 are:\( [1],[2],[3],[1,3],[3,2],[1,2,3]\).<br><br>
+
 
 Find a sequence \(A\) of length 20 that is 100-good.
 
