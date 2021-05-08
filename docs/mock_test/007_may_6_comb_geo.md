@@ -69,7 +69,7 @@ can only move right or up, how many distinct ways are there to go from A to B?
 
 <li>
 <p>A unit square is inscribed in a circle. A smaller square sits on the
-top edge of the larger square. The top edge of the smaller square touches circle. Find
+top edge of the larger square. The top corners of the smaller square touch the circle. Find
 the length of the smaller square.
 </p>
 
@@ -342,8 +342,11 @@ Let \(A\) be a sequence of \(n\) positive integers.
 Let us note down the sum of every <i>contiguous</i> sub-sequence of \(A\) into a set \(S\).
 The sequence \(A\) is called <i>k-good</i> if \(S\) contains all the values in the range \( \{1..k\}\).<br>
 
-For example, the sequence \([1, 2, 3]\) is 3-good but not 4-good. <br><br>
-The sequence \([1, 3, 2]\) is 6-good. The contiguous subsequences that give numbers upto 6 are:\( [1],[2],[3],[1,3],[3,2],[1,2,3]\).<br><br>
+
+For example, A=[1,2,3] has the following subsequences: [1],[2],[3],[1,2],[2,3] and [1,2,3].
+The sums of the subsequences are 1, 2, 3, 3, 5 & 6 respectively. Hence, [1,2,3] is 3-good but not 4-good.<br><br>
+
+The sequence \([1, 3, 2]\) is 6-good. The contiguous subsequences that give numbers upto 6 are:\( [1],[2],[3],[1,3],[3,2]\) and \([1,2,3]\).<br><br>
 
 
 Find a sequence \(A\) of length 20 that is 100-good.
