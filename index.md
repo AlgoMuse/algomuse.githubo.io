@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Mock test #7 in over. Results will be announced by next Friday.
+- Solutions to mock test #7 have been emailed to all members. Results will be out on Friday.
 
 
 ---
