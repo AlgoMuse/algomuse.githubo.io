@@ -1,0 +1,634 @@
+---
+layout: default
+title: Mock test 7 Combinatorics
+nav_exclude: true
+---
+
+
+#  MT #7: Combinatorics & Geometry
+## [Solutions]
+#### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 6 May 2021
+{: .fs-3 .text-grey-004 }
+
+---
+
+## Part A: Short-answer type questions
+
+<ol>
+
+<p>
+<li>
+We have 9 identical white beads and 2 identical black beads. How
+many distinct bracelets can we make using all the beads? Two bracelets are considered the same
+up to flipping and rotation.
+</li>
+</p>
+
+<details open><summary>Sol.</summary>
+Let the shortest distance between the two black beads be \(d\). Notice that fixing \(d\)
+determines the bracelet.  Since \(d\in\{0,\ldots,4\}\), there
+are 5 different bracelets.
+</details>
+
+
+<p>
+<li>
+We want to go from corner A to corner B in the figure shown below. If we
+can only move right or up, how many distinct ways are there to go from A to B?
+
+<p style="text-align:center">
+<img src="/assets/images/frame_walk_sol.png"/>
+</p>
+
+</li>
+</p>
+
+<details open><summary>Sol.</summary>
+The number of ways to get to each intersection is shown in the figure above. We
+see that there are 14 distinct paths.
+</details>
+
+
+<li>
+<p>A unit square is inscribed in a circle. A smaller square sits on the
+top edge of the larger square. The top corners of the smaller square touch the circle. Find
+the length of the smaller square.
+</p>
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_small_square.png"/>
+</p>
+
+</li>
+
+<details open><summary>Sol.</summary>
+<b>Ans.</b> 1/5. <br>
+
+Let the side length of the smaller square be \(x\). If the center of the circle is the origin, then the
+vertical distance between the origin and the top edge of the small square is \(x+1/2\). The distance
+from the origin to the top right corner of the small square is \(1/\sqrt{2}\). Hence, we have:
+
+\[ \left(\frac{x}{2}\right)^{2}+\left(x+\frac{1}{2}\right)^{2}=\left(\frac{1}{\sqrt{2}}\right)^{2} \]
+
+Solving for \(x\) gives \(x=1/5\).
+
+<br>
+<br>
+
+<b>Comment</b>. If you assumed that the top side is tangent to the circle, the answer would be
+\( \left( \frac{1}{\sqrt{2}}-\frac{1}{2} \right) \). This answer was also marked correct.
+
+</details>
+
+
+<li>
+<p>
+Count the number of ordered sequences of \(1\)s and \(5\)s that add up to \(13\).<br>
+For example, \( (1,1,5,1,5) \) and \( (1,1,1,1,1,1,1,1,1,1,1,1,1) \) are valid sequences.
+</p>
+</li>
+
+
+<details open><summary>Sol.</summary>
+There are 3 sets of 1s and 5s that sum to 13.<br>
+
+In a given sequence if there are \(n\) 5s there will be \(13-5n\) 1s.
+We have a total of \( (13-5n)+n=13-4n\) numbers so we want to compute:
+
+\[ \sum_{n=0}^{2} \binom{13-4n}{n} = \binom{13}{0} + \binom{9}{1} + \binom{5}{2} = 20  \]
+
+</details>
+
+
+
+<p>
+<li>
+Find the number of non-zero solutions to the equation: \(z^{2}+2 \bar{z}=0\).
+</li>
+</p>
+
+
+
+
+<details open><summary>Sol.</summary>
+<b>Ans.</b> 3. <br>
+
+Suppose \(z=re^{i\theta}\) for some \(r>0\) and \(0\leq \theta < 2\pi\).
+
+\begin{align*}
+r^2e^{2i\theta} + 2re^{-i\theta} &= 0 \\
+re^{2i\theta} + 2e^{-i\theta} &= 0 \\
+re^{3i\theta} &= -2 \\
+e^{3i\theta} &= -1 \;\;\; \text{since } |e^{3i\theta}|=1,\;\;  r = 2
+\end{align*}
+
+Hence, the equation has three non-zero solutions: \(-2,-2\omega\) and \(-2\omega^2\).
+
+
+</details>
+
+
+
+<p>
+<li>We have a triangle \(ABC\) and \(AD\) bisects the angle \(BAC\). We know the following
+measurements: \(AB=10\) cm, \(CD=2 BD\) and the area of the triangle \(ABC\) is 50 sq. cm. Find the value
+of the \(\angle BAD\) in degrees.
+</li>
+</p>
+
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_triangle.png"/>
+</p>
+
+
+
+
+<details open><summary>Sol.</summary>
+Since \(A D\) bisects angle \(BAC\), we apply the <a href="https://en.wikipedia.org/wiki/Angle_bisector_theorem">angle-bisector theorem</a> to find AC:
+\[\frac{A B}{B D}=\frac{AC}{CD} \Longrightarrow AC=\frac{C D}{B D} \cdot A B=20\]
+<br>
+Let \(E\) be the point on \(A C\) such that \(B E \perp A C .\) Since the area of \(\triangle A B C\) is 50, we have \(\frac{A C \cdot B E}{2}=50 \Longrightarrow B E=5\).<br>
+
+But \(\triangle A B E\) is a right triangle and \(A B=2 B E\), so \(\angle BAE=30^{\circ}\). It follows that \(\angle BAC=30^{\circ}\) so \(\angle B A D=15^{\circ}\).
+</details>
+
+<!--
+Problem credit: SMT 2019
+-->
+
+
+
+<p>
+<li>
+In the complex plane shown below, \(PQR\) is an arc with center at \(A\).  The values of the points are:
+\(A=-1+0i\), \(P=-1+\sqrt{2}+\sqrt{2}i\), \(Q=1+0i\) and \(R=-1+\sqrt{2}-\sqrt{2}i\). Which pair of inequalities
+represents the the shaded region?  <br>
+
+
+<p style="text-align:center">
+<img src="/assets/images/argand_plane.png"/>
+</p>
+
+
+<ol>
+<li>\(|z+1|<2,|\arg (z+1)|<\frac{\pi}{2}\)</li>
+<li>\(|z-1|<2,|\arg (z-1)|<\frac{\pi}{2}\)</li>
+<li>\(|z+1|>2,|\arg (z+1)|<\frac{\pi}{4}\)</li>
+<li>\(|z-1|>2,|\arg (z+1)|<\frac{\pi}{4}\)</li>
+</ol>
+
+<details open><summary> Ans: (c) </summary>
+
+<i>Problem source: Madhava competition for undergraduates.</i>
+</details>
+
+
+</li>
+</p>
+
+
+<p>
+<li>
+
+Let \(t \in \mathbb{N}\). The number of elements in the set \(\left\{\left(\cos \frac{n\pi}{t}+i \sin \frac{n\pi}{t}\right) \mid n \in \mathbb{N}\right\}\)
+is
+
+<ol>
+<li> Infinite </li>
+<li> \(t\)</li>
+<li> \(t+1\)</li>
+<li> \(2t\) </li>
+<li> \(2t+1\) </li>
+<li> \(2t-1\) </li>
+<li> None of the above.</li>
+</ol>
+
+</li>
+</p>
+
+<details open><summary> Sol. </summary>
+
+<b>Ans.</b> (d)
+
+The complex number \(\left(\cos \frac{n\pi}{t}+i \sin \frac{n\pi}{t}\right) \)
+is a root of the equation \(x^t=1\), when \(n\) is even.  When \(n\) is odd, it is a root of the equation \(x^t=-1\).<br>
+
+There are \(t\) distinct roots of \(x^t=1\) and \(x^t=-1\) each. Since, none
+of the roots are common, the set has \(2t\) numbers.
+
+
+</details>
+
+
+<li>
+<p>
+An ant is initially at a corner of a cube. At each time step, it moves along an edge
+to a random adjacent vertex. What is the probability that it returns to the starting
+position after four time steps?
+</p>
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_ant.png"/>
+</p>
+
+
+<details open><summary>Sol.</summary>
+
+If movement happens in three directions the ant cannot come back.
+If movement happens only in one direction, there are three paths.<br>
+
+If the movement happens in \(xy\)-plane, there are three paths starting with \(x\):
+
+\[ xyx^{-1}y^{-1} \;\;\;\;\; xyy^{-1}x^{-1} \;\;\;\;\; xx^{-1}yy^{-1} \]
+
+Similarly, there are three paths starting with \(y\). Since there
+are three planes, we have 18 paths in two directions. Hence, there are totally
+21 favorable paths. <br>
+
+Since there are \(3^4=81\) possible paths. The required probability is \(21/81=7/27\).
+
+
+<!--
+
+SMT 2011 General. Ans: 21/81 = 7/27.
+-->
+
+</details>
+
+
+</li>
+
+
+<li>
+<p>\(ABCD\) is a square such that the side \(AB\) lies on the line \(y=x+4\) and the points \(C\) and \(D\) lie
+on the parabola \(y^2 = x \). Find a possible set of values for the points \(A,B,C\) and \(D\).<br>
+<i>Problem source: SMT 2013.</i>
+</p>
+</li>
+
+
+<details open><summary>Sol.</summary>
+<p style="text-align:center">
+<img src="/assets/images/mt7_parabola.png"/>
+</p>
+
+Let \(C=(y_1^2,y_1) \) and \(D=(y_2^2,y_2) \). Assume, wlog. \( y_1< y_2 \). <br><br>
+
+<i>Observation 1</i>: Since the slope of \(AB\) is 1,
+the x-coordinate of \(B\) is same as that of \(C\).
+Similarly, \(A\)'s y-coordinate is same as \(D\)s. So, we have:
+
+\[ A=(y_2-4,y_2) \;\;\; B=(y_1^2,y_1^2+4) \]
+
+<i>Observation 2</i>: Since the slope of \(CD\) is 1:
+\begin{align*}
+\frac{y_2-y_1}{y_2^2-y_1^2} &= 1 \\
+
+\therefore y_1+y_2 &= 1 \;\;\;(Eq. 1)
+\end{align*}
+
+
+<i>Observation 3</i>: On the complex plane, \( \vec{CA} = i\vec{CD}\).
+
+\begin{align*}
+(A-C) &= (D-C)i \\
+A-(y_1^2+iy_1)  &= i(y_2^2-y_1^2) - (y_2-y_1) \\
+A &= (y_1^2-y_2+y_1) + iy_2 \\
+\because A_x & = y_2-4 = y_1^2-y_2+y_1 \\
+y_1^2+3y_1+2 &= 0 \;\;\; \text{ since } y_2=1-y_1 \\
+y_1 &= -2 \text{ or }\; 3
+\end{align*}
+
+Since we have assumed that \(y_1< y_2\), we use \(y_1=-2\) to get:
+
+\[ A=(-1,3) \;\;\;B=(4,8)\;\;\;C=(4,-2)\;\;\;D=(9,3) \]
+
+
+
+
+</details>
+
+
+
+
+</ol>
+
+
+
+## Part B: Subjective questions
+
+
+---
+
+
+
+<p>
+<b>B1.</b> \(ABCD\) is a cyclic quadrilateral with side lengths as follows.  \(AB = 6\) cm,
+\(BC = 12\) cm, \(CD = 3\) cm and \(DA = 6\) cm. Find the length of \(EF\)
+in the figure shown below.
+</p>
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_cyclic.png"/>
+</p>
+
+
+<details open><summary>Sol. </summary>
+
+<b>Ans.</b>  \(10\sqrt{2}\). <br>
+
+The key is to observe that \( \Delta BEC \sim \Delta DEA \). Likewise, \(\Delta AFB \sim \Delta CFD \).<br>
+
+
+<b>Lemma 1.</b> \(\triangle BEC \sim \Delta DEA \) <br>
+
+<p>
+<i>Proof: </i> Since \(ABCD\) is a cyclic quadrilateral, the opposite angles sum to \(\pi\).
+Let \(\angle EBC=\theta\). Hence, \( \angle ADC = \pi-\theta\), so \(\angle EDA = \theta \).
+</p>
+
+<br>
+
+<b>Lemma 2.</b> \(AE=4\) cm and \(DE=5\) cm.<br>
+
+
+<p><i>Proof: </i>
+
+Since \(DA:BC=1:2\) the scaling factor between similar triangles \(\Delta BEC\) and \(\Delta DEA\) is 2.
+
+
+Let \(AE=p\) and \(DE=q\). Then we have:
+
+\begin{align*}
+AB&=BE-AE\\
+   &=2DE-AE\\
+   &=2q-p
+\end{align*}
+
+Also, \(CD=2p-q\). So we have:
+
+\begin{align*}
+2q-p &= 6 \\
+2p-q &= 3
+\end{align*}
+
+Solving for \(p\) and \(q\), we get \(p=4\) and \(q=5\). \(\;\;\;\square\)
+
+</p>
+
+
+Similarly we have \(FC=8\) cm and \(FD=10\) cm. <br>
+
+Let \(\angle B=\theta\). Then \(\angle F D E=\pi-\theta\). Apply the Law of Cosines to \(\triangle E B F\) to get:
+
+
+\[ E F^{2}=B E^{2}+B F^{2}-2 B E \cdot B F \cdot \cos \theta=10^{2}+20^{2}-2 \cdot 10 \cdot 20 \cos \theta=500-400 \cos \theta \]
+
+and to \( \triangle E D F\) to get
+
+\[ E F^{2}=D E^{2}+D F^{2}-2 \cdot D E \cdot D F \cos (\pi-\theta)=5^{2}+10^{2}-2 \cdot 5 \cdot 10 \cos \theta=125+100 \cos \theta  \]
+
+Solving for \(E F^{2}\), we get \(E F^{2}=200\). So \(EF=10\sqrt{2}\).
+
+</details>
+
+---
+
+<p>
+<b>B2.</b>
+Count the number of ordered pairs of positive integers \( (a, b) \)
+such that the complex number \(z=a+bi\)  satisfies \(|z+2|^{2}+|z-2|^{2}<40\).
+<br>
+</p>
+
+<details open><summary>Sol. </summary>
+
+The inequality reduces to
+
+\begin{align*}
+(z+2)(\bar{z}+2)+(z-2)(\bar{z}-2) & < 40 \\
+\Rightarrow 4+2 z+2 \bar{z}+z \bar{z}+4-2 z-2 \bar{z}+z \bar{z} & < 40 \\
+\Rightarrow 8+2|z|^{2} & < 40 \\
+\Rightarrow a^{2}+b^{2} & < 16
+\end{align*}
+
+
+So we need to compute the number of ordered pairs of positive integers
+\( (a, b) \) such that \( a^{2}+b^{2}< 16\).
+
+When \(a=1\) or \(2\), \(b\) can be \(1, 2\) or \(3\), and when \(a=3, b\) can be \(1\) or \(2\).  So there are 8 ordered pairs of positive numbers.
+
+</details>
+
+
+---
+
+<p>
+<b>B3.</b> Let \([n]\) denote the set of numbers \( \{1,2,\ldots,n\} \). A bijection \(f:[n] \rightarrow [n]\)
+is said to be <i>neat</i> if for every \(i \in \{2,3,\ldots,n\}\) we can find
+a \(j< i\) such that \( |f(i)-f(j)| = 1 \).<br>
+
+(a) Prove that if \(f\) is neat bijection, then either \(f(n)=1\) or \(f(n)=n\). [4 marks]<br>
+(b) Find the number of neat bijections. [6 marks]  <br>
+
+</p>
+
+<details open><summary>Sol.</summary>
+
+(a) Assume, for a contradiction, that \(f(n)=m\) where \(1 < m < n\).
+
+Divide the range into non-empty sets \( A = \{1,\ldots, m-1\} \)
+and \(B = \{ m+1,\ldots , n\}\). <br>
+
+Notice that the difference between an element of \(A\) and an element of
+\(B\) is at least 2.  Now consider the two cases:<br>
+
+
+<i> Case 1 </i> \( f(1)\in A \) : Pick the smallest element \(x\) that maps to \(B\). Now all the elements preceding \(x\) map to \(A\). Hence, a contradiction. <br>
+
+<i> Case 2 </i> \( f(1)\in B \) : Pick the smallest element \(x\) that maps to \(A\). Now all the elements preceding \(x\) map to \(B\). Hence, a contradiction.
+
+
+Hence, we infer that \(f(n)\) must map to either \(1\) or \(n\). <br>
+
+
+<br>
+
+
+
+<p>
+(b) We use induction to prove that the number of bijections is \(2^{n-1}\).
+For \(n=1\), there is only one function.
+</p>
+
+<p>
+Here is a way to get all bijections of size \(n+1\) given bijections for size \(n\).
+
+Let \(f_n\) denote a bijection on \([n]\) elements. <br>
+
+<i> Case 1: </i> Given \(f_n\) we make \(f_{n+1}\) by adding a map \(f(n+1) = n+1\). <br>
+
+<i> Case 2: </i> Given \(f_n\) we make \(f_{n+1}\) by adding a map \(f(n+1) = 1\) and then increment \(f(x) \rightarrow f(x) + 1\) for all \(x\in\{1,\ldots,n\}\). <br>
+
+</p>
+
+<p> Every bijection of size \(n+1\) must fall into these two cases. So there
+are twice as many bijections for \(n+1\) as there are for \(n\). Hence,
+there are \(2^{n-1}\) bijections. <br> </p>
+
+
+<p><i>Problem source: 26th Putnam Competition.</i></p>
+
+</details>
+
+---
+
+
+
+<p>
+<b>B4.</b> For any given \(k\), show that the following equation has a solution where \(x_i\geq 3\) for all \(i\) and \(y\geq 3\).
+
+\[ x_{1} !x_{2} ! \cdots x_{k} !=y ! \]
+
+</p>
+
+
+<details open><summary>Sol 1. </summary>
+
+<i>Solution by Emmy Nother.</i> <br>
+
+Assume \(k>1\). Pick \(x_1=x_2=\ldots=x_{k-1} = 3\) and \(x_{k} = (6^{k-1}-1)!\). RHS
+will then be \(6^{k-1}\cdot (6^{k-1}-1)! = 6^{k-1}!\), so \(y=6^{k-1}\) satisfies the equation.
+
+<br>
+</details>
+
+<br>
+
+<details open><summary>Sol 2.</summary>
+
+We prove by induction.<br>
+
+<i>Base case: k=1. </i> \(x_1=3\) and \(y=3\).<br>
+
+<i>Hypothesis: </i> The statement holds for some \(k\):
+
+\[ x_{1} !x_{2} ! \cdots x_{k} !=y ! \]
+
+To show that the equation has a solution for \(k+1\) pick \(x_{k+1} = (y!-1)!\).
+
+\[ x_{1} !x_{2} ! \cdots x_{k+1} !=  y ! (y!-1)! = (y!)! \]
+
+
+
+</details>
+
+
+
+
+
+---
+
+
+<p><b>B5.</b> Let \( A=(0,0) \) and \( C=(1,0) \). Let \(B\) be a point
+on the line \(y=x+1\). Suppose \(B\) is the point of tangency of a circle
+with chord \(AC\). In other words, a circle with chord \(AC\) touches the
+line \(y=x+1\) at point \(B\).<br>
+
+(a) Find all possible values of point \(B\). [5 marks]<br>
+
+(b) Among the possible values found in (a), for which value is
+the angle \(ABC\) maximized? Explain. [5 marks]
+
+</p>
+
+<details open><summary>Sol.</summary>
+
+Suppose the center of the circle is at \( (1/2,k) \) with radius \(r\). Since the circle
+passes through the origin we have \(r^2 = (1/2)^2 + k^2\). The equation of the circle is then
+given by:
+
+\[ \left(x-\frac{1}{2}\right)^{2}+(y-k)^{2}=\frac{1}{4}+k^{2} \]
+
+
+\[ x^{2}-x+y^{2}-2 k y=0 \]
+
+
+Solving this with \(y=x+1\) yields
+
+\[ 2 x^{2}+(1-2 k) x+(1-2 k)=0 \]
+
+
+The quadratic equation must have a repeated root if the circle
+is tangent to \(y=x+1\). Which means the discriminant of the quadratic
+must be zero. This is true if and only if \(2k=1\) or \(1-2k=8\).
+
+<i>Solution 1:</i> When \(k=\frac{1}{2}\), the point of tangency \(B=(0,1)\). <br>
+
+<i>Solution 2:</i> When \(k=-\frac{7}{2}\), the point of tangency \(B=(-2,-1)\). <br>
+
+
+
+<br><br>
+
+(b) The first solution corresponds to a circle with chord \(A C\) touching the line of equation \(y=x+1\) at the point \(B(0,1)\). This circle has diameter \(B C\) and the angle \(A B C\) is equal to \(45^{\circ} .\)
+
+
+
+
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_circle_1.png"/>
+</p>
+
+The second solution corresponds to a circle touching the line of equation \(y=x+1\) below the \(x\) -axis at the point \(B(-2,-1) .\)
+Now, the line \(y=x+1\) makes an angle of \(45^{\circ}\) with the line \(y=-1\), and this angle exceeds \(\angle A B C .\)
+
+<br> Hence, the first solution \(B=(0,1)\) maximizes the angle \(ABC\).
+
+
+<p style="text-align:center">
+<img src="/assets/images/mt7_circle_2.png"/>
+</p>
+
+
+</details>
+
+---
+
+<p><b>B6.</b>
+
+Let \(A\) be a sequence of \(n\) positive integers.
+Let us note down the sum of every <i>contiguous</i> sub-sequence of \(A\) into a set \(S\).
+The sequence \(A\) is called <i>k-good</i> if \(S\) contains all the values in the range \( \{1..k\}\).<br>
+
+
+For example, A=[1,2,3] has the following subsequences: [1],[2],[3],[1,2],[2,3] and [1,2,3].
+The sums of the subsequences are 1, 2, 3, 3, 5 & 6 respectively. Hence, [1,2,3] is 3-good but not 4-good.<br><br>
+
+The sequence \([1, 3, 2]\) is 6-good. The contiguous subsequences that give numbers up to 6 are:\( [1],[2],[3],[1,3],[3,2]\) and \([1,2,3]\).<br><br>
+
+
+Find a sequence \(A\) of length 20 that is 100-good.
+
+</p>
+
+
+
+
+<details open><summary>Sol.</summary>
+Pick the sequence with the first 10 numbers as 10 and the last 10 as 1s. That is:
+
+\[ A=[10,10,10,10,10,10,10,10,10,10,1,1,1,1,1,1,1,1,1,1]\]
+
+Any number \(k\leq 100\) can be written as \(10a+b\) with \(1\leq a,b \leq 10\). To make
+a sum of \(k\), pick the last \(a\) 10s and the first \(b\) 1s.
+
+
+<br><b>Comment.</b>  \(|A|=19\) is also possible since the nine 1s suffice.
+
+
+</details>
+
+
