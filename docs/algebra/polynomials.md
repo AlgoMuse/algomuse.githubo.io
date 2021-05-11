@@ -1034,7 +1034,7 @@ Which of the statements are true?<br>
 <li>(i) If \(g(x)\) is a linear polynomial, then \(g(x)=3 x+5\)</li>
 <li>(ii) \(g\) cannot be a polynomial of degree 10.</li>
 <li>(iii) \(g\) cannot be a polynomial of degree 20.</li>
-<li>(iv) If \(q\) is differentiable, then \(g\) must be a polynomial.</li>
+<li>(iv) If \(g\) is differentiable, then \(g\) must be a polynomial.</li>
 </ul>
 </p>
 
