@@ -297,10 +297,10 @@ A-(y_1^2+iy_1)  &= i(y_2^2-y_1^2) - (y_2-y_1) \\
 A &= (y_1^2-y_2+y_1) + iy_2 \\
 \because A_x & = y_2-4 = y_1^2-y_2+y_1 \\
 y_1^2+3y_1+2 &= 0 \;\;\; \text{ since } y_2=1-y_1 \\
-y_1 &= -2 \text{ or }\; 3
+y_1 &= -2 \text{ or }\; -1
 \end{align*}
 
-Since we have assumed that \(y_1< y_2\), we use \(y_1=-2\) to get:
+We can use either value. From \(y_1=-2\) we get:
 
 \[ A=(-1,3) \;\;\;B=(4,8)\;\;\;C=(4,-2)\;\;\;D=(9,3) \]
 
