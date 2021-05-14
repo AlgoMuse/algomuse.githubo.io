@@ -20,7 +20,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Solutions to mock test #7 have been emailed to all members. Results will be out on Friday.
+- Results of mock test #7 will be up by 5 pm today.
+- The next full-syllabus mock test is scheduled on 20th May.
 
 
 ---
