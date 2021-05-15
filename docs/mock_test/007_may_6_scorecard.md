@@ -170,17 +170,6 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="markbutton total">34</button>
 <button class="markbutton rank">10. </button>
-<input type="button" class="markbutton white" value="Apollonius Pergaeus"/>
-<button class="markbutton blank" onclick = "markdisplay('Apollonius_Pergaeus/PartA',7)">16</button>
-<button class="button white"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B1',7)">0</button>
-<button class="markbutton right" onclick = "markdisplay('Apollonius_Pergaeus/B2',7)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Apollonius_Pergaeus/B3',7)">4</button>
-<button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B5',7)">2</button>
-<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B6',7)">0</button>
-<button class="markbutton total">32</button>
-<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Sun Tzu"/>
 <button class="markbutton blank" onclick = "markdisplay('Sun_Tzu/PartA',7)">20</button>
 <button class="button white"></button>
@@ -191,7 +180,7 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="markbutton wrong" onclick = "markdisplay('Sun_Tzu/B6',7)">0</button>
 <button class="markbutton total">30</button>
-<button class="markbutton rank">12. </button>
+<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Katherine Johnson"/>
 <button class="markbutton blank" onclick = "markdisplay('Katherine_Johnson/PartA',7)">12</button>
 <button class="button white"></button>
@@ -201,6 +190,17 @@ To see any student's answer:
 <button class="markbutton wrong" onclick = "markdisplay('Katherine_Johnson/B4',7)">0</button>
 <button class="markbutton right" onclick = "markdisplay('Katherine_Johnson/B5',7)">7</button>
 <button class="button blank"></button>
+<button class="markbutton total">28</button>
+<button class="markbutton rank">12. </button>
+<input type="button" class="markbutton white" value="Apollonius Pergaeus"/>
+<button class="markbutton blank" onclick = "markdisplay('Apollonius_Pergaeus/PartA',7)">16</button>
+<button class="button white"></button>
+<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B1',7)">0</button>
+<button class="markbutton right" onclick = "markdisplay('Apollonius_Pergaeus/B2',7)">10</button>
+<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B3',7)">0</button>
+<button class="button blank"></button>
+<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B5',7)">2</button>
+<button class="markbutton wrong" onclick = "markdisplay('Apollonius_Pergaeus/B6',7)">0</button>
 <button class="markbutton total">28</button>
 <button class="markbutton rank">13. </button>
 <input type="button" class="markbutton white" value="Bonaventura Cavalieri"/>
@@ -263,11 +263,11 @@ To see any student's answer:
 <button class="button white"></button>
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B2',7)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B3',7)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B3',7)">6</button>
 <button class="markbutton right" onclick = "markdisplay('Diophantus_of_Alexandria/B4',7)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Diophantus_of_Alexandria/B5',7)">0</button>
 <button class="button blank"></button>
-<button class="markbutton total">50</button>
+<button class="markbutton total">46</button>
 <button class="markbutton rank">18. </button>
 <input type="button" class="markbutton white" value="Sofia Kovalevskaya"/>
 <button class="markbutton blank" onclick = "markdisplay('Sofia_Kovalevskaya/PartA',7)">32</button>
@@ -312,8 +312,6 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">8</button>
-
-
 
 
 
