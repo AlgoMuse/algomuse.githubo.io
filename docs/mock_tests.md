@@ -10,7 +10,7 @@ title: Mock tests
 ## Sign-up form
 
 
-#### 64 sign-ups so far
+#### 65 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="40" value="40">More than 40 sign-ups completed.</progress>
@@ -110,7 +110,7 @@ Question paper | Date | Results
  [Limits & Derivatives](/docs/mock_test/004_mar_10_limits_derivatives) | 10 Mar '21 | [Scorecard](/docs/mock_test/004_mar_10_scorecard)
  [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  [Scorecard](/docs/mock_test/005_mar_21_scorecard)
  [Full-syllabus](/docs/mock_test/006_apr_1_full/) | 1 Apr '21 | [Scorecard](/docs/mock_test/006_apr_1_scorecard)
-
+ [Combinatorics & Geometry](/docs/mock_test/007_may_6_comb_geo/) | 6 May '21 | [Scorecard](/docs/mock_test/007_may_6_scorecard)
 
 
 

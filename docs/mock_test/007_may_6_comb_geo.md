@@ -11,24 +11,6 @@ nav_exclude: true
 
 ---
 
-### Instructions
-
-- You are responsible for keeping time. Email all your solutions by 20:05 Hrs IST.
-- Write your answers with a dark pen on white paper.
-- Find an email from me with the subject line 'Mock test #7: Combinatorics and Geometry'. Send your solutions (images) as replies to this email.
-- Adjust/Reduce the resolution of the camera so that each image is less than 500 KB in size.
-- Total marks: 100 (10x4=40 for Part A + 6x10=60 for Part B)
-{: .bg-grey-lt-000 .p-6 }
-
-
-**For students who miss the live test (members only)**<br>
-Self-administer the mock test and email your solutions before 7 May, 23:59 Hrs. Your solutions will be evaluated
-but marks won't be counted for official use in the future. Solutions submitted after 7 May, 23:59 Hrs will not be evaluated.
-As per the rules of CMI entrance exam, no calculators or log tables must be used.
-{: .bg-grey-lt-000 .p-6 }
-
-
----
 
 ## Part A: Short-answer type questions
 
@@ -149,7 +131,7 @@ Solution: Since $A D$ bisects $\angle B A C$, we have by the Angle-Bisector Theo
 <li>
 In the complex plane shown below, \(PQR\) is an arc with center at \(A\).  The values of the points are:
 \(A=-1+0i\), \(P=-1+\sqrt{2}+\sqrt{2}i\), \(Q=1+0i\) and \(R=-1+\sqrt{2}-\sqrt{2}i\). Which pair of inequalities
-represent the the shaded region?  <br>
+represents the the shaded region?  <br>
 
 
 <p style="text-align:center">
@@ -173,7 +155,7 @@ represent the the shaded region?  <br>
 <p>
 <li>
 
-Let \(t \in \mathbb{N}\). The number of elements in set \(\left\{\left(\cos \frac{n\pi}{t}+i \sin \frac{n\pi}{t}\right) \mid n \in \mathbb{N}\right\}\)
+Let \(t \in \mathbb{N}\). The number of elements in the set \(\left\{\left(\cos \frac{n\pi}{t}+i \sin \frac{n\pi}{t}\right) \mid n \in \mathbb{N}\right\}\)
 is
 
 <ol>

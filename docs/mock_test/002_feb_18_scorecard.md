@@ -7,7 +7,7 @@ nav_exclude: true
 
 #  Mock Test #2: Results
 
-#### Topics: Algebra
+#### Topics: Algebra [[Question paper]](/docs/mock_test/002_feb_18_alge)
 {: .fs-3 .text-grey-004 }
 
 #### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 18 Feb 2021

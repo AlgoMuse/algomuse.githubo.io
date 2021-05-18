@@ -11,27 +11,6 @@ nav_exclude: true
 
 ---
 
-### Instructions
-
-- You are responsible for keeping time. Email all your solutions by 13:30 Hrs IST.
-- Write your answers with a dark pen on white paper.
-- Find an email from me with the subject line 'Mock test #1: Number theory and trigonometry'. Send your solutions (images) as replies to this email.
-- Make sure that the handwriting is clear and no image is blurred.
-- Adjust/Reduce the resolution of the camera so that each image is less than 500 KB in size.
-- Note that calculators and log tables are not allowed in the actual CMI entrance exam.
-- Total marks: 100 (10x4=40 for Part A + 6x10=60 for Part B)
-{: .bg-grey-lt-000 .p-6 }
-
-
-**For students who missed the live test (members only)**<br>
-Self-administer the mock test and email your solutions before 8 Feb, 23:59 Hrs. Your solutions will be evaluated
-but marks won't be included in the official scorecard. Solutions submitted after 8 Feb, 23:59 Hrs will not be evaluated.
-{: .bg-grey-lt-000 .p-6 }
-
-
----
-
-
 
 
 ## Part A: Short-answer type questions

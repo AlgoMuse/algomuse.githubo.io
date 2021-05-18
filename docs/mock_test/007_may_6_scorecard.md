@@ -7,8 +7,9 @@ nav_exclude: true
 
 #  Mock Test #7: Results
 
-#### Topics: Combinatorics and Geometry
+#### Topics: Combinatorics and Geometry  [[Question paper]](/docs/mock_test/007_may_6_comb_geo)
 {: .fs-3 .text-grey-004 }
+
 
 #### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 6 May 2021
 {: .fs-3 .text-grey-004 }
@@ -45,30 +46,26 @@ To see any student's answer:
 
 <button class="markbutton white"><u>#</u></button>
 <input type="button" class="markbutton white" value="Pseudonym"/>
-<button class="markbutton white" ><u>A</u></button>
-<button class="button white"></button>
-<button class="markbutton white" ><u>B1</u></button>
-<button class="markbutton white" ><u>B2</u></button>
-<button class="markbutton white" ><u>B3</u></button>
-<button class="markbutton white" ><u>B4</u></button>
-<button class="markbutton white" ><u>B5</u></button>
-<button class="markbutton white" ><u>B6</u></button>
-<button class="markbutton white" ><u>Total</u></button>
-
+<button class="markbutton white"><u>A</u></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"><u>B1</u></button>
+<button class="markbutton white"><u>B2</u></button>
+<button class="markbutton white"><u>B3</u></button>
+<button class="markbutton white"><u>B4</u></button>
+<button class="markbutton white"><u>B5</u></button>
+<button class="markbutton white"><u>B6</u></button>
+<button class="markbutton white"><u>Total</u></button>
 <button class="markbutton white"></button>
 <input type="button" class="markbutton white" value=""/>
 <button class="markbutton white" ></button>
-<button class="button white"></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-
-
-
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
 
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
@@ -237,15 +234,15 @@ To see any student's answer:
 <button class="markbutton total">8</button>
 <button class="markbutton white"></button>
 <input type="button" class="markbutton white" value=""/>
-<button class="markbutton white" ></button>
+<button class="markbutton white"></button>
 <button class="button white"></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
-<button class="markbutton white" ></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
+<button class="markbutton white"></button>
 <button class="markbutton rank">16. </button>
 <input type="button" class="markbutton white" value="Emmy Noether"/>
 <button class="markbutton blank" onclick = "markdisplay('Emmy_Noether/PartA',7)">26</button>
@@ -312,8 +309,6 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">8</button>
-
-
 
     </div>
 </div>

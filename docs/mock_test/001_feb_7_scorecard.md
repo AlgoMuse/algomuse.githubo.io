@@ -7,7 +7,7 @@ nav_exclude: true
 
 #  Mock Test #1: Results
 
-#### Topics: Number theory and trigonometry
+#### Topics: Number theory and trigonometry [[Question paper]](/docs/mock_test/001_feb_7_nt_trig)
 {: .fs-3 .text-grey-004 }
 
 #### Timings: 10:30-13:30 Hrs &nbsp;&nbsp;  Date: 7 Feb 2021

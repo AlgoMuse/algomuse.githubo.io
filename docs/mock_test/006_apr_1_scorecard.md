@@ -7,7 +7,7 @@ nav_exclude: true
 
 #  Mock Test #6: Results
 
-#### Topics: Full syllabus of CMI Entrance Exam
+#### Topics: Full syllabus of CMI Entrance Exam [[Question paper]](/docs/mock_test/006_apr_1_full)
 {: .fs-3 .text-grey-004 }
 
 #### Timings: 17:00-20:00 Hrs &nbsp;&nbsp;  Date: 1 Apr 2021
