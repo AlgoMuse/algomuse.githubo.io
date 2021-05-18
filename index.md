@@ -452,10 +452,10 @@ Acceptance offers are sent to around 90 candidates and about half of them enroll
 | Year | # Test-takers | # Offers | # Students enrolled
 |-----|----|--|
 2015 | 4000 | 70 | 40
-2016 | 5500 | 90 | 44
-2017 | 6000 | 90 | 45
-2018 | 8000 | 95 | 48
-2019 | 10000 | 100 | 61
+2016 | 4000 | 90 | 44
+2017 | 4000 | 90 | 45
+2018 | 5000 | 95 | 48
+2019 | 5500 | 100 | 61
 
 ---
 
