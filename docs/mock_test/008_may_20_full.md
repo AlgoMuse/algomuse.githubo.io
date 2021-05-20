@@ -194,7 +194,7 @@ no positive solution.
 
 <p>
 <li>
-Let \(\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}\) be the roots of the equation \(x^{n}-kx+1=0\) where \(n\leq3\).
+Let \(\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}\) be the roots of the equation \(x^{n}-kx+1=0\) where \(n\geq 3\).
 Find the value of \(\sum_{i=1}^{n} \alpha_{i}^{n}\) in terms of \(k\) and \(n\).
 </li>
 </p>
