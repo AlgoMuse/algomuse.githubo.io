@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Today's full-syllabus mock test is scheduled at 5 pm.
+- Mock test #8 in progress!
 
 
 ---
