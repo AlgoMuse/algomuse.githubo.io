@@ -20,8 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Results of mock test #7 is [up](/docs/mock_test/007_may_6_scorecard/).
-- The next full-syllabus mock test is scheduled on 20th May.
+- Today's full-syllabus mock test is scheduled at 5 pm.
 
 
 ---
