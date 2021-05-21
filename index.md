@@ -401,7 +401,7 @@ The cutoff marks for the previous years are given below.
 |---|--|--|
 2016 | 14/40 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
 2017 | 15/40 | 60/125 | Abhiroop Sanyal
-2018 | 15/40 | 50/125 | Sutirtha Datta [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/If-the-CMI-selection-is-not-on-marks-then-what-do-they-look-for-from-the-answer-script)
+2018 | 15/40 | 50/125 |  -
 2019 | 20/40 | 52/100  | Ankush Agarwal
 2020 | 20/40 | 48/94  | CMI Office
 
