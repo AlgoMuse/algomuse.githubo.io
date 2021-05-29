@@ -264,11 +264,11 @@ To see any student's answer:
 <button class="button white"></button>
 <button class="markbutton wrong" onclick = "markdisplay('Yoshida_Mitsuyoshi/B1',8)">0</button>
 <button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Yoshida_Mitsuyoshi/B3',8)">0</button>
+<button class="markbutton wrong" onclick = "markdisplay('Yoshida_Mitsuyoshi/B3',8)">3</button>
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="button blank"></button>
-<button class="markbutton total">8</button>
+<button class="markbutton total">11</button>
 <button class="markbutton rank">18. </button>
 <input type="button" class="markbutton white" value="Beniot Mandelbrot"/>
 <button class="markbutton blank" onclick = "markdisplay('Beniot_Mandelbrot/PartA',8)">6</button>
