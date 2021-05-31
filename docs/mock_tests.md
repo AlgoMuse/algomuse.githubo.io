@@ -70,8 +70,8 @@ Date | Day | Timing | Topics
 
 Date | Day | Timing | Topics
 ---|---|--|--
-4 June '21 | Friday | 3pm - 6pm | Full-syllabus test
-17 June '21| Thursday | 3pm - 6pm | Full-syllabus test
+4 June '21 | Friday | 2pm - 5pm | Full-syllabus test
+18 June '21| Friday | 2pm - 5pm | Full-syllabus test
 
 
 
@@ -111,6 +111,7 @@ Question paper | Date | Results
  [Integral Calculus](/docs/mock_test/005_mar_21_integral_calculus) | 21 Mar '21 |  [Scorecard](/docs/mock_test/005_mar_21_scorecard)
  [Full-syllabus](/docs/mock_test/006_apr_1_full/) | 1 Apr '21 | [Scorecard](/docs/mock_test/006_apr_1_scorecard)
  [Combinatorics & Geometry](/docs/mock_test/007_may_6_comb_geo/) | 6 May '21 | [Scorecard](/docs/mock_test/007_may_6_scorecard)
+ [Full-syllabus](/docs/mock_test/008_may_20_full/) | 20 May '21 | [Scorecard](/docs/mock_test/008_may_20_scorecard)
 
 
 

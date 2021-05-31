@@ -20,8 +20,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Results of mock test #8 are [here](/docs/mock_test/008_may_20_scorecard/).
-
+- Enrollment for the month of June is now open.
+- Mock test #9 is scheduled on 4th June (Friday). Timings: 2pm - 5pm IST.
 
 ---
 
