@@ -20,8 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Enrollment for the month of June is now open.
-- Mock test #9 is scheduled on 4th June (Friday). Timings: 2pm - 5pm IST.
+- Mock test #9 is scheduled today. Timings: 2pm - 5pm IST.
 
 ---
 
