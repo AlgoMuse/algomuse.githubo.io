@@ -20,7 +20,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Mock test #9 is in progress! Timings: 2pm-5pm.
+- Mock test #9 has ended! Offline submission is open till 5 June 11:59 pm.
 
 ---
 
