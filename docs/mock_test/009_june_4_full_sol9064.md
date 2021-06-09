@@ -132,10 +132,12 @@ Hence \(B-(A-B)=B \cap(A-B)^{\prime}=B \cap\left(A^{\prime} \cup B\right)=\left(
 
 <details open><summary>Sol.</summary>
 
+<b>Ans.</b> 26.<br>
+
 If for all \(n\) , we have \(f(n)=n\) , then obviously there is \(1\) way.<br><br>
 If only \(3\) of the \(5\) numbers satisfy \(f(n)=n\) then there are \(\binom{5}{2}=10\) ways.<br><br>
-If only \(1\) of the \(5\) numbers satisfies \(f(n)=n\) then there are \(\binom{5}{4}\times \binom{4}{2}=30\) ways.<br><br>
-Thus our answer is \(30+10+1=\boxed{41}\) .
+If only \(1\) of the \(5\) numbers satisfies \(f(n)=n\) then there are \(\binom{5}{4}\times 3=15\) ways.<br><br>
+Thus our answer is \(15+10+1=\boxed{26}\) .
 
 </details>
 
