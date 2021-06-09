@@ -243,7 +243,7 @@ Observe that each player played exactly \(2020\) matches, and each resulted in e
 
 
 <details open><summary>Sol.</summary>
-Let \(~n+3 = a^3\) , and \(~n^2 + 3n +3 = b^3\) . Then : $$(ab)^3 = a^3b^3 = (n+3)(n^2+3n+3) = n^3 + 6n^2 + 12n + 3 = (n + 2)^3 + 1$$ which is not a perfect cube for any natural \(n\). This gives rise to a contradiction as the LHS is a perfect cube. So, \(\Lambda\) is the null set.<br><br>
+Let \(~n+3 = a^3\) , and \(~n^2 + 3n +3 = b^3\) . Then : $$(ab)^3 = a^3b^3 = (n+3)(n^2+3n+3) = n^3 + 6n^2 + 12n + 9 = (n + 2)^3 + 1$$ which is not a perfect cube for any natural \(n\). This gives rise to a contradiction as the LHS is a perfect cube. So, \(\Lambda\) is the null set.<br><br>
 
 Therefore, there exists no such minimal element in \(\Lambda\), as it is empty.
 </details>
