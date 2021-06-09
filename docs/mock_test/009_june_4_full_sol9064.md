@@ -401,9 +401,15 @@ compute the length of \(BE\).
 
 
 <details open><summary>Sol.</summary>
-By the Angle Bisector Theorem, \(\frac{B F}{A F}=\frac{4}{5}\).
-Then by Ceva's theorem we see that \(\frac{C E}{A E}=\frac{4}{5}\), so \(C E=\frac{20}{9}\) and \(A E=\frac{25}{9}\).
-By the Pythagorean theorem, \(B E=\frac{8 \sqrt{14}}{9}\).
+By the Angle Bisector Theorem, \(\frac{AF}{BF}=\frac{5}{4}\).
+Then by Ceva's theorem:
+
+\[ \frac{BD}{DC}\frac{CE}{AE}\frac{AF}{BF} = 1 \implies  \frac{C E}{A E}=\frac{4}{5}\]
+
+so \(C E=\frac{20}{9}\).
+By the Pythagorean theorem, \(BE^2 = BC^2-CE^2\):
+
+\[BE=\frac{8 \sqrt{14}}{9}\]
 
 <br><i>Source: SMT 2019.</i>
 </details>
