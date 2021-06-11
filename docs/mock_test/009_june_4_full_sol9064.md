@@ -188,11 +188,18 @@ So, the given limit becomes:
 
 <!-- SAQ 7 -->
 <p>
-<li> Consider a square \(ABCD\), whose length of a side is \(7\) units. Now, draw an equilateral triangle \(ABM\) so that the vertex \(M\) lies inside the square. The diagonal \(AC\) meets the triangle at the point \(K\). Find out the value of \(| CK - KM |\) .</li>
+<li> Consider a square \(ABCD\), whose length of a side is \(7\) units. Now, draw an equilateral triangle \(ABM\) so that the vertex \(M\) lies inside the square. The diagonal \(AC\) meets the triangle at the point \(K\). Find out the value of \(| CK - CM |\) .</li>
 </p>
 
 
 <details open><summary>Sol.</summary>
+<b>Note:</b> The question in the original paper asked for the value of \(|CK-KM|\). The answer to that is:
+\[ 7 \left( \frac{\sqrt{2}+1-\sqrt{3}}{\sqrt{3}+1} \right)  \]
+
+
+<br>
+The question intended to ask the value of \( |CK-CM|\), which turns out to be zero.
+
 \(\widehat{CBM} = \widehat{ABC} - \widehat{MBA}=90^\circ-60^\circ=30^\circ\) <br><br>
 
 Now, \(AB = BM = BC\) , so triangle \(BCM\) is isosceles at \(B\) . Thus, \(\widehat{BMC}=\dfrac{180^\circ-\widehat{CBM}}{2}=75^\circ\) , and \(\widehat{CKM}=\widehat{KCB}+\widehat{CBK}=45^\circ+30^\circ=75^\circ\) . <br><br>
