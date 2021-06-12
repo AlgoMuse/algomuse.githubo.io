@@ -328,7 +328,7 @@ To see any student's answer:
 
 <br>
 <br>
-<a href="/docs/mock_test/007_may_6_scorecard">Results of the previous mock test.</a>
+<a href="/docs/mock_test/008_may_20_scorecard">Results of the previous mock test.</a>
 <br>
 
 
