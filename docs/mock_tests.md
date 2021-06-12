@@ -59,20 +59,12 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 ## Current schedule
 
-### May
-
-Date | Day | Timing | Topics
----|---|--|--
-6 May '21 | Thursday | 5pm - 8pm | Combinatorics, Geometry and Complex numbers.
-20 May '21| Thursday | 5pm - 8pm | Full-syllabus test
-
 ### June
 
 Date | Day | Timing | Topics
 ---|---|--|--
 4 June '21 | Friday | 2pm - 5pm | Full-syllabus test
 18 June '21| Friday | 2pm - 5pm | Full-syllabus test
-
 
 
 
@@ -112,6 +104,7 @@ Question paper | Date | Results
  [Full-syllabus](/docs/mock_test/006_apr_1_full/) | 1 Apr '21 | [Scorecard](/docs/mock_test/006_apr_1_scorecard)
  [Combinatorics & Geometry](/docs/mock_test/007_may_6_comb_geo/) | 6 May '21 | [Scorecard](/docs/mock_test/007_may_6_scorecard)
  [Full-syllabus](/docs/mock_test/008_may_20_full/) | 20 May '21 | [Scorecard](/docs/mock_test/008_may_20_scorecard)
+ [Full-syllabus](/docs/mock_test/009_june_4_full/) | 4 June '21 | [Scorecard](/docs/mock_test/009_june_4_scorecard)
 
 
 

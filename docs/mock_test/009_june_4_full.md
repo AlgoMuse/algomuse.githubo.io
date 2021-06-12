@@ -11,6 +11,8 @@ nav_exclude: true
 
 ---
 
+<!--
+
 ### Instructions
 
 - You are responsible for keeping time. Email all your solutions by 17:05 Hrs IST.
@@ -28,7 +30,7 @@ As per the rules of CMI entrance exam, no calculators or log tables must be used
 {: .bg-grey-lt-000 .p-6 }
 
 
----
+-->
 
 
 
@@ -168,10 +170,10 @@ The number of roots of \(g(x)=5 x^{4}-4 x+1=0\) in \([0,1]\) is<br>
 <li> Consider \(ABCDE\) to be a convex pentagon such that \(AB = AE = CD = 1\), \(\angle ABC = \angle DEA = 90^\circ\) , and \(BC + DE = 1\). Find
 the area of the pentagon.</li>
 </p>
+
 <p style="text-align:center">
 <img src="/assets/images/mt9_pentagon.png"/>
 </p>
-
 
 
 </ol>
