@@ -69,7 +69,6 @@ To see any student's answer:
 
 
 
-
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Muhammad Al Khwarizmi"/>
 <button class="markbutton blank" onclick = "markdisplay('Muhammad_Al_Khwarizmi/PartA',9)">24</button>
@@ -295,12 +294,12 @@ To see any student's answer:
 <button class="markbutton blank" onclick = "markdisplay('Florence_Nightingale/PartA',9)">18</button>
 <button class="button white"></button>
 <button class="markbutton right" onclick = "markdisplay('Florence_Nightingale/B1',9)">4</button>
-<button class="markbutton wrong" onclick = "markdisplay('Florence_Nightingale/B2',9)">2</button>
+<button class="markbutton wrong" onclick = "markdisplay('Florence_Nightingale/B2',9)">1</button>
 <button class="markbutton right" onclick = "markdisplay('Florence_Nightingale/B3',9)">10</button>
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="button blank"></button>
-<button class="markbutton total">34</button>
+<button class="markbutton total">33</button>
 <button class="markbutton rank">21. </button>
 <input type="button" class="markbutton white" value="Bernhard Riemann"/>
 <button class="markbutton blank" onclick = "markdisplay('Bernhard_Riemann/PartA',9)">8</button>
@@ -312,7 +311,6 @@ To see any student's answer:
 <button class="markbutton wrong" onclick = "markdisplay('Bernhard_Riemann/B5',9)">0</button>
 <button class="markbutton wrong" onclick = "markdisplay('Bernhard_Riemann/B6',9)">2</button>
 <button class="markbutton total">11</button>
-
 
 
     </div>
