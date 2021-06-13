@@ -188,23 +188,35 @@ So, the given limit becomes:
 
 <!-- SAQ 7 -->
 <p>
-<li> Consider a square \(ABCD\), whose length of a side is \(7\) units. Now, draw an equilateral triangle \(ABM\) so that the vertex \(M\) lies inside the square. The diagonal \(AC\) meets the triangle at the point \(K\). Find out the value of \(| CK - CM |\) .</li>
+<li> Consider a square \(ABCD\), whose length of a side is \(7\) units. Now, draw an equilateral triangle \(ABM\) so that the vertex \(M\) lies inside the square. The diagonal \(AC\) meets the triangle at the point \(K\). Find out the value of \(| CK - KM |\) .</li>
 </p>
 
 
 <details open><summary>Sol.</summary>
-<b>Note:</b> The question in the original paper asked for the value of \(|CK-KM|\). The answer to that is:
-\[ 7 \left( \frac{\sqrt{2}+1-\sqrt{3}}{\sqrt{3}+1} \right)  \]
+
+<p style="text-align:center">
+<img src="/assets/images/mt9_triangle_sol.png"/>
+</p>
 
 
-<br>
-The question intended to ask the value of \( |CK-CM|\), which turns out to be zero.
+Observe that in \(\Delta AKB\) , \(\angle AKB = 75^\circ\) , \(\angle KAB = 45^\circ\) , \(\angle ABK = 60^\circ\) . Thus, by sine rule, we have :
+\[ \dfrac{BK}{\sin 45^\circ} ~=~ \dfrac{AK}{\sin 60^\circ} ~=~ \dfrac{7}{\sin 75^\circ} \]
 
-\(\widehat{CBM} = \widehat{ABC} - \widehat{MBA}=90^\circ-60^\circ=30^\circ\) <br><br>
+which implies that \[ BK ~=~ \sin 45^\circ \cdot \dfrac{7}{\sin 75^\circ}~~~~\quad\text{and}\quad~~~~ AK ~=~ \sin 60^\circ \cdot \dfrac{7}{\sin 75^\circ}\].
 
-Now, \(AB = BM = BC\) , so triangle \(BCM\) is isosceles at \(B\) . Thus, \(\widehat{BMC}=\dfrac{180^\circ-\widehat{CBM}}{2}=75^\circ\) , and \(\widehat{CKM}=\widehat{KCB}+\widehat{CBK}=45^\circ+30^\circ=75^\circ\) . <br><br>
+Now, \(CK = AC - AK = 7\sqrt{2} - AK\) , and \(KM = BM - BK\) . Thus, we have:
 
-So triangle \(CKM\) isosceles at \(C\) , and hence \(CK=CM\) . So, the answer is \(\boxed{0}\).
+\begin{align*}
+|CK - KM| &~=~ 7\sqrt{2} - 7 - \dfrac{7}{\sin 75^\circ} \bigg[\dfrac{\sqrt{3}}{2} - \dfrac{1}{\sqrt{2}}\bigg]\\
+&~=~ 7\big(\sqrt{2} - 1\big) - \dfrac{14\sqrt{2}}{\sqrt{3}+1}\cdot \dfrac{\sqrt{6} - 2}{2\sqrt{2}}\\
+&~=~ \dfrac{7}{\sqrt{3}+1}\Big[\sqrt{6} + \sqrt{2} - \sqrt{3} - 1 - \sqrt{6} + 2 \Big]\\
+&~=~\dfrac{7}{\sqrt{3}+1}\Big(\sqrt{2}+1-\sqrt{3}\Big)
+\end{align*}
+
+
+
+
+
 </details>
 
 
