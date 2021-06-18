@@ -70,7 +70,7 @@ that new grass grows at the same constant rate in all three pastures.
 <li>
 
 We have an \(n\times n\) grid of points, where \(n\) is an even number. There is a black spot at the
-center of the grid. In how many ways can we draw a rectangle with corners as the grid points such
+center of the grid. In how many ways can we draw an axis-parallel rectangle with corners as the grid points such
 that the spot is inside the rectangle? An example of a rectangle is shown for a grid of size \(n=6\):
 
 <p style="text-align:center">
