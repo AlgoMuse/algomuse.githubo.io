@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
- - Next full-syllabus test is scheduled on 18th June. Timings: 2 pm - 5 pm.
+ - Mock test #10 is over.
 
 ---
 
