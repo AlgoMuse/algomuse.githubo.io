@@ -59,12 +59,12 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 ## Current schedule
 
-### June
+### July
 
 Date | Day | Timing | Topics
 ---|---|--|--
-4 June '21 | Friday | 2pm - 5pm | Full-syllabus test
-18 June '21| Friday | 2pm - 5pm | Full-syllabus test
+9 July '21 | Friday | 2pm - 5pm | Full-syllabus test
+23 July '21| Friday | 2pm - 5pm | Full-syllabus test
 
 
 

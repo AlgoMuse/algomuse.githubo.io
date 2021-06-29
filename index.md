@@ -21,7 +21,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
- - Results of mock test #10 are [up](/docs/mock_test/010_june_18_scorecard/). Solutions are emailed to members.
+ - July's mock tests will be held on 9th and 23rd. Enrollment is now open.
+ - Results of mock test #10 are [here](/docs/mock_test/010_june_18_scorecard/).
 
 ---
 
