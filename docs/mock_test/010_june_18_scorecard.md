@@ -140,12 +140,12 @@ To see any student's answer:
 <button class="markbutton blank" onclick = "markdisplay('Evariste_Galois/PartA',10)">28</button>
 <button class="button white"></button>
 <button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B1',10)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B2',10)">0</button>
+<button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B2',10)">2</button>
 <button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B3',10)">5</button>
 <button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B4',10)">0</button>
 <button class="markbutton right" onclick = "markdisplay('Evariste_Galois/B5',10)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Evariste_Galois/B6',10)">0</button>
-<button class="markbutton total">53</button>
+<button class="markbutton total">55</button>
 <button class="markbutton rank">8. </button>
 <input type="button" class="markbutton white" value="Maryam Mirzakhani"/>
 <button class="markbutton blank" onclick = "markdisplay('Maryam_Mirzakhani/PartA',10)">20</button>
