@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
- - The next mock test is scheduled on 9th July, Friday 2 pm.
+ - The next mock test is scheduled at 2 pm, 9th July (Friday).
  - Last date for enrollment: July 9th.
 
 ---
