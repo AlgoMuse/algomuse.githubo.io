@@ -21,8 +21,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
- - Online session scheduled on July 6th, 7pm. Topics for discussion: Preparation and writing tips, mock tests and Q & A session.
- - July's mock tests will be held on 9th and 23rd. Last date for enrollment: July 8th.
+ - The next mock test is scheduled on 9th July, Friday 2 pm.
+ - Last date for enrollment: July 9th.
 
 ---
 
