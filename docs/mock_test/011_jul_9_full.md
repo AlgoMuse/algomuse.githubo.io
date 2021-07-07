@@ -24,8 +24,8 @@ nav_exclude: true
 
 
 **For students who miss the live test (members only)**<br>
-Self-administer the mock test and email your solutions before 9 July, 23:59 Hrs. Your solutions will be evaluated
-but marks won't be counted for official use in the future. Solutions submitted after 9 July, 23:59 Hrs will not be evaluated.
+Self-administer the mock test and email your solutions before 10 July, 23:59 Hrs. Your solutions will be evaluated
+but marks won't be counted for official use in the future. Solutions submitted after 10 July, 23:59 Hrs will not be evaluated.
 {: .bg-grey-lt-000 .p-6 }
 
 
