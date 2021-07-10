@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
- - Mock test #11 in progress! Timings: 2pm-5pm.
+ - Mock test #11 is over. Results will be out by next Saturday.
 
 
 ---
