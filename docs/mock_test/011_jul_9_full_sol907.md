@@ -355,10 +355,13 @@ Let \(\Delta T\) denote the area of triangle \(T\).
 By the standard area of a triangle formula, \(\Delta P Q D=\frac{1}{2} \cdot 1 \cdot 3=\frac{3}{2}\;\;\;\square\).<br>
 
 <b>Lemma 2: </b> \(\Delta QDX = 6/19\).<br>
-Let \(\angle Q D X=\angle C D P=\theta\). Since triangle \(P C D\) is a right triangle with side lengths 3, 4 and 5. So we have \(\sin \theta=\frac{3}{5}\) and \(\cos \theta=\frac{4}{5}\). Now by the sine area formula, \([Q D A]=2=[Q D X]+[X D A]=\frac{1}{2} \cdot D X \cdot(\sin \theta+4 \cos \theta)\), so solving for \(D X\) gives \(D X=\frac{20}{19}\).
+Let \(\angle Q D X=\angle C D P=\theta\). Since triangle \(P C D\) is a right triangle with side lengths 3, 4 and 5. So we have \(\sin \theta=\frac{3}{5}\) and \(\cos \theta=\frac{4}{5}\).
+Now by the sine area formula, \(\Delta QDA=2=\Delta Q D X+\Delta X D A=\frac{1}{2} \cdot D X \cdot(\sin \theta+4 \cos \theta)\), so solving for \(D X\) gives \(D X=\frac{20}{19}\).
 Thus \(\Delta Q D X=\frac{1}{2} \cdot 1 \cdot \frac{20}{19} \cdot \frac{3}{5}=\frac{6}{19}.\;\;\;\square\)<br>
 
 Hence, the answer is \(\frac{3}{2}-\frac{6}{19}=\frac{45}{38}\).
+
+<br><i>Source: SMT.</i>
 </details>
 
 
