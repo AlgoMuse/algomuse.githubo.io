@@ -175,9 +175,12 @@ How many positive integers divide at least one of \(10^{30}\) and \(20^{30}\) ?<
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> 1891.<br>
-Number of factors of \(10^{30}\) is \(31^{2}=961\). Factors of \(20^{30}=2^{60} 5^{30}\) not dividing \(10^{30}\) have the form
-\(2^m5^n\) with \( 31\leq m \leq 60 \) and \(0 \leq n \leq 30\).  There are \(30.31=930\) such factors.
+A factors of \(10^{30}\) is also a factor of \(20^{30}=2^{60} 5^{30}\). There are \(61\times 31\) factors of \(2^{30}\).<br>
+<b>Exercise</b>. What is the answer if the numbers were \(10^{40}\) and \(2^{30}\)?
 </details>
+
+
+
 
 
 <li>
