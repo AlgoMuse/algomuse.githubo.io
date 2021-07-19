@@ -21,6 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
+ - The next mock test is scheduled on July 23rd, Friday. Timings: 2pm-5pm.
  - [Results of mock test #11](/docs/mock_test/011_jul_9_scorecard/).
 
 
