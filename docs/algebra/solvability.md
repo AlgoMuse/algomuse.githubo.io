@@ -168,11 +168,13 @@ t^{2}+t-1&=0\\
 
 Solving for \(t\) and then \(x\) we get:
 
-\[ x = \left( \frac{-1\pm\sqrt{5}}{2} \right)^{1/3} \]
+\begin{align*}
+x &= \left( \frac{-1\pm\sqrt{5}}{2} \right)^{3} \\
+&= -2\pm \sqrt{5}
+\end{align*}
 
 
-<i><b>Comment</b>. The official CMI paper glibly says: <q>Solve it and then take the cube root of the solutions. The two solutions are \(-2 \pm \sqrt{5}\)</q>.
- No explanation is given on why it is easy to take cube roots of \(t\).</i>
+
 
 
 </p>
