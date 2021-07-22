@@ -31,3 +31,4 @@ As per the rules of CMI entrance exam, no calculators or log tables must be used
 
 ---
 
+**Questions will appear here at the scheduled time.**
