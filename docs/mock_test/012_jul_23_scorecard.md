@@ -82,8 +82,8 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B3',12)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B4',12)">7</button>
 <button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B5',12)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B6',12)">0</button>
-<button class="markbutton total">79</button>
+<button class="markbutton right" onclick = "markdisplay('Muhammad_Al_Khwarizmi/B6',12)">5</button>
+<button class="markbutton total">84</button>
 <button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Srinivasa Ramanujan"/>
 <button class="markbutton blank" onclick = "markdisplay('Srinivasa_Ramanujan/PartA',12)">32</button>
