@@ -21,13 +21,51 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
+ - Note the change in format of Part A questions this year. Sample questions in the format are given below.
  - [Results of mock test #12 are up.](/docs/mock_test/012_jul_23_scorecard)
 
 
 ---
 
+#### Sample questions for objective section
 
 
+<p>
+1.  Consider the sequence \(a_{n}=a_{n-1}+22 a_{n-2}+2020 a_{n-3}\) for \(n \geq 3\) where \(a_{0}=1, a_{1}=1\), \(a_{2}=2\). Which of the following digits <b>cannot</b> be the last digit of \(a_{n}\) for any \(n\geq 3\)?<br>
+
+(a) 1 <br>
+(b) 2 <br>
+(c) 6 <br>
+(d) 8 <br>
+
+<br>
+2. Let \(\omega \neq 1\) be a complex cube root of unity. If
+\[\left(3-3 \omega+2 \omega^{2}\right)^{4 n+3}+\left(2+3 \omega-3 \omega^{2}\right)^{4 n+3}+\left(-3+2 \omega+3 \omega^{2}\right)^{4 n+3}=0\]
+then the possible value(s) of \(n\) is (are)<br>
+(a) 1 <br>
+(b) 2 <br>
+(c) 4 <br>
+(d) 5 <br>
+
+
+<br>
+
+3.  Let \(a, b \in R\) and \(f: R \rightarrow R\) be defined by \(f(x)=a \cos \left(\left|x^{3}-x\right|\right)+b|x| \sin \left(\left|x^{3}+x\right|\right)\). Then \(f\) is<br>
+(A) differentiable at \(x=0\) if \(a=0\) and \(b=1\)<br>
+(B) differentiable at \(x=1\) if \(a=1\) and \(b=0\)<br>
+(C) NOT differentiable at \(x=0\) if \(a=1\) and \(b=0\)<br>
+(D) NOT differentiable at \(x=1\) if \(a=1\) and \(b=1\)
+
+
+</p>
+
+<i>Prob. 2 and 3 from JEE '14 and '16.</i>
+
+
+
+---
+
+<!--
 
 #### What you get on this site
 {: .fs-4}
@@ -40,8 +78,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4 .fw-300 }
 
 
----
 
+-->
 
 <div id="palette1">
 <h2>Browse previous years' problems</h2>
