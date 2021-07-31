@@ -20,9 +20,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-
+ - Good luck for Sunday's exam!
  - Note the change in format of Part A questions this year. Sample questions in the format are given below.
- - [Results of mock test #12 are up.](/docs/mock_test/012_jul_23_scorecard)
 
 
 ---
