@@ -118,27 +118,33 @@ You can reach me at this number: 7975 2867 81. I'm happy to talk to both student
 
 ---
 
-## Payment options
+## Payment option
 
+Payment must be sent to the UPI address given below. Please send me an email with the transaction number or a screenshot so that I can link your payment to
+your email ID.
+
+<!--
 Payment can be made either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to
 your email ID. Name will be shown as 'Jagadish Midthala'.
+-->
 
 <br>
-You may enroll for both the months by making a single payment.
 
-#### Option I: Universal Payment Interface
 
 ### UPI Address: cmi-tomato@sbi
 
 
+<!--
 <br>
 
+#### Option I: Universal Payment Interface
 #### Option II: Bank transfer through NEFT/IMPS:
 
 ### Acc No: 00000036148605311
 ### IFSC: SBIN0016873
 
 <br>
+-->
 
 
 
