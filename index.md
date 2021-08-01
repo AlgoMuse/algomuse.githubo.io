@@ -33,6 +33,21 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 **For each question pick all the options that are true. More than one option may be true.**
 
 <p>
+<b>A1.</b> Consider the following equations:
+\begin{align*}
+\log_{2021} a &= 2022 -a \\
+2021^b &= 2022-b
+\end{align*}
+
+(a) There is a unique \(a\) that satisfies the first equation.<br>
+(b) There is a unique \(b\) that satisfies the second equation.<br>
+(c) There exists a solution for both the equations such that \(a=b\).<br>
+(d) There exists a solution for both the equations such that \(a+b\) is an integer.
+
+</p>
+
+
+<p>
 <b>A2.</b> If \(p\) is a prime number, which of the following are true?<br>
 
 (a) For every prime \(p\), \(p^2-3\) is divisible by 3. <br>
