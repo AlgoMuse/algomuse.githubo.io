@@ -148,7 +148,7 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 <i>Comment: Not sure about this question, since options (c) and (d) do not make sense if \(v\) is defined only for \(v > 0\)</i><br>
 
 (a) \(f(1)=\pi/4\)<br>
-(b) \(f(1)+f(2)+f(3)=\pi\) <br>
+(b) \(f(1)+f(2)+f(3)=\pi/2\) <br>
 (c) \(g(v)\) is increasing in \(\mathbb{R}\).<br>
 (d) \(g(v)\) is an odd function.<br>
 </p>
