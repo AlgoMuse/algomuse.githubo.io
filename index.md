@@ -99,7 +99,6 @@ such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
 </p>
 
 
-<!--
 
 <p>
 <b>A7.</b> \(a,b,c\) are distinct positive constants. Consider the system of equations:
@@ -116,10 +115,18 @@ bx + cy &= \sqrt{3}
 </p>
 
 
-<p><b>A8.</b> Let \(\vec{v}_n\) denote a vector. We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denote the cross-product.
+<p><b>A8.</b> Let \(\vec{v}_n\) denote a vector for \(n\in \mathbb{N}\). We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denote the cross-product. Let \(\mathbb{0}\) denote
+the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) and \(T\) as follows:
+
+\[ S = \{ v_n : n\in \mathbb{N} \} \]
+\[ U = \{ \frac{\vec{v}_n}{|\vec{v}_n|} : n \in \mathbb{N} \text{ and } \vec{v}_n \neq \mathbb{0} \} \]
+
+(a) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =2 \).<br>
+(b) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =3 \).<br>
+(c) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =4 \).<br>
+(d) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| = \infty \).<br>
 </p>
 
--->
 
 <p><b>A9.</b> Let \(f\) and \(g\) be function defined as follows:<br>
 
@@ -133,6 +140,23 @@ bx + cy &= \sqrt{3}
 (d) \(\lim_{x\rightarrow 0} g(x) = 720 \).<br>
 
 </p>
+
+
+
+<p><b>A10.</b> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \) for \(v>0\).<br>
+
+<i>Comment: Not sure about this question, since options (c) and (d) do not make sense if \(v\) is defined only for \(v > 0\)</i><br>
+
+(a) \(f(1)=\pi/4\)<br>
+(b) \(f(1)+f(2)+f(3)=\pi\) <br>
+(c) \(g(v)\) is increasing in \(\mathbb{R}\).<br>
+(d) \(g(v)\) is an odd function.<br>
+</p>
+
+
+
+
+
 
 
 ### Part-B: Subjective questions
@@ -206,8 +230,16 @@ A game is played.<br>
 
 
 ---
+
+
 <p>
 <b>B4.</b> Show that there is no polynomial \(p(x)\) such that \(\cos \theta = p(\sin \theta)\) for every \(\theta\).
+
+<br><i>Comment: Not sure about this question, since the solution is trivial</i>
+
+<details open><summary>Solution</summary>
+Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) which cannot be the case.
+</details>
 </p>
 
 
