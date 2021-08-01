@@ -47,6 +47,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 </p>
 
 
+
+
 <p>
 <b>A2.</b> If \(p\) is a prime number, which of the following are true?<br>
 
@@ -57,10 +59,50 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 </p>
 
 
+<p>
+<b>A3.</b> \(ABC\) is a triangle such that \(AB=1\) cm and \(\angle ABC = 20.21^{\circ}\). Let \(N(x)\) denote the number of non-congruent triangles
+such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
+
+(a) There exists an \(x\) such that \(N(x)=0\).<br>
+(b) There exists an \(x\) such that \(N(x)=1\).<br>
+(c) There exists an \(x\) such that \(N(x)=2\).<br>
+(d) There exists an \(x\) such that \(N(x)=3\).<br>
+</p>
 
 
 <p>
-<b>A6.</b> \(a,b,c\) are distinct positive constants. Consider the system of equations:
+<b>A4.</b> Suppose \( f(x) = x^3 + ax^2 + bx +c \) with \(a,b,c\) being integers. Let \(p,q,r\) denote the roots of \(f\), possible complex.<br>
+
+(a) If \(f(1)=2021\), then \(f(x)=(x-1)(x^2+sx+t) + 2021\) such that \(s\) and \(t\) are integers.<br>
+(b) There exists \(f(x)\) with \(c=2021\) and \(p=2\).<br>
+(c) There exists \(f(x)\) with \(r=1/2\).<br>
+(d) \(p^2+q^2+r^2\) does not depend of \(c\).<br>
+
+</p>
+
+<p>
+<b>A5.</b> For a complex number \(z\) let \( P(z): \{z^k: k \in \{1,2,3,\ldots\} \} \).<br>
+
+(a) For every natural number \(n\) there exits a \(z\) such that \(P(z)=n\).<br>
+(b) There exits a unique \(z\) such that \(P(z)=3\).<br>
+(c) If \(|z|\neq 1\) and \(|z|\neq 0\) then \(P(z)\) is an infinite set.<br>
+(d) \(P(e^i)\) has infinite elements.<br>
+</p>
+
+<p>
+<b>A6.</b> A real number \(r\) is called a stationary point if \(f^\prime(r)=0\) where \(f(x)\) is a degree \(d\) polynomial.<br>
+
+(a) If \(d=2022\), then \(f\) has at least one stationary point.<br>
+(b) If \(f\) has 2021 distinct real roots, then there are at least 2020 stationary points.<br>
+(c) If \(f\) has 2021 distinct real roots, then there are at most 2020 stationary points.<br>
+(d) If \(r\) is a stationary point and \(f^{\prime\prime}(r)=0\), then \( (r,f(r)) \) is neither a local minima nor a local maxima.<br>
+</p>
+
+
+<!--
+
+<p>
+<b>A7.</b> \(a,b,c\) are distinct positive constants. Consider the system of equations:
 
 \begin{align*}
 ax + by &= \sqrt{2}\\
@@ -70,9 +112,27 @@ bx + cy &= \sqrt{3}
 (a) There exist \(a,b,c\) such that such that the system has infinite solutions.<br>
 (b) There exist \(a,b,c\) such that such that the system has exactly one solution.<br>
 (c) If the system has no solution, it means that \(2b< a+c\).<br>
-(c) If \(2b< a+c\), then the system has no solution.<br>
+(d) If \(2b< a+c\), then the system has no solution.<br>
 </p>
 
+
+<p><b>A8.</b> Let \(\vec{v}_n\) denote a vector. We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denote the cross-product.
+</p>
+
+-->
+
+<p><b>A9.</b> Let \(f\) and \(g\) be function defined as follows:<br>
+
+\[ f(x) = \frac{x}{x+\sin x} \]
+
+\[ g(x) = \frac{x^4+x^6}{e^x-1-x^2} \]
+
+(a) \(\lim_{x\rightarrow 0} f(x) = 1/2\)<br>
+(b) \(\lim_{x\rightarrow \infty} f(x)\) does not exist.<br>
+(c) \(\lim_{x\rightarrow \infty} g(x) \) is finite.<br>
+(d) \(\lim_{x\rightarrow 0} g(x) = 720 \).<br>
+
+</p>
 
 
 ### Part-B: Subjective questions
@@ -111,7 +171,7 @@ square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(A
 
 ---
 <p>
-<b>B2 (a).</b> Mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.
+<b>B2 (a).</b> Mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.<br>
 
 <i>Case I:</i> If the coin lands heads, then both the daughters win.<br>
 <i>Case II:</i> If the coin lands tails, then each daughter rolls a fair die independently. The first daughter wins if her die comes up 5 or 6. The second
