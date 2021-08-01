@@ -20,45 +20,165 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
- - Good luck for Sunday's exam!
- - Note the change in format of Part A questions this year. Sample questions in the format are given below.
+ - CMI question paper [WIP]. I'm including the problems as students are sending them to me.
+
+---
+
+
+## CMI Entrance Exam 2021 [Work in progress!]
+
+
+### Part-A : Multiple-choice questions
+
+**For each question pick all the options that are true. More than one option may be true.**
+
+<p>
+<b>A2.</b> If \(p\) is a prime number, which of the following are true?<br>
+
+(a) For every prime \(p\), \(p^2-3\) is divisible by 3. <br>
+(b) For every prime \(p>3\), exactly \(p-1\) or \(p+1\) is divisible by 6.<br>
+(c) For every prime \(p>3\), \(p^2-1\) is divisible by 24.<br>
+(d) For every prime \(p>3\), one of \(p+1\),\(p+3\) and \(p+5\) is divisible by 8.
+</p>
+
+
+
+
+<p>
+<b>A6.</b> \(a,b,c\) are distinct positive constants. Consider the system of equations:
+
+\begin{align*}
+ax + by &= \sqrt{2}\\
+bx + cy &= \sqrt{3}
+\end{align*}
+
+(a) There exist \(a,b,c\) such that such that the system has infinite solutions.<br>
+(b) There exist \(a,b,c\) such that such that the system has exactly one solution.<br>
+(c) If the system has no solution, it means that \(2b< a+c\).<br>
+(c) If \(2b< a+c\), then the system has no solution.<br>
+</p>
+
+
+
+### Part-B: Subjective questions
 
 
 ---
 
-#### Sample questions for objective section
-
-
 <p>
-1.  Consider the sequence \(a_{n}=a_{n-1}+22 a_{n-2}+2020 a_{n-3}\) for \(n \geq 3\) where \(a_{0}=1, a_{1}=1\), \(a_{2}=2\). Which of the following digits <b>cannot</b> be the last digit of \(a_{n}\) for any \(n\geq 3\)?<br>
+<b>B1. (a)</b> \(f\) is a function defined on the domain \(S\) and codomain \(T\) and \(g\) is a function defined on the domain \(T\) and codomain \(U\).
+Fill in the blanks with with one of the four options.<br>
 
-(a) 1 <br>
-(b) 2 <br>
-(c) 6 <br>
-(d) 8 <br>
+If \(g\circ f\) is one-one then, \(f\) is \(\underline{.......}\)  and \(g\) is \(\underline{......}\).<br>
+If \(g\circ f\) is onto then, \(f\) is \(\underline{.......}\)  and \(g\) is \(\underline{......}\).<br>
 
 <br>
-2. Let \(\omega \neq 1\) be a complex cube root of unity. If
-\[\left(3-3 \omega+2 \omega^{2}\right)^{4 n+3}+\left(2+3 \omega-3 \omega^{2}\right)^{4 n+3}+\left(-3+2 \omega+3 \omega^{2}\right)^{4 n+3}=0\]
-then the possible value(s) of \(n\) is (are)<br>
-(a) 1 <br>
-(b) 2 <br>
-(c) 4 <br>
-(d) 5 <br>
+Options:<br>
+
+A: One-one and onto.<br>
+B: One-one but need not to be onto.<br>
+C: Onto but need not to be one-one.<br>
+D: Need not to be one-one and need not be onto.<br>
 
 
 <br>
 
-3.  Let \(a, b \in R\) and \(f: R \rightarrow R\) be defined by \(f(x)=a \cos \left(\left|x^{3}-x\right|\right)+b|x| \sin \left(\left|x^{3}+x\right|\right)\). Then \(f\) is<br>
-(A) differentiable at \(x=0\) if \(a=0\) and \(b=1\)<br>
-(B) differentiable at \(x=1\) if \(a=1\) and \(b=0\)<br>
-(C) NOT differentiable at \(x=0\) if \(a=1\) and \(b=0\)<br>
-(D) NOT differentiable at \(x=1\) if \(a=1\) and \(b=1\)
+<b>B1. (b)</b> \(ABCD\) is a square. Point \(X\) lies on a circle with \(AY\) as the diameter. Points \(X\) and \(Y\) lie on the sides of the
+square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(ABCD\)?<br>
+
+<p style="text-align:center">
+<img src="/assets/images/cmi_2021_square.png"/>
+</p>
+
 
 
 </p>
 
-<i>Prob. 2 and 3 from JEE '14 and '16.</i>
+---
+<p>
+<b>B2 (a).</b> Mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.
+
+<i>Case I:</i> If the coin lands heads, then both the daughters win.<br>
+<i>Case II:</i> If the coin lands tails, then each daughter rolls a fair die independently. The first daughter wins if her die comes up 5 or 6. The second
+daughter wins if her die comes up 5 or 6. <br>
+
+A game is played.<br>
+
+<ol>
+<li> What is the probability that the second daughter has lost given that the first daughter has lost?</li>
+<li> What is the probability that the second daughter won given that the first daugher has won?</li>
+</ol>
+
+</p>
+
+<p>
+<b>B2 (b)</b> Prove or disprove:<br>
+(i) \( 2^{40} > 20! \)<br>
+(ii) \( 1-1/x \leq \ln x \leq x-1 \) for all \(x>0\)<br>
+</p>
+---
+
+<p>
+<b>B3.</b> You have to form a 7 letter password using 10 digits and 26 letters. Only lower case letters as allowed. For example, 01x01xb, 11bcaa0, etc. are valid passwords.
+<ol>
+<li>How many passwords can you make with 26 letters and 10 digits?</li>
+<li>How many passwords have atleast one alphabet and atleast one digit?</li>
+<li>How many passwords are there with at least one consonant and atleast one vowel and atleast one digit? Note that there are 5 vowels and 21 consonants.</li>
+<li>Suppose there are 12 additional special characters. How many passwords are there with atleast one vowel, one consonant, one digit and one special character?</li>
+</ol>
+</p>
+
+
+
+---
+<p>
+<b>B4.</b> Show that there is no polynomial \(p(x)\) such that \(\cos \theta = p(\sin \theta)\) for every \(\theta\).
+</p>
+
+
+
+---
+
+<p>
+<b>B5.</b> Function \(f(x)\) is defined as \(f(0)=0\) and for \(x> 0\) as
+\[ f(x) = \lim_{L\rightarrow \infty} \int_{1/x}^{L} \frac{1}{t^2} \cos(t) dt \]
+
+<ol>
+<li>Show that the improper integral converges.</li>
+<li>Find \(f'(1/\pi)\).</li>
+<li>Find \( \lim_{h\rightarrow 0^+} \frac{f(h)-f(0)}{h} \). </li>
+</ol>
+
+</p>
+
+
+---
+
+<p>
+<b>B6.</b>  You and your friend are playing a game where there are 2 stacks of cards:<br>
+
+Stack A has \(n\) cards and each card has a number from the set \( \{1,2,...,k\} \).<br>
+Stack B has \(k\) cards and each card has a number from the set \( \{1,2,...,n\} \).<br>
+
+You start with \(t_0=0\) and note down the following sequence \(t_1,t_2,\ldots, t_m\). The game proceeds in steps as follows:<br>
+
+If \(t_m \leq 0\), pick out the topmost card from stack A and set \[t_{m+1}=t_m + \text{number on the topmost card drawn from Stack A}\]
+
+If \(t_m> 0\), pick out the topmost card from stack B and set \[t_{m+1}=t_m - \text{number on the topmost card drawn from stack B}\]
+
+The game ends when a player has to draw a card from an empty stack. <br>
+
+Prove that<br>
+<ol>
+<li> \(1-n <= t_j<=k \) for all \(j\)</li>
+<li>There exists distinct indices \(i\) and \(j\) such that \(t_i=t_j\)</li>
+<li>Prove that there exists a non empty subset in stack A and another in B such that the sum of the numbers on those cards are equal.</li>
+</ol>
+</p>
+
+
+
+
 
 
 
