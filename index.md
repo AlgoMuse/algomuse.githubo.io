@@ -52,7 +52,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 <p>
 <b>A2.</b> If \(p\) is a prime number, which of the following are true?<br>
 
-(a) For every prime \(p\), \(p^2-3\) is divisible by 3. <br>
+(a) For every prime \(p\), \(p^2-p\) is divisible by 3. <br>
 (b) For every prime \(p>3\), exactly \(p-1\) or \(p+1\) is divisible by 6.<br>
 (c) For every prime \(p>3\), \(p^2-1\) is divisible by 24.<br>
 (d) For every prime \(p>3\), one of \(p+1\),\(p+3\) and \(p+5\) is divisible by 8.
@@ -124,7 +124,7 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 (a) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =2 \).<br>
 (b) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =3 \).<br>
 (c) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =4 \).<br>
-(d) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| = \infty \).<br>
+(d) If  \(\vec{v}_1\) and \( \vec{v}_2 \) exist such that \( |S| = \infty \), then \(|U|=\infty\)<br>
 </p>
 
 
@@ -195,7 +195,7 @@ square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(A
 
 ---
 <p>
-<b>B2 (a).</b> Mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.<br>
+<b>B2 (a).</b> A mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.<br>
 
 <i>Case I:</i> If the coin lands heads, then both the daughters win.<br>
 <i>Case II:</i> If the coin lands tails, then each daughter rolls a fair die independently. The first daughter wins if her die comes up 5 or 6. The second
@@ -252,7 +252,7 @@ Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) wh
 
 <ol>
 <li>Show that the improper integral converges.</li>
-<li>Find \(f'(1/\pi)\).</li>
+<li>Find \(f'(1/\pi)\). Clearly state what result you are using.</li>
 <li>Find \( \lim_{h\rightarrow 0^+} \frac{f(h)-f(0)}{h} \). </li>
 </ol>
 
