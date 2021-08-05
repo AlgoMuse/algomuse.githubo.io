@@ -20,12 +20,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
- - CMI question paper [WIP]. I'm including the problems as students are sending them to me.
+ - CMI 2021 question paper [WIP]. Solutions to Part A added.
 
 ---
 
 
-## CMI Entrance Exam 2021 [Work in progress!]
+## CMI Entrance Exam 2021 [Work in progress]
 
 
 ### Part-A : Multiple-choice questions
@@ -47,6 +47,14 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 </p>
 
 
+<details><summary>Solution</summary>
+(a) True. \(f(a)=\log_{2021} a + a - 2022\) is an increasing function in \(a\). So \(a=2021\) is the only solution.<br>
+(b) True. \(g(b)=2021^b + b - 2022\) is an increasing function in \(b\). So \(b=1\) is the only solution.<br>
+(c) False. Follows from above.<br>
+(d) True. Since, \(2021+1\) is an integer.<br>
+</details>
+
+
 
 
 <p>
@@ -59,15 +67,38 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 </p>
 
 
+<details><summary>Solution</summary>
+(a) False. \(5^2-5\) is not divisible by 3.<br>
+(b) True. Both 3 and 2 must be factors of either \(p-1\) or \(p+1\). Since \(p\) is an odd prime, it is not divisible by 3. So either \(p-1\) or \(p+1\) is divisible by 3. But \(p-1\) and \(p+1\) are both even.<br>
+(c) True. \(p\) is either \(4k+1\) or \(4k+3\). So \(p^2-1\) has 8 and 3 as factors.<br>
+(d) False. Put \(p=17\). <br>
+</details>
+
+
+
+
 <p>
 <b>A3.</b> \(ABC\) is a triangle such that \(AB=1\) cm and \(\angle ABC = 20.21^{\circ}\). Let \(N(x)\) denote the number of non-congruent triangles
-such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
-
-(a) There exists an \(x\) such that \(N(x)=0\).<br>
-(b) There exists an \(x\) such that \(N(x)=1\).<br>
-(c) There exists an \(x\) such that \(N(x)=2\).<br>
-(d) There exists an \(x\) such that \(N(x)=3\).<br>
+such that \(BC=x\) cm, where \(x\) is a positive real number.  There exists an \(x\) such that:<br>
+(a)  \(N(x)=0\).<br>
+(b)  \(N(x)=1\).<br>
+(c)  \(N(x)=2\).<br>
+(d)  \(N(x)=3\).<br>
 </p>
+
+
+<details><summary>Solution</summary>
+(a) True.<br>
+(b) True.<br>
+(c) True.<br>
+(d) False. <br>
+
+<i>Explanation. </i> Consider the line \(l\) that passes through \(A\) at an angle \(20.21^\circ\) to \(AB\). Let the length
+of the shortest distance from \(l\) to \(B\) be \(d\). If \(x< d\) there is no solution. If \(x=d\) there is
+exactly one solution. If \(1>x>d\), there are two solutions.<br>
+
+</details>
+
 
 
 <p>
@@ -80,6 +111,16 @@ such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
 
 </p>
 
+
+<details><summary>Solution</summary>
+(a) True. Compare the coefficients. \(t-1\) and \(t-s\) must be integers.<br>
+(b) False. Odd-Even argument.<br>
+(c) False. Implies that \(1+2a+4b+8c=0\) which can't be the case.<br>
+(d) True. \(p^2+q^2+r^2=(p+q+r)^2-2(pq+qr+rp)= a^2-2b\).
+</details>
+
+
+
 <p>
 <b>A5.</b> For a complex number \(z\) let \( P(z): \{z^k: k \in \{1,2,3,\ldots\} \} \).<br>
 
@@ -88,6 +129,15 @@ such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
 (c) If \(|z|\neq 1\) and \(|z|\neq 0\) then \(P(z)\) is an infinite set.<br>
 (d) \(P(e^i)\) has infinite elements.<br>
 </p>
+
+<details><summary>Solution</summary>
+(a) True. Pick \(z=e^{\frac{2\pi i}{n}}\).<br>
+(b) False. Both \(\omega\) and \(\omega^2\) work.<br>
+(c) True. If \(z=re^{i\theta}\), then every number in \(P\) has a different length.<br>
+(d) True. If \(e^{ia}=e^{ib}\) for some powers \(a,b\) with \(a> b\), then \(a=2k\pi+b\) for some natural number \(k\). But this would imply that \(\pi\) is rational.<br>
+</details>
+
+
 
 <p>
 <b>A6.</b> A real number \(r\) is called a stationary point if \(f^\prime(r)=0\) where \(f(x)\) is a degree \(d\) polynomial.<br>
@@ -98,7 +148,12 @@ such that \(BC=x\) cm, where \(x\) is a positive real number.<br>
 (d) If \(r\) is a stationary point and \(f^{\prime\prime}(r)=0\), then \( (r,f(r)) \) is neither a local minima nor a local maxima.<br>
 </p>
 
-
+<details><summary>Solution</summary>
+(a) True. \(f^\prime\) has odd degree, so there is one real root.<br>
+(b) True. If \(r_1 < r_2 \ldots < r_{2021}\) are the roots, then there is a stationary point between \(r_i\) and \(r_{i+1}\).<br>
+(c) False. \(f\) can have any  number of stationary points without have a single real root.<br>
+(d) False. \(f(x) = x^4\) is a counterexample.<br>
+</details>
 
 <p>
 <b>A7.</b> \(a,b,c\) are distinct positive constants. Consider the system of equations:
@@ -110,12 +165,22 @@ bx + cy &= \sqrt{3}
 
 (a) There exist \(a,b,c\) such that such that the system has infinite solutions.<br>
 (b) There exist \(a,b,c\) such that such that the system has exactly one solution.<br>
-(c) If the system has no solution, it means that \(2b< a+c\).<br>
+(c) If the system has no solution, it means that \(2b < a+c\).<br>
 (d) If \(2b< a+c\), then the system has no solution.<br>
 </p>
 
 
-<p><b>A8.</b> Let \(\vec{v}_n\) denote a vector for \(n\in \mathbb{N}\). We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denote the cross-product. Let \(\mathbb{0}\) denote
+<details><summary>Solution</summary>
+(a) True. Pick \(a=2/3,b=\sqrt{2/3}\) and \(c=1\). Both the equations become equal.<br>
+(b) True. Pick \(a=2,b=1\) and \(c=1\).<br>
+(c) True. There is no solution if \(b^2-ac=0\) and \(b/c\neq \sqrt{2/3}\). The first condition implies that \(2b\leq a+c\).<br>
+(d) False. Pick values given in (b).<br>
+</details>
+
+
+
+
+<p><b>A8.</b> Let \(\vec{v}_n\) denote a vector for \(n\in \mathbb{N}\). We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denotes the cross-product. Let \(\mathbb{0}\) denote
 the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) and \(T\) as follows:
 
 \[ S = \{ v_n : n\in \mathbb{N} \} \]
@@ -124,8 +189,18 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 (a) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =2 \).<br>
 (b) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =3 \).<br>
 (c) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =4 \).<br>
-(d) If  \(\vec{v}_1\) and \( \vec{v}_2 \) exist such that \( |S| = \infty \), then \(|U|=\infty\)<br>
+(d) If  \(\vec{v}_1\) and \( \vec{v}_2 \) exist such that \( |S| = \infty \), then \(|U|=\infty\).<br>
 </p>
+
+
+<details><summary>Solution</summary>
+(a) True. Pick \(\mathbb{1}\) and \(\mathbb{0}\).<br>
+(b) True. Pick \(\vec{v_1} = \vec{i}\) and \(\vec{v_2}=\vec{j}\).<br>
+(c) False. They would have to be unit vectors. Additionally, \(\vec{v_1},\vec{v_2},\vec{v_3}\) and  \(\vec{v_2},\vec{v_3},\vec{v_4}\) both must be mutually orthogonal. But this implies that \(\vec{v_3}=\vec{v_1}\).<br>
+(d) False. Pick \(\vec{v_1} = 2\vec{i}\) and \(\vec{v_2}=3\vec{j}\). \(|S|=\infty\) but \(|U|=3\).<br>
+</details>
+
+
 
 
 <p><b>A9.</b> Let \(f\) and \(g\) be function defined as follows:<br>
@@ -141,11 +216,18 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 
 </p>
 
+<details><summary>Solution</summary>
+(a) True. \(\sin x \approx x\) as \(x\rightarrow 0\).<br>
+(b) False. The limit is 1.<br>
+(c) True. Numerator is polynomial, while the denominator is exponential.<br>
+(d) False. The limit is zero. (L'Hosptial's rule is not applicable).
+</details>
+
 
 
 <p><b>A10.</b> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \) for \(v>0\).<br>
 
-<i>Comment: Not sure about this question, since options (c) and (d) do not make sense if \(v\) is defined only for \(v > 0\)</i><br>
+<i>Comment: Not sure about options (c) and (d) since they do not make sense if \(v\) is defined only for \(v > 0\)</i><br>
 
 (a) \(f(1)=\pi/4\)<br>
 (b) \(f(1)+f(2)+f(3)=\pi\) <br>
@@ -154,6 +236,24 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 </p>
 
 
+<details><summary>Solution</summary>
+
+<p>
+(a) True.<br>
+(b) True. <br>
+
+Let \( \arctan(1)=x ; \arctan (2)=y ;\) and \(\arctan (3)=z\).<br>
+
+\[\tan (x+y)=\frac{\tan x+\tan y}{1-\tan x \cdot \tan y}=\frac{1+2}{1-2}=-3\]
+
+Put \(u = x+y\) and evaluate:
+\[\tan (z+u)=\frac{\tan z+\tan u}{1-\tan z \cdot \tan u}=\frac{-3+3}{1-9}=0\]
+
+So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
+
+</p>
+
+</details>
 
 
 
@@ -189,9 +289,15 @@ square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(A
 <img src="/assets/images/cmi_2021_square.png"/>
 </p>
 
-
-
 </p>
+<!--
+<details><summary>Solution</summary>
+
+
+<i>Reference: Presh Talwalkar's video: https://www.youtube.com/watch?v=aQsb5jfqSYo</i>.
+</details>
+
+-->
 
 ---
 <p>
@@ -210,6 +316,32 @@ A game is played.<br>
 
 </p>
 
+<!--
+<details><summary>Solution</summary>
+
+\[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} \]
+
+
+\begin{align*}
+P(A \cap B)&=P(A \cap B \mid H) P(H)+P(A \cap B \mid T) P(T) \\
+&=1\cdot \frac{1}{2} + \frac{1}{9}\cdot \frac{1}{2} \\
+&=\frac{5}{9}
+\end{align*}
+
+\begin{align*}
+P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
+&=1\cdot \frac{1}{2} + \frac{1}{3}\cdot \frac{1}{2} \\
+&=\frac{2}{3}
+\end{align*}
+
+\[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} = \frac{5/9}{2/3} = \frac{5}{6} \]
+
+</details>
+
+-->
+
+
+
 <p>
 <b>B2 (b)</b> Prove or disprove:<br>
 (i) \( 2^{40} > 20! \)<br>
@@ -225,7 +357,14 @@ A game is played.<br>
 <li>How many passwords are there with at least one consonant and atleast one vowel and atleast one digit? Note that there are 5 vowels and 21 consonants.</li>
 <li>Suppose there are 12 additional special characters. How many passwords are there with atleast one vowel, one consonant, one digit and one special character?</li>
 </ol>
+
+<!--
+<br><i>Reference: <a href="https://math.stackexchange.com/questions/739874/how-many-possible-combinations-in-8-character-password">Math Stack Exchange.</a></i>
+-->
+
+
 </p>
+
 
 
 
@@ -234,8 +373,6 @@ A game is played.<br>
 
 <p>
 <b>B4.</b> Show that there is no polynomial \(p(x)\) such that \(\cos \theta = p(\sin \theta)\) for every \(\theta\).
-
-<br><i>Comment: Not sure about this question, since the solution is trivial</i>
 
 <details open><summary>Solution</summary>
 Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) which cannot be the case.
