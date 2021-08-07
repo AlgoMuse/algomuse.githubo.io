@@ -20,12 +20,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
- - CMI 2021 question paper [WIP]. Solutions to Part A added.
+ - CMI 2021 question paper with solutions.
 
 ---
 
 
-## CMI Entrance Exam 2021 [Work in progress]
+## CMI Entrance Exam 2021: Solutions
 
 
 ### Part-A : Multiple-choice questions
@@ -227,11 +227,10 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 
 <p><b>A10.</b> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \) for \(v>0\).<br>
 
-<i>Comment: Not sure about options (c) and (d) since they do not make sense if \(v\) is defined only for \(v > 0\)</i><br>
 
 (a) \(f(1)=\pi/4\)<br>
 (b) \(f(1)+f(2)+f(3)=\pi\) <br>
-(c) \(g(v)\) is increasing in \(\mathbb{R}\).<br>
+(c) \(g(v)\) is an increasing function.<br>
 (d) \(g(v)\) is an odd function.<br>
 </p>
 
@@ -250,6 +249,9 @@ Put \(u = x+y\) and evaluate:
 \[\tan (z+u)=\frac{\tan z+\tan u}{1-\tan z \cdot \tan u}=\frac{-3+3}{1-9}=0\]
 
 So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
+
+(c) True. Since \(g^\prime(v)=\arctan(v) > 0\) for \(v> 0\).<br>
+(d) Not sure since \(g\) is not defined for \(v < 0\).<br>
 
 </p>
 
@@ -282,6 +284,13 @@ D: Need not to be one-one and need not be onto.<br>
 
 <br>
 
+<details><summary>Answer</summary>
+B-D-D-C.
+</details>
+<br>
+
+
+
 <b>B1. (b)</b> \(ABCD\) is a square. Point \(X\) lies on a circle with \(AY\) as the diameter. Points \(X\) and \(Y\) lie on the sides of the
 square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(ABCD\)?<br>
 
@@ -290,14 +299,26 @@ square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(A
 </p>
 
 </p>
-<!--
+
 <details><summary>Solution</summary>
+\begin{align*}
+\angle DAX &= \angle CXY\\
+\implies \Delta DAX &\sim \Delta CXY \\
+\frac{XY}{AX} &= \frac{XC}{AD} \\
+\frac{3}{4} &= \frac{XC}{AD} \\
+XC &= \frac{3}{4} AD \\
+DX &= CD-CX = \frac{1}{4}AD\\
+AD^2+DX^2 &= 4^2\\
+AD^2+\frac{AD^2}{16} &= 16\\
+AD &= \frac{16}{\sqrt{17}}\\
+\text{Area of the square} &= \frac{256}{17}
+\end{align*}
 
 
-<i>Reference: Presh Talwalkar's video: https://www.youtube.com/watch?v=aQsb5jfqSYo</i>.
+<i>Problem source: <a href=" https://www.youtube.com/watch?v=aQsb5jfqSYo">Presh Talwalkar's channel</a>.</i>
+
 </details>
 
--->
 
 ---
 <p>
@@ -316,8 +337,13 @@ A game is played.<br>
 
 </p>
 
-<!--
 <details><summary>Solution</summary>
+
+<ol>
+<li>Since the outcome of the toss was tails, the second daugther lost since the die came up 1,2,3 or 4. Hence, required probability is 2/3.</li>
+
+<li>
+Let \(A\) the event that the second daughter won and \(B\) be the event that the first daughter won.<br>
 
 \[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} \]
 
@@ -336,9 +362,10 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 
 \[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} = \frac{5/9}{2/3} = \frac{5}{6} \]
 
-</details>
+</li>
+</ol>
 
--->
+</details>
 
 
 
@@ -347,6 +374,50 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 (i) \( 2^{40} > 20! \)<br>
 (ii) \( 1-1/x \leq \ln x \leq x-1 \) for all \(x>0\)<br>
 </p>
+
+<details><summary>Solution</summary>
+
+(i) False.<br>
+
+\begin{align*}
+20! &> 2\times3\times4\times5\times6\times 7\times 8\times8\times 8\ldots (\text{13 times}) \\
+20! &> 2\times3\times4\times5\times6\times 7\times (2^{3})^{13} \\
+20! &> 2^{40}
+\end{align*}
+
+<br><i>Comment:</i> A similar problem was asked in <a href="/docs/mock_test/006_apr_1_full/">mock test #6</a> (Problem B2).<br><br>
+
+
+(ii) True.<br>
+
+Let us prove the left hand side inequality.
+
+\begin{align*}
+f(x) &:= \ln x - 1 + 1/x\\
+f^\prime(x) &= 1/x(1 - 1/x)\\
+\end{align*}
+
+\(f^\prime < 0 \)  for \(x\in(0,1)\) and \(>0\) for \(x\in(1,\infty)\). This means
+\(f\) is decreasing in the interval \( (0,1)\) and increasing in the interval \( (1,\infty) \). It reaches the minimum at \(x=1\) which is zero.
+Hence \(f(x)\geq 0\) for all \(x > 0\).<br>
+
+
+The right hand side inequality can be proved similarly.
+
+\begin{align*}
+g(x) &:= x - 1 - \ln x\\
+g^\prime(x) &= 1 - 1/x
+\end{align*}
+
+Again, \( g(x) \) attains its minima of zero at \(x=1\).
+
+
+
+</details>
+
+
+
+
 ---
 
 <p>
@@ -366,6 +437,34 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 </p>
 
 
+<details><summary>Solution</summary>
+<ol>
+<li> \(36^{7}\).</li>
+<li> \(36^{7} - 26^7 - 10^7 \).</li>
+
+<li> Let \(V=5,C=21,D=10\) and \(S=12\). <br>
+<i>Notation.</i> Let \(P(x_1,\ldots,x_k)\) denote the number \( (x_1+x_2+\ldots+x_k)^7 \) where \( x_i \in \{V,C,D,S\} \).<br>
+
+By principle of inclusion/exclusion the answer is:
+
+\[ P(VCD) - \{P(VC)+P(VD)+P(CD)\} + P(V) + P(C) + P(D) \]
+</li>
+
+<li>
+\begin{align*}
+ P(VCDS) &- \{ P(VCD) + P(CDS) + P(VCS) + P(VDS)  \} \\
+         &+\{ P(VC)+P(VD)+P(VS)+P(CD)+P(CS)+P(DS)\}\\
+         &- \{ P(V) + P(C) + P(D) + P(S) \}
+\end{align*}
+
+
+</li>
+
+</ol>
+
+</details>
+
+
 
 
 ---
@@ -374,7 +473,7 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 <p>
 <b>B4.</b> Show that there is no polynomial \(p(x)\) such that \(\cos \theta = p(\sin \theta)\) for every \(\theta\).
 
-<details open><summary>Solution</summary>
+<details><summary>Solution</summary>
 Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) which cannot be the case.
 </details>
 </p>
@@ -388,7 +487,7 @@ Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) wh
 \[ f(x) = \lim_{L\rightarrow \infty} \int_{1/x}^{L} \frac{1}{t^2} \cos(t) dt \]
 
 <ol>
-<li>Show that the improper integral converges.</li>
+<li>Show that \(f(x)\) is well-defined.</li>
 <li>Find \(f'(1/\pi)\). Clearly state what result you are using.</li>
 <li>Find \( \lim_{h\rightarrow 0^+} \frac{f(h)-f(0)}{h} \). </li>
 </ol>
@@ -396,31 +495,95 @@ Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) wh
 </p>
 
 
+<details><summary>Solution</summary>
+<ol>
+<li>
+
+We split the function into three parts:
+
+\(A\) is the interval before the first time the function touches zero. \(B\) is the part  of the
+function that is positive for \(x>\pi/2\) and \(C\) is the part of the function that is negative. We show that
+each of these intergrals converge.
+
+
+<p style="text-align:center">
+<img src="/assets/images/cmi_2021_damp.png"/>
+</p>
+
+\begin{align*}
+A:&\int_{1/x}^{\pi/2} \frac{\cos t}{t^2} dt\\
+B:& \sum_{k=0}^{n} \int_{(2k+1)\pi/2}^{(2k+3)\pi/2} \frac{\cos t}{t^2} dt\\
+C:& \sum_{k=0}^{n} \int_{(2k+3)\pi/2}^{(2k+5)\pi/2} \frac{\cos t}{t^2} dt\\
+\end{align*}
+
+\(A\) is a proper integral and hence well-defined for a given \(x\). \(B\) and \(C\) are dominated by
+the integrals \( \int_{\pi/2}^{\infty} \frac{1}{t^2}\) and \( -\int_{\pi/2}^{\infty} \frac{1}{t^2} dt \),
+respectively and hence they converge.
+</li>
+
+<li> \( \displaystyle f^\prime(1/\pi) = -\pi^2\cos(1/\pi) \) using Leibniz rule.</li>
+
+<li> \(  f^\prime(h) = -\frac{1}{h^2}\;\; \text{ as } h\rightarrow 0^+ \).</li>
+
+</ol>
+
+</details>
+
+
 ---
 
 <p>
 <b>B6.</b>  You and your friend are playing a game where there are 2 stacks of cards:<br>
 
-Stack A has \(n\) cards and each card has a number from the set \( \{1,2,...,k\} \).<br>
-Stack B has \(k\) cards and each card has a number from the set \( \{1,2,...,n\} \).<br>
+Stack A has \(n\) cards and each card has a number from the set \( \{1,2,...,m\} \).<br>
+Stack B has \(m\) cards and each card has a number from the set \( \{1,2,...,n\} \).<br>
 
-You start with \(t_0=0\) and note down the following sequence \(t_1,t_2,\ldots, t_m\). The game proceeds in steps as follows:<br>
+You start with \(t_0=0\) and note down the following sequence \(t_1,t_2,t_3,\ldots\). The game proceeds in steps as follows:<br>
 
-If \(t_m \leq 0\), pick out the topmost card from stack A and set \[t_{m+1}=t_m + \text{number on the topmost card drawn from Stack A}\]
+If \(t_j \leq 0\), pick out the topmost card from stack A and set \[t_{j+1}=t_j + \text{number on the topmost card drawn from Stack A}\]
 
-If \(t_m> 0\), pick out the topmost card from stack B and set \[t_{m+1}=t_m - \text{number on the topmost card drawn from stack B}\]
+If \(t_j> 0\), pick out the topmost card from stack B and set \[t_{j+1}=t_j - \text{number on the topmost card drawn from stack B}\]
 
 The game ends when a player has to draw a card from an empty stack. <br>
 
 Prove that<br>
 <ol>
-<li> \(1-n <= t_j<=k \) for all \(j\)</li>
+<li> \(1-n \leq t_j \leq m \) for all \(j\)</li>
 <li>There exists distinct indices \(i\) and \(j\) such that \(t_i=t_j\)</li>
 <li>Prove that there exists a non empty subset in stack A and another in B such that the sum of the numbers on those cards are equal.</li>
 </ol>
 </p>
 
 
+<details><summary>Solution</summary>
+<ol>
+<li>If \(t_j\leq 0\), a card from A is removed. The maximum value of a card in A is
+\(m\) so \(t_j\) can at most be \(m\). Similarly, a card from B is subtracted
+when the value of \(t_j \geq 1\). Hence, the smallest value it can take is \(1-n\).</li>
+
+<li> From (1) we see that the \(t\)-sequence can take at most \(n\) distinct
+non-positive values and at most \(m\) distinct positive values.  We consider two ways in which the game can end:<br><br>
+
+<i>Case 1: Cards in stack B are empty.</i><br>
+Suppose the game ended after using up \(m\) cards from B and \(p\leq n\) cards from A.
+Since the game has ended the value of \(t_{m+p}\) must be positive.  In addition, the value of \(t\) before
+every card in B was added must have been positive (by the game's rule).
+So the sequence \(t_1,t_2,t_3,\ldots,t_{m+p}\) contains \(m+1\) positive numbers. But since the sequence
+contains \(m\) distinct positive numbers, two \(t\)s must have the same value by pigeon-hole principle.
+
+<br><br>
+<i>Case 2:  Cards in stack A are empty. </i><br>
+We use a similar argument. Suppose the game ended after using up \(n\) cards from A and \(p\leq n\) cards from B.
+Since the game has ended the value of \(t_{n+p}\) must be non-positive.
+In addition, the value of \(t\) before every card in A was added must have been non-positive.
+So the sequence \(t_0,t_1,t_2,t_3,\ldots,t_{m+p}\) contains \(n+1\) non-positive numbers.
+But since the sequence contains \(n\) distinct non-positive numbers, two \(t\)s must have the same value by pigeon-hole principle.
+
+</li>
+<li>From (2), some \(t_i=t_j\). The sequence of cards added between \(t_i\) and \(t_j\) sums to zero. So some proper subset
+of \(A\) and \(B\) have equal sums.</li>
+</ol>
+</details>
 
 
 
