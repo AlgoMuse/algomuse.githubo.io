@@ -250,6 +250,7 @@ Put \(u = x+y\) and evaluate:
 
 So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
 
+<br>
 (c) True. Since \(g^\prime(v)=\arctan(v) > 0\) for \(v> 0\).<br>
 (d) Not sure since \(g\) is not defined for \(v < 0\).<br>
 
