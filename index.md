@@ -194,9 +194,9 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 
 
 <details><summary>Solution</summary>
-(a) True. Pick \(\mathbb{1}\) and \(\mathbb{0}\).<br>
+(a) True. Pick \(\mathbb{1}\) and \(\mathbb{0}\). False, if \(v_1\) and \(v_2\) are non-zero.<br>
 (b) True. Pick \(\vec{v_1} = \vec{i}\) and \(\vec{v_2}=\vec{j}\).<br>
-(c) False. They would have to be unit vectors. Additionally, \(\vec{v_1},\vec{v_2},\vec{v_3}\) and  \(\vec{v_2},\vec{v_3},\vec{v_4}\) both must be mutually orthogonal. But this implies that \(\vec{v_3}=\vec{v_1}\).<br>
+(c) True. Pick \( \vec{v_1} = i+k \) and \( \vec{v_2} = i\). <br>
 (d) False. Pick \(\vec{v_1} = 2\vec{i}\) and \(\vec{v_2}=3\vec{j}\). \(|S|=\infty\) but \(|U|=3\).<br>
 </details>
 
