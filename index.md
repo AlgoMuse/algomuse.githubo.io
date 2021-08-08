@@ -78,7 +78,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 <p>
-<b>A3.</b> \(ABC\) is a triangle such that \(AB=1\) cm and \(\angle ABC = 20.21^{\circ}\). Let \(N(x)\) denote the number of non-congruent triangles
+<b>A3.</b> \(ABC\) is a triangle such that \(AB=1\) cm and \(\angle CAB = 20.21^{\circ}\). Let \(N(x)\) denote the number of non-congruent triangles
 such that \(BC=x\) cm, where \(x\) is a positive real number.  There exists an \(x\) such that:<br>
 (a)  \(N(x)=0\).<br>
 (b)  \(N(x)=1\).<br>
