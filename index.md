@@ -21,6 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
  - CMI 2021 question paper with solutions.
+ - Problem B5 updated.
 
 ---
 
@@ -522,9 +523,22 @@ the integrals \( \int_{\pi/2}^{\infty} \frac{1}{t^2}\) and \( -\int_{\pi/2}^{\in
 respectively and hence they converge.
 </li>
 
-<li> \( \displaystyle f^\prime(1/\pi) = -\pi^2\cos(1/\pi) \) using Leibniz rule.</li>
+<li>
 
-<li> \(  f^\prime(h) = -\frac{1}{h^2}\;\; \text{ as } h\rightarrow 0^+ \).</li>
+The general form of Leibniz rule is:<br>
+
+\[\frac{\mathrm{d}}{\mathrm{d} x} \int_{a(x)}^{b(x)} f(x, t) \mathrm{d} t=f(x, b(x)) \cdot b^{\prime}(x)-f(x, a(x)) \cdot a^{\prime}(x)+\int_{a(x)}^{b(x)} \frac{\partial}{\partial x} f(x, t) \mathrm{d} t\]
+
+Substituting, \( a(x) = 1/x \) and \(b(x)=L\), we get:<br>
+
+\begin{align*}
+f^\prime(x) &= 0- \frac{\cos(1/x)}{1/x^2}\cdot (-1/x^2) \\
+f^\prime(1/\pi) &= \cos\pi = -1 \\
+\end{align*}
+
+</li>
+
+<li>TBD.</li>
 
 </ol>
 
