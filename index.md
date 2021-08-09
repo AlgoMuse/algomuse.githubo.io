@@ -13,7 +13,7 @@ last_modified_date: 2020-04-27T17:54:08+0000
 
 This website is for class XI and XII students who wish to pursue B.Sc. at Chennai Mathematical Institute.<br>
 
-**Disclaimer.** This is an unofficial resource and is not affiliated to or endorsed by CMI.
+**Disclaimer.** This is an unofficial resource and is not affiliated to CMI.
 {: .fs-3 .bg-grey-lt-000 .text-gray-004 }
 
 ---
