@@ -23,7 +23,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
  - CMI 2021 question paper with solutions.
- - Problem B5 updated.
+ - Solutions to B1(a) and B5 updated.
 
 ---
 
@@ -265,7 +265,7 @@ So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\p
 
 
 
-### Part-B: Subjective questions
+### Part B: Subjective questions
 
 
 ---
@@ -288,8 +288,28 @@ D: Need not to be one-one and need not be onto.<br>
 
 <br>
 
-<details><summary>Answer</summary>
-B-D-D-C.
+<details><summary>Solution</summary>
+
+<b>Ans.</b> B-D-D-C.<br>
+
+<i>Explanation. </i> If \(g\circ f\) is one-one, the \(f\) must be one-one. If not, there are two
+elements \(x\) and \(y\) with \(x\neq y\) such that \( f(x) = f(y) \), which implies that \(g(x) = g(y)\). A contradiction.
+However, \(f\) need not be onto and \(g\) need not be onto or one-one as the example below shows.
+
+<p style="text-align:center">
+<img src="/assets/images/cmi2021_b1a.png"/>
+</p>
+
+<br>
+
+If \(g\circ f\) is onto, then \(g\) must be onto since every element in \(U\) must be reached by some element from \(S\) via \(T\). As
+the example below shows, this the only constraint.
+
+<p style="text-align:center">
+<img src="/assets/images/cmi2021_b1b.png"/>
+</p>
+
+
 </details>
 <br>
 
