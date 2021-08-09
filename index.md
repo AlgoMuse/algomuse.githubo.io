@@ -1085,7 +1085,9 @@ If you have a more elegant solution to any problem than the one presented, feel 
 
 #### Legal information
 
-The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fls/fl102.html).
+
+
+The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fair-use/index.html).
 You agree to email me about any possible infringement of copyright law before taking legal action.
 {: .fs-3 .fw-300 }
 
