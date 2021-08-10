@@ -23,7 +23,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
  - CMI 2021 question paper with solutions.
- - Solutions to B1(a) and B5(b) updated.
+ - Problem A10's description is updated.
 
 ---
 
@@ -228,12 +228,12 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 
 
 
-<p><b>A10.</b> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \) for \(v>0\).<br>
+<p><b>A10.</b> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \).<br>
 
 
 (a) \(f(1)=\pi/4\)<br>
 (b) \(f(1)+f(2)+f(3)=\pi\) <br>
-(c) \(g(v)\) is an increasing function.<br>
+(c) \(g(v)\) is an increasing function in \( \mathbb{R} \).<br>
 (d) \(g(v)\) is an odd function.<br>
 </p>
 
@@ -242,9 +242,11 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 
 <p>
 (a) True.<br>
-(b) True. <br>
+(b) True. See below. <br>
+(c) False. \(g(-v) = - \int_{-v}^0 f(x) dx = g(v)\). So \(g\) is convex.<br>
+(d) False. \(g\) is an even function.<br>
 
-Let \( \arctan(1)=x ; \arctan (2)=y ;\) and \(\arctan (3)=z\).<br>
+<i>Explanation for (b)</i>. Let \( \arctan(1)=x ; \arctan (2)=y ;\) and \(\arctan (3)=z\).<br>
 
 \[\tan (x+y)=\frac{\tan x+\tan y}{1-\tan x \cdot \tan y}=\frac{1+2}{1-2}=-3\]
 
@@ -254,8 +256,6 @@ Put \(u = x+y\) and evaluate:
 So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
 
 <br>
-(c) True. Since \(g^\prime(v)=\arctan(v) > 0\) for \(v> 0\).<br>
-(d) Not sure since \(g\) is not defined for \(v < 0\).<br>
 
 </p>
 
