@@ -253,7 +253,7 @@ the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) an
 Put \(u = x+y\) and evaluate:
 \[\tan (z+u)=\frac{\tan z+\tan u}{1-\tan z \cdot \tan u}=\frac{-3+3}{1-9}=0\]
 
-So \( tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
+So \( \tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
 
 <br>
 
