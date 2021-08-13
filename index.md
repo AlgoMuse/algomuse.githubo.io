@@ -324,7 +324,36 @@ square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(A
 
 </p>
 
-<details><summary>Solution</summary>
+
+<details><summary>Solution I via cyclic quadrilateral</summary>
+
+<br><i>Sol. due to Abhishek Goel.</i><br><br>
+
+Since \( \angle AXY + \angle ABY = 180^{\circ} \), \(AXYB\) is a cyclic quadrilateral.
+Suppose the chord \(XY\) subtends an angle \(\theta\) at \(A\) and \(B\) as shown:
+
+<p style="text-align:center">
+<img src="/assets/images/cmi2021_b1_sol.png"/>
+</p>
+
+
+Let the side-length of the square be \(x\).
+
+\begin{align*}
+\text{From triangle } AXY \text{ we have} \tan \theta &= \frac{3}{4} \\
+\text{From triangle } XCB \text{ we have} \tan \theta &= \frac{XC}{CB} \\
+\therefore XC &= \frac{3}{4}x \\
+DX &= x-XC = \frac{1}{4}x\\
+AD^2+DX^2 &= AX^2\\
+x^2+\left(\frac{x}{4}\right)^2 &= 4^2\\
+x &= \frac{16}{\sqrt{17}}\\
+\text{Area of the square} &= \frac{256}{17}
+\end{align*}
+</details>
+
+<p></p>
+
+<details><summary>Solution II via similar triangles</summary>
 \begin{align*}
 \angle DAX &= \angle CXY\\
 \implies \Delta DAX &\sim \Delta CXY \\
