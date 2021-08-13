@@ -23,7 +23,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
  - CMI 2021 question paper with solutions.
- - Alternate solution to B1(b) added.
+ - Alternate solution to B1-b added.
 
 ---
 
