@@ -312,10 +312,37 @@ Show that \(\angle O D C=\angle O B C\).
 <details><summary>Solution</summary>
 
 <p>
-Note that there exists an external point \(P\) such that \(A P\) is parallel to \(D O, B P\) is parallel to \(C O\) and \(O P\) is parallel to \(B C\).
-Now \(A O B P\) is a cyclic quadrilateral. Rest is a straight-forward calculation involving angles.
-</p>
 
+<b>Key idea.</b> Translate the triangle \(DOC\).<br>
+
+<p style="text-align:center;">
+<img src="/assets/images/B4_2019.jpg"></p>
+
+
+Since \(AB=CD\), we can find a point \(P\) below the line \(AB\) such that \(\Delta ABP \cong \Delta DOC\). In other words,
+the triangle \(ABP\) is obtained by translating \(DOC\) along the line parallel to \(BC\) until \(CD\) coincides with \(AB\).
+
+
+<br><b>Fact.</b> If the opposite angles of a quadrilateral sum to \(180^\circ\), the vertices must be cyclic.<br>
+
+
+\begin{align*}
+    \angle AOB + \angle DOC& =180^{\circ} \mbox{(Given)} \\
+    \implies \angle AOB + \angle APB & =180^{\circ}
+\end{align*}
+
+Hence, \(APBO\) must be a cyclic quadrilateral. The rest of the proof is by angle-chasing.
+
+
+\begin{align*}
+ \angle PAB &= \angle POB \;\mbox{ since the chord \(PB\) subtends them} \\
+\angle OBC &=  \angle POB \;\mbox{ since } OP \parallel BC \\
+\angle OBC &= \angle POB = \angle PAB  = \angle ODC
+\end{align*}
+
+
+
+</p>
 
 
 
