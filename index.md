@@ -19,11 +19,12 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 ---
 
 
-#### What's new?
+
+#### Did you give CMI Entrance 2021?
 {: .fs-4}
 
- - Did you give CMI Entrance 2021? If so, please [take a poll](https://xoyondo.com/ap/MtsGCichswY0CgK) & tell us what marks you expect to get.
-
+- If so, please [take a poll](https://xoyondo.com/ap/MtsGCichswY0CgK) & tell us what marks you expect to get.
+  Also, please share this link!
 
 ---
 
