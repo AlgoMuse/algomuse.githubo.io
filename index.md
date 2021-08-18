@@ -20,10 +20,11 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 
-#### Did you give CMI Entrance 2021?
+#### What's new?
 {: .fs-4}
 
-- If so, please [take a poll](https://xoyondo.com/ap/MtsGCichswY0CgK) & tell us what marks you expect to get.
+- [Estimating the cut-off](docs/article/cutoff_estimate/).
+- Did you give CMI Entrance 2021? If so, please [take a poll](https://xoyondo.com/ap/MtsGCichswY0CgK) & tell us what marks you expect to get.
   Also, please share this link!
 
 ---
@@ -439,7 +440,7 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 20! &> 2^{40}
 \end{align*}
 
-<br><i>Comment:</i> A similar problem was asked in <a href="/docs/mock_test/006_apr_1_full/">mock test #6</a> (Problem B2).<br><br>
+<br><i>Comment:</i> A similar problem was asked in <a href="/docs/mock_test/006_apr_1_full/#part-b-subjective-questions">mock test #6</a> (Problem B2).<br><br>
 
 
 (ii) True.<br>
@@ -1004,7 +1005,7 @@ of \(A\) and \(B\) have equal sums.</li>
 
 ## CMI entrance exam cutoff
 
-The cutoff has been around 35% for the objective section and 40-50% overall. The objective section is used for screening.<br>
+The cutoff has been around 40% for the objective section and 40-50% overall. The objective section is used for screening.<br>
 
 CMI does not publish the cutoff marks but they have responded to individual requests in the past.
 The scores shown below were shared by former students who were privy to this data.
@@ -1029,13 +1030,13 @@ The cutoff marks for the previous years are given below.
 
 
 
-| Year | Objective | Overall | Vetted by
+| Year | Objective (40 marks) | Overall | Vetted by
 |---|--|--|
-2016 | 14/40 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
-2017 | 15/40 | 60/125 | Abhiroop Sanyal
-2018 | 15/40 | 50/125 |  -
-2019 | 20/40 | 52/100  | Ankush Agarwal
-2020 | 20/40 | 48/94  | CMI Office
+2016 | 14 | 62/124 | Sayantani Bhattacharya [<i style="font-size:14px" class="fa">&#xf08e;</i>](https://www.quora.com/Why-there-is-no-interview-for-cmi-bsc-this-year)
+2017 | 15 | 60/125 | Abhiroop Sanyal
+2018 | 15 | 50/125 |  -
+2019 | &sim;16 | 52/100  | Ankush Agarwal
+2020 | &sim;16 | 48/94  | CMI Office
 
 
 
