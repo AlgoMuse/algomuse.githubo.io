@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Article
+title: CMI 2020 Results
+nav_exclude: true
 ---
 
 <style>
