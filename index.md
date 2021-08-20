@@ -23,9 +23,10 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- Congratulations to everybody who made it to CMI.
-- For those who weren't lucky: Remember that the real win is the
+- Congratulations to everybody who made it to CMI. For those who weren't lucky: Remember that the real win is the
 math that you've picked up in the last two years.
+
+- Solution to B5(c) is now published (thanks to Soham Ghosh).
 
 ---
 
@@ -591,7 +592,51 @@ f^\prime(1/\pi) &= \cos\pi = -1 \\
 
 </li>
 
-<li>TBD.</li>
+<li>
+<i>Solution due to Soham Ghosh (West Bengal).</i><br>
+
+\begin{align*}
+f(x) &=\int_{1 / x}^{\infty} \frac{1}{t^{2}} \cos t \,dt \\
+&=\left.\frac{1}{t^{2}} \sin t\right|_{1 / x} ^{\infty}-\int_{1 / x}^{\infty} \frac{(-2)}{t^{3}} \sin t\, dt \;\;\text{ (using integration by parts)} \\
+&=-x^{2} \sin \frac{1}{x}+\int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \\
+\end{align*}
+
+We are required to calculate only the right-hand side limit. L'Hospital's rule is not applicable.
+
+\[ \lim_{h \rightarrow 0^{+}} \frac{f(h)-f(0)}{h}=\lim_{h \rightarrow 0^{+}} \frac{f(h)}{h} \]
+
+
+\begin{align*}
+f(h)&=-h^{2} \sin \frac{1}{h}+\int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \\
+\frac{f(h)}{h}&=-h \sin \frac{1}{h}+\frac{1}{h}\int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t
+\end{align*}
+
+We will show that the limit of each summand in the LHS goes to zero.<br>
+
+
+Firstly, \( \lim_{h\rightarrow 0} -h \sin \frac{1}{h} = 0 \).<br>
+
+
+\begin{align*}
+-\frac{2}{t^{3}} & \leq \frac{2}{t^{3}} \sin t \leq \frac{2}{t^{3}} \quad (\because-1 \leqslant \sin t \leqslant 1) \\
+-\int_{1 / x}^{\infty} \frac{2}{t^{3}} d t &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \leq   \int_{1 / x}^{\infty} \frac{2}{t^{3}} d t \\
+-\left.2 \frac{t^{-2}}{-2}\right|_{1 / x} ^{\infty} &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \leq \left. 2 \frac{t^{-2}}{-2}\right|_{1 / x} ^{\infty} \\
+-x^{2} &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  x^{2}  \\
+-h^{2} &\leq \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  h^{2} \\
+-h &\leq \frac{1}{h} \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  h \\
+\lim_{h\rightarrow 0^+}& \frac{1}{h} \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t = 0 \;\; \text{ Hence proved.}
+\end{align*}
+
+
+
+
+
+
+</li>
+
+
+
+
 
 </ol>
 
