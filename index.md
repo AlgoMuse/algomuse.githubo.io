@@ -23,9 +23,9 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### What's new?
 {: .fs-4}
 
-- [Estimating the cut-off](docs/article/cutoff_estimate/).
-- Did you give CMI Entrance 2021? If so, please [take a poll](https://xoyondo.com/ap/MtsGCichswY0CgK) & tell us what marks you expect to get.
-  Also, please share this link!
+- Congratulations to everybody who made it to CMI.
+- For those who weren't lucky: Remember that the real win is the
+math that you've picked up in the last two years.
 
 ---
 
