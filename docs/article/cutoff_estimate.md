@@ -41,6 +41,8 @@ table.inner-borders {
 <img src="/assets/images/cutoff_banner.png"/>
 </p>
 
+<b>Update: </b> The actual cutoff was 56, so the estimate was off by 2 marks.
+{: .bg-grey-lt-000 .p-7 }
 
 I arrived at the above cut-off by using three heuristics. Take it
 with a grain of salt since it is based on unverified assumptions. This estimate

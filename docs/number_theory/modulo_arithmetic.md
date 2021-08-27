@@ -17,6 +17,34 @@ nav_order: 3
 
 ---
 
+
+### Divisibility tests
+{: .d-inline-block}
+
+A2, 2021
+{: .label}
+
+
+<p>If \(p\) is a prime number, which of the following are true?<br>
+
+(a) For every prime \(p\), \(p^2-p\) is divisible by 3. <br>
+(b) For every prime \(p>3\), exactly \(p-1\) or \(p+1\) is divisible by 6.<br>
+(c) For every prime \(p>3\), \(p^2-1\) is divisible by 24.<br>
+(d) For every prime \(p>3\), one of \(p+1\),\(p+3\) and \(p+5\) is divisible by 8.
+</p>
+
+
+<details><summary>Solution</summary>
+<br>
+(a) False. \(5^2-5\) is not divisible by 3.<br>
+(b) True. Both 3 and 2 must be factors of either \(p-1\) or \(p+1\). Since \(p\) is an odd prime, it is not divisible by 3. So either \(p-1\) or \(p+1\) is divisible by 3. But \(p-1\) and \(p+1\) are both even.<br>
+(c) True. \(p\) is either \(4k+1\) or \(4k+3\). So \(p^2-1\) has 8 and 3 as factors.<br>
+(d) False. Put \(p=17\). <br>
+</details>
+
+
+---
+
 ### Difference of squares
 {: .d-inline-block}
 
@@ -60,6 +88,81 @@ that \( 21 \equiv 4 \mod 17 \), which we can get.
 </details>
 
 ---
+
+### Chinese remainder theorem
+{: .d-inline-block}
+
+A10, 2020
+{: label .label-blue}
+
+
+<p>
+Find positive integers \(a,b,c\leq 475\) such that:
+</p>
+
+<p>
+\begin{align}
+a\equiv 0\pmod {25} & \quad a\equiv 1\pmod {19} \\ \\
+b\equiv 1\pmod {25} & \quad b\equiv 0\pmod {19} \\ \\
+c\equiv 10\pmod{25} & \quad c\equiv 4\pmod {19}
+\end{align}
+</p>
+
+
+<details><summary>Solution</summary>
+
+<div style="margin-top:10px; margin-bottom: 10px; padding: 10px; border: 1px solid #cce ; border-radius: 4px;">
+
+<h3>Background: Chinese remainder theorem (CRT)</h3>
+
+<p>
+We want to find a \(p\) such that:
+
+\begin{align}
+p \equiv p_{1} &\: \left(\bmod\; n_{1}\right) \\
+p \equiv p_{2} &\: \left(\bmod\; n_{2}\right)
+\end{align}
+
+where \(n_{1}\) and \(n_{2}\) are coprime.
+
+Bezout's theorem proves the existence of two integers \(m_{1}\) and \(m_{2}\) such that:
+
+\[ m_{1} n_{1}+m_{2} n_{2}=1 \]
+
+The integers \(m_{1}\) and \(m_{2}\) can be found by the extended Euclidean algorithm.
+
+A solution is given by
+
+\[ p=p_{1} m_{2} n_{2}+p_{2} m_{1} n_{1} \]
+
+Further, the solution is unique modulo \(n_1n_2\).
+</p>
+</div>
+
+The numbers 25 and 19 are co-prime and we can apply CRT directly to our problem.
+
+\[ -3\times 25 + 4\times 19 = 1 \]
+
+So we have:
+
+\begin{align}
+n_1 &= 25 &  n_2 &= 19 \\
+m_1 &= -3 &  m_2 &= 4
+\end{align}
+
+We apply the formula to get the values of \(a,b\) and \(c\).
+
+\begin{align}
+a &= 0\times 76 + 1 \times -75 = -75 = 400 \pmod{475} \\
+b &= 1\times 76 + 0 \times -75 = 76  \\
+c &= 10\times 76 + 4 \times -75 = 460 \pmod{475}
+\end{align}
+
+</details>
+
+
+---
+
 
 ### Is a square?
 {: .d-inline-block}

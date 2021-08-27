@@ -15,3 +15,8 @@ has_children: true
 
 
 
+<!--
+http://www.math.toronto.edu/beni/putnam/2020/2020-NT-diophantine-equations.pdf
+
+-->
+

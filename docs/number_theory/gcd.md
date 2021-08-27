@@ -204,6 +204,7 @@ B6, 2018
 <p>(c) Consider the trajectory with initial state \([(x, y) ; \overline{(p, 0)}]\) where \(p\) is a positive integer. In how much time will the striker first return to its initial state?</p>
 <p>(d) What is the bounce number for the initial state \([(x, y) ; \overline{(p, q)}]\) where \(p, q\) are relatively prime positive integers, assuming the striker never hits a corner?</p>
 
+<p style="text-align:center;"><img src="/assets/images/carrom_question.png"></p>
 
 <details><summary>Solution</summary>
 

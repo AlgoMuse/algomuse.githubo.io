@@ -29,12 +29,12 @@ Using the fact that \\(\sqrt{n}\\) is an irrational number whenever \\(n\\) is n
 <details markdown="1">
 <summary>Solution</summary>
 
-Our proof works by showing a series of "If x is rational so is y". Suppose the given number is rational. The the following sequence of numbers must be rational too.
+Our proof works by showing a series of "If x is rational so is y". Suppose \\(S\\) is rational, then the following sequence of numbers must be rational too.
 
 
 |---|---|
 \\(7\sqrt{3}+3\sqrt{7}+\sqrt{21}\\) | Square the given number and subtract the integer part|
-\\(6\sqrt{3}+2\sqrt{7}\quad\\) | Subtract X from the above number. Since X is assumed to be rational, this number must be rational too.|
+\\(6\sqrt{3}+2\sqrt{7}\quad\\) | Subtract \\(S\\) from the above number. Since \\(S\\) is assumed to be rational, this number must be rational too.|
 \\(\sqrt{3}\sqrt{7}\quad\quad\\) | Square the above number and remove the integer part.|
 
 

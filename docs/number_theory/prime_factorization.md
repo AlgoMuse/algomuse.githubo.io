@@ -120,6 +120,33 @@ A number \\(n\\) that has prime factorizaton \\( p_1^{k_1} p_2^{k_2}\ldots p_t^{
 
 </details>
 
+---
+
+### Number of divisors II
+{: .d-inline-block }
+
+A8, 2020
+{: .label}
+
+
+<p>
+Find the number of positive integers \(n\leq 60\) having \(6\) divisors.
+</p>
+
+<details><summary>Solution</summary>
+<p>
+Suppose the prime factorization of \(n\) is \(p_1^{a_1}p_2^{a_2}\cdots p_k^{a_k}\), then \(n\) has \( (a_1+1)(a_2+1)\cdots (a_k+1) \) factors. If \(n\)
+has six factors, its prime factorizaton must be of the form \(p_1p_2^{2}\) or \(p_1^5\). There are nine numbers less than 60 that satisfy this condition:
+</p>
+
+<p>
+\[ 2\cdot3^2, 2\cdot 5^2, 3\cdot2^2, 5\cdot 2^2, 5\cdot 3^2, 7\cdot 2^2, 11\cdot 2^2, 13\cdot 2^2 \mbox{ and } 2^{5} \]
+</p>
+
+</details>
+
+
+---
 
 
 
@@ -141,7 +168,7 @@ We have:
 </p>
 
 <p>
-Therefore for \(N\) to be a perfect power, the primes 3,7,13,37 must all occur (and in fact with equal power) as factors in the prime factorization of \(10 x+y .\)
+Therefore for \(N\) to be a perfect power, the primes 3,7,13,37 must all occur as factors in the prime factorization of \(10 x+y .\)
 In particular \(10 x+y \geq 10101\).  But since \(x\) and \(y\) are digits, each is between 0 and \(9,\) so \(10 x+y \leq 99\).
 So \(N\) cannot be a perfect power.
 </p>

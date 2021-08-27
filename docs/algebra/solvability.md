@@ -7,7 +7,7 @@ nav_order: 2
 
 
 
-## Solvability of equations [9]
+## Solvability of equations [10]
 
 
 ### Charity
@@ -139,10 +139,70 @@ So population decreased by \(2 \%\)
 ---
 
 
+### Monotonic functions
+{: .d-inline-block}
+
+A1, 2021
+{: .label}
+
+
+<p> Consider the following equations:
+\begin{align*}
+\log_{2021} a &= 2022 -a \\
+2021^b &= 2022-b
+\end{align*}
+
+(a) There is a unique \(a\) that satisfies the first equation.<br>
+(b) There is a unique \(b\) that satisfies the second equation.<br>
+(c) There exists a solution for both the equations such that \(a=b\).<br>
+(d) There exists a solution for both the equations such that \(a+b\) is an integer.
+
+</p>
+
+
+<details><summary>Solution</summary>
+<br>
+(a) True. \(f(a)=\log_{2021} a + a - 2022\) is an increasing function in \(a\). So \(a=2021\) is the only solution.<br>
+(b) True. \(g(b)=2021^b + b - 2022\) is an increasing function in \(b\). So \(b=1\) is the only solution.<br>
+(c) False. Follows from above.<br>
+(d) True. Since, \(2021+1\) is an integer.<br>
+</details>
+
+
+---
+
+### Two equations
+{: .d-inline-block}
+
+A7, 2021
+{: .label }
+
+<p>
+\(a,b,c\) are distinct positive constants. Consider the system of equations:
+
+\begin{align*}
+ax + by &= \sqrt{2}\\
+bx + cy &= \sqrt{3}
+\end{align*}
+
+(a) There exist \(a,b,c\) such that such that the system has infinite solutions.<br>
+(b) There exist \(a,b,c\) such that such that the system has exactly one solution.<br>
+(c) If the system has no solution, it means that \(2b < a+c\).<br>
+(d) If \(2b< a+c\), then the system has no solution.<br>
+</p>
+
+
+<details><summary>Solution</summary>
+(a) True. Pick \(a=2/3,b=\sqrt{2/3}\) and \(c=1\). Both the equations become equal.<br>
+(b) True. Pick \(a=2,b=1\) and \(c=1\).<br>
+(c) True. There is no solution if \(b^2-ac=0\) and \(b/c\neq \sqrt{2/3}\). The first condition implies that \(2b\leq a+c\).<br>
+(d) False. Pick values given in (b).<br>
+</details>
 
 
 
 
+---
 
 ### Solving a cubic root equation
 {: .d-inline-block}

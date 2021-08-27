@@ -68,14 +68,67 @@ can be filled in \( 4^2\) ways. Hence we have:
 
 ---
 
+### Coin toss and a dice roll
+{: .d-inline-block}
+
+B2a, 2021
+{: .label}
 
 
+<p>
+<b>B2 (a).</b> A mother and two daughters have a fair coin and play a game as follows. First, the mother tosses the coin.<br>
+
+<i>Case I:</i> If the coin lands heads, then both the daughters win.<br>
+<i>Case II:</i> If the coin lands tails, then each daughter rolls a fair die independently. The first daughter wins if her die comes up 5 or 6. The second
+daughter wins if her die comes up 5 or 6. <br>
+
+A game is played.<br>
+
+<ol>
+<li> What is the probability that the second daughter has lost given that the first daughter has lost?</li>
+<li> What is the probability that the second daughter won given that the first daugher has won?</li>
+</ol>
+
+</p>
+
+<details><summary>Solution</summary>
+
+<ol>
+<li>Since the outcome of the toss was tails, the second daugther lost since the die came up 1,2,3 or 4. Hence, required probability is 2/3.</li>
+
+<li>
+Let \(A\) the event that the second daughter won and \(B\) be the event that the first daughter won.<br>
+
+\[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} \]
+
+
+\begin{align*}
+P(A \cap B)&=P(A \cap B \mid H) P(H)+P(A \cap B \mid T) P(T) \\
+&=1\cdot \frac{1}{2} + \frac{1}{9}\cdot \frac{1}{2} \\
+&=\frac{5}{9}
+\end{align*}
+
+\begin{align*}
+P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
+&=1\cdot \frac{1}{2} + \frac{1}{3}\cdot \frac{1}{2} \\
+&=\frac{2}{3}
+\end{align*}
+
+\[ P(A \mid B)=\frac{P(A \cap B)}{P(B)} = \frac{5/9}{2/3} = \frac{5}{6} \]
+
+</li>
+</ol>
+
+</details>
+
+
+
+
+---
 
 
 ### Tinku's chocolate
 {: .d-inline-block}
-
-
 
 A5, 2012
 {: .label}

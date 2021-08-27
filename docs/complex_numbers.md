@@ -69,6 +69,31 @@ x^{2012}+x^{-2012} &= 2 \cos \left(\frac{2012 \pi}{5}\right)\\
 
 ---
 
+
+### Set of powers
+{: .d-inline-block}
+
+A5, 2021
+{: .label}
+
+<p>
+For a complex number \(z\) let \( P(z): \{z^k: k \in \{1,2,3,\ldots\} \} \).<br>
+
+(a) For every natural number \(n\) there exits a \(z\) such that \(P(z)=n\).<br>
+(b) There exits a unique \(z\) such that \(P(z)=3\).<br>
+(c) If \(|z|\neq 1\) and \(|z|\neq 0\) then \(P(z)\) is an infinite set.<br>
+(d) \(P(e^i)\) has infinite elements.<br>
+</p>
+
+<details><summary>Solution</summary>
+(a) True. Pick \(z=e^{\frac{2\pi i}{n}}\).<br>
+(b) False. Both \(\omega\) and \(\omega^2\) work.<br>
+(c) True. If \(z=re^{i\theta}\), then every number in \(P\) has a different length.<br>
+(d) True. If \(e^{ia}=e^{ib}\) for some powers \(a,b\) with \(a> b\), then \(a=2k\pi+b\) for some natural number \(k\). But this would imply that \(\pi\) is rational.<br>
+</details>
+
+---
+
 ### Complex polygon
 {: .d-inline-block}
 

@@ -175,6 +175,36 @@ Hence, the center of the bubble is at \( (0,5/4) \).</p>
 
 ---
 
+### Cross-product of vectors
+{: .d-inline-block}
+
+A8, 2021
+{: .label}
+
+<p>Let \(\vec{v}_n \) denote a vector for \(n\in \mathbb{N}\). We define \(\vec{v}_{n+2} = \vec{v}_{n}\times \vec{v}_{n+1}\), where \(\times\) denotes the cross-product. Let \(\mathbb{0}\) denote
+the zero vector. \(\vec{v}_{n}\) maybe the zero vector too. Define sets \(S\) and \(T\) as follows:
+
+\[ S = \{ v_n : n\in \mathbb{N} \} \]
+\[ U = \{ \frac{\vec{v}_n}{|\vec{v}_n|} : n \in \mathbb{N} \text{ and } \vec{v}_n \neq \mathbb{0} \} \]
+
+(a) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =2 \).<br>
+(b) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =3 \).<br>
+(c) There exists \(\vec{v}_1\) and \( \vec{v}_2 \) such that \( |S| =4 \).<br>
+(d) If  \(\vec{v}_1\) and \( \vec{v}_2 \) exist such that \( |S| = \infty \), then \(|U|=\infty\).<br>
+</p>
+
+
+<details><summary>Solution</summary>
+(a) True. Pick \(\mathbb{1}\) and \(\mathbb{0}\). False, if \(v_1\) and \(v_2\) are non-zero.<br>
+(b) True. Pick \(\vec{v_1} = \vec{i}\) and \(\vec{v_2}=\vec{j}\).<br>
+(c) True. Pick \( \vec{v_1} = i+k \) and \( \vec{v_2} = i\). <br>
+(d) False. Pick \(\vec{v_1} = 2\vec{i}\) and \(\vec{v_2}=3\vec{j}\). \(|S|=\infty\) but \(|U|=3\).<br>
+</details>
+
+
+
+---
+
 ### Vector perpendicular to a plane
 {: .d-inline-block}
 
