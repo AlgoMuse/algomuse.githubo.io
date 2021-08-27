@@ -17,6 +17,40 @@ nav_order: 1
 
 ---
 
+
+### Possible triangles
+{: .d-inline-block}
+
+A3, 2021
+{: .label}
+
+<p>
+\(ABC\) is a triangle such that \(AB=1\) cm and \(\angle CAB = 20.21^{\circ}\). Let \(N(x)\) denote the number of non-congruent triangles
+such that \(BC=x\) cm, where \(x\) is a positive real number.  There exists an \(x\) such that:<br>
+(a)  \(N(x)=0\).<br>
+(b)  \(N(x)=1\).<br>
+(c)  \(N(x)=2\).<br>
+(d)  \(N(x)=3\).<br>
+</p>
+
+
+<details><summary>Solution</summary>
+(a) True.<br>
+(b) True.<br>
+(c) True.<br>
+(d) False. <br>
+
+<i>Explanation. </i> Consider the line \(l\) that passes through \(A\) at an angle \(20.21^\circ\) to \(AB\). Let the length
+of the shortest distance from \(l\) to \(B\) be \(d\). If \(x< d\) there is no solution. If \(x=d\) there is
+exactly one solution. If \(1>x>d\), there are two solutions.<br>
+
+</details>
+
+
+
+---
+
+
 ### Midpoint of a median
 {: .d-inline-block}
 
@@ -188,11 +222,11 @@ A10, 2014
 {: .label}
 
 <p>
-In each of the following independent situations we want to construct a triangle \(A B C\) satisfying the given conditions. In each case state state how many such triangles \(A B C\) exist up to congruence.
-(i) \(A B=30 \quad B C=95 \quad A C=55\)
-(ii) \(\angle A=30^{\circ} \quad \angle B=95^{\circ} \quad \angle C=55^{\circ}\)
-(iii) \(\angle A=30^{\circ} \quad \angle B=95^{\circ} \quad B C=55\)
-\((\mathrm{iv}) \angle A=30^{\circ} \quad A B=95 \quad B C=55\)
+In each of the following independent situations we want to construct a triangle \(A B C\) satisfying the given conditions. In each case state state how many such triangles \(A B C\) exist up to congruence.<br>
+(i) \(A B=30 \quad B C=95 \quad A C=55\).<br>
+(ii) \(\angle A=30^{\circ} \quad \angle B=95^{\circ} \quad \angle C=55^{\circ}\).<br>
+(iii) \(\angle A=30^{\circ} \quad \angle B=95^{\circ} \quad B C=55\).<br>
+\((\mathrm{iv}) \angle A=30^{\circ} \quad A B=95 \quad B C=55\).<br>
 </p>
 
 <details><summary>Solution</summary>
@@ -524,6 +558,71 @@ so \(\alpha+\beta=0^{\circ},\) a contradiction since \(\alpha+\beta=60^{\circ}\)
 
 ---
 
+### Triangle in a square
+{: .d-inline-block}
+
+B1b, 2021
+{: .label}
+
+\(ABCD\) is a square. Point \(X\) lies on a circle with \(AY\) as the diameter. Points \(X\) and \(Y\) lie on the sides of the
+square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(ABCD\)?<br>
+
+<p style="text-align:center">
+<img src="/assets/images/cmi_2021_square.png"/>
+</p>
+
+</p>
+
+
+<details><summary>Solution I via cyclic quadrilateral</summary>
+
+<br><i>Sol. due to Abhishek Goel.</i><br><br>
+
+Since \( \angle AXY + \angle ABY = 180^{\circ} \), \(AXYB\) is a cyclic quadrilateral.
+Suppose the chord \(XY\) subtends an angle \(\theta\) at \(A\) and \(B\) as shown:
+
+<p style="text-align:center">
+<img src="/assets/images/cmi2021_b1_sol.png"/>
+</p>
+
+
+Let the side-length of the square be \(x\).
+
+\begin{align*}
+\text{From triangle } AXY \text{ we have} \tan \theta &= \frac{3}{4} \\
+\text{From triangle } XCB \text{ we have} \tan \theta &= \frac{XC}{CB} \\
+\therefore XC &= \frac{3}{4}x \\
+DX &= x-XC = \frac{1}{4}x\\
+AD^2+DX^2 &= AX^2\\
+x^2+\left(\frac{x}{4}\right)^2 &= 4^2\\
+x &= \frac{16}{\sqrt{17}}\\
+\text{Area of the square} &= \frac{256}{17}
+\end{align*}
+</details>
+
+<p></p>
+
+<details><summary>Solution II via similar triangles</summary>
+\begin{align*}
+\angle DAX &= \angle CXY\\
+\implies \Delta DAX &\sim \Delta CXY \\
+\frac{XY}{AX} &= \frac{XC}{AD} \\
+\frac{3}{4} &= \frac{XC}{AD} \\
+XC &= \frac{3}{4} AD \\
+DX &= CD-CX = \frac{1}{4}AD\\
+AD^2+DX^2 &= 4^2\\
+AD^2+\frac{AD^2}{16} &= 16\\
+AD &= \frac{16}{\sqrt{17}}\\
+\text{Area of the square} &= \frac{256}{17}
+\end{align*}
+
+
+<i>Problem source: <a href=" https://www.youtube.com/watch?v=aQsb5jfqSYo">Presh Talwalkar's channel</a>.</i>
+
+</details>
+
+
+---
 
 ### Midpoints of a quadrilateral
 {: .d-inline-block}

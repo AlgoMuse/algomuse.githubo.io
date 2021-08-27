@@ -259,6 +259,62 @@ to all the sectors. Hence, at most 7 points can be kept on the disk that are mut
 
 ---
 
+### Principle of Inclusion-Exclusion
+{:b .d-inline-block}
+
+B3, 2021
+{: .label }
+
+<p>
+You have to form a 7 letter password using 10 digits and 26 letters. Only lower case letters as allowed. For example, 01x01xb, 11bcaa0, etc. are valid passwords.
+<ol>
+<li>How many passwords can you make with 26 letters and 10 digits?</li>
+<li>How many passwords have atleast one alphabet and atleast one digit?</li>
+<li>How many passwords are there with at least one consonant and atleast one vowel and atleast one digit? Note that there are 5 vowels and 21 consonants.</li>
+<li>Suppose there are 12 additional special characters. How many passwords are there with atleast one vowel, one consonant, one digit and one special character?</li>
+</ol>
+
+<!--
+<br><i>Reference: <a href="https://math.stackexchange.com/questions/739874/how-many-possible-combinations-in-8-character-password">Math Stack Exchange.</a></i>
+-->
+
+
+</p>
+
+
+<details><summary>Solution</summary>
+<ol>
+<li> \(36^{7}\).</li>
+<li> \(36^{7} - 26^7 - 10^7 \).</li>
+
+<li> Let \(V=5,C=21,D=10\) and \(S=12\). <br>
+<i>Notation.</i> Let \(P(x_1,\ldots,x_k)\) denote the number \( (x_1+x_2+\ldots+x_k)^7 \) where \( x_i \in \{V,C,D,S\} \).<br>
+
+By principle of inclusion/exclusion the answer is:
+
+\[ P(VCD) - \{P(VC)+P(VD)+P(CD)\} + P(V) + P(C) + P(D) \]
+</li>
+
+<li>
+\begin{align*}
+ P(VCDS) &- \{ P(VCD) + P(CDS) + P(VCS) + P(VDS)  \} \\
+         &+\{ P(VC)+P(VD)+P(VS)+P(CD)+P(CS)+P(DS)\}\\
+         &- \{ P(V) + P(C) + P(D) + P(S) \}
+\end{align*}
+
+
+</li>
+
+</ol>
+
+</details>
+
+
+
+
+---
+
+
 ### Just count
 {:b .d-inline-block}
 
@@ -1354,9 +1410,68 @@ k-1
 
 
 
+---
+
+
+### Two-player card game
+{: .d-inline-block}
+
+B6, 2021
+{: .label}
 
 
 
+<p>
+You and your friend are playing a game where there are 2 stacks of cards:<br>
 
+Stack A has \(n\) cards and each card has a number from the set \( \{1,2,...,m\} \).<br>
+Stack B has \(m\) cards and each card has a number from the set \( \{1,2,...,n\} \).<br>
+
+You start with \(t_0=0\) and note down the following sequence \(t_1,t_2,t_3,\ldots\). The game proceeds in steps as follows:<br>
+
+If \(t_j \leq 0\), pick out the topmost card from stack A and set \[t_{j+1}=t_j + \text{number on the topmost card drawn from Stack A}\]
+
+If \(t_j> 0\), pick out the topmost card from stack B and set \[t_{j+1}=t_j - \text{number on the topmost card drawn from stack B}\]
+
+The game ends when a player has to draw a card from an empty stack. <br>
+
+Prove that<br>
+<ol>
+<li> \(1-n \leq t_j \leq m \) for all \(j\)</li>
+<li>There exists distinct indices \(i\) and \(j\) such that \(t_i=t_j\)</li>
+<li>Prove that there exists a non empty subset in stack A and another in B such that the sum of the numbers on those cards are equal.</li>
+</ol>
+</p>
+
+
+<details><summary>Solution</summary>
+<ol>
+<li>If \(t_j\leq 0\), a card from A is removed. The maximum value of a card in A is
+\(m\) so \(t_j\) can at most be \(m\). Similarly, a card from B is subtracted
+when the value of \(t_j \geq 1\). Hence, the smallest value it can take is \(1-n\).</li>
+
+<li> From (1) we see that the \(t\)-sequence can take at most \(n\) distinct
+non-positive values and at most \(m\) distinct positive values.  We consider two ways in which the game can end:<br><br>
+
+<i>Case 1: Cards in stack B are empty.</i><br>
+Suppose the game ended after using up \(m\) cards from B and \(p\leq n\) cards from A.
+Since the game has ended the value of \(t_{m+p}\) must be positive.  In addition, the value of \(t\) before
+every card in B was added must have been positive (by the game's rule).
+So the sequence \(t_1,t_2,t_3,\ldots,t_{m+p}\) contains \(m+1\) positive numbers. But since the sequence
+contains \(m\) distinct positive numbers, two \(t\)s must have the same value by pigeon-hole principle.
+
+<br><br>
+<i>Case 2:  Cards in stack A are empty. </i><br>
+We use a similar argument. Suppose the game ended after using up \(n\) cards from A and \(p\leq n\) cards from B.
+Since the game has ended the value of \(t_{n+p}\) must be non-positive.
+In addition, the value of \(t\) before every card in A was added must have been non-positive.
+So the sequence \(t_0,t_1,t_2,t_3,\ldots,t_{m+p}\) contains \(n+1\) non-positive numbers.
+But since the sequence contains \(n\) distinct non-positive numbers, two \(t\)s must have the same value by pigeon-hole principle.
+
+</li>
+<li>From (2), some \(t_i=t_j\). The sequence of cards added between \(t_i\) and \(t_j\) sums to zero. So some proper subset
+of \(A\) and \(B\) have equal sums.</li>
+</ol>
+</details>
 
 

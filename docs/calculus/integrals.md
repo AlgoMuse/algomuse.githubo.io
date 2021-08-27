@@ -691,6 +691,118 @@ Thus total volume of the resulting solid: \( 21.5 \pi \).
 </details>
 
 
+---
+
+### Convergence of an improper integral
+{: .d-inline-block}
+
+B5, 2021
+{: .label}
+
+<p>
+Function \(f(x)\) is defined as \(f(0)=0\) and for \(x> 0\) as
+\[ f(x) = \lim_{L\rightarrow \infty} \int_{1/x}^{L} \frac{1}{t^2} \cos(t) dt \]
+
+<ol>
+<li>Show that \(f(x)\) is well-defined.</li>
+<li>Find \(f'(1/\pi)\). Clearly state what result you are using.</li>
+<li>Find \( \lim_{h\rightarrow 0^+} \frac{f(h)-f(0)}{h} \). </li>
+</ol>
+
+</p>
+
+
+<details><summary>Solution</summary>
+<ol>
+<li>
+
+We split the function into three parts:
+
+\(A\) is the interval before the first time the function touches zero. \(B\) is the part  of the
+function that is positive for \(x>\pi/2\) and \(C\) is the part of the function that is negative. We show that
+each of these intergrals converge.
+
+
+<p style="text-align:center">
+<img src="/assets/images/cmi_2021_damp.png"/>
+</p>
+
+\begin{align*}
+A:&\int_{1/x}^{\pi/2} \frac{\cos t}{t^2} dt\\
+B:& \sum_{k=0}^{n} \int_{(2k+1)\pi/2}^{(2k+3)\pi/2} \frac{\cos t}{t^2} dt\\
+C:& \sum_{k=0}^{n} \int_{(2k+3)\pi/2}^{(2k+5)\pi/2} \frac{\cos t}{t^2} dt\\
+\end{align*}
+
+\(A\) is a proper integral and hence well-defined for a given \(x\). \(B\) and \(C\) are dominated by
+the integrals \( \int_{\pi/2}^{\infty} \frac{1}{t^2}\) and \( -\int_{\pi/2}^{\infty} \frac{1}{t^2} dt \),
+respectively and hence they converge.
+</li>
+
+<li>
+
+The general form of Leibniz rule is:<br>
+
+\[\frac{\mathrm{d}}{\mathrm{d} x} \int_{a(x)}^{b(x)} f(x, t) \mathrm{d} t=f(x, b(x)) \cdot b^{\prime}(x)-f(x, a(x)) \cdot a^{\prime}(x)+\int_{a(x)}^{b(x)} \frac{\partial}{\partial x} f(x, t) \mathrm{d} t\]
+
+Substituting, \( a(x) = 1/x \) and \(b(x)=L\), we get:<br>
+
+\begin{align*}
+f^\prime(x) &= 0- \frac{\cos(1/x)}{1/x^2}\cdot (-1/x^2) \\
+f^\prime(1/\pi) &= \cos\pi = -1 \\
+\end{align*}
+
+</li>
+
+<li>
+<i>Solution due to Soham Ghosh (West Bengal).</i><br>
+
+\begin{align*}
+f(x) &=\int_{1 / x}^{\infty} \frac{1}{t^{2}} \cos t \,dt \\
+&=\left.\frac{1}{t^{2}} \sin t\right|_{1 / x} ^{\infty}-\int_{1 / x}^{\infty} \frac{(-2)}{t^{3}} \sin t\, dt \;\;\text{ (using integration by parts)} \\
+&=-x^{2} \sin \frac{1}{x}+\int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \\
+\end{align*}
+
+We are required to calculate only the right-hand side limit. L'Hospital's rule is not applicable.
+
+\[ \lim_{h \rightarrow 0^{+}} \frac{f(h)-f(0)}{h}=\lim_{h \rightarrow 0^{+}} \frac{f(h)}{h} \]
+
+
+\begin{align*}
+f(h)&=-h^{2} \sin \frac{1}{h}+\int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \\
+\frac{f(h)}{h}&=-h \sin \frac{1}{h}+\frac{1}{h}\int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t
+\end{align*}
+
+We will show that the limit of each summand in the LHS goes to zero.<br>
+
+
+Firstly, \( \lim_{h\rightarrow 0} -h \sin \frac{1}{h} = 0 \).<br>
+
+
+\begin{align*}
+-\frac{2}{t^{3}} & \leq \frac{2}{t^{3}} \sin t \leq \frac{2}{t^{3}} \quad (\because-1 \leqslant \sin t \leqslant 1) \\
+-\int_{1 / x}^{\infty} \frac{2}{t^{3}} d t &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \leq   \int_{1 / x}^{\infty} \frac{2}{t^{3}} d t \\
+-\left.2 \frac{t^{-2}}{-2}\right|_{1 / x} ^{\infty} &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, dt \leq \left. 2 \frac{t^{-2}}{-2}\right|_{1 / x} ^{\infty} \\
+-x^{2} &\leq \int_{1 / x}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  x^{2}  \\
+-h^{2} &\leq \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  h^{2} \\
+-h &\leq \frac{1}{h} \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t \leq  h \\
+\lim_{h\rightarrow 0^+}& \frac{1}{h} \int_{1 / h}^{\infty} \frac{2}{t^{3}} \sin t\, d t = 0 \;\; \text{ Hence proved.}
+\end{align*}
+
+
+
+
+
+
+</li>
+
+
+
+
+
+</ol>
+
+</details>
+
 
 
 

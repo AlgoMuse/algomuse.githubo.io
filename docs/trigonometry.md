@@ -7,6 +7,21 @@ nav_order: 92
 
 # Trigonometry
 
+### Impossible polynomial
+{: .d-inline-block }
+
+B4, 2021
+{: .label .label-blue}
+
+<p>
+Show that there is no polynomial \(p(x)\) such that \(\cos \theta = p(\sin \theta)\) for every \(\theta\).
+
+<details><summary>Solution</summary>
+Put \( \theta = 0 \) and \(\theta = \pi\). Then \(p(0) = 1 \) and \(p(0)=-1\) which cannot be the case.
+</details>
+</p>
+
+---
 
 ### An easy problem
 {: .d-inline-block }
@@ -49,6 +64,50 @@ Therefore, there are six solutions to the given equation.
 
 ---
 
+
+### Three arctans
+{: .d-inline-block}
+
+A10, 2021
+{: .label}
+
+
+
+<p> Let \(f(x) = \arctan(x) \) and \(g(v) = \int_0^{v} f(x) dx \).<br>
+
+
+(a) \(f(1)=\pi/4\)<br>
+(b) \(f(1)+f(2)+f(3)=\pi\) <br>
+(c) \(g(v)\) is an increasing function in \( \mathbb{R} \).<br>
+(d) \(g(v)\) is an odd function.<br>
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+(a) True.<br>
+(b) True. See below. <br>
+(c) False. \(g(-v) = - \int_{-v}^0 f(x) dx = g(v)\). So \(g\) is convex.<br>
+(d) False. \(g\) is an even function.<br>
+
+<i>Explanation for (b)</i>. Let \( \arctan(1)=x ; \arctan (2)=y ;\) and \(\arctan (3)=z\).<br>
+
+\[\tan (x+y)=\frac{\tan x+\tan y}{1-\tan x \cdot \tan y}=\frac{1+2}{1-2}=-3\]
+
+Put \(u = x+y\) and evaluate:
+\[\tan (z+u)=\frac{\tan z+\tan u}{1-\tan z \cdot \tan u}=\frac{-3+3}{1-9}=0\]
+
+So \( \tan( x+y+z ) = 0\).  Hence, \(\arctan (1)+\arctan (2)+\arctan (3)=x+y+z=\pi\).
+
+<br>
+
+</p>
+
+</details>
+
+
+---
 
 ### Intersection of a line and periodic function I
 {: .d-inline-block}

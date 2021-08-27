@@ -23,11 +23,37 @@ nav_order: 1
 ---
 
 
-## Nature of polynomial roots [6]
+## Nature of polynomial roots [7]
 
 <!-- {: .fw-300 .text-grey-dk-000 } -->
 
 
+### Integer cubic polynomial
+{: .d-inline-block}
+
+A4, 2021
+{: .label}
+
+<p>
+Suppose \( f(x) = x^3 + ax^2 + bx +c \) with \(a,b,c\) being integers. Let \(p,q,r\) denote the roots of \(f\), possible complex.<br>
+
+(a) If \(f(1)=2021\), then \(f(x)=(x-1)(x^2+sx+t) + 2021\) such that \(s\) and \(t\) are integers.<br>
+(b) There exists \(f(x)\) with \(c=2021\) and \(p=2\).<br>
+(c) There exists \(f(x)\) with \(r=1/2\).<br>
+(d) \(p^2+q^2+r^2\) does not depend of \(c\).<br>
+
+</p>
+
+
+<details><summary>Solution</summary>
+(a) True. Compare the coefficients. \(t-1\) and \(t-s\) must be integers.<br>
+(b) False. Odd-Even argument.<br>
+(c) False. Implies that \(1+2a+4b+8c=0\) which can't be the case.<br>
+(d) True. \(p^2+q^2+r^2=(p+q+r)^2-2(pq+qr+rp)= a^2-2b\).
+</details>
+
+
+---
 
 ### Roots of a quartic polynomial
 {: .d-inline-block}
@@ -86,6 +112,32 @@ If one root is rational and the other is irrational, then both \(b\) and \(c\) m
 </p>
 
 </details>
+
+---
+
+### Stationary points
+{: .d-inline-block}
+
+A6, 2021
+{: .label }
+
+<p>
+A real number \(r\) is called a stationary point if \(f^\prime(r)=0\) where \(f(x)\) is a degree \(d\) polynomial.<br>
+
+(a) If \(d=2022\), then \(f\) has at least one stationary point.<br>
+(b) If \(f\) has 2021 distinct real roots, then there are at least 2020 stationary points.<br>
+(c) If \(f\) has 2021 distinct real roots, then there are at most 2020 stationary points.<br>
+(d) If \(r\) is a stationary point and \(f^{\prime\prime}(r)=0\), then \( (r,f(r)) \) is neither a local minima nor a local maxima.<br>
+</p>
+
+<details><summary>Solution</summary>
+(a) True. \(f^\prime\) has odd degree, so there is one real root.<br>
+(b) True. If \(r_1 < r_2 \ldots < r_{2021}\) are the roots, then there is a stationary point between \(r_i\) and \(r_{i+1}\).<br>
+(c) False. \(f\) can have any  number of stationary points without have a single real root.<br>
+(d) False. \(f(x) = x^4\) is a counterexample.<br>
+</details>
+
+
 
 ---
 

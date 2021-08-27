@@ -82,7 +82,8 @@ Using binomial expansion see that \((\sqrt{2}-1)^{n}=\pm\left(p_{n}-\sqrt{2} q_{
 
 
 
-## Inequalities [3]
+## Inequalities [4]
+
 
 
 ### AM-GM inequality
@@ -151,6 +152,64 @@ since \(x+x^{-1}=\frac{\sqrt{5}+1}{2}<2\), the number \(x\) must be a non-real c
 
 ---
 
+### Combinatorial and calculus inequalities
+{: .d-inline-block}
+
+B2b, 2021
+{: .label}
+
+
+<p>
+Prove or disprove:<br>
+(i) \( 2^{40} > 20! \)<br>
+(ii) \( 1-1/x \leq \ln x \leq x-1 \) for all \(x>0\)<br>
+</p>
+
+<details><summary>Solution</summary>
+
+(i) False.<br>
+
+\begin{align*}
+20! &> 2\times3\times4\times5\times6\times 7\times 8\times8\times 8\ldots (\text{13 times}) \\
+20! &> 2\times3\times4\times5\times6\times 7\times (2^{3})^{13} \\
+20! &> 2^{40}
+\end{align*}
+
+<br><i>Comment:</i> A similar problem was asked in <a href="/docs/mock_test/006_apr_1_full/#part-b-subjective-questions">mock test #6</a> (Problem B2).<br><br>
+
+
+(ii) True.<br>
+
+Let us prove the left hand side inequality.
+
+\begin{align*}
+f(x) &:= \ln x - 1 + 1/x\\
+f^\prime(x) &= 1/x(1 - 1/x)\\
+\end{align*}
+
+\(f^\prime < 0 \)  for \(x\in(0,1)\) and \(>0\) for \(x\in(1,\infty)\). This means
+\(f\) is decreasing in the interval \( (0,1)\) and increasing in the interval \( (1,\infty) \). It reaches the minimum at \(x=1\) which is zero.
+Hence \(f(x)\geq 0\) for all \(x > 0\).<br>
+
+
+The right hand side inequality can be proved similarly.
+
+\begin{align*}
+g(x) &:= x - 1 - \ln x\\
+g^\prime(x) &= 1 - 1/x
+\end{align*}
+
+Again, \( g(x) \) attains its minima of zero at \(x=1\).
+
+
+
+</details>
+
+
+
+
+
+---
 ### Points on a sphere
 {: .d-inline-block}
 
