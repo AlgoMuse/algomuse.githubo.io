@@ -564,13 +564,13 @@ so \(\alpha+\beta=0^{\circ},\) a contradiction since \(\alpha+\beta=60^{\circ}\)
 B1b, 2021
 {: .label}
 
+<p>
 \(ABCD\) is a square. Point \(X\) lies on a circle with \(AY\) as the diameter. Points \(X\) and \(Y\) lie on the sides of the
 square such that \(AX=4\) cm and \(AY=5\) cm. What is the area of the square \(ABCD\)?<br>
+</p>
 
 <p style="text-align:center">
 <img src="/assets/images/cmi_2021_square.png"/>
-</p>
-
 </p>
 
 
