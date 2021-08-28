@@ -2,7 +2,7 @@
 layout: default
 title: Integrals
 parent: Calculus
-nav_order: 3
+nav_order: 4
 ---
 
 

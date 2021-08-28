@@ -2,7 +2,7 @@
 layout: default
 title: Derivatives
 parent: Calculus
-nav_order: 2
+nav_order: 3
 ---
 
 
