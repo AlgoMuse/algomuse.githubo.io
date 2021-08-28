@@ -122,6 +122,7 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 </details>
 
 
+[See part (b) of the question](/docs/algebra/binomial/#combinatorial-and-calculus-inequalities)
 
 
 ---

@@ -339,7 +339,32 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="button blank"></button>
-
+<button class="button algebra" onclick="location.href='/docs/algebra/solvability/#monotonic-functions';" onmouseover = "display('A1_2021')"></button>
+<button class="button numbers" onclick="location.href='/docs/number_theory/modulo_arithmetic/#divisibility-tests';" onmouseover = "display('A2_2021')"></button>
+<button class="button geometry" onclick="location.href='/docs/geometry/triangles/#possible-triangles';" onmouseover = "display('A3_2021')"></button>
+<button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#integer-cubic-polynomial';" onmouseover = "display('A4_2021')"></button>
+<button class="button complex" onclick="location.href='/docs/complex_numbers/#set-of-powers';" onmouseover = "display('A5_2021')"></button>
+<button class="button algebra" onclick="location.href='/docs/algebra/polynomials/#stationary-points';" onmouseover = "display('A6_2021')"></button>
+<button class="button algebra" onclick="location.href='/docs/algebra/solvability/#two-equations';" onmouseover = "display('A7_2021')"></button>
+<button class="button geometry" onclick="location.href='/docs/geometry/coordinate_system/#cross-product-of-vectors';" onmouseover = "display('A8_2021')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/limits/#simple-limits';" onmouseover = "display('A9_2021')"></button>
+<button class="button trigonometry" onclick="location.href='/docs/trigonometry/#three-arctans';" onmouseover = "display('A10_2021')"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button white"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/functions/#composition';" onmouseover = "display('B1_2021')"></button>
+<button class="button probability" onclick="location.href='/docs/probability/#coin-toss-and-a-dice-roll';" onmouseover = "display('B2_2021')"></button>
+<button class="button combinatorics" onclick="location.href='/docs/combinatorics/#principle-of-inclusion-exclusion';" onmouseover = "display('B3_2021')"></button>
+<button class="button trigonometry" onclick="location.href='/docs/trigonometry/#impossible-polynomial';" onmouseover = "display('B4_2021')"></button>
+<button class="button calculus" onclick="location.href='/docs/calculus/integrals/#convergence-of-an-improper-integral';" onmouseover = "display('B5_2021')"></button>
+<button class="button combinatorics" onclick="location.href='/docs/combinatorics/#two-player-card-game';" onmouseover = "display('B6_2021')"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
+<button class="button blank"></button>
 
       </div>
   </div>

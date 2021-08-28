@@ -60,6 +60,7 @@ the example below shows, this the only constraint.
 
 </details>
 
+[See part (b) of the question](/docs/geometry/triangles/#triangle-in-a-square)
 
 ---
 
