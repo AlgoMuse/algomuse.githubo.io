@@ -32,14 +32,17 @@ D: Need not to be one-one and need not be onto.<br>
 
 
 <br>
+</p>
 
 <details><summary>Solution</summary>
 
+<p>
 <b>Ans.</b> B-D-D-C.<br>
 
 <i>Explanation. </i> If \(g\circ f\) is one-one, the \(f\) must be one-one. If not, there are two
 elements \(x\) and \(y\) with \(x\neq y\) such that \( f(x) = f(y) \), which implies that \(g(x) = g(y)\). A contradiction.
 However, \(f\) need not be onto and \(g\) need not be onto or one-one as the example below shows.
+</p>
 
 <p style="text-align:center">
 <img src="/assets/images/cmi2021_b1a.png"/>
@@ -56,10 +59,9 @@ the example below shows, this the only constraint.
 
 
 </details>
-<br>
 
 
-
+---
 
 ### Asymptotes
 {: .d-inline-block}
