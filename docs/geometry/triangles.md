@@ -231,10 +231,14 @@ In each of the following independent situations we want to construct a triangle 
 
 <details><summary>Solution</summary>
 
-<p>
- \(0,\) infinite, 1,2
-</p>
-
+<ol>
+<li>  None. The triangle inequality fails since \(AB+AC< BC\).</li>
+<li> \(\infty\). The angles sum to \(180^{\circ}\)  and triangle of any scale is possible.</li>
+<li> 1.</li>
+<li> 2. Draw a line segment \(AB\) with the given length. Consider the line passing through \(A\) and making \(30^\circ\) with \(AB\).
+If we draw a circle with center as \(B\), it touches the line at two points (see Fig. below). Hence, there are two choices for the vertex \(C\).</li>
+<p style="text-align:center;"><img src="/assets/images/a10_2014.png"></p>
+</ol>
 
 </details>
 
@@ -508,49 +512,89 @@ You are given a regular hexagon. We say that a square is inscribed in the hexago
 <details><summary>Solution</summary>
 
 <p>
+(a) Suppose the segment \(XY\) meets opposite sides \(QR\) and \(TU\) of the hexagon. Let \(O\) be the midpoint of \(XY\).
+In the figure below, the midpoint of the chord must pass through the center. We show that if \(\frac{QX}{XR}=\frac{TY}{YU}\), then  \(O\) is the center of the hexagon.
 
-(a) Suppose a seg ment \(A C\) meets with opposite sides \(P Q\) and \(T S\) of a hexagon and \(O\) is the midpoint of \(A C .\) We show that
-\(\frac{P A}{A Q}=\frac{T C}{C S} \Longleftrightarrow O\) is the center of the hexagon.
-
-If \(O\) is the center of the hexagon, consider triangles \(O A Q\) and \(O C S .\) By the \(S A S\) test these are congruent. Similarly, triangles \(O A P\) and \(O C T\) are congruent. Conversely, suppose \(\frac{P A}{A Q}=\frac{T C}{C S}=k(\) say \(),\) then
-
-\[
-P Q=T S \Longrightarrow P A+A Q=T C+C S \Longrightarrow A Q(k+1)=C S(k+1) \Longrightarrow A Q=C S
-\]
-
-<br>
-
-So \(\triangle A Q O \cong \triangle C T O,\) so that \(O Q=O T .\) Also, \(\angle A O Q=\angle C O T\) a nd \(\angle A O P=\) \(\angle C O S,\) so \(Q, O\) and \(T\) are collinear.
 </p>
 
+<p style="text-align:center">
+<img src="/assets/images/b6a_2017.png"/>
+</p>
+
+<p>
+
+Consider triangles \(OXQ\) and \(OTY\). By the \(ASA\) postulate they are congruent. So, \(QO=OT\). Therefore, \(O\) is the midpoint of
+\(QT\), which makes it the center of the hexagon.
+
+The other direction can be proved with a similar argument.
+</p>
+
+
+<p> (b) Suppose we have inscribed a square \(A B C D\) in a hexagon \(P Q R S T U\), as shown in the figure below.
+ In the previous problem,  we proved that a chord that cuts the opposite sides of the hexagon in equal ratios must pass through
+ the center of the hexagon.  Here we show that the diagonals of the square are chords that satisfy that property.
+ This will imply that both diagonals pass through the center of the hexagon.
+ </p>
+
+<p style="text-align:center">
+<img src="/assets/images/b6b_2017.png"/>
+</p>
+
+<p>
+The diagonals of the square pass through the center of the hexagon. We have used the result of the previous problem.<br>
+
+
+<b>Lemma.</b> \(\triangle A Q B \cong \triangle C T D \)<br>
+<b>Proof.</b> We know that \(PQ \| S T\) and \(A C\) is a transversal. So \(\angle Q A C=\angle T C A\), also \(\angle B A C=\angle D C A=45^{\circ} \). So \(\angle Q A B=\angle D C T\).
+
+Similarly, \(\angle Q B A=\angle C D T\). Also, \(\angle A Q B=\angle C T D,\) since they are angles in a regular hexagon. Moreover, \(A B=C D\). As a result we get that \(\triangle Q B A \cong\) \(\triangle T D C.\;\;\;\;\) \(\square\)<br>
+
+So we have \(Q B=T D\) and \(Q A=T C\). This in turn implies that \(B R=D U\) and \(P A=C S\). Thus,
+
+\[ \frac{Q B}{B R}=\frac{T D}{D U} \text { and } \frac{P A}{A Q}=\frac{S C}{C T} \]
+
+</p>
+
+<br><br>
+
+<p> (c) In the figure above, let \(PA=x\) and \(AQ=1-x\). The vertical distance between \(A\) and \(P\) is \(x\sin 30^\circ\). So,
+
+\[ AD = 2x\sin 30^{\circ} + 1 = x+1 \]
+
+Also, we have \(AB=2AQ\sin 30^\circ\).
+
+\[ AB = \sqrt{3}(1-x) \]
+
+Since \(AB=AD\), we have \(x = (\sqrt{3}-1)/(\sqrt{3}+1) \).
+
+Hence, the side of the square is \(AD=x+1=\sqrt{3}(\sqrt{3}-1)\) units.
+</p>
 <br>
 
 <p>
-(b) Next suppose we have inscribed a square \(A B C D\) in a hexagon \(P Q R S T U\), with \(A\) on \(P Q, B\) on \(Q R, C\) on \(S T\) and \(D\) on \(T U\). We claim that \(\triangle A Q B\) is
-congruent to \(\triangle C T D .\) This will prove that both diagonals pass through the center of the hexagon (using the criterion proved above). Proof: We know that \(P A \| S T\) and \(A C\) is a transversal. So \(\angle Q A C=\angle T C A\), also \(\angle B A C=\angle D C A=45^{\circ} .\) So \(\angle Q A B=\angle D C T\)
-Similar ly, \(\angle Q B A=\angle C D T\). Also, \(\angle A Q B=\angle C T D,\) since they are angles in a regular hexagon. Moreover, \(A B=C D\). As a result we get that \(\triangle Q B A \cong\) \(\triangle T D C\)
+(d) Suppose the square \(ABCD\) is inscribed in a regular hexagon \(PQRSTU\). The positions of \(A\) and \(B\) on \(PQ\) and \(QR\), respectively,
+determine the square. If there was a square other than the one shown in the figure above, we would have \(|QA|\neq |QB|\).
+Without loss of generality, assume that \(|QA|>|QB|\).
 
-So we have \(Q B=T D\) and \(Q A=T C\). This in turn implies that \(B R=D U\) and \(P A=C S\) Thus,
-\[
-\frac{Q B}{B R}=\frac{T D}{D U} \text { and } \frac{P A}{A Q}=\frac{S C}{C T}
-\]
+Let \(O\) be the center of the hexagon and the square. We have proved that the centers coincide in part (b).
 
-<br>
-Hence \(A C\) and \(B D\) pass through the center of the hexagon.
-</p>
+Since \(O\) is the center of \(ABCD\), we have \(|OA|=|OB|\).
 
-<br>
-<p>
-(c) Let \(D U=x\) so \(D P=1-x\). Observe that \(D C=2 x \sin 30\) and \(D A=2(1-\)
-\(x) \sin 60 .\) since \(D C=D A\) we solving the equations for \(x\) we get \(x=\frac{2}{\sqrt{3}+1}\) Consequently the side \(D C=\sqrt{3}(\sqrt{3}-1)\)
-</p>
-<br>
 
-<p>
-(d) Finally we want to show that there is a unique way of inscribing a square in a regular hexagon. Proof: It \(w\) ill be enough to show that the ratios \(\frac{Q B}{B R}\) and \(\frac{Q A}{A P}\) are equal. Suppose on the contrary that these ratios aren't equal. Let \(\angle Q A B=\alpha\) and \(\angle Q B A=\beta\). Note that then \(\angle O A Q=45^{\circ}+\alpha\) and \(\angle O B Q=45^{\circ}+\beta .\) Also, \(\alpha+\beta=60^{\circ},\) since \(\angle A Q B=120^{\circ}\)
-Let \(A^{\prime}\) be a point on \(Q R\) such that \(\frac{Q A^{\prime}}{A^{\prime} R}=\frac{Q A}{A P}\). Since \(\triangle B O A^{\prime}\) is isosceles, \(\angle O B A^{\prime}\) equals \(\angle O A^{\prime} B,\) so that
-\(180^{\circ}=\angle O B A^{\prime}+\angle O B Q=\angle O B Q+\angle O A^{\prime} B=\angle O B Q+\angle O A Q=45^{\circ}+\beta+45^{\circ}+\alpha\)
-so \(\alpha+\beta=0^{\circ},\) a contradiction since \(\alpha+\beta=60^{\circ}\)
+Let \(A^\prime\) be a point on \(QR\) such that \(|QA|=|QA^\prime|\).
+
+Due to symmetry, \(|OA|=|OA^\prime|\) which implies that \(|OA^\prime|=|OB|\).  Thus, \(\triangle B O A^{\prime}\) is isosceles.
+
+Let \(\angle QAB=\alpha\) and \(\angle QBA=\beta\). Since \(\angle AQB = 120^\circ\), we have \(\alpha+\beta=60^\circ\).
+
+
+\begin{align*}
+180^{\circ}&=\angle O B A^{\prime}+\angle O B Q \\
+    &=\angle O B Q+\angle O A^{\prime} B=\angle O B Q+\angle O A Q \\
+    &=45^{\circ}+\beta+45^{\circ}+\alpha
+\end{align*}
+
+so \(\alpha+\beta=90^{\circ},\) a contradiction since \(\alpha+\beta=60^{\circ}\).
 </p>
 
 
