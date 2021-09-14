@@ -45,41 +45,6 @@ which is maximized when \(A^{\prime}=0=60-4x\). Hence, \(x\) should be \(15\) me
 
 ---
 
-### One-to-one I
-{: .d-inline-block }
-
-A1, 2013
-{: .label}
-
-
-<p>
-For sets \(S\) and \(T,\) let \(f: S \rightarrow T\) and \(g: T \rightarrow S\) be functions such that \(f(g(x))=x\) for each \(x \). State which of the statements are true.
-</p>
-
-
-<p>
-<ul>
-<li>(a) The function \(f\) must be one-to-one.</li>
-<li>(b) The function \(g\) must be one-to-one.</li>
-<li>(c) The function \(f\) must be onto.</li>
-<li>(d) The function \(g\) must be onto.</li>
-</ul>
-</p>
-
-
-<details><summary>Solution</summary>
-
-<p>
-False-True-True-False.
-</p>
-
-<p>
-If \(g\left(x_{1}\right)=g\left(x_{2}\right),\) then \(x_{1}=f\left(g\left(x_{1}\right)\right)=f\left(g\left(x_{2}\right)\right)=x_{2},\) so \(g\) is one-to-one. Also \(f\) is onto because each \(x \in T\) is in the image of \(f,\) namely \(x=f(g(x)) .\) The other two statements are false, for example by constructing an \(S\) that is a larger finite set than \(T\).
-</p>
-
-</details>
-
----
 
 
 
@@ -411,10 +376,39 @@ TFTT
 A12, 2014
 {: .label}
 
-<p>The total length of all 12 sides of a rectangular box is \(60 .\) (i) Write the possible values of the volume of the box. Your answer should be an interval. Now suppose in addition that the surface area of the box is given to be \(56 .\) Find, if you can, (ii) the length of the longest diagonal of the box (iii) the volume of the box.</p>
+<p>The total length of all 12 sides of a rectangular box is \(60\).<br>
+(i) Write the possible values of the volume of the box. Your answer should be an interval.  <br>
+(ii) Now suppose in addition that the surface area of the box is given to be \(56\). Find the length of the longest diagonal of the box.<br>
+(iii) the volume of the box.</p>
 
 <details><summary>Solution</summary>
-\((0,125], 13,\) not possible to decide
+<p>
+(i) Let the width, length and height of the box be \(a,b\) and \(c\), respectively. We are given that \(4(a+b+c)=60\).  Volume lies in the interval \( (0,125] \). The volume becomes arbitrarily small as \(a\) tends to zero. To find the maximum volume we use AM-GM inequality:
+</p>
+
+\begin{align*}
+    \frac{a+b+c}{3} &\geq \sqrt[3]{abc} \\
+    \left( \frac{15}{3} \right)^{3} &\geq abc \\
+    125 &\geq abc
+\end{align*}
+
+<p>
+(ii) The length of the diagonal of the box is given by \( \sqrt{ a^2+b^2+c^2 } \).
+</p>
+
+\begin{align*}
+(a+b+c)^2  &= a^2 + b^2 + c^2 + 2(ab+bc+ca) \\
+a^2 + b^2 + c^2 &= 15^2 - 56 = 169
+\end{align*}
+
+<p>
+Length of diagonal is 13 cm.
+</p>
+
+<p>
+(iii) Volume is not uniquely determined.
+</p>
+
 </details>
 
 
