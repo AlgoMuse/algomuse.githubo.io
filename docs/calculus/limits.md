@@ -236,8 +236,33 @@ A9, 2019
 
 
 <details><summary>Solution</summary>
+<p>
+Without loss of generality, assume that \(a >  b\).
+</p>
 
-<p>False-True-False-True</p>
+<p>
+\begin{align*}
+    f(a, b) &=\lim_{n \rightarrow \infty} \frac{1}{n} \log\left(e^{n a}+e^{n b} \right) \\
+     & =\lim_{n \rightarrow \infty} \frac{1}{n} \log \left( e^{na}( 1 +e^{n(b-a)} ) \right) \\
+     & =\lim_{n \rightarrow \infty} \frac{1}{n} \log e^{na} + \log ( 1 +e^{n(b-a)} )\\
+     & = a + \lim_{n\rightarrow \infty} \frac{1}{n} \log ( 1 + e^{-\infty} ) \\
+     & = a + \lim_{n\rightarrow \infty} \frac{1}{n} \log ( 1 )\\
+     & = a
+\end{align*}
+</p>
+
+<p>
+Similary, if \(b \geq a\), \(f (a,b) = b \).  Thus, we have:
+\[ f(a,b) = \max(a,b) \]
+
+<ol>
+    <li> False. \(f(x,x) = x \) so \(f\) is onto.</li>
+    <li> True. \(g(x) = \max(x,a) \) which is continuous everywhere.</li>
+    <li> False. \( h(x) =  \max(x,b) \) is not  differentiable at \(x = b\). More explicitly, \( \lim_{x \rightarrow b^+} = 1 \) and \( \lim_{x \rightarrow b^-} = 0 \).</li>
+    <li> True. \( \max(x,0) = x \) for all \(x \geq 0 \).</li>
+</ol>
+
+</p>
 
 </details>
 
