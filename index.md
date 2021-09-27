@@ -409,6 +409,26 @@ The scores shown below were shared by former students who were privy to this dat
 [Subhayan Saha](https://www.quora.com/profile/Subhayan-Saha)
 -->
 
+### 2021 cutoff marks
+
+In 2021, CMI used an unconventional criteria for admission. The cut-off for  Part A was 17/40 for everybody. More
+weightage was given to Part B marks. In the general category with scholarship, students were admitted if they had >=61 marks in total
+or if they had 39 or more marks in Part B. So, a student who got 17 marks in Part A and 39 marks in Part B was still admitted with scholarship. But
+a student with 22 marks in Part A and 38 marks in Part B was NOT admitted in that category.
+
+
+**Admissions with scholarship**
+
+- General category: 61/100 total score or 39/60 in Part B
+- Reserved category: 57/100 total score or 35/60 in Part B
+
+**Admissions without scholarship**
+
+- General category: 56/100 total score or 30/60 in Part B
+- Reserved category: 50/100 total score or 28/60 in Part B
+
+
+### 2020 cutoff marks
 
 The cutoff marks for the year 2020 are given below. The marks are out of 94 instead of 100 since one question had a mistake.
 
@@ -431,6 +451,7 @@ The cutoff marks for the previous years are given below.
 2018 | 15 | 50/125 |  -
 2019 | &sim;16 | 52/100  | Ankush Agarwal
 2020 | &sim;16 | 48/94  | CMI Office
+2021 | 17 | 56/100  | CMI Office
 
 
 
