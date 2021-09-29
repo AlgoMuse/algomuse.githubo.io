@@ -24,7 +24,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Solutions to CMI Entrance 2021 are added to the archive.
+- CMI 2021 cutoffs are now included in the section below.
 
 ---
 
