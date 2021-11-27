@@ -20,15 +20,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 
-#### What's new?
-{: .fs-4}
-
-
-- CMI 2021 cutoffs are now included in the section below.
-
----
-
-<!--
 
 #### What you get on this site
 {: .fs-4}
@@ -37,12 +28,9 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 - Topic-wise classification of all problems ordered by increasing difficulty. This helps you to specialize in a topic.
 
-- Mock tests
 {: .fs-4 .fw-300 }
 
 
-
--->
 
 <div id="palette1">
 <h2>Browse previous years' problems</h2>
