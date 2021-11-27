@@ -342,8 +342,36 @@ Show that \(\displaystyle x=\frac{\pi}{6}+2 k \pi, y=\frac{\pi}{6}+2 \ell \pi, z
 </p>
 
 
+<details><summary>Solution I</summary>
+<i>Solution due to Piyush Jha.</i><br><br>
+For any real numbers  \(a_{1}, \ldots, a_n\) and \(b_1, \ldots, b_n\), we know from Cauchy-Swarchz inequality that
+\[
+\left(\sum_{i=1}^{n} a_i b_i\right)^{2} \leq\left(\sum_{i=1}^{n} a_i^{2}\right)\left(\sum_{i=1}^{n} b_{i}^{2}\right)
+\]
+and equality holds if and only if there exists a nonzero constant \(\mu\) such that for all \(1 \leq i \leq n, \mu a_{i}=b_{i}\).<br>
 
-<details><summary>Solution</summary>
+Applying Cauchy-Swarchz inequality on \((\cos x, \cos y, \cos z)\) and on \((1,1,1)\) we get
+
+\begin{align}
+(\cos x+\cos y+\cos z)^{2} &\leq\left((\cos x)^{2}+(\cos y)^{2}+(\cos z)^{2}\right)\left(1^{2}+1^{2}+1^{2}\right) \\
+\frac{9}{4} &\leq \left((\cos x)^{2}+(\cos y)^{2}+(\cos z)^{2}\right)
+\end{align}
+
+Now applying same on \( (\sin x, \sin y, \sin z)\) and \((1,1,1)\) gives:
+
+\begin{align}
+\frac{9}{4}& \leq\left(\sin^{2} x+\sin ^{2} y+\sin^{2} z\right)\left(1^{2}+1^{2}+1^{2}\right)\\
+\frac{3}{4}& \leq\left(1-\cos ^{2} x+1-\cos ^{2} y+1-\cos ^{2} z\right)\\
+\frac{9}{4}& \geq\left(\cos^{2} x+\cos ^{2} y+\cos ^{2} z\right)
+\end{align}
+
+which implies that \( \cos^{2} x+\cos^{2} y+\cos^{2} z=\frac{9}{4}\), that means Cauchy-Schwarz inequality is tight and there must exist
+a \(\kappa\) such that \(\cos x = \cos y = \cos z = \kappa\). From the problem statement \(\kappa = \frac{\sqrt{3}}{2}\) and the solution follows.
+</details>
+
+<p></p>
+
+<details><summary>Solution II</summary>
 
 <p>
 Squaring both the equations and adding gives:
