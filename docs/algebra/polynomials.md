@@ -304,10 +304,30 @@ Suppose \(f(x) = x^3 + x^2 + cx + d\), where \(c\) and \(d\) are real numbers. P
 then \(f\) has exactly one real root.
 </p>
 
-*Requires calculus too*.
+<details><summary>Solution I</summary>
+<p>
+<i>Solution due to Piyush Jha.</i><br>
 
-<details><summary>Solution</summary>
 
+Suppose that \(f\) has three real roots, \(p, q,\) and \(r\).
+From Vieta's relation:
+\[p^{2}+q^{2}+r^{2}=1-2 c\]
+
+From Cauchy-Swarchz inequality on \( (p, q, r) \) and \( (1,1,1) \),
+we get
+\begin{align}
+(p+q+r)^{2} &\leq\left(p^{2}+q^{2}+r^{2}\right)\left(1^{2}+1^{2}+1^{2}\right)\\
+1 \leq (1-2 c)(3)\\
+\frac{1}{3} \geq c
+\end{align}
+But this contradicts the fact that \(c\) was strictly greater than \(\frac{1}{3}\).
+
+</p>
+</details>
+
+<p></p>
+
+<details><summary>Solution II</summary>
 <p>
 Since the function has an odd degree as the highest power, it has at least one
 real root. The function has exactly one real root since it is monotonic in \(\mathbb{R}\), as proved below.
