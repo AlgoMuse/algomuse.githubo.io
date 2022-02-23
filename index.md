@@ -18,10 +18,16 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
+#### Announcement
+{: .fs-4}
+
+- The first mock test is scheduled on 4th March, 2022. 
 
 
+---
 
-#### What you get on this site
+
+#### What's on this site?
 {: .fs-4}
 
 - In-depth solutions to previous CMI entrance exam questions. This includes questions from 2010 and 2011 for which official solutions are not given.
