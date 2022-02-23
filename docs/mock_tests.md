@@ -56,7 +56,7 @@ A full-syllabus test will be at par with a CMI entrance exam.
 Date | Day | Timing | Topics
 ---|---|--|--
 4 March '22 | Friday | 2pm - 5pm | Full-syllabus test
-18 March '21| Friday | 2pm - 5pm | Full-syllabus test
+18 March '22| Friday | 2pm - 5pm | Full-syllabus test
 
 
 ## Registration fees
