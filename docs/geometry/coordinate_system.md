@@ -325,8 +325,23 @@ Find the area of the region in the \(X Y\) plane consisting of all points in the
 
 <details><summary>Solution</summary>
 
+
+The area of the circular region \(S=\left\{(x, y) \mid x^{2}+y^{2} \leq 144\right\}\) is \(144 \pi \).
+
+The set of points \( x,y \) that satisfy \(\sin (2 x+3 y) \leq 0\) are those points such that
+
+\[ k\pi \leq  2x+3y \leq (k+1) \pi \]
+
+where \(k\) is an odd integer.  They can be visualized as a collection of strips. The intersection of \(S\) and the
+strips is shown in the figure below.
+
+
 <p>
-The area of the circular region \(S=\left\{(x, y) \mid x^{2}+y^{2} \leq 144\right\}\) is \(144 \pi .\) The condition \(\sin (2 x+3 y) \leq 0\) is equivalent to \(2 x+3 y\) being in one of the intervals \([k \pi,(k+1) \pi],\) where \(k\) is an odd integer. The key point is that due to the symmetry of the circle \(S\) about any diameter, in particular the diameter \(2 x+3 y=0,\) the strip inside \(S\) lying between the lines \(2 x+3 y=k \pi\) and \(2 x+3 y=(k+1) \pi\) is the mirror image of strip lying between the lines \(2 x+3 y=-k \pi\) and \(2 x+3 y=-(k+1) \pi .\) For each integer \(k,\) precisely one of these two equal strips is included in the desired area. Thus the desired area is half that of \(S,\) i.e., \(72 \pi\)
+<figure>
+<p style="text-align:center;"><img src="/assets/images/b1_2014.png"></p>
+<figcaption>
+The strips are skew-symmetric about the line \(2x+3y=0\). The black dot denotes the center of the circle.</figcaption>
+</figure>
 </p>
 
 
@@ -339,6 +354,11 @@ _This problem appears in Chap.~2, Problem~7, 103 Problems in trigonometry Titu A
 
 
 ---
+
+
+
+
+
 
 
 ### Intersecting planes

@@ -1,0 +1,13 @@
+
+<p>Let \(x^{3}+a x^{2}+b x+8=0\) be a cubic equation with integer coefficients.
+Suppose both \(r\) and \(-r\) are roots of this equation, where \(r>0\) is a real number.
+List all possible pairs of values \((a, b)\).
+</p>
+
+Sol.
+
+<p>
+So the possible pairs of values of \(a, b\) are \(\{ (-8,-1), (-4,-2), (-2,-4), (-1,-8) \} \).
+</p>
+
+

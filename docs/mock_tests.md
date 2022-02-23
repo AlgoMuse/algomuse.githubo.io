@@ -16,17 +16,16 @@ title: Mock tests
 
 <br>
 
-#### 21 sign-ups so far
+#### 41 sign-ups so far
 
+<!--
 <progress id="progressBar" style="width:95%" max="60" value="11"></progress>
 
 Mock tests will start after 60 students sign-up.
+-->
 
 
 ---
-
-
-
 
 
 
@@ -40,7 +39,6 @@ on standard techniques rather than ingenuity.
 Each test will have 10 objective questions and 6 subjective questions. Each test will carry a total of 100 marks (40+60).
 
 
-
 <!--
 ## Types of tests
 
@@ -48,18 +46,28 @@ There will be two types of tests every month: full-syllabus and topic-specific t
 to one or two topics. For example, the [first test](/docs/mock_test/001_feb_7_nt_trig) in February had questions only from number theory and trigonometry.
 A full-syllabus test will be at par with a CMI entrance exam.
 
-
+-->
 
 
 ## Current schedule
 
-### July
+### March
 
 Date | Day | Timing | Topics
 ---|---|--|--
-9 July '21 | Friday | 2pm - 5pm | Full-syllabus test
-23 July '21| Friday | 2pm - 5pm | Full-syllabus test
+4 March '22 | Friday | 2pm - 5pm | Full-syllabus test
+18 March '21| Friday | 2pm - 5pm | Full-syllabus test
 
+
+## Registration fees
+
+A payment of Rs. 600 must be sent to the UPI address given below. Please send me an email with the transaction number or a screenshot so that I can link your payment to
+your email ID.
+
+### UPI Address: cmi-tomato@sbi
+
+
+<br>Please note that the payment must be renewed every month.
 
 
 ## What happens if you miss a test?
@@ -69,9 +77,10 @@ should submit your solutions by Monday midnight. Your submission will be conside
 But your solutions will be evaluated.
 
 
--->
 
 ---
+
+<!--
 
 ## Subscription options
 
@@ -86,6 +95,7 @@ feel inadequately prepared on a particular month's topics, you can opt out of pa
 Free subscribers can also submit solutions. I will pick two random submissions among them and give full feedback.
 
 
+-->
 
 ## Previous question papers
 
@@ -111,14 +121,7 @@ Question paper | Date | Results
 You can reach me at this number: 7975 2867 81. I'm happy to talk to both students and parents.
 
 
----
 
-## Payment option
-
-Payment must be sent to the UPI address given below. Please send me an email with the transaction number or a screenshot so that I can link your payment to
-your email ID.
-
-### UPI Address: cmi-tomato@sbi
 
 <!--
 Payment can be made either via UPI or bank transfer. Please send me an email with the transaction number or a screenshot so that I can link your payment to

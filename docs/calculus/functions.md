@@ -9,6 +9,43 @@ parent: Calculus
 # Functions
 
 
+### One-to-one function
+{: .d-inline-block }
+
+A1, 2013
+{: .label}
+
+
+<p>
+For sets \(S\) and \(T,\) let \(f: S \rightarrow T\) and \(g: T \rightarrow S\) be functions such that \(f(g(x))=x\) for each \(x \). State which of the statements are true.
+</p>
+
+
+<p>
+<ul>
+<li>(a) The function \(f\) must be one-to-one.</li>
+<li>(b) The function \(g\) must be one-to-one.</li>
+<li>(c) The function \(f\) must be onto.</li>
+<li>(d) The function \(g\) must be onto.</li>
+</ul>
+</p>
+
+
+<details><summary>Solution</summary>
+
+<p>
+False-True-True-False.
+</p>
+
+<p>
+If \(g\left(x_{1}\right)=g\left(x_{2}\right),\) then \(x_{1}=f\left(g\left(x_{1}\right)\right)=f\left(g\left(x_{2}\right)\right)=x_{2},\) so \(g\) is one-to-one. Also \(f\) is onto because each \(x \in T\) is in the image of \(f,\) namely \(x=f(g(x)) .\) The other two statements are false, for example by constructing an \(S\) that is a larger finite set than \(T\).
+</p>
+
+</details>
+
+---
+
+
 ### Composition
 {: .d-inline-block}
 
