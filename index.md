@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The first mock test is scheduled on 4th March, 2022. 
+- The results of the first mock test will be out on 15th March.
 
 
 ---
