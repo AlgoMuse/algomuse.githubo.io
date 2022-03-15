@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The results of the first mock test will be out on 15th March.
+- The results of the first mock test will be out on 17th March.
 
 
 ---
