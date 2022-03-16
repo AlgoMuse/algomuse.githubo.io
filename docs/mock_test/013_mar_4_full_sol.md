@@ -120,7 +120,7 @@ of the options below are true?<br>
 </li>
 
 <details open><summary>Sol.</summary>
-(a),(b) and (d). If \(f(x)=f(y)\), then \(|f(x)-f(y)|=0\) so \(f\) is one-one. If \(f(1)>f(0)\) the function is monotonically increasing. If \(f(1)< f(0)\), then the function is monotonically decreasing.
+(a),(b) and (d). If \(f(x)=f(y)\), then \(|f(x)-f(y)|=0\) so \(f\) is one-one. If \(f(1)> f(0)\) the function is monotonically increasing. If \(f(1)< f(0)\), then the function is monotonically decreasing.
 </details>
 
 
@@ -216,6 +216,42 @@ Hence, since \(q_{1}-q_{2}\) is an integer its value must be zero, which gives
 Three points \(A, B\) and \(C\) lie inside a circle whose radius is 1 cm. Show that \(B C^{2}+C A^{2}+A B^{2}\) is less than or equal to 9 sq. cm.
 </p>
 
+
+
+
+
+<details open><summary>Sol.</summary>
+
+<p>
+We may assume that points \(A, B\) and \(C\) lie on a circle and form a triangle. Further, we may restrict our triangles to those where \(BC=AC\).
+The reason is given below.<br>
+</p>
+
+<p>
+<i>Claim:</i> The expression \(BC^2+CA^2+AB^2\) has a maximum when \(BC=AC\).<br>
+<i>Proof:</i><br>
+Pick a point \(C^\prime\) such that \(AC^\prime = BC^\prime\). We will show that triangle \(ABC^\prime\) is a better choice than triangle \(ABC\).
+
+Consider the figure shown below.
+\begin{align*}
+&A B^{2}=A C^{2}+B C^{2}-2 A C \cdot B C \cos \theta=A C^{\prime}{ }^{2}+B C^{t^{2}}-2 A C^{\prime} B C^{\prime} \cos \theta\\
+&\text { Since } \quad \frac{1}{2} \mathrm{AC} \cdot \mathrm{BC}=\frac{\text { Area } \triangle \mathrm{ABC}}{\sin \theta} < \frac{\text { Area } \triangle AB\mathrm{C}^{\prime}}{\sin \theta}=\frac{1}{2} \mathrm{AC}^{\prime} \cdot \mathrm{BC}^{\prime}\\
+&\text { we have } A B^{2}+A C^{2}+B C^{2}=2 A B^{2}+2 A C \cdot B C \cdot \cos \theta\\
+&< 2 A B^{2}+2 A C^{\prime} \cdot B C^{\prime} \cos \theta=A B^{2}+A C^{\prime 2}+B C^{\prime 2} \; \square
+\end{align*}
+</p>
+
+<p style="text-align:center">
+<br><img src="/assets/images/mt13_circumcircle.jpg"/>
+</p>
+
+Similar argument can made to show that \(AB=BC\) at the maximum value. Hence, the quantity \(AB^2+BC^2+CA^2\) is maximized when the triangle \(ABC\) is equilateral. When
+this happens each side has length \(2\cos 30^\circ=\sqrt{3}\) cm. The statement follows.
+</details>
+
+
+
+
 ---
 
 <p>
@@ -233,13 +269,14 @@ be colored 2 ways and the color of the third vertex would be fixed.</p>
 
 
 
-For any $n$-polygon with four or more sides, we consider two cases.
-Case 1: Vertex 1 and vertex $n-1$ are different colours. Then this means that vertices 1 to $n-1$ can be coloured in all ways possible for a $n-1$ gon and the colour of vertex $n$ is fixed. Case 2: Vertex 1 and vertex $n-1$ are the same colour. Then vertices 1 to $n-2$ can be coloured in all ways possible for a $n-2$ gon, and then there are 2 ways to colour vertex $n$.
-We define $a_{n}$ as the legal colourings of an $n$-gon. Then $a_{n}$ can be recursively defined as
-$$
-a_{n}=a_{n-1}+2 a_{n-2}
-$$
-Therefore, for $n=8, a_{n}=258$.
+<details open><summary>Sol.</summary>
+For any \(n\)-polygon with four or more sides, we consider two cases.<br>
+<i>Case 1:</i> Vertex 1 and vertex \(n-1\) are different colours. Then this means that vertices 1 to \(n-1\) can be coloured in all ways possible for a \(n-1\) gon and the colour of vertex \(n\) is fixed. <br>
+<i>Case 2:</i> Vertex 1 and vertex \(n-1\) are the same colour. Then vertices 1 to \(n-2\) can be coloured in all ways possible for a \(n-2\) gon, and then there are 2 ways to colour vertex \(n\).
+We define \(a_{n}\) as the legal colourings of an \(n\)-gon. Then \(a_{n}\) can be recursively defined as
+\[ a_{n}=a_{n-1}+2 a_{n-2} \]
+An edge or a triangle can be colored in 6 ways, so \(a_2=a_3=6\). Therefore, for \(n=8, a_{n}=258\).
+</details>
 
 
 ---
@@ -260,16 +297,35 @@ https://sumo.stanford.edu/pdfs/smt2021/guts-solutions.pdf
 </p>
 
 
-<!--
-<p>
-<b>B4 (b).</b> Consider the following polynomial where \(a_1,\ldots,a_n\) are distinct integers.
+<details open><summary>Sol.</summary>
+(a) Let \(x= \sqrt[3]{2+\sqrt{5}} + \sqrt[3]{2-\sqrt{5}}\). Let \(A\) and \(B\) be the two summands, so \(x=A+B\).
 
-\[ r(x) =  \left(x-a_{1}\right)^{2}\left(x-a_{2}\right)^{2}\left(x-a_{3}\right)^{2} \ldots \left(x-a_{n}\right)^{2}+1 \]
+Using the identity \((A+B)^3 = A^3 + B^3 + 3AB(A+B)\), we get:
 
-Prove that \(r(x)\) cannot be written as the product of two other polynomials with integral coefficients.
+\begin{align*}
+x^{3} &=(2+\sqrt{5})+3(\sqrt[3]{2+\sqrt{5}} \cdot 3 \sqrt[3]{2-\sqrt{5}})(x)+(2-\sqrt{5}) \\
+&=4+3 \sqrt[3]{(-1)} x \\
+&=4-3 x
+\end{align*}
 
-</p>
--->
+Hence, \(x^3+3x-4=(x-1)(x^2+x+4)=0\). The only real solution to the equation is \(x=1\).
+
+<br>
+(b) We that that \(8! < 9^8\). Multiply both sides of the inequality with \(8!^8\). We get:
+
+\[ (8!)^9 < 9^8\cdot(8!)^8 = (9!)^8 \]
+
+
+Take the 72 and root of both sides
+\begin{align*}
+&(8 !)^{9 / 72}<(9 !)^{8 / 72} \\
+&\text { 1.e. }  \sqrt[8]{8} !< \sqrt[9]{9} !
+\end{align*}
+
+</details>
+
+
+
 
 ---
 
@@ -280,6 +336,22 @@ Prove that \(r(x)\) cannot be written as the product of two other polynomials wi
 <li> Show that the equation \(Ae^x = 1 + x + \frac{x^2}{2}\) , where \(A\) is a positive constant, has exactly one real root.</li>
 </ol>
 </p>
+
+
+
+<details open><summary>Sol.</summary>
+(i)  Let \(g(x) = e^{-x} f(x)\) . Then, \(g'(x) =e^{-x} (f'(x) — f(x)) > 0\) . As \(g\) is an increasing function, so we have \(g(x)= e^{-x} f(x) \geqslant 0\) for \(x >x_0\) , and the conclusion follows.
+<br>
+<br>
+(ii) Let \(f : \mathbb{R} \to \mathbb{R}\) be defined by \(f(x) = Ae^x - 1 - x - \dfrac{x^2}{2}\).<br><br>
+
+Now, \(f(x) \to -\infty\) as \(x \to -\infty\) , and \(f(x) \to +\infty\) as \(x \to +\infty\) . Hence, as \(f\) is continuous, it has at least one real root, say \(x_0\). Observe that : $$f'(x) = Ae^x - 1 - x > Ae^x - 1 - x - \frac{x^2}{2} = f(x)\qquad\forall~ x\in\mathbb{R}$$
+
+Thus, by part (i), we deduce that \(f\) has only one real root, viz. \(x_0\).
+
+<br><i>Source:</i> UC Berkeley Ph.D Entrance Exam, Spring 1987<br>
+</details>
+
 
 ---
 
@@ -297,6 +369,68 @@ in the figure shown below.
 <!--
 From MT7 last time. SMT. Ans = 10\sqrt{2}. Use similar triangles.
 -->
+
+<details open><summary>Sol. </summary>
+
+<b>Ans.</b>  \(10\sqrt{2}\). <br>
+
+The key is to observe that \( \Delta BEC \sim \Delta DEA \). Likewise, \(\Delta AFB \sim \Delta CFD \).<br>
+
+
+<b>Lemma 1.</b> \(\triangle BEC \sim \Delta DEA \) <br>
+
+<p>
+<i>Proof: </i> Since \(ABCD\) is a cyclic quadrilateral, the opposite angles sum to \(\pi\).
+Let \(\angle EBC=\theta\). Hence, \( \angle ADC = \pi-\theta\), so \(\angle EDA = \theta \).
+</p>
+
+<br>
+
+<b>Lemma 2.</b> \(AE=4\) cm and \(DE=5\) cm.<br>
+
+
+<p><i>Proof: </i>
+
+Since \(DA:BC=1:2\) the scaling factor between similar triangles \(\Delta BEC\) and \(\Delta DEA\) is 2.
+
+
+Let \(AE=p\) and \(DE=q\). Then we have:
+
+\begin{align*}
+AB&=BE-AE\\
+   &=2DE-AE\\
+   &=2q-p
+\end{align*}
+
+Also, \(CD=2p-q\). So we have:
+
+\begin{align*}
+2q-p &= 6 \\
+2p-q &= 3
+\end{align*}
+
+Solving for \(p\) and \(q\), we get \(p=4\) and \(q=5\). \(\;\;\;\square\)
+
+</p>
+
+
+Similarly we have \(FC=8\) cm and \(FD=10\) cm. <br>
+
+Let \(\angle B=\theta\). Then \(\angle F D E=\pi-\theta\). Apply the Law of Cosines to \(\triangle E B F\) to get:
+
+
+\[ E F^{2}=B E^{2}+B F^{2}-2 B E \cdot B F \cdot \cos \theta=10^{2}+20^{2}-2 \cdot 10 \cdot 20 \cos \theta=500-400 \cos \theta \]
+
+and to \( \triangle E D F\) to get
+
+\[ E F^{2}=D E^{2}+D F^{2}-2 \cdot D E \cdot D F \cos (\pi-\theta)=5^{2}+10^{2}-2 \cdot 5 \cdot 10 \cos \theta=125+100 \cos \theta  \]
+
+Solving for \(E F^{2}\), we get \(E F^{2}=200\). So \(EF=10\sqrt{2}\).
+
+</details>
+
+
+
 
 
 
