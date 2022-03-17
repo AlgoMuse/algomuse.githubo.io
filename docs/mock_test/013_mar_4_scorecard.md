@@ -26,7 +26,7 @@ The following students took part in the mock test. The table below shows their s
 
 Rajvardhan Singh Sisodiya,  John Tom,  Shyaam Ganesh,  Anjil Das,  Shreyas,  Adeesh Devasthale,  Raghav,
 Ryan Hota,  Medhansh Tripathi,  Sathvik, Sneha,  Hemadri Shekhar Das,  Aytida Ttud,  Swapnil Muduli,
-Rajsuvro,  Ankan,  Soupayan dasgupta,  and Saptashwa.
+Rajsuvro,  Ankan,  Soupayan Dasgupta,  and Saptashwa.
 {: .bg-grey-lt-000 .p-6 }
 
 
