@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Last mock test results
-nav_exclude: false
+nav_exclude: true
 ---
 
 
