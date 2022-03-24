@@ -47,7 +47,14 @@ Let \(\operatorname{gcd}(a, b)=1\), then \(\operatorname{gcd}\left(a+b, a^{2}-a 
 </li>
 
 <details open><summary>Sol.</summary>
-(c) <i>Source: Madhava 2022.</i>.
+(c) Suppose that the \(\operatorname{gcd}\left(a+b, a^{2}+b^{2}-ab\right)=d\). Then we have the following:<br>
+<ul>
+<li> \(d \mid(a+b)\) and \(d \mid\left(a^{2}+b^{2}-ab\right)\).</li>
+<li> Now \(a^{2}+b^{2}-ab=(a+b)^{2}-3ab \Rightarrow d \mid 3ab\).</li>
+<li> Now since \(d \mid 3ab\) either \(d=1,3\) or \(d \mid a\) or \(d \mid b\).</li>
+<li> Now if \(d|a \Rightarrow d| b\) since \(d \mid(a+b)\). So \(d\nmid a\) and \(d\nmid b\). So, \(d\) is either 1 or 3.</li>
+</ul>
+
 </details>
 
 
