@@ -16,7 +16,7 @@ title: Mock tests
 
 <br>
 
-#### 41 sign-ups so far
+#### 44 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="60" value="11"></progress>
@@ -51,12 +51,12 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 ## Current schedule
 
-### March
+### April
 
 Date | Day | Timing | Topics
 ---|---|--|--
-4 March '22 | Friday | 2pm - 5pm | Full-syllabus test
-18 March '22| Friday | 2pm - 5pm | Full-syllabus test
+8 April '22 | Friday | 2pm - 5pm | Full-syllabus test
+29 April '22| Friday | 2pm - 5pm | Full-syllabus test
 
 
 ## Registration fees
@@ -113,6 +113,8 @@ Question paper | Date | Results
  [Full-syllabus](/docs/mock_test/010_june_18_full/) | 18 June '21 | [Scorecard](/docs/mock_test/010_june_18_scorecard)
  [Full-syllabus](/docs/mock_test/011_jul_9_full/) | 9 July '21 | [Scorecard](/docs/mock_test/011_jul_9_scorecard)
  [Full-syllabus](/docs/mock_test/012_jul_23_full/) | 23 July '21 | [Scorecard](/docs/mock_test/012_jul_23_scorecard)
+ [Full-syllabus](/docs/mock_test/001_4mar22_full/) | 4 March '22 | [Scorecard](/docs/mock_test/013_mar_4_scorecard)
+ [Full-syllabus](/docs/mock_test/002_18mar22_full/) | 18 March '22 | -
 
 
 

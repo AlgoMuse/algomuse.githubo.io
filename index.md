@@ -21,8 +21,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The next mock test is scheduled on 8th April '22 at 2 pm IST.
-- The results of the second mock test will be announced by 13th April.
+- The next mock test is scheduled on 29th April '22 at 2 pm IST.
+- The results of the second and third mock tests will be announced by 20th April and 28th April, respectively.
 
 
 ---
