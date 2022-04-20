@@ -23,7 +23,7 @@ nav_exclude: true
 The following students took part in the mock test. The table below shows their scores against anonymized names.
 
 
-Shyaam Ganesh,  Raghav,  Sneha,  Hemadri Shekhar Das,  Aytida Ttud,  Rajsuvro, Ryan Hota,  Medhansh Tripathi,  Sathvik,  John Tom, 
+Saptashwa Baisya, Shyaam Ganesh,  Raghav,  Sneha,  Hemadri Shekhar Das,  Aytida Ttud,  Rajsuvro, Ryan Hota,  Medhansh Tripathi,  Sathvik,  John Tom, 
 Ankan,  Soupayan Dasgupta,  Bhavesh Pandya,  Maitreya,  and Shibanjan.
 {: .bg-grey-lt-000 .p-6 }
 
@@ -68,7 +68,19 @@ To see any student's answer:
 
 
 
+
 <button class="markbutton rank">1. </button>
+<input type="button" class="markbutton white" value="Colin Maclaurin"/>
+<button class="markbutton blank" onclick = "markdisplay('Colin_Maclaurin/PartA',14)">40</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Colin_Maclaurin/B1',14)">10</button>
+<button class="markbutton wrong" onclick = "markdisplay('Colin_Maclaurin/B2',14)">2</button>
+<button class="markbutton right" onclick = "markdisplay('Colin_Maclaurin/B3',14)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Colin_Maclaurin/B4',14)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Colin_Maclaurin/B5',14)">10</button>
+<button class="button blank"></button>
+<button class="markbutton total">82</button>
+<button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Michel Rolle"/>
 <button class="markbutton blank" onclick = "markdisplay('Michel_Rolle/PartA',14)">36</button>
 <button class="button white"></button>
@@ -79,7 +91,18 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Michel_Rolle/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">76</button>
-<button class="markbutton rank">2. </button>
+<button class="markbutton rank">3. </button>
+<input type="button" class="markbutton white" value="Ernst Eduard Kummer"/>
+<button class="markbutton blank" onclick = "markdisplay('Ernst_Eduard_Kummer/PartA',14)">36</button>
+<button class="button white"></button>
+<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B1',14)">10</button>
+<button class="button blank"></button>
+<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B3',14)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B4',14)">10</button>
+<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B5',14)">10</button>
+<button class="button blank"></button>
+<button class="markbutton total">76</button>
+<button class="markbutton rank">4. </button>
 <input type="button" class="markbutton white" value="Heinrich Lambert"/>
 <button class="markbutton blank" onclick = "markdisplay('Heinrich_Lambert/PartA',14)">28</button>
 <button class="button white"></button>
@@ -90,18 +113,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Heinrich_Lambert/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">68</button>
-<button class="markbutton rank">3. </button>
-<input type="button" class="markbutton white" value="Ernst Eduard Kummer"/>
-<button class="markbutton blank" onclick = "markdisplay('Ernst_Eduard_Kummer/PartA',14)">36</button>
-<button class="button white"></button>
-<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B1',14)">10</button>
-<button class="button blank"></button>
-<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B3',14)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Ernst_Eduard_Kummer/B4',14)">10</button>
-<button class="button blank"></button>
-<button class="button blank"></button>
-<button class="markbutton total">66</button>
-<button class="markbutton rank">4. </button>
+<button class="markbutton rank">5. </button>
 <input type="button" class="markbutton white" value="Simon Poisson"/>
 <button class="markbutton blank" onclick = "markdisplay('Simon_Poisson/PartA',14)">36</button>
 <button class="button white"></button>
@@ -112,7 +124,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Simon_Poisson/B5',14)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Simon_Poisson/B6',14)">0</button>
 <button class="markbutton total">60</button>
-<button class="markbutton rank">5. </button>
+<button class="markbutton rank">6. </button>
 <input type="button" class="markbutton white" value="Emilie du Chatelet"/>
 <button class="markbutton blank" onclick = "markdisplay('Emilie_du_Chatelet/PartA',14)">28</button>
 <button class="button white"></button>
@@ -123,7 +135,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Emilie_du_Chatelet/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">58</button>
-<button class="markbutton rank">6. </button>
+<button class="markbutton rank">7. </button>
 <input type="button" class="markbutton white" value="Gaspard Monge"/>
 <button class="markbutton blank" onclick = "markdisplay('Gaspard_Monge/PartA',14)">32</button>
 <button class="button white"></button>
@@ -134,7 +146,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Gaspard_Monge/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">57</button>
-<button class="markbutton rank">7. </button>
+<button class="markbutton rank">8. </button>
 <input type="button" class="markbutton white" value="Friederich Pfaff"/>
 <button class="markbutton blank" onclick = "markdisplay('Friederich_Pfaff/PartA',14)">24</button>
 <button class="button white"></button>
@@ -145,7 +157,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Friederich_Pfaff/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">49</button>
-<button class="markbutton rank">8. </button>
+<button class="markbutton rank">9. </button>
 <input type="button" class="markbutton white" value="William Chauvenet"/>
 <button class="markbutton blank" onclick = "markdisplay('William_Chauvenet/PartA',14)">24</button>
 <button class="button white"></button>
@@ -156,7 +168,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('William_Chauvenet/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">44</button>
-<button class="markbutton rank">9. </button>
+<button class="markbutton rank">10. </button>
 <input type="button" class="markbutton white" value="Maria Agnesi"/>
 <button class="markbutton blank" onclick = "markdisplay('Maria_Agnesi/PartA',14)">28</button>
 <button class="button white"></button>
@@ -167,7 +179,7 @@ To see any student's answer:
 <button class="markbutton wrong" onclick = "markdisplay('Maria_Agnesi/B5',14)">0</button>
 <button class="button blank"></button>
 <button class="markbutton total">40</button>
-<button class="markbutton rank">10. </button>
+<button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Mildred Sanderson"/>
 <button class="markbutton blank" onclick = "markdisplay('Mildred_Sanderson/PartA',14)">32</button>
 <button class="button white"></button>
@@ -178,7 +190,7 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="button blank"></button>
 <button class="markbutton total">36</button>
-<button class="markbutton rank">11. </button>
+<button class="markbutton rank">12. </button>
 <input type="button" class="markbutton white" value="Nicholas Mercator"/>
 <button class="markbutton blank" onclick = "markdisplay('Nicholas_Mercator/PartA',14)">20</button>
 <button class="button white"></button>
@@ -189,7 +201,7 @@ To see any student's answer:
 <button class="markbutton wrong" onclick = "markdisplay('Nicholas_Mercator/B5',14)">0</button>
 <button class="button blank"></button>
 <button class="markbutton total">35</button>
-<button class="markbutton rank">12. </button>
+<button class="markbutton rank">13. </button>
 <input type="button" class="markbutton white" value="Leopold Kronecker"/>
 <button class="markbutton blank" onclick = "markdisplay('Leopold_Kronecker/PartA',14)">28</button>
 <button class="button white"></button>
@@ -211,7 +223,7 @@ To see any student's answer:
 <button class="markbutton white"></button>
 <button class="markbutton white"></button>
 <button class="markbutton white"></button>
-<button class="markbutton rank">13. </button>
+<button class="markbutton rank">14. </button>
 <input type="button" class="markbutton white" value="Jacques Hadamard"/>
 <button class="markbutton blank" onclick = "markdisplay('Jacques_Hadamard/PartA',14)">40</button>
 <button class="button white"></button>
@@ -222,18 +234,18 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Jacques_Hadamard/B5',14)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Jacques_Hadamard/B6',14)">0</button>
 <button class="markbutton total">74</button>
-<button class="markbutton rank">14. </button>
+<button class="markbutton rank">15. </button>
 <input type="button" class="markbutton white" value="Etienne Bezout"/>
 <button class="markbutton blank" onclick = "markdisplay('Etienne_Bezout/PartA',14)">36</button>
 <button class="button white"></button>
 <button class="markbutton wrong" onclick = "markdisplay('Etienne_Bezout/B1',14)">0</button>
 <button class="markbutton wrong" onclick = "markdisplay('Etienne_Bezout/B2',14)">3</button>
 <button class="markbutton wrong" onclick = "markdisplay('Etienne_Bezout/B3',14)">0</button>
-<button class="markbutton right" onclick = "markdisplay('Etienne_Bezout/B4',14)">6</button>
+<button class="markbutton right" onclick = "markdisplay('Etienne_Bezout/B4',14)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Etienne_Bezout/B5',14)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Etienne_Bezout/B6',14)">0</button>
-<button class="markbutton total">55</button>
-<button class="markbutton rank">15. </button>
+<button class="markbutton total">59</button>
+<button class="markbutton rank">16. </button>
 <input type="button" class="markbutton white" value="Otto Hesse"/>
 <button class="markbutton blank" onclick = "markdisplay('Otto_Hesse/PartA',14)">24</button>
 <button class="button white"></button>
@@ -244,7 +256,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Otto_Hesse/B5',14)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Otto_Hesse/B6',14)">0</button>
 <button class="markbutton total">54</button>
-<button class="markbutton rank">16. </button>
+<button class="markbutton rank">17. </button>
 <input type="button" class="markbutton white" value="Cornaro Piscopia"/>
 <button class="markbutton blank" onclick = "markdisplay('Cornaro_Piscopia/PartA',14)">20</button>
 <button class="button white"></button>
@@ -255,7 +267,6 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Cornaro_Piscopia/B5',14)">10</button>
 <button class="button blank"></button>
 <button class="markbutton total">45</button>
-
 
 </div>
 </div>
