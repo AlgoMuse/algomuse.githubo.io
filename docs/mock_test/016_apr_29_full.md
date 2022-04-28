@@ -7,7 +7,7 @@ nav_exclude: true
 
 #  Mock test #4 '22: Full-syllabus test
 
-#### Timings: 14:00-17:00 Hrs &nbsp;&nbsp;  Date: 28 April 2022
+#### Timings: 14:00-17:00 Hrs &nbsp;&nbsp;  Date: 29 April 2022
 {: .fs-3 .text-grey-004 }
 
 ---
@@ -25,8 +25,8 @@ nav_exclude: true
 
 
 **For students who miss the live test**<br>
-Self-administer the mock test and email your solutions before 29 April, 23:59 Hrs IST. Your solutions will be evaluated
-but marks won't be counted for official use in the future. Solutions submitted after 29 April, 23:59 Hrs will not be evaluated.
+Self-administer the mock test and email your solutions before 30 April, 23:59 Hrs IST. Your solutions will be evaluated
+but marks won't be counted for official use in the future. Solutions submitted after 30 April, 23:59 Hrs will not be evaluated.
 {: .bg-grey-lt-000 .p-6 }
 
 ---
