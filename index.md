@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The result of the third mock will be announced by 5th May.
+- The result of the third mock will be announced by 7th May.
 
 
 ---
