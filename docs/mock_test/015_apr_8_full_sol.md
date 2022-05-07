@@ -233,7 +233,7 @@ Five people each choose an integer between \(1\) and \(3\), inclusive. What is t
 
 <details open> <summary>Sol.</summary>
 Answer: \(50/81\).<br>
-Use complementary counting and principle of inclusion and exclusion. Call \(E_n\) the event where \(n\) is not chosen. Then, using the PIE, \((E_1 \cup E_2 \cup E_3)=(E_1) \cup (E_2) \cup (E_3)-((E_1 \cup E_2) + (E_2 \cup E_3) + (E_1 \cup E_3) + (E_1 \cup E_2 \cup E_3)\). \((E_1) = 2^5\), since there are two numbers are left over for 5 people to choose and similarly, \((E_1 \cup E_2) = 1^5\), and \((E_1 \cup E_2 \cup E_3) = 0\). Thus there are \( 3 * 2^5 - 3 = 93\) ways that one of the 3 numbers is not selected. Our final answer is then \(P = 1 - \dfrac{93}{3^5} = \dfrac{50}{81}\).
+Use complementary counting and principle of inclusion and exclusion. Call \(E_n\) the event where \(n\) is not chosen. Then, using the PIE, \((E_1 \cup E_2 \cup E_3)=(E_1) \cup (E_2) \cup (E_3)-((E_1 \cap E_2) + (E_2 \cap E_3) + (E_1 \cap E_3)) + (E_1 \cap E_2 \cap E_3)\). \((E_1) = 2^5\), since there are two numbers are left over for 5 people to choose and similarly, \((E_1 \cup E_2) = 1^5\), and \((E_1 \cup E_2 \cup E_3) = 0\). Thus there are \( 3 * 2^5 - 3 = 93\) ways that one of the 3 numbers is not selected. Our final answer is then \(P = 1 - \dfrac{93}{3^5} = \dfrac{50}{81}\).
 </details>
 
 
@@ -286,7 +286,18 @@ the size of the largest of the three squares. The answer must be given along wit
 </p>
 
 
+
 <details open> <summary>Sol.</summary>
+
+
+<i>Solution 1.</i><br>
+Using Cauchy-Schwarz inequality: See <a href="https://cmientranceexam.in/assets/images/mock_test_15/Colin_Maclaurin/B4.jpg">Colin Maclaurin's solution</a>.
+
+
+
+<br>
+
+<i>Solution 2.</i><br>
 Let \(x\) be the length of the side of a square, and let the probability of \(x\) be \(1 / 3,1 / 3,1 / 3\) over the three lengths \(l_{1}, l_{2}, l_{3}\).
 Let \(\mathcal{E}[x]\) denote the expected length. Then the information that we have is that \(\mathcal{E}[x]=10\) and \(\mathcal{E}[f(x)]=100\), where \(f(x)=x^{2}\) is the function mapping lengths to areas. 
 This is a strictly convex function. We notice that the equality \(\mathcal{E}[f(x)]=f(\mathcal{E}[x])\) holds,
