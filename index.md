@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The result of the third mock will be announced by 6pm today.
+- The results of the third mock test are [here](docs/mock_test/015_apr_8_scorecard/).
 
 
 ---
