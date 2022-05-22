@@ -21,11 +21,116 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
+- If you recall any question from CMI's 2022 paper, please consider sending me the description. I'll try to compile the problems below.
 - The results of the fourth mock test are [here](docs/mock_test/016_apr_29_scorecard/).
 
 
 ---
 
+## Problems from CMI 2022 paper [Work in progress]
+
+
+### Part A: Screening part
+
+<ol>
+
+<li>
+<p>
+Suppose \( a_0, a_1, a_2, \ldots, \) is an arithmetic progression such that \(a_0\) and \(a_1\) are positive integers. 
+Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=a_0\) and \(g_1=a_1\). Which of the following is true?
+
+<ol>
+<li> \( a_5^2 \geq a_0a_{10}\) </li><br>
+<li> The number \( a_0 + a_1 + \cdots + a_{10}\) is divisible by \(a_5\).</li><br>
+<li> If \( \sum_{i=0}^{\infty} a_i \) tends to \( \infty \) then \( \sum_{i=0}^{\infty} g_i \) tends to \(\infty\).</li><br>
+<li> If \( \sum_{i=0}^{\infty} g_i \) is finite then \( \sum_{i=0}^{\infty} a_i \) tends to \(-\infty\).</li><br>
+</ol>
+
+
+<li>
+\(A\) and \(B\) are probability events such that \( P(A) \) and \(P(B)\) is strictly between 0 and 1. We say that the events
+are <i>mutually exclusive</i> if \( P(A\cap B) = 0 \).  We say the events \(A\) and \(B\) are exhaustive if \(P(A\cup B)=1\).
+Let \(A^c\) denote the complement of \(A\).
+<br>
+
+<ol>
+<li>\(A\) and \(B\) are mutually exclusive if and only if \(A^c\) and \(B^c\) are exhaustive.</li>
+<li>\(A\) and \(B\) are independent if and only if \(A^c\) and \(B^c\) are independent.</li>
+<li>\(A\) and \(B\) cannot be simultaneously independent and exhaustive.</li>
+<li>\(A\) and \(B\) cannot be simultaneously mutually exclusive and exhaustive.</li>
+</ol>
+</li>
+
+
+<li>
+Which of these is true?
+<ol>
+<li> \(a = 1/\ln 3 \implies 3^a = e \).</li>
+<li> \( \sin(0.02) < 2\sin(0.01) \).</li>
+<li> \( \arctan(0.01) > 0.01 \).</li>
+<li> \( 4 \int_{0}^1 \arctan x \, dx = \pi - \ln 4 \).</li>
+</ol>
+</li>
+
+<li>
+Which of the options are true about the function \(f\) as defined below:
+\[ f(x) = \frac{1}{|\ln x|} \left( \frac{1}{x} + \cos x  \right) \] 
+<ol>
+<li> As \(x\rightarrow \infty\), the sign of \(f\) changes infinitely many times.</li>
+<li> \(\lim_{x\rightarrow \infty} f(x) \) does not exist.</li>
+<li> \(\lim_{x\rightarrow 1} f(x) = \infty \).</li>
+<li> \(\lim_{x\rightarrow 0^+} f(x) = 1\).</li>
+</ol>
+</li>
+
+
+</p>
+</li>
+
+</ol>
+
+
+
+### Part B: Subjective questions
+
+
+<p>
+
+<b>B1</b>. Consider the figure shown below (not drawn to scale). We have the following relation:
+\[ \frac{WZ}{YX} = \frac{PW}{XP} = \frac{QZ}{YQ} = k \]
+
+Prove that \( XR = XP \).
+
+<p style="text-align:center">
+<img src="/assets/images/cmi2022_b1.png"/>
+</p>
+
+
+</p>
+
+
+<p>
+<b>B2</b>. <i>This question was straight from a previous <a href="/docs/mock_test/001_feb_7_nt_trig/">CMI Tomato's mock test</a>!</i><br>
+
+(i) Consider a coordinate grid made up of horizontal and vertical lines of the form \(x=k\) and \(y=k\), where \(k\in \mathbb{Z}\).
+Consider a line segment OA where O is the origin and A is the point \(  (10,4) \). Notice that this line segment passes through the
+interior of 12 cells. In the figure below, the shaded cells are the ones through which the line passes.
+</p>
+
+<p style="text-align:center">
+<img src="/assets/images/mt_1_grid.jpg"/>
+</p>
+
+<p>
+In general, how many cells does the line from the origin to \( (m,n) \) pass through? Assume that \(m\) and \(n\) are positive integers.<br>
+
+(ii) Consider all the cells in the square region from \( (0,0) \)  to \( (n,n) \). What is the maximum number of cells any line can pass through in this region? This line 
+need not pass through any integer points.
+</p>
+
+
+
+---
 
 #### What's on this site?
 {: .fs-4}
