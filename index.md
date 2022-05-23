@@ -36,7 +36,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 <li>
 Suppose \( a_0, a_1, a_2, \ldots, \) is an arithmetic progression such that \(a_0\) and \(a_1\) are positive integers. 
-Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=a_0\) and \(g_1=a_1\). Which of the following is true?
+Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=a_0\) and \(g_1=a_1\). Which of the following are true?
 
 <ol>
 <li> \( a_5^2 \geq a_0a_{10}\) </li><br>
@@ -94,7 +94,7 @@ Pick the correct statements.<br>
 
 
 <li>
-Which of these is true?
+Which of these are true?
 <ol>
 <li> \(a = 1/\ln 3 \implies 3^a = e \).</li>
 <li> \( \sin(0.02) < 2\sin(0.01) \).</li>
