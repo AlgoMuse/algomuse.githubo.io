@@ -231,7 +231,7 @@ Hint: Find an equation relating \(f(x)\) with \(f(x^2)\). Then consider the func
 <b>B5.</b> 
 
 A pair of distinct real numbers \((r, s)\) is considered to be a good pair if
-\[ r^{3}-s^{2}=s^{3}-r^{2} \]
+\[ r^{3}+s^{2}=s^{3}+r^{2} \]
 (i) Find a good pair \((a, l)\) such that \(l\) takes the maximum value possible. <br>
  Find a good pair \( (s,b) \) such that \(s\) takes the minimum value possible.<br>
  For any good pair \( (c, d) \), other than the ones found above, show that there exists another real number \(e\) such that \( (c, e) \) and \( (d, e) \) are both good pairs.<br>
@@ -248,7 +248,9 @@ Hints: Consider the function \(f=x^3-x^2\). <br>
 
 <p>
 <b>B6.</b> Let \(p\) denote a prime number in this question.<br>
-(i) Show that \(x^2+x-1\) has at most two roots \( \pmod{p} \). Find all \(p\) for which their is only one root.<br>
+(i) Show that \(x^2+x-1\) has at most two roots \( \pmod{p} \). In other words show that the cardinality of the set \(S\) (defined below) is at most two.
+\[ S = \{ n\in \mathbb{N} |  \;\;\; 1\leq n \leq p, \;\; s.t. \;\;\; p|n^2+n-1  \}  \]
+Also, find all the primes \(p\) for which the cardinality of \(S\) is one.<br>
 (ii) Find all \(n\leq 121\) such that \(n^2+n-1\) is divisible by \(121\).<br>
 (iii) What can we say about the roots of \(x^2+x-1\) \(\pmod{p^2}\)?
 </p>
