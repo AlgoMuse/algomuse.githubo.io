@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- If you recall any question from CMI's 2022 paper, please consider sending me the description. I'll try to compile the problems below.
+- Problems from CMI's 2022 paper are compiled below. Thanks to all the students who sent me the probems.
 - The results of the fourth mock test are [here](docs/mock_test/016_apr_29_scorecard/).
 
 
@@ -60,6 +60,38 @@ Let \(A^c\) denote the complement of \(A\).  <br>
 </ol>
 </li>
 
+<li>
+Suppose we have a matrix \(A\) as defined below. Which of the following are true?
+\[ A = \begin{bmatrix} 1 & 2 & 3 \\ 10 & 20 & 30 \\ 11 & 22 & k \end{bmatrix} \]
+
+<ol>
+<li>\(A\) is not invertible regardless of the value of \(k\).</li>
+<li>There exists a unique \(k\) such that the determinant of \(A\) is zero.</li>
+<li>The set of solutions \( \vec{v}=(x,y,z) \) to \(A\vec{v}=0\) is either a plane or a line passing through the origin.</li>
+<li>If \(A\vec{v}=[p\;\; q\;\; r]^{\top}\) has a solution, then \(q=10p\).</li>
+</ol>
+
+</li>
+
+
+<li>
+Consider the three statements about a function defined on \( [0,1]\). <br>
+(I) \(f\) is differentiable on \( [0,1] \).<br>
+(II) \(f\) is continuous on \( [0,1] \).<br>
+(III) \(f\) attains it maximum and minimum in \( [0,1] \).<br>
+Pick the correct statements.<br>
+
+<ol>
+<li> (I) implies (II).</li>
+<li> (II) implies (III).</li>
+<li> not (III) implies not (I).</li>
+<li> No two of the three statements are equivalent to one another.</li>
+</ol>
+
+
+</li>
+
+
 
 <li>
 Which of these is true?
@@ -82,6 +114,29 @@ Which of the options are true about the function \(f\) as defined below:
 </ol>
 </li>
 
+
+<li>
+Let \(f_0(x) = x\),\(f_1(x)=x^x\),\(f_2(x) = x^{x^x}\), etc. For \(x>0\) which of the following options are true?
+<ol>
+<li> \(\lim_{x\rightarrow 0^+} f_1(x) = 1\)</li>
+<li> \(\lim_{x\rightarrow 0^+} f_2(x) = 1\)</li>
+<li> \( \int_0^{1} f_3 dx = 1  \)</li>
+<li> \( f_{123}^\prime(1) = 1  \)</li>
+</ol>
+</li>
+
+
+<li>
+Let \(N=\{1,2,\ldots,9\}\) and \(L=\{a,b,c\}\).
+<ol>
+<li> \(L \cup N\) is arranged on a line with the letters appearing consecutively (in any order). The number of such arrangements are less than \(10!\times 5\).</li>
+<li>More than half of the functions from \(N\) to \(L\) have \(b\) in their range.</li>
+<li>The number of one-to-one functions from \(L\) to \(N\) is less than 512.</li>
+<li>The number of functions \(N\) to \(L\) that do not map consecutive numbers to consecutive letters is greater than 512.</li>
+</ol>
+</li>
+
+
 <li> Let \(z\) be a non-real complex number and \(f(z) = z^{222} + \frac{1}{z^{222}}\). Which of the statements are correct?<br>
 <ol>
 <li>If \(|z|=1\), then \(f(z)\) must be real.</li>
@@ -93,7 +148,7 @@ Which of the options are true about the function \(f\) as defined below:
 
 
 <li>
-Let \(P\) denote some arrangment of the numbers \({1,2,\ldots,n}\). A <i>move</i> on \(P\) consists of exchanging the position of element 1 with
+Let \(P\) denote some arrangement of the numbers \({1,2,\ldots,n}\). A <i>move</i> on \(P\) consists of exchanging the position of element 1 with
 the position of another element. For example, if \(P=[3,1,4,2]\), then by making one move we can get either \(P=[1,3,4,2]\), \(P=[3,4,1,2]\) or \(P=[3,2,4,1]\).
 \(P\) is said to be <i>sorted</i> if the numbers are in increasing order. Which of the statements are true?<br>
 
@@ -152,6 +207,16 @@ need not pass through any integer points.
 
 ---
 
+<p><b>B3.</b> Let \(f(x) = 1 + x + x^2 + \cdots + x^n\). Find the local minima of \(f(x)\). Find the local maxima of \(f(x)\). For each local maxima or minima \( (c,f(c)) \),
+find the integer \(k\) such that \( k\leq c < k+1 \). <br>
+</p>
+
+<p>
+Hint: Use the definition of \(f\) as well as the closed formula. Treat \(x\geq 0\) and \(x<0\) separately.
+</p>
+
+---
+
 <p> <b>B4.</b> For a function \( f:\mathbb{R}^+ \rightarrow \mathbb{R}^+\), define \(A_r\) and \(B_r\) as follows:
 
 \[ A_r := \int_{1}^{r} f(x)\, dx \;\;\;\;\; B_r := \int_{r}^{r^2} f(x)\, dx \]
@@ -181,9 +246,16 @@ Hints: Consider the function \(f=x^3-x^2\). <br>
 
 ---
 
+<p>
+<b>B6.</b> Let \(p\) denote a prime number in this question.<br>
+(i) Show that \(x^2+x-1\) has at most two roots \( \pmod{p} \). Find all \(p\) for which their is only one root.<br>
+(ii) Find all \(n\leq 121\) such that \(n^2+n-1\) is divisible by \(121\).<br>
+(iii) What can we say about the roots of \(x^2+x-1\) \(\pmod{p^2}\)?
+</p>
 
 
 
+---
 
 #### What's on this site?
 {: .fs-4}
