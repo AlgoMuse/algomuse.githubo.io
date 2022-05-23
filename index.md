@@ -35,7 +35,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 <ol>
 
 <li>
-<p>
 Suppose \( a_0, a_1, a_2, \ldots, \) is an arithmetic progression such that \(a_0\) and \(a_1\) are positive integers. 
 Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=a_0\) and \(g_1=a_1\). Which of the following is true?
 
@@ -45,13 +44,13 @@ Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=
 <li> If \( \sum_{i=0}^{\infty} a_i \) tends to \( \infty \) then \( \sum_{i=0}^{\infty} g_i \) tends to \(\infty\).</li><br>
 <li> If \( \sum_{i=0}^{\infty} g_i \) is finite then \( \sum_{i=0}^{\infty} a_i \) tends to \(-\infty\).</li><br>
 </ol>
+</li>
 
 
 <li>
 \(A\) and \(B\) are probability events such that \( P(A) \) and \(P(B)\) is strictly between 0 and 1. We say that the events
 are <i>mutually exclusive</i> if \( P(A\cap B) = 0 \).  We say the events \(A\) and \(B\) are exhaustive if \(P(A\cup B)=1\).
-Let \(A^c\) denote the complement of \(A\).
-<br>
+Let \(A^c\) denote the complement of \(A\).  <br>
 
 <ol>
 <li>\(A\) and \(B\) are mutually exclusive if and only if \(A^c\) and \(B^c\) are exhaustive.</li>
@@ -83,9 +82,30 @@ Which of the options are true about the function \(f\) as defined below:
 </ol>
 </li>
 
-
-</p>
+<li> Let \(z\) be a non-real complex number and \(f(z) = z^{222} + \frac{1}{z^{222}}\). Which of the statements are correct?<br>
+<ol>
+<li>If \(|z|=1\), then \(f(z)\) must be real.</li>
+<li>If \(z+1/z=1\), then \(f(z)=2\).</li>
+<li>If \(z+1/z\) is real, then \(|f(z)|\leq 2\).</li>
+<li>If \(f(z)\) is real, then \(f(z)>0\).</li>
+</ol>
 </li>
+
+
+<li>
+Let \(P\) denote some arrangment of the numbers \({1,2,\ldots,n}\). A <i>move</i> on \(P\) consists of exchanging the position of element 1 with
+the position of another element. For example, if \(P=[3,1,4,2]\), then by making one move we can get either \(P=[1,3,4,2]\), \(P=[3,4,1,2]\) or \(P=[3,2,4,1]\).
+\(P\) is said to be <i>sorted</i> if the numbers are in increasing order. Which of the statements are true?<br>
+
+<ol>
+<li>The arrangement \([9, 1, 2, 3, 4, 5, 6, 7, 8]\) can be sorted in 8 moves and no fewer.</li>
+<li>\( [1, 3, 4, 5, 6, 7, 8, 9, 2]\) can be sorted in 8 moves and no fewer. </li>
+<li>\( [1, 3, 4, 2, 9, 5, 6, 7, 8] \) cannot be sorted by any number of moves.</li>
+<li>There exists an arrangement of 99 numbers, i.e. 1 to 99, that cannot be sorted by any number of moves.</li>
+</ol>
+</li>
+
+
 
 </ol>
 
@@ -108,6 +128,7 @@ Prove that \( XR = XP \).
 
 </p>
 
+---
 
 <p>
 <b>B2</b>. <i>This question was straight from a previous <a href="/docs/mock_test/001_feb_7_nt_trig/">CMI Tomato's mock test</a>!</i><br>
@@ -129,8 +150,40 @@ need not pass through any integer points.
 </p>
 
 
+---
+
+<p> <b>B4.</b> For a function \( f:\mathbb{R}^+ \rightarrow \mathbb{R}^+\), define \(A_r\) and \(B_r\) as follows:
+
+\[ A_r := \int_{1}^{r} f(x)\, dx \;\;\;\;\; B_r := \int_{r}^{r^2} f(x)\, dx \]
+
+Find all continuous functions \( f:\mathbb{R}^+\rightarrow\mathbb{R}^+ \) for which \(A_r=B_r\) for every positive \(r\).<br>
+Hint: Find an equation relating \(f(x)\) with \(f(x^2)\). Then consider the function \(xf(x)\).
+
+</p>
 
 ---
+<p>
+<b>B5.</b> 
+
+A pair of distinct real numbers \((r, s)\) is considered to be a good pair if
+\[ r^{3}-s^{2}=s^{3}-r^{2} \]
+(i) Find a good pair \((a, l)\) such that \(l\) takes the maximum value possible. <br>
+ Find a good pair \( (s,b) \) such that \(s\) takes the minimum value possible.<br>
+ For any good pair \( (c, d) \), other than the ones found above, show that there exists another real number \(e\) such that \( (c, e) \) and \( (d, e) \) are both good pairs.<br>
+(ii) Prove that there are infinitely many rational good pairs.<br>
+</p>
+
+<p>
+Hints: Consider the function \(f=x^3-x^2\). <br>
+(i) For a good pair \( (r,s) \), can you write \(s\) in terms of \(r\)?<br>
+(ii) You can use the fact that there are infinitely many right-angle triangles with integer sides that are not similar to each other.<br> 
+</p>
+
+---
+
+
+
+
 
 #### What's on this site?
 {: .fs-4}
