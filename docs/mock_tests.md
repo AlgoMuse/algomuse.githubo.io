@@ -46,7 +46,6 @@ There will be two types of tests every month: full-syllabus and topic-specific t
 to one or two topics. For example, the [first test](/docs/mock_test/001_feb_7_nt_trig) in February had questions only from number theory and trigonometry.
 A full-syllabus test will be at par with a CMI entrance exam.
 
--->
 
 
 ## Current schedule
@@ -69,6 +68,7 @@ your email ID.
 
 <br>Please note that the payment must be renewed every month.
 
+-->
 
 ## What happens if you miss a test?
 
@@ -114,8 +114,9 @@ Question paper | Date | Results
  [Full-syllabus](/docs/mock_test/011_jul_9_full/) | 9 July '21 | [Scorecard](/docs/mock_test/011_jul_9_scorecard)
  [Full-syllabus](/docs/mock_test/012_jul_23_full/) | 23 July '21 | [Scorecard](/docs/mock_test/012_jul_23_scorecard)
  [Full-syllabus](/docs/mock_test/001_4mar22_full/) | 4 March '22 | [Scorecard](/docs/mock_test/013_mar_4_scorecard)
- [Full-syllabus](/docs/mock_test/002_18mar22_full/) | 18 March '22 | -
- [Full-syllabus](/docs/mock_test/014_apr_8_full/) | 8 April '22 | -
+ [Full-syllabus](/docs/mock_test/002_18mar22_full/) | 18 March '22 | [Scorecard](/docs/mock_test/014_mar_18_scorecard) 
+ [Full-syllabus](/docs/mock_test/014_apr_8_full/) | 8 April '22 | [Scorecard](/docs/mock_test/015_apr_8_scorecard) 
+ [Full-syllabus](/docs/mock_test/016_apr_29_full/) | 29 April '22 | [Scorecard](/docs/mock_test/016_apr_29_scorecard) 
 
 
 
