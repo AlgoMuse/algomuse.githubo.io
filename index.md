@@ -21,11 +21,19 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
+- Please participate in the poll below!
 - Problems from CMI's 2022 paper are compiled below. Thanks to all the students who sent me the probems.
-- The results of the fourth mock test are [here](docs/mock_test/016_apr_29_scorecard/).
 
 
 ---
+
+## CMI 2022 marks poll
+
+
+<iframe src="http://www.strawpoll.me/embed_1/46081002" style="width:680px;height:594px;border:0;">Loading poll...</iframe>
+
+
+
 
 ## Problems from CMI 2022 paper [Work in progress]
 
@@ -47,6 +55,19 @@ Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=
 </li>
 
 
+<details open><summary>Sol.</summary>
+<ol>
+<li> TRUE. \(a_5^2 \geq a_0 \cdot a_{10} \implies 25d^2 \geq 0\) which is true.</li>
+<li> TRUE. \(a_0 + 5d \; | \; 11(a + 5d)\)</li>
+<li> FALSE.  AP will go to inf even common ratio of the gp is \(<1\) and \(d>0\) in which case gp will converge.</li>
+<li> TRUE. gp is finite then common ratio \(<1\) so \(a_1/a_0 < 1\) so \(d/a_0\) is negative so \(d\) is negative so AP sum goes to -inf.</li>
+</ol>
+</details>
+
+
+
+
+
 <li>
 \(A\) and \(B\) are probability events such that \( P(A) \) and \(P(B)\) is strictly between 0 and 1. We say that the events
 are <i>mutually exclusive</i> if \( P(A\cap B) = 0 \).  We say the events \(A\) and \(B\) are exhaustive if \(P(A\cup B)=1\).
@@ -60,6 +81,21 @@ Let \(A^c\) denote the complement of \(A\).  <br>
 </ol>
 </li>
 
+
+<details open><summary>Sol.</summary>
+<ol>
+<li> TRUE. \(A \cap B = \phi \iff A^c \cup B^c = S \) </li>
+<li> TRUE. If \(A\) and \(B\) are independent, then \(P(AB) = P(A) \cdot P(B) \implies P(A^c \cap b^c) = P[(A \cup B)^c] = P(A^c) P(B^c)\).</li>
+<li> FALSE. \(P(A \cup B)=1\). Independent means \(P(A \cup B) = P(A) + P(B) - P(A \cap B) = 1 - (1-P(A))(1-P(B)) < 1\). These A, B cannot be both exhaustive and independent.</li>
+<li> FALSE. \(A, B\) can be both mutually exclusive and exhaustive. Eg \(\{H\}\) and \(\{T\}\) are mutually exclusive and exhaustive for a coin toss.</li>
+</ol>
+</details>
+
+
+
+
+
+
 <li>
 Suppose we have a matrix \(A\) as defined below. Which of the following are true?
 \[ A = \begin{bmatrix} 1 & 2 & 3 \\ 10 & 20 & 30 \\ 11 & 22 & k \end{bmatrix} \]
@@ -72,6 +108,16 @@ Suppose we have a matrix \(A\) as defined below. Which of the following are true
 </ol>
 
 </li>
+
+
+<details open><summary>Sol.</summary>
+<li> TRUE. As the first two rows are multiples of one another, det(A)=0 regardless of k.</li>
+<li> FALSE. Because A is true.</li>
+<li> TRUE. \(A\vec{v} = 0\). If \(k=33\), then we would get only one equation :- \(x+2y=3\) means plane passing through origin. If \(k \neq 33\), we get two distinct equations: \(x+2y+z=0\) and \(11x+22y+kz=0\) now combine to give equation of a line via origin.   </li>
+<li> TRUE.</li>
+</details>
+
+
 
 
 <li>
@@ -92,6 +138,15 @@ Pick the correct statements.<br>
 </li>
 
 
+<details open><summary>Sol.</summary>
+<li> TRUE.  At every point $f'(x)$ exists so right and left hand continuous. </li>
+<li> TRUE.  It is basically a trivial sorta theorem that every continuous function chives max min in a closed interval.</li>
+<li> TRUE.  if not max min then it is not differentiable.</li>
+<li> TRUE. I implies II but II doesn't imply I, I implies III but  III doesn't imply I, II implies III but III doesn't imply  II.</li>
+</details>
+
+
+
 
 <li>
 Which of these are true?
@@ -103,6 +158,19 @@ Which of these are true?
 </ol>
 </li>
 
+
+
+
+<details open><summary>Sol.</summary>
+<li> TRUE. \(log_{e}3 = 1/a \implies e^{1/a} = 3 \implies 3^a = e\)</li>
+<li> TRUE. Can solve this problem by using the on-screen calculator. Alternatively, you may use Taylor expansion.</li>
+<li> FALSE.  </li>
+<li> TRUE. </li>
+</details>
+
+
+
+
 <li>
 Which of the options are true about the function \(f\) as defined below:
 \[ f(x) = \frac{1}{|\ln x|} \left( \frac{1}{x} + \cos x  \right) \] 
@@ -113,6 +181,9 @@ Which of the options are true about the function \(f\) as defined below:
 <li> \(\lim_{x\rightarrow 0^+} f(x) = 1\).</li>
 </ol>
 </li>
+
+
+
 
 
 <li>
