@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- What marks do you expect to get in CMI 2022 exam? Please tell us via <a href="https://www.strawpoll.me/embed_1/46081002">this poll</a>.
+- What marks do you expect to get in CMI 2022 exam held on May 22? Please tell us via <a href="https://www.strawpoll.me/embed_1/46081002">this poll</a>.
 - Problems from CMI's 2022 paper are compiled below. Thanks to all the students who sent me the probems.
 
 
