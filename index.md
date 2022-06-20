@@ -53,7 +53,7 @@ Suppose \( g_0, g_1, a_2, \ldots, \) is a geometric progression such that \(g_0=
 <ol>
 <li> TRUE. \(a_5^2 \geq a_0 \cdot a_{10} \implies 25d^2 \geq 0\) which is true.</li>
 <li> TRUE. \(a_0 + 5d \; | \; 11(a + 5d)\)</li>
-<li> FALSE.  AP will go to inf even common ratio of the gp is \(<1\) and \(d>0\) in which case gp will converge.</li>
+<li> TRUE.  AP has a common difference of \(d>0\), the common ratio of GP is >1.</li>
 <li> TRUE. gp is finite then common ratio \(<1\) so \(a_1/a_0 < 1\) so \(d/a_0\) is negative so \(d\) is negative so AP sum goes to -inf.</li>
 </ol>
 </details>
