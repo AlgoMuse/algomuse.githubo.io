@@ -79,8 +79,8 @@ Let \(A^c\) denote the complement of \(A\).  <br>
 <details open><summary>Sol.</summary>
 <ol>
 <li> TRUE. \(A \cap B = \phi \iff A^c \cup B^c = S \) </li>
-<li> TRUE. If \(A\) and \(B\) are independent, then \(P(AB) = P(A) \cdot P(B) \implies P(A^c \cap b^c) = P[(A \cup B)^c] = P(A^c) P(B^c)\).</li>
-<li> FALSE. \(P(A \cup B)=1\). Independent means \(P(A \cup B) = P(A) + P(B) - P(A \cap B) = 1 - (1-P(A))(1-P(B)) < 1\). These A, B cannot be both exhaustive and independent.</li>
+<li> TRUE. If \(A\) and \(B\) are independent, then \(P(A\cap B) = P(A) \cdot P(B) \implies P(A^c \cap b^c) = P[(A \cup B)^c] = P(A^c) P(B^c)\).</li>
+<li> TRUE. Exhaustive means \(P(A \cup B)=1\). We have \(P(A \cup B) = P(A) + P(B) - P(A \cap B) = 1 - (1-P(A))(1-P(B)) < 1\). Hence A and B cannot be both exhaustive and independent.</li>
 <li> FALSE. \(A, B\) can be both mutually exclusive and exhaustive. Eg \(\{H\}\) and \(\{T\}\) are mutually exclusive and exhaustive for a coin toss.</li>
 </ol>
 </details>
