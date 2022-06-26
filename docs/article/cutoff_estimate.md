@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CMI '21 cut-off
+title: CMI '22 cut-off
 nav_exclude: true
 ---
 
@@ -26,7 +26,7 @@ table.inner-borders {
 
 
 
-# Hazarding a guess at CMI '21 cut-off
+# Hazarding a guess at CMI '22 cut-off
 {: .no_toc }
 
 
@@ -36,6 +36,26 @@ table.inner-borders {
 <br>As a fun exercise, I predict this year's cutoff and explain my reasoning.
 {: .bg-grey-lt-000 .p-7 }
 
+## 2022 Cut-off prediction
+
+
+<p style="text-align:center">
+<img src="/assets/images/guess22.png"/>
+</p>
+
+
+This year's estimate is based on a simple heuristic. I expect 4-5 students who have taken the poll to qualify. Going by the
+poll, 57 seems to be a reasonable number.
+
+<p style="text-align:center">
+<img src="/assets/images/poll22.png"/>
+</p>
+
+
+
+
+
+## 2021 Cut-off prediction
 
 <p style="text-align:center">
 <img src="/assets/images/cutoff_banner.png"/>
