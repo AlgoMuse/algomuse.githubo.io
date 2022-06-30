@@ -21,8 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Cut-off prediction for '22 added to the article section.
-- Problems from CMI's 2022 paper are compiled below. Thanks to all the students who sent me the probems.
+- Congrats to everybody to made it to CMI!
 
 
 ---
