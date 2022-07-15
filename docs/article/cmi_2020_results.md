@@ -175,7 +175,6 @@ Name &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 Rajatadri Venkatasubban   &#65290;      | |                  | Shibumi School
 Srivatsa B                 | |          |
 Vishnu Kadiri       &#65290;            |2399 |  | BASE [Math. SE profile](https://math.stackexchange.com/users/818907/vishnu-kadiri)
-Srigyan Nandi              | | NTSE-Kar. Rank 20 | [Src](https://www.ntsehelpline.com/karnataka-ntse-2018-result-declared-check-the-list-of-qualified-candidates-for-final-stage/) [Cheenta](https://www.cheenta.com/superstars/)
 Naman Kumar         &#65290;            | | INMO 2020   |  Quora profile, [Youtube](https://www.youtube.com/channel/UC0-gvTKzYKQcjzKcSPfeIkA)
 Sumanth N R                |830 |  | Sadhana College/BASE. [Src](https://www.resonance.ac.in/results/jee-Advanced-2020.aspx)
 Bharath Rajagopal   &#65290;            | |     |
