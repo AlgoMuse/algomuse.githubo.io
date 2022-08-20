@@ -18,17 +18,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
-#### Announcement
-{: .fs-4}
 
-- Congrats to everybody to made it to CMI!
-
-
----
-
-
-
-## Problems from CMI 2022 paper [Work in progress]
+## Problems from CMI 2022 paper 
 
 
 ### Part A: Screening part
