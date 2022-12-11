@@ -312,7 +312,7 @@ With this simplification the original expression becomes:
 \begin{align}
 S&=\frac{n}{2} + \frac{1}{2} \frac{\sin(100\pi/101) \cos \pi}{\sin \pi/101}  \\
 \\
-&=\frac{n}{2} + \frac{1}{2} = \frac{101}{2}
+&=\frac{n}{2} - \frac{1}{2} = \frac{99}{2}
 \end{align}
 
 </details>
