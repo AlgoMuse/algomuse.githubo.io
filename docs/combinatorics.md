@@ -102,6 +102,38 @@ So \(n=14\) and \(k=5\).
 
 ---
 
+### Sorting with swaps
+{:b .d-inline-block}
+
+A10, 2022
+{: .label}
+
+
+<p>
+Let \(P\) denote some arrangement of the numbers \({1,2,\ldots,n}\). A <i>move</i> on \(P\) consists of exchanging the position of element 1 with
+the position of another element. For example, if \(P=[3,1,4,2]\), then by making one move we can get either \(P=[1,3,4,2]\), \(P=[3,4,1,2]\) or \(P=[3,2,4,1]\).
+\(P\) is said to be <i>sorted</i> if the numbers are in increasing order. Which of the statements are true?<br>
+
+<ol>
+<li>The arrangement \([9, 1, 2, 3, 4, 5, 6, 7, 8]\) can be sorted in 8 moves and no fewer.</li>
+<li>\( [1, 3, 4, 5, 6, 7, 8, 9, 2]\) can be sorted in 8 moves and no fewer. </li>
+<li>\( [1, 3, 4, 2, 9, 5, 6, 7, 8] \) cannot be sorted by any number of moves.</li>
+<li>There exists an arrangement of 99 numbers, i.e. 1 to 99, that cannot be sorted by any number of moves.</li>
+</ol>
+</p>
+
+
+<details><summary>Solution</summary>
+<li> TRUE. </li>
+<li> FALSE. </li>
+<li> FALSE. </li>
+<li> FALSE. </li>
+</details>
+
+
+
+
+---
 ### Counting students
 {:b .d-inline-block}
 
@@ -551,8 +583,6 @@ f(3,n) &= f(3,n-1) + f(2,n-1) + f(2,n) \\
 
 ---
 
-
-
 ### Count the number of functions
 {:b .d-inline-block}
 
@@ -629,9 +659,36 @@ In order to get the total number, sum the previous quantity over \(1 \leq k \leq
 
 </details>
 
+---
+
+### Count the number of functions III
+{:b .d-inline-block}
+
+A8, 2022
+{: .label}
+
+
+<p>
+Let \(N=\{1,2,\ldots,9\}\) and \(L=\{a,b,c\}\).
+<ol>
+<li> \(L \cup N\) is arranged on a line with the letters appearing consecutively (in any order). The number of such arrangements are less than \(10!\times 5\).</li>
+<li>More than half of the functions from \(N\) to \(L\) have \(b\) in their range.</li>
+<li>The number of one-to-one functions from \(L\) to \(N\) is less than 512.</li>
+<li>The number of functions \(N\) to \(L\) that do not map consecutive numbers to consecutive letters is greater than 512.</li>
+</ol>
+</p>
+
+<details><summary>Solution</summary>
+<li> FALSE. </li>
+<li> TRUE. </li>
+<li> TRUE. </li>
+<li> TRUE. </li>
+</details>
 
 
 ---
+
+
 
 ### Ordered binary strings
 {:b .d-inline-block}

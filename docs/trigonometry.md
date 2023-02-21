@@ -64,6 +64,33 @@ Therefore, there are six solutions to the given equation.
 
 ---
 
+### Approximations help
+{: .d-inline-block}
+
+A5, 2022
+{: .label}
+
+<p>Which of these are true?
+<ol>
+<li> \(a = 1/\ln 3 \implies 3^a = e \).</li>
+<li> \(\sin(0.02) < 2\sin(0.01) \).</li>
+<li> \(\arctan(0.01) > 0.01 \).</li>
+<li> \(4 \int_{0}^1 \arctan x \, dx = \pi - \ln 4 \).</li>
+</ol>
+</p>
+
+
+
+
+<details open><summary>Sol.</summary>
+<li> TRUE. \(log_{e}3 = 1/a \implies e^{1/a} = 3 \implies 3^a = e\)</li>
+<li> TRUE. Can solve this problem by using the on-screen calculator. Alternatively, you may use Taylor expansion.</li>
+<li> FALSE.  </li>
+<li> TRUE. </li>
+</details>
+
+
+---
 
 ### Three arctans
 {: .d-inline-block}

@@ -156,8 +156,29 @@ them must be individually zero. In particular, \(A=0\), which proves the stateme
 ---
 
 
+### Absolute values
+{: .d-inline-block}
 
+A9, 2022
+{: .label}
 
+<p> Let \(z\) be a non-real complex number and \(f(z) = z^{222} + \frac{1}{z^{222}}\). Which of the statements are correct?<br>
+<ol>
+<li>If \(|z|=1\), then \(f(z)\) must be real.</li>
+<li>If \(z+1/z=1\), then \(f(z)=2\).</li>
+<li>If \(z+1/z\) is real, then \(|f(z)|\leq 2\).</li>
+<li>If \(f(z)\) is real, then \(f(z)>0\).</li>
+</ol>
+</p>
+
+<details><summary>Solution</summary>
+<li> TRUE. </li>
+<li> TRUE. </li>
+<li> TRUE. </li>
+<li> FALSE. </li>
+</details>
+
+---
 
 ### Power of a complex number
 {: .d-inline-block}

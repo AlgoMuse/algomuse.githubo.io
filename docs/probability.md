@@ -127,6 +127,28 @@ P(B)&=P(B \mid H) P(H)+P(B \mid T) P(T) \\
 
 ---
 
+### A pair of events
+{: .d-inline-block}
+
+A2, 2022
+{: .label}
+
+
+<p>\(A\) and \(B\) are probability events such that \( P(A) \) and \(P(B)\) is strictly between 0 and 1. We say that the events
+are <i>mutually exclusive</i> if \( P(A\cap B) = 0 \).  We say the events \(A\) and \(B\) are exhaustive if \(P(A\cup B)=1\).
+Let \(A^c\) denote the complement of \(A\).  
+</p>
+
+<ol>
+<li>\(A\) and \(B\) are mutually exclusive if and only if \(A^c\) and \(B^c\) are exhaustive.</li>
+<li>\(A\) and \(B\) are independent if and only if \(A^c\) and \(B^c\) are independent.</li>
+<li>\(A\) and \(B\) cannot be simultaneously independent and exhaustive.</li>
+<li>\(A\) and \(B\) cannot be simultaneously mutually exclusive and exhaustive.</li>
+</ol>
+
+
+
+---
 
 ### Tinku's chocolate
 {: .d-inline-block}
