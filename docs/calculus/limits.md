@@ -83,6 +83,60 @@ Further, \(\ln (x)< x\) for \(x> 0\). So the given ratio must lie between 0 and 
 
 ---
 
+### Absolute value in the denominator
+{: .d-inline-block }
+
+A6, 2022
+{: .label }
+
+<p>
+Which of the options are true about the function \(f\) as defined below:
+\[ f(x) = \frac{1}{|\ln x|} \left( \frac{1}{x} + \cos x  \right) \] 
+<ol>
+<li> As \(x\rightarrow \infty\), the sign of \(f\) changes infinitely many times.</li>
+<li> \(\lim_{x\rightarrow \infty} f(x) \) does not exist.</li>
+<li> \(\lim_{x\rightarrow 1} f(x) = \infty \).</li>
+<li> \(\lim_{x\rightarrow 0^+} f(x) = 1\).</li>
+</ol>
+</p>
+
+
+<details><summary>Solution</summary>
+<li> TRUE. </li>
+<li> FALSE. </li>
+<li> TRUE. </li>
+<li> FALSE. </li>
+</details>
+
+
+---
+
+### Tower expression
+{: .d-inline-block }
+
+A7, 2022
+{: .label }
+
+<p>
+Let \(f_0(x) = x\),\(f_1(x)=x^x\),\(f_2(x) = x^{x^x}\), etc. For \(x>0\) which of the following options are true?
+<ol>
+<li> \(\lim_{x\rightarrow 0^+} f_1(x) = 1\)</li>
+<li> \(\lim_{x\rightarrow 0^+} f_2(x) = 1\)</li>
+<li> \( \int_0^{1} f_3 dx = 1  \)</li>
+<li> \( f_{123}^\prime(1) = 1  \)</li>
+</ol>
+</p>
+
+<details><summary>Solution</summary>
+<li> TRUE. </li>
+<li> FALSE. </li>
+<li> FALSE. </li>
+<li> TRUE. </li>
+</details>
+
+
+---
+
 ### Limit of \\(x^{x^{x}}\\)
 {: .d-inline-block }
 
