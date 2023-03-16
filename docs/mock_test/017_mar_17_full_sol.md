@@ -20,209 +20,8 @@ nav_exclude: true
 
 **For this part, answers must be written without any explanation.**
 
-
-
 <ol>
 
-<li>
-<p>Let \(I \subseteq R\) be an interval and \(f : I \rightarrow \mathbb{R}\) be a differentiable function. Let
- \[J =  \Bigg\{ \dfrac{f(b) - f(a)}{b-a} : a, b \in I, a< b \Bigg\} \]
-
-Which of the following are true?<br>
-
-(a) \(J\) is an interval.<br>
-(b) \(J \subseteq f'(I)\) <br>
-(c) \(f'(I) - J\) contains at most two elements.<br>
-(d) \(f'(I) - J\) can contain infinite number of elements.
-</p>
-</li>
-
-<details open><summary>Sol.</summary>
-Ans: (a)(b) and (c).<br>
-(a) \(\forall a, b f'(c)=[f(b)-f(a)]/(b-a)\) for all \(c\) in \((a,b)\). Since \(f\) is differentiable. So we basically get from this \(f(b)-f(a)/(b-a)\) covers all \(f'(x)\) except endpoints as we vary \(a,b\). By taking \(a,b\) very close to each other. So this is \(f'(I)\) except the \(f'\) of endpoints. So by definition of \(f'(I)\), \(J\) is an interval. <br>
-(b) Follows from mean value theorem.<br>
-(c) \(f'\) on \(I\) satisfies the Intermediate value property so \( f'(I) \) is an interval.
-Then since \(J\) subset \( f'(I) \) and both are intervals noting that \(f'(a)\) is a limit of elements of \(J\) we get that \( J\) is dense in
-\( f'(I) \) which implies that the intervals must have same inf and sup.
-</details>
-
-
-
-
-<li><p> The number of subsets of the set \(\{1,2, \cdots, 10\}\) containing at least one odd integer is<br>
-(a) \(2^{10}\)<br>
-(b) \(2^{5}\)<br>
-(c) \({ }^{10} C_{5}\) <br>
-(d) \(2^{10}-2^{5}\)
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (d)
-Total number of subsets of the set \(\{1,2, \cdots, 10\}\) is \(2^{10}\). The number of subsets of the set \(\{1,2, \cdots, 10\}\) containing only even integers is \(2^{5}\). Thus the required number is \(2^{10}-2^{5}\).
-</details>
-
-<li><p>
-The number of negative solutions of the equation \(e^{x}-\sin x=0\) is<br>
-(a) 1 <br>
-(b) 2 <br>
-(c) 0 <br>
-(d) infinite.
-</p></li>
-
-<details open><summary>Sol.</summary>
-Solution : (d)
-Graphs of \(e^{x}\) and \(\sin x\) intersect infinitely many times for negative real numbers.
-</details>
-
-
-<li><p> The last two digits of \(17^{400}\) are<br>
-(a) 17 <br>
-(b) 09 <br>
-(c) 01 <br>
-(d) 89
-</p></li>
-
-<details open><summary>Sol.</summary>
-Solution : (c)<br>
-By Euler's theorem \(17^{40} \equiv 1(\bmod 100)\). Therefore \(17^{400} \equiv 1(\bmod 100)\).
-</details>
-
-<li><p>
-Let \(a_{1}=1, a_{n+1}=\left(\frac{1+n}{n}\right) a_{n}\) for \(n \geq 1\). Then the sequence \(\left\{a_{n}\right\}\) is<br>
-(a) divergent<br>
-(b) decreasing<br>
-(c) convergent<br>
-(d) bounded.
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (a)<br>
-Note that \(a_{n}=n\) for every \(n\). Hence, \(< a_{n} >\) is an unbounded sequence. Hence, divergent.
-</details>
-
-
-<li><p>
-Let \(f: \mathbb{R} \rightarrow \mathbb{R}\) be a differentiable function such that
-\[ f(x+h)-f(x)=h f^{\prime}\left(x+\frac{1}{2} h\right) \]
-for all real \(x\) and \(h\). <br>
-
-Which of the following is/are true?<br>
-
-(a) \(f\) is a polynomial of degree at most 1.<br>
-(b) \(f\) is a polynomial of degree at most 2.<br>
-(c) \(f\) is a polynomial of degree at most 3.<br>
-(d) \(f\) need not be a polynomial.
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (b).<br>
-</details>
-
-
-<li><p>
-Let \(S=\{a, b, c\}, T=\{1,2\}\). If \(m\) denotes the number of one-one functions and \(n\) denotes the number of onto functions from \(S\) to \(T\), then the values of \(m\) and \(n\) respectively are<br>
-(a) 6,0<br>
-(b) 0,6<br>
-(c) 5,6<br>
-(d) 0,8<br>
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (b).<br>
-There can not be a one-one function from \(S\) to \(T\) because the number of elements in \(S\) is bigger than the number of elements in \(T\). The total number of functions from \(S\) to \(T\) is \(2^{3}\). Since the constant function from \(S\) to \(T\) is not onto, the number of onto functions is \(2^{3}-2=6\).
-</details>
-
-
-<li><p>
-
-Let \(f: \mathbb{R} \rightarrow \mathbb{R}\) and \(g: \mathbb{R} \rightarrow \mathbb{R}\) be differentiable functions such that \(f^{\prime}(x)>g^{\prime}(x)\) for every \(x\). Then the graphs \(y=f(x)\) and \(y=g(x)\)<br>
-(a) intersect exactly once.<br>
-(b) intersect at most once.<br>
-(c) do not intersect.<br>
-(d) could intersect more than once.<br>
-
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (b).<br>
-Let \(h(x)=f(x)-g(x)\). Then \(h^{\prime}(x)=f^{\prime}(x)-g^{\prime}(x)>0\). Therefore \(h\) is strictly increasing. If the graph of \(h\) intersects \(X\)-axis, then \(f(x)=g(x)\) at exactly one point. It is possible that the graphs of \(f\) and \(g\) do not intersect. For example, \(f(x)=e^{x}, g(x)=0\). Therefore the graphs \(y=f(x)\) and \(y=g(x)\) intersect at most once.
-</details>
-
-<li><p>
-
-The equation \(x^{4}+x^{2}-1=0\) has<br>
-(a) two positive and two negative roots<br>
-(b) one positive, one negative and two non-real roots<br>
-(c) all positive roots<br>
-(d) no real root<br>
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (b)<br>
-Put \(x^{2}=y\). Then the equation becomes \(y^{2}+y-1=0\). Solving this equation, we get \(x^{2}=y=\frac{-1 \pm \sqrt{5}}{2}\). When \(x^{2}=\frac{-1+\sqrt{5}}{2}\), we get two real values of \(x\), one positive and other negative. But no real \(x\) exists such that \(x^{2}=\frac{-1-\sqrt{5}}{2}\). Hence The equation \(x^{4}+x^{2}-1=0\) has one positive, one negative and two non-real roots.
-</details>
-
-<li><p> The value of \(\lim_{x \rightarrow 1} \frac{\int_{1}^{x} e^{t^{2}} d t}{x^{2}-1}\) is<br>
-(a) 0<br>
-(b) 1 <br>
-(c) \(e\)<br>
-(d) \(e/2\)<br>
-</p></li>
-
-<details open><summary>Sol.</summary>
-Ans: (d)<br>
-This limit is in the form \(\frac{0}{0}\). Then by L'Hospital rule, \(\lim_{x \rightarrow 1} \frac{\int_{1}^{x} e^{t^{2}} d t}{x^{2}-1}=\lim_{x \rightarrow 1} \frac{\frac{d}{d x} \int_{1}^{x} e^{t^{2}} d t}{2 x}=\lim_{x \rightarrow 1} \frac{e^{x^{2}}}{2 x}=\frac{e}{2}\)
-</details>
-
-</ol>
-
-
-
-
-## Part B: Subjective questions
-
-**Submission files:** Each question in this part must be answered on a page of its own. Name the files as B1.jpg, B2.jpg, etc. In case you have multiple files
-for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jpg, etc.
-{: .fs-3 }
-
-
-**Clearly explain your entire reasoning.** No credit will be given without reasoning. Partial solutions may get partial credit.
-
-
----
-
-
-<p><b>B1.</b>
-(a) Consider the polynomial \( p(x)=n\left(x^n+1\right)-2\left(x^{n-1}+\cdots+x\right) \). If \(n>2\), how
-many negative co-efficients does \(p(x)\) have?
-</p>
-
-<details open><summary>Sol.</summary>
-(a) We show that \(p(x)\) has \(2 n-2\) negative coefficients. 
-\[
-\begin{aligned}
-p(x)^2= & n^2\left(x^{2 n}+x^n+1\right)-2 n\left(x^n+1\right)\left(x^{n-1}+\cdots+x\right) \\
-& +\left(x^{n-1}+\cdots+x\right)^2
-\end{aligned}
-\]
-For \(i \in\{1, \ldots, n-1, n+1, \ldots, n-1\}\), the coefficient of \(x^i\) in \(p(x)^2\) is at most \(-2 n\) (coming from the cross term) plus \(-2 n+2\) (from expanding \(\left.\left(x^{n-1}+\cdots+x\right)^2\right)\), and hence negative.
-</details>
-
-
----
-
-
-
-<ol>
-
-<li><p> The number of primes \(p\) such that \(p, p+10, p+14\) are all prime numbers is<br>
-a) 0<br> b) 1<br> c) 3<br> d) infinitely many
-</p></li>
-
-
-<details open><summary>Sol.</summary>
-(b) If \(p=3\), we note that \(3,13,17\) are all prime. Thus \(p=3\) is a solution. Any other prime is either of the type \(3 k+1\) or \(3 k+2\). If \(p=3 k+1\) for some integer \(k \geq 0\), then \(p+14=3(k+5)\) is not a prime. If \(p=3 k+2\) for some integer \(k \geq 0\), then \(p+10=3(k+4)\) is not a prime. Thus \(p=3\) is the only solution.
-</details>
 
 
 <li><p> For how many integers a with \(1 \leq a \leq 100, a^{a}\) is a square?<br>
@@ -329,6 +128,192 @@ Since \((1,3) \in R\) but \((3,1) \notin R\), so relation \(R\) is not symmetric
 Since \((2,1) \in R\) and \((1,3) \in R\) but \((2,3) \notin R\), so relation \(R\) is not transitive.
 
 </details>
+
+
+
+<li><p>
+An ant starts at the point \((0,0)\). It can travel along the integer lattice, only moving in the positive \(x\) and \(y\) directions. In how many ways it can reach \((4,4)\)
+without passing through \((2,2)\)?
+</p>
+</li>
+
+<details open><summary>Sol.</summary>
+In total, the ant must travel 8 units, meaning there are \(\left(\begin{array}{l}8 \\ 4\end{array}\right)\) ways for it to reach \((5,5)\), ignoring the missing point. Likewise, there are \(\left(\begin{array}{l}4 \\ 2\end{array}\right)\) ways to reach the missing point, and \(\left(\begin{array}{l}4 \\ 2\end{array}\right)\) ways to travel from the missing point to the end. Thus, there are \(\left(\begin{array}{l}8 \\ 4\end{array}\right)-\left(\begin{array}{l}4 \\ 2\end{array}\right)\left(\begin{array}{l}4 \\ 2\end{array}\right)=34\) ways.
+</details>
+
+
+<li><p>
+In the circle given below, the diameter \( \overline{EB} \) is parallel to \(\overline{DC}\) and \( \overline{AB} \) is parallel to \( \overline{ED} \).
+ Also, \(\angle AEB\) and \(\angle ABE\) are in the ratio of 4:5.  Which of the following statements are true?<br>
+
+<p style="text-align:center">
+<img src="/assets/images/mt17_cyclic_quad.png"/>
+</p>
+
+(a) \(\angle ABE + \angle BCD = 180^\circ \) <br>
+(b) \( \angle BCD = 120^\circ \) <br>
+(c) \( \angle BCD = 130^\circ \) <br>
+(d) \( \angle ABE = 40^\circ \) <br>
+
+</p></li>
+
+
+<details open><summary>Sol.</summary>
+Ans: (a) and (c). <br>
+Since \(EB\) is the diameter, \(\angle EAB = 90^\circ\).  We are given that \(\angle AEB: \angle ABE::4:5\), so \(\angle AEB=40^\circ\) and \( \angle ABE=50^\circ\).
+\( \angle ABE = \angle BED \) since they are alternate angles. \(EBCD\) is a cyclic quadrilateral, so the opposite angles add to \(180^\circ\). This means 
+\( \angle BED + \angle BCD = 180^\circ \).
+
+<!-- Source: AMC 10B 2011 -->
+</details>
+
+
+</ol>
+
+
+
+## Part B: Subjective questions
+
+**Submission files:** Each question in this part must be answered on a page of its own. Name the files as B1.jpg, B2.jpg, etc. In case you have multiple files
+for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jpg, etc.
+{: .fs-3 }
+
+
+**Clearly explain your entire reasoning.** No credit will be given without reasoning. Partial solutions may get partial credit.
+
+
+---
+
+
+
+<p><b>B1.</b>
+A pair of prime numbers that differ by 2 are called <i>twin primes</i>. Examples of twin primes are \( \{3,5\} \), \( \{11,13\} \), etc.<br>
+
+(a) Prove that every twin prime pair other than \( \{3,5\} \) must be of the form \( \{6k-1,6k+1\} \) where \(k\) is a positive integer. [2 marks]<br>
+(b) Prove that for any prime number \( p \geq 7\), the numbers \( p-2, p, p+2 \) cannot be in an arithmetic progression. [2 marks]<br>
+(c) Find the number of primes \(p\) such that \(p, p+10, p+14\) are all prime numbers. [6 marks]<br>
+</p>
+
+
+<details open><summary>Sol.</summary>
+If \(p=3\), we note that \(3,13,17\) are all prime. Thus \(p=3\) is a solution. Any other prime is either of the type \(3 k+1\) or \(3 k+2\). If \(p=3 k+1\) for some integer \(k \geq 0\), then \(p+14=3(k+5)\) is not a prime. If \(p=3 k+2\) for some integer \(k \geq 0\), then \(p+10=3(k+4)\) is not a prime. Thus \(p=3\) is the only solution.
+</details>
+
+
+
+---
+
+<p><b>B2.</b> Consider the \(n\)th degree polynomial \( p(x)=n\left(x^n+1\right)-2\left(x^{n-1}+\cdots+x\right) \). If \(n>1\), how
+many negative coefficients does \(p(x)^2\) have? Express your answer in terms of \(n\) and explain your reasoning.
+</p>
+
+<details open><summary>Sol.</summary>
+(a) We show that \(p(x)\) has \(2 n-2\) negative coefficients. 
+\[
+\begin{aligned}
+p(x)^2= & n^2\left(x^{2 n}+x^n+1\right)-2 n\left(x^n+1\right)\left(x^{n-1}+\cdots+x\right) \\
+& +\left(x^{n-1}+\cdots+x\right)^2
+\end{aligned}
+\]
+For \(i \in\{1, \ldots, n-1, n+1, \ldots, n-1\}\), the coefficient of \(x^i\) in \(p(x)^2\) is at most \(-2 n\) (coming from the cross term) plus \(-2 n+2\) (from expanding \(\left(x^{n-1}+\cdots+x\right)^2\)), and hence negative.
+</details>
+
+
+---
+
+<p><b>B3.</b> Let \( f\) be a function defined on natural numbers as follows. \( f(1) = 1 \) and for every \(n>1\), \(f\) is given by:
+
+\[ f(n) = f(n-\lfloor \sqrt{n} \rfloor) + n \]
+
+
+In the above relation \( \lfloor x \rfloor \) denotes the greatest integer less than or equal to \(x\). From the above equation we can derive the first few values of \( f\):
+
+
+\[
+\begin{aligned}
+f(1) &= 1\\
+f(2) &= f(2-\lfloor \sqrt{2} \rfloor ) + 2 = f(1) + 2 = 3\\
+f(3) &= f(3-\lfloor \sqrt{3} \rfloor ) + 3 = f(2) + 3 = 6
+\end{aligned}
+\]
+
+(a) Find the values of \( f(4) \) and \( f(5) \). [2 marks]<br>
+(b) Prove that there exists a fixed positive number \(n_0\) such that \(f(n) \leq 3n\sqrt{n} \) for every \(n > n_0\). [8 marks]<br>
+
+</p>
+
+---
+
+
+
+<p><b>B4.</b> In the figure given below, \(ABC\) is an equilateral triangle. The line drawn from vertex \(A\) meets
+\(BC\) at \(D\) and the circumcircle at \(P\). Prove that<br>
+
+(i) \(PA = PB + PC\)<br>
+
+(ii) \(\frac{1}{PD} = \frac{1}{PB} + \frac{1}{PC}\)<br>
+
+<p style="text-align:center">
+<img src="/assets/images/mt17_cquad.png"/>
+</p>
+
+
+</p>
+
+<details open><summary>Sol.</summary>
+ \(A B P C\) is cyclic. By Ptolemy's theorem,
+\[
+A B \cdot P C+A C \cdot P B=A P \cdot B C .
+\]
+But \(A B=B C=C A\) (equilateral triangle). So
+\[
+P A=P B+P C \qquad (1)
+\]
+
+Now divide (1) by \(P B \cdot P C\). We get \[\frac{1}{P C}+\frac{1}{P B}=\frac{P A}{P B \cdot P C}\].
+
+Now it is enough to prove that \[\frac{P A}{P B \cdot P C}=\frac{1}{P D}\]
+
+which is the same as
+
+\[
+\frac{P A}{P B}=\frac{P C}{P D} \qquad (2)
+\]
+
+Consider \(\triangle A B P\) and \(\triangle C D P\)
+
+\[
+\begin{aligned}
+& \angle B A P=\angle D C P \\
+& \angle A P B=\angle A C B=60^{\circ} \\
+& \angle A P C=\angle A B C=60^{\circ} 
+\end{aligned}
+\]
+
+
+
+Hence \(\angle A P B=\angle A P C=\angle D P C\) and so \(\triangle A B P\) is similar to \(\triangle C D P\). So,
+\[
+\frac{P A}{P C}=\frac{P B}{P D} \text { or } \frac{P A}{P B}=\frac{P C}{P D} .
+\]
+Hence (2) is proved.<br>
+
+<i>Source: Non-routine problems in mathematics. V.K. Krishnan. AMTI.</i>
+
+</details>
+
+
+
+
+
+
+
+
+
+---
+
+
+
 
 
 
