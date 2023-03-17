@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The first mock test is scheduled on 17 March 2023, Friday. For more details, see [here](docs/mock_tests/#format).
+- Mock test is in progress! 
 
 
 
