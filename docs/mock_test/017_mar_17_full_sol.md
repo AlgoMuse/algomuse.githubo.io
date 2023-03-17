@@ -238,15 +238,26 @@ f(3) &= f(3-\lfloor \sqrt{3} \rfloor ) + 3 = f(2) + 3 = 6
 \]
 
 (a) Find the values of \( f(4) \) and \( f(5) \). [2 marks]<br>
-(b) Prove that there exists a fixed positive number \(n_0\) such that \(f(n) \leq 3n\sqrt{n} \) for every \(n > n_0\). [8 marks]<br>
+(b) Prove that there exists a positive number \(n_0\) such that \(f(n) \leq 3n\sqrt{n} \) for every \(n > n_0\). [8 marks]<br>
 
 </p>
 
 ---
 
+<p><b>B4.</b> Ramesh and Kiran are two friends who practice piano every day at school. Ramesh goes to the piano room every day at a random time
+between 1 PM and 8 PM. He practices for three hours. Kiran goes to the piano room every day at a random time between 5 PM and 11 PM and practices for one hour. 
+The block of time practice need not been contained in the given time interval for the arrival. For example, Ramesh could arrive at 7 PM and practice till 10 PM. <br>
+
+(i) What is the probability that Ramesh and Kiran meet on a given day? &nbsp; [7 marks]<br>
+(ii) What is the probability that Ramesh and Kiran meet on at least two days in a given span of 5 days? &nbsp; [3 marks]<br>
 
 
-<p><b>B4.</b> In the figure given below, \(ABC\) is an equilateral triangle. The line drawn from vertex \(A\) meets
+</p>
+
+
+
+---
+<p><b>B5.</b> In the figure given below, \(ABC\) is an equilateral triangle. The line drawn from vertex \(A\) meets
 \(BC\) at \(D\) and the circumcircle at \(P\). Prove that<br>
 
 (i) \(PA = PB + PC\)<br>
@@ -303,14 +314,38 @@ Hence (2) is proved.<br>
 </details>
 
 
-
-
-
-
+---
 
 
 
 ---
+
+
+
+<p><b>B6.</b> Consider the function \( f(r) \):<br>
+
+\[ f(r)=\int_0^{\pi / 2} x^r \sin x d x \]
+
+Prove that:<br>
+
+(i) \( f(r) < \frac{(\pi / 2)^{r+1}}{r+1} \qquad \)    [2 marks]<br>
+(ii) \( f(r) > \frac{(\pi / 2)^{r+1}}{r+2} \qquad  \)  [5 marks]<br>
+(iii) \( \int_0^{\pi / 2} x^r \cos x d x=\frac{f(r+1)}{r+1} \qquad \) [3 marks] <br>
+
+
+</p>
+
+
+
+<details open><summary>Sol.</summary>
+(i) Since \( \sin x \) is less than 1 in the interval \( x \in (0,\pi/2) \),
+\[ f(r)<\int_0^{\pi / 2} x^r d x=\frac{(\pi / 2)^{r+1}}{r+1} \]
+(ii) \( \sin x \geq 2 x / \pi\) for \(x \leq \pi / 2\)
+\[ f(r)>\int_0^{\pi / 2} \frac{2 x^{r+1}}{\pi} d x=\frac{(\pi / 2)^{r+1}}{r+2} \]
+(iii) \( \int_0^{\pi / 2} x^r \cos x d x=\frac{1}{r+1} \int_0^{\pi / 2} x^{r+1} \sin x d x=\frac{f(r+1)}{r+1} \)
+</details>
+
+
 
 
 
