@@ -185,7 +185,7 @@ for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jp
 A pair of prime numbers that differ by 2 are called <i>twin primes</i>. Examples of twin primes are \( \{3,5\} \), \( \{11,13\} \), etc.<br>
 
 (a) Prove that every twin prime pair other than \( \{3,5\} \) must be of the form \( \{6k-1,6k+1\} \) where \(k\) is a positive integer. [2 marks]<br>
-(b) Prove that for any prime number \( p \geq 7\), the numbers \( p-2, p, p+2 \) cannot be in an arithmetic progression. [2 marks]<br>
+(b) Prove that for any prime number \( p \geq 7\), the numbers \( p-2, p, p+2 \) cannot be in an arithmetic progression of primes. [2 marks]<br>
 (c) Find the number of primes \(p\) such that \(p, p+10, p+14\) are all prime numbers. [6 marks]<br>
 </p>
 
