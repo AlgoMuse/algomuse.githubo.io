@@ -1,0 +1,10 @@
+mv adeeshdevasthale043 Caroline_Hershel
+mv sanjitsdev Anaxagoras
+mv ramanujanpiyush Iraklis_Mitsopoulos
+mv sanyalavro Gottlob_Frege
+mv ahoremld Theodosius
+mv dustuchatterjee97 Anaximander
+mv mohapatradebesh20 Heraclides_Ponticus
+mv saketh1728ram Aristarchus_of_Samo
+mv samujjal101 Aganice_of_Thessaly
+mv soumabha34 Arete_of_Cyrene
