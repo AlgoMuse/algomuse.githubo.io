@@ -24,8 +24,9 @@ The following students took part in the mock test. The table below shows their s
 
 
 
-Arkapriyo, Subhadip Roy, Saketh, Samujjal, Soumabha Roy,  Piyush,  Avra,
-Soham Chatterjee,  Adeesh Devasthale,  Sanjit,  Debesh,  Bhaskar,  and Subroto.
+Arkapriyo, Subhadip Roy, Saketh, Samujjal, Soumabha Roy,
+Piyush, Arnab Sanyal, Soham Chatterjee,  Adeesh Devasthale,
+Sanjit,  Debesh,  Bhaskar,  and Subroto.
 {: .bg-grey-lt-000 .p-6 }
 
 
