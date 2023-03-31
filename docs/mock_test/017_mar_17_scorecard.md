@@ -78,10 +78,10 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B1',17)">10</button>
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B3',17)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B4',17)">8</button>
+<button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B4',17)">6</button>
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B5',17)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B6',17)">10</button>
-<button class="markbutton total">84</button>
+<button class="markbutton total">82</button>
 <button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Gottlob Frege"/>
 <button class="markbutton blank" onclick = "markdisplay('Gottlob_Frege/PartA',17)">36</button>
@@ -100,10 +100,10 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B1',17)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Theodosius/B2',17)">0</button>
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B3',17)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Theodosius/B4',17)">8</button>
+<button class="markbutton right" onclick = "markdisplay('Theodosius/B4',17)">10</button>
 <button class="markbutton wrong" onclick = "markdisplay('Theodosius/B5',17)">0</button>
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B6',17)">8</button>
-<button class="markbutton total">72</button>
+<button class="markbutton total">74</button>
 <button class="markbutton rank">4. </button>
 <input type="button" class="markbutton white" value="Anaxagoras"/>
 <button class="markbutton blank" onclick = "markdisplay('Anaxagoras/PartA',17)">32</button>
@@ -225,6 +225,7 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Iraklis_Mitsopoulos/B5',17)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Iraklis_Mitsopoulos/B6',17)">5</button>
 <button class="markbutton total">61</button>
+
 
 
 

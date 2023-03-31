@@ -168,6 +168,58 @@ Since \(EB\) is the diameter, \(\angle EAB = 90^\circ\).  We are given that \(\a
 </details>
 
 
+<li><p> Suppose \(a\) and \(b\) are real numbers such that:
+\[ \lim_{x \rightarrow 0} \frac{\sin ^2 x}{e^{a x}-b x-1}=\frac{1}{2} \]
+What are the possible values for the ordered pair \( (a, b) \)?<br>
+(a) (2,2)<br>
+(b) (2,-2)<br>
+(c) (-2,2)<br>
+(d) (-2,-2)<br>
+</p>
+</li>
+
+<details open><summary>Sol.</summary>
+Ans: (a) and (d).<br>
+Since this is in an indeterminate form, we can use L'Hôpital's Rule to obtain
+\[ \lim_{x \rightarrow 0} \frac{\sin 2 x}{a e^{a x}-b}=\frac{1}{2} \]
+However, the numerator goes to zero, so the denominator must also go to zero to give us another indeterminate form. This implies that \(a=b\). Using L'Hôpital's Rule again, we have that
+\[ \lim_{x \rightarrow 0} \frac{2 \cos 2 x}{a^2 e^{a x}}=\frac{1}{2} \]
+The numerator goes to 2 , so the denominator must go to 4 . Therefore, \(a=b= \pm 2\), giving us \((a, b)=(2,2)\) and \((-2,-2)\).
+
+<!-- Source: SMT 2013 -->
+</details>
+
+
+<li><p>Let \(\operatorname{Im}(z)\) denote the imaginary part of the complex number \(z\). What is the value
+of the expression \( \operatorname{Im}\left(\sum_{n=0}^{\infty} \frac{e^{i n x}}{n !}\right) \)?<br>
+
+(a) \(e^{\cos x} \sin \sin x\)  <br>
+(b) \(e^{\sin x} \sin \cos x\) <br>
+(c) \(e^{\cos x} \cos \sin x\) <br>
+(d) \(e^{\sin x} \cos \cos x\) 
+
+</p>
+</li>
+
+<details open><summary>Sol.</summary>
+(a) \[ \operatorname{Im}\left(e^{e^{i x}}\right)=\operatorname{Im}\left(e^{\cos x+i \sin x}\right)=e^{\cos x} \cdot \operatorname{Im}\left(e^{i \sin x}\right)=e^{\cos x} \sin \sin x \]
+
+</details>
+
+<li><p>Which of the following inequalities are true for any natural number \(n>4\)?<br>
+(a) \( \sqrt{n} \leq \sqrt[n]{n !} \)<br>
+(b) \( \sqrt[n]{n !} \leq \frac{n+1}{2}\)<br>
+(c) \( \sqrt{n} \geq \sqrt[n]{n !} \)<br>
+(d) \( \sqrt[n]{n !} \geq \frac{n+1}{2}\)<br>
+</p>
+</li>
+
+<details open><summary>Sol.</summary>
+(a) and (b).
+</details>
+
+
+
 </ol>
 
 
@@ -190,13 +242,15 @@ for the same question, say B4, name the corresponding files as B4-1.jpg, B4-2.jp
 A pair of prime numbers that differ by 2 are called <i>twin primes</i>. Examples of twin primes are \( \{3,5\} \), \( \{11,13\} \), etc.<br>
 
 (a) Prove that every twin prime pair other than \( \{3,5\} \) must be of the form \( \{6k-1,6k+1\} \) where \(k\) is a positive integer. [2 marks]<br>
-(b) Prove that for any prime number \( p \geq 7\), the numbers \( p-2, p, p+2 \) cannot be in an arithmetic progression. [2 marks]<br>
+(b) Prove that for any prime number \( p \geq 7\), the numbers \( p-2, p, p+2 \) cannot be in an arithmetic progression of primes. [2 marks]<br>
 (c) Find the number of primes \(p\) such that \(p, p+10, p+14\) are all prime numbers. [6 marks]<br>
 </p>
 
 
 <details open><summary>Sol.</summary>
-If \(p=3\), we note that \(3,13,17\) are all prime. Thus \(p=3\) is a solution. Any other prime is either of the type \(3 k+1\) or \(3 k+2\). If \(p=3 k+1\) for some integer \(k \geq 0\), then \(p+14=3(k+5)\) is not a prime. If \(p=3 k+2\) for some integer \(k \geq 0\), then \(p+10=3(k+4)\) is not a prime. Thus \(p=3\) is the only solution.
+(a) Every odd number must be of the form \(6k+1,6k+3\) or \(6k+5\). Since \( 3 \mid 6k+3 \), primes larger than 3 can only be of the form \(6k+1\) or \(6k-1\).<br>
+(b) From (a), we know that the first two primes are of the form \(\{6k-1,6k+1\}\), this implies that the third prime must be \(6k+3\) (a contradiction).<br>
+(c) If \(p=3\), we note that \(3,13,17\) are all prime. Thus \(p=3\) is a solution. Any other prime is either of the type \(3 k+1\) or \(3 k+2\). If \(p=3 k+1\) for some integer \(k \geq 0\), then \(p+14=3(k+5)\) is not a prime. If \(p=3 k+2\) for some integer \(k \geq 0\), then \(p+10=3(k+4)\) is not a prime. Thus \(p=3\) is the only solution.
 </details>
 
 
@@ -242,11 +296,19 @@ f(3) &= f(3-\lfloor \sqrt{3} \rfloor ) + 3 = f(2) + 3 = 6
 
 </p>
 
+
+<details open><summary>Sol.</summary>
+(a) \(f(4) = f(2) + 4 = 7\) and \(f(5) = 11\).<br>
+(b) See Anaximander's <a href="/assets/images/mock_test_17/Anaximander/B3.jpg">solution</a>.
+</details>
+
+
+
 ---
 
 <p><b>B4.</b> Ramesh and Kiran are two friends who practice piano every day at school. Ramesh goes to the piano room every day at a random time
 between 1 PM and 8 PM. He practices for three hours. Kiran goes to the piano room every day at a random time between 5 PM and 11 PM and practices for one hour. 
-The block of time practice need not been contained in the given time interval for the arrival. For example, Ramesh could arrive at 7 PM and practice till 10 PM. <br>
+The block of time practice need not be contained in the given time interval for the arrival. For example, Ramesh could arrive at 7 PM and practice till 10 PM. <br>
 
 (i) What is the probability that Ramesh and Kiran meet on a given day? &nbsp; [7 marks]<br>
 (ii) What is the probability that Ramesh and Kiran meet on at least two days in a given span of 5 days? &nbsp; [3 marks]<br>
@@ -255,6 +317,31 @@ The block of time practice need not been contained in the given time interval fo
 </p>
 
 
+<details open><summary>Sol.</summary>
+(i) Let \(x\) (resp. \(y\)) be the time Ramesh (resp. Kiran) enters the music room. If \(y > x\), they only meet if \( y-x \leq 3\). Similarly, if \(x < y\),
+they meet only if \( x-y \leq 1 \). We know that \( x \in [1,8] \) and \(y \in [5,11]\). The portion of interest is shown
+in the figure below (note that the intersection of axes is (1,5) in the picture). The space of all outcomes corresponds
+to the area of the rectangle which is \( 6\times 7 = 42 \) sq. units. The favorable outcomes corresponds to the area of the shaded region.
+
+
+<p style="text-align:center">
+<img src="/assets/images/mt017_b4.jpg"/>
+</p>
+
+The probability that Ramesh and Kiran meet is:<br>
+
+\begin{align*}
+\mbox{Fraction of the shaded regions} = \frac{1}{2} ( 6\cdot 6 - 2\cdot 2) = \frac{16}{42}  = \frac{8}{21}
+\end{align*}
+
+
+(ii) Let \(p\) denote the probablity of meeting on a given day. The probability that they never meet is
+\( (1-p)^5 \). The probability that they meet on exactly one day is \(5p(1-p)^4\). Substituting the value of
+\(p\) from (i), we see that the probability that they meet on less than two days is \(0.37\). Hence, the required
+probablity is \(\approx 0.63\).
+
+
+</details>
 
 ---
 <p><b>B5.</b> In the figure given below, \(ABC\) is an equilateral triangle. The line drawn from vertex \(A\) meets
@@ -267,6 +354,7 @@ The block of time practice need not been contained in the given time interval fo
 <p style="text-align:center">
 <img src="/assets/images/mt17_cquad.png"/>
 </p>
+
 
 
 </p>
@@ -314,9 +402,6 @@ Hence (2) is proved.<br>
 </details>
 
 
----
-
-
 
 ---
 
@@ -340,7 +425,20 @@ Prove that:<br>
 <details open><summary>Sol.</summary>
 (i) Since \( \sin x \) is less than 1 in the interval \( x \in (0,\pi/2) \),
 \[ f(r)<\int_0^{\pi / 2} x^r d x=\frac{(\pi / 2)^{r+1}}{r+1} \]
-(ii) \( \sin x \geq 2 x / \pi\) for \(x \leq \pi / 2\)
+(ii) <b>Lemma.</b> For \(x \in (0,\pi/2)\) we have \( \sin x \geq 2 x / \pi\).<br>
+
+<i>Proof.</i> Let \( g(x) := \sin x/x \). We will show that \( g(x) \) is a decreasing function by proving that 
+\( g^\prime (x) < 0 \). 
+
+\begin{align*}
+\sin x &> x \mbox{ in } x \in (0,\pi/2)\\
+\implies \sin x &> x \cos x \mbox{ in } x \in (0,\pi/2)\\
+g^\prime(x) &= \frac{x \cos x - \sin x}{x^2} < 0 \;\;\;\;\; \square \\
+\end{align*}
+
+
+
+
 \[ f(r)>\int_0^{\pi / 2} \frac{2 x^{r+1}}{\pi} d x=\frac{(\pi / 2)^{r+1}}{r+2} \]
 (iii) \( \int_0^{\pi / 2} x^r \cos x d x=\frac{1}{r+1} \int_0^{\pi / 2} x^{r+1} \sin x d x=\frac{f(r+1)}{r+1} \)
 </details>
