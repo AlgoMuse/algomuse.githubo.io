@@ -71,6 +71,7 @@ To see any student's answer:
 
 
 
+
 <button class="markbutton rank">1. </button>
 <input type="button" class="markbutton white" value="Heraclides Ponticus"/>
 <button class="markbutton blank" onclick = "markdisplay('Heraclides_Ponticus/PartA',17)">36</button>
@@ -156,8 +157,8 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="markbutton wrong" onclick = "markdisplay('Andreas_Acrivos/B3',17)">2</button>
 <button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Andreas_Acrivos/B5',17)">0</button>
 <button class="button blank"></button>
+<button class="markbutton right" onclick = "markdisplay('Andreas_Acrivos/B6',17)">5</button>
 <button class="markbutton total">37</button>
 <button class="markbutton rank">9. </button>
 <input type="button" class="markbutton white" value="Aganice of Thessaly"/>
@@ -225,8 +226,6 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Iraklis_Mitsopoulos/B5',17)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Iraklis_Mitsopoulos/B6',17)">5</button>
 <button class="markbutton total">61</button>
-
-
 
 
 </div>
