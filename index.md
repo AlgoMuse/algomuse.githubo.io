@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The second mock test is in progress. Question paper is [here](docs/mock_test/018_apr_7_full).
+- The second mock test is scheduled today at 2 pm. 
 - The results of the first mock test are [here](docs/mock_test/017_mar_17_scorecard). Solutions have been emailed.
 
 
