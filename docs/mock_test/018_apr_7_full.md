@@ -189,7 +189,7 @@ The frog can jump from point \( (x_1,y_1) \) to  point
 
 \[ \sqrt{ (x_1-x_2)^2 + (y_1-y_2)^2 } = 5 \]
 
-Note the the frog's coordinates before and after the jump are integers. For example, the frog can jump to \( (3,4) \) or \( (-3,4) \) or \( (5,0) \), etc. 
+Note that the frog's coordinates before and after the jump are integers. For example, the frog can jump to \( (3,4) \) or \( (-3,4) \) or \( (5,0) \), etc. 
 from the origin. Similarly, the frog can reach either the point \( (10,0) \) or \( (7,7) \) in two jumps.<br>
 
 (i) True or False: The frog can reach any given point with integer coordinates in a finite number of jumps. [2 points]<br>

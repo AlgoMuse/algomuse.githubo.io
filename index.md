@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The second mock test is in progress!
+- The second mock test is over. Offline submissions are accepted until 8th April, 11:59 pm.
 - The results of the first mock test are [here](docs/mock_test/017_mar_17_scorecard). Solutions have been emailed.
 
 
