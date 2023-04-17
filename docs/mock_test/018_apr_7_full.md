@@ -198,6 +198,7 @@ from the origin. Similarly, the frog can reach either the point \( (10,0) \) or 
 
 For both the parts (a) and (b), explain your reasoning.
 
+<br><i>Source: Slight variation of Problem A1, Putnam 2021.</i><br>
 </p>
 
 
@@ -211,6 +212,7 @@ and \(b\) are products of factorials of primes. For example,
 
 Note that the primes appearing in \(a\) or \(b\) need not be distinct. [10 points]
 
+<br><i>Source: 2009 Putnam.</i>
 </p>
 
 
@@ -236,6 +238,7 @@ and
 
 
 [7 points]
+<br><i>Source: Simon Marais '22.</i>
 </p>
 
 ---
@@ -246,6 +249,7 @@ and
 is convergent or divergent. Explain your reasoning. 
 Here \(\lceil x\rceil\) denotes the least integer greater than or equal to \(x\). [10 points]
 
+<br><i>Source: Simon Marais '22.</i>
 </p>
 
 
@@ -257,6 +261,10 @@ Here \(\lceil x\rceil\) denotes the least integer greater than or equal to \(x\)
 (i) Suppose \( O_1 \) and \( O_2 \) are the circumcenters of \(\triangle ATC\) and \(\triangle BTD\), respectively. Prove that
 quadrilaterals \( ABO_1O_2 \) and \( DCO_2O_1\) are cyclic. [5 points]<br>
 (ii) Show that \(T\) is equidistant from diagonals of \(ABCD\). [5 points]<br>
+
+<i>Proposed by Fedir Yudin.</i>
+<i>https://artofproblemsolving.com/community/c6h3046178p27437928</i>
+
 </p>
 
 
@@ -265,6 +273,7 @@ quadrilaterals \( ABO_1O_2 \) and \( DCO_2O_1\) are cyclic. [5 points]<br>
 <p><b>B6</b>.   Let \(A_{1}=\{1\}, A_{n+1}=\left\{3 k, 3 k+1: k \in A_{n}\right\}\) for all \(n \geq 1\) and \(A=\bigcup_{n=1}^{\infty} A_{n}\).<br>
 (i) What is the set \(A_3\)? [2 points]<br>
 (ii) Can 2017 be written as the sum of two elements of \(A\)? Explain your reasoning. [8 points]<br>
+<br><i>Source: B1, 2017 Madhava Competition.</i>
 </p>
 
 
