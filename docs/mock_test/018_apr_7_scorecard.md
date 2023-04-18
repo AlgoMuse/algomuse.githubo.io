@@ -184,12 +184,12 @@ To see any student's answer:
 <button class="markbutton blank" onclick = "markdisplay('Theodosius/PartA',18)">28</button>
 <button class="button white"></button>
 <button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Theodosius/B2',18)">0</button>
+<button class="markbutton right" onclick = "markdisplay('Theodosius/B2',18)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B3',18)">4</button>
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B4',18)">10</button>
 <button class="button blank"></button>
 <button class="markbutton right" onclick = "markdisplay('Theodosius/B6',18)">10</button>
-<button class="markbutton total">52</button>
+<button class="markbutton total">62</button>
 <button class="markbutton rank">11. </button>
 <input type="button" class="markbutton white" value="Demetrios Kokkidis"/>
 <button class="markbutton blank" onclick = "markdisplay('Demetrios_Kokkidis/PartA',18)">16</button>
@@ -212,7 +212,6 @@ To see any student's answer:
 <button class="button blank"></button>
 <button class="markbutton wrong" onclick = "markdisplay('Carpus_of_Antioch/B6',18)">2</button>
 <button class="markbutton total">18</button>
-
 
 </div>
 </div>
