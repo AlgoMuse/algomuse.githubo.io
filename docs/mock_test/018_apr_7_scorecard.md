@@ -68,19 +68,7 @@ To see any student's answer:
 
 
 
-
 <button class="markbutton rank">1. </button>
-<input type="button" class="markbutton white" value="Anaxagoras"/>
-<button class="markbutton blank" onclick = "markdisplay('Anaxagoras/PartA',18)">32</button>
-<button class="button white"></button>
-<button class="markbutton right" onclick = "markdisplay('Anaxagoras/B1',18)">10</button>
-<button class="markbutton right" onclick = "markdisplay('Anaxagoras/B2',18)">10</button>
-<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B3',18)">2</button>
-<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B4',18)">0</button>
-<button class="button blank"></button>
-<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B6',18)">2</button>
-<button class="markbutton total">66</button>
-<button class="markbutton rank">2. </button>
 <input type="button" class="markbutton white" value="Heraclides Ponticus"/>
 <button class="markbutton blank" onclick = "markdisplay('Heraclides_Ponticus/PartA',18)">20</button>
 <button class="button white"></button>
@@ -90,6 +78,17 @@ To see any student's answer:
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B4',18)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B5',18)">10</button>
 <button class="markbutton right" onclick = "markdisplay('Heraclides_Ponticus/B6',18)">10</button>
+<button class="markbutton total">61</button>
+<button class="markbutton rank">2. </button>
+<input type="button" class="markbutton white" value="Anaxagoras"/>
+<button class="markbutton blank" onclick = "markdisplay('Anaxagoras/PartA',18)">36</button>
+<button class="button white"></button>
+<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B1',18)">2</button>
+<button class="markbutton right" onclick = "markdisplay('Anaxagoras/B2',18)">10</button>
+<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B3',18)">3</button>
+<button class="markbutton wrong" onclick = "markdisplay('Anaxagoras/B4',18)">0</button>
+<button class="button blank"></button>
+<button class="markbutton right" onclick = "markdisplay('Anaxagoras/B6',18)">10</button>
 <button class="markbutton total">61</button>
 <button class="markbutton rank">3. </button>
 <input type="button" class="markbutton white" value="Themistoclea of Delphi"/>
