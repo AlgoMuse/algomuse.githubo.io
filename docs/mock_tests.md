@@ -39,8 +39,12 @@ on standard techniques rather than ingenuity.
 Each test will have 10 objective questions and 6 subjective questions. Each test will carry a total of 100 marks (40+60).
 
 
+## Schedule
+
+The mock tests for the year 2023 is over. The next round of mock tests will start in Jan 2024.
 
 
+<!--
 
 ## Current schedule
 
@@ -49,6 +53,7 @@ Date | Day | Timing | Topics
 ---|---|--|--
 17 March '23 | Friday | 2pm - 5pm | Full-syllabus test
 7 April '23| Friday | 2pm - 5pm | Full-syllabus test
+
 
 
 ## Registration fees
@@ -64,7 +69,6 @@ your email ID.
 <img src="/assets/images/cmi-tomato-qr.png"/>
 
 
-<!--
 ## Types of tests
 
 There will be two types of tests every month: full-syllabus and topic-specific tests. Tests of the latter kind will have questions confined
@@ -73,7 +77,6 @@ A full-syllabus test will be at par with a CMI entrance exam.
 
 <br>Please note that the payment must be renewed every month.
 
--->
 
 ## What happens if you miss a test?
 
@@ -85,7 +88,6 @@ But your solutions will be evaluated.
 
 ---
 
-<!--
 
 ## Subscription options
 
@@ -122,6 +124,8 @@ Question paper | Date | Results
  [Full-syllabus](/docs/mock_test/002_18mar22_full/) | 18 March '22 | [Scorecard](/docs/mock_test/014_mar_18_scorecard) 
  [Full-syllabus](/docs/mock_test/014_apr_8_full/) | 8 April '22 | [Scorecard](/docs/mock_test/015_apr_8_scorecard) 
  [Full-syllabus](/docs/mock_test/016_apr_29_full/) | 29 April '22 | [Scorecard](/docs/mock_test/016_apr_29_scorecard) 
+ [Full-syllabus](/docs/mock_test/017_mar_17_full/) | 17 March '23 | [Scorecard](/docs/mock_test/017_mar_17_scorecard) 
+ [Full-syllabus](/docs/mock_test/018_apr_7_full/) | 7 April '23 | [Scorecard](/docs/mock_test/018_apr_7_scorecard) 
 
 
 
@@ -155,39 +159,24 @@ your email ID. Name will be shown as 'Jagadish Midthala'.
 
 
 
+<!--
 <div id="graphcomment"></div>
 <script type="text/javascript">
-
-  /* - - - CONFIGURATION VARIABLES - - - */
-
   var __semio__params = {
     graphcommentId: "CMI-Tomato", // make sure the id is yours
-
-    behaviour: {
-      // HIGHLY RECOMMENDED
-        uid: "mocktest", // uniq identifer for the comments thread on your page (ex: your page id)
-    },
-
-    // configure your variables here
-
   }
-
-  /* - - - DON'T EDIT BELOW THIS LINE - - - */
-
   function __semio__onload() {
     __semio__gc_graphlogin(__semio__params)
   }
-
-
+  /*
   (function() {
     var gc = document.createElement('script'); gc.type = 'text/javascript'; gc.async = true;
     gc.onload = __semio__onload; gc.defer = true; gc.src = 'https://integration.graphcomment.com/gc_graphlogin.js?' + Date.now();
     (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(gc);
   })();
-  
-
+  */
 </script>
 
 
-
+-->
 
