@@ -308,40 +308,24 @@ In an isoceles triangle ABC  with A at the apex, the height and the base are bot
 <details>
 <summary>Solution</summary>
 <p>
-We want to find the side length of the rhombus \(BDEF\).  We will find the length of \(EF\) first. Let \( AX \) and \( EX' \) be the perpendiculars of triangles \(ABC\) and \(EFC\), respectively.
+We want to find the side length of the rhombus \(BDEF\).  We will find the length of \(AB\) first. Let \(M\) be the mid-point 
+of \(BC\). So \(BM=1/2\,\mbox{cm}\).  We know that \( AM = BC = 1\,\mbox{cm}\). By applying Pythagoras theorem to \(\Delta ABM\), we get \(AB = \sqrt{BM^2 + AM^2} = \frac{\sqrt{5}}{2}\).
 
-<p style="text-align:center;"><img src="/assets/images/cmi2010_bisector.svg"></p>
-
-We know that \( FX'= EX'/2 \)  since \( ABC \cong EFC \).
-
-\begin{align}
-EF &= \frac{\sqrt{5}}{2}EX' \hskip{3pt} \text{since }EX'F\text{ is a right angled triangle}
-\label{eq:triangle}\tag{1}
-\end{align}
+<p style="text-align:center;"><img src="/assets/images/cmi_2010_bisector.png"></p>
 
 
-All we have to do is find the length of \( EX' \).
-
-\begin{align}
-\tan \theta & = \frac{EX'}{BX'} \\
-\tan \theta & = \frac{EX'}{BC-X'C} \\
-& = \frac{EX'}{1 - EX'/2} \hskip{5pt} \text{ since } ABX \cong EFX' \\
-EX' & = \frac{2\tan \theta}{2+\tan \theta} \hskip{5pt} \text{ by rearranging } \label{eq:ex}\tag{2} \\
-\\
-\\
-\tan 2\theta & = \frac{AX}{BX} = \frac{2\tan \theta}{1-\tan^2\theta} \\
-2 & = \frac{2\tan \theta}{1-\tan^2\theta} \\
-\tan \theta & = \frac{-1+\sqrt{5}}{2} \\
-EX' & = (2\sqrt{5}-4) \hskip{5pt} \text{by substituting the value of }\tan \theta\text{ in \eqref{eq:ex}}
-\\
-\\
-EF & = \frac{\sqrt{5}}{2}(2\sqrt{5}-4) \hskip{5pt} \text{From \eqref{eq:triangle}} \\
- & = (5-2\sqrt{5})
-\end{align}
+\begin{aligned}
+\Delta ADE & \sim \Delta ABC\\
+\frac{DE}{BC} &= \frac{AD}{AB} \\
+\frac{x}{1} &= \frac{ \sqrt{5}/2-x }{ \sqrt{5}/2} \\
+x &= \frac{ \sqrt{5}/2 }{ \sqrt{5}/2 + 1 } \\
+x &= 5 - 2\sqrt{5} 
+\end{aligned}
 
 
+Hence the side length of the rhombus is  \( (5-2\sqrt{5})\, \mbox{cm} \).
 
-Hence the side length of the rhombus is  \( (5-2\sqrt{5}) \) cm.
+<br><br><i>Solution due to Aryan Komarla.</i>
 </p>
 
 </details>

@@ -82,11 +82,11 @@ A5, 2022
 
 
 
-<details open><summary>Sol.</summary>
-<li> TRUE. \(log_{e}3 = 1/a \implies e^{1/a} = 3 \implies 3^a = e\)</li>
-<li> TRUE. Can solve this problem by using the on-screen calculator. Alternatively, you may use Taylor expansion.</li>
-<li> FALSE.  </li>
-<li> TRUE. </li>
+<details><summary>Solution</summary>
+<li> True. \(log_{e}3 = 1/a \implies e^{1/a} = 3 \implies 3^a = e\)</li>
+<li> True. Can solve this problem by using the on-screen calculator. Alternatively, you may use Taylor expansion.</li>
+<li> False.  </li>
+<li> True. </li>
 </details>
 
 
@@ -414,6 +414,27 @@ that the only solutions are those that are given in the problem.</p>
 <p><i>Altenatively, we can use complex numbers and triangle inequality to prove the statement</i></p>
 
 </details>
+
+<p></p>
+
+<details><summary>Solution III</summary>
+<i>Solution due to Aryan Komarla.</i><br><br>
+We will prove by contradiction. Let \(x=\frac{\pi}{6}+2 k \pi+\theta_1, y=\frac{\pi}{6}+2 l \pi+\theta_2\) and \(z=\frac{\pi}{6}+2 m \pi+\theta_3\), where \(\theta_1, \theta_2\), and \(\theta_3\) are not integer multiples of \(2 \pi\).
+Then, from the given equations, we get:
+
+\[ \sqrt{3}\left(\cos \left(\theta_1\right)+\cos \left(\theta_2\right)+\cos \left(\theta_3\right)\right)-\left(\sin \left(\theta_1\right)+\sin \left(\theta_2\right)+\sin \left(\theta_3\right)\right)=3 \sqrt{3}\]
+\[\left(\cos \left(\theta_1\right)+\cos \left(\theta_2\right)+\cos \left(\theta_3\right)\right)+\sqrt{3}\left(\sin \left(\theta_1\right)+\sin \left(\theta_2\right)+\sin \left(\theta_3\right)\right)=3\]
+
+Multiplying the first equation by \(\sqrt{3}\) and adding, we get,
+
+\[ \cos \left(\theta_1\right)+\cos \left(\theta_2\right)+\cos \left(\theta_3\right)=3\]
+<p> Equalit holds only when \(\theta_i\)s are multiples of \( 2\pi \), a contradiction.</p>
+
+</details>
+
+
+
+
 
 
 
