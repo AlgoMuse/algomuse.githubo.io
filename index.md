@@ -26,24 +26,49 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ### CMI Entrance Exam 2023 problems (Work in progress)
 
+<p>
 <br>
 <i>Warning: May have errors!</i>
 <br>
 
-<p>
-<b>B1.</b> The polynomial \(p(x) = x^4+ax^3+bx^2+cx+d\) has a real root \(r\).<br>
+
+
+<b>B1.</b> Let \(n\) be an odd positive number greater than 1. We have the condition that \(n|2023^n-1\).<br>
+
+(i) Find the two smallest values of \(n\).<br>
+
+(ii) Prove that there are infinitely many such \(n\)s.<br>
+
+
+<br>
+
+<b>B2.</b> Solve for \(f:\mathbb{Z}^+ \rightarrow \mathbb{Z}^+\).<br>
+
+(i) \( f(m+n)=f(m)+f(n)+mn(m+n) \)<br>
+(ii) Show that \(f\) is of the form \(\displaystyle \sum_{i=0}^{d} c_i n^i\) and find conditions on \(d,c_0,c_1,\ldots,c_d\).<br>
+
+<br>
+
+<b>B3.</b> The polynomial \(p(x) = x^4+ax^3+bx^2+cx+d\) has exactly one real number \(r\) such that \(p(r)=0\).<br>
 
 (i) Show that if \(a, b, c, d\) are rational, \(r\) is also rational.<br>
 
 (ii) Show that if \(a, b, c, d\) are integers, \(r\) is also an integer.<br><br>
 
-  
 
-<b>B2.</b> Let \(n\) be an odd positive number greater than 1. We have the condition that \(n|2023^n-1\).<br>
+<b>B6.</b> For each integer \(a_0>1\), define the sequence \(a_0, a_1, a_2, \ldots\), by
+\[
+a_{n+1}= \begin{cases}\sqrt{a_n} & \text { if } \sqrt{a_n} \text { is an integer, } \\ a_n+3 & \text { otherwise }\end{cases}
+\]
 
-(i) Find the two smallest values of \(n\).<br>
+for each \(n \geq 0\). Determine all values of \(a_0\) for which there is a number \(A\) such that \(a_n=A\) for infinitely many values of \(n\).
 
-(ii) Prove that there are infinitely many such \(n\)s.<br>
+<br>
+
+<i>Source: IMO 2017, Problem 1. Link to the <a href="https://web.evanchen.cc/exams/IMO-2017-notes.pdf">solution</a>.</i>
+
+
+
 
 </p>
 
