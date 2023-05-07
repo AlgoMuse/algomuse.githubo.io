@@ -24,6 +24,33 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 - I hope the CMI entrance exam 2023 went well. Could you please mail me the any questions you remember from the exam? My email is mbalasundar08@gmail.com
 
 
+### CMI Entrance Exam 2023 problems (Work in progress)
+
+<br>
+<i>Warning: May have errors!</i>
+<br>
+
+<p>
+<b>B1.</b> The polynomial \(p(x) = x^4+ax^3+bx^2+cx+d\) has a real root \(r\).<br>
+
+(i) Show that if \(a, b, c, d\) are rational, \(r\) is also rational.<br>
+
+(ii) Show that if \(a, b, c, d\) are integers, \(r\) is also an integer.<br><br>
+
+  
+
+<b>B2.</b> Let \(n\) be an odd positive number greater than 1. We have the condition that \(n|2023^n-1\).<br>
+
+(i) Find the two smallest values of \(n\).<br>
+
+(ii) Prove that there are infinitely many such \(n\)s.<br>
+
+</p>
+
+
+
+<!--
+
 
 #### What's on this site?
 {: .fs-4}
@@ -34,6 +61,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 {: .fs-4 .fw-300 }
 
+-->
 
 
 <div id="palette1">
