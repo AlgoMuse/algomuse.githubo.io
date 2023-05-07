@@ -18,20 +18,21 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
+<!--
+
 #### Announcement
 {: .fs-4}
 
 - I hope the CMI entrance exam 2023 went well. Could you please mail me the any questions you remember from the exam? My email is mbalasundar08@gmail.com
 
 
-### CMI Entrance Exam 2023 problems (Work in progress)
+-->
+
+## CMI Entrance Exam 2023: Part B problems
 
 <p>
-<br>
-<i>Warning: May have errors!</i>
-<br>
 
-
+<i>Thanks to all the students who sent me the problems. Be warned that the list may contain errors.</i><br><br>
 
 <b>B1.</b> Let \(n\) be an odd positive number greater than 1. We have the condition that \(n|2023^n-1\).<br>
 
@@ -40,14 +41,14 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 (ii) Prove that there are infinitely many such \(n\)s.<br>
 
 
-<br>
+<hr>
 
 <b>B2.</b> Solve for \(f:\mathbb{Z}^+ \rightarrow \mathbb{Z}^+\).<br>
 
 (i) \( f(m+n)=f(m)+f(n)+mn(m+n) \)<br>
 (ii) Show that \(f\) is of the form \(\displaystyle \sum_{i=0}^{d} c_i n^i\) and find conditions on \(d,c_0,c_1,\ldots,c_d\).<br>
 
-<br>
+<hr>
 
 <b>B3.</b> The polynomial \(p(x) = x^4+ax^3+bx^2+cx+d\) has exactly one real number \(r\) such that \(p(r)=0\).<br>
 
@@ -55,23 +56,57 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 (ii) Show that if \(a, b, c, d\) are integers, \(r\) is also an integer.<br><br>
 
+<i>Hint: Consider the roots of \( p^\prime(x) \).</i><br>
+
+<hr>
+
+<b>B4.</b> In a class there are \(n\) students with unequal heights.<br>
+(i) Find the number of orderings of the students such that the shortest person is not at the front and the tallest person is not at the end.<br>
+(ii) For \(1\leq i \leq n\), let \(b_i\) denote the number of students in front of the \(i\)th student who are taller than 
+the \(i\)th student.  For example, consider the sequence \([4,1,2,6,7,5]\), with \(4\) being the front \(5\) being the end.
+Then \(b_1=0, b_2=1, b_3=1, b_4=0,b_5=0, b_6=2\).
+
+Define the <i>badness</i> of an ordering as the \( \max_{i\in[n]} b_i \). The example sequence has badness of 2. Let \(f_k(n)\)
+denote the number of orderings of \([n]\) that have badness \(k\). Find \(f_k(n)\).  <br>
+<br>
+<i>Hint</i>: Consider \(g_k(n)\) as the number of orderings of \(n\) with badness less than or equal to \(k\).<br>
+
+<hr>
+
+<b>B5.</b> In whatever follows \(f\) denotes a differentiable function from \(R\) to \(R\). \(f \circ f\) denotes the composition of \(f(x)\).<br>
+(i) If \(f(f(x))=f(x) \forall x \in R\) then for all \(x, f^{\prime}(x)=\underline{\;\;\;\;\;}\) or \(f^{\prime}(f(x))=\underline{\;\;\;\;\;\;}\). Fill in the blanks and justify.<br>
+(ii) Assume that the range of \(f\) is of the form \((-\infty,+\infty),[a, \infty),(-\infty, b],[a, b]\). Show that if \(f \circ f=f\), then the range of \(f\) is \(\mathbf{R}\). (<i>Hint</i>: Consider a maximal element in the range of \(f\)). <br>
+(iii) If \(g\) satisfies \(g \circ g \circ g=g\), then \(g\) is onto. Prove that \(g\) is either strictly increasing or strictly decreasing. Furthermore show that if \(g\) is strictly increasing, then \(g\) is unique.<br><br>
+
+<hr>
 
 <b>B6.</b> For each integer \(a_0>1\), define the sequence \(a_0, a_1, a_2, \ldots\), by
 \[
 a_{n+1}= \begin{cases}\sqrt{a_n} & \text { if } \sqrt{a_n} \text { is an integer, } \\ a_n+3 & \text { otherwise }\end{cases}
 \]
 
-for each \(n \geq 0\). Determine all values of \(a_0\) for which there is a number \(A\) such that \(a_n=A\) for infinitely many values of \(n\).
+for each \(n \geq 0\). Let \(S\) denote the set of distinct numbers in the sequence \(a_0,a_1,a_2,\ldots\). Find all values of \(a_0\) for which 
+the set \(S\) is finite. 
+
+<br><br>
+
+If you can't prove the above, you may solve these for partial credit.<br>
+
+
+(i) Show that there is no \(a_0\) for which \( |S| =1 \mbox{ or } 2\).<br>
+(ii) Prove that \( |S| = 3\) only if \( a_0 = 3\).<br>
+(iii) For an given \(k \geq 3\), there exists an \(a_0\) such that \(|S|=k\).<br>
+(iv) Find one \(a_0\) such that \(|S| = \infty\).<br>
+ 
 
 <br>
 
-<i>Source: IMO 2017, Problem 1. Link to the <a href="https://web.evanchen.cc/exams/IMO-2017-notes.pdf">solution</a>.</i>
-
-
+<i>Similar problem: IMO 2017, Problem 1. Link to the <a href="https://web.evanchen.cc/exams/IMO-2017-notes.pdf">solution</a>.</i>
 
 
 </p>
 
+---
 
 
 <!--
