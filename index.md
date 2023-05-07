@@ -21,7 +21,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The results of the second mock test are [here](docs/mock_test/018_apr_7_scorecard). Solutions have been emailed.
+- I hope the CMI entrance exam 2023 went well. Could you please mail me the any questions you remember from the exam? My email is mbalasundar08@gmail.com
 
 
 
