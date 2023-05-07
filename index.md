@@ -46,7 +46,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 <b>B2.</b> Solve for \(f:\mathbb{Z}^+ \rightarrow \mathbb{Z}^+\).<br>
 
 (i) \( f(m+n)=f(m)+f(n)+mn(m+n) \)<br>
-(ii) Show that \(f\) is of the form \(\displaystyle \sum_{i=0}^{d} c_i n^i\) and find conditions on \(d,c_0,c_1,\ldots,c_d\).<br>
+(ii) Show that \(f\) is of the form \(\displaystyle \sum_{i=0}^{d} c_i n^i\). Find necessary and sufficient conditions on \(d,c_0,c_1,\ldots,c_d\).<br>
 
 <hr>
 
