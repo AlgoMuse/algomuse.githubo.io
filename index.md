@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- If you gave CMI 2023 entrance exam, please consider taking part in this [poll](https://poll.cmientranceexam.in).
+- Thanks to everybody who took part in the [poll](https://poll.cmientranceexam.in). Take a look at my [guesstimates](docs/article/cutoff_estimate).
 
 
 ---

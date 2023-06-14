@@ -26,15 +26,32 @@ table.inner-borders {
 
 
 
-# Hazarding a guess at CMI '22 cut-off
+# Hazarding a guess at CMI '23 cut-off
 {: .no_toc }
 
 
 ---
 
 **Summary**
-<br>As a fun exercise, I predict this year's cutoff and explain my reasoning.
+<br>As a fun exercise, I predict this year's cutoff.
 {: .bg-grey-lt-000 .p-7 }
+
+
+## 2023 Cut-off prediction
+
+<p style="text-align:center">
+<img src="/assets/images/guess23.png"/>
+</p>
+
+
+About ~35 students took part in the poll:
+
+<p style="text-align:center">
+<img src="/assets/images/poll23.png"/>
+</p>
+
+
+
 
 ## 2022 Cut-off prediction
 

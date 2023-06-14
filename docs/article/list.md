@@ -30,7 +30,7 @@ table.inner-borders {
 
 
 
-- [Hazarding a guess at CMI 2021's cutoff](../cutoff_estimate/)
+- [Hazarding a guess at CMI 2023's cutoff](../cutoff_estimate/)
 - [A glance at CMI 2020 rankers](../cmi_2020_results/)
 
 
