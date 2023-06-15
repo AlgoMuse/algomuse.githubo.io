@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Thanks to everybody who took part in the [poll](https://poll.cmientranceexam.in). Take a look at my [guesstimates](docs/article/cutoff_estimate).
+- Congrats to everybody who made it!
 
 
 ---
