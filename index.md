@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Congrats to everybody who made it!
+- Cutoff marks for 2023 added.
 
 
 ---
@@ -407,6 +407,14 @@ The scores shown below were shared by former students who were privy to this dat
 [Subhayan Saha](https://www.quora.com/profile/Subhayan-Saha)
 -->
 
+
+### 2023 cutoff marks
+
+The exam was for 120 marks. 40 marks for Part A and 80 marks for Part B.
+The cutoff was 36/120 for GM category and males without scholarship. The cutoff was 33/120 for
+everybody else. 
+
+
 ### 2021 cutoff marks
 
 In 2021, CMI used an unconventional criteria for admission. The cut-off for  Part A was 17/40 for everyone. More
@@ -447,7 +455,7 @@ The cutoff marks for the previous years are given below.
 2019 | &sim;16 | 52/100  | Ankush Agarwal
 2020 | &sim;16 | 48/94  | CMI Office
 2021 | 17 | 56/100  | CMI Office
-
+2023 | 8 | 36/120  | CMI Office
 
 
 
