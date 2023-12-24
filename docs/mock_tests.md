@@ -16,7 +16,7 @@ title: Mock tests
 
 <br>
 
-#### 62 sign-ups so far
+#### 44 sign-ups so far
 
 <!--
 <progress id="progressBar" style="width:95%" max="60" value="11"></progress>
@@ -39,20 +39,21 @@ on standard techniques rather than ingenuity.
 Each test will have 10 objective questions and 6 subjective questions. Each test will carry a total of 100 marks (40+60).
 
 
+<!--
 ## Schedule
 
 The mock tests for the year 2023 is over. The next round of mock tests will start in Jan 2024.
 
+-->
 
-<!--
 
 ## Current schedule
 
 
 Date | Day | Timing | Topics
 ---|---|--|--
-17 March '23 | Friday | 2pm - 5pm | Full-syllabus test
-7 April '23| Friday | 2pm - 5pm | Full-syllabus test
+6 Jan '24 | Saturday | 2pm - 5pm | Full-syllabus test
+22 Jan '24| Saturday | 2pm - 5pm | Full-syllabus test
 
 
 
@@ -68,6 +69,7 @@ your email ID.
 
 <img src="/assets/images/cmi-tomato-qr.png"/>
 
+<!--
 
 ## Types of tests
 
