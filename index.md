@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Mock tests will begin from 6th January, 2024. Registration details are given [here](/docs/mock_tests/#registration-fees).
+- Mock tests will commence on 6 January, 2024. Registration details are given [here](/docs/mock_tests/#registration-fees).
 
 
 
