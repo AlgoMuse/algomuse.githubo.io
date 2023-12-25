@@ -63,6 +63,8 @@ A payment of Rs. 700 must be sent to the UPI address given below.
 Please send me an email with the transaction number or a screenshot so that I can link your payment to
 your email ID.
 
+**Please note: Subscription has to be renewed each month.**
+
 ### UPI Address: cmi-tomato@sbi
 
 ### QR-code (PayTM/PhonePe/GooglePay)
