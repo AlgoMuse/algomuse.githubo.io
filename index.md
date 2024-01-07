@@ -22,8 +22,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Mock test 1 is in progress! Live test is from 2pm-5pm. Offline entries are allowed until 6 pm, 7 Jan 2024.
-- Mock tests will commence on 6 January, 2024. Registration details are given [here](/docs/mock_tests/#registration-fees).
+- Mock test 1 is over. Feedback will be shared by 15th January.
+- The next mock test is on 20 Jan, 2024.
 
 
 

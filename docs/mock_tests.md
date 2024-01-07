@@ -53,7 +53,7 @@ The mock tests for the year 2023 is over. The next round of mock tests will star
 Date | Day | Timing | Topics
 ---|---|--|--
 6 Jan '24 | Saturday | 2pm - 5pm | Full-syllabus test
-22 Jan '24| Saturday | 2pm - 5pm | Full-syllabus test
+20 Jan '24| Saturday | 2pm - 5pm | Full-syllabus test
 
 
 
