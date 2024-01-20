@@ -22,9 +22,8 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Mock test 1 is over. Feedback will be shared by 18th January.
-- The next mock test is on 20 Jan, 2024.
-
+- The second mock test is in progress! 
+- Feedback for mock test 1 has been sent to all participants.
 
 
 ---
