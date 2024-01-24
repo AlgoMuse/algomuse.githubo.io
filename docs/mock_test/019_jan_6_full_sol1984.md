@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mock test 1 Full-syllabus test
-nav_exclude: true
+nav_exclude: false
 ---
 
 
@@ -37,6 +37,19 @@ What fraction of the green cones are strawberry flavoured?
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (d).<br>
+We denote the values of each property: \(S\) for strawberry, \(V\) for vanilla, \(B\) for brown, and \(G\) for green.
+We want to find \(P(S \mid G)\), the probability that an ice-cream is strawberry given that it is square. We have
+
+\begin{align*}
+P(S \mid G) & =\frac{P(S, G)}{P(G)} & & \\
+& =\frac{P(S, G)}{P(S, G)+P(V, G)} & & \\
+& =\frac{P(G \mid S) P(S)}{P(G \mid S) P(S)+P(G \mid V) P(V)} & &  \\
+& =\frac{(1-P(B \mid S)) P(S)}{(1-P(B \mid S)) P(S)+P(G \mid V) P(V)} & &  \\
+& =\frac{\left(1-\frac{4}{9}\right)\left(\frac{1}{2}\right)}{\left(1-\frac{4}{9}\right)\left(\frac{1}{2}\right)+\left(\frac{2}{3}\right)\left(\frac{1}{2}\right)} & \\
+& =\frac{5}{11} 
+\end{align*}
+
+
 <i>Source: SMT 2023</i>.
 </details>
 
@@ -79,7 +92,7 @@ What is the value of the sum \(a_1+a_2+a_3+a_4+a_5+a_6\)?
 
 
 <details open><summary>Sol.</summary>
-<b>Ans:</b> (b).
+<b>Ans:</b> (b). The positive (resp. negative) numbers in the list \(a_1,\ldots,a_6\) add to the highest (resp. smallest) element in \(S\).
 </details>
 
 
@@ -140,7 +153,35 @@ Suppose \(a_i\) and \(b_i\) are real numbers such that \(\sum_1^\infty a_i^2\) a
 
 <details open><summary>Sol.</summary>
 <b>Ans</b> (b),(c) and (d).<br>
+
+(a) is not true if \(a_i=1/i\) and \(b_i=0\).<br>
+
+\[ 0 \leq (a_i-b_i)^2 = 2a_i^2 + 2b_i^2-(a_i+b_i)^2 \leq 2a_i^2 + 2b_i^2 \]
+
+(c) and (d): Since \(\sum a_i^2 \) and \(\sum b_i^2\) are absolutely convergent, \(\sum 2a_i^2+2b_i^2 \)
+is also convergent.
+<br>
+For sufficiently large \(i\), \(|a_i-b_i|<1\) so \( |a_i-b_i|^3 \leq |a_i-b_i|^2 \). Since \( (a_i-b_i)^3 \)
+is absolutely convergent it is convergent.
+
+
+<br><i>Why is (b) not true?</i>
+
+<br><b>Proposition.</b> The sum \( \sum_{i=1}^\infty 1/n^p \) converges if \( p > 1\) and diverges when \( 0 \leq p \leq 1\).
+<br><i>Proof.</i> See the following article for proofs of both assertions: Cohen and Knight, Convergence and divergence of \( \sum_{i=1}^\infty 1/n^p \) [<a href="https://www.jstor.org/stable/2690283">paper</a>].<br>
+
+<a href="https://math.stackexchange.com/questions/29450/self-contained-proof-that-sum-limits-n-1-infty-frac1np-converges-for">Alternate proof</a> on stack exchange.
+
+
+<br>
+
+(b) is not true if we we pick \(a_i = 1/i^{0.6} \) and \(b_i=0\) and invoke the above proposition. 
 </details>
+
+
+
+
+
 
 
 
@@ -157,7 +198,19 @@ If \(a+b+c=0\), then the quadratic equation \(3 a x^{2}+2 b x+c=0\) has \(\\\).
 </li>
 
 <details open><summary>Sol.</summary>
-<b>Ans.</b> (a).
+<b>Ans.</b> (a) <br>
+
+\begin{align*}
+\mbox{Let }   f’ (x) &= 3ax^2 + 2bx + c \\
+f (x) &= ax^3 + bx + cx + d\\
+f (0)  &= d\\
+f (1)  &= a + b + c + d \\
+\end{align*}
+
+Since we are given that \(a + b + c = 0\), \(f (1) = d\) and \(f(0) = f (1)\).
+Rolle’s theorem can be applied in the interval \((0, 1)\). \(f'(c) = 0\) for some \(0 < c < 1\).
+There will be at least one root of the equation \(3ax^2 + 2bx + c = 0\) in the interval \((0, 1)\).
+
 </details>
 
 
@@ -166,8 +219,19 @@ that can be formed such that \(A \subseteq S\) and \(B\subset A\).
 </li>
 
 <details open><summary>Sol.</summary>
-<b>Ans.</b> 211.
+<b>Ans.</b> 211.<br>
+
+Consider the pairs where \(A \subseteq S\) and \(B\subseteq A\). Each element in \(S\) has three choices:<br>
+(i) It can be in \(B\)<br>
+(i) It can be in \(A\setminus B\)<br>
+(iii) It can be in \(S\setminus A\)<br>
+Hence, there are \(3^5\) such pairs. From this we subtract the number of pairs where \(B=A\). There are \( 2^5 \) of 
+these. Hence, the required number is \( 3^5 - 2^5 = 211 \).<br>
+
+<i>Source: Slight variation of an ISI Tomato problem.</i>
 </details>
+
+
 
 
 <li>
@@ -176,6 +240,26 @@ The number of continuous functions \(f: \mathbb{R} \rightarrow \mathbb{R}\) sati
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> 4<br>
+
+
+ \(f(x) = 0\) and \(f(x)=x\) are obvious solutions. If \(f(x) = 0\) for some \(x>0\),
+ it implies that \(f\) is always zero in the positive reals. Similarly for negative reals. We get four functions:
+<br>
+<p>
+  <ul>
+     <li> \(f = id\)</li>
+     <li> \(f = id\) on \(R^+\) and \(f = 0\) on \(R^-\)</li>
+     <li> \(f = id\) on \(R^-\) and \(f = 0\) on \(R^+\)</li>
+     <li> \(f = 0\)</li>
+  </ul>
+</p>
+<br>
+  Here is an another approach. If \(f(x)\) is not 0, then cancelling \(f(x)\) on both sides yields \(f(x) = x\) so if \(f(x) = x\)
+ for any \(x > 0\) if \(f(x)\) is 0 anywhere \(> 0\), say at \(y\), wlog \(0< y < x\), then somewhere on \([x,y], g(z) := f(z)-z\) will take values not equal to \(z\) or 0 by IVT
+hence on \((0, \inf)\), the function is either identically \(f(x) = x\) or \(f(x) = 0\) similarly for \(x < 0\) and clearly \(f(0) = 0\) in either case
+so the 4 possible solutions are made by combining the 2 cases for the positive and negative value solutions in \(2\times2 = 4\) ways, and it's easy to check that all these four
+are continuous solutions.<br><br>
+
 </details>
 
 <li>
@@ -274,9 +358,9 @@ Suppose there exists a function \(f:(0, \infty) \rightarrow(0, \infty)\) such th
 Note that \(g\left(x_0\right)=0\) and \(g^{\prime}(x)=f^{\prime}(x)-f^{\prime}\left(x_0\right)<0\) for all \(x>x_0\). Since \(g\) is a decreasing function on \(\left(x_0, \infty\right)\), we get \(g(x) \leq 0\) for all \(x>x_0\). Now \(f^{\prime}\left(x_0\right)<0\) implies, there exists \(x_1>x_0\) such that \(f\left(x_1\right)<0\).
 </details>
 
-
-
 ---
+
+
 
 <p><b>B4.</b>
 Let \(\mathcal{P}_n\) denote the collection of polynomials of degree \(n\) such that the polynomial and all its derivatives have integer roots. <br>
@@ -289,8 +373,37 @@ Show that there does not exist a function \(f:(0, \infty) \rightarrow(0, \infty)
 </p>
 
 <details open><summary>Sol.</summary>
+i) Let \(f=(x-\alpha)(x-\beta)\); then \(f^{\prime}=(x-\alpha)+(x-\beta)=2 x-(\alpha+\beta)\). Thus the condition is \(\alpha+\beta\) must be even. <br>
 
+ii) Let \(f=(x-\alpha)(x-\beta)(x-\gamma)\)
+
+Then \(f^{\prime}=(x-\alpha)(x-\beta)+(x-\alpha)(x-\gamma)+(x-\beta)(x-\gamma)\)
+
+Let \(f=(x-\alpha)^{2}(x-\gamma)\). Then \(f^{\prime}=(x-\alpha)^{2}+2(x-\alpha)(x-\beta)\)
+
+\begin{align*}
+f^{\prime \prime}&=2(x-\alpha)+2(x-\alpha)+2(x-\beta)=4(x-\alpha)+2(x-\beta)\\
+&=6 x-4 \alpha-2 \beta\\
+f^{\prime \prime}&=0 \mbox{if }x=\frac{4 \alpha+2 \beta}{6}
+\end{align*}
+
+So \(6 \mid 4 \alpha+2 \beta\). Put \(\beta=1\) and \(\alpha=4\). We can take \(f(x)=(x-4)^{2}(x-1)\).<br>
+
+iii) Let \(p(x)=a_{n} x^{n}+a_{n-1} x^{n-1}+\ldots+a_{1} x+a_{0} \in P_{n}\). Let the roots of \(p(x)\) be \(\alpha_{1}, \alpha_{2}, \ldots, \alpha_{n}\)
+
+Now \(p^{\prime}(x)=n a_{n} x^{n-1}+(n-1) a_{n-1} x^{n-2}+\ldots+a_{1}\).
+
+\(p^{\prime \prime}(x)=n(n-1) a_{n} x^{n-2}+(n-1)(n-2) a_{n-1} x^{n-3}+\ldots+2 a_{2}\) and so on.
+
+\(p^{(n-1)}(x)=n ! a_{n} x+(n-1) ! a_{n-1}\)
+
+Since \(p^{(n-1)}(x)\) has integer roots, it is equal to \(\frac{-(n-1) ! a_{n-1}}{n ! a_{n}}\) \(\frac{\sum_{i=1}^{n} \alpha_{i}}{n}=\frac{-(n-1) a_{n-1}}{n a_{n}}\) is thus an integer.
+
+
+<br><i>Source: Madhava 2021</i>
 </details>
+
+
 
 ---
 
@@ -308,7 +421,9 @@ empty. How many configurations of the board can we get by a sequence of valid mo
 </p>
 
 <details open><summary>Sol.</summary>
-
+The trick is to look at the path of empty cells. There is a 1-1 correspondence between the paths 
+that go from the top left corner to bottom right corner and the cell configurations. The paths are
+such that each step either goes right or down. There are \( \choose{2n}{n} \) such paths. 
 </details>
 
 ---
@@ -326,9 +441,7 @@ that \(q^2 - 4pr = a^2\) for some integer \(a\).  <br>
 
 (a) \( (2,5,3),(2,7,5),(2,11,5), \) etc.<br>
 
-(b) 
-
-Source: Putnam 2011, B2.
+(b) Source: Putnam 2011, B2.
 
 </details>
 
