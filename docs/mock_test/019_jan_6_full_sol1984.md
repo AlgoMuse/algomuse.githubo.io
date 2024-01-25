@@ -295,7 +295,7 @@ Assume that for all \(i\) and \(j\) in the range \(1\) to \(n\),
 we have \(a_i \le a_j\) if and only if \(b_i \le b_j\). Prove that \(a_1 = a_2 = \dots = a_n\).
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 
 <i>Solution 1</i>. Let \(m=\min(a_1,\ldots,a_n)\) and \(M=\max(a_1,\ldots,a_n)\).
 Assume for the sake of contradiction that \(M>m\).
@@ -314,12 +314,13 @@ This means \(a_i< a_j\) and \(b_i>2>b_j\), a contradiction. Therefore, we have \
 <p><b>B2</b>. Suppose \(ABC\) is an equilateral triangle with side length 7 cm. We draw the circumcircle of the triangle as shown below.
 Find a point \(D\) on the arc \(BC\) such that the distances \(AD,BD\) and \(CD\) are all integers. Write down 
 the values of the three distances for your choice of the point \(D\).
+</p>
 
 <p style="text-align:center">
 <img src="/assets/images/integer_distances.png"/>
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 On the circumcircle of the triangle ABC, pick the point D, which is 3 cm from B. 
 
 We need to find the lengths of \(AD\) and \(CD\). Let's find the length of \(AD\)
@@ -330,7 +331,6 @@ by using the cosine formula for triangle \(ADB\). We know that \(\angle ADB=60^\
 AD^2 -3 AD - 40 &= 0\\ 
 (AD -8)(AD+5)& \Rightarrow AD=8
 \end{align*}
-
 
  
 Let's find the length of \(CD\) by applying the cosine formula to the triangle \(CDB\). Notice that 
@@ -353,7 +353,7 @@ CD^2 + 3CD - 40 &= 0 \\
 Show that there does not exist a function \(f:(0, \infty) \rightarrow(0, \infty)\) such that \(f^{\prime \prime}(x) \leq 0\) for all \(x\) and \(f^{\prime}\left(x_0\right) < 0\) for some \(x_0\).
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 Suppose there exists a function \(f:(0, \infty) \rightarrow(0, \infty)\) such that \(f^{\prime \prime}(x) \leq 0\) for all \(x\) and \(f^{\prime}\left(x_0\right)<0\) for some \(x_0\). Thus \(f^{\prime}\) is a decreasing function. Define \(g(x)=f(x)-f\left(x_0\right)-f^{\prime}\left(x_0\right)\left(x-x_0\right)\).
 Note that \(g\left(x_0\right)=0\) and \(g^{\prime}(x)=f^{\prime}(x)-f^{\prime}\left(x_0\right)<0\) for all \(x>x_0\). Since \(g\) is a decreasing function on \(\left(x_0, \infty\right)\), we get \(g(x) \leq 0\) for all \(x>x_0\). Now \(f^{\prime}\left(x_0\right)<0\) implies, there exists \(x_1>x_0\) such that \(f\left(x_1\right)<0\).
 </details>
@@ -363,16 +363,16 @@ Note that \(g\left(x_0\right)=0\) and \(g^{\prime}(x)=f^{\prime}(x)-f^{\prime}\l
 
 
 <p><b>B4.</b>
-Let \(\mathcal{P}_n\) denote the collection of polynomials of degree \(n\) such that the polynomial and all its derivatives have integer roots. <br>
+Let \(\mathcal{P_n}\) denote the collection of polynomials of degree \(n\) such that the polynomial and all its derivatives have integer roots. <br>
 
-(a) Find a polynomial in \(\mathcal{P}_2\) having at least two distinct roots.<br>
-(b) Find a polynomial in \(\mathcal{P}_3\) having at least two distinct roots.<br>
-(c) For any polynomial \(P\) in \(\mathcal{P}_n\), show that the arithmetic mean of all roots of \(P\) is also an integer.<br>
+(a) Find a polynomial in \(\mathcal{P_2}\) having at least two distinct roots.<br>
+(b) Find a polynomial in \(\mathcal{P_3}\) having at least two distinct roots.<br>
+(c) For any polynomial \(P\) in \(\mathcal{P_n}\), show that the arithmetic mean of all roots of \(P\) is also an integer.<br>
 
 Show that there does not exist a function \(f:(0, \infty) \rightarrow(0, \infty)\) such that \(f^{\prime \prime}(x) \leq 0\) for all \(x\) and \(f^{\prime}\left(x_0\right) < 0\) for some \(x_0\).
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 i) Let \(f=(x-\alpha)(x-\beta)\); then \(f^{\prime}=(x-\alpha)+(x-\beta)=2 x-(\alpha+\beta)\). Thus the condition is \(\alpha+\beta\) must be even. <br>
 
 ii) Let \(f=(x-\alpha)(x-\beta)(x-\gamma)\)
@@ -411,20 +411,29 @@ Since \(p^{(n-1)}(x)\) has integer roots, it is equal to \(\frac{-(n-1) ! a_{n-1
 <p><b>B5.</b>
 There is a \(n\times n\) board in which \( (n-1)^2 \) identical coins are kept as follows. Each cell has a coin, except for the last row and the last column of cells.
 The cell in the \(i\)th row and the \(j\)th column is indexed by \( (i,j) \). The initial configuration of the board with \(n=6\) is shown below. The sixth row and the sixth column are empty.
+</p>
 
 <p style="text-align:center">
 <img src="/assets/images/mt19_board.png"/>
 </p>
 
-We can move a coin placed on cell \( (i,j) \) to the cell \( (i+1,j+1) \) if \( 1 \leq i,j \leq n-1 \) and the cells at \( (i,j+1), (i+1,j) \) and \( (i+1,j+1) \) are
+<p>We can move a coin placed on cell \( (i,j) \) to the cell \( (i+1,j+1) \) if \( 1 \leq i,j \leq n-1 \) and the cells at \( (i,j+1), (i+1,j) \) and \( (i+1,j+1) \) are
 empty. How many configurations of the board can we get by a sequence of valid moves? A sequence can have any number of moves, including zero.
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 The trick is to look at the path of empty cells. There is a 1-1 correspondence between the paths 
-that go from the top left corner to bottom right corner and the cell configurations. The paths are
-such that each step either goes right or down. There are \( \choose{2n}{n} \) such paths. 
+that go from the top left corner to bottom right corner and the coin configurations. The paths are
+such that each step either goes right or down. There are \( \binom{2n-2}{n-1} \) such paths. <br>
+
+
+To see the correspondence, we work backwards. Ending at a given path, if this path is not the initial path,
+then it contains at least one sequence of squares of the form \( (i,j)\rightarrow (i,j−1) \rightarrow (i+1,j−1)\).
+In this case the square \( (i+1,j) \) must be occupied, so we can undo a move by replacing this sequence with
+\( (i,j)\rightarrow (i+1,j) \rightarrow (i+1,j−1) \).
 </details>
+
+
 
 ---
 
@@ -437,12 +446,28 @@ that \(q^2 - 4pr = a^2\) for some integer \(a\).  <br>
 (b) Show that the prime number 3 appears in at most six triples in \( S \).<br>
 </p>
 
-<details open><summary>Sol.</summary>
+<details><summary>Sol.</summary>
 
 (a) \( (2,5,3),(2,7,5),(2,11,5), \) etc.<br>
 
-(b) Source: Putnam 2011, B2.
+(b) 
 
+<b>Lemma 1.</b> Either \(p\) or \(r\) is 2.<br>
+<i>Proof.</i> Since \(4pr \geq 16\) and \(a^2 \leq 0\), we must have \(q\geq 5\). Since \(q\) is odd \(a\)
+must also be odd. \(q^2 \equiv a^2 \equiv 1 (\mod 8) \implies 4pr \equiv 0 (\mod 8) \). \( \;\;\; \square \).<br> 
+
+<b>Lemma 2.</b> If \(r=2\), then \(q \in \{2p+1,p+2\}\).<br>
+If \(r=2\), \(8p = (q+a)(q-a)\). Both the factors \( q+a \) and \(q-a\) must be positive (since they have the same sign and add up to a positive number \(2q\)).
+Also, both the factors must be even since \(q\) and \(a\) have the same parity. So \( (q\pm a) \in \{2,4,2p,4p\} \). Hence, \( 2q \in \{4p+2,2p+4\} \).
+
+<br><b>Corollary 2.</b> If \(p=2\), then \(q \in \{2r+1,r+2\}\).<br>
+
+The above observations mean that a prime \(x\) occurs at most twice as many times as there are prime numbers in the list
+\[ 2x+1, x+2, (x-1)/2, x-2 \]. If \(x=3\), \(x-2\) is not a prime.
+
+
+<br><i>Source: Putnam 2011, B2.</i> 
 </details>
+
 
 
