@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Mock test 1 Full-syllabus test
-nav_exclude: false
+nav_exclude: true
 ---
 
 
