@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- Registration for February's mock tests are open.
+- Registration for February's mock tests is now open.
 - The next test is scheduled on Feb 10th. 
 - Feedback for the second test will be sent by Feb 12th.
 
