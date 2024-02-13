@@ -37,7 +37,7 @@ from 1 to 1,00,000 is
 </li>
 
 <details open><summary>Sol.</summary>
-<b>Ans.</b> (d)<br>
+<b>Ans.</b> (d) The digit 7 appears in the units place \(10^4\) times, in the tens place \(10^4\) times, and so on.<br>
 <i>Source: Madhava Competition '23.</i>
 </details>
 
@@ -110,6 +110,8 @@ then which one of the following are true?
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (c) <br>
+Answer: C) Note that $0< x <1 \Rightarrow x^8 < x^2 \Rightarrow 1+x^8<1+x^2 \Rightarrow 1 /\left(1+x^8\right)>1 /\left(1+x^2\right)$.
+So $I>\int_0^1 1 /\left(1+x^2\right) d x=\pi / 4$.
 <i>Source: Madhava '15.</i>
 </details>
 
@@ -129,8 +131,10 @@ Suppose \(p\) is a prime number. The possible values of gcd of \(p^3+ p^2+ p+ 11
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (b) <br>
+Let \(a=p^3+p^2+p+11, b=p^2+1\), and \(d=\operatorname{gcd}\) of \(a\) and \(b\). Then since \(a=b(p+1)+10, d\) divides 10. So \(d=1,2,5\) or 10. But for \(p=2\), we get \(d=5\) and for odd \(p\), both \(a, b\) are even, hence \(d\) is even. So \(d \neq 1\).
 <i>Source: MMC '15.</i>
 </details>
+
 
 
 <li>
@@ -146,6 +150,7 @@ Consider all \(2\times2\) matrices whose entries are distinct and belong to \(\{
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (d) <br>
+There are in all \(4 !=24\) matrices. These can be taken in pairs like \(A=\left(\begin{array}{ll}a & b \\ c & d\end{array}\right)\) and \(B=\left(\begin{array}{cc}c & d \\ a & b\end{array}\right)\) where \(B\) is obtained by interchanging the rows of \(A ; \operatorname{so} \operatorname{det} A=-\operatorname{det} B\) or \(\operatorname{det} A+\operatorname{det} B=0\).
 <i>Source: MMC '15.</i>
 </details>
 
@@ -187,7 +192,12 @@ For example, \( (1,1,5,1,5) \) and \( (1,1,1,1,1,1,1,1,1,1,1,1,1) \) are valid s
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (c) <br>
-7th mock.
+There are 3 sets of 1s and 5s that sum to 13.<br>
+
+In a given sequence if there are \(n\) 5s there will be \(13-5n\) 1s.
+We have a total of \( (13-5n)+n=13-4n\) numbers so we want to compute:
+
+\[ \sum_{n=0}^{2} \binom{13-4n}{n} = \binom{13}{0} + \binom{9}{1} + \binom{5}{2} = 20  \]
 </details>
 
 
@@ -212,7 +222,13 @@ What is the value of the \(\angle BAD\) in degrees.
 
 <details open><summary>Sol.</summary>
 <b>Ans.</b> (a) <br>
-7th
+Since \(A D\) bisects angle \(BAC\), we apply the <a href="https://en.wikipedia.org/wiki/Angle_bisector_theorem">angle-bisector theorem</a> to find AC:
+\[\frac{A B}{B D}=\frac{AC}{CD} \Longrightarrow AC=\frac{C D}{B D} \cdot A B=20\]
+<br>
+Let \(E\) be the point on \(A C\) such that \(B E \perp A C .\) Since the area of \(\triangle A B C\) is 50, we have \(\frac{A C \cdot B E}{2}=50 \Longrightarrow B E=5\).<br>
+
+But \(\triangle A B E\) is a right triangle and \(A B=2 B E\), so \(\angle BAE=30^{\circ}\). It follows that \(\angle BAC=30^{\circ}\) so \(\angle B A D=15^{\circ}\).
+
 </details>
 
 
