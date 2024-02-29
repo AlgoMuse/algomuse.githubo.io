@@ -23,7 +23,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 - The fourth mock test is over. The schedule for March will be announced shortly.
-- Feedback for the third test will be sent by Feb 29th.
+- Feedback for the third test will be sent by March 2nd.
 
 
 ---
