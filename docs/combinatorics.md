@@ -259,7 +259,16 @@ Without loss of generality, assume that \(a_0>0\). Let the common difference be 
 </p>
 
 <p>
-The difference between any two consecutive squares in the A.P. is unbounded, hence at some point \( a_i^2 - a_{i-1}^2 > d \).
+The difference between any two consecutive squares in the A.P. is unbounded,
+hence at some point \( a_i^2 - a_{i-1}^2 > d \).
+</p>
+
+
+<p>
+<i>Another solution due to Rayazi Daan</i>: Fix an \(n\). Since the common difference is \(d\), the
+number \(nd\) has finite number of factors. If \(a^2\) and \(b^2\) are pairs of numbers in the sequence
+that are \(n\) terms apart, then \(a^2 - b^2 = (a+b)(a-b)  = nd\). Since RHS has finite number of factors,
+there can only be finite number of such pairs.
 </p>
 
 
