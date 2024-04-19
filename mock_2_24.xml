@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+The number of times the digit 7 appears while listing all integers from 1 to $1,00,000$ is
+        </text>
+    </questionContent>
+
+    <option><text> $10^4$     </text></option>
+    <option><text> $5(10)^4-1$  </text></option>
+    <option><text> $10^5$       </text></option>
+    <option><text> $5(10)^4$   </text></option>
+
+    <correctAnswer>4</correctAnswer>
+
+    <solution>From Madhava 23.</solution>
+</question>
+
+
+<!--
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+
+        </text>
+    </questionContent>
+
+    <option><text>   </text></option>
+    <option><text>   </text></option>
+    <option><text>   </text></option>
+    <option><text>   </text></option>
+
+    <correctAnswer>1</correctAnswer>
+
+</question>
+
+-->
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+Suppose \(p(x) = x^3 + x^2 + 2x + k\). Which of the following statements is true?
+        </text>
+    </questionContent>
+
+    <option><text> \( p(x) \) has exactly one real root for any value of \(k\).       </text></option>
+    <option><text> For some real number \(k\), \(p(x)\) has more than one real root.  </text></option>
+
+    <correctAnswer>1</correctAnswer>
+
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+Consider the function \(f: \mathbb{R} \rightarrow \mathbb{R}\) given by \( f(x)=(x-1)|(x-1)(x-2)|\). The function \(f\) is
+        </text>
+    </questionContent>
+
+    <option><text> differentiable at \(x=1\) and \(x=2\).             </text></option>
+    <option><text> differentiable at \(x=1\) but not at \(x=2\).      </text></option>
+    <option><text> differentiable at \(x=2\) but not at \(x=1\).      </text></option>
+    <option><text> neither differentiable at \(x=1\) nor at \(x=2\).  </text></option>
+
+    <correctAnswer>2</correctAnswer>
+
+    <solution>
+        004 mock test
+    </solution>
+
+</question>
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+What is the smallest value of \(n\) for which the following limit exists?
+
+\[ \lim_{x \rightarrow 0} \frac{\sin^{n}x}{\cos^{4}x(1-\cos x)^{3}} \]
+        </text>
+    </questionContent>
+
+    <option><text> 3  </text></option>
+    <option><text> 4  </text></option>
+    <option><text> 5  </text></option>
+    <option><text> 6  </text></option>
+    <option><text> None of the above  </text></option>
+
+    <correctAnswer>4</correctAnswer>
+
+    <solution>
+        004 mock test
+    </solution>
+
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+            Suppose $$I=\int_{0}^{1} \frac{1}{1+x^8} \mbox{d}x $$, then which one of the
+            following are true?
+        </text>
+    </questionContent>
+
+    <option><text> $I < 1/2$   </text></option>
+    <option><text> $I < \pi/4$  </text></option>
+    <option><text> $I > \pi/4$  </text></option>
+    <option><text> $I = \pi/4$  </text></option>
+
+    <correctAnswer>3</correctAnswer>
+    <solution> Madhava 15.</solution>
+
+</question>
+
+
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+            Suppose $p$ is a prime number. The possible values of gcd of $p^3+ p^2+ p+ 11$ and $p^2+ 1$ are:
+        </text>
+    </questionContent>
+
+    <option><text>1,2,5    </text></option>
+    <option><text>2,5,10   </text></option>
+    <option><text>1,5,10   </text></option>
+    <option><text>1,2,10   </text></option>
+    <option><text>1,2,5,10 </text></option>
+
+    <correctAnswer>2</correctAnswer>
+    <solution>MMc 2015</solution>
+
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+Consider all $2\times2$ matrices whose entries are distinct and belong to $\{1,2,3,4\}$. The sum of determinants of all such matrices is
+        </text>
+    </questionContent>
+
+    <option><text>24      </text></option>
+    <option><text>Negative</text></option>
+    <option><text>Positive</text></option>
+    <option><text>0       </text></option>
+
+    <correctAnswer>4</correctAnswer>
+    <solution>MMC 2015</solution>
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+            Alice and Bob are standing on a playground and Alice is 400 meters directly east of Bob.
+            Alice starts to walk North at a rate of 3 meters per sec, while Bob
+            starts to walk south at the same time at a rate of 7 meters per sec.
+            After 30 seconds, at what rate is the distance between Alice and Bob changing 
+            in meters per sec?
+        </text>
+    </questionContent>
+
+    <option><text>4</text></option>
+    <option><text>5</text></option>
+    <option><text>6</text></option>
+    <option><text>7</text></option>
+    <option><text>8</text></option>
+
+    <correctAnswer>3</correctAnswer>
+</question>
+
+
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+<text>
+Count the number of ordered sequences of \(1\)s and \(5\)s that add up to \(13\).
+</text>
+
+<text>
+For example, \( (1,1,5,1,5) \) and \( (1,1,1,1,1,1,1,1,1,1,1,1,1) \) are valid sequences.
+</text>
+    </questionContent>
+
+    <option><text>15</text></option>
+    <option><text>18</text></option>
+    <option><text>20</text></option>
+    <option><text>22</text></option>
+    <option><text>None of the above</text></option>
+
+    <correctAnswer>3</correctAnswer>
+    <solution>007 mock test</solution>
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+<text>We have a triangle \(ABC\) and \(AD\) bisects the angle \(BAC\). We know the following
+measurements: \(AB=10\) cm, \(CD=2 BD\) and the area of the triangle \(ABC\) is 50 sq. cm. 
+What is the value of the \(\angle BAD\) in degrees.
+</text>
+    <image>mt7_triangle.png</image>
+    </questionContent>
+
+    <option><text>15</text></option>
+    <option><text>20</text></option>
+    <option><text>22</text></option>
+    <option><text>25</text></option>
+    <option><text>None of the above</text></option>
+
+    <correctAnswer>1</correctAnswer>
+    <solution>007 mock test</solution>
+</question>
+
+
+
+
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Consider a convex quadrilateral \({ABCD}\). 
+            Let \({E}, {F}, {G}\) and \({H}\) be the midpoints of the sides
+            \({AB}, {BC}, {CD}\) and \({DA}\), respectively.
+            Show that \({EFGH}\) is a parallelogram whose
+            area is half that of \({ABCD}\).
+        </text>
+        <image>mt2_24_B2.jpg</image>
+        </text>
+
+    </questionContent>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+Show that there are exactly 2 numbers \(a\) in \(\{2,3, \ldots, 9999\}\) for which \(a^{2}-a\) is divisible by \(10000 .\) Find these values of \(a\).
+        </text>
+    </questionContent>
+    <solution>
+B3, 2015.
+    </solution>
+</question>
+
+
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Let $f: \mathbb{R} \rightarrow \mathbb{R}$ be a continuous function
+            satisfying $f^3(x) = x$. Prove that $f^2(x) = x$.
+        </text>
+    </questionContent>
+    <solution>
+        Madhava 2023.
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+        Let $f$ be a quadratic polynomial.
+        Show that there exist quadratic polynomials $g, h$ such that $f(x) f(x+1)=g(h(x))$. 
+        </text>
+    </questionContent>
+    <solution>
+        Madhava 2022.
+    </solution>
+
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+    In how many ways can we arrange numbers from 1 to 100 in a circle such that the
+    sum of two numbers placed opposite each other is the same?
+    Two arrangements are equivalent up to rotation.
+        </text>
+    </questionContent>
+
+    <solution>
+It is clear that opposite pairs must be $(1,100),(2,99), \ldots,(50,51)$
+1 can be placed anywhere and 100 must be placed opposite to 1 . This can be done in exactly one way as all places are identical to start with.
+Now, 2 has 98 options and then 99 has to be placed opposite to 2 .
+3 has 96 options and then 96 must be placed opposite to 3 and so on.
+By multiplication principle, the required number of ways is
+$$
+98 \times 96 \times 94 \times \cdots \times 2=2^{49} \times 49 \text { ! }
+$$
+    </solution>
+
+</question>
+
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+Let $f:[0,1] \rightarrow \mathbb{R}$ be a differentiable function such that $f^{\prime}$ is continuous and $f(0)=0, f(1)=1$.
+        </text>
+        <text>
+((a)) Show that there exists $x_1$ in $(0,1)$ such that $\frac{1}{f^{\prime}\left(x_1\right)}=1$. 
+        </text>
+        <text>
+((b)) Show that there exist distinct $x_1, x_2$ in $(0,1)$ such that $\frac{1}{f^{\prime}\left(x_1\right)}+\frac{1}{f^{\prime}\left(x_2\right)}=2$.
+        </text>
+    </questionContent>
+
+    <solution>
+    </solution>
+
+    <credit>
+        Madhava 2022.
+    </credit>
+
+</question>
+
+
+
+</library>
+
+
+

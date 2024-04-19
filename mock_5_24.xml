@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+            What are the minimum and maximum values of the expression, respectively?
+\[ \cos \theta\left(\sin \theta+\sqrt{\sin ^2 \theta+3}\right) \]
+        </text>
+    </questionContent>
+
+    <option><text>-2 and 2</text></option>
+    <option><text>0 and 2</text></option>
+    <option><text>-2 and 4</text></option>
+    <option><text>-3/2 and 2</text></option>
+
+    <correctAnswer>1</correctAnswer>
+
+    <solution>
+
+    </solution>
+</question>
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+Suppose \(f(x)\) and \(g(x)\) are real-valued differentiable functions such that \(f^{\prime}(x) \geq g^{\prime}(x)\) for all \(x\) in \([0,1]\). Which of the following is necessarily true?
+        </text>
+    </questionContent>
+
+    <option><text>  \( f(1) \geq g(1)\)                                   </text></option>
+    <option><text>  \( f(1)-g(1) \geq f(0)-g(0)\)                         </text></option>
+    <option><text>  \( f-g\) has no maximum on \([0,1]\)                  </text></option>
+    <option><text>  \( f+g\) is a non-decreasing function on \([0,1]\)    </text></option>
+
+    <correctAnswer>2</correctAnswer>
+
+    <solution>
+The condition \(f^{\prime}(x)-g^{\prime}(x) \geq 0\) implies that \(f(x)-g(x)\) is an increasing function on \([0,1]\). Therefore \(f(1)-g(1) \geq f(0)-g(0)\).
+        MMC 14
+    </solution>
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+    Let \(\mathbb{R}^{+}\)be the set of positive real numbers.
+    Suppose \(f: \mathbb{R}^{+} \rightarrow \mathbb{R}^{+}\) such that, for all \(x, y \in \mathbb{R}^{+}\),
+\[ f(x y+f(x))=x f(y)+2 \]
+        </text>
+
+        <text> 
+            How many functions satisfy the above condition?
+        </text>
+    </questionContent>
+
+    <option><text>0</text></option>
+    <option><text>1</text></option>
+    <option><text>2</text></option>
+    <option><text>3</text></option>
+
+    <correctAnswer>2</correctAnswer>
+
+    <solution>
+        USAMO 23.
+    </solution>
+</question>
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+How many pairs \( (x, y) \) of integers exist such that \( y^2=x(x+1)(x+2) \).
+        </text>
+    </questionContent>
+
+    <option><text>  0 </text></option>
+    <option><text>  1  </text></option>
+    <option><text>  2  </text></option>
+    <option><text>  3 </text></option>
+
+    <correctAnswer>1</correctAnswer>
+
+    <solution>
+        If \(x< -2\), then there is no solution.  If \(x=0,-1,-2\), then \(y=0\).
+        If \(x \geq 1\), then \(\operatorname{gcd}(x+1, x(x+2))=1\).
+        Therefore \((x+1)\) and \(x(x+2)\) are both perfect squares.
+        But, \(x(x+2)=x^2+2 x=(x+1)^2-1\).
+        This implies \((x+1)^2\) and \((x+1)^2-1\) are consecutive numbers which are squares.
+        This is not possible.
+        MMC 2014.
+    </solution>
+
+</question>
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+            A 40 feet high pole is put on a vertical wall 10 feet above your eye-level.
+            How far should you stand approximately to maximize the angle subtended by the pole
+            ,from top to bottom, at your eye?
+        </text>
+    </questionContent>
+
+    <option><text>  19  </text></option>
+    <option><text>  20  </text></option>
+    <option><text>  22 </text></option>
+    <option><text>  24 </text></option>
+
+    <correctAnswer>3</correctAnswer>
+
+    <solution>
+Q2, 2008 BS.
+    </solution>
+
+</question>
+
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+Consider a sequence given by \(a_n=a_{n-1}+3 a_{n-2}+a_{n-3}\), where \(a_0=a_1=a_2=1\). What is the remainder of \(a_{2013}\) divided by 7?
+        </text>
+    </questionContent>
+
+<option><text> 2 </text> </option>
+<option><text> 3</text> </option>
+<option><text> 4 </text> </option>
+<option><text> 5</text> </option>
+
+<correctAnswer>4</correctAnswer>
+
+    <solution>
+SmT general 2013.
+    </solution>
+</question>
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+            The vertices of a regular pentagon are concyclic.
+            If the length of each side of the pentagon is 1, the radius of the circumcircle is
+        </text>
+    </questionContent>
+
+<option><text>  \(\frac{1}{2 \sin 36^\circ}\) </text> </option>
+<option><text>  \(\frac{1}{\sin 36^\circ}\) </text> </option>
+<option><text>  \(\frac{1}{2 \sin 18^\circ}\) </text> </option>
+<option><text>  \(\frac{1}{\sin 18^\circ}\) </text> </option>
+
+<correctAnswer>1</correctAnswer>
+
+    <solution>
+Q7, 2009 BS.
+    </solution>
+</question>
+
+
+<question>
+    <type>mc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+If \(p\) is a prime number and \(a>1\) is a natural number, then the greatest common divisor of the two numbers \(a-1\) and \(\frac{a^p-1}{a-1}\) can be:
+        </text>
+    </questionContent>
+
+    <option><text> 1 </text></option>
+    <option><text> \(p\) </text></option>
+    <option><text> \(2p\) </text></option>
+    <option><text> \(p^2\) </text></option>
+
+    <correctAnswer>1</correctAnswer>
+    <correctAnswer>2</correctAnswer>
+
+    <solution>
+Q10, BM 2008
+    </solution>
+
+</question>
+
+
+
+<question>
+    <type>num</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+How many trailing zeros does the value
+\[ 300 \cdot 305 \cdot 310 \cdots 1090 \cdot 1095 \cdot 1100 \]
+end with?
+        </text>
+    </questionContent>
+
+    <correctAnswerLower>161</correctAnswerLower>
+    <correctAnswerUpper>161</correctAnswerUpper>
+
+    <solution>
+SMT 2023.
+    </solution>
+
+</question>
+
+
+
+<question>
+    <type>num</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+            Triangle \(A B C\) has side lengths \(A B=39, B C=16\), and \(C A=25\).
+            What is the approximate volume of the solid formed by rotating the triangle \(ABC\) about line \(B C\)?
+            Write an integer value that is within \(\pm\) 3 units of the actual volume.
+        </text>
+    </questionContent>
+
+    <correctAnswerLower>3766</correctAnswerLower>
+    <correctAnswerUpper>3772</correctAnswerUpper>
+
+    <solution>
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Equilateral triangle \(\triangle A B C\) is inscribed in circle \(\Omega\), which has a radius of 1.
+            Let the midpoint of \(B C\) be \(M\). Line \(A M\) intersects \(\Omega\) again at point \(D\).
+            Let \(\omega\) be the circle with diameter \(M D\).
+            Compute the radius of the circle that is tangent to \(B C\) on the same side of \(B C\) as \(\omega\), internally tangent to \(\Omega\), and externally tangent to \(\omega\).
+        </text>
+    </questionContent>
+
+    <solution>
+SMT 2023 Geometry.
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+Find the number of ways in which three numbers can be selected from the set \(\{1,2, \cdots, 12\}\), such that the sum of the three selected numbers is divisible by 4.
+        </text>
+    </questionContent>
+
+    <solution>
+Q8, 2009 BS.
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+Suppose \(f: \mathbb{R} \rightarrow \mathbb{R}\) is a non-constant function satisfying \(f(x+y)=f(x) f(y)\) for all \(x, y \in \mathbb{R}\). Show that
+        </text>
+        <text>
+((a)) \(f(x) \neq 0\) for all \(x \in \mathbb{R}\)
+        </text>
+        <text>
+((b)) \(f(x)>0\) for all \(x \in \mathbb{R}\)
+        </text>
+    </questionContent>
+
+    <solution>
+
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+For how many real numbers \(x\) do we have that \(\log_5(1+x)=x\) ?
+        </text>
+    </questionContent>
+
+    <solution>
+SMT 2023. Calculus.
+    </solution>
+</question>
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+Let \(r_1(t) \leq r_2(t) \leq r_3(t)\) be the roots of \(x^3+t x+2\). When \(t=-3\), compute \(r_1^{\prime}(t)\).
+        </text>
+    </questionContent>
+
+    <solution>
+
+    </solution>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text> 
+            A \(3 \times 3\) grid is to be painted with three colors red, green, and blue such that
+        </text> 
+        <text> 
+            1. no two squares that share an edge are the same color and
+        </text> 
+        <text> 
+            2. no two corner squares on the same edge of the grid have the same color.
+        </text> 
+        <text> 
+            As an example, the upper-left and bottom-left squares cannot both be red, as that would violate condition
+            the second condition.
+            In how many ways can this be done? Rotations and reflections are considered distinct colorings.
+        </text> 
+    </questionContent>
+
+    <solution>
+        24. SMT 2023.
+    </solution>
+
+</question>
+
+
+
+
+
+
+
+</library>
+
+
+

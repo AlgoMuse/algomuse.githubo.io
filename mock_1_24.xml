@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> 
+We have a supply of ice-creams, each of which has two properties: the flavour can be strawberry or vanilla and the cone can be colored brown or green. Half of the ice-creams have a strawberry flavour and the other half have vanilla flavour. Also, $\frac{4}{9}$ of the strawberry ice-creams have brown cones and $\frac{2}{3}$ of the vanilla ice-creams have green cones. What fraction of the green cones are strawberry flavoured?
+        </text>
+    </questionContent>
+
+    <option><text>2/3</text></option>
+    <option><text>6/11</text></option>
+    <option><text>5/6</text></option>
+    <option><text>5/11</text></option>
+    <option><text>1/3</text></option>
+
+    <correctAnswer>4</correctAnswer>
+
+    <solution>5/11. From SMT 23.</solution>
+</question>
+
+
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text> Suppose \(f: \mathbb{R} \rightarrow \mathbb{R}\) is an odd and differentiable function.
+            Then for every \(x_{0} \in \mathbb{R}, f^{\prime}\left(-x_{0}\right)\) is equal to:
+        </text>
+    </questionContent>
+
+    <option><text>\(f^{\prime}\left(x_{0}\right)\)</text></option>
+    <option><text>\(-f^{\prime}\left(x_{0}\right)\)</text></option>
+    <option><text>0</text></option>
+    <option><text>-1</text></option>
+    <option><text>None of these. </text></option>
+
+    <correctAnswer>1</correctAnswer>
+</question>
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+        We have six hidden numbers \(a_1,a_2,\ldots,a_6\). The are 64 possible subsets of these six numbers. The sum of the elements in each of these 64 subsets is given in the list \(S\) below. 
+        </text>
+        <image>mt19_subset.png</image>
+        <text> What is the value of the sum \(a_1+a_2+a_3+a_4+a_5+a_6\)? </text>
+
+    </questionContent>
+
+
+    <option><text>\( -4 \)</text></option>
+    <option><text>\( -5 \)</text></option>
+    <option><text>\( -6 \)</text></option>
+    <option><text>\( -7 \)</text></option>
+
+    <correctAnswer>2</correctAnswer>
+
+</question>
+
+
+
+
+
+<question>
+    <type>sc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>Suppose \(p\) be an odd prime. Let \(N\) denote the second smallest multiple of \(p\) that is a perfect cube.
+    How many positive factors does \(N\) have?</text>
+    </questionContent>
+ 
+    <option><text>10</text></option>
+    <option><text>12</text></option>
+    <option><text>16</text></option>
+    <option><text>20</text></option>
+
+    <correctAnswer>3</correctAnswer>
+
+    <solution>
+        Since \(p\) is an odd prime, the second smallest multiple of \(p\) that is a perfect cube is \(2^3·p^3 = 8p^3\).
+        The number of positive factors is therefore (3 + 1)(3 + 1).
+    </solution>
+</question>
+
+
+<question>
+    <type>mc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+        There are $n$ cards. Alice and Bob play, alternately, the following game. Alice starts the game by removing
+                one card. In each subsequent move the current player can remove any quantity of cards,
+        from $1$ card to $t+1$ cards, where $t$ is the number of cards removed by the opponent in the previous move. The winner is the player who removes the last card.
+                The possible values of $n$ for which Alice has the winning strategy are:
+        </text>
+    </questionContent>
+
+    <option><text>\( n=0\mod 5\)</text></option>
+    <option><text>\( n=1\mod 5\)</text></option>
+    <option><text>\( n=2\mod 5\)</text></option>
+    <option><text>\( n=3\mod 5\)</text></option>
+    <option><text>\( n=4\mod 5\)</text></option>
+
+    <correctAnswer>2</correctAnswer>
+    <correctAnswer>5</correctAnswer>
+
+</question>
+
+
+
+<question>
+    <type>mc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+Suppose \(a_i\) and \(b_i\) are real numbers such that \(\sum_1^\infty a_i^2\) and \(\sum_1^\infty b_i^2\) converge. Which of these statements is true?
+        </text>
+    </questionContent>
+ 
+    <option><text>The sequence \(\sum_1^\infty |a_i-b_i| \) converges.</text></option>
+    <option><text>The sequence \(\sum_1^\infty |a_i-b_i|^{2} \) converges.</text></option>
+    <option><text>The sequence \(\sum_1^\infty (a_i-b_i)^2 \) converges.</text></option>
+    <option><text>The sequence \(\sum_1^\infty (a_i-b_i)^3 \) converges.</text></option>
+
+    <correctAnswer>2</correctAnswer>
+    <correctAnswer>3</correctAnswer>
+    <correctAnswer>4</correctAnswer>
+</question>
+
+<question>
+    <type>mc</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+If \(a+b+c=0\), then the quadratic equation \(3 a x^{2}+2 b x+c=0\) has \(\\\).
+        </text>
+    </questionContent>
+ 
+    <option><text>at least one root in \((0,1)\).</text></option>
+    <option><text>one root in \((1,2)\) and the other in \((-1,0)\). </text></option>
+    <option><text>both imaginary roots.</text></option>
+    <option><text>a repeated root.</text></option>
+
+    <correctAnswer>1</correctAnswer>
+</question>
+
+
+
+
+<question>
+    <type>num</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+Suppose \( S=\{1,2,3,4,5\} \).  Find the number of pairs \( (A,B) \)
+that can be formed such that \(A \subseteq S\) and \(B\subset A\).
+        </text>
+    </questionContent>
+
+    <correctAnswerLower>211</correctAnswerLower>
+    <correctAnswerUpper>211</correctAnswerUpper>
+</question>
+
+
+<question>
+    <type>num</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+The number of continuous functions \(f: \mathbb{R} \rightarrow \mathbb{R}\) satisfying \((f(x))^{2}=x f(x)\) is:
+        </text>
+    </questionContent>
+
+    <correctAnswerLower>4</correctAnswerLower>
+    <correctAnswerUpper>4</correctAnswerUpper>
+</question>
+
+
+<question>
+    <type>num</type>
+    <marks>4</marks>
+    <questionContent>
+        <text>
+If \(x\) and \(y\) are positive integers that satisfy \(43 x+47 y=2023\), compute the minimum possible value of \(x+y\).
+        </text>
+    </questionContent>
+
+    <correctAnswerLower>45</correctAnswerLower>
+    <correctAnswerUpper>45</correctAnswerUpper>
+
+    <solution>
+     Taking modulo 43 , one notices that \(47 \equiv 4(\bmod 43)\) and \(2023 \equiv 2(\bmod 43)\). We rewrite \(43 x+47 y \equiv 4 y \equiv 2(\bmod 43)\). The least \(y\) for which this holds is \(y=22\), and computing, \(23 \cdot 43+22 \cdot 47=2023\). It is impossible to have other positive integer pair solutions because all solutions are given by the form \((x, y)=(23+47 k, 22-43 k)\) for integers \(k\). Therefore, the minimal value is \(23+22=45\).
+    </solution>
+</question>
+
+
+
+
+
+
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            There are \(n \ge 3\) positive real numbers \(a_1, a_2, \dots, a_n\). For each \(1 \le i \le n\) we let \(b_i = \frac{a_{i-1} + a_{i+1}}{a_i}\). 
+            Here we define \(a_0\) to be \(a_n\) and \(a_{n+1}\) to be \(a_1\). 
+            Assume that for all \(i\) and \(j\) in the range \(1\) to \(n\), 
+            we have \(a_i \le a_j\) if and only if \(b_i \le b_j\). Prove that \(a_1 = a_2 = \dots = a_n\).
+        </text>
+    </questionContent>
+</question>
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Suppose \(ABC\) is an equilateral triangle with side length 7 cm. We draw the circumcircle of the triangle as shown below.
+            Find a point \(D\) on the arc \(BC\) such that the distances \(AD,BD\) and \(CD\) are all integers. Write down 
+            the values of the three distances for your choice of the point \(D\).
+        </text>
+        <image>integer_distances.png</image>
+    </questionContent>
+</question>
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+        Show that there does not exist a function \(f:(0, \infty) \rightarrow(0, \infty)\) such that \(f^{\prime \prime}(x) \leq 0\) for all \(x\) and \(f^{\prime}\left(x_0\right) < 0\) for some \(x_0\).
+        </text>
+    </questionContent>
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Let \(\mathcal{P}_n\) denote the collection of polynomials of degree \(n\) such that the polynomial and all its derivatives have integer roots.<br>
+        </text>
+        <text>
+             ((a)) Find a polynomial in \(\mathcal{P}_2\) having at least two distinct roots.<br>
+        </text>
+
+        <text>
+             ((b)) Find a polynomial in \(\mathcal{P}_3\) having at least two distinct roots.<br>
+        </text>
+
+        <text>
+        ((c)) For any polynomial \(P\) in \(\mathcal{P}_n\), show that the arithmetic mean of all roots of \(P\) is also an integer.
+        </text>
+    </questionContent>
+
+
+
+</question>
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            There is a \(n\times n\) board in which \( (n-1)^2 \) identical coins are kept as follows. Each cell has a coin, except for the last row and the last column of cells.
+            The cell in the \(i\)th row and the \(j\)th column is indexed by \( (i,j) \). The initial configuration of the board with \(n=6\) is shown below. The sixth row and the sixth column are empty.
+        </text>
+        <image>mt19_board.png</image>
+        <text>
+We can move a coin placed on cell \( (i,j) \) to the cell \( (i+1,j+1) \) if \( 1 \leq i,j \leq n-1 \) and the cells at \( (i,j+1), (i+1,j) \) and \( (i+1,j+1) \) are
+empty. How many configurations of the board can we get by a sequence of valid moves? A sequence can have any number of moves, including zero.
+        </text>
+    </questionContent>
+</question>
+
+
+
+<question>
+    <type>des</type>
+    <marks>10</marks>
+    <questionContent>
+        <text>
+            Let \(p,q\) and \(r\) be prime numbers. Let \(S\) be the set of all ordered triples \((p,q,r)\) such 
+            that \(q^2 - 4pr = a^2\) for some integer \(a\).  
+        </text>
+        <text>
+            ((a)) Give an example of a valid triple.
+        </text>
+        <text>
+            ((b)) Show that the prime number 3 appears in at most six triples in \( S \).
+        </text>
+    </questionContent>
+
+    <solution>
+Only the primes 2 and 5 appear seven or more times. The fact that these primes appear is demonstrated by the examples
+\[ (2,5,2),(2,5,3),(2,7,5),(2,11,5) \]
+and their reversals.
+It remains to show that if either \(\ell=3\) or \(\ell\) is a prime greater than 5 , then \(\ell\) occurs at most six times as an element of a triple in \(S\). Note that \((p, q, r) \in S\) if and only if \(q^2-4 p r=a^2\) for some integer \(a\); in particular, since \(4 p r \geq 16\), this forces \(q \geq 5\). In particular, \(q\) is odd, as then is \(a\), and so \(q^2 \equiv a^2 \equiv 1(\bmod 8)\); consequently, one of \(p, r\) must equal 2. If \(r=2\), then \(8 p=q^2-a^2=\) \((q+a)(q-a)\); since both factors are of the same sign and their sum is the positive number \(2 q\), both factors are positive. Since they are also both even, we have \(q+a \in\) \(\{2,4,2 p, 4 p\}\) and so \(q \in\{2 p+1, p+2\}\). Similarly, if \(p=2\), then \(q \in\{2 r+1, r+2\}\). Consequently, \(\ell\) occurs at most twice as many times as there are prime numbers in the list
+        \[
+2 \ell+1, \ell+2, \frac{\ell-1}{2}, \ell-2 .
+        \]
+
+For \(\ell=3, \ell-2=1\) is not prime. For \(\ell \geq 7\), the numbers \(\ell-2, \ell, \ell+2\) cannot all be prime, since one of them is always a nontrivial multiple of 3 .
+    </solution>
+
+    <credit>
+        Source: Putnam 2011, B2.
+    </credit>
+
+</question>
+
+
+
+</library>
+
+
+
