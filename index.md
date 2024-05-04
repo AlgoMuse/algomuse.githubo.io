@@ -22,7 +22,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 #### Announcement
 {: .fs-4}
 
-- The next mock test is scheduled on 4th May, Saturday. This will be an objective test 
+- Offline objective mock test is on 5th May at 2-3 pm. This is an objective test 
 for 40 marks. The test is open to all subscribers. **No fees is required to be paid**.
 
 
