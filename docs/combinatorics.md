@@ -265,7 +265,7 @@ hence at some point \( a_i^2 - a_{i-1}^2 > d \).
 
 
 <p>
-<i>Another solution due to Rayazi Daan</i>: Fix an \(n\). Since the common difference is \(d\), the
+<i>Another solution due to Th Ravi Singha</i>: Fix an \(n\). Since the common difference is \(d\), the
 number \(nd\) has finite number of factors. If \(a^2\) and \(b^2\) are pairs of numbers in the sequence
 that are \(n\) terms apart, then \(a^2 - b^2 = (a+b)(a-b)  = nd\). Since RHS has finite number of factors,
 there can only be finite number of such pairs.
