@@ -23,6 +23,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
+- Congratulations to everybody who made it!
 - Scorecard for the first open mock test is available [here](/docs/mock_test/023_mar_23_scorecard/).
 
 
