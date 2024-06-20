@@ -24,7 +24,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 
 - Congratulations to everybody who made it!
-- Scorecard for the first open mock test is available [here](/docs/mock_test/023_mar_23_scorecard/).
+- Cutoff marks for 2024 are added below.
 
 
 ---
@@ -410,6 +410,19 @@ The scores shown below were shared by former students who were privy to this dat
 -->
 
 
+### 2024 cutoff marks
+
+The exam was for 120 marks. 40 marks for Part A and 80 marks for Part B.
+Part A's screening cutoff was 11/40. Overall cutoff marks are given below.
+
+
+Type | General Category and Males |  Other categories
+-----|------|----
+Without scholarship| 47/120 | 39/120
+With scholarship| 58/120 | 47/120 
+
+
+
 ### 2023 cutoff marks
 
 The exam was for 120 marks. 40 marks for Part A and 80 marks for Part B.
@@ -444,8 +457,7 @@ Without scholarship| 48/94 | 40/94
 Waiting list| 45/94 | 38/94
 
 
-The cutoff marks for the previous years are given below.
-
+The cutoff marks for the previous years are given below. The marks are for general category without scholarship.
 
 
 
@@ -458,6 +470,7 @@ The cutoff marks for the previous years are given below.
 2020 | &sim;16 | 48/94  | CMI Office
 2021 | 17 | 56/100  | CMI Office
 2023 | 8 | 36/120  | CMI Office
+2024 | 11 | 47/120  | CMI Office
 
 
 
