@@ -23,7 +23,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 {: .fs-4}
 
 
-- Congratulations to everybody who made it!
 - Cutoff marks for 2024 are added below.
 
 
@@ -579,7 +578,7 @@ If you have a more elegant solution to any problem than the one presented, feel 
 
 
 The contents of this website are hosted in accordance with principles of [fair use](https://www.copyright.gov/fair-use/index.html).
-You agree to email me about any possible infringement of copyright law before taking legal action.
+Please email the author about any possible infringement of copyright law before taking legal action.
 {: .fs-3 .fw-300 }
 
 <!--
