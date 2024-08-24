@@ -18,6 +18,7 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
+<!--
 
 #### Announcement
 {: .fs-4}
@@ -28,7 +29,6 @@ This website is for class XI and XII students who wish to pursue B.Sc. at Chenna
 
 ---
 
-<!--
 
 
 #### What's on this site?
@@ -524,7 +524,7 @@ Acceptance offers are sent to around 90 candidates and about half of them enroll
 ---
 
 
-## Paperback
+## Book
 <br>
 
 <img src="/assets/images/cmi_tomato_cover.jpg" style="float:left;margin-right:20px;margin-top:0px;border-radius:1%"/>
@@ -534,14 +534,8 @@ The book contains the problems and solutions from the years 2010-2021.
 
 <a href="https://www.amazon.in/CMI-Tomato-Balasundar-M/dp/1685541429/">Buy the paperback on Amazon</a>.
 
-<!--
-The content of this website is available as an e-book in PDF format. You will have a permanent copy of the solutions which may be handy just in case the site
-goes down.
-{: .fs-4 .fw-300 }
-<a href="https://gum.co/kBekW">Buy the e-book on Gumroad</a>
--->
+<a href="https://gum.co/kBekW">Buy the e-book on Gumroad (Rs. 180)</a>
 
-<br><br>
 <br><br>
 <br><br>
 <br><br>
